@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>FactDev: /home/aroquemaurel/projets/qt/FactDev/src/database/projectdatabase.h Source File</title>
+<title>FactDev: /home/florent/Documents/Projet_S8/FactDev/src/database/projectdatabase.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -73,30 +73,30 @@ $(document).ready(function(){initNavTree('d9/dfd/projectdatabase_8h_source.html'
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;exceptions/dbexception.h&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;models/project.h&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d4/d8d/classProjectDatabase.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../de/d03/classDatabase.html">Database</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>* _instance;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>*  <a class="code" href="../../d4/d8d/classProjectDatabase.html#a06a93b599475687f19f66c7bbb921899">instance</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../db/d91/classProject.html">Project</a> *<a class="code" href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">getProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3e2c3d198f7f5724ae0388fd49f4e8cb">addProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a959b2f9617969277a8c92a8239c613f1">updateProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a52f3c3b312c418568531eb4cd2ecf615">removeProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a48ab28fa18bc3f0371f8c17c5421a46e">getNbProjects</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3dbf2e270674727fc479d392c6609dec">getNbProjectsForACustomer</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
-<div class="ttc" id="classProjectDatabase_html"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a></div><div class="ttdoc">The ProjectDatabase class. </div><div class="ttdef"><b>Definition:</b> projectdatabase.h:12</div></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d4/d8d/classProjectDatabase.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../de/d03/classDatabase.html">Database</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>* _instance; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>*  <a class="code" href="../../d4/d8d/classProjectDatabase.html#a06a93b599475687f19f66c7bbb921899">instance</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../db/d91/classProject.html">Project</a> *<a class="code" href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">getProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3e2c3d198f7f5724ae0388fd49f4e8cb">addProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a959b2f9617969277a8c92a8239c613f1">updateProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a52f3c3b312c418568531eb4cd2ecf615">removeProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a48ab28fa18bc3f0371f8c17c5421a46e">getNbProjects</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3dbf2e270674727fc479d392c6609dec">getNbProjectsForACustomer</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
+<div class="ttc" id="classProjectDatabase_html"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a></div><div class="ttdoc">The ProjectDatabase class Project table database. </div><div class="ttdef"><b>Definition:</b> projectdatabase.h:14</div></div>
 <div class="ttc" id="classDatabase_html"><div class="ttname"><a href="../../de/d03/classDatabase.html">Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:16</div></div>
 <div class="ttc" id="classProjectDatabase_html_a895c03003dc4deea0bc429776337795f"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">ProjectDatabase::getProject</a></div><div class="ttdeci">Project * getProject(const int pId)</div><div class="ttdoc">ProjectDatabasegetProject Get informations about the project identified by &#39;pId&#39;. ...</div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:19</div></div>
 <div class="ttc" id="classProjectDatabase_html_a959b2f9617969277a8c92a8239c613f1"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a959b2f9617969277a8c92a8239c613f1">ProjectDatabase::updateProject</a></div><div class="ttdeci">void updateProject(const Project &amp;)</div><div class="ttdoc">ProjectDatabase:updateProject Update informations about the project. </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:77</div></div>
@@ -112,8 +112,8 @@ $(document).ready(function(){initNavTree('d9/dfd/projectdatabase_8h_source.html'
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_a8f1d80779db9cb76079c22e2ff81fcd.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_9606e0b510573bad9fa01efc88e5c632.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a33543658635d5e36a7bc04d8e43ed6f.html">database</a></li><li class="navelem"><b>projectdatabase.h</b></li>
-    <li class="footer">Generated by
+    <li class="navelem"><a class="el" href="../../dir_01536a2b641ff09914428354c1e7be1e.html">florent</a></li><li class="navelem"><a class="el" href="../../dir_8f15acdd43684e13a623b9576dcf007e.html">Documents</a></li><li class="navelem"><a class="el" href="../../dir_12b596b7195a2ba645fd5a3bc7eac442.html">Projet_S8</a></li><li class="navelem"><a class="el" href="../../dir_3cdce1f891efcdfae7290d4c5e992495.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_2cfe326f6814968c72b240c9fc613af5.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b394c8c2cb665e69b5f0039e19e9f942.html">database</a></li><li class="navelem"><b>projectdatabase.h</b></li>
+    <li class="footer">Generated on Mon Jan 19 2015 14:25:41 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
