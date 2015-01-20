@@ -30,6 +30,11 @@ var hierarchy =
     [ "QMenu", null, [
       [ "CustomerContextualMenu", "d5/db9/classCustomerContextualMenu.html", null ]
     ] ],
+    [ "QObject", null, [
+      [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
+      [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
+      [ "searchTest", "d7/d51/classsearchTest.html", null ]
+    ] ],
     [ "QWidget", null, [
       [ "ComboBoxModelWidget", "d5/d79/classComboBoxModelWidget.html", null ],
       [ "CustomerDataWidget", "df/df4/classCustomerDataWidget.html", null ],
@@ -38,5 +43,8 @@ var hierarchy =
       [ "searchWidget", "d2/dfd/classsearchWidget.html", null ]
     ] ],
     [ "Search", "de/dd3/classSearch.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Utils", "dc/dc5/classUtils.html", null ]
 ];
