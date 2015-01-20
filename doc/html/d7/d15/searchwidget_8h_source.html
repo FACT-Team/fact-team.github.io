@@ -75,26 +75,29 @@ $(document).ready(function(){initNavTree('d7/d15/searchwidget_8h_source.html','.
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d2/dfd/classsearchWidget.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    ~<a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d2/dfd/classsearchWidget.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/dfd/classsearchWidget.html#ac74ae97eb8c147c89edc3dec3decf174">getCurrentCustomerId</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d2/dfd/classsearchWidget.html#a0c712bf4f3c2105319645ce97e23eba9">searchWidget</a>(QWidget *parent = 0);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> search(QString);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    Ui::searchWidget *ui;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> updateTable(QString text=<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif // SEARCHWIDGET_H</span></div>
-<div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> connexiondialog.h:6</div></div>
-<div class="ttc" id="classsearchWidget_html"><div class="ttname"><a href="../../d2/dfd/classsearchWidget.html">searchWidget</a></div><div class="ttdef"><b>Definition:</b> searchwidget.h:10</div></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    ~<a class="code" href="../../d2/dfd/classsearchWidget.html">searchWidget</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/dfd/classsearchWidget.html#ac74ae97eb8c147c89edc3dec3decf174">getCurrentCustomerId</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d2/dfd/classsearchWidget.html#a15138eab0d8098a21c327bd34e328541">search</a>(QString toSearch);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    Ui::searchWidget *ui;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> updateTable(QString text=<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif // SEARCHWIDGET_H</span></div>
+<div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
+<div class="ttc" id="classsearchWidget_html_a15138eab0d8098a21c327bd34e328541"><div class="ttname"><a href="../../d2/dfd/classsearchWidget.html#a15138eab0d8098a21c327bd34e328541">searchWidget::search</a></div><div class="ttdeci">void search(QString toSearch)</div><div class="ttdoc">launch a search </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:26</div></div>
+<div class="ttc" id="classsearchWidget_html_a0c712bf4f3c2105319645ce97e23eba9"><div class="ttname"><a href="../../d2/dfd/classsearchWidget.html#a0c712bf4f3c2105319645ce97e23eba9">searchWidget::searchWidget</a></div><div class="ttdeci">searchWidget(QWidget *parent=0)</div><div class="ttdoc">searchWidget Construct a search widget </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:5</div></div>
+<div class="ttc" id="classsearchWidget_html"><div class="ttname"><a href="../../d2/dfd/classsearchWidget.html">searchWidget</a></div><div class="ttdoc">Class for search in database. </div><div class="ttdef"><b>Definition:</b> searchwidget.h:14</div></div>
 <div class="ttc" id="classsearchWidget_html_ac74ae97eb8c147c89edc3dec3decf174"><div class="ttname"><a href="../../d2/dfd/classsearchWidget.html#ac74ae97eb8c147c89edc3dec3decf174">searchWidget::getCurrentCustomerId</a></div><div class="ttdeci">int getCurrentCustomerId()</div><div class="ttdoc">getCurrentCustomerId Return the id of the customer selected in the table </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

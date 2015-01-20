@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "FactDev", "index.html", [
+    [ "FactDev documentation", "index.html", null ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -20,7 +21,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"df/d01/classDialogAddCustomer.html#ac2704c3bad53c4556b37833da059168a"
+"df/d81/classBilling.html#a1178eab66407b0761c35a13d8da84cdb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

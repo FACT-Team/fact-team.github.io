@@ -14,6 +14,6 @@ var classMainWindow =
     [ "newProject", "d6/d1a/classMainWindow.html#a31a63c4615f9c26a6df6e8c3b52967a1", null ],
     [ "openCustomer", "d6/d1a/classMainWindow.html#ad2f2a4051df4fc4776ea4465cf6b6ecb", null ],
     [ "removeCustomer", "d6/d1a/classMainWindow.html#adb6fcfe64c3a11f28655e397b3accea9", null ],
-    [ "search", "d6/d1a/classMainWindow.html#aa186e57f984c98ea0266536df32acebd", null ],
+    [ "search", "d6/d1a/classMainWindow.html#a62fcad69e9d32b98f3ac40a5a1d0f398", null ],
     [ "search", "d6/d1a/classMainWindow.html#a274dd0e068ebdc2a752e7ef05209fb2d", null ]
 ];

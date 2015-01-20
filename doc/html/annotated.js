@@ -4,7 +4,6 @@ var annotated =
     [ "AddProjectDialog", "d0/d23/classAddProjectDialog.html", "d0/d23/classAddProjectDialog" ],
     [ "Billing", "df/d81/classBilling.html", "df/d81/classBilling" ],
     [ "ComboBoxModelWidget", "d5/d79/classComboBoxModelWidget.html", "d5/d79/classComboBoxModelWidget" ],
-    [ "connexiondialog", "dc/db6/classconnexiondialog.html", "dc/db6/classconnexiondialog" ],
     [ "Contributory", "d5/d09/classContributory.html", "d5/d09/classContributory" ],
     [ "Customer", "d9/d12/classCustomer.html", "d9/d12/classCustomer" ],
     [ "CustomerContextualMenu", "d5/db9/classCustomerContextualMenu.html", "d5/db9/classCustomerContextualMenu" ],

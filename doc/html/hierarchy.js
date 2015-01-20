@@ -21,7 +21,6 @@ var hierarchy =
     [ "QDialog", null, [
       [ "AddContributoryDialog", "d9/dfa/classAddContributoryDialog.html", null ],
       [ "AddProjectDialog", "d0/d23/classAddProjectDialog.html", null ],
-      [ "connexiondialog", "dc/db6/classconnexiondialog.html", null ],
       [ "DialogAddCustomer", "df/d01/classDialogAddCustomer.html", null ],
       [ "UserDataDialog", "de/d9c/classUserDataDialog.html", null ]
     ] ],
