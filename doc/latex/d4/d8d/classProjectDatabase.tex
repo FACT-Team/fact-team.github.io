@@ -31,7 +31,13 @@ void \hyperlink{classProjectDatabase_a52f3c3b312c418568531eb4cd2ecf615}{remove\+
 int \hyperlink{classProjectDatabase_a48ab28fa18bc3f0371f8c17c5421a46e}{get\+Nb\+Projects} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects Return the number of projects existing. \end{DoxyCompactList}\item 
 int \hyperlink{classProjectDatabase_a3dbf2e270674727fc479d392c6609dec}{get\+Nb\+Projects\+For\+A\+Customer} (const int p\+Id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects\+For\+A\+Customer Return the number of projects existing for an identify customer {\itshape p\+Id} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects\+For\+A\+Customer Return the number of projects existing for an identify customer {\itshape p\+Id} \end{DoxyCompactList}\item 
+Q\+Map$<$ int, \hyperlink{classProject}{Project} $>$ \hyperlink{classProjectDatabase_a674675237e10929f6096e271a93692ee}{get\+Projects\+Of\+Customer} (Q\+Shared\+Pointer$<$ \hyperlink{classCustomer}{Customer} $>$ c)
+\begin{DoxyCompactList}\small\item\em get\+Projects\+Of\+Customer Return all projects of a customer \end{DoxyCompactList}\item 
+Q\+Standard\+Item\+Model $\ast$ \hyperlink{classProjectDatabase_af757914e88f67d9b62e4e762f8136048}{get\+Projects\+Table} (const int p\+Id)  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em get\+Projects\+Table Return all projects of a customer in Q\+Standard\+Item\+Model \end{DoxyCompactList}\item 
+\hyperlink{classProject}{Project} $\ast$ \hyperlink{classProjectDatabase_a3d4d47a7c391eaf1e959d5ac13ef574f}{get\+Project} (Q\+Sql\+Query \&q)
+\begin{DoxyCompactList}\small\item\em get\+Project Obtain a project without new query \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -119,6 +125,63 @@ Project\+Databaseget\+Project Get informations about the project identified by '
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 the project 
+\end{DoxyReturn}
+\hypertarget{classProjectDatabase_a3d4d47a7c391eaf1e959d5ac13ef574f}{\index{Project\+Database@{Project\+Database}!get\+Project@{get\+Project}}
+\index{get\+Project@{get\+Project}!Project\+Database@{Project\+Database}}
+\subsubsection[{get\+Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Project} $\ast$ Project\+Database\+::get\+Project (
+\begin{DoxyParamCaption}
+\item[{Q\+Sql\+Query \&}]{q}
+\end{DoxyParamCaption}
+)}}\label{classProjectDatabase_a3d4d47a7c391eaf1e959d5ac13ef574f}
+
+
+get\+Project Obtain a project without new query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em q} & The query to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The project linked to q 
+\end{DoxyReturn}
+\hypertarget{classProjectDatabase_a674675237e10929f6096e271a93692ee}{\index{Project\+Database@{Project\+Database}!get\+Projects\+Of\+Customer@{get\+Projects\+Of\+Customer}}
+\index{get\+Projects\+Of\+Customer@{get\+Projects\+Of\+Customer}!Project\+Database@{Project\+Database}}
+\subsubsection[{get\+Projects\+Of\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Map$<$ int, {\bf Project} $>$ Project\+Database\+::get\+Projects\+Of\+Customer (
+\begin{DoxyParamCaption}
+\item[{Q\+Shared\+Pointer$<$ {\bf Customer} $>$}]{c}
+\end{DoxyParamCaption}
+)}}\label{classProjectDatabase_a674675237e10929f6096e271a93692ee}
+
+
+get\+Projects\+Of\+Customer Return all projects of a customer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The customer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+All projects of c with id in key 
+\end{DoxyReturn}
+\hypertarget{classProjectDatabase_af757914e88f67d9b62e4e762f8136048}{\index{Project\+Database@{Project\+Database}!get\+Projects\+Table@{get\+Projects\+Table}}
+\index{get\+Projects\+Table@{get\+Projects\+Table}!Project\+Database@{Project\+Database}}
+\subsubsection[{get\+Projects\+Table}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Standard\+Item\+Model $\ast$ Project\+Database\+::get\+Projects\+Table (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) }}\label{classProjectDatabase_af757914e88f67d9b62e4e762f8136048}
+
+
+get\+Projects\+Table Return all projects of a customer in Q\+Standard\+Item\+Model 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filter} & Select only projects who are specified by {\itshape filter} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Standard\+Item\+Model an item model for Q\+Table\+View 
 \end{DoxyReturn}
 \hypertarget{classProjectDatabase_a06a93b599475687f19f66c7bbb921899}{\index{Project\+Database@{Project\+Database}!instance@{instance}}
 \index{instance@{instance}!Project\+Database@{Project\+Database}}

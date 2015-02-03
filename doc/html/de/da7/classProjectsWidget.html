@@ -67,6 +67,7 @@ $(document).ready(function(){initNavTree('de/da7/classProjectsWidget.html','../.
 <div class="header">
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../d1/d25/classProjectsWidget-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -74,7 +75,7 @@ $(document).ready(function(){initNavTree('de/da7/classProjectsWidget.html','../.
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class. ">ProjectsWidget</a> class.  
+<p>The <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class Actions on Project. ">ProjectsWidget</a> class Actions on <a class="el" href="../../db/d91/classProject.html" title="The Project class : Project linked to a Customer. ">Project</a>.  
  <a href="../../de/da7/classProjectsWidget.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../da/d5e/projectswidget_8h_source.html">projectswidget.h</a>&gt;</code></p>
@@ -90,25 +91,76 @@ Inheritance diagram for ProjectsWidget:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a9a3e158093ed435a68d4d9874a22a128"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a3e158093ed435a68d4d9874a22a128"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>newProject</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a9a3e158093ed435a68d4d9874a22a128">newProject</a> ()</td></tr>
+<tr class="memdesc:a9a3e158093ed435a68d4d9874a22a128"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a9a3e158093ed435a68d4d9874a22a128" title="ProjectsWidget::newProject Event which sends a signal to add a new project. ">ProjectsWidget::newProject</a> Event which sends a signal to add a new project. <br /></td></tr>
 <tr class="separator:a9a3e158093ed435a68d4d9874a22a128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a026e17f035717e382f4afca6896a72d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a026e17f035717e382f4afca6896a72d3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>editSelectedProject</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a026e17f035717e382f4afca6896a72d3">editSelectedProject</a> ()</td></tr>
+<tr class="memdesc:a026e17f035717e382f4afca6896a72d3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a026e17f035717e382f4afca6896a72d3" title="ProjectsWidget::editSelectedProject Event which sends a signal to edit the project selected...">ProjectsWidget::editSelectedProject</a> Event which sends a signal to edit the project selected. <br /></td></tr>
 <tr class="separator:a026e17f035717e382f4afca6896a72d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038205ca1dee68dadae84e31dabfd7fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a038205ca1dee68dadae84e31dabfd7fc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeSelectedProject</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a038205ca1dee68dadae84e31dabfd7fc">removeSelectedProject</a> ()</td></tr>
+<tr class="memdesc:a038205ca1dee68dadae84e31dabfd7fc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a038205ca1dee68dadae84e31dabfd7fc" title="ProjectsWidget::removeSelectedProject Event which sends a signal to remove the project selected...">ProjectsWidget::removeSelectedProject</a> Event which sends a signal to remove the project selected. <br /></td></tr>
 <tr class="separator:a038205ca1dee68dadae84e31dabfd7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:ae745e92738053b6c3a514725fec9616f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae745e92738053b6c3a514725fec9616f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#ae745e92738053b6c3a514725fec9616f">addProject</a> ()</td></tr>
+<tr class="memdesc:ae745e92738053b6c3a514725fec9616f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#ae745e92738053b6c3a514725fec9616f" title="ProjectsWidget::addProject Add a new project to the current Customer. ">ProjectsWidget::addProject</a> Add a new project to the current <a class="el" href="../../d9/d12/classCustomer.html" title="The Customer class Customer. ">Customer</a>. <br /></td></tr>
+<tr class="separator:ae745e92738053b6c3a514725fec9616f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be5b1aebb295169b201ceb4a7e3301a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7be5b1aebb295169b201ceb4a7e3301a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a7be5b1aebb295169b201ceb4a7e3301a">editProject</a> ()</td></tr>
+<tr class="memdesc:a7be5b1aebb295169b201ceb4a7e3301a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a7be5b1aebb295169b201ceb4a7e3301a" title="ProjectsWidget::editProject Edit the current Customer selected. ">ProjectsWidget::editProject</a> Edit the current <a class="el" href="../../d9/d12/classCustomer.html" title="The Customer class Customer. ">Customer</a> selected. <br /></td></tr>
+<tr class="separator:a7be5b1aebb295169b201ceb4a7e3301a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee6b31af551020de2aa560f18be0ccc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ee6b31af551020de2aa560f18be0ccc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a1ee6b31af551020de2aa560f18be0ccc">removeProject</a> ()</td></tr>
+<tr class="memdesc:a1ee6b31af551020de2aa560f18be0ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a1ee6b31af551020de2aa560f18be0ccc" title="ProjectsWidget::removeProject Remove the current Customer selected. ">ProjectsWidget::removeProject</a> Remove the current <a class="el" href="../../d9/d12/classCustomer.html" title="The Customer class Customer. ">Customer</a> selected. <br /></td></tr>
+<tr class="separator:a1ee6b31af551020de2aa560f18be0ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a542fb678c61897b56c86dc58524bd969"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a542fb678c61897b56c86dc58524bd969"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProjectsWidget</b> (QWidget *parent=0)</td></tr>
+<tr class="memitem:a542fb678c61897b56c86dc58524bd969"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da7/classProjectsWidget.html#a542fb678c61897b56c86dc58524bd969">ProjectsWidget</a> (QWidget *parent=0)</td></tr>
+<tr class="memdesc:a542fb678c61897b56c86dc58524bd969"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/da7/classProjectsWidget.html#a542fb678c61897b56c86dc58524bd969" title="ProjectsWidget::ProjectsWidget Construct a ProjectsWidget. ">ProjectsWidget::ProjectsWidget</a> Construct a <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class Actions on Project. ">ProjectsWidget</a>.  <a href="#a542fb678c61897b56c86dc58524bd969">More...</a><br /></td></tr>
 <tr class="separator:a542fb678c61897b56c86dc58524bd969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class. ">ProjectsWidget</a> class. </p>
+<div class="textblock"><p>The <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class Actions on Project. ">ProjectsWidget</a> class Actions on <a class="el" href="../../db/d91/classProject.html" title="The Project class : Project linked to a Customer. ">Project</a>. </p>
 <dl class="section author"><dt>Author</dt><dd>Florent Berbie </dd></dl>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a542fb678c61897b56c86dc58524bd969"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectsWidget::ProjectsWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../de/da7/classProjectsWidget.html#a542fb678c61897b56c86dc58524bd969" title="ProjectsWidget::ProjectsWidget Construct a ProjectsWidget. ">ProjectsWidget::ProjectsWidget</a> Construct a <a class="el" href="../../de/da7/classProjectsWidget.html" title="The ProjectsWidget class Actions on Project. ">ProjectsWidget</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/widgets/<a class="el" href="../../da/d5e/projectswidget_8h_source.html">projectswidget.h</a></li>
 <li>src/widgets/projectswidget.cpp</li>
 </ul>

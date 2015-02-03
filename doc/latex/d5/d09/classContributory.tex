@@ -22,6 +22,8 @@ Inheritance diagram for Contributory\+:\begin{figure}[H]
 \hypertarget{classContributory_a5991c01efd2dedcbbddde252c48d7af8}{\hyperlink{classContributory_a5991c01efd2dedcbbddde252c48d7af8}{Contributory} ()}\label{classContributory_a5991c01efd2dedcbbddde252c48d7af8}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a5991c01efd2dedcbbddde252c48d7af8}{Contributory\+::\+Contributory} Contruct a \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\item 
+\hyperlink{classContributory_a5c72cf02d2c6d25ee736af711edd76ec}{Contributory} (int id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a5991c01efd2dedcbbddde252c48d7af8}{Contributory\+::\+Contributory} Contruct a \hyperlink{classContributory}{Contributory} and get data in database. \end{DoxyCompactList}\item 
 \hypertarget{classContributory_a5c09902237bba780b594129dc2fa60d6}{void \hyperlink{classContributory_a5c09902237bba780b594129dc2fa60d6}{commit} ()}\label{classContributory_a5c09902237bba780b594129dc2fa60d6}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a5c09902237bba780b594129dc2fa60d6}{Contributory\+::commit} Update or insert a contributory to the database. \end{DoxyCompactList}\item 
@@ -30,10 +32,18 @@ void \hyperlink{classContributory_a2b834e0288c93ba9ed70acf7a0b8c32d}{hydrat} (in
 \hypertarget{classContributory_a59641dbc35947c31eb841b46fed6130f}{void \hyperlink{classContributory_a59641dbc35947c31eb841b46fed6130f}{remove} ()}\label{classContributory_a59641dbc35947c31eb841b46fed6130f}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a59641dbc35947c31eb841b46fed6130f}{Contributory\+::remove} Remove the current \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\item 
-\hyperlink{classProject}{Project} \hyperlink{classContributory_a181a6cd0d0f34d3f671e10aa24bf3a54}{get\+Project} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a181a6cd0d0f34d3f671e10aa24bf3a54}{Contributory\+::get\+Project} Return the project linked to this \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\item 
-void \hyperlink{classContributory_ab002e076bb131fab82e8a6a289b2d6ca}{set\+Project} (const \hyperlink{classProject}{Project} \&id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_ab002e076bb131fab82e8a6a289b2d6ca}{Contributory\+::set\+Project} Modify the identify {\itshape id} of the \hyperlink{classProject}{Project} linke to this \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\hyperlink{classProject}{Project} $\ast$ \hyperlink{classContributory_ab36c08e9844bc327e196a472733ac417}{get\+Project} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_ab36c08e9844bc327e196a472733ac417}{Contributory\+::get\+Project} Return the project linked to this \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\item 
+void \hyperlink{classContributory_a72088580dc62d1d7a1a7674f8ab9a492}{set\+Project} (\hyperlink{classProject}{Project} $\ast$id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classContributory_a72088580dc62d1d7a1a7674f8ab9a492}{Contributory\+::set\+Project} Modify the identify {\itshape id} of the \hyperlink{classProject}{Project} linke to this \hyperlink{classContributory}{Contributory}. \end{DoxyCompactList}\item 
+double \hyperlink{classContributory_a01eccd2a6cea09c295bd808a08d27efe}{get\+Nb\+Hours} () const 
+\begin{DoxyCompactList}\small\item\em get\+Nb\+Hours Number of work hour of a contributory \end{DoxyCompactList}\item 
+void \hyperlink{classContributory_a32d589c7cb5269aad6c70ad6703c4d58}{set\+Nb\+Hours} (double value)
+\begin{DoxyCompactList}\small\item\em set\+Nb\+Hours Change nb\+Hours \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classContributory_ae960d1562ede18bbddd2d8bccea762b7}{get\+Description} () const 
+\begin{DoxyCompactList}\small\item\em get\+Description Description of a contributory \end{DoxyCompactList}\item 
+void \hyperlink{classContributory_a76af91dd9dfb28cc59fcc9685db8d3e5}{set\+Description} (const Q\+String \&\hyperlink{classContributory_ae960d1562ede18bbddd2d8bccea762b7}{get\+Description})
+\begin{DoxyCompactList}\small\item\em set\+Description Change the contributory description \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -45,17 +55,64 @@ The \hyperlink{classContributory}{Contributory} class.
 \end{DoxyAuthor}
 
 
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classContributory_a5c72cf02d2c6d25ee736af711edd76ec}{\index{Contributory@{Contributory}!Contributory@{Contributory}}
+\index{Contributory@{Contributory}!Contributory@{Contributory}}
+\subsubsection[{Contributory}]{\setlength{\rightskip}{0pt plus 5cm}Contributory\+::\+Contributory (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{classContributory_a5c72cf02d2c6d25ee736af711edd76ec}
+
+
+\hyperlink{classContributory_a5991c01efd2dedcbbddde252c48d7af8}{Contributory\+::\+Contributory} Contruct a \hyperlink{classContributory}{Contributory} and get data in database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \hyperlink{classContributory}{Contributory}'s id \\
+\hline
+\end{DoxyParams}
+
+
 \subsection{Member Function Documentation}
-\hypertarget{classContributory_a181a6cd0d0f34d3f671e10aa24bf3a54}{\index{Contributory@{Contributory}!get\+Project@{get\+Project}}
-\index{get\+Project@{get\+Project}!Contributory@{Contributory}}
-\subsubsection[{get\+Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Project} Contributory\+::get\+Project (
+\hypertarget{classContributory_ae960d1562ede18bbddd2d8bccea762b7}{\index{Contributory@{Contributory}!get\+Description@{get\+Description}}
+\index{get\+Description@{get\+Description}!Contributory@{Contributory}}
+\subsubsection[{get\+Description}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Contributory\+::get\+Description (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-) const}}\label{classContributory_a181a6cd0d0f34d3f671e10aa24bf3a54}
+) const}}\label{classContributory_ae960d1562ede18bbddd2d8bccea762b7}
 
 
-\hyperlink{classContributory_a181a6cd0d0f34d3f671e10aa24bf3a54}{Contributory\+::get\+Project} Return the project linked to this \hyperlink{classContributory}{Contributory}. 
+get\+Description Description of a contributory 
+
+\begin{DoxyReturn}{Returns}
+The description 
+\end{DoxyReturn}
+\hypertarget{classContributory_a01eccd2a6cea09c295bd808a08d27efe}{\index{Contributory@{Contributory}!get\+Nb\+Hours@{get\+Nb\+Hours}}
+\index{get\+Nb\+Hours@{get\+Nb\+Hours}!Contributory@{Contributory}}
+\subsubsection[{get\+Nb\+Hours}]{\setlength{\rightskip}{0pt plus 5cm}double Contributory\+::get\+Nb\+Hours (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classContributory_a01eccd2a6cea09c295bd808a08d27efe}
+
+
+get\+Nb\+Hours Number of work hour of a contributory 
+
+\begin{DoxyReturn}{Returns}
+Then number of hours 
+\end{DoxyReturn}
+\hypertarget{classContributory_ab36c08e9844bc327e196a472733ac417}{\index{Contributory@{Contributory}!get\+Project@{get\+Project}}
+\index{get\+Project@{get\+Project}!Contributory@{Contributory}}
+\subsubsection[{get\+Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Project} $\ast$ Contributory\+::get\+Project (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classContributory_ab36c08e9844bc327e196a472733ac417}
+
+
+\hyperlink{classContributory_ab36c08e9844bc327e196a472733ac417}{Contributory\+::get\+Project} Return the project linked to this \hyperlink{classContributory}{Contributory}. 
 
 \begin{DoxyReturn}{Returns}
 \hyperlink{classProject}{Project} linked to this \hyperlink{classContributory}{Contributory} 
@@ -80,16 +137,48 @@ The \hyperlink{classContributory}{Contributory} class.
 
 Implements \hyperlink{classIDatabaseModel_a25e44ed10a75976f86e14d34aea02c37}{I\+Database\+Model}.
 
-\hypertarget{classContributory_ab002e076bb131fab82e8a6a289b2d6ca}{\index{Contributory@{Contributory}!set\+Project@{set\+Project}}
+\hypertarget{classContributory_a76af91dd9dfb28cc59fcc9685db8d3e5}{\index{Contributory@{Contributory}!set\+Description@{set\+Description}}
+\index{set\+Description@{set\+Description}!Contributory@{Contributory}}
+\subsubsection[{set\+Description}]{\setlength{\rightskip}{0pt plus 5cm}void Contributory\+::set\+Description (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{get\+Description}
+\end{DoxyParamCaption}
+)}}\label{classContributory_a76af91dd9dfb28cc59fcc9685db8d3e5}
+
+
+set\+Description Change the contributory description 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Description} & The new description \\
+\hline
+\end{DoxyParams}
+\hypertarget{classContributory_a32d589c7cb5269aad6c70ad6703c4d58}{\index{Contributory@{Contributory}!set\+Nb\+Hours@{set\+Nb\+Hours}}
+\index{set\+Nb\+Hours@{set\+Nb\+Hours}!Contributory@{Contributory}}
+\subsubsection[{set\+Nb\+Hours}]{\setlength{\rightskip}{0pt plus 5cm}void Contributory\+::set\+Nb\+Hours (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{classContributory_a32d589c7cb5269aad6c70ad6703c4d58}
+
+
+set\+Nb\+Hours Change nb\+Hours 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The new value of nb\+Hours \\
+\hline
+\end{DoxyParams}
+\hypertarget{classContributory_a72088580dc62d1d7a1a7674f8ab9a492}{\index{Contributory@{Contributory}!set\+Project@{set\+Project}}
 \index{set\+Project@{set\+Project}!Contributory@{Contributory}}
 \subsubsection[{set\+Project}]{\setlength{\rightskip}{0pt plus 5cm}void Contributory\+::set\+Project (
 \begin{DoxyParamCaption}
-\item[{const {\bf Project} \&}]{id}
+\item[{{\bf Project} $\ast$}]{id}
 \end{DoxyParamCaption}
-)}}\label{classContributory_ab002e076bb131fab82e8a6a289b2d6ca}
+)}}\label{classContributory_a72088580dc62d1d7a1a7674f8ab9a492}
 
 
-\hyperlink{classContributory_ab002e076bb131fab82e8a6a289b2d6ca}{Contributory\+::set\+Project} Modify the identify {\itshape id} of the \hyperlink{classProject}{Project} linke to this \hyperlink{classContributory}{Contributory}. 
+\hyperlink{classContributory_a72088580dc62d1d7a1a7674f8ab9a492}{Contributory\+::set\+Project} Modify the identify {\itshape id} of the \hyperlink{classProject}{Project} linke to this \hyperlink{classContributory}{Contributory}. 
 
 
 \begin{DoxyParams}{Parameters}

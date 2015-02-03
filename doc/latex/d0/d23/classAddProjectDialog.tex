@@ -16,17 +16,28 @@ Inheritance diagram for Add\+Project\+Dialog\+:\begin{figure}[H]
 \includegraphics[height=2.000000cm]{d0/d23/classAddProjectDialog}
 \end{center}
 \end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAddProjectDialog_a781e8cf3e919f32706ddb15b13d2ab25}{void \hyperlink{classAddProjectDialog_a781e8cf3e919f32706ddb15b13d2ab25}{check\+Fields} ()}\label{classAddProjectDialog_a781e8cf3e919f32706ddb15b13d2ab25}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog_a781e8cf3e919f32706ddb15b13d2ab25}{Add\+Project\+Dialog\+::check\+Fields} Check if fields are valid. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classAddProjectDialog_abb96542ad074344f634d0ff834e65f03}{Add\+Project\+Dialog} (int id=0, Q\+Widget $\ast$parent=0)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog}{Add\+Project\+Dialog} Construct a windows \hyperlink{classAddProjectDialog}{Add\+Project\+Dialog}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog_abb96542ad074344f634d0ff834e65f03}{Add\+Project\+Dialog\+::\+Add\+Project\+Dialog} Construct a windows \hyperlink{classAddProjectDialog}{Add\+Project\+Dialog}. \end{DoxyCompactList}\item 
+\hyperlink{classAddProjectDialog_a7acdb6d0e61449ad9376802d90162d2c}{Add\+Project\+Dialog} (int no\+Row\+Customer, int id\+Project=0, Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Add\+Project\+Dialog\+Add\+Project\+Dialog Construct a windows according an {\itshape id\+Customer} and, optionnaly, an {\itshape id\+Project} \end{DoxyCompactList}\item 
 \hypertarget{classAddProjectDialog_adb873176b67a671fc417e7ab21389c21}{void \hyperlink{classAddProjectDialog_adb873176b67a671fc417e7ab21389c21}{accept} ()}\label{classAddProjectDialog_adb873176b67a671fc417e7ab21389c21}
 
-\begin{DoxyCompactList}\small\item\em accept Valid data inputed by user and add these data in \hyperlink{classDatabase}{Database} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog_adb873176b67a671fc417e7ab21389c21}{Add\+Project\+Dialog\+::accept} Valid data inputed by user and add these data in \hyperlink{classDatabase}{Database}. \end{DoxyCompactList}\item 
 \hypertarget{classAddProjectDialog_a3e6011001312acd234f2352f1a796f0e}{void \hyperlink{classAddProjectDialog_a3e6011001312acd234f2352f1a796f0e}{reject} ()}\label{classAddProjectDialog_a3e6011001312acd234f2352f1a796f0e}
 
-\begin{DoxyCompactList}\small\item\em reject Cancel the operation and close the windows \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog_a3e6011001312acd234f2352f1a796f0e}{Add\+Project\+Dialog\+::reject} Cancel the operation and close the windows. \end{DoxyCompactList}\item 
+\hypertarget{classAddProjectDialog_ad8c428e08b08a7aa36f7c6801810c0cd}{void \hyperlink{classAddProjectDialog_ad8c428e08b08a7aa36f7c6801810c0cd}{fill\+Fields} ()}\label{classAddProjectDialog_ad8c428e08b08a7aa36f7c6801810c0cd}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classAddProjectDialog_ad8c428e08b08a7aa36f7c6801810c0cd}{Add\+Project\+Dialog\+::fill\+Fields} Fill the differents fields of the current windows according the \hyperlink{classProject}{Project} data existing As a project requires to be linked to a \hyperlink{classCustomer}{Customer}, the \hyperlink{classCustomer}{Customer} selection part may be disable. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -51,11 +62,33 @@ Florent Berbie
 )\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classAddProjectDialog_abb96542ad074344f634d0ff834e65f03}
 
 
-\hyperlink{classAddProjectDialog}{Add\+Project\+Dialog} Construct a windows \hyperlink{classAddProjectDialog}{Add\+Project\+Dialog}. 
+\hyperlink{classAddProjectDialog_abb96542ad074344f634d0ff834e65f03}{Add\+Project\+Dialog\+::\+Add\+Project\+Dialog} Construct a windows \hyperlink{classAddProjectDialog}{Add\+Project\+Dialog}. 
 
 
 \begin{DoxyParams}{Parameters}
 {\em id} & \hyperlink{classProject}{Project} identity \\
+\hline
+{\em parent} & Q\+Widget of the current windows \\
+\hline
+\end{DoxyParams}
+\hypertarget{classAddProjectDialog_a7acdb6d0e61449ad9376802d90162d2c}{\index{Add\+Project\+Dialog@{Add\+Project\+Dialog}!Add\+Project\+Dialog@{Add\+Project\+Dialog}}
+\index{Add\+Project\+Dialog@{Add\+Project\+Dialog}!Add\+Project\+Dialog@{Add\+Project\+Dialog}}
+\subsubsection[{Add\+Project\+Dialog}]{\setlength{\rightskip}{0pt plus 5cm}Add\+Project\+Dialog\+::\+Add\+Project\+Dialog (
+\begin{DoxyParamCaption}
+\item[{int}]{no\+Row\+Customer, }
+\item[{int}]{id\+Project = {\ttfamily 0}, }
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classAddProjectDialog_a7acdb6d0e61449ad9376802d90162d2c}
+
+
+Add\+Project\+Dialog\+Add\+Project\+Dialog Construct a windows according an {\itshape id\+Customer} and, optionnaly, an {\itshape id\+Project} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no\+Row\+Customer} & Row number of the \hyperlink{classCustomer}{Customer} \\
+\hline
+{\em id\+Project} & \hyperlink{classProject}{Project} identify \\
 \hline
 {\em parent} & Q\+Widget of the current windows \\
 \hline

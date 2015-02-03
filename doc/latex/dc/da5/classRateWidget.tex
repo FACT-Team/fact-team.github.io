@@ -16,22 +16,32 @@ Inheritance diagram for Rate\+Widget\+:\begin{figure}[H]
 \includegraphics[height=2.000000cm]{dc/da5/classRateWidget}
 \end{center}
 \end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classRateWidget_ae06885c9e58ed09e5a210a295bb3ffbb}{set\+Daily\+Rate} ()
+\begin{DoxyCompactList}\small\item\em set\+Daily\+Rate Set a new value for the daily rate \end{DoxyCompactList}\item 
+void \hyperlink{classRateWidget_af7b6ceb4d9ceb8efe84a497c7a42d048}{set\+Hourly\+Rate} ()
+\begin{DoxyCompactList}\small\item\em set\+Hourly\+Rate Set a new value for the hourly rate \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classRateWidget_ad1cb6a97e47b408043e83708ff8af15e}{Rate\+Widget} (Q\+Widget $\ast$parent=0)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget}{Rate\+Widget} Construct a rate widget. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_ad1cb6a97e47b408043e83708ff8af15e}{Rate\+Widget\+::\+Rate\+Widget} Construct a rate widget. \end{DoxyCompactList}\item 
 \hypertarget{classRateWidget_a4a3ec9a546055d6ecb3bd1a9ee8082a6}{void \hyperlink{classRateWidget_a4a3ec9a546055d6ecb3bd1a9ee8082a6}{init\+Rate} ()}\label{classRateWidget_a4a3ec9a546055d6ecb3bd1a9ee8082a6}
 
-\begin{DoxyCompactList}\small\item\em init\+Rate Initialize the rate \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_a4a3ec9a546055d6ecb3bd1a9ee8082a6}{Rate\+Widget\+::init\+Rate} Initialize the rate. \end{DoxyCompactList}\item 
+void \hyperlink{classRateWidget_ab96e6867dba808a1dc5b8c327a84f93e}{set\+Widget\+Daily\+Rate\+Value} (double value)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_ab96e6867dba808a1dc5b8c327a84f93e}{Rate\+Widget\+::set\+Widget\+Daily\+Rate\+Value} Modify the {\itshape value} of the daily rate spin box component. \end{DoxyCompactList}\item 
 double \hyperlink{classRateWidget_a0a72cea5ff524b47e513dcb21aea2022}{get\+Daily\+Rate} ()
-\begin{DoxyCompactList}\small\item\em get\+Daily\+Rate \end{DoxyCompactList}\item 
-void \hyperlink{classRateWidget_a8a3bccabb5c33e9f617ed85a68398b5a}{set\+Daily\+Rate} (double daily\+Rate)
-\begin{DoxyCompactList}\small\item\em set\+Daily\+Rate Set a new value for the daily rate \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_a0a72cea5ff524b47e513dcb21aea2022}{Rate\+Widget\+::get\+Daily\+Rate} Get the daily rate. \end{DoxyCompactList}\item 
 double \hyperlink{classRateWidget_a50285d4472979e004c706ff5640e8227}{get\+Hourly\+Rate} ()
-\begin{DoxyCompactList}\small\item\em get\+Hourly\+Rate \end{DoxyCompactList}\item 
-void \hyperlink{classRateWidget_a8135738c8a54389110de6751d9e2728e}{set\+Hourly\+Rate} (double hourly\+Rate)
-\begin{DoxyCompactList}\small\item\em set\+Hourly\+Rate Set a new value for the hourly rate \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_a50285d4472979e004c706ff5640e8227}{Rate\+Widget\+::get\+Hourly\+Rate} Get the hourly rate. \end{DoxyCompactList}\item 
+void \hyperlink{classRateWidget_a5f1061f95f2a45b88434fbdf99136030}{set\+Widget\+Hourly\+Rate\+Value} (double value)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRateWidget_a5f1061f95f2a45b88434fbdf99136030}{Rate\+Widget\+::set\+Widget\+Hourly\+Rate\+Value} Modify the {\itshape value} of the hourly rate spin box component. \end{DoxyCompactList}\item 
+\hypertarget{classRateWidget_a04a7bd5b186482a60c16ed4334acd83b}{void \hyperlink{classRateWidget_a04a7bd5b186482a60c16ed4334acd83b}{update\+Conversion\+Rate} ()}\label{classRateWidget_a04a7bd5b186482a60c16ed4334acd83b}
+
+\begin{DoxyCompactList}\small\item\em update\+Conversion\+Rate Update daily rate or hourly rate \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -52,7 +62,7 @@ Florent Berbie
 )\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classRateWidget_ad1cb6a97e47b408043e83708ff8af15e}
 
 
-\hyperlink{classRateWidget}{Rate\+Widget} Construct a rate widget. 
+\hyperlink{classRateWidget_ad1cb6a97e47b408043e83708ff8af15e}{Rate\+Widget\+::\+Rate\+Widget} Construct a rate widget. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -71,7 +81,7 @@ Florent Berbie
 )}}\label{classRateWidget_a0a72cea5ff524b47e513dcb21aea2022}
 
 
-get\+Daily\+Rate 
+\hyperlink{classRateWidget_a0a72cea5ff524b47e513dcb21aea2022}{Rate\+Widget\+::get\+Daily\+Rate} Get the daily rate. 
 
 \begin{DoxyReturn}{Returns}
 The daily rate 
@@ -85,18 +95,18 @@ The daily rate
 )}}\label{classRateWidget_a50285d4472979e004c706ff5640e8227}
 
 
-get\+Hourly\+Rate 
+\hyperlink{classRateWidget_a50285d4472979e004c706ff5640e8227}{Rate\+Widget\+::get\+Hourly\+Rate} Get the hourly rate. 
 
 \begin{DoxyReturn}{Returns}
 The hourly rate 
 \end{DoxyReturn}
-\hypertarget{classRateWidget_a8a3bccabb5c33e9f617ed85a68398b5a}{\index{Rate\+Widget@{Rate\+Widget}!set\+Daily\+Rate@{set\+Daily\+Rate}}
+\hypertarget{classRateWidget_ae06885c9e58ed09e5a210a295bb3ffbb}{\index{Rate\+Widget@{Rate\+Widget}!set\+Daily\+Rate@{set\+Daily\+Rate}}
 \index{set\+Daily\+Rate@{set\+Daily\+Rate}!Rate\+Widget@{Rate\+Widget}}
 \subsubsection[{set\+Daily\+Rate}]{\setlength{\rightskip}{0pt plus 5cm}void Rate\+Widget\+::set\+Daily\+Rate (
 \begin{DoxyParamCaption}
-\item[{double}]{daily\+Rate}
+{}
 \end{DoxyParamCaption}
-)}}\label{classRateWidget_a8a3bccabb5c33e9f617ed85a68398b5a}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classRateWidget_ae06885c9e58ed09e5a210a295bb3ffbb}
 
 
 set\+Daily\+Rate Set a new value for the daily rate 
@@ -106,13 +116,13 @@ set\+Daily\+Rate Set a new value for the daily rate
 {\em daily\+Rate} & The new daily rate \\
 \hline
 \end{DoxyParams}
-\hypertarget{classRateWidget_a8135738c8a54389110de6751d9e2728e}{\index{Rate\+Widget@{Rate\+Widget}!set\+Hourly\+Rate@{set\+Hourly\+Rate}}
+\hypertarget{classRateWidget_af7b6ceb4d9ceb8efe84a497c7a42d048}{\index{Rate\+Widget@{Rate\+Widget}!set\+Hourly\+Rate@{set\+Hourly\+Rate}}
 \index{set\+Hourly\+Rate@{set\+Hourly\+Rate}!Rate\+Widget@{Rate\+Widget}}
 \subsubsection[{set\+Hourly\+Rate}]{\setlength{\rightskip}{0pt plus 5cm}void Rate\+Widget\+::set\+Hourly\+Rate (
 \begin{DoxyParamCaption}
-\item[{double}]{hourly\+Rate}
+{}
 \end{DoxyParamCaption}
-)}}\label{classRateWidget_a8135738c8a54389110de6751d9e2728e}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classRateWidget_af7b6ceb4d9ceb8efe84a497c7a42d048}
 
 
 set\+Hourly\+Rate Set a new value for the hourly rate 
@@ -120,6 +130,38 @@ set\+Hourly\+Rate Set a new value for the hourly rate
 
 \begin{DoxyParams}{Parameters}
 {\em hourly\+Rate} & The new hourly rate \\
+\hline
+\end{DoxyParams}
+\hypertarget{classRateWidget_ab96e6867dba808a1dc5b8c327a84f93e}{\index{Rate\+Widget@{Rate\+Widget}!set\+Widget\+Daily\+Rate\+Value@{set\+Widget\+Daily\+Rate\+Value}}
+\index{set\+Widget\+Daily\+Rate\+Value@{set\+Widget\+Daily\+Rate\+Value}!Rate\+Widget@{Rate\+Widget}}
+\subsubsection[{set\+Widget\+Daily\+Rate\+Value}]{\setlength{\rightskip}{0pt plus 5cm}void Rate\+Widget\+::set\+Widget\+Daily\+Rate\+Value (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{classRateWidget_ab96e6867dba808a1dc5b8c327a84f93e}
+
+
+\hyperlink{classRateWidget_ab96e6867dba808a1dc5b8c327a84f93e}{Rate\+Widget\+::set\+Widget\+Daily\+Rate\+Value} Modify the {\itshape value} of the daily rate spin box component. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & New Value \\
+\hline
+\end{DoxyParams}
+\hypertarget{classRateWidget_a5f1061f95f2a45b88434fbdf99136030}{\index{Rate\+Widget@{Rate\+Widget}!set\+Widget\+Hourly\+Rate\+Value@{set\+Widget\+Hourly\+Rate\+Value}}
+\index{set\+Widget\+Hourly\+Rate\+Value@{set\+Widget\+Hourly\+Rate\+Value}!Rate\+Widget@{Rate\+Widget}}
+\subsubsection[{set\+Widget\+Hourly\+Rate\+Value}]{\setlength{\rightskip}{0pt plus 5cm}void Rate\+Widget\+::set\+Widget\+Hourly\+Rate\+Value (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{classRateWidget_a5f1061f95f2a45b88434fbdf99136030}
+
+
+\hyperlink{classRateWidget_a5f1061f95f2a45b88434fbdf99136030}{Rate\+Widget\+::set\+Widget\+Hourly\+Rate\+Value} Modify the {\itshape value} of the hourly rate spin box component. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & New value \\
 \hline
 \end{DoxyParams}
 

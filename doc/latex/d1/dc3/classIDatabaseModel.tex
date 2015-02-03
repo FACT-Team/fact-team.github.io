@@ -19,6 +19,9 @@ Inheritance diagram for I\+Database\+Model\+:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
+\hypertarget{classIDatabaseModel_a85b66486922fe56a18c897cf93ed33a2}{virtual \hyperlink{classIDatabaseModel_a85b66486922fe56a18c897cf93ed33a2}{$\sim$\+I\+Database\+Model} ()}\label{classIDatabaseModel_a85b66486922fe56a18c897cf93ed33a2}
+
+\begin{DoxyCompactList}\small\item\em $\sim$\+I\+Database\+Model Remove an instance of \hyperlink{classIDatabaseModel}{I\+Database\+Model} \end{DoxyCompactList}\item 
 \hypertarget{classIDatabaseModel_a2d4fd70557c1815d100df17ba0751cbd}{virtual void \hyperlink{classIDatabaseModel_a2d4fd70557c1815d100df17ba0751cbd}{commit} ()=0}\label{classIDatabaseModel_a2d4fd70557c1815d100df17ba0751cbd}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classIDatabaseModel_a2d4fd70557c1815d100df17ba0751cbd}{I\+Database\+Model\+::commit} Update or insert data into the database. \end{DoxyCompactList}\item 
@@ -30,13 +33,20 @@ virtual void \hyperlink{classIDatabaseModel_a25e44ed10a75976f86e14d34aea02c37}{h
 int \hyperlink{classIDatabaseModel_a61523b015ec148d4e68ee8054c2ad3e3}{get\+Id} () const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classIDatabaseModel_a61523b015ec148d4e68ee8054c2ad3e3}{I\+Database\+Model\+::get\+Id} Return the identify of the element of the database. \end{DoxyCompactList}\item 
 void \hyperlink{classIDatabaseModel_ad4f47f3e25302c506ce98103e616ca57}{set\+Id} (int id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classIDatabaseModel_ad4f47f3e25302c506ce98103e616ca57}{I\+Database\+Model\+::set\+Id} Replace the current identify by {\itshape id} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classIDatabaseModel_ad4f47f3e25302c506ce98103e616ca57}{I\+Database\+Model\+::set\+Id} Replace the current identify by {\itshape id} \end{DoxyCompactList}\item 
+bool \hyperlink{classIDatabaseModel_a095166b2e37a0d07c4151a25ddbd89f9}{is\+To\+Removed} () const 
+\begin{DoxyCompactList}\small\item\em to\+Removed return if object must be removed. \end{DoxyCompactList}\item 
+void \hyperlink{classIDatabaseModel_a6c7d03b37e11a287dfe97a2e7bc12522}{set\+To\+Removed} (bool to\+Removed)
+\begin{DoxyCompactList}\small\item\em set\+To\+Removed Change the flag for removed object \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \hypertarget{classIDatabaseModel_a49f0ca7727c7d12eb78f670c882a3028}{int \hyperlink{classIDatabaseModel_a49f0ca7727c7d12eb78f670c882a3028}{\+\_\+id}}\label{classIDatabaseModel_a49f0ca7727c7d12eb78f670c882a3028}
 
-\begin{DoxyCompactList}\small\item\em Element identify. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Element identify. \end{DoxyCompactList}\item 
+\hypertarget{classIDatabaseModel_a3353a9530b1b9e4af91c02a944b050ae}{bool \hyperlink{classIDatabaseModel_a3353a9530b1b9e4af91c02a944b050ae}{\+\_\+to\+Removed}}\label{classIDatabaseModel_a3353a9530b1b9e4af91c02a944b050ae}
+
+\begin{DoxyCompactList}\small\item\em Flag to know if the object must be removed. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -80,8 +90,22 @@ identity
 \end{DoxyParams}
 
 
-Implemented in \hyperlink{classProject_aa966f15c9c8a277844a75c3530701525}{Project}, \hyperlink{classBilling_a8beb72061cd53a964cf0ba3f04686613}{Billing}, \hyperlink{classCustomer_ac77f54786ea2bd4c1696c0a76301c639}{Customer}, \hyperlink{classUser_a2e4160755d2189979b758929e832b12c}{User}, and \hyperlink{classContributory_a2b834e0288c93ba9ed70acf7a0b8c32d}{Contributory}.
+Implemented in \hyperlink{classProject_aa966f15c9c8a277844a75c3530701525}{Project}, \hyperlink{classBilling_a8beb72061cd53a964cf0ba3f04686613}{Billing}, \hyperlink{classContributory_a2b834e0288c93ba9ed70acf7a0b8c32d}{Contributory}, \hyperlink{classUser_a2e4160755d2189979b758929e832b12c}{User}, and \hyperlink{classCustomer_ac77f54786ea2bd4c1696c0a76301c639}{Customer}.
 
+\hypertarget{classIDatabaseModel_a095166b2e37a0d07c4151a25ddbd89f9}{\index{I\+Database\+Model@{I\+Database\+Model}!is\+To\+Removed@{is\+To\+Removed}}
+\index{is\+To\+Removed@{is\+To\+Removed}!I\+Database\+Model@{I\+Database\+Model}}
+\subsubsection[{is\+To\+Removed}]{\setlength{\rightskip}{0pt plus 5cm}bool I\+Database\+Model\+::is\+To\+Removed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classIDatabaseModel_a095166b2e37a0d07c4151a25ddbd89f9}
+
+
+to\+Removed return if object must be removed. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
 \hypertarget{classIDatabaseModel_ad4f47f3e25302c506ce98103e616ca57}{\index{I\+Database\+Model@{I\+Database\+Model}!set\+Id@{set\+Id}}
 \index{set\+Id@{set\+Id}!I\+Database\+Model@{I\+Database\+Model}}
 \subsubsection[{set\+Id}]{\setlength{\rightskip}{0pt plus 5cm}void I\+Database\+Model\+::set\+Id (
@@ -96,6 +120,22 @@ Implemented in \hyperlink{classProject_aa966f15c9c8a277844a75c3530701525}{Projec
 
 \begin{DoxyParams}{Parameters}
 {\em id} & New identify \\
+\hline
+\end{DoxyParams}
+\hypertarget{classIDatabaseModel_a6c7d03b37e11a287dfe97a2e7bc12522}{\index{I\+Database\+Model@{I\+Database\+Model}!set\+To\+Removed@{set\+To\+Removed}}
+\index{set\+To\+Removed@{set\+To\+Removed}!I\+Database\+Model@{I\+Database\+Model}}
+\subsubsection[{set\+To\+Removed}]{\setlength{\rightskip}{0pt plus 5cm}void I\+Database\+Model\+::set\+To\+Removed (
+\begin{DoxyParamCaption}
+\item[{bool}]{to\+Removed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classIDatabaseModel_a6c7d03b37e11a287dfe97a2e7bc12522}
+
+
+set\+To\+Removed Change the flag for removed object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Removed} & The new flag \\
 \hline
 \end{DoxyParams}
 

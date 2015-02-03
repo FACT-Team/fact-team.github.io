@@ -96,9 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fc1ca7fe1020cef19b2423531c4e934"><td class="memItemLeft" align="right" valign="top">QStandardItemModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#a0fc1ca7fe1020cef19b2423531c4e934">getCustomersTree</a> (QString filter=&quot;&quot;)  throw (DbException*)</td></tr>
 <tr class="memdesc:a0fc1ca7fe1020cef19b2423531c4e934"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#a0fc1ca7fe1020cef19b2423531c4e934" title="CustomerDatabase::getCustomersTree Return an item model of customers for QTree. ">CustomerDatabase::getCustomersTree</a> Return an item model of customers for QTree.  <a href="#a0fc1ca7fe1020cef19b2423531c4e934">More...</a><br /></td></tr>
 <tr class="separator:a0fc1ca7fe1020cef19b2423531c4e934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae510e11ab1efe33b8e1da21bc1ca6f2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d12/classCustomer.html">Customer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#ae510e11ab1efe33b8e1da21bc1ca6f2d">getCustomer</a> (const int pId)</td></tr>
-<tr class="memdesc:ae510e11ab1efe33b8e1da21bc1ca6f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#ae510e11ab1efe33b8e1da21bc1ca6f2d" title="CustomerDatabase::getCustomer get informations about the customer identified by pId ...">CustomerDatabase::getCustomer</a> get informations about the customer identified by <em>pId</em>  <a href="#ae510e11ab1efe33b8e1da21bc1ca6f2d">More...</a><br /></td></tr>
-<tr class="separator:ae510e11ab1efe33b8e1da21bc1ca6f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb91691412f371795a0473555e31614c"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../d9/d12/classCustomer.html">Customer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#aeb91691412f371795a0473555e31614c">getCustomer</a> (const int pId)</td></tr>
+<tr class="memdesc:aeb91691412f371795a0473555e31614c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#aeb91691412f371795a0473555e31614c" title="CustomerDatabase::getCustomer get informations about the customer identified by pId ...">CustomerDatabase::getCustomer</a> get informations about the customer identified by <em>pId</em>  <a href="#aeb91691412f371795a0473555e31614c">More...</a><br /></td></tr>
+<tr class="separator:aeb91691412f371795a0473555e31614c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a522337809fe7588ddc8b5eb27b0cb640"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#a522337809fe7588ddc8b5eb27b0cb640">addCustomer</a> (const <a class="el" href="../../d9/d12/classCustomer.html">Customer</a> &amp;)</td></tr>
 <tr class="memdesc:a522337809fe7588ddc8b5eb27b0cb640"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d7c/classCustomerDatabase.html#a522337809fe7588ddc8b5eb27b0cb640" title="CustomerDatabase::addCustomer Add the customer pCustomer to the database. ">CustomerDatabase::addCustomer</a> Add the customer <em>pCustomer</em> to the database.  <a href="#a522337809fe7588ddc8b5eb27b0cb640">More...</a><br /></td></tr>
 <tr class="separator:a522337809fe7588ddc8b5eb27b0cb640"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/classDatabase.html#a2dc260583a49889bed8097e21953594e">createDatabase</a> ()</td></tr>
 <tr class="memdesc:a2dc260583a49889bed8097e21953594e inherit pub_methods_classDatabase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database::creerDatabase Create a new database. <br /></td></tr>
 <tr class="separator:a2dc260583a49889bed8097e21953594e inherit pub_methods_classDatabase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d328f7d0d3ee353569ad63ef992525 inherit pub_methods_classDatabase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85d328f7d0d3ee353569ad63ef992525"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateBillingNumber</b> ()</td></tr>
+<tr class="separator:a85d328f7d0d3ee353569ad63ef992525 inherit pub_methods_classDatabase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -228,12 +231,12 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
-<a class="anchor" id="ae510e11ab1efe33b8e1da21bc1ca6f2d"></a>
+<a class="anchor" id="aeb91691412f371795a0473555e31614c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d12/classCustomer.html">Customer</a> * CustomerDatabase::getCustomer </td>
+          <td class="memname">QSharedPointer&lt; <a class="el" href="../../d9/d12/classCustomer.html">Customer</a> &gt; CustomerDatabase::getCustomer </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>pId</em></td><td>)</td>
@@ -242,7 +245,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../dc/d7c/classCustomerDatabase.html#ae510e11ab1efe33b8e1da21bc1ca6f2d" title="CustomerDatabase::getCustomer get informations about the customer identified by pId ...">CustomerDatabase::getCustomer</a> get informations about the customer identified by <em>pId</em> </p>
+<p><a class="el" href="../../dc/d7c/classCustomerDatabase.html#aeb91691412f371795a0473555e31614c" title="CustomerDatabase::getCustomer get informations about the customer identified by pId ...">CustomerDatabase::getCustomer</a> get informations about the customer identified by <em>pId</em> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pId</td><td>customer id </td></tr>
@@ -325,7 +328,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>QStandardItemModel an item model for QTableView </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>QStandardItemModel an item model for QTreeView </dd></dl>
 
 </div>
 </div>

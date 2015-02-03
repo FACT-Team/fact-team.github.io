@@ -22,8 +22,14 @@ Inheritance diagram for Project\+:\begin{figure}[H]
 \hypertarget{classProject_aa007ecd17d5bc800e7a956cf666eea21}{\hyperlink{classProject_aa007ecd17d5bc800e7a956cf666eea21}{Project} ()}\label{classProject_aa007ecd17d5bc800e7a956cf666eea21}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_aa007ecd17d5bc800e7a956cf666eea21}{Project\+::\+Project} Construct a \hyperlink{classProject}{Project}. \end{DoxyCompactList}\item 
+\hypertarget{classProject_ad2504e184dc6f1da142934cf1eaedcd6}{\hyperlink{classProject_ad2504e184dc6f1da142934cf1eaedcd6}{Project} (Q\+String name)}\label{classProject_ad2504e184dc6f1da142934cf1eaedcd6}
+
+\begin{DoxyCompactList}\small\item\em Project\+::project Construct a project with a name. \end{DoxyCompactList}\item 
 \hyperlink{classProject_a8f608fdf1f0687598294f9534d702dd5}{Project} (int id)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_aa007ecd17d5bc800e7a956cf666eea21}{Project\+::\+Project} Construct a \hyperlink{classProject}{Project} which is specified by an {\itshape id} \end{DoxyCompactList}\item 
+\hypertarget{classProject_ad165d61b76ee86ee9c27fd987a2a7b9e}{virtual \hyperlink{classProject_ad165d61b76ee86ee9c27fd987a2a7b9e}{$\sim$\+Project} ()}\label{classProject_ad165d61b76ee86ee9c27fd987a2a7b9e}
+
+\begin{DoxyCompactList}\small\item\em $\sim$\+Project Desctruct project object \end{DoxyCompactList}\item 
 \hypertarget{classProject_ab471d9354fb128c801f455e9a6bef675}{void \hyperlink{classProject_ab471d9354fb128c801f455e9a6bef675}{commit} ()}\label{classProject_ab471d9354fb128c801f455e9a6bef675}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_ab471d9354fb128c801f455e9a6bef675}{Project\+::commit} Update project data in the database. \end{DoxyCompactList}\item 
@@ -40,14 +46,31 @@ Q\+String \hyperlink{classProject_ae7cc47cfca8038bf63b67f0d255e92dd}{get\+Descri
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_ae7cc47cfca8038bf63b67f0d255e92dd}{Project\+::get\+Description} Return a project description. \end{DoxyCompactList}\item 
 void \hyperlink{classProject_a08632a8a8905245559c844c863fc796b}{set\+Description} (const Q\+String \&description)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a08632a8a8905245559c844c863fc796b}{Project\+::set\+Description} Modify the project {\itshape description} \end{DoxyCompactList}\item 
+Q\+Date \hyperlink{classProject_a8cf94b4360d6f9d41ea503c6f06bcb0d}{get\+Begin\+Date} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a8cf94b4360d6f9d41ea503c6f06bcb0d}{Project\+::get\+Begin\+Date} return the date of creation of the {\bfseries \hyperlink{classProject}{Project}} \end{DoxyCompactList}\item 
+void \hyperlink{classProject_afd187147978c58351d686b987d37306e}{set\+Begin\+Date} (Q\+Date begin\+Date)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_afd187147978c58351d686b987d37306e}{Project\+::set\+Begin\+Date} Modify {\itshape begin\+Date} of a {\bfseries \hyperlink{classProject}{Project}} \end{DoxyCompactList}\item 
+Q\+Date \hyperlink{classProject_a16fcc3fd33b63ef7cb53e1e766926393}{get\+End\+Date} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a16fcc3fd33b63ef7cb53e1e766926393}{Project\+::get\+End\+Date} Return the {\itshape end\+Date} of the {\bfseries \hyperlink{classProject}{Project}} \end{DoxyCompactList}\item 
+void \hyperlink{classProject_a1f78db4ad8a366aa772d496a4735bc71}{set\+End\+Date} (Q\+Date end\+Date)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a1f78db4ad8a366aa772d496a4735bc71}{Project\+::set\+End\+Date} Modify {\itshape end\+Date} of {\bfseries \hyperlink{classProject}{Project}} \end{DoxyCompactList}\item 
 double \hyperlink{classProject_a1f34916428682e0134675d45f93a2173}{get\+Daily\+Rate} () const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a1f34916428682e0134675d45f93a2173}{Project\+::get\+Daily\+Rate} Return the daily rate estimated for this project. \end{DoxyCompactList}\item 
 void \hyperlink{classProject_aa3c6dc9722ed16fd69a6034b2398a7c9}{set\+Daily\+Rate} (double daily\+Rate)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classProject_aa3c6dc9722ed16fd69a6034b2398a7c9}{Project\+::set\+Daily\+Rate} Modify the daily rate {\itshape daily\+Rate} of the current project. \end{DoxyCompactList}\item 
-\hyperlink{classCustomer}{Customer} $\ast$ \hyperlink{classProject_a92b286f48db8f3643214e0c802201d1e}{get\+Customer} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a92b286f48db8f3643214e0c802201d1e}{Project\+::get\+Customer} Return the reference to the customer linked to this project. \end{DoxyCompactList}\item 
-void \hyperlink{classProject_a0f1d520c0ecbbfa286d310d18c55dabd}{set\+Customer} (\hyperlink{classCustomer}{Customer} $\ast$customer)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a0f1d520c0ecbbfa286d310d18c55dabd}{Project\+::set\+Customer} Modify the {\itshape customer} linked to this project. \end{DoxyCompactList}\end{DoxyCompactItemize}
+Q\+Shared\+Pointer$<$ \hyperlink{classCustomer}{Customer} $>$ \hyperlink{classProject_acdaa432748b195795867363acd7b378b}{get\+Customer} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_acdaa432748b195795867363acd7b378b}{Project\+::get\+Customer} Return the reference to the customer linked to this project. \end{DoxyCompactList}\item 
+void \hyperlink{classProject_a578a5dac01297c5dd517147915346d85}{set\+Customer} (Q\+Shared\+Pointer$<$ \hyperlink{classCustomer}{Customer} $>$ customer)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProject_a578a5dac01297c5dd517147915346d85}{Project\+::set\+Customer} Modify the {\itshape customer} linked to this project. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classProject_abf30a8b4156d40fc7d59eb97ec40eb8a}{static const double \hyperlink{classProject_abf30a8b4156d40fc7d59eb97ec40eb8a}{L\+E\+G\+A\+L\+\_\+\+R\+A\+T\+E} = 9.\+61}\label{classProject_abf30a8b4156d40fc7d59eb97ec40eb8a}
+
+\begin{DoxyCompactList}\small\item\em The Legal hourly Rate. \end{DoxyCompactList}\item 
+\hypertarget{classProject_aac9d92123deda6d2e2f61ed0cda98604}{static const int \hyperlink{classProject_aac9d92123deda6d2e2f61ed0cda98604}{N\+B\+\_\+\+D\+A\+I\+L\+Y\+\_\+\+H\+O\+U\+R\+S} = 7}\label{classProject_aac9d92123deda6d2e2f61ed0cda98604}
+
+\begin{DoxyCompactList}\small\item\em The number of daily hours in a day. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -82,16 +105,30 @@ Florent Berbie
 
 
 \subsection{Member Function Documentation}
-\hypertarget{classProject_a92b286f48db8f3643214e0c802201d1e}{\index{Project@{Project}!get\+Customer@{get\+Customer}}
-\index{get\+Customer@{get\+Customer}!Project@{Project}}
-\subsubsection[{get\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Customer} $\ast$ Project\+::get\+Customer (
+\hypertarget{classProject_a8cf94b4360d6f9d41ea503c6f06bcb0d}{\index{Project@{Project}!get\+Begin\+Date@{get\+Begin\+Date}}
+\index{get\+Begin\+Date@{get\+Begin\+Date}!Project@{Project}}
+\subsubsection[{get\+Begin\+Date}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Date Project\+::get\+Begin\+Date (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-) const}}\label{classProject_a92b286f48db8f3643214e0c802201d1e}
+) const}}\label{classProject_a8cf94b4360d6f9d41ea503c6f06bcb0d}
 
 
-\hyperlink{classProject_a92b286f48db8f3643214e0c802201d1e}{Project\+::get\+Customer} Return the reference to the customer linked to this project. 
+\hyperlink{classProject_a8cf94b4360d6f9d41ea503c6f06bcb0d}{Project\+::get\+Begin\+Date} return the date of creation of the {\bfseries \hyperlink{classProject}{Project}} 
+
+\begin{DoxyReturn}{Returns}
+the begin date of the \hyperlink{classProject}{Project} 
+\end{DoxyReturn}
+\hypertarget{classProject_acdaa432748b195795867363acd7b378b}{\index{Project@{Project}!get\+Customer@{get\+Customer}}
+\index{get\+Customer@{get\+Customer}!Project@{Project}}
+\subsubsection[{get\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Shared\+Pointer$<$ {\bf Customer} $>$ Project\+::get\+Customer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classProject_acdaa432748b195795867363acd7b378b}
+
+
+\hyperlink{classProject_acdaa432748b195795867363acd7b378b}{Project\+::get\+Customer} Return the reference to the customer linked to this project. 
 
 \begin{DoxyReturn}{Returns}
 customer linked to this project 
@@ -123,6 +160,20 @@ the daily rate linket to the current project
 
 \begin{DoxyReturn}{Returns}
 project description 
+\end{DoxyReturn}
+\hypertarget{classProject_a16fcc3fd33b63ef7cb53e1e766926393}{\index{Project@{Project}!get\+End\+Date@{get\+End\+Date}}
+\index{get\+End\+Date@{get\+End\+Date}!Project@{Project}}
+\subsubsection[{get\+End\+Date}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Date Project\+::get\+End\+Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classProject_a16fcc3fd33b63ef7cb53e1e766926393}
+
+
+\hyperlink{classProject_a16fcc3fd33b63ef7cb53e1e766926393}{Project\+::get\+End\+Date} Return the {\itshape end\+Date} of the {\bfseries \hyperlink{classProject}{Project}} 
+
+\begin{DoxyReturn}{Returns}
+the end date of the project 
 \end{DoxyReturn}
 \hypertarget{classProject_af547be6d3433bbf4ccf0f905788a9fee}{\index{Project@{Project}!get\+Name@{get\+Name}}
 \index{get\+Name@{get\+Name}!Project@{Project}}
@@ -158,16 +209,32 @@ project name
 
 Implements \hyperlink{classIDatabaseModel_a25e44ed10a75976f86e14d34aea02c37}{I\+Database\+Model}.
 
-\hypertarget{classProject_a0f1d520c0ecbbfa286d310d18c55dabd}{\index{Project@{Project}!set\+Customer@{set\+Customer}}
+\hypertarget{classProject_afd187147978c58351d686b987d37306e}{\index{Project@{Project}!set\+Begin\+Date@{set\+Begin\+Date}}
+\index{set\+Begin\+Date@{set\+Begin\+Date}!Project@{Project}}
+\subsubsection[{set\+Begin\+Date}]{\setlength{\rightskip}{0pt plus 5cm}void Project\+::set\+Begin\+Date (
+\begin{DoxyParamCaption}
+\item[{Q\+Date}]{begin\+Date}
+\end{DoxyParamCaption}
+)}}\label{classProject_afd187147978c58351d686b987d37306e}
+
+
+\hyperlink{classProject_afd187147978c58351d686b987d37306e}{Project\+::set\+Begin\+Date} Modify {\itshape begin\+Date} of a {\bfseries \hyperlink{classProject}{Project}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em begin\+Date} & the new date of creation of the project \\
+\hline
+\end{DoxyParams}
+\hypertarget{classProject_a578a5dac01297c5dd517147915346d85}{\index{Project@{Project}!set\+Customer@{set\+Customer}}
 \index{set\+Customer@{set\+Customer}!Project@{Project}}
 \subsubsection[{set\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}void Project\+::set\+Customer (
 \begin{DoxyParamCaption}
-\item[{{\bf Customer} $\ast$}]{customer}
+\item[{Q\+Shared\+Pointer$<$ {\bf Customer} $>$}]{customer}
 \end{DoxyParamCaption}
-)}}\label{classProject_a0f1d520c0ecbbfa286d310d18c55dabd}
+)}}\label{classProject_a578a5dac01297c5dd517147915346d85}
 
 
-\hyperlink{classProject_a0f1d520c0ecbbfa286d310d18c55dabd}{Project\+::set\+Customer} Modify the {\itshape customer} linked to this project. 
+\hyperlink{classProject_a578a5dac01297c5dd517147915346d85}{Project\+::set\+Customer} Modify the {\itshape customer} linked to this project. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -204,6 +271,22 @@ Implements \hyperlink{classIDatabaseModel_a25e44ed10a75976f86e14d34aea02c37}{I\+
 
 \begin{DoxyParams}{Parameters}
 {\em description} & New project description \\
+\hline
+\end{DoxyParams}
+\hypertarget{classProject_a1f78db4ad8a366aa772d496a4735bc71}{\index{Project@{Project}!set\+End\+Date@{set\+End\+Date}}
+\index{set\+End\+Date@{set\+End\+Date}!Project@{Project}}
+\subsubsection[{set\+End\+Date}]{\setlength{\rightskip}{0pt plus 5cm}void Project\+::set\+End\+Date (
+\begin{DoxyParamCaption}
+\item[{Q\+Date}]{end\+Date}
+\end{DoxyParamCaption}
+)}}\label{classProject_a1f78db4ad8a366aa772d496a4735bc71}
+
+
+\hyperlink{classProject_a1f78db4ad8a366aa772d496a4735bc71}{Project\+::set\+End\+Date} Modify {\itshape end\+Date} of {\bfseries \hyperlink{classProject}{Project}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em end\+Date} & the new end date of the project \\
 \hline
 \end{DoxyParams}
 \hypertarget{classProject_ab330ed5176b1eb93b558676fff8c47e1}{\index{Project@{Project}!set\+Name@{set\+Name}}

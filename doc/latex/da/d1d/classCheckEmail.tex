@@ -1,0 +1,87 @@
+\hypertarget{classCheckEmail}{\section{Check\+Email Class Reference}
+\label{classCheckEmail}\index{Check\+Email@{Check\+Email}}
+}
+
+
+The \hyperlink{classCheckEmail}{Check\+Email} class Line Edit of email with a check icon.  
+
+
+
+
+{\ttfamily \#include $<$checkemail.\+h$>$}
+
+Inheritance diagram for Check\+Email\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{da/d1d/classCheckEmail}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCheckEmail_a385bd05063deaf42fc02918b9348c8ac}{Check\+Email} (Q\+Widget $\ast$w=0, Q\+Push\+Button $\ast$btn=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCheckEmail_a385bd05063deaf42fc02918b9348c8ac}{Check\+Email\+::\+Check\+Email} Construct a Check\+Mail. \end{DoxyCompactList}\item 
+bool \hyperlink{classCheckEmail_a544d7656d36bd463391fe2f4dd3e13c6}{check} (const Q\+String text)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCheckEmail_a544d7656d36bd463391fe2f4dd3e13c6}{Check\+Email\+::check} Check if the field email is valid. To be valid, an email address should be under this form\+: \href{mailto:me@me.xx}{\tt me@me.\+xx} An email address need\+: \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classCheckEmail}{Check\+Email} class Line Edit of email with a check icon. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classCheckEmail_a385bd05063deaf42fc02918b9348c8ac}{\index{Check\+Email@{Check\+Email}!Check\+Email@{Check\+Email}}
+\index{Check\+Email@{Check\+Email}!Check\+Email@{Check\+Email}}
+\subsubsection[{Check\+Email}]{\setlength{\rightskip}{0pt plus 5cm}Check\+Email\+::\+Check\+Email (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{w = {\ttfamily 0}, }
+\item[{Q\+Push\+Button $\ast$}]{btn = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classCheckEmail_a385bd05063deaf42fc02918b9348c8ac}
+
+
+\hyperlink{classCheckEmail_a385bd05063deaf42fc02918b9348c8ac}{Check\+Email\+::\+Check\+Email} Construct a Check\+Mail. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & Q\+Widget linked to {\bfseries \hyperlink{classCheckEmail}{Check\+Email}} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classCheckEmail_a544d7656d36bd463391fe2f4dd3e13c6}{\index{Check\+Email@{Check\+Email}!check@{check}}
+\index{check@{check}!Check\+Email@{Check\+Email}}
+\subsubsection[{check}]{\setlength{\rightskip}{0pt plus 5cm}bool Check\+Email\+::check (
+\begin{DoxyParamCaption}
+\item[{const Q\+String}]{text}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classCheckEmail_a544d7656d36bd463391fe2f4dd3e13c6}
+
+
+\hyperlink{classCheckEmail_a544d7656d36bd463391fe2f4dd3e13c6}{Check\+Email\+::check} Check if the field email is valid. To be valid, an email address should be under this form\+: \href{mailto:me@me.xx}{\tt me@me.\+xx} An email address need\+: 
+
+
+\begin{DoxyItemize}
+\item 1 character \mbox{[}A-\/\+Z\mbox{]} or \mbox{[}a-\/z\mbox{]} minimum before the character {\itshape $<$/i$>$}
+\item {\itshape the character '@'}
+\item {\itshape 1 character \mbox{[}A-\/\+Z\mbox{]} or \mbox{[}a-\/z\mbox{]} after the character{\itshape $<$/i$>$minimum and before the character {\itshape .}}}
+\item {\itshape {\itshape 1 character \mbox{[}A-\/\+Z\mbox{]} or \mbox{[}a-\/z\mbox{]} minimum afer the character {\itshape .} Return T\+R\+U\+E if email address is valid, else F\+A\+L\+S\+E 
+\begin{DoxyParams}{Parameters}
+{\em text} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+}}
+\end{DoxyItemize}
+
+Implements \hyperlink{classICheckField_a6bd42b4d49c165cdd92822135123fd4b}{I\+Check\+Field}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/widgets/checkfields/checkemail.\+h\item 
+src/widgets/checkfields/checkemail.\+cpp\end{DoxyCompactItemize}
