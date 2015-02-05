@@ -1,14 +1,14 @@
 var hierarchy =
 [
-    [ "Database", "de/d03/classDatabase.html", [
-      [ "BillingDatabase", "d0/dad/classBillingDatabase.html", null ],
-      [ "ContributoryDatabase", "d6/d06/classContributoryDatabase.html", null ],
-      [ "CustomerDatabase", "dc/d7c/classCustomerDatabase.html", null ],
-      [ "ProjectDatabase", "d4/d8d/classProjectDatabase.html", null ],
-      [ "UserDatabase", "de/d47/classUserDatabase.html", null ]
+    [ "Database::Database", "da/d8e/classDatabase_1_1Database.html", [
+      [ "Database::BillingDatabase", "d2/d86/classDatabase_1_1BillingDatabase.html", null ],
+      [ "Database::ContributoryDatabase", "d5/de0/classDatabase_1_1ContributoryDatabase.html", null ],
+      [ "Database::CustomerDatabase", "de/de4/classDatabase_1_1CustomerDatabase.html", null ],
+      [ "Database::ProjectDatabase", "dd/dbf/classDatabase_1_1ProjectDatabase.html", null ],
+      [ "Database::UserDatabase", "d9/d32/classDatabase_1_1UserDatabase.html", null ]
     ] ],
     [ "exception", null, [
-      [ "DbException", "dd/dca/classDbException.html", null ]
+      [ "Exceptions::DbException", "d4/de4/classExceptions_1_1DbException.html", null ]
     ] ],
     [ "ICheckField", "d5/d75/classICheckField.html", [
       [ "CheckQLineEdit", "d1/da9/classCheckQLineEdit.html", [
@@ -26,39 +26,39 @@ var hierarchy =
         [ "CheckValidField", "dc/d93/classCheckValidField.html", null ]
       ] ]
     ] ],
-    [ "IDatabaseModel", "d1/dc3/classIDatabaseModel.html", [
-      [ "Billing", "df/d81/classBilling.html", null ],
-      [ "Contributory", "d5/d09/classContributory.html", null ],
-      [ "Customer", "d9/d12/classCustomer.html", null ],
-      [ "Project", "db/d91/classProject.html", null ],
-      [ "User", "d9/dc0/classUser.html", null ]
+    [ "Models::IDatabaseModel", "df/ddd/classModels_1_1IDatabaseModel.html", [
+      [ "Models::Billing", "d4/d5c/classModels_1_1Billing.html", null ],
+      [ "Models::Contributory", "d5/dd1/classModels_1_1Contributory.html", null ],
+      [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
+      [ "Models::Project", "dd/d3f/classModels_1_1Project.html", null ],
+      [ "Models::User", "df/d68/classModels_1_1User.html", null ]
     ] ],
-    [ "ItemType", "d2/de9/classItemType.html", null ],
-    [ "Log", "d0/d77/classLog.html", null ],
+    [ "Utils::ItemType", "d5/d7c/classUtils_1_1ItemType.html", null ],
+    [ "Utils::Log", "db/db3/classUtils_1_1Log.html", null ],
     [ "Parameters", "de/d0a/classParameters.html", null ],
-    [ "Popup", "d7/d6b/classPopup.html", null ],
+    [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
-      [ "ContributoriesTableModel", "d4/d24/classContributoriesTableModel.html", null ]
+      [ "Gui::Widgets::WdgModels::ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", null ]
     ] ],
     [ "QDialog", null, [
-      [ "AddContributoryDialog", "d9/dfa/classAddContributoryDialog.html", null ],
-      [ "AddProjectDialog", "d0/d23/classAddProjectDialog.html", null ],
-      [ "AddQuoteDialog", "d6/dd0/classAddQuoteDialog.html", null ],
-      [ "DialogAddCustomer", "df/d01/classDialogAddCustomer.html", null ],
-      [ "MessageBox", "d2/da3/classMessageBox.html", null ],
-      [ "UserDataDialog", "de/d9c/classUserDataDialog.html", null ]
+      [ "Gui::Dialogs::AddContributoryDialog", "d5/de2/classGui_1_1Dialogs_1_1AddContributoryDialog.html", null ],
+      [ "Gui::Dialogs::AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", null ],
+      [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
+      [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
+      [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
+      [ "Gui::Dialogs::UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", null ]
     ] ],
     [ "QItemDelegate", null, [
-      [ "ProjectComboDelegate", "d4/db0/classProjectComboDelegate.html", null ]
+      [ "Gui::Widgets::Delegates::ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", null ]
     ] ],
     [ "QLineEdit", null, [
       [ "CheckQLineEdit", "d1/da9/classCheckQLineEdit.html", null ]
     ] ],
     [ "QMainWindow", null, [
-      [ "MainWindow", "d6/d1a/classMainWindow.html", null ]
+      [ "Gui::MainWindow", "d5/d2f/classGui_1_1MainWindow.html", null ]
     ] ],
     [ "QMenu", null, [
-      [ "CustomerContextualMenu", "d5/db9/classCustomerContextualMenu.html", null ]
+      [ "Gui::Widgets::CustomerContextualMenu", "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html", null ]
     ] ],
     [ "QObject", null, [
       [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", null ],
@@ -69,16 +69,16 @@ var hierarchy =
       [ "searchTest", "d7/d51/classsearchTest.html", null ]
     ] ],
     [ "QWidget", null, [
-      [ "ComboBoxModelWidget", "d5/d79/classComboBoxModelWidget.html", null ],
-      [ "ContributoriesWidget", "d0/d0b/classContributoriesWidget.html", null ],
-      [ "CustomerDataWidget", "df/df4/classCustomerDataWidget.html", null ],
-      [ "ProjectsWidget", "de/da7/classProjectsWidget.html", null ],
-      [ "RateWidget", "dc/da5/classRateWidget.html", null ],
-      [ "searchWidget", "d2/dfd/classsearchWidget.html", null ]
+      [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
+      [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
+      [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
+      [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
+      [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
+      [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
     ] ],
-    [ "Search", "de/dd3/classSearch.html", null ],
-    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
+    [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
-    [ "TestRunner", "db/d70/classTestRunner.html", null ],
-    [ "Utils", "dc/dc5/classUtils.html", null ]
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "TestRunner", "db/d70/classTestRunner.html", null ]
 ];

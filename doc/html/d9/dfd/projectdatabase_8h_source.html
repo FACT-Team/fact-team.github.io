@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -75,51 +76,49 @@ $(document).ready(function(){initNavTree('d9/dfd/projectdatabase_8h_source.html'
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;models/project.h&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;utils.h&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;log.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;utils/string.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;utils/log.h&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d4/d8d/classProjectDatabase.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../de/d03/classDatabase.html">Database</a></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>* _instance; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a>*  <a class="code" href="../../d4/d8d/classProjectDatabase.html#a06a93b599475687f19f66c7bbb921899">instance</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../db/d91/classProject.html">Project</a> *<a class="code" href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">getProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3e2c3d198f7f5724ae0388fd49f4e8cb">addProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a959b2f9617969277a8c92a8239c613f1">updateProject</a>(<span class="keyword">const</span> <a class="code" href="../../db/d91/classProject.html">Project</a>&amp;);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a52f3c3b312c418568531eb4cd2ecf615">removeProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a48ab28fa18bc3f0371f8c17c5421a46e">getNbProjects</a>();</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d8d/classProjectDatabase.html#a3dbf2e270674727fc479d392c6609dec">getNbProjectsForACustomer</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    QMap&lt;int, Project&gt; <a class="code" href="../../d4/d8d/classProjectDatabase.html#a674675237e10929f6096e271a93692ee">getProjectsOfCustomer</a>(QSharedPointer&lt;Customer&gt; c);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    QStandardItemModel* <a class="code" href="../../d4/d8d/classProjectDatabase.html#af757914e88f67d9b62e4e762f8136048">getProjectsTable</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId) <span class="keywordflow">throw</span>(<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../db/d91/classProject.html">Project</a> *<a class="code" href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">getProject</a>(QSqlQuery &amp;q);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;};</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
-<div class="ttc" id="classProjectDatabase_html"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html">ProjectDatabase</a></div><div class="ttdoc">The ProjectDatabase class Project table database. </div><div class="ttdef"><b>Definition:</b> projectdatabase.h:18</div></div>
-<div class="ttc" id="classDatabase_html"><div class="ttname"><a href="../../de/d03/classDatabase.html">Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:26</div></div>
-<div class="ttc" id="classProjectDatabase_html_a895c03003dc4deea0bc429776337795f"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a895c03003dc4deea0bc429776337795f">ProjectDatabase::getProject</a></div><div class="ttdeci">Project * getProject(const int pId)</div><div class="ttdoc">ProjectDatabasegetProject Get informations about the project identified by &#39;pId&#39;. ...</div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:29</div></div>
-<div class="ttc" id="classProjectDatabase_html_a674675237e10929f6096e271a93692ee"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a674675237e10929f6096e271a93692ee">ProjectDatabase::getProjectsOfCustomer</a></div><div class="ttdeci">QMap&lt; int, Project &gt; getProjectsOfCustomer(QSharedPointer&lt; Customer &gt; c)</div><div class="ttdoc">getProjectsOfCustomer Return all projects of a customer </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:165</div></div>
-<div class="ttc" id="classProjectDatabase_html_a959b2f9617969277a8c92a8239c613f1"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a959b2f9617969277a8c92a8239c613f1">ProjectDatabase::updateProject</a></div><div class="ttdeci">void updateProject(const Project &amp;)</div><div class="ttdoc">ProjectDatabase:updateProject Update informations about the project. </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:84</div></div>
-<div class="ttc" id="classProject_html"><div class="ttname"><a href="../../db/d91/classProject.html">Project</a></div><div class="ttdoc">The Project class : Project linked to a Customer. </div><div class="ttdef"><b>Definition:</b> project.h:16</div></div>
-<div class="ttc" id="classProjectDatabase_html_a3e2c3d198f7f5724ae0388fd49f4e8cb"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a3e2c3d198f7f5724ae0388fd49f4e8cb">ProjectDatabase::addProject</a></div><div class="ttdeci">int addProject(const Project &amp;)</div><div class="ttdoc">ProjectDatabase:addProject Add the project &#39;pProject&#39; to the database. </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:55</div></div>
-<div class="ttc" id="classProjectDatabase_html_af757914e88f67d9b62e4e762f8136048"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#af757914e88f67d9b62e4e762f8136048">ProjectDatabase::getProjectsTable</a></div><div class="ttdeci">QStandardItemModel * getProjectsTable(const int pId)</div><div class="ttdoc">getProjectsTable Return all projects of a customer in QStandardItemModel </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:191</div></div>
-<div class="ttc" id="classProjectDatabase_html_a52f3c3b312c418568531eb4cd2ecf615"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a52f3c3b312c418568531eb4cd2ecf615">ProjectDatabase::removeProject</a></div><div class="ttdeci">void removeProject(const int pId)</div><div class="ttdoc">removeProject Remove the project with the id &#39;pId&#39; </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:111</div></div>
-<div class="ttc" id="classDbException_html"><div class="ttname"><a href="../../dd/dca/classDbException.html">DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:17</div></div>
-<div class="ttc" id="classProjectDatabase_html_a3dbf2e270674727fc479d392c6609dec"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a3dbf2e270674727fc479d392c6609dec">ProjectDatabase::getNbProjectsForACustomer</a></div><div class="ttdeci">int getNbProjectsForACustomer(const int pId)</div><div class="ttdoc">ProjectDatabase:getNbProjectsForACustomer Return the number of projects existing for an identify cust...</div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:148</div></div>
-<div class="ttc" id="classProjectDatabase_html_a06a93b599475687f19f66c7bbb921899"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a06a93b599475687f19f66c7bbb921899">ProjectDatabase::instance</a></div><div class="ttdeci">static ProjectDatabase * instance()</div><div class="ttdoc">ProjectDatabase::getInstance Return an instance of ProjectDatabase. </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:9</div></div>
-<div class="ttc" id="classProjectDatabase_html_a48ab28fa18bc3f0371f8c17c5421a46e"><div class="ttname"><a href="../../d4/d8d/classProjectDatabase.html#a48ab28fa18bc3f0371f8c17c5421a46e">ProjectDatabase::getNbProjects</a></div><div class="ttdeci">int getNbProjects()</div><div class="ttdoc">ProjectDatabase:getNbProjects Return the number of projects existing. </div><div class="ttdef"><b>Definition:</b> projectdatabase.cpp:130</div></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d9/dda/namespaceExceptions.html">Exceptions</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dc/d4f/namespaceDatabase.html">Database</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">ProjectDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../dc/d4f/namespaceDatabase.html">Database</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">ProjectDatabase</a>* _instance; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">ProjectDatabase</a>*  instance() <span class="keywordflow">throw</span> (<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> *getProject(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> addProject(<span class="keyword">const</span> <a class="code" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a>&amp;);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> updateProject(<span class="keyword">const</span> <a class="code" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a>&amp;);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> removeProject(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> getNbProjects();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">int</span> getNbProjectsForACustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    QMap&lt;int, Models::Project&gt; getProjectsOfCustomer(QSharedPointer&lt;Models::Customer&gt; c);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    QStandardItemModel* getProjectsTable(<span class="keyword">const</span> <span class="keywordtype">int</span> pId) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> *getProject(QSqlQuery &amp;q);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;};</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
+<div class="ttc" id="namespaceExceptions_html"><div class="ttname"><a href="../../d9/dda/namespaceExceptions.html">Exceptions</a></div><div class="ttdef"><b>Definition:</b> dbexception.cpp:3</div></div>
+<div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
+<div class="ttc" id="classModels_1_1Project_html"><div class="ttname"><a href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a></div><div class="ttdoc">The Project class : Project linked to a Customer. </div><div class="ttdef"><b>Definition:</b> project.h:17</div></div>
+<div class="ttc" id="classDatabase_1_1ProjectDatabase_html"><div class="ttname"><a href="../../dd/dbf/classDatabase_1_1ProjectDatabase.html">Database::ProjectDatabase</a></div><div class="ttdoc">The ProjectDatabase class Project table database. </div><div class="ttdef"><b>Definition:</b> projectdatabase.h:23</div></div>
+<div class="ttc" id="namespaceDatabase_html"><div class="ttname"><a href="../../dc/d4f/namespaceDatabase.html">Database</a></div><div class="ttdoc">Class for Database, contains queries. </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:3</div></div>
+<div class="ttc" id="namespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdef"><b>Definition:</b> itemtype.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

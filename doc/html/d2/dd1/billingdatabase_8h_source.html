@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -72,48 +73,46 @@ $(document).ready(function(){initNavTree('d2/dd1/billingdatabase_8h_source.html'
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;models/billing.h&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;database.h&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;log.h&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;utils.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;utils/log.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;utils/string.h&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/dad/classBillingDatabase.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/dad/classBillingDatabase.html">BillingDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../de/d03/classDatabase.html">Database</a></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/dad/classBillingDatabase.html">BillingDatabase</a>* <a class="code" href="../../d0/dad/classBillingDatabase.html#a80a2bc546d92863a8b54786cfd832189">instance</a>()<span class="keywordflow">throw</span>(<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../df/d81/classBilling.html">Billing</a> *<a class="code" href="../../d0/dad/classBillingDatabase.html#a05b293f49756884e59d1509b76cc827a">getBilling</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    QStandardItemModel* <a class="code" href="../../d0/dad/classBillingDatabase.html#aec74e952e83d47332a5e07109588faa9">getBillingsTable</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject) <span class="keywordflow">throw</span>(<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/dad/classBillingDatabase.html#aff1663dc16fd98f373e7ecc8e2033114">addBilling</a>(<span class="keyword">const</span> <a class="code" href="../../df/d81/classBilling.html">Billing</a>&amp;);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/dad/classBillingDatabase.html#a052aea6be4d10a372281f61f2583556a">updateBilling</a>(<span class="keyword">const</span> <a class="code" href="../../df/d81/classBilling.html">Billing</a>&amp;);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/dad/classBillingDatabase.html#a82e2c5503dc9b47a42bd592efece5532">removeBilling</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/dad/classBillingDatabase.html#ac8a618d0c2420f8db417c65fcdbc85c6">addBillingProject</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject, <span class="keyword">const</span> <span class="keywordtype">int</span> idBilling, <span class="keyword">const</span> <span class="keywordtype">int</span> idContributory);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">int</span> getMaxBillingNumber();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">int</span> getMaxQuoteNuber();</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d9/dda/namespaceExceptions.html">Exceptions</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dc/d4f/namespaceDatabase.html">Database</a> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d86/classDatabase_1_1BillingDatabase.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d86/classDatabase_1_1BillingDatabase.html">BillingDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../dc/d4f/namespaceDatabase.html">Database</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d2/d86/classDatabase_1_1BillingDatabase.html">BillingDatabase</a>* instance()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d4/d5c/classModels_1_1Billing.html">Models::Billing</a> *getBilling(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    QStandardItemModel* getBillingsTable(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> addBilling(<span class="keyword">const</span> <a class="code" href="../../d4/d5c/classModels_1_1Billing.html">Models::Billing</a>&amp;);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> updateBilling(<span class="keyword">const</span> <a class="code" href="../../d4/d5c/classModels_1_1Billing.html">Models::Billing</a>&amp;);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> removeBilling(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> addBillingProject(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject, <span class="keyword">const</span> <span class="keywordtype">int</span> idBilling, <span class="keyword">const</span> <span class="keywordtype">int</span> idContributory);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/dad/classBillingDatabase.html">BillingDatabase</a>* _instance;  </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../d0/dad/classBillingDatabase.html">BillingDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../dd/dca/classDbException.html">DbException</a>*) ;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // BILLINGDATABASE_H</span></div>
-<div class="ttc" id="classBillingDatabase_html_aff1663dc16fd98f373e7ecc8e2033114"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#aff1663dc16fd98f373e7ecc8e2033114">BillingDatabase::addBilling</a></div><div class="ttdeci">int addBilling(const Billing &amp;)</div><div class="ttdoc">BillingDatabase::addBilling Add the billing pBilling to the database. </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:98</div></div>
-<div class="ttc" id="classBillingDatabase_html_ac8a618d0c2420f8db417c65fcdbc85c6"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#ac8a618d0c2420f8db417c65fcdbc85c6">BillingDatabase::addBillingProject</a></div><div class="ttdeci">void addBillingProject(const int idProject, const int idBilling, const int idContributory)</div><div class="ttdoc">BillingDatabase::addBillingProject Link a project, a billing and a contributory in the table BillingP...</div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:124</div></div>
-<div class="ttc" id="classBillingDatabase_html_aec74e952e83d47332a5e07109588faa9"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#aec74e952e83d47332a5e07109588faa9">BillingDatabase::getBillingsTable</a></div><div class="ttdeci">QStandardItemModel * getBillingsTable(const int idProject)</div><div class="ttdoc">BillingDatabase::getBillingsTable Return an item model of billings for QTableView. </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:49</div></div>
-<div class="ttc" id="classDatabase_html"><div class="ttname"><a href="../../de/d03/classDatabase.html">Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:26</div></div>
-<div class="ttc" id="classBillingDatabase_html_a05b293f49756884e59d1509b76cc827a"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#a05b293f49756884e59d1509b76cc827a">BillingDatabase::getBilling</a></div><div class="ttdeci">Billing * getBilling(const int pId)</div><div class="ttdoc">BillingDatabase::getCustomer get informations about the billing identified by pId ...</div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:19</div></div>
-<div class="ttc" id="classBillingDatabase_html_a82e2c5503dc9b47a42bd592efece5532"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#a82e2c5503dc9b47a42bd592efece5532">BillingDatabase::removeBilling</a></div><div class="ttdeci">void removeBilling(const int pId)</div><div class="ttdoc">BillingDatabase::removeCustomer Remove the billing with the id pId </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:149</div></div>
-<div class="ttc" id="classBilling_html"><div class="ttname"><a href="../../df/d81/classBilling.html">Billing</a></div><div class="ttdoc">The Billing class : Billing or Quote of a Customer. </div><div class="ttdef"><b>Definition:</b> billing.h:18</div></div>
-<div class="ttc" id="classBillingDatabase_html"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html">BillingDatabase</a></div><div class="ttdoc">The BillingDatabase class Billing (or Quote) table database. </div><div class="ttdef"><b>Definition:</b> billingdatabase.h:15</div></div>
-<div class="ttc" id="classDbException_html"><div class="ttname"><a href="../../dd/dca/classDbException.html">DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:17</div></div>
-<div class="ttc" id="classBillingDatabase_html_a052aea6be4d10a372281f61f2583556a"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#a052aea6be4d10a372281f61f2583556a">BillingDatabase::updateBilling</a></div><div class="ttdeci">void updateBilling(const Billing &amp;)</div><div class="ttdoc">BillingDatabase::updateCustomer Update informations about the billing pCustomer </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:144</div></div>
-<div class="ttc" id="classBillingDatabase_html_a80a2bc546d92863a8b54786cfd832189"><div class="ttname"><a href="../../d0/dad/classBillingDatabase.html#a80a2bc546d92863a8b54786cfd832189">BillingDatabase::instance</a></div><div class="ttdeci">static BillingDatabase * instance()</div><div class="ttdoc">BillingDatabase::getInstance Return an instance of BillingDatabase </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:10</div></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">int</span> getMaxBillingNumber();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> getMaxQuoteNuber();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d2/d86/classDatabase_1_1BillingDatabase.html">BillingDatabase</a>* _instance;  </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d2/d86/classDatabase_1_1BillingDatabase.html">BillingDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*) ;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;};</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif // BILLINGDATABASE_H</span></div>
+<div class="ttc" id="namespaceExceptions_html"><div class="ttname"><a href="../../d9/dda/namespaceExceptions.html">Exceptions</a></div><div class="ttdef"><b>Definition:</b> dbexception.cpp:3</div></div>
+<div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
+<div class="ttc" id="classDatabase_1_1BillingDatabase_html"><div class="ttname"><a href="../../d2/d86/classDatabase_1_1BillingDatabase.html">Database::BillingDatabase</a></div><div class="ttdoc">The BillingDatabase class Billing (or Quote) table database. </div><div class="ttdef"><b>Definition:</b> billingdatabase.h:19</div></div>
+<div class="ttc" id="classModels_1_1Billing_html"><div class="ttname"><a href="../../d4/d5c/classModels_1_1Billing.html">Models::Billing</a></div><div class="ttdoc">The Billing class : Billing or Quote of a Customer. </div><div class="ttdef"><b>Definition:</b> billing.h:19</div></div>
+<div class="ttc" id="namespaceDatabase_html"><div class="ttname"><a href="../../dc/d4f/namespaceDatabase.html">Database</a></div><div class="ttdoc">Class for Database, contains queries. </div><div class="ttdef"><b>Definition:</b> billingdatabase.cpp:3</div></div>
+<div class="ttc" id="namespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdef"><b>Definition:</b> itemtype.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

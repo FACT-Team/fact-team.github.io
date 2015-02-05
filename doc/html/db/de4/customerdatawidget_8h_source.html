@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/customerdatawidget.h Source File</title>
+<title>FactDev: src/gui/widgets/customerdatawidget.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -76,37 +77,42 @@ $(document).ready(function(){initNavTree('db/de4/customerdatawidget_8h_source.ht
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;models/customer.h&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;models/user.h&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="code" href="../../df/df4/classCustomerDataWidget.html">CustomerDataWidget</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../df/df4/classCustomerDataWidget.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/df4/classCustomerDataWidget.html">CustomerDataWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../df/df4/classCustomerDataWidget.html">CustomerDataWidget</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    ~<a class="code" href="../../df/df4/classCustomerDataWidget.html">CustomerDataWidget</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dd/d20/namespaceModels.html">Models</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>CustomerDataWidget;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html">CustomerDataWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../df/df4/classCustomerDataWidget.html#a9a56bd1d7faf76d083cfa97f2883bdf1">printUserData</a>();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../df/df4/classCustomerDataWidget.html#ab61052cc337e51d1e34149d67816c58f">printInformations</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> setLabel(QLabel *lbValue, QString s, QLabel* lbLabel=0);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    Ui::CustomerDataWidget *ui;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif // CUSTOMERDATAWIDGET_H</span></div>
-<div class="ttc" id="classCustomerDataWidget_html"><div class="ttname"><a href="../../df/df4/classCustomerDataWidget.html">CustomerDataWidget</a></div><div class="ttdoc">Class for display info of a customer. </div><div class="ttdef"><b>Definition:</b> customerdatawidget.h:18</div></div>
-<div class="ttc" id="classCustomerDataWidget_html_a9a56bd1d7faf76d083cfa97f2883bdf1"><div class="ttname"><a href="../../df/df4/classCustomerDataWidget.html#a9a56bd1d7faf76d083cfa97f2883bdf1">CustomerDataWidget::printUserData</a></div><div class="ttdeci">void printUserData()</div><div class="ttdoc">printUserData Print Data of current user </div><div class="ttdef"><b>Definition:</b> customerdatawidget.cpp:17</div></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html">CustomerDataWidget</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    ~<a class="code" href="../../df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html">CustomerDataWidget</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> printUserData();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> printInformations(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> setLabel(QLabel *lbValue, QString s, QLabel* lbLabel=0);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    Ui::CustomerDataWidget *ui;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif // CUSTOMERDATAWIDGET_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
 <div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
-<div class="ttc" id="classCustomerDataWidget_html_ab61052cc337e51d1e34149d67816c58f"><div class="ttname"><a href="../../df/df4/classCustomerDataWidget.html#ab61052cc337e51d1e34149d67816c58f">CustomerDataWidget::printInformations</a></div><div class="ttdeci">void printInformations(int id)</div><div class="ttdoc">printInformations Print Data of customer id </div><div class="ttdef"><b>Definition:</b> customerdatawidget.cpp:36</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CustomerDataWidget_html"><div class="ttname"><a href="../../df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html">Gui::Widgets::CustomerDataWidget</a></div><div class="ttdoc">Class for display info of a customer. </div><div class="ttdef"><b>Definition:</b> customerdatawidget.h:22</div></div>
+<div class="ttc" id="namespaceModels_html"><div class="ttname"><a href="../../dd/d20/namespaceModels.html">Models</a></div><div class="ttdoc">Models classes. </div><div class="ttdef"><b>Definition:</b> billing.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>customerdatawidget.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>customerdatawidget.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

@@ -3,6 +3,9 @@ var NAVTREE =
   [ "FactDev", "index.html", [
     [ "FactDev documentation", "index.html", null ],
     [ "QTestRunner", "dc/d04/md_tests_QTestRunner_README.html", null ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ]
+    ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -21,9 +24,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d9/d12/classCustomer.html#a850d6e8e1a061362928de94553cb12a6",
-"dir_c7ec7d3a96f76aec1e8b71e782fe5cbb.html"
+".html",
+"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#ad5f6041f0f540c6d32b9feb7f139fa53",
+"dir_0eead514b9ed4592c90e101ed422560f.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

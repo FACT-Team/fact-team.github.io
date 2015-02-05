@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/log.h Source File</title>
+<title>FactDev: src/utils/log.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -79,48 +80,50 @@ $(document).ready(function(){initNavTree('d7/d7f/log_8h_source.html','../../');}
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;parameters.h&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {INFO, ERROR, WARNING } TypeLog;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d77/classLog.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d77/classLog.html">Log</a></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/d77/classLog.html">Log</a> &amp;<a class="code" href="../../d0/d77/classLog.html#ad8ef93302c147f832ed8202a6b039eb5">instance</a>(TypeLog type=INFO);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d0/d77/classLog.html#a0fbfda88fbee5027c89f6eb121059360">~Log</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/d77/classLog.html#acef079f691840d7afd2ed9482d5d66ea">write</a>(<span class="keyword">const</span> QString text);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d0/d77/classLog.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d0/d77/classLog.html#a1ecba3328cadecbbd7d65ae2852171fc">   53</a></span>&#160;    <span class="keyword">friend</span> <a class="code" href="../../d0/d77/classLog.html">Log</a> &amp;<a class="code" href="../../d0/d77/classLog.html#a1ecba3328cadecbbd7d65ae2852171fc">operator &lt;&lt; </a>(<a class="code" href="../../d0/d77/classLog.html">Log</a> &amp;logger, <span class="keyword">const</span> QString&amp; text) {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        logger.<a class="code" href="../../d0/d77/classLog.html#acef079f691840d7afd2ed9482d5d66ea">write</a>(text);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> logger;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/d77/classLog.html">Log</a>* _instance;  </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">static</span> TypeLog _type;   </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    QFile* _file;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    QString head();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    QString typeLog2String(TypeLog type);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;};</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif // LOG_H</span></div>
-<div class="ttc" id="classLog_html"><div class="ttname"><a href="../../d0/d77/classLog.html">Log</a></div><div class="ttdoc">The Log class for Simple management of log. </div><div class="ttdef"><b>Definition:</b> log.h:21</div></div>
-<div class="ttc" id="classLog_html_ad8ef93302c147f832ed8202a6b039eb5"><div class="ttname"><a href="../../d0/d77/classLog.html#ad8ef93302c147f832ed8202a6b039eb5">Log::instance</a></div><div class="ttdeci">static Log &amp; instance(TypeLog type=INFO)</div><div class="ttdoc">Log::instance. Return the instance of logger. </div><div class="ttdef"><b>Definition:</b> log.cpp:17</div></div>
-<div class="ttc" id="classLog_html_a1ecba3328cadecbbd7d65ae2852171fc"><div class="ttname"><a href="../../d0/d77/classLog.html#a1ecba3328cadecbbd7d65ae2852171fc">Log::operator&lt;&lt;</a></div><div class="ttdeci">friend Log &amp; operator&lt;&lt;(Log &amp;logger, const QString &amp;text)</div><div class="ttdoc">operator << for log writing </div><div class="ttdef"><b>Definition:</b> log.h:53</div></div>
-<div class="ttc" id="classLog_html_af6071a60aa52b6c1b511f99b4bc1b8fe"><div class="ttname"><a href="../../d0/d77/classLog.html#af6071a60aa52b6c1b511f99b4bc1b8fe">Log::Log</a></div><div class="ttdeci">Log()</div><div class="ttdoc">Log::Log. Log is a singleton. </div><div class="ttdef"><b>Definition:</b> log.cpp:6</div></div>
-<div class="ttc" id="classLog_html_acef079f691840d7afd2ed9482d5d66ea"><div class="ttname"><a href="../../d0/d77/classLog.html#acef079f691840d7afd2ed9482d5d66ea">Log::write</a></div><div class="ttdeci">void write(const QString text)</div><div class="ttdoc">Log::write. Write log message in file. </div><div class="ttdef"><b>Definition:</b> log.cpp:38</div></div>
-<div class="ttc" id="classLog_html_a0fbfda88fbee5027c89f6eb121059360"><div class="ttname"><a href="../../d0/d77/classLog.html#a0fbfda88fbee5027c89f6eb121059360">Log::~Log</a></div><div class="ttdeci">~Log()</div><div class="ttdoc">Log::~Log. </div><div class="ttdef"><b>Definition:</b> log.cpp:26</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {INFO, ERROR, WARNING } TypeLog;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../db/db3/classUtils_1_1Log.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../db/db3/classUtils_1_1Log.html">Log</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../db/db3/classUtils_1_1Log.html">Log</a> &amp;<a class="code" href="../../db/db3/classUtils_1_1Log.html#aea616362bc63f99499e3964d5dc759d2">instance</a>(TypeLog type=INFO);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../db/db3/classUtils_1_1Log.html#a659ea51c0749983cf9bba0274aa10184">~Log</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../db/db3/classUtils_1_1Log.html#a9f21042e13648171da95b27830e91c75">write</a>(<span class="keyword">const</span> QString text);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../db/db3/classUtils_1_1Log.html#a0191645e4f86af331290c7062c79d7b7">Log</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc">   54</a></span>&#160;    <span class="keyword">friend</span> <a class="code" href="../../db/db3/classUtils_1_1Log.html">Log</a> &amp;<a class="code" href="../../db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc">operator &lt;&lt; </a>(<a class="code" href="../../db/db3/classUtils_1_1Log.html">Log</a> &amp;logger, <span class="keyword">const</span> QString&amp; text) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        logger.<a class="code" href="../../db/db3/classUtils_1_1Log.html#a9f21042e13648171da95b27830e91c75">write</a>(text);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> logger;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../db/db3/classUtils_1_1Log.html">Log</a>* _instance;  </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">static</span> TypeLog _type;   </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    QFile* _file; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    QString head();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    QString typeLog2String(TypeLog type);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif // LOG_H</span></div>
+<div class="ttc" id="classUtils_1_1Log_html_aea616362bc63f99499e3964d5dc759d2"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html#aea616362bc63f99499e3964d5dc759d2">Utils::Log::instance</a></div><div class="ttdeci">static Log &amp; instance(TypeLog type=INFO)</div><div class="ttdoc">Log::instance. Return the instance of logger. </div><div class="ttdef"><b>Definition:</b> log.cpp:18</div></div>
+<div class="ttc" id="classUtils_1_1Log_html_a9f21042e13648171da95b27830e91c75"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html#a9f21042e13648171da95b27830e91c75">Utils::Log::write</a></div><div class="ttdeci">void write(const QString text)</div><div class="ttdoc">Log::write. Write log message in file. </div><div class="ttdef"><b>Definition:</b> log.cpp:39</div></div>
+<div class="ttc" id="classUtils_1_1Log_html_a0191645e4f86af331290c7062c79d7b7"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html#a0191645e4f86af331290c7062c79d7b7">Utils::Log::Log</a></div><div class="ttdeci">Log()</div><div class="ttdoc">Log::Log. Log is a singleton. </div><div class="ttdef"><b>Definition:</b> log.cpp:7</div></div>
+<div class="ttc" id="classUtils_1_1Log_html_a1ecba3328cadecbbd7d65ae2852171fc"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc">Utils::Log::operator&lt;&lt;</a></div><div class="ttdeci">friend Log &amp; operator&lt;&lt;(Log &amp;logger, const QString &amp;text)</div><div class="ttdoc">operator << for log writing </div><div class="ttdef"><b>Definition:</b> log.h:54</div></div>
+<div class="ttc" id="classUtils_1_1Log_html"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html">Utils::Log</a></div><div class="ttdoc">The Log class for Simple management of log. </div><div class="ttdef"><b>Definition:</b> log.h:22</div></div>
+<div class="ttc" id="classUtils_1_1Log_html_a659ea51c0749983cf9bba0274aa10184"><div class="ttname"><a href="../../db/db3/classUtils_1_1Log.html#a659ea51c0749983cf9bba0274aa10184">Utils::Log::~Log</a></div><div class="ttdeci">~Log()</div><div class="ttdoc">Log::~Log. </div><div class="ttdef"><b>Definition:</b> log.cpp:27</div></div>
+<div class="ttc" id="namespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdef"><b>Definition:</b> itemtype.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><b>log.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><b>log.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

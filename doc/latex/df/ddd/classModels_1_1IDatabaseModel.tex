@@ -1,0 +1,145 @@
+\hypertarget{classModels_1_1IDatabaseModel}{\section{Models\+:\+:I\+Database\+Model Class Reference}
+\label{classModels_1_1IDatabaseModel}\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+}
+
+
+The \hyperlink{classModels_1_1IDatabaseModel}{I\+Database\+Model} class.  
+
+
+
+
+{\ttfamily \#include $<$idatabasemodel.\+h$>$}
+
+Inheritance diagram for Models\+:\+:I\+Database\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.417722cm]{df/ddd/classModels_1_1IDatabaseModel}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classModels_1_1IDatabaseModel_a7dd56f574720919d1703651f5896141f}{virtual \hyperlink{classModels_1_1IDatabaseModel_a7dd56f574720919d1703651f5896141f}{$\sim$\+I\+Database\+Model} ()}\label{classModels_1_1IDatabaseModel_a7dd56f574720919d1703651f5896141f}
+
+\begin{DoxyCompactList}\small\item\em $\sim$\+I\+Database\+Model Remove an instance of \hyperlink{classModels_1_1IDatabaseModel}{I\+Database\+Model} \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1IDatabaseModel_a8fcb1587824753cd121a7d961b60a98a}{virtual void \hyperlink{classModels_1_1IDatabaseModel_a8fcb1587824753cd121a7d961b60a98a}{commit} ()=0}\label{classModels_1_1IDatabaseModel_a8fcb1587824753cd121a7d961b60a98a}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1IDatabaseModel_a8fcb1587824753cd121a7d961b60a98a}{I\+Database\+Model\+::commit} Update or insert data into the database. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}{hydrat} (int id)=0
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}{I\+Database\+Model\+::hydrat} Get data of the element which is specified by the identify {\itshape id} from the database. \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1IDatabaseModel_a6d8eca5b493b57c21feafae75c783b14}{virtual void \hyperlink{classModels_1_1IDatabaseModel_a6d8eca5b493b57c21feafae75c783b14}{remove} ()=0}\label{classModels_1_1IDatabaseModel_a6d8eca5b493b57c21feafae75c783b14}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1IDatabaseModel_a6d8eca5b493b57c21feafae75c783b14}{I\+Database\+Model\+::remove} Remove the current element in the database. \end{DoxyCompactList}\item 
+int \hyperlink{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}{get\+Id} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}{I\+Database\+Model\+::get\+Id} Return the identify of the element of the database. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1IDatabaseModel_a6bf2ec005b5d931e58ee8125e92d9722}{set\+Id} (int id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1IDatabaseModel_a6bf2ec005b5d931e58ee8125e92d9722}{I\+Database\+Model\+::set\+Id} Replace the current identify by {\itshape id} \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1IDatabaseModel_a058e5b85d95e9424245dc37eb122350c}{is\+To\+Removed} () const 
+\begin{DoxyCompactList}\small\item\em to\+Removed return if object must be removed. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1IDatabaseModel_ac399b44ba1178ef6f54da31203e11d9f}{set\+To\+Removed} (bool to\+Removed)
+\begin{DoxyCompactList}\small\item\em set\+To\+Removed Change the flag for removed object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classModels_1_1IDatabaseModel_a85fbc8298dee2e84f310a21ed935665f}{int \hyperlink{classModels_1_1IDatabaseModel_a85fbc8298dee2e84f310a21ed935665f}{\+\_\+id}}\label{classModels_1_1IDatabaseModel_a85fbc8298dee2e84f310a21ed935665f}
+
+\begin{DoxyCompactList}\small\item\em Element identify. \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1IDatabaseModel_acfa9af965e01f44d6ff75226e23e4640}{bool \hyperlink{classModels_1_1IDatabaseModel_acfa9af965e01f44d6ff75226e23e4640}{\+\_\+to\+Removed}}\label{classModels_1_1IDatabaseModel_acfa9af965e01f44d6ff75226e23e4640}
+
+\begin{DoxyCompactList}\small\item\em Flag to know if the object must be removed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classModels_1_1IDatabaseModel}{I\+Database\+Model} class. 
+
+\begin{DoxyAuthor}{Author}
+Antoine de Roquemaurel 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}{\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+\subsubsection[{get\+Id}]{\setlength{\rightskip}{0pt plus 5cm}int Models\+::\+I\+Database\+Model\+::get\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}
+
+
+\hyperlink{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}{I\+Database\+Model\+::get\+Id} Return the identify of the element of the database. 
+
+\begin{DoxyReturn}{Returns}
+identity 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}{\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}!hydrat@{hydrat}}
+\index{hydrat@{hydrat}!Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+\subsubsection[{hydrat}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Models\+::\+I\+Database\+Model\+::hydrat (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}
+
+
+\hyperlink{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}{I\+Database\+Model\+::hydrat} Get data of the element which is specified by the identify {\itshape id} from the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classModels_1_1Project_aa293709eeb68e4271cac8d4cce418ffa}{Models\+::\+Project}, \hyperlink{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}{Models\+::\+Billing}, \hyperlink{classModels_1_1Contributory_a40248b5853045eb46412396513f36b06}{Models\+::\+Contributory}, \hyperlink{classModels_1_1User_ab46c7e1841dca66bc01cd95328b97877}{Models\+::\+User}, and \hyperlink{classModels_1_1Customer_afe3ed7fb893d61ea6f4d14e73779382c}{Models\+::\+Customer}.
+
+\hypertarget{classModels_1_1IDatabaseModel_a058e5b85d95e9424245dc37eb122350c}{\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}!is\+To\+Removed@{is\+To\+Removed}}
+\index{is\+To\+Removed@{is\+To\+Removed}!Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+\subsubsection[{is\+To\+Removed}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\+::\+I\+Database\+Model\+::is\+To\+Removed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classModels_1_1IDatabaseModel_a058e5b85d95e9424245dc37eb122350c}
+
+
+to\+Removed return if object must be removed. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classModels_1_1IDatabaseModel_a6bf2ec005b5d931e58ee8125e92d9722}{\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}!set\+Id@{set\+Id}}
+\index{set\+Id@{set\+Id}!Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+\subsubsection[{set\+Id}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+I\+Database\+Model\+::set\+Id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classModels_1_1IDatabaseModel_a6bf2ec005b5d931e58ee8125e92d9722}
+
+
+\hyperlink{classModels_1_1IDatabaseModel_a6bf2ec005b5d931e58ee8125e92d9722}{I\+Database\+Model\+::set\+Id} Replace the current identify by {\itshape id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & New identify \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1IDatabaseModel_ac399b44ba1178ef6f54da31203e11d9f}{\index{Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}!set\+To\+Removed@{set\+To\+Removed}}
+\index{set\+To\+Removed@{set\+To\+Removed}!Models\+::\+I\+Database\+Model@{Models\+::\+I\+Database\+Model}}
+\subsubsection[{set\+To\+Removed}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+I\+Database\+Model\+::set\+To\+Removed (
+\begin{DoxyParamCaption}
+\item[{bool}]{to\+Removed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classModels_1_1IDatabaseModel_ac399b44ba1178ef6f54da31203e11d9f}
+
+
+set\+To\+Removed Change the flag for removed object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Removed} & The new flag \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/models/idatabasemodel.\+h\end{DoxyCompactItemize}

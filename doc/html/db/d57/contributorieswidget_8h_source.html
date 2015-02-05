@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/contributorieswidget.h Source File</title>
+<title>FactDev: src/gui/widgets/contributorieswidget.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -75,46 +76,50 @@ $(document).ready(function(){initNavTree('db/d57/contributorieswidget_8h_source.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;models/contributory.h&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;widgets/widgetsmodels/contributoriestablemodel.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;gui/widgets/widgetsmodels/contributoriestablemodel.h&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d0b/classContributoriesWidget.html">ContributoriesWidget</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>ContributoriesWidget;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/d0b/classContributoriesWidget.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d0b/classContributoriesWidget.html">ContributoriesWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/d0b/classContributoriesWidget.html">ContributoriesWidget</a>(QSharedPointer&lt;Customer&gt; c, QWidget *parent = 0);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    ~<a class="code" href="../../d0/d0b/classContributoriesWidget.html">ContributoriesWidget</a>();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    QList&lt;Contributory&gt; <a class="code" href="../../d0/d0b/classContributoriesWidget.html#a2e6c4f02e6c5507ab0891867a6c2c3d8">getContributories</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> count();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/d0b/classContributoriesWidget.html#a58cdea8c2397c8bd1103e7a415f3e313">add</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(void);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;signals:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> contributoryChanged();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Ui::ContributoriesWidget *ui;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d4/d24/classContributoriesTableModel.html">ContributoriesTableModel</a>* _model;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORIESWIDGET_H</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html">ContributoriesWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html">ContributoriesWidget</a>(QSharedPointer&lt;Customer&gt; c, QWidget *parent = 0);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    ~<a class="code" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html">ContributoriesWidget</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    QList&lt;Contributory&gt; <a class="code" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a05ddbeb4ffce91003efc1c651d888955">getContributories</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> count();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a756c0d1076fad1a3805975343e66a1de">add</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(void);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;signals:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> contributoryChanged();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    Ui::ContributoriesWidget *ui;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">Gui::Widgets::WdgModels::ContributoriesTableModel</a>* _model;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORIESWIDGET_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
 <div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
-<div class="ttc" id="classContributoriesWidget_html_a2e6c4f02e6c5507ab0891867a6c2c3d8"><div class="ttname"><a href="../../d0/d0b/classContributoriesWidget.html#a2e6c4f02e6c5507ab0891867a6c2c3d8">ContributoriesWidget::getContributories</a></div><div class="ttdeci">QList&lt; Contributory &gt; getContributories() const </div><div class="ttdoc">getContributories Get contributories List </div><div class="ttdef"><b>Definition:</b> contributorieswidget.cpp:29</div></div>
-<div class="ttc" id="classContributoriesWidget_html_a58cdea8c2397c8bd1103e7a415f3e313"><div class="ttname"><a href="../../d0/d0b/classContributoriesWidget.html#a58cdea8c2397c8bd1103e7a415f3e313">ContributoriesWidget::add</a></div><div class="ttdeci">void add(void)</div><div class="ttdoc">add Add a new empty contributory </div><div class="ttdef"><b>Definition:</b> contributorieswidget.cpp:34</div></div>
-<div class="ttc" id="classContributoriesTableModel_html"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html">ContributoriesTableModel</a></div><div class="ttdoc">The ContributoriesTableModel class for a custom table for contributories widget. </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.h:15</div></div>
-<div class="ttc" id="classContributoriesWidget_html"><div class="ttname"><a href="../../d0/d0b/classContributoriesWidget.html">ContributoriesWidget</a></div><div class="ttdef"><b>Definition:</b> contributorieswidget.h:15</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_html"><div class="ttname"><a href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">Gui::Widgets::WdgModels::ContributoriesTableModel</a></div><div class="ttdoc">The ContributoriesTableModel class for a custom table for contributories widget. </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.h:22</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ContributoriesWidget_html"><div class="ttname"><a href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html">Gui::Widgets::ContributoriesWidget</a></div><div class="ttdef"><b>Definition:</b> contributorieswidget.h:17</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ContributoriesWidget_html_a756c0d1076fad1a3805975343e66a1de"><div class="ttname"><a href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a756c0d1076fad1a3805975343e66a1de">Gui::Widgets::ContributoriesWidget::add</a></div><div class="ttdeci">void add(void)</div><div class="ttdoc">add Add a new empty contributory </div><div class="ttdef"><b>Definition:</b> contributorieswidget.cpp:35</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ContributoriesWidget_html_a05ddbeb4ffce91003efc1c651d888955"><div class="ttname"><a href="../../dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a05ddbeb4ffce91003efc1c651d888955">Gui::Widgets::ContributoriesWidget::getContributories</a></div><div class="ttdeci">QList&lt; Contributory &gt; getContributories() const </div><div class="ttdoc">getContributories Get contributories List </div><div class="ttdef"><b>Definition:</b> contributorieswidget.cpp:30</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>contributorieswidget.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>contributorieswidget.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

@@ -1,0 +1,221 @@
+\hypertarget{classDatabase_1_1ProjectDatabase}{\section{Database\+:\+:Project\+Database Class Reference}
+\label{classDatabase_1_1ProjectDatabase}\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+}
+
+
+The \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database} class Project table database.  
+
+
+
+
+{\ttfamily \#include $<$projectdatabase.\+h$>$}
+
+Inheritance diagram for Database\+:\+:Project\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dd/dbf/classDatabase_1_1ProjectDatabase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModels_1_1Project}{Models\+::\+Project} $\ast$ \hyperlink{classDatabase_1_1ProjectDatabase_ae656663ce7e517e13815198f66341b2a}{get\+Project} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em Project\+Databaseget\+Project Get informations about the project identified by 'p\+Id'. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1ProjectDatabase_a904588d19669d5e391518a946fd94ddf}{add\+Project} (const \hyperlink{classModels_1_1Project}{Models\+::\+Project} \&)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:add\+Project Add the project 'p\+Project' to the database. \end{DoxyCompactList}\item 
+\hypertarget{classDatabase_1_1ProjectDatabase_a5a839ed196050cf41a1b0f1073757599}{void \hyperlink{classDatabase_1_1ProjectDatabase_a5a839ed196050cf41a1b0f1073757599}{update\+Project} (const \hyperlink{classModels_1_1Project}{Models\+::\+Project} \&)}\label{classDatabase_1_1ProjectDatabase_a5a839ed196050cf41a1b0f1073757599}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:update\+Project Update informations about the project. \end{DoxyCompactList}\item 
+void \hyperlink{classDatabase_1_1ProjectDatabase_a45fb24373d53e060d05cb166cd635370}{remove\+Project} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em remove\+Project Remove the project with the id 'p\+Id' \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1ProjectDatabase_a57f293ea89b06e1cefff8189a5dc9444}{get\+Nb\+Projects} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects Return the number of projects existing. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1ProjectDatabase_a9d86e98ae77eaef7875c36c84e08722b}{get\+Nb\+Projects\+For\+A\+Customer} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects\+For\+A\+Customer Return the number of projects existing for an identify customer {\itshape p\+Id} \end{DoxyCompactList}\item 
+Q\+Map$<$ int, \hyperlink{classModels_1_1Project}{Models\+::\+Project} $>$ \hyperlink{classDatabase_1_1ProjectDatabase_a1bbdbcb01b9741800e49902d0783e5f3}{get\+Projects\+Of\+Customer} (Q\+Shared\+Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\+::\+Customer} $>$ c)
+\begin{DoxyCompactList}\small\item\em get\+Projects\+Of\+Customer Return all projects of a customer \end{DoxyCompactList}\item 
+Q\+Standard\+Item\+Model $\ast$ \hyperlink{classDatabase_1_1ProjectDatabase_ad2da7cde75b3b84dcdf2771969950ae9}{get\+Projects\+Table} (const int p\+Id)  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em get\+Projects\+Table Return all projects of a customer in Q\+Standard\+Item\+Model \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1Project}{Models\+::\+Project} $\ast$ \hyperlink{classDatabase_1_1ProjectDatabase_a360d570a10c3e9df38241a650e1a30a6}{get\+Project} (Q\+Sql\+Query \&q)
+\begin{DoxyCompactList}\small\item\em get\+Project Obtain a project without new query \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database} $\ast$ \hyperlink{classDatabase_1_1ProjectDatabase_a051359f2f1390cbdd3c47b1044ab166f}{instance} ()  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em Project\+Database\+::get\+Instance Return an instance of \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database} class Project table database. 
+
+\begin{DoxyAuthor}{Author}
+Florent Berbie 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classDatabase_1_1Database}{Database} 
+
+Project 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDatabase_1_1ProjectDatabase_a904588d19669d5e391518a946fd94ddf}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!add\+Project@{add\+Project}}
+\index{add\+Project@{add\+Project}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{add\+Project}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Project\+Database\+::add\+Project (
+\begin{DoxyParamCaption}
+\item[{const {\bf Models\+::\+Project} \&}]{p\+Project}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a904588d19669d5e391518a946fd94ddf}
+
+
+\hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:add\+Project Add the project 'p\+Project' to the database. 
+
+\begin{DoxyReturn}{Returns}
+project id 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a57f293ea89b06e1cefff8189a5dc9444}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Nb\+Projects@{get\+Nb\+Projects}}
+\index{get\+Nb\+Projects@{get\+Nb\+Projects}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Nb\+Projects}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Project\+Database\+::get\+Nb\+Projects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a57f293ea89b06e1cefff8189a5dc9444}
+
+
+\hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects Return the number of projects existing. 
+
+\begin{DoxyReturn}{Returns}
+number of projects 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a9d86e98ae77eaef7875c36c84e08722b}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Nb\+Projects\+For\+A\+Customer@{get\+Nb\+Projects\+For\+A\+Customer}}
+\index{get\+Nb\+Projects\+For\+A\+Customer@{get\+Nb\+Projects\+For\+A\+Customer}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Nb\+Projects\+For\+A\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Project\+Database\+::get\+Nb\+Projects\+For\+A\+Customer (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a9d86e98ae77eaef7875c36c84e08722b}
+
+
+\hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}\+:get\+Nb\+Projects\+For\+A\+Customer Return the number of projects existing for an identify customer {\itshape p\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & Project id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+number of projects 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_ae656663ce7e517e13815198f66341b2a}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Project@{get\+Project}}
+\index{get\+Project@{get\+Project}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+Project} $\ast$ Database\+::\+Project\+Database\+::get\+Project (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_ae656663ce7e517e13815198f66341b2a}
+
+
+Project\+Databaseget\+Project Get informations about the project identified by 'p\+Id'. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & project \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the project 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a360d570a10c3e9df38241a650e1a30a6}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Project@{get\+Project}}
+\index{get\+Project@{get\+Project}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+Project} $\ast$ Database\+::\+Project\+Database\+::get\+Project (
+\begin{DoxyParamCaption}
+\item[{Q\+Sql\+Query \&}]{q}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a360d570a10c3e9df38241a650e1a30a6}
+
+
+get\+Project Obtain a project without new query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em q} & The query to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The project linked to q 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a1bbdbcb01b9741800e49902d0783e5f3}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Projects\+Of\+Customer@{get\+Projects\+Of\+Customer}}
+\index{get\+Projects\+Of\+Customer@{get\+Projects\+Of\+Customer}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Projects\+Of\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Map$<$ int, {\bf Models\+::\+Project} $>$ Database\+::\+Project\+Database\+::get\+Projects\+Of\+Customer (
+\begin{DoxyParamCaption}
+\item[{Q\+Shared\+Pointer$<$ {\bf Models\+::\+Customer} $>$}]{c}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a1bbdbcb01b9741800e49902d0783e5f3}
+
+
+get\+Projects\+Of\+Customer Return all projects of a customer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The customer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+All projects of c with id in key 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_ad2da7cde75b3b84dcdf2771969950ae9}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!get\+Projects\+Table@{get\+Projects\+Table}}
+\index{get\+Projects\+Table@{get\+Projects\+Table}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{get\+Projects\+Table}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Standard\+Item\+Model $\ast$ Database\+::\+Project\+Database\+::get\+Projects\+Table (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) }}\label{classDatabase_1_1ProjectDatabase_ad2da7cde75b3b84dcdf2771969950ae9}
+
+
+get\+Projects\+Table Return all projects of a customer in Q\+Standard\+Item\+Model 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filter} & Select only projects who are specified by {\itshape filter} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Standard\+Item\+Model an item model for Q\+Table\+View 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a051359f2f1390cbdd3c47b1044ab166f}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!instance@{instance}}
+\index{instance@{instance}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Project\+Database} $\ast$ Database\+::\+Project\+Database\+::instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) \hspace{0.3cm}{\ttfamily [static]}}}\label{classDatabase_1_1ProjectDatabase_a051359f2f1390cbdd3c47b1044ab166f}
+
+
+Project\+Database\+::get\+Instance Return an instance of \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database}. 
+
+\begin{DoxyReturn}{Returns}
+Instance of \hyperlink{classDatabase_1_1ProjectDatabase}{Project\+Database} 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ProjectDatabase_a45fb24373d53e060d05cb166cd635370}{\index{Database\+::\+Project\+Database@{Database\+::\+Project\+Database}!remove\+Project@{remove\+Project}}
+\index{remove\+Project@{remove\+Project}!Database\+::\+Project\+Database@{Database\+::\+Project\+Database}}
+\subsubsection[{remove\+Project}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Project\+Database\+::remove\+Project (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ProjectDatabase_a45fb24373d53e060d05cb166cd635370}
+
+
+remove\+Project Remove the project with the id 'p\+Id' 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & project id \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/database/projectdatabase.\+h\item 
+src/database/projectdatabase.\+cpp\end{DoxyCompactItemize}

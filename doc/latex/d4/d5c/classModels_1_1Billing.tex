@@ -1,0 +1,343 @@
+\hypertarget{classModels_1_1Billing}{\section{Models\+:\+:Billing Class Reference}
+\label{classModels_1_1Billing}\index{Models\+::\+Billing@{Models\+::\+Billing}}
+}
+
+
+The \hyperlink{classModels_1_1Billing}{Billing} class \+: \hyperlink{classModels_1_1Billing}{Billing} or Quote of a \hyperlink{classModels_1_1Customer}{Customer}.  
+
+
+
+
+{\ttfamily \#include $<$billing.\+h$>$}
+
+Inheritance diagram for Models\+:\+:Billing\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d4/d5c/classModels_1_1Billing}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}{\hyperlink{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}{Billing} ()}\label{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}{Billing\+::\+Billing}. Construct a \hyperlink{classModels_1_1Billing}{Billing}. \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1Billing_a2fba091975b0c62f7e65771e335e038b}{Billing} (int id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}{Billing\+::\+Billing}. Construct a \hyperlink{classModels_1_1Billing}{Billing} or quote. \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1Billing_a36da0cd70a8f9db9be57bf32f7610e59}{\hyperlink{classModels_1_1Billing_a36da0cd70a8f9db9be57bf32f7610e59}{$\sim$\+Billing} ()}\label{classModels_1_1Billing_a36da0cd70a8f9db9be57bf32f7610e59}
+
+\begin{DoxyCompactList}\small\item\em destruct a billing object \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1Billing_ad2280a0d8dde4c36e88c344b01044caf}{void \hyperlink{classModels_1_1Billing_ad2280a0d8dde4c36e88c344b01044caf}{commit} ()}\label{classModels_1_1Billing_ad2280a0d8dde4c36e88c344b01044caf}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ad2280a0d8dde4c36e88c344b01044caf}{Billing\+::commit}. Insert a modification in \hyperlink{classModels_1_1Billing}{Billing} table on the database. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}{hydrat} (int \hyperlink{classModels_1_1IDatabaseModel_a6a4d1d3c0912c97c61a9d4de7471afee}{get\+Id})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}{Billing\+::hydrat}. Update of the \hyperlink{classModels_1_1Billing}{Billing} which is specified by {\itshape get\+Id} \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1Billing_ada8a7c127a80fa7349fbd6a7d30ca4a3}{void \hyperlink{classModels_1_1Billing_ada8a7c127a80fa7349fbd6a7d30ca4a3}{remove} ()}\label{classModels_1_1Billing_ada8a7c127a80fa7349fbd6a7d30ca4a3}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ada8a7c127a80fa7349fbd6a7d30ca4a3}{Billing\+::remove}. Remove a \hyperlink{classModels_1_1Billing}{Billing}. \end{DoxyCompactList}\item 
+Q\+Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, Q\+List\\*
+$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ $>$ \hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{get\+Contributories} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{Billing\+::get\+Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_a3636d785d2cb77d83d21a795e1f91a60}{add\+Contributory} (\hyperlink{classModels_1_1Contributory}{Contributory} \&c)
+\begin{DoxyCompactList}\small\item\em add\+Contributories Add a new contributory for project p \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\+Title} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{Billing\+::get\+Title}. return title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{set\+Title} (const Q\+String \&\hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\+Title})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{Billing\+::set\+Title}. Modify the title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}{get\+Description} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}{Billing\+::get\+Description}. return description of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_adb5cf4382150387f10bb6b774ace6bc8}{set\+Description} (const Q\+String \&\hyperlink{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}{get\+Description})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_adb5cf4382150387f10bb6b774ace6bc8}{Billing\+::set\+Description}. Modify the description of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+int \hyperlink{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}{get\+Number} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}{Billing\+::get\+Number}. Return number of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}}. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}{set\+Number} (int \hyperlink{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}{get\+Number})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}{Billing\+::set\+Number}. Modify {\itshape \+\_\+number} of \hyperlink{classModels_1_1Billing}{Billing}. \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}{is\+Billing} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}{Billing\+::is\+Billing}. Return if it's a billing or a quote. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_aff8b71426c02bc97f0a724ef762cd42e}{set\+Is\+Billing} (bool \hyperlink{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}{is\+Billing})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_aff8b71426c02bc97f0a724ef762cd42e}{Billing\+::set\+Is\+Billing}. Modify {\itshape is\+Billing} of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}}. \end{DoxyCompactList}\item 
+Q\+Date \hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{get\+Date} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{Billing\+::get\+Date}. return date of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{set\+Date} (const Q\+Date \&\hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{get\+Date})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{Billing\+::set\+Date}. Modify {\itshape date} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{operator==} (const \hyperlink{classModels_1_1Billing}{Billing} \&b)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{Billing\+::operator ==} define the operator \char`\"{}==\char`\"{} to compare two billings and to see if they are the same. \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{operator!=} (const \hyperlink{classModels_1_1Billing}{Billing} \&b)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{Billing\+::operator !=} defines the operator \char`\"{}!=\char`\"{} to compare two {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} and to see if they are different. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classModels_1_1Billing}{Billing} class \+: \hyperlink{classModels_1_1Billing}{Billing} or Quote of a \hyperlink{classModels_1_1Customer}{Customer}. 
+
+\begin{DoxyAuthor}{Author}
+Cédric Rohaut  for the quote part 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classModels_1_1Billing_a2fba091975b0c62f7e65771e335e038b}{\index{Models\+::\+Billing@{Models\+::\+Billing}!Billing@{Billing}}
+\index{Billing@{Billing}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{Billing}]{\setlength{\rightskip}{0pt plus 5cm}Models\+::\+Billing\+::\+Billing (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_a2fba091975b0c62f7e65771e335e038b}
+
+
+\hyperlink{classModels_1_1Billing_ab6b6e4b21617bacb1e8124b5e1218723}{Billing\+::\+Billing}. Construct a \hyperlink{classModels_1_1Billing}{Billing} or quote. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & id \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classModels_1_1Billing_a3636d785d2cb77d83d21a795e1f91a60}{\index{Models\+::\+Billing@{Models\+::\+Billing}!add\+Contributory@{add\+Contributory}}
+\index{add\+Contributory@{add\+Contributory}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{add\+Contributory}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::add\+Contributory (
+\begin{DoxyParamCaption}
+\item[{{\bf Contributory} \&}]{c}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_a3636d785d2cb77d83d21a795e1f91a60}
+
+
+add\+Contributories Add a new contributory for project p 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & The \hyperlink{classModels_1_1Project}{Project} who contain \hyperlink{classModels_1_1Contributory}{Contributory} \\
+\hline
+{\em c} & The new \hyperlink{classModels_1_1Contributory}{Contributory} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{\index{Models\+::\+Billing@{Models\+::\+Billing}!get\+Contributories@{get\+Contributories}}
+\index{get\+Contributories@{get\+Contributories}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{get\+Contributories}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Map$<$ {\bf Project} $\ast$, Q\+List$<$ {\bf Contributory} $>$ $>$ Models\+::\+Billing\+::get\+Contributories (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}
+
+
+\hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{Billing\+::get\+Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+\begin{DoxyReturn}{Returns}
+Q\+Map$<$\hyperlink{classModels_1_1Project}{Project}, Q\+List$<$\+Contributory$>$$>$ 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{\index{Models\+::\+Billing@{Models\+::\+Billing}!get\+Date@{get\+Date}}
+\index{get\+Date@{get\+Date}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{get\+Date}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Date Models\+::\+Billing\+::get\+Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}
+
+
+\hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{Billing\+::get\+Date}. return date of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+\begin{DoxyReturn}{Returns}
+date of \hyperlink{classModels_1_1Billing}{Billing} 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}{\index{Models\+::\+Billing@{Models\+::\+Billing}!get\+Description@{get\+Description}}
+\index{get\+Description@{get\+Description}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{get\+Description}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Models\+::\+Billing\+::get\+Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}
+
+
+\hyperlink{classModels_1_1Billing_a5802215da8f4407457b8aeb7be525c65}{Billing\+::get\+Description}. return description of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+\begin{DoxyReturn}{Returns}
+description of \hyperlink{classModels_1_1Billing}{Billing} 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}{\index{Models\+::\+Billing@{Models\+::\+Billing}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{get\+Number}]{\setlength{\rightskip}{0pt plus 5cm}int Models\+::\+Billing\+::get\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}
+
+
+\hyperlink{classModels_1_1Billing_a48c6e28a4aec13f8ed6b3ebbab837f0b}{Billing\+::get\+Number}. Return number of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}}. 
+
+\begin{DoxyReturn}{Returns}
+\+\_\+number of \hyperlink{classModels_1_1Billing}{Billing} 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{\index{Models\+::\+Billing@{Models\+::\+Billing}!get\+Title@{get\+Title}}
+\index{get\+Title@{get\+Title}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{get\+Title}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Models\+::\+Billing\+::get\+Title (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}
+
+
+\hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{Billing\+::get\+Title}. return title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+\begin{DoxyReturn}{Returns}
+title of \hyperlink{classModels_1_1Billing}{Billing} 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}{\index{Models\+::\+Billing@{Models\+::\+Billing}!hydrat@{hydrat}}
+\index{hydrat@{hydrat}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{hydrat}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::hydrat (
+\begin{DoxyParamCaption}
+\item[{int}]{get\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}
+
+
+\hyperlink{classModels_1_1Billing_a689643008955fdcd5833631a6202c0dc}{Billing\+::hydrat}. Update of the \hyperlink{classModels_1_1Billing}{Billing} which is specified by {\itshape get\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Id} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classModels_1_1IDatabaseModel_af0814d81fc76a881bc64d9062adf1f6c}{Models\+::\+I\+Database\+Model}.
+
+\hypertarget{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}{\index{Models\+::\+Billing@{Models\+::\+Billing}!is\+Billing@{is\+Billing}}
+\index{is\+Billing@{is\+Billing}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{is\+Billing}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\+::\+Billing\+::is\+Billing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}
+
+
+\hyperlink{classModels_1_1Billing_ab03dd29a9812a995355a1d93318f348f}{Billing\+::is\+Billing}. Return if it's a billing or a quote. 
+
+\begin{DoxyReturn}{Returns}
+if it's billing or a quote 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{\index{Models\+::\+Billing@{Models\+::\+Billing}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{operator"!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\+::\+Billing\+::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Billing} \&}]{b}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}
+
+
+\hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{Billing\+::operator !=} defines the operator \char`\"{}!=\char`\"{} to compare two {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} and to see if they are different. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} to compare with the current {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} are different else false 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{\index{Models\+::\+Billing@{Models\+::\+Billing}!operator==@{operator==}}
+\index{operator==@{operator==}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\+::\+Billing\+::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Billing} \&}]{b}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}
+
+
+\hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{Billing\+::operator ==} define the operator \char`\"{}==\char`\"{} to compare two billings and to see if they are the same. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} to compare with the current {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if they are the same billings else false 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{\index{Models\+::\+Billing@{Models\+::\+Billing}!set\+Date@{set\+Date}}
+\index{set\+Date@{set\+Date}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{set\+Date}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::set\+Date (
+\begin{DoxyParamCaption}
+\item[{const Q\+Date \&}]{get\+Date}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}
+
+
+\hyperlink{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{Billing\+::set\+Date}. Modify {\itshape date} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Date} & the new date of the \hyperlink{classModels_1_1Billing}{Billing} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_adb5cf4382150387f10bb6b774ace6bc8}{\index{Models\+::\+Billing@{Models\+::\+Billing}!set\+Description@{set\+Description}}
+\index{set\+Description@{set\+Description}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{set\+Description}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::set\+Description (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{get\+Description}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_adb5cf4382150387f10bb6b774ace6bc8}
+
+
+\hyperlink{classModels_1_1Billing_adb5cf4382150387f10bb6b774ace6bc8}{Billing\+::set\+Description}. Modify the description of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Description} & Modify the description with {\itshape get\+Description} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_aff8b71426c02bc97f0a724ef762cd42e}{\index{Models\+::\+Billing@{Models\+::\+Billing}!set\+Is\+Billing@{set\+Is\+Billing}}
+\index{set\+Is\+Billing@{set\+Is\+Billing}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{set\+Is\+Billing}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::set\+Is\+Billing (
+\begin{DoxyParamCaption}
+\item[{bool}]{is\+Billing}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_aff8b71426c02bc97f0a724ef762cd42e}
+
+
+\hyperlink{classModels_1_1Billing_aff8b71426c02bc97f0a724ef762cd42e}{Billing\+::set\+Is\+Billing}. Modify {\itshape is\+Billing} of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Billing} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}{\index{Models\+::\+Billing@{Models\+::\+Billing}!set\+Number@{set\+Number}}
+\index{set\+Number@{set\+Number}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{set\+Number}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::set\+Number (
+\begin{DoxyParamCaption}
+\item[{int}]{get\+Number}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}
+
+
+\hyperlink{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}{Billing\+::set\+Number}. Modify {\itshape \+\_\+number} of \hyperlink{classModels_1_1Billing}{Billing}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Number} & the new number of the \hyperlink{classModels_1_1Billing}{Billing} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{\index{Models\+::\+Billing@{Models\+::\+Billing}!set\+Title@{set\+Title}}
+\index{set\+Title@{set\+Title}!Models\+::\+Billing@{Models\+::\+Billing}}
+\subsubsection[{set\+Title}]{\setlength{\rightskip}{0pt plus 5cm}void Models\+::\+Billing\+::set\+Title (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{get\+Title}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}
+
+
+\hyperlink{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{Billing\+::set\+Title}. Modify the title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\+Title} & Modify the title with {\itshape get\+Title} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/models/billing.\+h\item 
+src/models/billing.\+cpp\end{DoxyCompactItemize}

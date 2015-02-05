@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/widgetsmodels/contributoriestablemodel.h Source File</title>
+<title>FactDev: src/gui/widgets/widgetsmodels/contributoriestablemodel.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -74,56 +75,59 @@ $(document).ready(function(){initNavTree('d0/d03/contributoriestablemodel_8h_sou
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;models/contributory.h&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;log.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;utils/log.h&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d4/d24/classContributoriesTableModel.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d24/classContributoriesTableModel.html">ContributoriesTableModel</a> : <span class="keyword">public</span> QAbstractTableModel</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a7fb98c9bddccafe26319fc75ee92c80b">ContributoriesTableModel</a>(QObject* parent = 0);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/classContributoriesTableModel.html#abab4002f904986345347dd43aa815380">rowCount</a>(<span class="keyword">const</span> QModelIndex &amp;) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/classContributoriesTableModel.html#ae4734e8d3be16e8be792fe6eacee8095">columnCount</a>(<span class="keyword">const</span> QModelIndex &amp;) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    QVariant <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a6be653469563e4a78ce5934963f9c602">data</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">int</span> role) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    QVariant <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a6500cff8e7312227347b971bd47e1190">headerData</a>(<span class="keywordtype">int</span> section, Qt::Orientation orientation, <span class="keywordtype">int</span> role) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;     <span class="keywordtype">bool</span> <a class="code" href="../../d4/d24/classContributoriesTableModel.html#aabe9da4a6f1e5027879ed7132aa03d01">setData</a>(<span class="keyword">const</span> QModelIndex &amp; index, <span class="keyword">const</span> QVariant &amp; value, <span class="keywordtype">int</span> role = Qt::EditRole);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a940072d62162b130bfd0cec0c6fd4567">append</a>(<span class="keyword">const</span> <a class="code" href="../../d5/d09/classContributory.html">Contributory</a> &amp; contributory);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> i);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Qt::ItemFlags <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a7be83a445e2b0cc5b9751691ed33499b">flags</a>(<span class="keyword">const</span> QModelIndex &amp; index) <span class="keyword">const</span> ;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dd/d20/namespaceModels.html">Models</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d4/d3d/namespaceUtils.html">Utils</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>WdgModels {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">ContributoriesTableModel</a> : <span class="keyword">public</span> QAbstractTableModel</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">ContributoriesTableModel</a>(QObject* parent = 0);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> rowCount(<span class="keyword">const</span> QModelIndex &amp;) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> columnCount(<span class="keyword">const</span> QModelIndex &amp;) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    QVariant data(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">int</span> role) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    QVariant headerData(<span class="keywordtype">int</span> section, Qt::Orientation orientation, <span class="keywordtype">int</span> role) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;     <span class="keywordtype">bool</span> setData(<span class="keyword">const</span> QModelIndex &amp; index, <span class="keyword">const</span> QVariant &amp; value, <span class="keywordtype">int</span> role = Qt::EditRole);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> append(<span class="keyword">const</span> <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Contributory</a> &amp; contributory);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> i);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    QList&lt;Contributory&gt; <a class="code" href="../../d4/d24/classContributoriesTableModel.html#ae0aaacde6e79ccda128f589375f75e84">getContributories</a>();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/classContributoriesTableModel.html#a9bc91f439c8b8320e64ef0531e8d5c62">count</a>();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    QList&lt;Contributory&gt; _contributories; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    QList&lt;Contributory&gt; _contributoriesToRemoved; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;};</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORIESTABLEMODEL_H</span></div>
-<div class="ttc" id="classContributoriesTableModel_html_a7fb98c9bddccafe26319fc75ee92c80b"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a7fb98c9bddccafe26319fc75ee92c80b">ContributoriesTableModel::ContributoriesTableModel</a></div><div class="ttdeci">ContributoriesTableModel(QObject *parent=0)</div><div class="ttdoc">ContributoriesTableModel Construct a ContributoriesTableModel. </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:3</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_a6500cff8e7312227347b971bd47e1190"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a6500cff8e7312227347b971bd47e1190">ContributoriesTableModel::headerData</a></div><div class="ttdeci">QVariant headerData(int section, Qt::Orientation orientation, int role) const </div><div class="ttdoc">headerData Obtains header title of table </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:29</div></div>
-<div class="ttc" id="classContributory_html"><div class="ttname"><a href="../../d5/d09/classContributory.html">Contributory</a></div><div class="ttdoc">The Contributory class. </div><div class="ttdef"><b>Definition:</b> contributory.h:10</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_ae4734e8d3be16e8be792fe6eacee8095"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#ae4734e8d3be16e8be792fe6eacee8095">ContributoriesTableModel::columnCount</a></div><div class="ttdeci">int columnCount(const QModelIndex &amp;) const </div><div class="ttdoc">columnCount Number of column of a contributory </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:11</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_a940072d62162b130bfd0cec0c6fd4567"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a940072d62162b130bfd0cec0c6fd4567">ContributoriesTableModel::append</a></div><div class="ttdeci">void append(const Contributory &amp;contributory)</div><div class="ttdoc">append Add a new line in table </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:67</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_a6be653469563e4a78ce5934963f9c602"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a6be653469563e4a78ce5934963f9c602">ContributoriesTableModel::data</a></div><div class="ttdeci">QVariant data(const QModelIndex &amp;index, int role) const </div><div class="ttdoc">data Obtains data of a specify cell </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:15</div></div>
-<div class="ttc" id="classContributoriesTableModel_html"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html">ContributoriesTableModel</a></div><div class="ttdoc">The ContributoriesTableModel class for a custom table for contributories widget. </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.h:15</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_a9bc91f439c8b8320e64ef0531e8d5c62"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a9bc91f439c8b8320e64ef0531e8d5c62">ContributoriesTableModel::count</a></div><div class="ttdeci">int count()</div><div class="ttdoc">count Number of contributories in table </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:92</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_a7be83a445e2b0cc5b9751691ed33499b"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#a7be83a445e2b0cc5b9751691ed33499b">ContributoriesTableModel::flags</a></div><div class="ttdeci">Qt::ItemFlags flags(const QModelIndex &amp;index) const </div><div class="ttdoc">flags Differents table flags </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:82</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_ae0aaacde6e79ccda128f589375f75e84"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#ae0aaacde6e79ccda128f589375f75e84">ContributoriesTableModel::getContributories</a></div><div class="ttdeci">QList&lt; Contributory &gt; getContributories()</div><div class="ttdoc">getContributories Get all contributories of table </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:87</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_aabe9da4a6f1e5027879ed7132aa03d01"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#aabe9da4a6f1e5027879ed7132aa03d01">ContributoriesTableModel::setData</a></div><div class="ttdeci">bool setData(const QModelIndex &amp;index, const QVariant &amp;value, int role=Qt::EditRole)</div><div class="ttdoc">setData Change data of a cell </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:46</div></div>
-<div class="ttc" id="classContributoriesTableModel_html_abab4002f904986345347dd43aa815380"><div class="ttname"><a href="../../d4/d24/classContributoriesTableModel.html#abab4002f904986345347dd43aa815380">ContributoriesTableModel::rowCount</a></div><div class="ttdeci">int rowCount(const QModelIndex &amp;) const </div><div class="ttdoc">rowCount Number of contributories row </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.cpp:7</div></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    Qt::ItemFlags flags(<span class="keyword">const</span> QModelIndex &amp; index) <span class="keyword">const</span> ;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    QList&lt;Contributory&gt; getContributories();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> count();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    QList&lt;Contributory&gt; _contributories; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    QList&lt;Contributory&gt; _contributoriesToRemoved; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;};</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORIESTABLEMODEL_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_html"><div class="ttname"><a href="../../dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html">Gui::Widgets::WdgModels::ContributoriesTableModel</a></div><div class="ttdoc">The ContributoriesTableModel class for a custom table for contributories widget. </div><div class="ttdef"><b>Definition:</b> contributoriestablemodel.h:22</div></div>
+<div class="ttc" id="classModels_1_1Contributory_html"><div class="ttname"><a href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a></div><div class="ttdoc">The Contributory class. </div><div class="ttdef"><b>Definition:</b> contributory.h:11</div></div>
+<div class="ttc" id="namespaceModels_html"><div class="ttname"><a href="../../dd/d20/namespaceModels.html">Models</a></div><div class="ttdoc">Models classes. </div><div class="ttdef"><b>Definition:</b> billing.cpp:7</div></div>
+<div class="ttc" id="namespaceUtils_html"><div class="ttname"><a href="../../d4/d3d/namespaceUtils.html">Utils</a></div><div class="ttdef"><b>Definition:</b> itemtype.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_bd05c1a27c2a43e11919786bc921e584.html">widgetsmodels</a></li><li class="navelem"><b>contributoriestablemodel.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_510d0097101e86f8d90349dc8de0e8e3.html">widgetsmodels</a></li><li class="navelem"><b>contributoriestablemodel.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

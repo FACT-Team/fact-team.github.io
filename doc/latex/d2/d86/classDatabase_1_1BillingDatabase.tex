@@ -1,0 +1,206 @@
+\hypertarget{classDatabase_1_1BillingDatabase}{\section{Database\+:\+:Billing\+Database Class Reference}
+\label{classDatabase_1_1BillingDatabase}\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+}
+
+
+The {\bfseries \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database}} class Billing (or Quote) table database.  
+
+
+
+
+{\ttfamily \#include $<$billingdatabase.\+h$>$}
+
+Inheritance diagram for Database\+:\+:Billing\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d86/classDatabase_1_1BillingDatabase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModels_1_1Billing}{Models\+::\+Billing} $\ast$ \hyperlink{classDatabase_1_1BillingDatabase_a3063746cff15d93c4f5f319d53381579}{get\+Billing} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em Billing\+Database\+::get\+Customer get informations about the billing identified by {\itshape p\+Id} \end{DoxyCompactList}\item 
+Q\+Standard\+Item\+Model $\ast$ \hyperlink{classDatabase_1_1BillingDatabase_a3d3aec676ed5f7862197cac63adb18e9}{get\+Billings\+Table} (const int id\+Project)  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1BillingDatabase_a3d3aec676ed5f7862197cac63adb18e9}{Billing\+Database\+::get\+Billings\+Table} Return an item model of billings for Q\+Table\+View. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1BillingDatabase_aa08b3b4917eb6c447ef513e5aafff38f}{add\+Billing} (const \hyperlink{classModels_1_1Billing}{Models\+::\+Billing} \&)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1BillingDatabase_aa08b3b4917eb6c447ef513e5aafff38f}{Billing\+Database\+::add\+Billing} Add the billing {\itshape p\+Billing} to the database. \end{DoxyCompactList}\item 
+\hypertarget{classDatabase_1_1BillingDatabase_a59830561e9573ab3ce463e9dc1b68a0c}{void \hyperlink{classDatabase_1_1BillingDatabase_a59830561e9573ab3ce463e9dc1b68a0c}{update\+Billing} (const \hyperlink{classModels_1_1Billing}{Models\+::\+Billing} \&)}\label{classDatabase_1_1BillingDatabase_a59830561e9573ab3ce463e9dc1b68a0c}
+
+\begin{DoxyCompactList}\small\item\em Billing\+Database\+::update\+Customer Update informations about the billing {\itshape p\+Customer} \end{DoxyCompactList}\item 
+void \hyperlink{classDatabase_1_1BillingDatabase_af419d6b120523e9c67d5c89bcfcd44dd}{remove\+Billing} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em Billing\+Database\+::remove\+Customer Remove the billing with the id {\itshape p\+Id} \end{DoxyCompactList}\item 
+void \hyperlink{classDatabase_1_1BillingDatabase_a38514a0874d27551c67d56b9a7ec340e}{add\+Billing\+Project} (const int id\+Project, const int id\+Billing, const int id\+Contributory)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1BillingDatabase_a38514a0874d27551c67d56b9a7ec340e}{Billing\+Database\+::add\+Billing\+Project} Link a project, a billing and a contributory in the table Billing\+Project. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1BillingDatabase_ac00c08641d0f4cc0596430f8e888ee38}{get\+Max\+Billing\+Number} ()
+\begin{DoxyCompactList}\small\item\em get\+Max\+Billing\+Number Get the last number of a billing \end{DoxyCompactList}\item 
+int \hyperlink{classDatabase_1_1BillingDatabase_ad9fe39d053a7f8686e1d94bc41eda03e}{get\+Max\+Quote\+Nuber} ()
+\begin{DoxyCompactList}\small\item\em get\+Max\+Quote\+Nuber Get the last number of a quote \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database} $\ast$ \hyperlink{classDatabase_1_1BillingDatabase_a3ab4bd6cc25a186856aac757d6213aa0}{instance} ()  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em Billing\+Database\+::get\+Instance Return an instance of {\bfseries \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The {\bfseries \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database}} class Billing (or Quote) table database. 
+
+\begin{DoxyAuthor}{Author}
+Cédric Rohaut  
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classDatabase_1_1Database}{Database} 
+
+Billing/\+Quote 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDatabase_1_1BillingDatabase_aa08b3b4917eb6c447ef513e5aafff38f}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!add\+Billing@{add\+Billing}}
+\index{add\+Billing@{add\+Billing}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{add\+Billing}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Billing\+Database\+::add\+Billing (
+\begin{DoxyParamCaption}
+\item[{const {\bf Models\+::\+Billing} \&}]{p\+Billing}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_aa08b3b4917eb6c447ef513e5aafff38f}
+
+
+\hyperlink{classDatabase_1_1BillingDatabase_aa08b3b4917eb6c447ef513e5aafff38f}{Billing\+Database\+::add\+Billing} Add the billing {\itshape p\+Billing} to the database. 
+
+\begin{DoxyReturn}{Returns}
+billing id 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_a38514a0874d27551c67d56b9a7ec340e}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!add\+Billing\+Project@{add\+Billing\+Project}}
+\index{add\+Billing\+Project@{add\+Billing\+Project}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{add\+Billing\+Project}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Billing\+Database\+::add\+Billing\+Project (
+\begin{DoxyParamCaption}
+\item[{const int}]{id\+Project, }
+\item[{const int}]{id\+Billing, }
+\item[{const int}]{id\+Contributory}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_a38514a0874d27551c67d56b9a7ec340e}
+
+
+\hyperlink{classDatabase_1_1BillingDatabase_a38514a0874d27551c67d56b9a7ec340e}{Billing\+Database\+::add\+Billing\+Project} Link a project, a billing and a contributory in the table Billing\+Project. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Project} & Project id \\
+\hline
+{\em id\+Billing} & Billing id \\
+\hline
+{\em id\+Contributory} & Contributory id \\
+\hline
+\end{DoxyParams}
+\hypertarget{classDatabase_1_1BillingDatabase_a3063746cff15d93c4f5f319d53381579}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!get\+Billing@{get\+Billing}}
+\index{get\+Billing@{get\+Billing}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{get\+Billing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+Billing} $\ast$ Database\+::\+Billing\+Database\+::get\+Billing (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_a3063746cff15d93c4f5f319d53381579}
+
+
+Billing\+Database\+::get\+Customer get informations about the billing identified by {\itshape p\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & billing id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Billing 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_a3d3aec676ed5f7862197cac63adb18e9}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!get\+Billings\+Table@{get\+Billings\+Table}}
+\index{get\+Billings\+Table@{get\+Billings\+Table}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{get\+Billings\+Table}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Standard\+Item\+Model $\ast$ Database\+::\+Billing\+Database\+::get\+Billings\+Table (
+\begin{DoxyParamCaption}
+\item[{const int}]{id\+Project}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) }}\label{classDatabase_1_1BillingDatabase_a3d3aec676ed5f7862197cac63adb18e9}
+
+
+\hyperlink{classDatabase_1_1BillingDatabase_a3d3aec676ed5f7862197cac63adb18e9}{Billing\+Database\+::get\+Billings\+Table} Return an item model of billings for Q\+Table\+View. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & the project id of the billings returned \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Db\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+Q\+Standard\+Item\+Model an item model for Q\+Table\+View 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_ac00c08641d0f4cc0596430f8e888ee38}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!get\+Max\+Billing\+Number@{get\+Max\+Billing\+Number}}
+\index{get\+Max\+Billing\+Number@{get\+Max\+Billing\+Number}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{get\+Max\+Billing\+Number}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Billing\+Database\+::get\+Max\+Billing\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_ac00c08641d0f4cc0596430f8e888ee38}
+
+
+get\+Max\+Billing\+Number Get the last number of a billing 
+
+\begin{DoxyReturn}{Returns}
+The max number 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_ad9fe39d053a7f8686e1d94bc41eda03e}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!get\+Max\+Quote\+Nuber@{get\+Max\+Quote\+Nuber}}
+\index{get\+Max\+Quote\+Nuber@{get\+Max\+Quote\+Nuber}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{get\+Max\+Quote\+Nuber}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Billing\+Database\+::get\+Max\+Quote\+Nuber (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_ad9fe39d053a7f8686e1d94bc41eda03e}
+
+
+get\+Max\+Quote\+Nuber Get the last number of a quote 
+
+\begin{DoxyReturn}{Returns}
+The last number 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_a3ab4bd6cc25a186856aac757d6213aa0}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!instance@{instance}}
+\index{instance@{instance}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Billing\+Database} $\ast$ Database\+::\+Billing\+Database\+::instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) \hspace{0.3cm}{\ttfamily [static]}}}\label{classDatabase_1_1BillingDatabase_a3ab4bd6cc25a186856aac757d6213aa0}
+
+
+Billing\+Database\+::get\+Instance Return an instance of {\bfseries \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database}} 
+
+\begin{DoxySeeAlso}{See also}
+Db\+Exception 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+Instance of \hyperlink{classDatabase_1_1BillingDatabase}{Billing\+Database} 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1BillingDatabase_af419d6b120523e9c67d5c89bcfcd44dd}{\index{Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}!remove\+Billing@{remove\+Billing}}
+\index{remove\+Billing@{remove\+Billing}!Database\+::\+Billing\+Database@{Database\+::\+Billing\+Database}}
+\subsubsection[{remove\+Billing}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Billing\+Database\+::remove\+Billing (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1BillingDatabase_af419d6b120523e9c67d5c89bcfcd44dd}
+
+
+Billing\+Database\+::remove\+Customer Remove the billing with the id {\itshape p\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & billing id \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/database/billingdatabase.\+h\item 
+src/database/billingdatabase.\+cpp\end{DoxyCompactItemize}

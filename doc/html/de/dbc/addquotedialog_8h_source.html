@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/dialogs/addquotedialog.h Source File</title>
+<title>FactDev: src/gui/dialogs/addquotedialog.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -73,46 +74,48 @@ $(document).ready(function(){initNavTree('de/dbc/addquotedialog_8h_source.html',
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QDialog&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;models/billing.h&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;widgets/contributorieswidget.h&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/dd0/classAddQuoteDialog.html">AddQuoteDialog</a>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d6/dd0/classAddQuoteDialog.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/dd0/classAddQuoteDialog.html">AddQuoteDialog</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d6/dd0/classAddQuoteDialog.html#abffc6ab5550345bf6cfa57d0a4f2b8b4">AddQuoteDialog</a>(<span class="keywordtype">int</span> idCustomer = 0, <span class="keywordtype">int</span> <span class="keywordtype">id</span> = 0, QWidget *parent = 0);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    ~<a class="code" href="../../d6/dd0/classAddQuoteDialog.html">AddQuoteDialog</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/dd0/classAddQuoteDialog.html#ae9ad47fdc3babc6546ed3708873c0d05">fillFields</a>();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/dd0/classAddQuoteDialog.html#a5926a2d7b00ddc3f623b34ee4489277f">accept</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/dd0/classAddQuoteDialog.html#a8d639a263877c3bb10bda6ece25f0234">reject</a>();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> updateBtn(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../df/d81/classBilling.html">Billing</a> *_quote;        </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    Ui::AddQuoteDialog *ui; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // ADDQUOTEDIALOG_H</span></div>
-<div class="ttc" id="classAddQuoteDialog_html_ae9ad47fdc3babc6546ed3708873c0d05"><div class="ttname"><a href="../../d6/dd0/classAddQuoteDialog.html#ae9ad47fdc3babc6546ed3708873c0d05">AddQuoteDialog::fillFields</a></div><div class="ttdeci">void fillFields()</div><div class="ttdoc">AddQuoteDialog::Fill line edits with the data of the quote. </div><div class="ttdef"><b>Definition:</b> addquotedialog.cpp:35</div></div>
-<div class="ttc" id="classAddQuoteDialog_html_a5926a2d7b00ddc3f623b34ee4489277f"><div class="ttname"><a href="../../d6/dd0/classAddQuoteDialog.html#a5926a2d7b00ddc3f623b34ee4489277f">AddQuoteDialog::accept</a></div><div class="ttdeci">void accept()</div><div class="ttdoc">AddQuoteDialog::accept Valid data inputed by user and add these data in Database. ...</div><div class="ttdef"><b>Definition:</b> addquotedialog.cpp:40</div></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;gui/widgets/contributorieswidget.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dd/d20/namespaceModels.html">Models</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>AddQuoteDialog;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>Dialogs {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html">AddQuoteDialog</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html">AddQuoteDialog</a>(<span class="keywordtype">int</span> idCustomer = 0, <span class="keywordtype">int</span> <span class="keywordtype">id</span> = 0, QWidget *parent = 0);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ~<a class="code" href="../../d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html">AddQuoteDialog</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> fillFields();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> accept();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> reject();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> updateBtn(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d4/d5c/classModels_1_1Billing.html">Billing</a> *_quote;        </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    Ui::AddQuoteDialog *ui; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;};</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif // ADDQUOTEDIALOG_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
 <div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
-<div class="ttc" id="classBilling_html"><div class="ttname"><a href="../../df/d81/classBilling.html">Billing</a></div><div class="ttdoc">The Billing class : Billing or Quote of a Customer. </div><div class="ttdef"><b>Definition:</b> billing.h:18</div></div>
-<div class="ttc" id="classAddQuoteDialog_html_abffc6ab5550345bf6cfa57d0a4f2b8b4"><div class="ttname"><a href="../../d6/dd0/classAddQuoteDialog.html#abffc6ab5550345bf6cfa57d0a4f2b8b4">AddQuoteDialog::AddQuoteDialog</a></div><div class="ttdeci">AddQuoteDialog(int idCustomer=0, int id=0, QWidget *parent=0)</div><div class="ttdoc">AddQuoteDialog::AddQuoteDialog Construct a windows AddQuoteDialog. </div><div class="ttdef"><b>Definition:</b> addquotedialog.cpp:4</div></div>
-<div class="ttc" id="classAddQuoteDialog_html_a8d639a263877c3bb10bda6ece25f0234"><div class="ttname"><a href="../../d6/dd0/classAddQuoteDialog.html#a8d639a263877c3bb10bda6ece25f0234">AddQuoteDialog::reject</a></div><div class="ttdeci">void reject()</div><div class="ttdoc">AddQuoteDialog::reject Cancel the operation and close the windows. </div><div class="ttdef"><b>Definition:</b> addquotedialog.cpp:52</div></div>
-<div class="ttc" id="classAddQuoteDialog_html"><div class="ttname"><a href="../../d6/dd0/classAddQuoteDialog.html">AddQuoteDialog</a></div><div class="ttdoc">The AddQuoteDialog class Window to add or modify a Quote. </div><div class="ttdef"><b>Definition:</b> addquotedialog.h:17</div></div>
+<div class="ttc" id="classModels_1_1Billing_html"><div class="ttname"><a href="../../d4/d5c/classModels_1_1Billing.html">Models::Billing</a></div><div class="ttdoc">The Billing class : Billing or Quote of a Customer. </div><div class="ttdef"><b>Definition:</b> billing.h:19</div></div>
+<div class="ttc" id="classGui_1_1Dialogs_1_1AddQuoteDialog_html"><div class="ttname"><a href="../../d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html">Gui::Dialogs::AddQuoteDialog</a></div><div class="ttdoc">The AddQuoteDialog class Window to add or modify a Quote. </div><div class="ttdef"><b>Definition:</b> addquotedialog.h:20</div></div>
+<div class="ttc" id="namespaceModels_html"><div class="ttname"><a href="../../dd/d20/namespaceModels.html">Models</a></div><div class="ttdoc">Models classes. </div><div class="ttdef"><b>Definition:</b> billing.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_9870864803860a03def48f6710b1f137.html">dialogs</a></li><li class="navelem"><b>addquotedialog.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_efbc4204d7eafacd192acb41efadd819.html">dialogs</a></li><li class="navelem"><b>addquotedialog.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
