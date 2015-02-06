@@ -1,7 +1,7 @@
 var classCustomerDatabase =
 [
     [ "addCustomer", "dc/d7c/classCustomerDatabase.html#a522337809fe7588ddc8b5eb27b0cb640", null ],
-    [ "getCustomer", "dc/d7c/classCustomerDatabase.html#ae510e11ab1efe33b8e1da21bc1ca6f2d", null ],
+    [ "getCustomer", "dc/d7c/classCustomerDatabase.html#aeb91691412f371795a0473555e31614c", null ],
     [ "getCustomersTable", "dc/d7c/classCustomerDatabase.html#a2e25b4f197ccbdd2c5753558dbe18d4b", null ],
     [ "getCustomersTree", "dc/d7c/classCustomerDatabase.html#a0fc1ca7fe1020cef19b2423531c4e934", null ],
     [ "getNbCustomers", "dc/d7c/classCustomerDatabase.html#a1c60ecbaa2594426b522746c70beee19", null ],

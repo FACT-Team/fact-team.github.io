@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/popup.h Source File</title>
+<title>FactDev: src/gui/widgets/popup.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -72,22 +73,29 @@ $(document).ready(function(){initNavTree('db/d70/popup_8h_source.html','../../')
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d7/d6b/classPopup.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d7/d6b/classPopup.html">Popup</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d7/d6b/classPopup.html#aa3173e0f473b42f08363c4ef17c93a07">toImplement</a>(QString, QWidget*);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif // POPUP_H</span></div>
-<div class="ttc" id="classPopup_html_aa3173e0f473b42f08363c4ef17c93a07"><div class="ttname"><a href="../../d7/d6b/classPopup.html#aa3173e0f473b42f08363c4ef17c93a07">Popup::toImplement</a></div><div class="ttdeci">static void toImplement(QString, QWidget *)</div><div class="ttdoc">Popup::toImplement Method to display a critical message : feature is not implemented now...</div><div class="ttdef"><b>Definition:</b> popup.cpp:5</div></div>
-<div class="ttc" id="classPopup_html"><div class="ttname"><a href="../../d7/d6b/classPopup.html">Popup</a></div><div class="ttdoc">Class for display popup quickly. </div><div class="ttdef"><b>Definition:</b> popup.h:11</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QMessageBox&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;utils/log.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d4/d2f/classGui_1_1Widgets_1_1Popup.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d2f/classGui_1_1Widgets_1_1Popup.html">Popup</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d4/d2f/classGui_1_1Widgets_1_1Popup.html#ac4a9958b16b454eab84eeb95a1f01fa7">toImplement</a>(QString, QWidget*);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif // POPUP_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Popup_html"><div class="ttname"><a href="../../d4/d2f/classGui_1_1Widgets_1_1Popup.html">Gui::Widgets::Popup</a></div><div class="ttdoc">Class for display popup quickly. </div><div class="ttdef"><b>Definition:</b> popup.h:16</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Popup_html_ac4a9958b16b454eab84eeb95a1f01fa7"><div class="ttname"><a href="../../d4/d2f/classGui_1_1Widgets_1_1Popup.html#ac4a9958b16b454eab84eeb95a1f01fa7">Gui::Widgets::Popup::toImplement</a></div><div class="ttdeci">static void toImplement(QString, QWidget *)</div><div class="ttdoc">Popup::toImplement Method to display a critical message : feature is not implemented now...</div><div class="ttdef"><b>Definition:</b> popup.cpp:4</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>popup.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>popup.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

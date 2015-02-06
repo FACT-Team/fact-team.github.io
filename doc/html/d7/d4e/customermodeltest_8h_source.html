@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -72,29 +73,31 @@ $(document).ready(function(){initNavTree('d7/d4e/customermodeltest_8h_source.htm
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;QTestRunner/testrunner.h&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;models/customer.h&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d5/dcd/classCustomerModelTest.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">void</span> equals1();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">void</span> equals2();</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> notEquals();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">void</span> commitUpdate();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> commitInsert();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> hydrat();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d9/d12/classCustomer.html">Customer</a> c1;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d9/d12/classCustomer.html">Customer</a> c2;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;DECLARE_TEST(<a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a>)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif // CUSTOMERMODELTEST_H</span></div>
-<div class="ttc" id="classCustomer_html"><div class="ttname"><a href="../../d9/d12/classCustomer.html">Customer</a></div><div class="ttdoc">The Customer class Customer. </div><div class="ttdef"><b>Definition:</b> customer.h:11</div></div>
-<div class="ttc" id="classCustomerModelTest_html"><div class="ttname"><a href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a></div><div class="ttdef"><b>Definition:</b> customermodeltest.h:6</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dd/d20/namespaceModels.html">Models</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d5/dcd/classCustomerModelTest.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">void</span> equals1();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> equals2();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> notEquals();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> commitUpdate();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> commitInsert();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> hydrat();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> c1;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> c2;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;DECLARE_TEST(<a class="code" href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a>)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif // CUSTOMERMODELTEST_H</span></div>
+<div class="ttc" id="classModels_1_1Customer_html"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a></div><div class="ttdoc">The Customer class Customer. </div><div class="ttdef"><b>Definition:</b> customer.h:13</div></div>
+<div class="ttc" id="namespaceModels_html"><div class="ttname"><a href="../../dd/d20/namespaceModels.html">Models</a></div><div class="ttdoc">Models classes. </div><div class="ttdef"><b>Definition:</b> billing.cpp:7</div></div>
+<div class="ttc" id="classCustomerModelTest_html"><div class="ttname"><a href="../../d5/dcd/classCustomerModelTest.html">CustomerModelTest</a></div><div class="ttdef"><b>Definition:</b> customermodeltest.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

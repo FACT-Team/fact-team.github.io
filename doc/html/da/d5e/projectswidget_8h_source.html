@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/projectswidget.h Source File</title>
+<title>FactDev: src/gui/widgets/projectswidget.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -72,34 +73,57 @@ $(document).ready(function(){initNavTree('da/d5e/projectswidget_8h_source.html',
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span><a class="code" href="../../de/da7/classProjectsWidget.html">ProjectsWidget</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../de/da7/classProjectsWidget.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/da7/classProjectsWidget.html">ProjectsWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../de/da7/classProjectsWidget.html">ProjectsWidget</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    ~<a class="code" href="../../de/da7/classProjectsWidget.html">ProjectsWidget</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> newProject();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> editSelectedProject();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> removeSelectedProject();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    Ui::ProjectsWidget *ui;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // PROJECTSWIDGET_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;gui/dialogs/addprojectdialog.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>ProjectsWidget;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html">ProjectsWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a400712a956057c7233c396bffeb7a086">ProjectsWidget</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    ~<a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html">ProjectsWidget</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#acd6cd65ef7bf569ce4e44436d2f8b4f4">newProject</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a33284320194d2c20ac6a47ebaaa57ad4">editSelectedProject</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a02d9111ae56ff401bc512fa218161d94">removeSelectedProject</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;signals:</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a25a20fde082c2698d7067d10e5795c0f">addProject</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a8a49da147544ffd78131af2b9289c9d0">editProject</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#ac713b0c5c9afba988923fe3e29b405dc">removeProject</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    Ui::ProjectsWidget *ui; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif // PROJECTSWIDGET_H</span></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html">Gui::Widgets::ProjectsWidget</a></div><div class="ttdoc">The ProjectsWidget class Actions on Project. </div><div class="ttdef"><b>Definition:</b> projectswidget.h:18</div></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
 <div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
-<div class="ttc" id="classProjectsWidget_html"><div class="ttname"><a href="../../de/da7/classProjectsWidget.html">ProjectsWidget</a></div><div class="ttdoc">The ProjectsWidget class. </div><div class="ttdef"><b>Definition:</b> projectswidget.h:14</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_acd6cd65ef7bf569ce4e44436d2f8b4f4"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#acd6cd65ef7bf569ce4e44436d2f8b4f4">Gui::Widgets::ProjectsWidget::newProject</a></div><div class="ttdeci">void newProject()</div><div class="ttdoc">ProjectsWidget::newProject Event which sends a signal to add a new project. </div><div class="ttdef"><b>Definition:</b> projectswidget.cpp:18</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_a33284320194d2c20ac6a47ebaaa57ad4"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a33284320194d2c20ac6a47ebaaa57ad4">Gui::Widgets::ProjectsWidget::editSelectedProject</a></div><div class="ttdeci">void editSelectedProject()</div><div class="ttdoc">ProjectsWidget::editSelectedProject Event which sends a signal to edit the project selected...</div><div class="ttdef"><b>Definition:</b> projectswidget.cpp:23</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_a400712a956057c7233c396bffeb7a086"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a400712a956057c7233c396bffeb7a086">Gui::Widgets::ProjectsWidget::ProjectsWidget</a></div><div class="ttdeci">ProjectsWidget(QWidget *parent=0)</div><div class="ttdoc">ProjectsWidget::ProjectsWidget Construct a ProjectsWidget. </div><div class="ttdef"><b>Definition:</b> projectswidget.cpp:6</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_a25a20fde082c2698d7067d10e5795c0f"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a25a20fde082c2698d7067d10e5795c0f">Gui::Widgets::ProjectsWidget::addProject</a></div><div class="ttdeci">void addProject()</div><div class="ttdoc">ProjectsWidget::addProject Add a new project to the current Customer. </div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_ac713b0c5c9afba988923fe3e29b405dc"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#ac713b0c5c9afba988923fe3e29b405dc">Gui::Widgets::ProjectsWidget::removeProject</a></div><div class="ttdeci">void removeProject()</div><div class="ttdoc">ProjectsWidget::removeProject Remove the current Customer selected. </div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_a02d9111ae56ff401bc512fa218161d94"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a02d9111ae56ff401bc512fa218161d94">Gui::Widgets::ProjectsWidget::removeSelectedProject</a></div><div class="ttdeci">void removeSelectedProject()</div><div class="ttdoc">ProjectsWidget::removeSelectedProject Event which sends a signal to remove the project selected...</div><div class="ttdef"><b>Definition:</b> projectswidget.cpp:27</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1ProjectsWidget_html_a8a49da147544ffd78131af2b9289c9d0"><div class="ttname"><a href="../../dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a8a49da147544ffd78131af2b9289c9d0">Gui::Widgets::ProjectsWidget::editProject</a></div><div class="ttdeci">void editProject()</div><div class="ttdoc">ProjectsWidget::editProject Edit the current Customer selected. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>projectswidget.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>projectswidget.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

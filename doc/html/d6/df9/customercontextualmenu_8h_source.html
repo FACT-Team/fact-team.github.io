@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/customercontextualmenu.h Source File</title>
+<title>FactDev: src/gui/widgets/customercontextualmenu.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -72,26 +73,33 @@ $(document).ready(function(){initNavTree('d6/df9/customercontextualmenu_8h_sourc
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QMenu&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d5/db9/classCustomerContextualMenu.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/db9/classCustomerContextualMenu.html">CustomerContextualMenu</a> : <span class="keyword">public</span> QMenu</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d5/db9/classCustomerContextualMenu.html">CustomerContextualMenu</a>(QWidget* w=0);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    ~<a class="code" href="../../d5/db9/classCustomerContextualMenu.html">CustomerContextualMenu</a>();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    QAction* _removeAction; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    QAction* _editAction;   </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    QAction* _openAction;   </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif // CUSTOMERCONTEXTUALMENU_H</span></div>
-<div class="ttc" id="classCustomerContextualMenu_html"><div class="ttname"><a href="../../d5/db9/classCustomerContextualMenu.html">CustomerContextualMenu</a></div><div class="ttdoc">Display contextual menu on a customer. </div><div class="ttdef"><b>Definition:</b> customercontextualmenu.h:10</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html">CustomerContextualMenu</a> : <span class="keyword">public</span> QMenu</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#ab8fc199bd6adf21f7dd5e881e0a73b16">CustomerContextualMenu</a>(QWidget* w=0);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#a6814dcf744752f9026c85a9640cf23ef">~CustomerContextualMenu</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    QAction* _removeAction; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    QAction* _editAction;   </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    QAction* _openAction;   </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif // CUSTOMERCONTEXTUALMENU_H</span></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CustomerContextualMenu_html_ab8fc199bd6adf21f7dd5e881e0a73b16"><div class="ttname"><a href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#ab8fc199bd6adf21f7dd5e881e0a73b16">Gui::Widgets::CustomerContextualMenu::CustomerContextualMenu</a></div><div class="ttdeci">CustomerContextualMenu(QWidget *w=0)</div><div class="ttdoc">CustomerContextualMenu Construct a new contextual menu. </div><div class="ttdef"><b>Definition:</b> customercontextualmenu.cpp:5</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CustomerContextualMenu_html"><div class="ttname"><a href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html">Gui::Widgets::CustomerContextualMenu</a></div><div class="ttdoc">Display contextual menu on a customer. </div><div class="ttdef"><b>Definition:</b> customercontextualmenu.h:12</div></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CustomerContextualMenu_html_a6814dcf744752f9026c85a9640cf23ef"><div class="ttname"><a href="../../d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#a6814dcf744752f9026c85a9640cf23ef">Gui::Widgets::CustomerContextualMenu::~CustomerContextualMenu</a></div><div class="ttdeci">~CustomerContextualMenu()</div><div class="ttdoc">Destruct the contextual menu. </div><div class="ttdef"><b>Definition:</b> customercontextualmenu.cpp:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>customercontextualmenu.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>customercontextualmenu.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

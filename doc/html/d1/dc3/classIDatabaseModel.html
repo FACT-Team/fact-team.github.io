@@ -84,7 +84,7 @@ Inheritance diagram for IDatabaseModel:</div>
  <div class="center">
   <img src="../../d1/dc3/classIDatabaseModel.png" usemap="#IDatabaseModel_map" alt=""/>
   <map id="IDatabaseModel_map" name="IDatabaseModel_map">
-<area href="../../df/d81/classBilling.html" title="The Billing class : Billing of a Customer. " alt="Billing" shape="rect" coords="0,56,103,80"/>
+<area href="../../df/d81/classBilling.html" title="The Billing class : Billing or Quote of a Customer. " alt="Billing" shape="rect" coords="0,56,103,80"/>
 <area href="../../d5/d09/classContributory.html" title="The Contributory class. " alt="Contributory" shape="rect" coords="113,56,216,80"/>
 <area href="../../d9/d12/classCustomer.html" title="The Customer class Customer. " alt="Customer" shape="rect" coords="226,56,329,80"/>
 <area href="../../db/d91/classProject.html" title="The Project class : Project linked to a Customer. " alt="Project" shape="rect" coords="339,56,442,80"/>
@@ -94,6 +94,10 @@ Inheritance diagram for IDatabaseModel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a85b66486922fe56a18c897cf93ed33a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85b66486922fe56a18c897cf93ed33a2"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a85b66486922fe56a18c897cf93ed33a2">~IDatabaseModel</a> ()</td></tr>
+<tr class="memdesc:a85b66486922fe56a18c897cf93ed33a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">~IDatabaseModel Remove an instance of <a class="el" href="../../d1/dc3/classIDatabaseModel.html" title="The IDatabaseModel class. ">IDatabaseModel</a> <br /></td></tr>
+<tr class="separator:a85b66486922fe56a18c897cf93ed33a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4fd70557c1815d100df17ba0751cbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d4fd70557c1815d100df17ba0751cbd"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a2d4fd70557c1815d100df17ba0751cbd">commit</a> ()=0</td></tr>
 <tr class="memdesc:a2d4fd70557c1815d100df17ba0751cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a2d4fd70557c1815d100df17ba0751cbd" title="IDatabaseModel::commit Update or insert data into the database. ">IDatabaseModel::commit</a> Update or insert data into the database. <br /></td></tr>
@@ -111,6 +115,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:ad4f47f3e25302c506ce98103e616ca57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#ad4f47f3e25302c506ce98103e616ca57">setId</a> (int id)</td></tr>
 <tr class="memdesc:ad4f47f3e25302c506ce98103e616ca57"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#ad4f47f3e25302c506ce98103e616ca57" title="IDatabaseModel::setId Replace the current identify by id ">IDatabaseModel::setId</a> Replace the current identify by <em>id</em>  <a href="#ad4f47f3e25302c506ce98103e616ca57">More...</a><br /></td></tr>
 <tr class="separator:ad4f47f3e25302c506ce98103e616ca57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a095166b2e37a0d07c4151a25ddbd89f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a095166b2e37a0d07c4151a25ddbd89f9">isToRemoved</a> () const </td></tr>
+<tr class="memdesc:a095166b2e37a0d07c4151a25ddbd89f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">toRemoved return if object must be removed.  <a href="#a095166b2e37a0d07c4151a25ddbd89f9">More...</a><br /></td></tr>
+<tr class="separator:a095166b2e37a0d07c4151a25ddbd89f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7d03b37e11a287dfe97a2e7bc12522"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a6c7d03b37e11a287dfe97a2e7bc12522">setToRemoved</a> (bool toRemoved)</td></tr>
+<tr class="memdesc:a6c7d03b37e11a287dfe97a2e7bc12522"><td class="mdescLeft">&#160;</td><td class="mdescRight">setToRemoved Change the flag for removed object  <a href="#a6c7d03b37e11a287dfe97a2e7bc12522">More...</a><br /></td></tr>
+<tr class="separator:a6c7d03b37e11a287dfe97a2e7bc12522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -118,6 +128,10 @@ Protected Attributes</h2></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a49f0ca7727c7d12eb78f670c882a3028">_id</a></td></tr>
 <tr class="memdesc:a49f0ca7727c7d12eb78f670c882a3028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element identify. <br /></td></tr>
 <tr class="separator:a49f0ca7727c7d12eb78f670c882a3028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3353a9530b1b9e4af91c02a944b050ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3353a9530b1b9e4af91c02a944b050ae"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classIDatabaseModel.html#a3353a9530b1b9e4af91c02a944b050ae">_toRemoved</a></td></tr>
+<tr class="memdesc:a3353a9530b1b9e4af91c02a944b050ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to know if the object must be removed. <br /></td></tr>
+<tr class="separator:a3353a9530b1b9e4af91c02a944b050ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="../../d1/dc3/classIDatabaseModel.html" title="The IDatabaseModel class. ">IDatabaseModel</a> class. </p>
@@ -179,7 +193,33 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="../../db/d91/classProject.html#aa966f15c9c8a277844a75c3530701525">Project</a>, <a class="el" href="../../df/d81/classBilling.html#a8beb72061cd53a964cf0ba3f04686613">Billing</a>, <a class="el" href="../../d9/d12/classCustomer.html#ac77f54786ea2bd4c1696c0a76301c639">Customer</a>, <a class="el" href="../../d9/dc0/classUser.html#a2e4160755d2189979b758929e832b12c">User</a>, and <a class="el" href="../../d5/d09/classContributory.html#a2b834e0288c93ba9ed70acf7a0b8c32d">Contributory</a>.</p>
+<p>Implemented in <a class="el" href="../../db/d91/classProject.html#aa966f15c9c8a277844a75c3530701525">Project</a>, <a class="el" href="../../df/d81/classBilling.html#a8beb72061cd53a964cf0ba3f04686613">Billing</a>, <a class="el" href="../../d5/d09/classContributory.html#a2b834e0288c93ba9ed70acf7a0b8c32d">Contributory</a>, <a class="el" href="../../d9/dc0/classUser.html#a2e4160755d2189979b758929e832b12c">User</a>, and <a class="el" href="../../d9/d12/classCustomer.html#ac77f54786ea2bd4c1696c0a76301c639">Customer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a095166b2e37a0d07c4151a25ddbd89f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDatabaseModel::isToRemoved </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>toRemoved return if object must be removed. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -209,6 +249,38 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>New identify </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6c7d03b37e11a287dfe97a2e7bc12522"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IDatabaseModel::setToRemoved </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toRemoved</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>setToRemoved Change the flag for removed object </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">toRemoved</td><td>The new flag </td></tr>
   </table>
   </dd>
 </dl>

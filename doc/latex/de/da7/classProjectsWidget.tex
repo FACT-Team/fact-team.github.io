@@ -3,7 +3,7 @@
 }
 
 
-The \hyperlink{classProjectsWidget}{Projects\+Widget} class.  
+The \hyperlink{classProjectsWidget}{Projects\+Widget} class Actions on \hyperlink{classProject}{Project}.  
 
 
 
@@ -19,29 +19,59 @@ Inheritance diagram for Projects\+Widget\+:\begin{figure}[H]
 \subsection*{Public Slots}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}{void {\bfseries new\+Project} ()}\label{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}
+\hypertarget{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}{void \hyperlink{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}{new\+Project} ()}\label{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}
 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a9a3e158093ed435a68d4d9874a22a128}{Projects\+Widget\+::new\+Project} Event which sends a signal to add a new project. \end{DoxyCompactList}\item 
+\hypertarget{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}{void \hyperlink{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}{edit\+Selected\+Project} ()}\label{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}{Projects\+Widget\+::edit\+Selected\+Project} Event which sends a signal to edit the project selected. \end{DoxyCompactList}\item 
+\hypertarget{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}{void \hyperlink{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}{remove\+Selected\+Project} ()}\label{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}{Projects\+Widget\+::remove\+Selected\+Project} Event which sends a signal to remove the project selected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
 \item 
-\hypertarget{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}{void {\bfseries edit\+Selected\+Project} ()}\label{classProjectsWidget_a026e17f035717e382f4afca6896a72d3}
+\hypertarget{classProjectsWidget_ae745e92738053b6c3a514725fec9616f}{void \hyperlink{classProjectsWidget_ae745e92738053b6c3a514725fec9616f}{add\+Project} ()}\label{classProjectsWidget_ae745e92738053b6c3a514725fec9616f}
 
-\item 
-\hypertarget{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}{void {\bfseries remove\+Selected\+Project} ()}\label{classProjectsWidget_a038205ca1dee68dadae84e31dabfd7fc}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_ae745e92738053b6c3a514725fec9616f}{Projects\+Widget\+::add\+Project} Add a new project to the current \hyperlink{classCustomer}{Customer}. \end{DoxyCompactList}\item 
+\hypertarget{classProjectsWidget_a7be5b1aebb295169b201ceb4a7e3301a}{void \hyperlink{classProjectsWidget_a7be5b1aebb295169b201ceb4a7e3301a}{edit\+Project} ()}\label{classProjectsWidget_a7be5b1aebb295169b201ceb4a7e3301a}
 
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a7be5b1aebb295169b201ceb4a7e3301a}{Projects\+Widget\+::edit\+Project} Edit the current \hyperlink{classCustomer}{Customer} selected. \end{DoxyCompactList}\item 
+\hypertarget{classProjectsWidget_a1ee6b31af551020de2aa560f18be0ccc}{void \hyperlink{classProjectsWidget_a1ee6b31af551020de2aa560f18be0ccc}{remove\+Project} ()}\label{classProjectsWidget_a1ee6b31af551020de2aa560f18be0ccc}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a1ee6b31af551020de2aa560f18be0ccc}{Projects\+Widget\+::remove\+Project} Remove the current \hyperlink{classCustomer}{Customer} selected. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}{{\bfseries Projects\+Widget} (Q\+Widget $\ast$parent=0)}\label{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}
-
-\end{DoxyCompactItemize}
+\hyperlink{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}{Projects\+Widget} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}{Projects\+Widget\+::\+Projects\+Widget} Construct a \hyperlink{classProjectsWidget}{Projects\+Widget}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-The \hyperlink{classProjectsWidget}{Projects\+Widget} class. 
+The \hyperlink{classProjectsWidget}{Projects\+Widget} class Actions on \hyperlink{classProject}{Project}. 
 
 \begin{DoxyAuthor}{Author}
 Florent Berbie 
 \end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}{\index{Projects\+Widget@{Projects\+Widget}!Projects\+Widget@{Projects\+Widget}}
+\index{Projects\+Widget@{Projects\+Widget}!Projects\+Widget@{Projects\+Widget}}
+\subsubsection[{Projects\+Widget}]{\setlength{\rightskip}{0pt plus 5cm}Projects\+Widget\+::\+Projects\+Widget (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}
+
+
+\hyperlink{classProjectsWidget_a542fb678c61897b56c86dc58524bd969}{Projects\+Widget\+::\+Projects\+Widget} Construct a \hyperlink{classProjectsWidget}{Projects\+Widget}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

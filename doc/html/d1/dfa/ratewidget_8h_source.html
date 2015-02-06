@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>FactDev: src/widgets/ratewidget.h Source File</title>
+<title>FactDev: src/gui/widgets/ratewidget.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -71,49 +72,59 @@ $(document).ready(function(){initNavTree('d1/dfa/ratewidget_8h_source.html','../
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define RATEWIDGET_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define LEGAL_RATE 9.61</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define NB_DAILY_HOURS 7</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da5/classRateWidget.html">RateWidget</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dc/da5/classRateWidget.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da5/classRateWidget.html">RateWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../dc/da5/classRateWidget.html#ad1cb6a97e47b408043e83708ff8af15e">RateWidget</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    ~<a class="code" href="../../dc/da5/classRateWidget.html">RateWidget</a>();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/da5/classRateWidget.html#a4a3ec9a546055d6ecb3bd1a9ee8082a6">initRate</a>();</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;models/project.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dd/d20/namespaceModels.html">Models</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../db/d3c/namespaceUi.html">Ui</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>RateWidget;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/dad/namespaceGui.html">Gui</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d0/de2/classGui_1_1Widgets_1_1RateWidget.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/de2/classGui_1_1Widgets_1_1RateWidget.html">RateWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d0/de2/classGui_1_1Widgets_1_1RateWidget.html">RateWidget</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ~<a class="code" href="../../d0/de2/classGui_1_1Widgets_1_1RateWidget.html">RateWidget</a>();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../dc/da5/classRateWidget.html#a0a72cea5ff524b47e513dcb21aea2022">getDailyRate</a>();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/da5/classRateWidget.html#a8a3bccabb5c33e9f617ed85a68398b5a">setDailyRate</a>(<span class="keywordtype">double</span> dailyRate);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> initRate();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> setWidgetDailyRateValue(<span class="keywordtype">double</span> value);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../dc/da5/classRateWidget.html#a50285d4472979e004c706ff5640e8227">getHourlyRate</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">double</span> getDailyRate();</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/da5/classRateWidget.html#a8135738c8a54389110de6751d9e2728e">setHourlyRate</a>(<span class="keywordtype">double</span> hourlyRate);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">double</span> getHourlyRate();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    Ui::RateWidget *ui; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif // RATEWIDGET_H</span></div>
-<div class="ttc" id="classRateWidget_html_a50285d4472979e004c706ff5640e8227"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#a50285d4472979e004c706ff5640e8227">RateWidget::getHourlyRate</a></div><div class="ttdeci">double getHourlyRate()</div><div class="ttdoc">getHourlyRate </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:31</div></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> setWidgetHourlyRateValue(<span class="keywordtype">double</span> value);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> updateConversionRate();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> setDailyRate();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> setHourlyRate();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    Ui::RateWidget *ui;         </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">bool</span> _isDailyRateModified;  </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;};</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif // RATEWIDGET_H</span></div>
+<div class="ttc" id="namespaceGui_html"><div class="ttname"><a href="../../d9/dad/namespaceGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.cpp:4</div></div>
 <div class="ttc" id="namespaceUi_html"><div class="ttname"><a href="../../db/d3c/namespaceUi.html">Ui</a></div><div class="ttdef"><b>Definition:</b> addcontributorydialog.h:6</div></div>
-<div class="ttc" id="classRateWidget_html_a0a72cea5ff524b47e513dcb21aea2022"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#a0a72cea5ff524b47e513dcb21aea2022">RateWidget::getDailyRate</a></div><div class="ttdeci">double getDailyRate()</div><div class="ttdoc">getDailyRate </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:23</div></div>
-<div class="ttc" id="classRateWidget_html_a8a3bccabb5c33e9f617ed85a68398b5a"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#a8a3bccabb5c33e9f617ed85a68398b5a">RateWidget::setDailyRate</a></div><div class="ttdeci">void setDailyRate(double dailyRate)</div><div class="ttdoc">setDailyRate Set a new value for the daily rate </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:27</div></div>
-<div class="ttc" id="classRateWidget_html"><div class="ttname"><a href="../../dc/da5/classRateWidget.html">RateWidget</a></div><div class="ttdoc">Class for display Rate. </div><div class="ttdef"><b>Definition:</b> ratewidget.h:15</div></div>
-<div class="ttc" id="classRateWidget_html_ad1cb6a97e47b408043e83708ff8af15e"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#ad1cb6a97e47b408043e83708ff8af15e">RateWidget::RateWidget</a></div><div class="ttdeci">RateWidget(QWidget *parent=0)</div><div class="ttdoc">RateWidget Construct a rate widget. </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:4</div></div>
-<div class="ttc" id="classRateWidget_html_a4a3ec9a546055d6ecb3bd1a9ee8082a6"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#a4a3ec9a546055d6ecb3bd1a9ee8082a6">RateWidget::initRate</a></div><div class="ttdeci">void initRate()</div><div class="ttdoc">initRate Initialize the rate </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:17</div></div>
-<div class="ttc" id="classRateWidget_html_a8135738c8a54389110de6751d9e2728e"><div class="ttname"><a href="../../dc/da5/classRateWidget.html#a8135738c8a54389110de6751d9e2728e">RateWidget::setHourlyRate</a></div><div class="ttdeci">void setHourlyRate(double hourlyRate)</div><div class="ttdoc">setHourlyRate Set a new value for the hourly rate </div><div class="ttdef"><b>Definition:</b> ratewidget.cpp:35</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1RateWidget_html"><div class="ttname"><a href="../../d0/de2/classGui_1_1Widgets_1_1RateWidget.html">Gui::Widgets::RateWidget</a></div><div class="ttdoc">Class for display Rate. </div><div class="ttdef"><b>Definition:</b> ratewidget.h:20</div></div>
+<div class="ttc" id="namespaceModels_html"><div class="ttname"><a href="../../dd/d20/namespaceModels.html">Models</a></div><div class="ttdoc">Models classes. </div><div class="ttdef"><b>Definition:</b> billing.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0abdee562046be6f5823d1ca8c3fd13c.html">widgets</a></li><li class="navelem"><b>ratewidget.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cc657b4ce13702a9d007a200bde234e1.html">widgets</a></li><li class="navelem"><b>ratewidget.h</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.8 </li>

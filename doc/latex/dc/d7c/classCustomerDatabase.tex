@@ -23,8 +23,8 @@ Q\+Standard\+Item\+Model $\ast$ \hyperlink{classCustomerDatabase_a2e25b4f197ccbd
 \begin{DoxyCompactList}\small\item\em \hyperlink{classCustomerDatabase_a2e25b4f197ccbdd2c5753558dbe18d4b}{Customer\+Database\+::get\+Customers\+Table} Return an item model of customers for Q\+Table\+View. \end{DoxyCompactList}\item 
 Q\+Standard\+Item\+Model $\ast$ \hyperlink{classCustomerDatabase_a0fc1ca7fe1020cef19b2423531c4e934}{get\+Customers\+Tree} (Q\+String filter=\char`\"{}\char`\"{})  throw (\+Db\+Exception$\ast$)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classCustomerDatabase_a0fc1ca7fe1020cef19b2423531c4e934}{Customer\+Database\+::get\+Customers\+Tree} Return an item model of customers for Q\+Tree. \end{DoxyCompactList}\item 
-\hyperlink{classCustomer}{Customer} $\ast$ \hyperlink{classCustomerDatabase_ae510e11ab1efe33b8e1da21bc1ca6f2d}{get\+Customer} (const int p\+Id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classCustomerDatabase_ae510e11ab1efe33b8e1da21bc1ca6f2d}{Customer\+Database\+::get\+Customer} get informations about the customer identified by {\itshape p\+Id} \end{DoxyCompactList}\item 
+Q\+Shared\+Pointer$<$ \hyperlink{classCustomer}{Customer} $>$ \hyperlink{classCustomerDatabase_aeb91691412f371795a0473555e31614c}{get\+Customer} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCustomerDatabase_aeb91691412f371795a0473555e31614c}{Customer\+Database\+::get\+Customer} get informations about the customer identified by {\itshape p\+Id} \end{DoxyCompactList}\item 
 int \hyperlink{classCustomerDatabase_a522337809fe7588ddc8b5eb27b0cb640}{add\+Customer} (const \hyperlink{classCustomer}{Customer} \&)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classCustomerDatabase_a522337809fe7588ddc8b5eb27b0cb640}{Customer\+Database\+::add\+Customer} Add the customer {\itshape p\+Customer} to the database. \end{DoxyCompactList}\item 
 \hypertarget{classCustomerDatabase_a2ae17af9bcbf889dec21b4acae3161e1}{void \hyperlink{classCustomerDatabase_a2ae17af9bcbf889dec21b4acae3161e1}{update\+Customer} (const \hyperlink{classCustomer}{Customer} \&)}\label{classCustomerDatabase_a2ae17af9bcbf889dec21b4acae3161e1}
@@ -70,16 +70,16 @@ Antoine de Roquemaurel
 \begin{DoxyReturn}{Returns}
 customer id 
 \end{DoxyReturn}
-\hypertarget{classCustomerDatabase_ae510e11ab1efe33b8e1da21bc1ca6f2d}{\index{Customer\+Database@{Customer\+Database}!get\+Customer@{get\+Customer}}
+\hypertarget{classCustomerDatabase_aeb91691412f371795a0473555e31614c}{\index{Customer\+Database@{Customer\+Database}!get\+Customer@{get\+Customer}}
 \index{get\+Customer@{get\+Customer}!Customer\+Database@{Customer\+Database}}
-\subsubsection[{get\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Customer} $\ast$ Customer\+Database\+::get\+Customer (
+\subsubsection[{get\+Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Shared\+Pointer$<$ {\bf Customer} $>$ Customer\+Database\+::get\+Customer (
 \begin{DoxyParamCaption}
 \item[{const int}]{p\+Id}
 \end{DoxyParamCaption}
-)}}\label{classCustomerDatabase_ae510e11ab1efe33b8e1da21bc1ca6f2d}
+)}}\label{classCustomerDatabase_aeb91691412f371795a0473555e31614c}
 
 
-\hyperlink{classCustomerDatabase_ae510e11ab1efe33b8e1da21bc1ca6f2d}{Customer\+Database\+::get\+Customer} get informations about the customer identified by {\itshape p\+Id} 
+\hyperlink{classCustomerDatabase_aeb91691412f371795a0473555e31614c}{Customer\+Database\+::get\+Customer} get informations about the customer identified by {\itshape p\+Id} 
 
 
 \begin{DoxyParams}{Parameters}
@@ -141,7 +141,7 @@ Manantsoa Razanajatovo
 \hline
 \end{DoxyExceptions}
 \begin{DoxyReturn}{Returns}
-Q\+Standard\+Item\+Model an item model for Q\+Table\+View 
+Q\+Standard\+Item\+Model an item model for Q\+Tree\+View 
 \end{DoxyReturn}
 \hypertarget{classCustomerDatabase_a1c60ecbaa2594426b522746c70beee19}{\index{Customer\+Database@{Customer\+Database}!get\+Nb\+Customers@{get\+Nb\+Customers}}
 \index{get\+Nb\+Customers@{get\+Nb\+Customers}!Customer\+Database@{Customer\+Database}}

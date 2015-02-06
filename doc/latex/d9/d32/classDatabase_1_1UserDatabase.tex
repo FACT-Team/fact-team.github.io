@@ -1,0 +1,103 @@
+\hypertarget{classDatabase_1_1UserDatabase}{\section{Database\+:\+:User\+Database Class Reference}
+\label{classDatabase_1_1UserDatabase}\index{Database\+::\+User\+Database@{Database\+::\+User\+Database}}
+}
+
+
+The \hyperlink{classDatabase_1_1UserDatabase}{User\+Database} class Access to User data in the the table User of the {\bfseries \hyperlink{classDatabase_1_1Database}{Database}}  
+
+
+
+
+{\ttfamily \#include $<$userdatabase.\+h$>$}
+
+Inheritance diagram for Database\+:\+:User\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d9/d32/classDatabase_1_1UserDatabase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Standard\+Item\+Model $\ast$ \hyperlink{classDatabase_1_1UserDatabase_a1b35f88b06fc54521bb72acd1fbbdc1e}{get\+User\+Table} ()  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em get\+User\+Table Return an item model of User for Q\+Table\+View \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1User}{Models\+::\+User} $\ast$ \hyperlink{classDatabase_1_1UserDatabase_ad05795be223fef14a114d712aebef2e6}{get\+User} (const int p\+Id=1)
+\begin{DoxyCompactList}\small\item\em get\+User Get informations about the user (identified by 'p\+Id') \end{DoxyCompactList}\item 
+\hypertarget{classDatabase_1_1UserDatabase_af00cc95c910ab6ca3dbeef591531ae2b}{void \hyperlink{classDatabase_1_1UserDatabase_af00cc95c910ab6ca3dbeef591531ae2b}{update\+User} (const \hyperlink{classModels_1_1User}{Models\+::\+User} \&)}\label{classDatabase_1_1UserDatabase_af00cc95c910ab6ca3dbeef591531ae2b}
+
+\begin{DoxyCompactList}\small\item\em update\+User Update informations about the user \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classDatabase_1_1UserDatabase}{User\+Database} $\ast$ \hyperlink{classDatabase_1_1UserDatabase_ac8cdf7dc9b0163d832ca473973916952}{instance} ()  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em User\+Database\+::get\+Instance Return an instance of \hyperlink{classDatabase_1_1UserDatabase}{User\+Database}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classDatabase_1_1UserDatabase}{User\+Database} class Access to User data in the the table User of the {\bfseries \hyperlink{classDatabase_1_1Database}{Database}} 
+
+\begin{DoxyAuthor}{Author}
+Florent Berbie 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classDatabase_1_1Database}{Database} 
+
+User 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDatabase_1_1UserDatabase_ad05795be223fef14a114d712aebef2e6}{\index{Database\+::\+User\+Database@{Database\+::\+User\+Database}!get\+User@{get\+User}}
+\index{get\+User@{get\+User}!Database\+::\+User\+Database@{Database\+::\+User\+Database}}
+\subsubsection[{get\+User}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+User} $\ast$ Database\+::\+User\+Database\+::get\+User (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1UserDatabase_ad05795be223fef14a114d712aebef2e6}
+
+
+get\+User Get informations about the user (identified by 'p\+Id') 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & user id (1 default) $\ast$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the user 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1UserDatabase_a1b35f88b06fc54521bb72acd1fbbdc1e}{\index{Database\+::\+User\+Database@{Database\+::\+User\+Database}!get\+User\+Table@{get\+User\+Table}}
+\index{get\+User\+Table@{get\+User\+Table}!Database\+::\+User\+Database@{Database\+::\+User\+Database}}
+\subsubsection[{get\+User\+Table}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Standard\+Item\+Model$\ast$ Database\+::\+User\+Database\+::get\+User\+Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) }}\label{classDatabase_1_1UserDatabase_a1b35f88b06fc54521bb72acd1fbbdc1e}
+
+
+get\+User\+Table Return an item model of User for Q\+Table\+View 
+
+\begin{DoxyReturn}{Returns}
+Q\+Standard\+Item\+Model an item model 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1UserDatabase_ac8cdf7dc9b0163d832ca473973916952}{\index{Database\+::\+User\+Database@{Database\+::\+User\+Database}!instance@{instance}}
+\index{instance@{instance}!Database\+::\+User\+Database@{Database\+::\+User\+Database}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf User\+Database} $\ast$ Database\+::\+User\+Database\+::instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) \hspace{0.3cm}{\ttfamily [static]}}}\label{classDatabase_1_1UserDatabase_ac8cdf7dc9b0163d832ca473973916952}
+
+
+User\+Database\+::get\+Instance Return an instance of \hyperlink{classDatabase_1_1UserDatabase}{User\+Database}. 
+
+\begin{DoxyReturn}{Returns}
+Instance of \hyperlink{classDatabase_1_1UserDatabase}{User\+Database} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/database/userdatabase.\+h\item 
+src/database/userdatabase.\+cpp\end{DoxyCompactItemize}

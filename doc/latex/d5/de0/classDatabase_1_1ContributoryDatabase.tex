@@ -1,0 +1,149 @@
+\hypertarget{classDatabase_1_1ContributoryDatabase}{\section{Database\+:\+:Contributory\+Database Class Reference}
+\label{classDatabase_1_1ContributoryDatabase}\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+}
+
+
+The {\bfseries \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database}} class Contributory (or Quote) table database.  
+
+
+
+
+{\ttfamily \#include $<$contributorydatabase.\+h$>$}
+
+Inheritance diagram for Database\+:\+:Contributory\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d5/de0/classDatabase_1_1ContributoryDatabase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModels_1_1Contributory}{Models\+::\+Contributory} $\ast$ \hyperlink{classDatabase_1_1ContributoryDatabase_afe8913f62dfb75115090650d194a7bc4}{get\+Contributory} (const int id\+Contributory)
+\begin{DoxyCompactList}\small\item\em Contributory\+Database\+::get\+Customer get informations about the Contributory identified by {\itshape p\+Id} \end{DoxyCompactList}\item 
+\hypertarget{classDatabase_1_1ContributoryDatabase_ad5c2a9908b0ad088eed587a16dc6fc07}{Q\+Map$<$ \hyperlink{classModels_1_1Project}{Models\+::\+Project} $\ast$, Q\+List\\*
+$<$ \hyperlink{classModels_1_1Contributory}{Models\+::\+Contributory} $>$ $>$ {\bfseries get\+Contributories\+By\+Billing} (const int id\+Billing)}\label{classDatabase_1_1ContributoryDatabase_ad5c2a9908b0ad088eed587a16dc6fc07}
+
+\item 
+int \hyperlink{classDatabase_1_1ContributoryDatabase_a7612a74e10fc04a5894bf01b6917a42e}{add\+Contributory} (const \hyperlink{classModels_1_1Contributory}{Models\+::\+Contributory} \&)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabase_1_1ContributoryDatabase_a7612a74e10fc04a5894bf01b6917a42e}{Contributory\+Database\+::add\+Contributory} Add the Contributory {\itshape p\+Contributory} to the database. \end{DoxyCompactList}\item 
+\hypertarget{classDatabase_1_1ContributoryDatabase_a7f0abb17daa85b89f1a756a7ee2e482c}{void \hyperlink{classDatabase_1_1ContributoryDatabase_a7f0abb17daa85b89f1a756a7ee2e482c}{update\+Contributory} (const \hyperlink{classModels_1_1Contributory}{Models\+::\+Contributory} \&)}\label{classDatabase_1_1ContributoryDatabase_a7f0abb17daa85b89f1a756a7ee2e482c}
+
+\begin{DoxyCompactList}\small\item\em Contributory\+Database\+::update\+Customer Update informations about the Contributory {\itshape p\+Customer} \end{DoxyCompactList}\item 
+void \hyperlink{classDatabase_1_1ContributoryDatabase_aa362a76075ce095410411d7ac26bad5c}{remove\+Contributory} (const int p\+Id)
+\begin{DoxyCompactList}\small\item\em Contributory\+Database\+::remove\+Customer Remove the Contributory with the id {\itshape p\+Id} \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1Contributory}{Models\+::\+Contributory} $\ast$ \hyperlink{classDatabase_1_1ContributoryDatabase_af09f192038c786e0f4a2501214667cda}{get\+Contributory} (Q\+Sql\+Query \&q)
+\begin{DoxyCompactList}\small\item\em get\+Contributory Obtain a contributory without new query \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database} $\ast$ \hyperlink{classDatabase_1_1ContributoryDatabase_af454afba7ef6f6e267085db89e5f8da4}{instance} ()  throw (\+Db\+Exception$\ast$)
+\begin{DoxyCompactList}\small\item\em Contributory\+Database\+::get\+Instance Return an instance of {\bfseries \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The {\bfseries \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database}} class Contributory (or Quote) table database. 
+
+\begin{DoxyAuthor}{Author}
+Cédric Rohaut  
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classDatabase_1_1Database}{Database} 
+
+Contributory/\+Quote 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDatabase_1_1ContributoryDatabase_a7612a74e10fc04a5894bf01b6917a42e}{\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}!add\+Contributory@{add\+Contributory}}
+\index{add\+Contributory@{add\+Contributory}!Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+\subsubsection[{add\+Contributory}]{\setlength{\rightskip}{0pt plus 5cm}int Database\+::\+Contributory\+Database\+::add\+Contributory (
+\begin{DoxyParamCaption}
+\item[{const {\bf Models\+::\+Contributory} \&}]{p\+Contributory}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ContributoryDatabase_a7612a74e10fc04a5894bf01b6917a42e}
+
+
+\hyperlink{classDatabase_1_1ContributoryDatabase_a7612a74e10fc04a5894bf01b6917a42e}{Contributory\+Database\+::add\+Contributory} Add the Contributory {\itshape p\+Contributory} to the database. 
+
+\begin{DoxyReturn}{Returns}
+Contributory id 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ContributoryDatabase_afe8913f62dfb75115090650d194a7bc4}{\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}!get\+Contributory@{get\+Contributory}}
+\index{get\+Contributory@{get\+Contributory}!Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+\subsubsection[{get\+Contributory}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+Contributory} $\ast$ Database\+::\+Contributory\+Database\+::get\+Contributory (
+\begin{DoxyParamCaption}
+\item[{const int}]{id\+Contributory}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ContributoryDatabase_afe8913f62dfb75115090650d194a7bc4}
+
+
+Contributory\+Database\+::get\+Customer get informations about the Contributory identified by {\itshape p\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Contributory} & Contributory id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Contributory 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ContributoryDatabase_af09f192038c786e0f4a2501214667cda}{\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}!get\+Contributory@{get\+Contributory}}
+\index{get\+Contributory@{get\+Contributory}!Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+\subsubsection[{get\+Contributory}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\+::\+Contributory} $\ast$ Database\+::\+Contributory\+Database\+::get\+Contributory (
+\begin{DoxyParamCaption}
+\item[{Q\+Sql\+Query \&}]{q}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ContributoryDatabase_af09f192038c786e0f4a2501214667cda}
+
+
+get\+Contributory Obtain a contributory without new query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em q} & The query to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The contributory linked to q 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ContributoryDatabase_af454afba7ef6f6e267085db89e5f8da4}{\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}!instance@{instance}}
+\index{instance@{instance}!Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Contributory\+Database} $\ast$ Database\+::\+Contributory\+Database\+::instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  {\bf Db\+Exception} $\ast$) \hspace{0.3cm}{\ttfamily [static]}}}\label{classDatabase_1_1ContributoryDatabase_af454afba7ef6f6e267085db89e5f8da4}
+
+
+Contributory\+Database\+::get\+Instance Return an instance of {\bfseries \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database}} 
+
+\begin{DoxySeeAlso}{See also}
+Db\+Exception 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+Instance of \hyperlink{classDatabase_1_1ContributoryDatabase}{Contributory\+Database} 
+\end{DoxyReturn}
+\hypertarget{classDatabase_1_1ContributoryDatabase_aa362a76075ce095410411d7ac26bad5c}{\index{Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}!remove\+Contributory@{remove\+Contributory}}
+\index{remove\+Contributory@{remove\+Contributory}!Database\+::\+Contributory\+Database@{Database\+::\+Contributory\+Database}}
+\subsubsection[{remove\+Contributory}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::\+Contributory\+Database\+::remove\+Contributory (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\+Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabase_1_1ContributoryDatabase_aa362a76075ce095410411d7ac26bad5c}
+
+
+Contributory\+Database\+::remove\+Customer Remove the Contributory with the id {\itshape p\+Id} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Id} & Contributory id \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/database/contributorydatabase.\+h\item 
+src/database/contributorydatabase.\+cpp\end{DoxyCompactItemize}

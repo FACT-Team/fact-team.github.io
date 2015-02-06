@@ -10,7 +10,7 @@ var classUser =
     [ "getFirstname", "d9/dc0/classUser.html#acad034d3a093164f056d06d9a3ee33a2", null ],
     [ "getLastname", "d9/dc0/classUser.html#aabbb05d0c6e6be5ed078ba3c730b24b3", null ],
     [ "getMobilePhone", "d9/dc0/classUser.html#a858eff50cbc71969bc5dd5e80045d342", null ],
-    [ "getNoSiret", "d9/dc0/classUser.html#a721f64ecb20c42c12ca87815ffb0a274", null ],
+    [ "getNoSiret", "d9/dc0/classUser.html#aa7585bc78c11961280fe2bef25ef2347", null ],
     [ "getPhone", "d9/dc0/classUser.html#a5408061a1ba87e3d56a51490464d1149", null ],
     [ "getPostalCode", "d9/dc0/classUser.html#a6a3ecafe2c72860cbc2cfc031d6112c9", null ],
     [ "getTitle", "d9/dc0/classUser.html#a44af1366445fb0284411f92d37231f2d", null ],
@@ -23,7 +23,7 @@ var classUser =
     [ "setFirstname", "d9/dc0/classUser.html#ad9f69006800232eb19146d2354910412", null ],
     [ "setLastname", "d9/dc0/classUser.html#a90d5bae75aa56253642386ad42da171d", null ],
     [ "setMobilePhone", "d9/dc0/classUser.html#a8d7afdfc9bcf32b00c20d1d70ae9cbb7", null ],
-    [ "setNoSiret", "d9/dc0/classUser.html#a9e77d4724778cfe4f0a6fda75d3b7c52", null ],
+    [ "setNoSiret", "d9/dc0/classUser.html#a379258b1d6f8427f44c4e9fc7600919d", null ],
     [ "setPhone", "d9/dc0/classUser.html#a271e4179b9da5b409f98656b04431689", null ],
     [ "setPostalCode", "d9/dc0/classUser.html#af53e170c1701dd1f275589d115f88076", null ],
     [ "setTitle", "d9/dc0/classUser.html#ae51847b13715ba1fed59a2778397691a", null ]

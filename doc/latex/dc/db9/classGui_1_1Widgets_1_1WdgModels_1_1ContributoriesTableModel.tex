@@ -1,0 +1,261 @@
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{\section{Gui\+:\+:Widgets\+:\+:Wdg\+Models\+:\+:Contributories\+Table\+Model Class Reference}
+\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+}
+
+
+The \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model} class for a custom table for contributories widget.  
+
+
+
+
+{\ttfamily \#include $<$contributoriestablemodel.\+h$>$}
+
+Inheritance diagram for Gui\+:\+:Widgets\+:\+:Wdg\+Models\+:\+:Contributories\+Table\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_abfc7cdc96006729fa8b03571bb8b586b}{Contributories\+Table\+Model} (Q\+Object $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model} Construct a \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model}. \end{DoxyCompactList}\item 
+int \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a4adfd94506448337ceac8504b76531aa}{row\+Count} (const Q\+Model\+Index \&) const 
+\begin{DoxyCompactList}\small\item\em row\+Count Number of contributories row \end{DoxyCompactList}\item 
+int \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ab052217cb08f856ecfe465458f95c174}{column\+Count} (const Q\+Model\+Index \&) const 
+\begin{DoxyCompactList}\small\item\em column\+Count Number of column of a contributory \end{DoxyCompactList}\item 
+Q\+Variant \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_aa95bb13ea63275f96187150a8a2d3972}{data} (const Q\+Model\+Index \&index, int role) const 
+\begin{DoxyCompactList}\small\item\em data Obtains data of a specify cell \end{DoxyCompactList}\item 
+Q\+Variant \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ac08635d8660ddd4444d7f2b75ae3d0ef}{header\+Data} (int section, Qt\+::\+Orientation orientation, int role) const 
+\begin{DoxyCompactList}\small\item\em header\+Data Obtains header title of table \end{DoxyCompactList}\item 
+bool \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a1c9f7969dc52e5840acfc122fcb2ab48}{set\+Data} (const Q\+Model\+Index \&index, const Q\+Variant \&value, int role=Qt\+::\+Edit\+Role)
+\begin{DoxyCompactList}\small\item\em set\+Data Change data of a cell \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6d3f0ab976abd9993b731b27fbe3a404}{append} (const \hyperlink{classModels_1_1Contributory}{Contributory} \&contributory)
+\begin{DoxyCompactList}\small\item\em append Add a new line in table \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a76666bbbc940867b6ff3366424f72e26}{remove} (const int i)
+\begin{DoxyCompactList}\small\item\em remove Remove a line \end{DoxyCompactList}\item 
+Qt\+::\+Item\+Flags \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6bf3e8c45bb499e82546be456a7de77b}{flags} (const Q\+Model\+Index \&index) const 
+\begin{DoxyCompactList}\small\item\em flags Differents table flags \end{DoxyCompactList}\item 
+Q\+List$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_af20bc21f24f7597b6b7d053d11d02d97}{get\+Contributories} ()
+\begin{DoxyCompactList}\small\item\em get\+Contributories Get all contributories of table \end{DoxyCompactList}\item 
+int \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_acc01a97c00bb57e6733f697fc45be0ed}{count} ()
+\begin{DoxyCompactList}\small\item\em count Number of contributories in table \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model} class for a custom table for contributories widget. 
+
+\begin{DoxyAuthor}{Author}
+Antoine de Roquemaurel 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+Contributory 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_abfc7cdc96006729fa8b03571bb8b586b}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!Contributories\+Table\+Model@{Contributories\+Table\+Model}}
+\index{Contributories\+Table\+Model@{Contributories\+Table\+Model}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{Contributories\+Table\+Model}]{\setlength{\rightskip}{0pt plus 5cm}Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::\+Contributories\+Table\+Model (
+\begin{DoxyParamCaption}
+\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_abfc7cdc96006729fa8b03571bb8b586b}
+
+
+\hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model} Construct a \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel}{Contributories\+Table\+Model}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Parent widget \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6d3f0ab976abd9993b731b27fbe3a404}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!append@{append}}
+\index{append@{append}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{append}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::append (
+\begin{DoxyParamCaption}
+\item[{const {\bf Contributory} \&}]{contributory}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6d3f0ab976abd9993b731b27fbe3a404}
+
+
+append Add a new line in table 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contributory} & The new contributory \\
+\hline
+\end{DoxyParams}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ab052217cb08f856ecfe465458f95c174}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!column\+Count@{column\+Count}}
+\index{column\+Count@{column\+Count}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{column\+Count}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::column\+Count (
+\begin{DoxyParamCaption}
+\item[{const Q\+Model\+Index \&}]{}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ab052217cb08f856ecfe465458f95c174}
+
+
+column\+Count Number of column of a contributory 
+
+\begin{DoxyReturn}{Returns}
+The number of column 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_acc01a97c00bb57e6733f697fc45be0ed}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!count@{count}}
+\index{count@{count}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{count}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_acc01a97c00bb57e6733f697fc45be0ed}
+
+
+count Number of contributories in table 
+
+\begin{DoxyReturn}{Returns}
+The number of contributories 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_aa95bb13ea63275f96187150a8a2d3972}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!data@{data}}
+\index{data@{data}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Variant Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::data (
+\begin{DoxyParamCaption}
+\item[{const Q\+Model\+Index \&}]{index, }
+\item[{int}]{role}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_aa95bb13ea63275f96187150a8a2d3972}
+
+
+data Obtains data of a specify cell 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The cell who we want data \\
+\hline
+{\em role} & The role of set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data of cell 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6bf3e8c45bb499e82546be456a7de77b}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!flags@{flags}}
+\index{flags@{flags}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{flags}]{\setlength{\rightskip}{0pt plus 5cm}Qt\+::\+Item\+Flags Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::flags (
+\begin{DoxyParamCaption}
+\item[{const Q\+Model\+Index \&}]{index}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a6bf3e8c45bb499e82546be456a7de77b}
+
+
+flags Differents table flags 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The cell who we want to know flags \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Flags 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_af20bc21f24f7597b6b7d053d11d02d97}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!get\+Contributories@{get\+Contributories}}
+\index{get\+Contributories@{get\+Contributories}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{get\+Contributories}]{\setlength{\rightskip}{0pt plus 5cm}Q\+List$<$ {\bf Contributory} $>$ Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::get\+Contributories (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_af20bc21f24f7597b6b7d053d11d02d97}
+
+
+get\+Contributories Get all contributories of table 
+
+\begin{DoxyReturn}{Returns}
+The contributory list 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ac08635d8660ddd4444d7f2b75ae3d0ef}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!header\+Data@{header\+Data}}
+\index{header\+Data@{header\+Data}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{header\+Data}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Variant Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::header\+Data (
+\begin{DoxyParamCaption}
+\item[{int}]{section, }
+\item[{Qt\+::\+Orientation}]{orientation, }
+\item[{int}]{role}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_ac08635d8660ddd4444d7f2b75ae3d0ef}
+
+
+header\+Data Obtains header title of table 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section} & The number of column \\
+\hline
+{\em orientation} & The table orientation \\
+\hline
+{\em role} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Title header of column 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a76666bbbc940867b6ff3366424f72e26}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!remove@{remove}}
+\index{remove@{remove}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::remove (
+\begin{DoxyParamCaption}
+\item[{const int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a76666bbbc940867b6ff3366424f72e26}
+
+
+remove Remove a line 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & The number of line to remove \\
+\hline
+\end{DoxyParams}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a4adfd94506448337ceac8504b76531aa}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!row\+Count@{row\+Count}}
+\index{row\+Count@{row\+Count}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{row\+Count}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::row\+Count (
+\begin{DoxyParamCaption}
+\item[{const Q\+Model\+Index \&}]{}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a4adfd94506448337ceac8504b76531aa}
+
+
+row\+Count Number of contributories row 
+
+\begin{DoxyReturn}{Returns}
+The number of contributories 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a1c9f7969dc52e5840acfc122fcb2ab48}{\index{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}!set\+Data@{set\+Data}}
+\index{set\+Data@{set\+Data}!Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model@{Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model}}
+\subsubsection[{set\+Data}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\+::\+Widgets\+::\+Wdg\+Models\+::\+Contributories\+Table\+Model\+::set\+Data (
+\begin{DoxyParamCaption}
+\item[{const Q\+Model\+Index \&}]{index, }
+\item[{const Q\+Variant \&}]{value, }
+\item[{int}]{role = {\ttfamily Qt\+:\+:EditRole}}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_a1c9f7969dc52e5840acfc122fcb2ab48}
+
+
+set\+Data Change data of a cell 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The cell to change data \\
+\hline
+{\em value} & The new value \\
+\hline
+{\em role} & T\+He role of cell \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if we could edit 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/widgets/widgetsmodels/contributoriestablemodel.\+h\item 
+src/gui/widgets/widgetsmodels/contributoriestablemodel.\+cpp\end{DoxyCompactItemize}

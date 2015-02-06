@@ -13,6 +13,7 @@ var classDatabase =
     [ "openTransaction", "de/d03/classDatabase.html#ace56e75784477e79197485e9b5980804", null ],
     [ "setDatabase", "de/d03/classDatabase.html#a8b03d7f4a92325b9e519fd3f8a2e245c", null ],
     [ "testCases", "de/d03/classDatabase.html#a702ce00658c10518d2ddbbd234a0c67d", null ],
+    [ "updateBillingNumber", "de/d03/classDatabase.html#a85d328f7d0d3ee353569ad63ef992525", null ],
     [ "value", "de/d03/classDatabase.html#a88f0ccd102fc421fb10ddad0fd94e8c1", null ],
     [ "_dbInstance", "de/d03/classDatabase.html#a923366369d404e62e9e77111d7c21bab", null ],
     [ "_instance", "de/d03/classDatabase.html#a4f435119a26cf1b0b8cca652a74c70b7", null ],

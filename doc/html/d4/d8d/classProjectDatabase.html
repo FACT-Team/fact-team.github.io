@@ -109,6 +109,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a3dbf2e270674727fc479d392c6609dec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8d/classProjectDatabase.html#a3dbf2e270674727fc479d392c6609dec">getNbProjectsForACustomer</a> (const int pId)</td></tr>
 <tr class="memdesc:a3dbf2e270674727fc479d392c6609dec"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d8d/classProjectDatabase.html" title="The ProjectDatabase class Project table database. ">ProjectDatabase</a>:getNbProjectsForACustomer Return the number of projects existing for an identify customer <em>pId</em>  <a href="#a3dbf2e270674727fc479d392c6609dec">More...</a><br /></td></tr>
 <tr class="separator:a3dbf2e270674727fc479d392c6609dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674675237e10929f6096e271a93692ee"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="../../db/d91/classProject.html">Project</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8d/classProjectDatabase.html#a674675237e10929f6096e271a93692ee">getProjectsOfCustomer</a> (QSharedPointer&lt; <a class="el" href="../../d9/d12/classCustomer.html">Customer</a> &gt; c)</td></tr>
+<tr class="memdesc:a674675237e10929f6096e271a93692ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProjectsOfCustomer Return all projects of a customer  <a href="#a674675237e10929f6096e271a93692ee">More...</a><br /></td></tr>
+<tr class="separator:a674675237e10929f6096e271a93692ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af757914e88f67d9b62e4e762f8136048"><td class="memItemLeft" align="right" valign="top">QStandardItemModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8d/classProjectDatabase.html#af757914e88f67d9b62e4e762f8136048">getProjectsTable</a> (const int pId)  throw (DbException*)</td></tr>
+<tr class="memdesc:af757914e88f67d9b62e4e762f8136048"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProjectsTable Return all projects of a customer in QStandardItemModel  <a href="#af757914e88f67d9b62e4e762f8136048">More...</a><br /></td></tr>
+<tr class="separator:af757914e88f67d9b62e4e762f8136048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4d47a7c391eaf1e959d5ac13ef574f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d91/classProject.html">Project</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8d/classProjectDatabase.html#a3d4d47a7c391eaf1e959d5ac13ef574f">getProject</a> (QSqlQuery &amp;q)</td></tr>
+<tr class="memdesc:a3d4d47a7c391eaf1e959d5ac13ef574f"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProject Obtain a project without new query  <a href="#a3d4d47a7c391eaf1e959d5ac13ef574f">More...</a><br /></td></tr>
+<tr class="separator:a3d4d47a7c391eaf1e959d5ac13ef574f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classDatabase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classDatabase')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d03/classDatabase.html">Database</a></td></tr>
 <tr class="memitem:a17465cc3fe0a8b853f96599e0584cc84 inherit pub_methods_classDatabase"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/classDatabase.html#a17465cc3fe0a8b853f96599e0584cc84">lastError</a> (const QSqlQuery &amp;q)</td></tr>
 <tr class="memdesc:a17465cc3fe0a8b853f96599e0584cc84 inherit pub_methods_classDatabase"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../de/d03/classDatabase.html#a17465cc3fe0a8b853f96599e0584cc84" title="Database::lastError Return an error message on the last error occured during the SQL request q ...">Database::lastError</a> Return an error message on the last error occured during the SQL request <em>q</em>  <a href="#a17465cc3fe0a8b853f96599e0584cc84">More...</a><br /></td></tr>
@@ -151,6 +160,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/classDatabase.html#a2dc260583a49889bed8097e21953594e">createDatabase</a> ()</td></tr>
 <tr class="memdesc:a2dc260583a49889bed8097e21953594e inherit pub_methods_classDatabase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database::creerDatabase Create a new database. <br /></td></tr>
 <tr class="separator:a2dc260583a49889bed8097e21953594e inherit pub_methods_classDatabase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d328f7d0d3ee353569ad63ef992525 inherit pub_methods_classDatabase"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85d328f7d0d3ee353569ad63ef992525"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateBillingNumber</b> ()</td></tr>
+<tr class="separator:a85d328f7d0d3ee353569ad63ef992525 inherit pub_methods_classDatabase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -290,6 +302,87 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the project </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3d4d47a7c391eaf1e959d5ac13ef574f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d91/classProject.html">Project</a> * ProjectDatabase::getProject </td>
+          <td>(</td>
+          <td class="paramtype">QSqlQuery &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getProject Obtain a project without new query </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">q</td><td>The query to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The project linked to q </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a674675237e10929f6096e271a93692ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; int, <a class="el" href="../../db/d91/classProject.html">Project</a> &gt; ProjectDatabase::getProjectsOfCustomer </td>
+          <td>(</td>
+          <td class="paramtype">QSharedPointer&lt; <a class="el" href="../../d9/d12/classCustomer.html">Customer</a> &gt;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getProjectsOfCustomer Return all projects of a customer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>The customer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>All projects of c with id in key </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af757914e88f67d9b62e4e762f8136048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStandardItemModel * ProjectDatabase::getProjectsTable </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>pId</em></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"><a class="el" href="../../dd/dca/classDbException.html">DbException</a> *</td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getProjectsTable Return all projects of a customer in QStandardItemModel </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>Select only projects who are specified by <em>filter</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>QStandardItemModel an item model for QTableView </dd></dl>
 
 </div>
 </div>

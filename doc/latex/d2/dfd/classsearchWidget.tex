@@ -20,14 +20,28 @@ Inheritance diagram for search\+Widget\+:\begin{figure}[H]
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{classsearchWidget_a15138eab0d8098a21c327bd34e328541}{search} (Q\+String to\+Search)
-\begin{DoxyCompactList}\small\item\em launch a search \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em search\+Widget\+::launch a search \end{DoxyCompactList}\item 
+\hypertarget{classsearchWidget_a09e08e9768fbb579c065bcff0d47c2ac}{void \hyperlink{classsearchWidget_a09e08e9768fbb579c065bcff0d47c2ac}{get\+Customer\+Data} ()}\label{classsearchWidget_a09e08e9768fbb579c065bcff0d47c2ac}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classsearchWidget_a09e08e9768fbb579c065bcff0d47c2ac}{search\+Widget\+::get\+Customer\+Data} Return data on the customer selected in the Q\+Table\+View and display this data (Firstname, Lastname, Company) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsearchWidget_a5eed5229b7aeb5de25d4892a8055d070}{void {\bfseries select\+Customer} ()}\label{classsearchWidget_a5eed5229b7aeb5de25d4892a8055d070}
+
+\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classsearchWidget_a0c712bf4f3c2105319645ce97e23eba9}{search\+Widget} (Q\+Widget $\ast$parent=0)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classsearchWidget}{search\+Widget} Construct a search widget \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classsearchWidget_a0c712bf4f3c2105319645ce97e23eba9}{search\+Widget\+::search\+Widget} Construct a search widget \end{DoxyCompactList}\item 
 int \hyperlink{classsearchWidget_ac74ae97eb8c147c89edc3dec3decf174}{get\+Current\+Customer\+Id} ()
-\begin{DoxyCompactList}\small\item\em get\+Current\+Customer\+Id Return the id of the customer selected in the table \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classsearchWidget_ac74ae97eb8c147c89edc3dec3decf174}{search\+Widget\+::get\+Current\+Customer\+Id} Return the id of the customer selected in the table \end{DoxyCompactList}\item 
+bool \hyperlink{classsearchWidget_ad69a78f1c657b026a149cdf61fd58f5e}{is\+Customer\+Selected} () const 
+\begin{DoxyCompactList}\small\item\em is\+Customer\+Selected Return T\+R\+U\+E if a customer is selected, else F\+A\+L\+S\+E \end{DoxyCompactList}\item 
+\hypertarget{classsearchWidget_a88ccf6c445c0d4b2fbeb931e403669fd}{void {\bfseries select\+Customer} (int id)}\label{classsearchWidget_a88ccf6c445c0d4b2fbeb931e403669fd}
+
+\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -48,7 +62,7 @@ Antoine de Roquemaurel
 )\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classsearchWidget_a0c712bf4f3c2105319645ce97e23eba9}
 
 
-\hyperlink{classsearchWidget}{search\+Widget} Construct a search widget 
+\hyperlink{classsearchWidget_a0c712bf4f3c2105319645ce97e23eba9}{search\+Widget\+::search\+Widget} Construct a search widget 
 
 
 \begin{DoxyParams}{Parameters}
@@ -67,10 +81,24 @@ Antoine de Roquemaurel
 )}}\label{classsearchWidget_ac74ae97eb8c147c89edc3dec3decf174}
 
 
-get\+Current\+Customer\+Id Return the id of the customer selected in the table 
+\hyperlink{classsearchWidget_ac74ae97eb8c147c89edc3dec3decf174}{search\+Widget\+::get\+Current\+Customer\+Id} Return the id of the customer selected in the table 
 
 \begin{DoxyReturn}{Returns}
 id of the current customer 
+\end{DoxyReturn}
+\hypertarget{classsearchWidget_ad69a78f1c657b026a149cdf61fd58f5e}{\index{search\+Widget@{search\+Widget}!is\+Customer\+Selected@{is\+Customer\+Selected}}
+\index{is\+Customer\+Selected@{is\+Customer\+Selected}!search\+Widget@{search\+Widget}}
+\subsubsection[{is\+Customer\+Selected}]{\setlength{\rightskip}{0pt plus 5cm}bool search\+Widget\+::is\+Customer\+Selected (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classsearchWidget_ad69a78f1c657b026a149cdf61fd58f5e}
+
+
+is\+Customer\+Selected Return T\+R\+U\+E if a customer is selected, else F\+A\+L\+S\+E 
+
+\begin{DoxyReturn}{Returns}
+boolean 
 \end{DoxyReturn}
 \hypertarget{classsearchWidget_a15138eab0d8098a21c327bd34e328541}{\index{search\+Widget@{search\+Widget}!search@{search}}
 \index{search@{search}!search\+Widget@{search\+Widget}}
@@ -81,7 +109,7 @@ id of the current customer
 )\hspace{0.3cm}{\ttfamily [slot]}}}\label{classsearchWidget_a15138eab0d8098a21c327bd34e328541}
 
 
-launch a search 
+search\+Widget\+::launch a search 
 
 
 \begin{DoxyParams}{Parameters}

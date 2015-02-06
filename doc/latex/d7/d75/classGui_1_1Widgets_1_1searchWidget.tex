@@ -1,0 +1,124 @@
+\hypertarget{classGui_1_1Widgets_1_1searchWidget}{\section{Gui\+:\+:Widgets\+:\+:search\+Widget Class Reference}
+\label{classGui_1_1Widgets_1_1searchWidget}\index{Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}}
+}
+
+
+Class for search in database.  
+
+
+
+
+{\ttfamily \#include $<$searchwidget.\+h$>$}
+
+Inheritance diagram for Gui\+:\+:Widgets\+:\+:search\+Widget\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/d75/classGui_1_1Widgets_1_1searchWidget}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classGui_1_1Widgets_1_1searchWidget_adf91225827fde587bea0d0fc803b0034}{search} (Q\+String to\+Search)
+\begin{DoxyCompactList}\small\item\em search\+Widget\+::launch a search \end{DoxyCompactList}\item 
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_ae9e5a460a5320c8bfad4d6878009ccbc}{void \hyperlink{classGui_1_1Widgets_1_1searchWidget_ae9e5a460a5320c8bfad4d6878009ccbc}{get\+Customer\+Data} ()}\label{classGui_1_1Widgets_1_1searchWidget_ae9e5a460a5320c8bfad4d6878009ccbc}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_ae9e5a460a5320c8bfad4d6878009ccbc}{search\+Widget\+::get\+Customer\+Data} Return data on the customer selected in the Q\+Table\+View and display this data (Firstname, Lastname, Company) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}{void {\bfseries select\+Customer} ()}\label{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGui_1_1Widgets_1_1searchWidget_a8d77bcf326543f841d1c05fe9819183f}{search\+Widget} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a8d77bcf326543f841d1c05fe9819183f}{search\+Widget\+::search\+Widget} Construct a search widget \end{DoxyCompactList}\item 
+int \hyperlink{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{get\+Current\+Customer\+Id} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{search\+Widget\+::get\+Current\+Customer\+Id} Return the id of the customer selected in the table \end{DoxyCompactList}\item 
+bool \hyperlink{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{is\+Customer\+Selected} () const 
+\begin{DoxyCompactList}\small\item\em is\+Customer\+Selected Return T\+R\+U\+E if a customer is selected, else F\+A\+L\+S\+E \end{DoxyCompactList}\item 
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{void {\bfseries select\+Customer} (int id)}\label{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for search in database. 
+
+\begin{DoxyAuthor}{Author}
+Antoine de Roquemaurel 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a8d77bcf326543f841d1c05fe9819183f}{\index{Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}!search\+Widget@{search\+Widget}}
+\index{search\+Widget@{search\+Widget}!Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}}
+\subsubsection[{search\+Widget}]{\setlength{\rightskip}{0pt plus 5cm}Gui\+::\+Widgets\+::search\+Widget\+::search\+Widget (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classGui_1_1Widgets_1_1searchWidget_a8d77bcf326543f841d1c05fe9819183f}
+
+
+\hyperlink{classGui_1_1Widgets_1_1searchWidget_a8d77bcf326543f841d1c05fe9819183f}{search\+Widget\+::search\+Widget} Construct a search widget 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The Q\+Widget parent \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{\index{Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}!get\+Current\+Customer\+Id@{get\+Current\+Customer\+Id}}
+\index{get\+Current\+Customer\+Id@{get\+Current\+Customer\+Id}!Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}}
+\subsubsection[{get\+Current\+Customer\+Id}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\+::\+Widgets\+::search\+Widget\+::get\+Current\+Customer\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}
+
+
+\hyperlink{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{search\+Widget\+::get\+Current\+Customer\+Id} Return the id of the customer selected in the table 
+
+\begin{DoxyReturn}{Returns}
+id of the current customer 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{\index{Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}!is\+Customer\+Selected@{is\+Customer\+Selected}}
+\index{is\+Customer\+Selected@{is\+Customer\+Selected}!Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}}
+\subsubsection[{is\+Customer\+Selected}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\+::\+Widgets\+::search\+Widget\+::is\+Customer\+Selected (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}
+
+
+is\+Customer\+Selected Return T\+R\+U\+E if a customer is selected, else F\+A\+L\+S\+E 
+
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_adf91225827fde587bea0d0fc803b0034}{\index{Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}!search@{search}}
+\index{search@{search}!Gui\+::\+Widgets\+::search\+Widget@{Gui\+::\+Widgets\+::search\+Widget}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::search\+Widget\+::search (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{to\+Search}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classGui_1_1Widgets_1_1searchWidget_adf91225827fde587bea0d0fc803b0034}
+
+
+search\+Widget\+::launch a search 
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Search} & The value to search \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/gui/widgets/searchwidget.\+h\item 
+src/gui/widgets/searchwidget.\+cpp\end{DoxyCompactItemize}

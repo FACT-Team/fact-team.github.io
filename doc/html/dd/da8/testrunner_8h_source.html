@@ -38,6 +38,7 @@
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
     </ul>
@@ -91,7 +92,7 @@ $(document).ready(function(){initNavTree('dd/da8/testrunner_8h_source.html','../
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../db/d70/classTestRunner.html">TestRunner</a>&amp; Instance();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keywordtype">char</span> RegisterTest(<span class="keywordtype">char</span> *name) {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keywordtype">char</span> RegisterTest(QString name) {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> ( std::find_if( begin(m_tests), end(m_tests), [&amp;name](QSharedPointer&lt;QObject&gt;&amp; elem)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        { <span class="keywordflow">return</span> elem-&gt;objectName() == name; }) == end(m_tests) ) {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            QSharedPointer&lt;QObject&gt; test(<span class="keyword">new</span> T());</div>
@@ -109,7 +110,7 @@ $(document).ready(function(){initNavTree('dd/da8/testrunner_8h_source.html','../
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// Use this macro after your test declaration</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define DECLARE_TEST(className)\</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">    static char test_##className = TestRunner::Instance().RegisterTest&lt;className&gt;(#className);</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">    static char test_##className = TestRunner::Instance().RegisterTest&lt;className&gt;(QString(#className));</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// Use this macro to execute all tests</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define RUN_ALL_TESTS(argc, argv)\</span></div>
