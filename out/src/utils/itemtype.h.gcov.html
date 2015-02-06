@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - src/utils/itemtype.h</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">src/utils</a> - itemtype.h<span style="font-size: 80%;"> (source / <a href="itemtype.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #ifndef ITEMTYPE_H</a>
+<span class="lineNum">       2 </span>            : #define ITEMTYPE_H
+<span class="lineNum">       3 </span>            : #include &lt;QString&gt;
+<span class="lineNum">       4 </span>            : #include &quot;models/idatabasemodel.h&quot;
+<span class="lineNum">       5 </span>            : #include &quot;models/billing.h&quot;
+<span class="lineNum">       6 </span>            : #include &quot;models/customer.h&quot;
+<span class="lineNum">       7 </span>            : #include &quot;models/project.h&quot;
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #include &quot;log.h&quot;
+<span class="lineNum">      10 </span>            : 
+<span class="lineNum">      11 </span>            : namespace Utils {
+<span class="lineNum">      12 </span>            : /**
+<a name="13"><span class="lineNum">      13 </span>            :  * @brief The ItemType class Item type model</a>
+<span class="lineNum">      14 </span>            :  */
+<span class="lineNum">      15 </span><span class="lineNoCov">          0 : class ItemType</span>
+<span class="lineNum">      16 </span>            : {
+<span class="lineNum">      17 </span>            : public:
+<span class="lineNum">      18 </span>            :     static const int CUSTOMER = 0;  //!&lt; constant value assigned to Customer
+<span class="lineNum">      19 </span>            :     static const int PROJECT = 1;   //!&lt; constant value assigned to Project
+<span class="lineNum">      20 </span>            :     static const int BILLING = 2;   //!&lt; constant value assigned to Billing
+<span class="lineNum">      21 </span>            :     static const int QUOTE = 3;     //!&lt; constant value assigned to Quote
+<span class="lineNum">      22 </span>            : 
+<span class="lineNum">      23 </span>            :     /**
+<span class="lineNum">      24 </span>            :      * @brief ItemType::ItemType Construct an Item type
+<span class="lineNum">      25 </span>            :      * @param type Type of the item
+<span class="lineNum">      26 </span>            :      * @param name Name of the item
+<span class="lineNum">      27 </span>            :      */
+<span class="lineNum">      28 </span>            :     ItemType(int type, QString name);
+<span class="lineNum">      29 </span>            : 
+<span class="lineNum">      30 </span>            :     /**
+<span class="lineNum">      31 </span>            :      * @brief ItemType::getName Get item name
+<span class="lineNum">      32 </span>            :      * @return item name
+<span class="lineNum">      33 </span>            :      */
+<span class="lineNum">      34 </span>            :     QString getName() const;
+<span class="lineNum">      35 </span>            : 
+<span class="lineNum">      36 </span>            :     /**
+<span class="lineNum">      37 </span>            :      * @brief ItemType::getModel Get the databasemodele of the &lt;b&gt;ItemType&lt;/b&gt;
+<span class="lineNum">      38 </span>            :      * according to this identity &lt;i&gt;id&lt;/i&gt;
+<span class="lineNum">      39 </span>            :      * @param id Item type identity
+<span class="lineNum">      40 </span>            :      * @return database model
+<span class="lineNum">      41 </span>            :      */
+<span class="lineNum">      42 </span>            :     Models::IDatabaseModel* getModel(int id);
+<span class="lineNum">      43 </span>            : 
+<span class="lineNum">      44 </span>            :     /**
+<span class="lineNum">      45 </span>            :      * @brief ItemType::setName Modify the item name
+<span class="lineNum">      46 </span>            :      * @param name New Item name
+<span class="lineNum">      47 </span>            :      */
+<span class="lineNum">      48 </span>            :     void setName(const QString &amp;name);
+<span class="lineNum">      49 </span>            : 
+<span class="lineNum">      50 </span>            :     /**
+<span class="lineNum">      51 </span>            :      * @brief ItemType::getType Get the type of the current item
+<span class="lineNum">      52 </span>            :      * @return type of the current item
+<span class="lineNum">      53 </span>            :      */
+<span class="lineNum">      54 </span>            :     int getType() const;    
+<span class="lineNum">      55 </span>            :     /**
+<span class="lineNum">      56 </span>            :      * @brief ItemType::setType Modify the type of the current item
+<span class="lineNum">      57 </span>            :      * @param type New item type
+<span class="lineNum">      58 </span>            :      */
+<span class="lineNum">      59 </span>            :     void setType(int type);
+<span class="lineNum">      60 </span>            : 
+<span class="lineNum">      61 </span>            : private:
+<span class="lineNum">      62 </span>            :     QString _name;  //!&lt; Name of the type item
+<span class="lineNum">      63 </span>            :     int _type;      //!&lt; Type of the item
+<span class="lineNum">      64 </span>            : };
+<span class="lineNum">      65 </span>            : }
+<span class="lineNum">      66 </span>            : #endif // ITEMTYPE_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

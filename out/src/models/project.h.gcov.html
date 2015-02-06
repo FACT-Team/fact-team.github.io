@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - src/models/project.h</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">src/models</a> - project.h<span style="font-size: 80%;"> (source / <a href="project.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #ifndef PROJECT_H</a>
+<span class="lineNum">       2 </span>            : #define PROJECT_H
+<span class="lineNum">       3 </span>            : 
+<span class="lineNum">       4 </span>            : #include &lt;QString&gt;
+<span class="lineNum">       5 </span>            : #include &lt;QDate&gt;
+<span class="lineNum">       6 </span>            : #include &lt;QSharedPointer&gt;
+<span class="lineNum">       7 </span>            : 
+<span class="lineNum">       8 </span>            : #include &quot;models/idatabasemodel.h&quot;
+<span class="lineNum">       9 </span>            : #include &quot;models/customer.h&quot;
+<span class="lineNum">      10 </span>            : 
+<span class="lineNum">      11 </span>            : namespace Models {
+<span class="lineNum">      12 </span>            : /**
+<span class="lineNum">      13 </span>            :  * @author Florent Berbie
+<span class="lineNum">      14 </span>            :  * @brief The Project class : Project linked to a Customer
+<a name="15"><span class="lineNum">      15 </span>            :  * @see IDatabaseModel</a>
+<span class="lineNum">      16 </span>            :  */
+<span class="lineNum">      17 </span><span class="lineNoCov">          0 : class Project : public IDatabaseModel</span>
+<span class="lineNum">      18 </span>            : {
+<span class="lineNum">      19 </span>            : public:
+<span class="lineNum">      20 </span>            :     static const double LEGAL_RATE; //!&lt; The Legal hourly Rate
+<span class="lineNum">      21 </span>            :     static const int NB_DAILY_HOURS; //!&lt; The number of daily hours in a day
+<span class="lineNum">      22 </span>            : 
+<span class="lineNum">      23 </span>            :     /**
+<span class="lineNum">      24 </span>            :      * @brief Project::Project Construct a Project
+<span class="lineNum">      25 </span>            :      */
+<span class="lineNum">      26 </span>            :     Project();
+<span class="lineNum">      27 </span>            : 
+<span class="lineNum">      28 </span>            : 
+<span class="lineNum">      29 </span>            :     /**
+<span class="lineNum">      30 </span>            :      * @brief Project::project Construct a project with a name
+<span class="lineNum">      31 </span>            :      */
+<span class="lineNum">      32 </span>            :     Project(QString name);
+<span class="lineNum">      33 </span>            : 
+<span class="lineNum">      34 </span>            :     /**
+<span class="lineNum">      35 </span>            :      * @brief Project::Project Construct a Project which is specified by an
+<span class="lineNum">      36 </span>            :      * &lt;i&gt;id&lt;/i&gt;
+<span class="lineNum">      37 </span>            :      * @param id
+<span class="lineNum">      38 </span>            :      */
+<span class="lineNum">      39 </span>            :     Project(int id);
+<span class="lineNum">      40 </span>            : 
+<span class="lineNum">      41 </span>            :     /**
+<span class="lineNum">      42 </span>            :      * @brief ~Project Desctruct project object
+<span class="lineNum">      43 </span>            :      */
+<span class="lineNum">      44 </span>            :     virtual ~Project();
+<span class="lineNum">      45 </span>            : 
+<span class="lineNum">      46 </span>            :     /**
+<span class="lineNum">      47 </span>            :      * @brief Project::commit Update project data in the database
+<span class="lineNum">      48 </span>            :      */
+<span class="lineNum">      49 </span>            :     void commit();
+<span class="lineNum">      50 </span>            :     /**
+<span class="lineNum">      51 </span>            :      * @brief Project::hydrat Insert project data which is specified by
+<span class="lineNum">      52 </span>            :      * &lt;i&gt;id&lt;/i&gt; in the database
+<span class="lineNum">      53 </span>            :      * @param id Project identify
+<span class="lineNum">      54 </span>            :      */
+<span class="lineNum">      55 </span>            :     void hydrat(int id);
+<span class="lineNum">      56 </span>            :     /**
+<span class="lineNum">      57 </span>            :      * @brief Project::remove Remove the current project
+<span class="lineNum">      58 </span>            :      */
+<span class="lineNum">      59 </span>            :     void remove();
+<span class="lineNum">      60 </span>            :     /**
+<span class="lineNum">      61 </span>            :      * @brief Project::getName Return the project name
+<span class="lineNum">      62 </span>            :      * @return project name
+<span class="lineNum">      63 </span>            :      */
+<span class="lineNum">      64 </span>            :     QString getName() const;
+<span class="lineNum">      65 </span>            :     /**
+<span class="lineNum">      66 </span>            :      * @brief Project::setName Modify the project &lt;i&gt;name&lt;/i&gt;
+<span class="lineNum">      67 </span>            :      * @param name Project name
+<span class="lineNum">      68 </span>            :      */
+<span class="lineNum">      69 </span>            :     void setName(const QString &amp;name);
+<span class="lineNum">      70 </span>            :     /**
+<span class="lineNum">      71 </span>            :      * @brief Project::getDescription Return a project description
+<span class="lineNum">      72 </span>            :      * @return project description
+<span class="lineNum">      73 </span>            :      */
+<span class="lineNum">      74 </span>            :     QString getDescription() const;
+<span class="lineNum">      75 </span>            :     /**
+<span class="lineNum">      76 </span>            :      * @brief Project::setDescription Modify the project &lt;i&gt;description&lt;/i&gt;
+<span class="lineNum">      77 </span>            :      * @param description New project description
+<span class="lineNum">      78 </span>            :      */
+<span class="lineNum">      79 </span>            :     void setDescription(const QString &amp;description);
+<span class="lineNum">      80 </span>            :     /**
+<span class="lineNum">      81 </span>            :      * @brief Project::getBeginDate return the date of creation
+<span class="lineNum">      82 </span>            :      * of the &lt;b&gt;Project&lt;/b&gt;
+<span class="lineNum">      83 </span>            :      * @return the begin date of the Project
+<span class="lineNum">      84 </span>            :      */
+<span class="lineNum">      85 </span>            :     QDate getBeginDate() const;
+<span class="lineNum">      86 </span>            : 
+<span class="lineNum">      87 </span>            :     /**
+<span class="lineNum">      88 </span>            :      * @brief Project::setBeginDate Modify &lt;i&gt;beginDate&lt;/i&gt; of a &lt;b&gt;Project&lt;/b&gt;
+<span class="lineNum">      89 </span>            :      * @param beginDate the new date of creation of the project
+<span class="lineNum">      90 </span>            :      */
+<span class="lineNum">      91 </span>            :     void setBeginDate(QDate beginDate);
+<span class="lineNum">      92 </span>            : 
+<span class="lineNum">      93 </span>            :     /**
+<span class="lineNum">      94 </span>            :      * @brief Project::getEndDate Return the &lt;i&gt;endDate&lt;/i&gt; of the &lt;b&gt;Project&lt;/b&gt;
+<span class="lineNum">      95 </span>            :      * @return the end date of the project
+<span class="lineNum">      96 </span>            :      */
+<span class="lineNum">      97 </span>            :     QDate getEndDate();
+<span class="lineNum">      98 </span>            : 
+<span class="lineNum">      99 </span>            :     /**
+<span class="lineNum">     100 </span>            :      * @brief Project::setEndDate Modify &lt;i&gt;endDate&lt;/i&gt; of &lt;b&gt;Project&lt;/b&gt;
+<span class="lineNum">     101 </span>            :      * @param endDate the new end date of the project
+<span class="lineNum">     102 </span>            :      */
+<span class="lineNum">     103 </span>            :     void setEndDate(QDate endDate);
+<span class="lineNum">     104 </span>            : 
+<span class="lineNum">     105 </span>            :     /**
+<span class="lineNum">     106 </span>            :      * @brief Project::getDailyRate Return the daily rate estimated for this
+<span class="lineNum">     107 </span>            :      * project
+<span class="lineNum">     108 </span>            :      * @return the daily rate linket to the current project
+<span class="lineNum">     109 </span>            :      */
+<span class="lineNum">     110 </span>            :     double getDailyRate() const;
+<span class="lineNum">     111 </span>            :     /**
+<span class="lineNum">     112 </span>            :      * @brief Project::setDailyRate Modify the daily rate &lt;i&gt;dailyRate&lt;/i&gt; of
+<span class="lineNum">     113 </span>            :      * the current project
+<span class="lineNum">     114 </span>            :      * @param dailyRate New daily rate associated to the current project
+<span class="lineNum">     115 </span>            :      */
+<span class="lineNum">     116 </span>            :     void setDailyRate(double dailyRate);
+<span class="lineNum">     117 </span>            : 
+<span class="lineNum">     118 </span>            :     /**
+<span class="lineNum">     119 </span>            :      * @brief Project::getCustomer Return the reference to the customer linked
+<span class="lineNum">     120 </span>            :      * to this project
+<span class="lineNum">     121 </span>            :      * @return customer linked to this project
+<span class="lineNum">     122 </span>            :      */
+<span class="lineNum">     123 </span>            :     QSharedPointer&lt;Customer&gt; getCustomer() const;
+<span class="lineNum">     124 </span>            : 
+<span class="lineNum">     125 </span>            :     /**
+<span class="lineNum">     126 </span>            :      * @brief Project::setCustomer Modify the &lt;i&gt;customer&lt;/i&gt; linked to this
+<span class="lineNum">     127 </span>            :      * project
+<span class="lineNum">     128 </span>            :      * @param customer New customer associated to this project
+<span class="lineNum">     129 </span>            :      */
+<span class="lineNum">     130 </span>            :     void setCustomer(QSharedPointer&lt;Customer&gt; customer);
+<span class="lineNum">     131 </span>            : 
+<span class="lineNum">     132 </span>            : private:
+<span class="lineNum">     133 </span>            :     QString _name;          //!&lt; Project name
+<span class="lineNum">     134 </span>            :     QString _description;   //!&lt; Description on the targets of this project
+<span class="lineNum">     135 </span>            :     QDate _beginDate;       //!&lt; Date of creation of the project
+<span class="lineNum">     136 </span>            :     QDate _endDate;         //!&lt; End date of the project
+<span class="lineNum">     137 </span>            :     double _dailyRate;      //!&lt; Daily rate linked to this project
+<span class="lineNum">     138 </span>            :     QSharedPointer&lt;Customer&gt; _customer;    //!&lt; Customer linked to this project
+<span class="lineNum">     139 </span>            : };
+<span class="lineNum">     140 </span>            : }
+<span class="lineNum">     141 </span>            : #endif // PROJECT_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

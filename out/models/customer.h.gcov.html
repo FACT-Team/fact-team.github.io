@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - models/customer.h</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">models</a> - customer.h<span style="font-size: 80%;"> (source / <a href="customer.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #ifndef CUSTOMER_H</a>
+<span class="lineNum">       2 </span>            : #define CUSTOMER_H
+<span class="lineNum">       3 </span>            : #include &lt;QString&gt;
+<span class="lineNum">       4 </span>            : #include &quot;models/idatabasemodel.h&quot;
+<span class="lineNum">       5 </span>            : 
+<span class="lineNum">       6 </span>            : 
+<span class="lineNum">       7 </span>            : namespace Models {
+<span class="lineNum">       8 </span>            : /**
+<span class="lineNum">       9 </span>            :  * @author Antoine de Roquemaurel
+<span class="lineNum">      10 </span>            :  * @author Florent Berbie
+<a name="11"><span class="lineNum">      11 </span>            :  * @brief The Customer class Customer</a>
+<span class="lineNum">      12 </span>            :  */
+<span class="lineNum">      13 </span><span class="lineNoCov">          0 : class Customer : public IDatabaseModel</span>
+<span class="lineNum">      14 </span>            : {
+<span class="lineNum">      15 </span>            : public:
+<span class="lineNum">      16 </span>            :     /**
+<span class="lineNum">      17 </span>            :      * @brief Customer::Customer Construct a Customer
+<span class="lineNum">      18 </span>            :      */
+<span class="lineNum">      19 </span>            :     Customer();
+<span class="lineNum">      20 </span>            :     /**
+<span class="lineNum">      21 </span>            :      * @brief Customer::Customer Constuct a Customer who is specidied by
+<span class="lineNum">      22 </span>            :      *  &lt;i&gt;id&lt;/i&gt;
+<span class="lineNum">      23 </span>            :      * @param id Customer identify
+<span class="lineNum">      24 </span>            :      */
+<span class="lineNum">      25 </span>            :     Customer(int id);
+<span class="lineNum">      26 </span>            : 
+<span class="lineNum">      27 </span>            :     /**
+<span class="lineNum">      28 </span>            :      * @brief Customer::commit Update customer data on the database
+<span class="lineNum">      29 </span>            :      */
+<span class="lineNum">      30 </span>            :     void commit();
+<span class="lineNum">      31 </span>            : 
+<span class="lineNum">      32 </span>            :     /**
+<span class="lineNum">      33 </span>            :      * @brief Customer::hydrat Insert into database informations related to the
+<span class="lineNum">      34 </span>            :      *  Customer who is specified by &lt;i&gt;id&lt;/i&gt;
+<span class="lineNum">      35 </span>            :      * @param id Customer identify
+<span class="lineNum">      36 </span>            :      */
+<span class="lineNum">      37 </span>            :     void hydrat(int id);
+<span class="lineNum">      38 </span>            : 
+<span class="lineNum">      39 </span>            :     /**
+<span class="lineNum">      40 </span>            :      * @brief Customer::remove Remove the current customer
+<span class="lineNum">      41 </span>            :      */
+<span class="lineNum">      42 </span>            :     void remove();
+<span class="lineNum">      43 </span>            : 
+<span class="lineNum">      44 </span>            :     /**
+<span class="lineNum">      45 </span>            :      * @brief Customer::getFirstnameReferent Return the firstname of the
+<span class="lineNum">      46 </span>            :      * referent Customer
+<span class="lineNum">      47 </span>            :      * @return Referent firstname of the customer
+<span class="lineNum">      48 </span>            :      */
+<span class="lineNum">      49 </span>            :     QString getFirstnameReferent() const;
+<span class="lineNum">      50 </span>            :     /**
+<span class="lineNum">      51 </span>            :      * @brief Customer::setFirstnameReferent Replace the referent firstname of
+<span class="lineNum">      52 </span>            :      * the customer by &lt;i&gt;firstnameReferent&lt;/i&gt;
+<span class="lineNum">      53 </span>            :      * @param firstnameReferent New referent firstname of the Customer
+<span class="lineNum">      54 </span>            :      */
+<span class="lineNum">      55 </span>            :     void setFirstnameReferent(const QString &amp;firstnameReferent);
+<span class="lineNum">      56 </span>            : 
+<span class="lineNum">      57 </span>            :     /**
+<span class="lineNum">      58 </span>            :      * @brief Customer::getLastnameReferent Return the lastname of the
+<span class="lineNum">      59 </span>            :      * referent Customer
+<span class="lineNum">      60 </span>            :      * @return Referent lastname of the customer
+<span class="lineNum">      61 </span>            :      */
+<span class="lineNum">      62 </span>            :     QString getLastnameReferent() const;
+<span class="lineNum">      63 </span>            :     /**
+<span class="lineNum">      64 </span>            :      * @brief Customer::setLarstnameReferent Replace the referent lastname of
+<span class="lineNum">      65 </span>            :      * the customer by &lt;i&gt;lastnameReferent&lt;/i&gt;
+<span class="lineNum">      66 </span>            :      * @param lastnameReferent New referent lastname of the Customer
+<span class="lineNum">      67 </span>            :      */
+<span class="lineNum">      68 </span>            :     void setLastnameReferent(const QString &amp;lastnameReferent);
+<span class="lineNum">      69 </span>            : 
+<span class="lineNum">      70 </span>            :     /**
+<span class="lineNum">      71 </span>            :      * @brief Customer::getCompany Return the name of the company customer
+<span class="lineNum">      72 </span>            :      * @return name of the company customer
+<span class="lineNum">      73 </span>            :      */
+<span class="lineNum">      74 </span>            :     QString getCompany() const;
+<span class="lineNum">      75 </span>            :     /**
+<span class="lineNum">      76 </span>            :      * @brief Customer::setCompany Replace the company name by &lt;i&gt;company&lt;/i&gt;
+<span class="lineNum">      77 </span>            :      * @param company New company name
+<span class="lineNum">      78 </span>            :      */
+<span class="lineNum">      79 </span>            :     void setCompany(const QString &amp;company);
+<span class="lineNum">      80 </span>            : 
+<span class="lineNum">      81 </span>            :     /**
+<span class="lineNum">      82 </span>            :      * @brief Customer::getAddress Return the address (name and street number)
+<span class="lineNum">      83 </span>            :      * of the customer company
+<span class="lineNum">      84 </span>            :      * @return company address
+<span class="lineNum">      85 </span>            :      */
+<span class="lineNum">      86 </span>            :     QString getAddress() const;
+<span class="lineNum">      87 </span>            :     /**
+<span class="lineNum">      88 </span>            :      * @brief Customer::setAddress Replace the current company address by the
+<span class="lineNum">      89 </span>            :      * new &lt;i&gt;address&lt;/i&gt;
+<span class="lineNum">      90 </span>            :      * @param address New company address
+<span class="lineNum">      91 </span>            :      */
+<span class="lineNum">      92 </span>            :     void setAddress(const QString &amp;address);
+<span class="lineNum">      93 </span>            : 
+<span class="lineNum">      94 </span>            :     /**
+<span class="lineNum">      95 </span>            :      * @brief Customer::getPostalCode  Return the postal code of the customer
+<span class="lineNum">      96 </span>            :      * company
+<span class="lineNum">      97 </span>            :      * @return postal code of the customer company
+<span class="lineNum">      98 </span>            :      */
+<span class="lineNum">      99 </span>            :     QString getPostalCode() const;
+<span class="lineNum">     100 </span>            :     /**
+<span class="lineNum">     101 </span>            :      * @brief Customer::setPostalCode Replace the current postal code of the
+<span class="lineNum">     102 </span>            :      * customer company by the new &lt;i&gt;postalCode&lt;/i&gt;
+<span class="lineNum">     103 </span>            :      * @param postalCode New postal code of the customer company
+<span class="lineNum">     104 </span>            :      */
+<span class="lineNum">     105 </span>            :     void setPostalCode(const QString &amp;postalCode);
+<span class="lineNum">     106 </span>            : 
+<span class="lineNum">     107 </span>            :     /**
+<span class="lineNum">     108 </span>            :      * @brief Customer::getCity Return the city of the customer company
+<span class="lineNum">     109 </span>            :      * @return city of the customer company
+<span class="lineNum">     110 </span>            :      */
+<span class="lineNum">     111 </span>            :     QString getCity() const;
+<span class="lineNum">     112 </span>            :     /**
+<span class="lineNum">     113 </span>            :      * @brief Customer::setCity Replace the current city of the customer company
+<span class="lineNum">     114 </span>            :      *  by the new &lt;i&gt;city&lt;/i&gt;
+<span class="lineNum">     115 </span>            :      * @param city New city of the customer company
+<span class="lineNum">     116 </span>            :      */
+<span class="lineNum">     117 </span>            :     void setCity(const QString &amp;city);
+<span class="lineNum">     118 </span>            : 
+<span class="lineNum">     119 </span>            :     /**
+<span class="lineNum">     120 </span>            :      * @brief Customer::getCountry Return the country of the customer company
+<span class="lineNum">     121 </span>            :      * @return country of the customer company
+<span class="lineNum">     122 </span>            :      */
+<span class="lineNum">     123 </span>            :     QString getCountry() const;
+<span class="lineNum">     124 </span>            :     /**
+<span class="lineNum">     125 </span>            :      * @brief Customer::setCountry Replace the country of the Customer company
+<span class="lineNum">     126 </span>            :      *  by &lt;i&gt;country&lt;/i&gt;
+<span class="lineNum">     127 </span>            :      * @param country New country of the customer company
+<span class="lineNum">     128 </span>            :      */
+<span class="lineNum">     129 </span>            :     void setCountry(const QString &amp;country);
+<span class="lineNum">     130 </span>            : 
+<span class="lineNum">     131 </span>            :     /**
+<span class="lineNum">     132 </span>            :      * @brief Customer::getEmail Return the email of the customer company
+<span class="lineNum">     133 </span>            :      * @return email of the customer company
+<span class="lineNum">     134 </span>            :      */
+<span class="lineNum">     135 </span>            :     QString getEmail() const;
+<span class="lineNum">     136 </span>            :     /**
+<span class="lineNum">     137 </span>            :      * @brief Customer::setEmail Replace the email of the Customer company by
+<span class="lineNum">     138 </span>            :      * &lt;i&gt;email&lt;/i&gt;
+<span class="lineNum">     139 </span>            :      * @param email New email of the customer company
+<span class="lineNum">     140 </span>            :      */
+<span class="lineNum">     141 </span>            :     void setEmail(const QString &amp;email);
+<span class="lineNum">     142 </span>            : 
+<span class="lineNum">     143 </span>            :     /**
+<span class="lineNum">     144 </span>            :      * @brief Customer::getMobilePhone Return the number of the mobile phone of
+<span class="lineNum">     145 </span>            :      * the customer company
+<span class="lineNum">     146 </span>            :      * @return number of mobile phone
+<span class="lineNum">     147 </span>            :      */
+<span class="lineNum">     148 </span>            :     QString getMobilePhone() const;
+<span class="lineNum">     149 </span>            :     /**
+<span class="lineNum">     150 </span>            :      * @brief Customer::setMobilePhone Replace the current mobile phone of the
+<span class="lineNum">     151 </span>            :      * customer company by &lt;i&gt;mobilePhone&lt;/i&gt;
+<span class="lineNum">     152 </span>            :      * @param mobilePhone New number of mobile phone
+<span class="lineNum">     153 </span>            :      */
+<span class="lineNum">     154 </span>            :     void setMobilePhone(const QString &amp;mobilePhone);
+<span class="lineNum">     155 </span>            : 
+<span class="lineNum">     156 </span>            :     /**
+<span class="lineNum">     157 </span>            :      * @brief Customer::getPhone Return the number of desktop phone
+<span class="lineNum">     158 </span>            :      * @return number of desktop phone
+<span class="lineNum">     159 </span>            :      */
+<span class="lineNum">     160 </span>            :     QString getPhone() const;
+<span class="lineNum">     161 </span>            :     /**
+<span class="lineNum">     162 </span>            :      * @brief Customer::setPhone Replace the current number of desktop phone by
+<span class="lineNum">     163 </span>            :      *  &lt;i&gt;phone&lt;/i&gt;
+<span class="lineNum">     164 </span>            :      * @param phone New number of desktop phone
+<span class="lineNum">     165 </span>            :      */
+<span class="lineNum">     166 </span>            :     void setPhone(const QString &amp;phone);
+<span class="lineNum">     167 </span>            : 
+<span class="lineNum">     168 </span>            :     /**
+<span class="lineNum">     169 </span>            :      * @brief Customer::getFax Return the fax number
+<span class="lineNum">     170 </span>            :      * @return fax number
+<span class="lineNum">     171 </span>            :      */
+<span class="lineNum">     172 </span>            :     QString getFax() const;
+<span class="lineNum">     173 </span>            :     /**
+<span class="lineNum">     174 </span>            :      * @brief Customer::setFax Replace the current fax number by &lt;i&gt;fax&lt;/i&gt;
+<span class="lineNum">     175 </span>            :      * @param fax new fax number
+<span class="lineNum">     176 </span>            :      */
+<span class="lineNum">     177 </span>            :     void setFax(const QString &amp;fax);
+<span class="lineNum">     178 </span>            : 
+<span class="lineNum">     179 </span>            :     /**
+<span class="lineNum">     180 </span>            :      * @brief Customer::operator == Re-define the operator &quot;==&quot; to compare if
+<span class="lineNum">     181 </span>            :      * the current customer is the same to the other &lt;b&gt;Customer&lt;/b&gt; &lt;i&gt;c&lt;/i&gt;
+<span class="lineNum">     182 </span>            :      * Return TRUE if both customers are the same, else FALSE
+<span class="lineNum">     183 </span>            :      * @param c Customer to compare
+<span class="lineNum">     184 </span>            :      * @return boolean
+<span class="lineNum">     185 </span>            :      */
+<span class="lineNum">     186 </span>            :     bool operator ==(const Customer &amp;c);
+<span class="lineNum">     187 </span>            :     /**
+<span class="lineNum">     188 </span>            :      * @brief Customer::operator == Re-define the operator &quot;!=&quot; to compare if
+<span class="lineNum">     189 </span>            :      * the current customer is differnt to the other &lt;b&gt;Customer&lt;/b&gt; &lt;i&gt;c&lt;/i&gt;
+<span class="lineNum">     190 </span>            :      * Return TRUE if both customers are different, else FALSE
+<span class="lineNum">     191 </span>            :      * @param c Customer to compare
+<span class="lineNum">     192 </span>            :      * @return boolean
+<span class="lineNum">     193 </span>            :      */
+<span class="lineNum">     194 </span>            :     bool operator !=(const Customer &amp;c);
+<span class="lineNum">     195 </span>            : private:
+<span class="lineNum">     196 </span>            :     QString _firstnameReferent; //!&lt; Firstname of the referent customer
+<span class="lineNum">     197 </span>            :     QString _lastnameReferent;  //!&lt; Lastname of the referent customer
+<span class="lineNum">     198 </span>            :     QString _company;           //!&lt; Company name of the customer
+<span class="lineNum">     199 </span>            :     QString _address;           //!&lt; Company address (Name and number of street)
+<span class="lineNum">     200 </span>            :                                 //!&lt; of the CUstomer
+<span class="lineNum">     201 </span>            :     QString _postalCode;        //!&lt; Postal code of the company
+<span class="lineNum">     202 </span>            :     QString _city;              //!&lt; City of the company
+<span class="lineNum">     203 </span>            :     QString _country;           //!&lt; Country of the company
+<span class="lineNum">     204 </span>            :     QString _email;             //!&lt; Email of the customer
+<span class="lineNum">     205 </span>            :     QString _mobilePhone;       //!&lt; Mobile phone number of the customer
+<span class="lineNum">     206 </span>            :     QString _phone;             //!&lt; Phone number of the customer
+<span class="lineNum">     207 </span>            :     QString _fax;               //!&lt; Fax number of the customer
+<span class="lineNum">     208 </span>            : };
+<span class="lineNum">     209 </span>            : }
+<span class="lineNum">     210 </span>            : #endif // CUSTOMER_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

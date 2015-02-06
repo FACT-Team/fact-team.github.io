@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - src/models/user.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">src/models</a> - user.cpp<span style="font-size: 80%;"> (source / <a href="user.cpp.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntry">84</td>
+            <td class="headerCovTableEntryLo">1.2 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntry">29</td>
+            <td class="headerCovTableEntryLo">6.9 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #include &quot;models/user.h&quot;</a>
+<span class="lineNum">       2 </span>            : #include &quot;database/userdatabase.h&quot;
+<span class="lineNum">       3 </span>            : 
+<span class="lineNum">       4 </span>            : using namespace Database;
+<a name="5"><span class="lineNum">       5 </span>            : </a>
+<span class="lineNum">       6 </span>            : namespace Models {
+<span class="lineNum">       7 </span><span class="lineNoCov">          0 : User::User()</span>
+<span class="lineNum">       8 </span>            : {
+<span class="lineNum">       9 </span>            : 
+<a name="10"><span class="lineNum">      10 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span><span class="lineNoCov">          0 : User::User(int id)</span>
+<span class="lineNum">      13 </span>            : {
+<span class="lineNum">      14 </span><span class="lineNoCov">          0 :     hydrat(id);</span>
+<a name="15"><span class="lineNum">      15 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      16 </span>            : 
+<span class="lineNum">      17 </span><span class="lineNoCov">          0 : void User::commit() {</span>
+<span class="lineNum">      18 </span><span class="lineNoCov">          0 :     if(!_toRemoved) {</span>
+<span class="lineNum">      19 </span><span class="lineNoCov">          0 :         UserDatabase::instance()-&gt;updateUser(*this);</span>
+<span class="lineNum">      20 </span>            :     } else {
+<span class="lineNum">      21 </span><span class="lineNoCov">          0 :         remove();</span>
+<span class="lineNum">      22 </span>            :     }
+<a name="23"><span class="lineNum">      23 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      24 </span>            : 
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 : void User::remove()</span>
+<span class="lineNum">      26 </span>            : {
+<span class="lineNum">      27 </span>            :     // Not use
+<span class="lineNum">      28 </span><span class="lineNoCov">          0 :     Log::instance(WARNING) &lt;&lt; &quot;User::remove is not implemented&quot;;</span>
+<a name="29"><span class="lineNum">      29 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      30 </span>            : 
+<span class="lineNum">      31 </span><span class="lineNoCov">          0 : void User::hydrat(int id)</span>
+<span class="lineNum">      32 </span>            : {
+<span class="lineNum">      33 </span><span class="lineNoCov">          0 :     User* user = UserDatabase::instance()-&gt;getUser(id);</span>
+<span class="lineNum">      34 </span><span class="lineNoCov">          0 :     _id = id;</span>
+<span class="lineNum">      35 </span><span class="lineNoCov">          0 :     _firstname = user-&gt;getFirstname();</span>
+<span class="lineNum">      36 </span><span class="lineNoCov">          0 :     _lastname = user-&gt;getLastname();</span>
+<span class="lineNum">      37 </span><span class="lineNoCov">          0 :     _company = user-&gt;getCompany();</span>
+<span class="lineNum">      38 </span><span class="lineNoCov">          0 :     _title = user-&gt;getTitle();</span>
+<span class="lineNum">      39 </span><span class="lineNoCov">          0 :     _address = user-&gt;getAddress();</span>
+<span class="lineNum">      40 </span><span class="lineNoCov">          0 :     _postalCode = user-&gt;getPostalCode();</span>
+<span class="lineNum">      41 </span><span class="lineNoCov">          0 :     _city = user-&gt;getCity();</span>
+<span class="lineNum">      42 </span><span class="lineNoCov">          0 :     _email = user-&gt;getEmail();</span>
+<span class="lineNum">      43 </span><span class="lineNoCov">          0 :     _mobilePhone = user-&gt;getMobilePhone();</span>
+<span class="lineNum">      44 </span><span class="lineNoCov">          0 :     _phone = user-&gt;getPhone();</span>
+<span class="lineNum">      45 </span><span class="lineNoCov">          0 :     _noSiret = user-&gt;getNoSiret();</span>
+<span class="lineNum">      46 </span><span class="lineNoCov">          0 : }</span>
+<a name="47"><span class="lineNum">      47 </span>            : </a>
+<span class="lineNum">      48 </span>            : 
+<span class="lineNum">      49 </span><span class="lineNoCov">          0 : QString User::getFirstname() const</span>
+<span class="lineNum">      50 </span>            : {
+<span class="lineNum">      51 </span><span class="lineNoCov">          0 :     return _firstname;</span>
+<a name="52"><span class="lineNum">      52 </span>            : }</a>
+<span class="lineNum">      53 </span>            : 
+<span class="lineNum">      54 </span><span class="lineNoCov">          0 : void User::setFirstname(const QString &amp;firstname)</span>
+<span class="lineNum">      55 </span>            : {
+<span class="lineNum">      56 </span><span class="lineNoCov">          0 :     _firstname = firstname;</span>
+<a name="57"><span class="lineNum">      57 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      58 </span>            : 
+<span class="lineNum">      59 </span><span class="lineNoCov">          0 : QString User::getLastname() const</span>
+<span class="lineNum">      60 </span>            : {
+<span class="lineNum">      61 </span><span class="lineNoCov">          0 :     return _lastname;</span>
+<a name="62"><span class="lineNum">      62 </span>            : }</a>
+<span class="lineNum">      63 </span>            : 
+<span class="lineNum">      64 </span><span class="lineNoCov">          0 : void User::setLastname(const QString &amp;lastname)</span>
+<span class="lineNum">      65 </span>            : {
+<span class="lineNum">      66 </span><span class="lineNoCov">          0 :     _lastname = lastname;</span>
+<a name="67"><span class="lineNum">      67 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      68 </span>            : 
+<span class="lineNum">      69 </span><span class="lineNoCov">          0 : QString User::getCompany() const</span>
+<span class="lineNum">      70 </span>            : {
+<span class="lineNum">      71 </span><span class="lineNoCov">          0 :     return _company;</span>
+<a name="72"><span class="lineNum">      72 </span>            : }</a>
+<span class="lineNum">      73 </span>            : 
+<span class="lineNum">      74 </span><span class="lineNoCov">          0 : void User::setCompany(const QString &amp;company)</span>
+<span class="lineNum">      75 </span>            : {
+<span class="lineNum">      76 </span><span class="lineNoCov">          0 :     _company = company;</span>
+<a name="77"><span class="lineNum">      77 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      78 </span>            : 
+<span class="lineNum">      79 </span><span class="lineNoCov">          0 : QString User::getTitle() const</span>
+<span class="lineNum">      80 </span>            : {
+<span class="lineNum">      81 </span><span class="lineNoCov">          0 :     return _title;</span>
+<a name="82"><span class="lineNum">      82 </span>            : }</a>
+<span class="lineNum">      83 </span>            : 
+<span class="lineNum">      84 </span><span class="lineNoCov">          0 : void User::setTitle(const QString &amp;title)</span>
+<span class="lineNum">      85 </span>            : {
+<span class="lineNum">      86 </span><span class="lineNoCov">          0 :     _title = title;</span>
+<a name="87"><span class="lineNum">      87 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      88 </span>            : 
+<span class="lineNum">      89 </span><span class="lineNoCov">          0 : QString User::getAddress() const</span>
+<span class="lineNum">      90 </span>            : {
+<span class="lineNum">      91 </span><span class="lineNoCov">          0 :     return _address;</span>
+<a name="92"><span class="lineNum">      92 </span>            : }</a>
+<span class="lineNum">      93 </span>            : 
+<span class="lineNum">      94 </span><span class="lineNoCov">          0 : void User::setAddress(const QString &amp;address)</span>
+<span class="lineNum">      95 </span>            : {
+<a name="96"><span class="lineNum">      96 </span><span class="lineNoCov">          0 :     _address = address;</span></a>
+<span class="lineNum">      97 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">      98 </span><span class="lineNoCov">          0 : QString User::getPostalCode() const</span>
+<span class="lineNum">      99 </span>            : {
+<span class="lineNum">     100 </span><span class="lineNoCov">          0 :     return _postalCode;</span>
+<a name="101"><span class="lineNum">     101 </span>            : }</a>
+<span class="lineNum">     102 </span>            : 
+<span class="lineNum">     103 </span><span class="lineNoCov">          0 : void User::setPostalCode(const QString &amp;postalCode)</span>
+<span class="lineNum">     104 </span>            : {
+<a name="105"><span class="lineNum">     105 </span><span class="lineNoCov">          0 :     _postalCode = postalCode;</span></a>
+<span class="lineNum">     106 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     107 </span><span class="lineNoCov">          0 : QString User::getCity() const</span>
+<span class="lineNum">     108 </span>            : {
+<span class="lineNum">     109 </span><span class="lineNoCov">          0 :     return _city;</span>
+<a name="110"><span class="lineNum">     110 </span>            : }</a>
+<span class="lineNum">     111 </span>            : 
+<span class="lineNum">     112 </span><span class="lineNoCov">          0 : void User::setCity(const QString &amp;city)</span>
+<span class="lineNum">     113 </span>            : {
+<span class="lineNum">     114 </span><span class="lineNoCov">          0 :     _city = city;</span>
+<a name="115"><span class="lineNum">     115 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">     116 </span>            : 
+<span class="lineNum">     117 </span><span class="lineNoCov">          0 : QString User::getEmail() const</span>
+<span class="lineNum">     118 </span>            : {
+<span class="lineNum">     119 </span><span class="lineNoCov">          0 :     return _email;</span>
+<a name="120"><span class="lineNum">     120 </span>            : }</a>
+<span class="lineNum">     121 </span>            : 
+<span class="lineNum">     122 </span><span class="lineNoCov">          0 : void User::setEmail(const QString &amp;email)</span>
+<span class="lineNum">     123 </span>            : {
+<a name="124"><span class="lineNum">     124 </span><span class="lineNoCov">          0 :     _email = email;</span></a>
+<span class="lineNum">     125 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     126 </span><span class="lineNoCov">          0 : QString User::getMobilePhone() const</span>
+<span class="lineNum">     127 </span>            : {
+<span class="lineNum">     128 </span><span class="lineNoCov">          0 :     return _mobilePhone;</span>
+<a name="129"><span class="lineNum">     129 </span>            : }</a>
+<span class="lineNum">     130 </span>            : 
+<span class="lineNum">     131 </span><span class="lineNoCov">          0 : void User::setMobilePhone(const QString &amp;mobilePhone)</span>
+<span class="lineNum">     132 </span>            : {
+<a name="133"><span class="lineNum">     133 </span><span class="lineNoCov">          0 :     _mobilePhone = mobilePhone;</span></a>
+<span class="lineNum">     134 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     135 </span><span class="lineNoCov">          0 : QString User::getPhone() const</span>
+<span class="lineNum">     136 </span>            : {
+<span class="lineNum">     137 </span><span class="lineNoCov">          0 :     return _phone;</span>
+<a name="138"><span class="lineNum">     138 </span>            : }</a>
+<span class="lineNum">     139 </span>            : 
+<span class="lineNum">     140 </span><span class="lineNoCov">          0 : void User::setPhone(const QString &amp;phone)</span>
+<span class="lineNum">     141 </span>            : {
+<a name="142"><span class="lineNum">     142 </span><span class="lineNoCov">          0 :     _phone = phone;</span></a>
+<span class="lineNum">     143 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     144 </span><span class="lineNoCov">          0 : QString User::getNoSiret() const</span>
+<span class="lineNum">     145 </span>            : {
+<span class="lineNum">     146 </span><span class="lineNoCov">          0 :     return _noSiret;</span>
+<a name="147"><span class="lineNum">     147 </span>            : }</a>
+<span class="lineNum">     148 </span>            : 
+<span class="lineNum">     149 </span><span class="lineNoCov">          0 : void User::setNoSiret(const QString &amp;noSiret)</span>
+<span class="lineNum">     150 </span>            : {
+<a name="151"><span class="lineNum">     151 </span><span class="lineNoCov">          0 :     _noSiret = noSiret;</span></a>
+<span class="lineNum">     152 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     153 </span><span class="lineCov">          3 : }</span>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>
