@@ -1,0 +1,531 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - /opt/Qt/5.3/gcc_64/include/QtGui/qstandarditemmodel.h</title>
+  <link rel="stylesheet" type="text/css" href="../../../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../../../index.html">top level</a> - <a href="index.html">opt/Qt/5.3/gcc_64/include/QtGui</a> - qstandarditemmodel.h<span style="font-size: 80%;"> (source / <a href="qstandarditemmodel.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">8</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /****************************************************************************</a>
+<span class="lineNum">       2 </span>            : **
+<span class="lineNum">       3 </span>            : ** Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+<span class="lineNum">       4 </span>            : ** Contact: http://www.qt-project.org/legal
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** This file is part of the QtGui module of the Qt Toolkit.
+<span class="lineNum">       7 </span>            : **
+<span class="lineNum">       8 </span>            : ** $QT_BEGIN_LICENSE:LGPL$
+<span class="lineNum">       9 </span>            : ** Commercial License Usage
+<span class="lineNum">      10 </span>            : ** Licensees holding valid commercial Qt licenses may use this file in
+<span class="lineNum">      11 </span>            : ** accordance with the commercial license agreement provided with the
+<span class="lineNum">      12 </span>            : ** Software or, alternatively, in accordance with the terms contained in
+<span class="lineNum">      13 </span>            : ** a written agreement between you and Digia.  For licensing terms and
+<span class="lineNum">      14 </span>            : ** conditions see http://qt.digia.com/licensing.  For further information
+<span class="lineNum">      15 </span>            : ** use the contact form at http://qt.digia.com/contact-us.
+<span class="lineNum">      16 </span>            : **
+<span class="lineNum">      17 </span>            : ** GNU Lesser General Public License Usage
+<span class="lineNum">      18 </span>            : ** Alternatively, this file may be used under the terms of the GNU Lesser
+<span class="lineNum">      19 </span>            : ** General Public License version 2.1 as published by the Free Software
+<span class="lineNum">      20 </span>            : ** Foundation and appearing in the file LICENSE.LGPL included in the
+<span class="lineNum">      21 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      22 </span>            : ** ensure the GNU Lesser General Public License version 2.1 requirements
+<span class="lineNum">      23 </span>            : ** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+<span class="lineNum">      24 </span>            : **
+<span class="lineNum">      25 </span>            : ** In addition, as a special exception, Digia gives you certain additional
+<span class="lineNum">      26 </span>            : ** rights.  These rights are described in the Digia Qt LGPL Exception
+<span class="lineNum">      27 </span>            : ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+<span class="lineNum">      28 </span>            : **
+<span class="lineNum">      29 </span>            : ** GNU General Public License Usage
+<span class="lineNum">      30 </span>            : ** Alternatively, this file may be used under the terms of the GNU
+<span class="lineNum">      31 </span>            : ** General Public License version 3.0 as published by the Free Software
+<span class="lineNum">      32 </span>            : ** Foundation and appearing in the file LICENSE.GPL included in the
+<span class="lineNum">      33 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      34 </span>            : ** ensure the GNU General Public License version 3.0 requirements will be
+<span class="lineNum">      35 </span>            : ** met: http://www.gnu.org/copyleft/gpl.html.
+<span class="lineNum">      36 </span>            : **
+<span class="lineNum">      37 </span>            : **
+<span class="lineNum">      38 </span>            : ** $QT_END_LICENSE$
+<span class="lineNum">      39 </span>            : **
+<span class="lineNum">      40 </span>            : ****************************************************************************/
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span>            : #ifndef QSTANDARDITEMMODEL_H
+<span class="lineNum">      43 </span>            : #define QSTANDARDITEMMODEL_H
+<span class="lineNum">      44 </span>            : 
+<span class="lineNum">      45 </span>            : #include &lt;QtCore/qabstractitemmodel.h&gt;
+<span class="lineNum">      46 </span>            : #include &lt;QtGui/qbrush.h&gt;
+<span class="lineNum">      47 </span>            : #include &lt;QtGui/qfont.h&gt;
+<span class="lineNum">      48 </span>            : #include &lt;QtGui/qicon.h&gt;
+<span class="lineNum">      49 </span>            : #ifndef QT_NO_DATASTREAM
+<span class="lineNum">      50 </span>            : #include &lt;QtCore/qdatastream.h&gt;
+<span class="lineNum">      51 </span>            : #endif
+<span class="lineNum">      52 </span>            : 
+<span class="lineNum">      53 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      54 </span>            : 
+<span class="lineNum">      55 </span>            : 
+<span class="lineNum">      56 </span>            : #ifndef QT_NO_STANDARDITEMMODEL
+<span class="lineNum">      57 </span>            : 
+<span class="lineNum">      58 </span>            : template &lt;class T&gt; class QList;
+<span class="lineNum">      59 </span>            : 
+<span class="lineNum">      60 </span>            : class QStandardItemModel;
+<span class="lineNum">      61 </span>            : 
+<span class="lineNum">      62 </span>            : class QStandardItemPrivate;
+<span class="lineNum">      63 </span>            : class Q_GUI_EXPORT QStandardItem
+<span class="lineNum">      64 </span>            : {
+<span class="lineNum">      65 </span>            : public:
+<span class="lineNum">      66 </span>            :     QStandardItem();
+<span class="lineNum">      67 </span>            :     explicit QStandardItem(const QString &amp;text);
+<span class="lineNum">      68 </span>            :     QStandardItem(const QIcon &amp;icon, const QString &amp;text);
+<span class="lineNum">      69 </span>            :     explicit QStandardItem(int rows, int columns = 1);
+<span class="lineNum">      70 </span>            :     virtual ~QStandardItem();
+<span class="lineNum">      71 </span>            : 
+<span class="lineNum">      72 </span>            :     virtual QVariant data(int role = Qt::UserRole + 1) const;
+<span class="lineNum">      73 </span>            :     virtual void setData(const QVariant &amp;value, int role = Qt::UserRole + 1);
+<span class="lineNum">      74 </span>            : 
+<span class="lineNum">      75 </span>            :     inline QString text() const {
+<span class="lineNum">      76 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::DisplayRole));
+<span class="lineNum">      77 </span>            :     }
+<span class="lineNum">      78 </span>            :     inline void setText(const QString &amp;text);
+<span class="lineNum">      79 </span>            : 
+<span class="lineNum">      80 </span>            :     inline QIcon icon() const {
+<span class="lineNum">      81 </span>            :         return qvariant_cast&lt;QIcon&gt;(data(Qt::DecorationRole));
+<span class="lineNum">      82 </span>            :     }
+<span class="lineNum">      83 </span>            :     inline void setIcon(const QIcon &amp;icon);
+<span class="lineNum">      84 </span>            : 
+<span class="lineNum">      85 </span>            : #ifndef QT_NO_TOOLTIP
+<span class="lineNum">      86 </span>            :     inline QString toolTip() const {
+<span class="lineNum">      87 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::ToolTipRole));
+<span class="lineNum">      88 </span>            :     }
+<span class="lineNum">      89 </span>            :     inline void setToolTip(const QString &amp;toolTip);
+<span class="lineNum">      90 </span>            : #endif
+<span class="lineNum">      91 </span>            : 
+<span class="lineNum">      92 </span>            : #ifndef QT_NO_STATUSTIP
+<span class="lineNum">      93 </span>            :     inline QString statusTip() const {
+<span class="lineNum">      94 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::StatusTipRole));
+<span class="lineNum">      95 </span>            :     }
+<span class="lineNum">      96 </span>            :     inline void setStatusTip(const QString &amp;statusTip);
+<span class="lineNum">      97 </span>            : #endif
+<span class="lineNum">      98 </span>            : 
+<span class="lineNum">      99 </span>            : #ifndef QT_NO_WHATSTHIS
+<span class="lineNum">     100 </span>            :     inline QString whatsThis() const {
+<span class="lineNum">     101 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::WhatsThisRole));
+<span class="lineNum">     102 </span>            :     }
+<span class="lineNum">     103 </span>            :     inline void setWhatsThis(const QString &amp;whatsThis);
+<span class="lineNum">     104 </span>            : #endif
+<span class="lineNum">     105 </span>            : 
+<span class="lineNum">     106 </span>            :     inline QSize sizeHint() const {
+<span class="lineNum">     107 </span>            :         return qvariant_cast&lt;QSize&gt;(data(Qt::SizeHintRole));
+<span class="lineNum">     108 </span>            :     }
+<span class="lineNum">     109 </span>            :     inline void setSizeHint(const QSize &amp;sizeHint);
+<span class="lineNum">     110 </span>            : 
+<span class="lineNum">     111 </span>            :     inline QFont font() const {
+<span class="lineNum">     112 </span>            :         return qvariant_cast&lt;QFont&gt;(data(Qt::FontRole));
+<span class="lineNum">     113 </span>            :     }
+<span class="lineNum">     114 </span>            :     inline void setFont(const QFont &amp;font);
+<span class="lineNum">     115 </span>            : 
+<span class="lineNum">     116 </span>            :     inline Qt::Alignment textAlignment() const {
+<span class="lineNum">     117 </span>            :         return Qt::Alignment(qvariant_cast&lt;int&gt;(data(Qt::TextAlignmentRole)));
+<span class="lineNum">     118 </span>            :     }
+<span class="lineNum">     119 </span>            :     inline void setTextAlignment(Qt::Alignment textAlignment);
+<span class="lineNum">     120 </span>            : 
+<span class="lineNum">     121 </span>            :     inline QBrush background() const {
+<span class="lineNum">     122 </span>            :         return qvariant_cast&lt;QBrush&gt;(data(Qt::BackgroundRole));
+<span class="lineNum">     123 </span>            :     }
+<span class="lineNum">     124 </span>            :     inline void setBackground(const QBrush &amp;brush);
+<span class="lineNum">     125 </span>            : 
+<span class="lineNum">     126 </span>            :     inline QBrush foreground() const {
+<span class="lineNum">     127 </span>            :         return qvariant_cast&lt;QBrush&gt;(data(Qt::ForegroundRole));
+<span class="lineNum">     128 </span>            :     }
+<span class="lineNum">     129 </span>            :     inline void setForeground(const QBrush &amp;brush);
+<span class="lineNum">     130 </span>            : 
+<span class="lineNum">     131 </span>            :     inline Qt::CheckState checkState() const {
+<span class="lineNum">     132 </span>            :         return Qt::CheckState(qvariant_cast&lt;int&gt;(data(Qt::CheckStateRole)));
+<span class="lineNum">     133 </span>            :     }
+<span class="lineNum">     134 </span>            :     inline void setCheckState(Qt::CheckState checkState);
+<span class="lineNum">     135 </span>            : 
+<span class="lineNum">     136 </span>            :     inline QString accessibleText() const {
+<span class="lineNum">     137 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::AccessibleTextRole));
+<span class="lineNum">     138 </span>            :     }
+<span class="lineNum">     139 </span>            :     inline void setAccessibleText(const QString &amp;accessibleText);
+<span class="lineNum">     140 </span>            : 
+<span class="lineNum">     141 </span>            :     inline QString accessibleDescription() const {
+<span class="lineNum">     142 </span>            :         return qvariant_cast&lt;QString&gt;(data(Qt::AccessibleDescriptionRole));
+<span class="lineNum">     143 </span>            :     }
+<span class="lineNum">     144 </span>            :     inline void setAccessibleDescription(const QString &amp;accessibleDescription);
+<span class="lineNum">     145 </span>            : 
+<span class="lineNum">     146 </span>            :     Qt::ItemFlags flags() const;
+<span class="lineNum">     147 </span>            :     void setFlags(Qt::ItemFlags flags);
+<span class="lineNum">     148 </span>            : 
+<span class="lineNum">     149 </span>            :     inline bool isEnabled() const {
+<span class="lineNum">     150 </span>            :         return (flags() &amp; Qt::ItemIsEnabled) != 0;
+<span class="lineNum">     151 </span>            :     }
+<span class="lineNum">     152 </span>            :     void setEnabled(bool enabled);
+<span class="lineNum">     153 </span>            : 
+<span class="lineNum">     154 </span>            :     inline bool isEditable() const {
+<span class="lineNum">     155 </span>            :         return (flags() &amp; Qt::ItemIsEditable) != 0;
+<span class="lineNum">     156 </span>            :     }
+<span class="lineNum">     157 </span>            :     void setEditable(bool editable);
+<span class="lineNum">     158 </span>            : 
+<span class="lineNum">     159 </span>            :     inline bool isSelectable() const {
+<span class="lineNum">     160 </span>            :         return (flags() &amp; Qt::ItemIsSelectable) != 0;
+<span class="lineNum">     161 </span>            :     }
+<span class="lineNum">     162 </span>            :     void setSelectable(bool selectable);
+<span class="lineNum">     163 </span>            : 
+<span class="lineNum">     164 </span>            :     inline bool isCheckable() const {
+<span class="lineNum">     165 </span>            :         return (flags() &amp; Qt::ItemIsUserCheckable) != 0;
+<span class="lineNum">     166 </span>            :     }
+<span class="lineNum">     167 </span>            :     void setCheckable(bool checkable);
+<span class="lineNum">     168 </span>            : 
+<span class="lineNum">     169 </span>            :     inline bool isTristate() const {
+<span class="lineNum">     170 </span>            :         return (flags() &amp; Qt::ItemIsTristate) != 0;
+<span class="lineNum">     171 </span>            :     }
+<span class="lineNum">     172 </span>            :     void setTristate(bool tristate);
+<span class="lineNum">     173 </span>            : 
+<span class="lineNum">     174 </span>            : #ifndef QT_NO_DRAGANDDROP
+<span class="lineNum">     175 </span>            :     inline bool isDragEnabled() const {
+<span class="lineNum">     176 </span>            :         return (flags() &amp; Qt::ItemIsDragEnabled) != 0;
+<span class="lineNum">     177 </span>            :     }
+<span class="lineNum">     178 </span>            :     void setDragEnabled(bool dragEnabled);
+<span class="lineNum">     179 </span>            : 
+<span class="lineNum">     180 </span>            :     inline bool isDropEnabled() const {
+<span class="lineNum">     181 </span>            :         return (flags() &amp; Qt::ItemIsDropEnabled) != 0;
+<span class="lineNum">     182 </span>            :     }
+<span class="lineNum">     183 </span>            :     void setDropEnabled(bool dropEnabled);
+<span class="lineNum">     184 </span>            : #endif // QT_NO_DRAGANDDROP
+<span class="lineNum">     185 </span>            : 
+<span class="lineNum">     186 </span>            :     QStandardItem *parent() const;
+<span class="lineNum">     187 </span>            :     int row() const;
+<span class="lineNum">     188 </span>            :     int column() const;
+<span class="lineNum">     189 </span>            :     QModelIndex index() const;
+<span class="lineNum">     190 </span>            :     QStandardItemModel *model() const;
+<span class="lineNum">     191 </span>            : 
+<span class="lineNum">     192 </span>            :     int rowCount() const;
+<span class="lineNum">     193 </span>            :     void setRowCount(int rows);
+<span class="lineNum">     194 </span>            :     int columnCount() const;
+<span class="lineNum">     195 </span>            :     void setColumnCount(int columns);
+<span class="lineNum">     196 </span>            : 
+<span class="lineNum">     197 </span>            :     bool hasChildren() const;
+<span class="lineNum">     198 </span>            :     QStandardItem *child(int row, int column = 0) const;
+<span class="lineNum">     199 </span>            :     void setChild(int row, int column, QStandardItem *item);
+<span class="lineNum">     200 </span>            :     inline void setChild(int row, QStandardItem *item);
+<span class="lineNum">     201 </span>            : 
+<span class="lineNum">     202 </span>            :     void insertRow(int row, const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     203 </span>            :     void insertColumn(int column, const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     204 </span>            :     void insertRows(int row, const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     205 </span>            :     void insertRows(int row, int count);
+<span class="lineNum">     206 </span>            :     void insertColumns(int column, int count);
+<span class="lineNum">     207 </span>            : 
+<span class="lineNum">     208 </span>            :     void removeRow(int row);
+<span class="lineNum">     209 </span>            :     void removeColumn(int column);
+<span class="lineNum">     210 </span>            :     void removeRows(int row, int count);
+<span class="lineNum">     211 </span>            :     void removeColumns(int column, int count);
+<span class="lineNum">     212 </span>            : 
+<span class="lineNum">     213 </span>            :     inline void appendRow(const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     214 </span>            :     inline void appendRows(const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     215 </span>            :     inline void appendColumn(const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     216 </span>            :     inline void insertRow(int row, QStandardItem *item);
+<span class="lineNum">     217 </span>            :     inline void appendRow(QStandardItem *item);
+<span class="lineNum">     218 </span>            : 
+<span class="lineNum">     219 </span>            :     QStandardItem *takeChild(int row, int column = 0);
+<span class="lineNum">     220 </span>            :     QList&lt;QStandardItem*&gt; takeRow(int row);
+<span class="lineNum">     221 </span>            :     QList&lt;QStandardItem*&gt; takeColumn(int column);
+<span class="lineNum">     222 </span>            : 
+<span class="lineNum">     223 </span>            :     void sortChildren(int column, Qt::SortOrder order = Qt::AscendingOrder);
+<span class="lineNum">     224 </span>            : 
+<span class="lineNum">     225 </span>            :     virtual QStandardItem *clone() const;
+<span class="lineNum">     226 </span>            : 
+<span class="lineNum">     227 </span>            :     enum ItemType { Type = 0, UserType = 1000 };
+<span class="lineNum">     228 </span>            :     virtual int type() const;
+<span class="lineNum">     229 </span>            : 
+<span class="lineNum">     230 </span>            : #ifndef QT_NO_DATASTREAM
+<span class="lineNum">     231 </span>            :     virtual void read(QDataStream &amp;in);
+<span class="lineNum">     232 </span>            :     virtual void write(QDataStream &amp;out) const;
+<span class="lineNum">     233 </span>            : #endif
+<span class="lineNum">     234 </span>            :     virtual bool operator&lt;(const QStandardItem &amp;other) const;
+<span class="lineNum">     235 </span>            : 
+<span class="lineNum">     236 </span>            : protected:
+<span class="lineNum">     237 </span>            :     QStandardItem(const QStandardItem &amp;other);
+<span class="lineNum">     238 </span>            :     QStandardItem(QStandardItemPrivate &amp;dd);
+<span class="lineNum">     239 </span>            :     QStandardItem &amp;operator=(const QStandardItem &amp;other);
+<span class="lineNum">     240 </span>            :     QScopedPointer&lt;QStandardItemPrivate&gt; d_ptr;
+<span class="lineNum">     241 </span>            : 
+<span class="lineNum">     242 </span>            :     void emitDataChanged();
+<span class="lineNum">     243 </span>            : 
+<span class="lineNum">     244 </span>            : private:
+<span class="lineNum">     245 </span>            :     Q_DECLARE_PRIVATE(QStandardItem)
+<span class="lineNum">     246 </span>            :     friend class QStandardItemModelPrivate;
+<span class="lineNum">     247 </span>            :     friend class QStandardItemModel;
+<span class="lineNum">     248 </span>            : };
+<span class="lineNum">     249 </span>            : 
+<span class="lineNum">     250 </span>            : inline void QStandardItem::setText(const QString &amp;atext)
+<a name="251"><span class="lineNum">     251 </span>            : { setData(atext, Qt::DisplayRole); }</a>
+<span class="lineNum">     252 </span>            : 
+<span class="lineNum">     253 </span><span class="lineNoCov">          0 : inline void QStandardItem::setIcon(const QIcon &amp;aicon)</span>
+<span class="lineNum">     254 </span><span class="lineNoCov">          0 : { setData(aicon, Qt::DecorationRole); }</span>
+<span class="lineNum">     255 </span>            : 
+<span class="lineNum">     256 </span>            : #ifndef QT_NO_TOOLTIP
+<span class="lineNum">     257 </span>            : inline void QStandardItem::setToolTip(const QString &amp;atoolTip)
+<span class="lineNum">     258 </span>            : { setData(atoolTip, Qt::ToolTipRole); }
+<span class="lineNum">     259 </span>            : #endif
+<span class="lineNum">     260 </span>            : 
+<span class="lineNum">     261 </span>            : #ifndef QT_NO_STATUSTIP
+<span class="lineNum">     262 </span>            : inline void QStandardItem::setStatusTip(const QString &amp;astatusTip)
+<span class="lineNum">     263 </span>            : { setData(astatusTip, Qt::StatusTipRole); }
+<span class="lineNum">     264 </span>            : #endif
+<span class="lineNum">     265 </span>            : 
+<span class="lineNum">     266 </span>            : #ifndef QT_NO_WHATSTHIS
+<span class="lineNum">     267 </span>            : inline void QStandardItem::setWhatsThis(const QString &amp;awhatsThis)
+<span class="lineNum">     268 </span>            : { setData(awhatsThis, Qt::WhatsThisRole); }
+<span class="lineNum">     269 </span>            : #endif
+<span class="lineNum">     270 </span>            : 
+<span class="lineNum">     271 </span>            : inline void QStandardItem::setSizeHint(const QSize &amp;asizeHint)
+<span class="lineNum">     272 </span>            : { setData(asizeHint, Qt::SizeHintRole); }
+<span class="lineNum">     273 </span>            : 
+<span class="lineNum">     274 </span>            : inline void QStandardItem::setFont(const QFont &amp;afont)
+<span class="lineNum">     275 </span>            : { setData(afont, Qt::FontRole); }
+<span class="lineNum">     276 </span>            : 
+<span class="lineNum">     277 </span>            : inline void QStandardItem::setTextAlignment(Qt::Alignment atextAlignment)
+<span class="lineNum">     278 </span>            : { setData(int(atextAlignment), Qt::TextAlignmentRole); }
+<span class="lineNum">     279 </span>            : 
+<span class="lineNum">     280 </span>            : inline void QStandardItem::setBackground(const QBrush &amp;abrush)
+<span class="lineNum">     281 </span>            : { setData(abrush, Qt::BackgroundRole); }
+<span class="lineNum">     282 </span>            : 
+<span class="lineNum">     283 </span>            : inline void QStandardItem::setForeground(const QBrush &amp;abrush)
+<span class="lineNum">     284 </span>            : { setData(abrush, Qt::ForegroundRole); }
+<span class="lineNum">     285 </span>            : 
+<span class="lineNum">     286 </span>            : inline void QStandardItem::setCheckState(Qt::CheckState acheckState)
+<span class="lineNum">     287 </span>            : { setData(acheckState, Qt::CheckStateRole); }
+<span class="lineNum">     288 </span>            : 
+<span class="lineNum">     289 </span>            : inline void QStandardItem::setAccessibleText(const QString &amp;aaccessibleText)
+<span class="lineNum">     290 </span>            : { setData(aaccessibleText, Qt::AccessibleTextRole); }
+<span class="lineNum">     291 </span>            : 
+<span class="lineNum">     292 </span>            : inline void QStandardItem::setAccessibleDescription(const QString &amp;aaccessibleDescription)
+<span class="lineNum">     293 </span>            : { setData(aaccessibleDescription, Qt::AccessibleDescriptionRole); }
+<span class="lineNum">     294 </span>            : 
+<span class="lineNum">     295 </span>            : inline void QStandardItem::setChild(int arow, QStandardItem *aitem)
+<span class="lineNum">     296 </span>            : { setChild(arow, 0, aitem); }
+<span class="lineNum">     297 </span>            : 
+<span class="lineNum">     298 </span>            : inline void QStandardItem::appendRow(const QList&lt;QStandardItem*&gt; &amp;aitems)
+<span class="lineNum">     299 </span>            : { insertRow(rowCount(), aitems); }
+<span class="lineNum">     300 </span>            : 
+<span class="lineNum">     301 </span>            : inline void QStandardItem::appendRows(const QList&lt;QStandardItem*&gt; &amp;aitems)
+<span class="lineNum">     302 </span>            : { insertRows(rowCount(), aitems); }
+<span class="lineNum">     303 </span>            : 
+<span class="lineNum">     304 </span>            : inline void QStandardItem::appendColumn(const QList&lt;QStandardItem*&gt; &amp;aitems)
+<a name="305"><span class="lineNum">     305 </span>            : { insertColumn(columnCount(), aitems); }</a>
+<span class="lineNum">     306 </span>            : 
+<span class="lineNum">     307 </span><span class="lineNoCov">          0 : inline void QStandardItem::insertRow(int arow, QStandardItem *aitem)</span>
+<a name="308"><span class="lineNum">     308 </span><span class="lineNoCov">          0 : { insertRow(arow, QList&lt;QStandardItem*&gt;() &lt;&lt; aitem); }</span></a>
+<span class="lineNum">     309 </span>            : 
+<span class="lineNum">     310 </span><span class="lineNoCov">          0 : inline void QStandardItem::appendRow(QStandardItem *aitem)</span>
+<span class="lineNum">     311 </span><span class="lineNoCov">          0 : { insertRow(rowCount(), aitem); }</span>
+<span class="lineNum">     312 </span>            : 
+<span class="lineNum">     313 </span>            : class QStandardItemModelPrivate;
+<span class="lineNum">     314 </span>            : 
+<span class="lineNum">     315 </span>            : class Q_GUI_EXPORT QStandardItemModel : public QAbstractItemModel
+<span class="lineNum">     316 </span>            : {
+<span class="lineNum">     317 </span>            :     Q_OBJECT
+<span class="lineNum">     318 </span>            :     Q_PROPERTY(int sortRole READ sortRole WRITE setSortRole)
+<span class="lineNum">     319 </span>            : 
+<span class="lineNum">     320 </span>            : public:
+<span class="lineNum">     321 </span>            :     explicit QStandardItemModel(QObject *parent = 0);
+<span class="lineNum">     322 </span>            :     QStandardItemModel(int rows, int columns, QObject *parent = 0);
+<span class="lineNum">     323 </span>            :     ~QStandardItemModel();
+<span class="lineNum">     324 </span>            : 
+<span class="lineNum">     325 </span>            :     void setItemRoleNames(const QHash&lt;int,QByteArray&gt; &amp;roleNames);
+<span class="lineNum">     326 </span>            : 
+<span class="lineNum">     327 </span>            :     QModelIndex index(int row, int column, const QModelIndex &amp;parent = QModelIndex()) const;
+<span class="lineNum">     328 </span>            :     QModelIndex parent(const QModelIndex &amp;child) const;
+<span class="lineNum">     329 </span>            : 
+<span class="lineNum">     330 </span>            :     int rowCount(const QModelIndex &amp;parent = QModelIndex()) const;
+<span class="lineNum">     331 </span>            :     int columnCount(const QModelIndex &amp;parent = QModelIndex()) const;
+<span class="lineNum">     332 </span>            :     bool hasChildren(const QModelIndex &amp;parent = QModelIndex()) const;
+<span class="lineNum">     333 </span>            :     // Qt 6: Remove
+<span class="lineNum">     334 </span>            :     QModelIndex sibling(int row, int column, const QModelIndex &amp;idx) const;
+<span class="lineNum">     335 </span>            : 
+<span class="lineNum">     336 </span>            :     QVariant data(const QModelIndex &amp;index, int role = Qt::DisplayRole) const;
+<span class="lineNum">     337 </span>            :     bool setData(const QModelIndex &amp;index, const QVariant &amp;value, int role = Qt::EditRole);
+<span class="lineNum">     338 </span>            : 
+<span class="lineNum">     339 </span>            :     QVariant headerData(int section, Qt::Orientation orientation,
+<span class="lineNum">     340 </span>            :                         int role = Qt::DisplayRole) const;
+<span class="lineNum">     341 </span>            :     bool setHeaderData(int section, Qt::Orientation orientation, const QVariant &amp;value,
+<span class="lineNum">     342 </span>            :                        int role = Qt::EditRole);
+<span class="lineNum">     343 </span>            : 
+<span class="lineNum">     344 </span>            :     bool insertRows(int row, int count, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     345 </span>            :     bool insertColumns(int column, int count, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     346 </span>            :     bool removeRows(int row, int count, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     347 </span>            :     bool removeColumns(int column, int count, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     348 </span>            : 
+<span class="lineNum">     349 </span>            :     Qt::ItemFlags flags(const QModelIndex &amp;index) const;
+<span class="lineNum">     350 </span>            :     Qt::DropActions supportedDropActions() const;
+<span class="lineNum">     351 </span>            : 
+<span class="lineNum">     352 </span>            :     QMap&lt;int, QVariant&gt; itemData(const QModelIndex &amp;index) const;
+<span class="lineNum">     353 </span>            :     bool setItemData(const QModelIndex &amp;index, const QMap&lt;int, QVariant&gt; &amp;roles);
+<span class="lineNum">     354 </span>            : 
+<span class="lineNum">     355 </span>            :     void clear();
+<span class="lineNum">     356 </span>            : 
+<span class="lineNum">     357 </span>            : #ifdef Q_NO_USING_KEYWORD
+<span class="lineNum">     358 </span>            :     inline QObject *parent() const { return QObject::parent(); }
+<span class="lineNum">     359 </span>            : #else
+<span class="lineNum">     360 </span>            :     using QObject::parent;
+<span class="lineNum">     361 </span>            : #endif
+<span class="lineNum">     362 </span>            : 
+<span class="lineNum">     363 </span>            :     void sort(int column, Qt::SortOrder order = Qt::AscendingOrder);
+<span class="lineNum">     364 </span>            : 
+<span class="lineNum">     365 </span>            :     QStandardItem *itemFromIndex(const QModelIndex &amp;index) const;
+<span class="lineNum">     366 </span>            :     QModelIndex indexFromItem(const QStandardItem *item) const;
+<span class="lineNum">     367 </span>            : 
+<span class="lineNum">     368 </span>            :     QStandardItem *item(int row, int column = 0) const;
+<span class="lineNum">     369 </span>            :     void setItem(int row, int column, QStandardItem *item);
+<span class="lineNum">     370 </span>            :     inline void setItem(int row, QStandardItem *item);
+<span class="lineNum">     371 </span>            :     QStandardItem *invisibleRootItem() const;
+<span class="lineNum">     372 </span>            : 
+<span class="lineNum">     373 </span>            :     QStandardItem *horizontalHeaderItem(int column) const;
+<span class="lineNum">     374 </span>            :     void setHorizontalHeaderItem(int column, QStandardItem *item);
+<span class="lineNum">     375 </span>            :     QStandardItem *verticalHeaderItem(int row) const;
+<span class="lineNum">     376 </span>            :     void setVerticalHeaderItem(int row, QStandardItem *item);
+<span class="lineNum">     377 </span>            : 
+<span class="lineNum">     378 </span>            :     void setHorizontalHeaderLabels(const QStringList &amp;labels);
+<span class="lineNum">     379 </span>            :     void setVerticalHeaderLabels(const QStringList &amp;labels);
+<span class="lineNum">     380 </span>            : 
+<span class="lineNum">     381 </span>            :     void setRowCount(int rows);
+<span class="lineNum">     382 </span>            :     void setColumnCount(int columns);
+<span class="lineNum">     383 </span>            : 
+<span class="lineNum">     384 </span>            :     void appendRow(const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     385 </span>            :     void appendColumn(const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     386 </span>            :     inline void appendRow(QStandardItem *item);
+<span class="lineNum">     387 </span>            : 
+<span class="lineNum">     388 </span>            :     void insertRow(int row, const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     389 </span>            :     void insertColumn(int column, const QList&lt;QStandardItem*&gt; &amp;items);
+<span class="lineNum">     390 </span>            :     inline void insertRow(int row, QStandardItem *item);
+<span class="lineNum">     391 </span>            : 
+<span class="lineNum">     392 </span>            :     inline bool insertRow(int row, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     393 </span>            :     inline bool insertColumn(int column, const QModelIndex &amp;parent = QModelIndex());
+<span class="lineNum">     394 </span>            : 
+<span class="lineNum">     395 </span>            :     QStandardItem *takeItem(int row, int column = 0);
+<span class="lineNum">     396 </span>            :     QList&lt;QStandardItem*&gt; takeRow(int row);
+<span class="lineNum">     397 </span>            :     QList&lt;QStandardItem*&gt; takeColumn(int column);
+<span class="lineNum">     398 </span>            : 
+<span class="lineNum">     399 </span>            :     QStandardItem *takeHorizontalHeaderItem(int column);
+<span class="lineNum">     400 </span>            :     QStandardItem *takeVerticalHeaderItem(int row);
+<span class="lineNum">     401 </span>            : 
+<span class="lineNum">     402 </span>            :     const QStandardItem *itemPrototype() const;
+<span class="lineNum">     403 </span>            :     void setItemPrototype(const QStandardItem *item);
+<span class="lineNum">     404 </span>            : 
+<span class="lineNum">     405 </span>            :     QList&lt;QStandardItem*&gt; findItems(const QString &amp;text,
+<span class="lineNum">     406 </span>            :                                     Qt::MatchFlags flags = Qt::MatchExactly,
+<span class="lineNum">     407 </span>            :                                     int column = 0) const;
+<span class="lineNum">     408 </span>            : 
+<span class="lineNum">     409 </span>            :     int sortRole() const;
+<span class="lineNum">     410 </span>            :     void setSortRole(int role);
+<span class="lineNum">     411 </span>            : 
+<span class="lineNum">     412 </span>            :     QStringList mimeTypes() const;
+<span class="lineNum">     413 </span>            :     QMimeData *mimeData(const QModelIndexList &amp;indexes) const;
+<span class="lineNum">     414 </span>            :     bool dropMimeData (const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &amp;parent);
+<span class="lineNum">     415 </span>            : 
+<span class="lineNum">     416 </span>            : Q_SIGNALS:
+<span class="lineNum">     417 </span>            :     void itemChanged(QStandardItem *item);
+<span class="lineNum">     418 </span>            : 
+<span class="lineNum">     419 </span>            : protected:
+<span class="lineNum">     420 </span>            :     QStandardItemModel(QStandardItemModelPrivate &amp;dd, QObject *parent = 0);
+<span class="lineNum">     421 </span>            : 
+<span class="lineNum">     422 </span>            : private:
+<span class="lineNum">     423 </span>            :     friend class QStandardItemPrivate;
+<span class="lineNum">     424 </span>            :     friend class QStandardItem;
+<span class="lineNum">     425 </span>            :     Q_DISABLE_COPY(QStandardItemModel)
+<span class="lineNum">     426 </span>            :     Q_DECLARE_PRIVATE(QStandardItemModel)
+<span class="lineNum">     427 </span>            : 
+<span class="lineNum">     428 </span>            :     Q_PRIVATE_SLOT(d_func(), void _q_emitItemChanged(const QModelIndex &amp;topLeft,
+<span class="lineNum">     429 </span>            :                                                      const QModelIndex &amp;bottomRight))
+<span class="lineNum">     430 </span>            : };
+<span class="lineNum">     431 </span>            : 
+<span class="lineNum">     432 </span>            : inline void QStandardItemModel::setItem(int arow, QStandardItem *aitem)
+<a name="433"><span class="lineNum">     433 </span>            : { setItem(arow, 0, aitem); }</a>
+<span class="lineNum">     434 </span>            : 
+<span class="lineNum">     435 </span><span class="lineNoCov">          0 : inline void QStandardItemModel::appendRow(QStandardItem *aitem)</span>
+<span class="lineNum">     436 </span><span class="lineNoCov">          0 : { appendRow(QList&lt;QStandardItem*&gt;() &lt;&lt; aitem); }</span>
+<span class="lineNum">     437 </span>            : 
+<span class="lineNum">     438 </span>            : inline void QStandardItemModel::insertRow(int arow, QStandardItem *aitem)
+<span class="lineNum">     439 </span>            : { insertRow(arow, QList&lt;QStandardItem*&gt;() &lt;&lt; aitem); }
+<span class="lineNum">     440 </span>            : 
+<span class="lineNum">     441 </span>            : inline bool QStandardItemModel::insertRow(int arow, const QModelIndex &amp;aparent)
+<span class="lineNum">     442 </span>            : { return QAbstractItemModel::insertRow(arow, aparent); }
+<span class="lineNum">     443 </span>            : inline bool QStandardItemModel::insertColumn(int acolumn, const QModelIndex &amp;aparent)
+<span class="lineNum">     444 </span>            : { return QAbstractItemModel::insertColumn(acolumn, aparent); }
+<span class="lineNum">     445 </span>            : 
+<span class="lineNum">     446 </span>            : #ifndef QT_NO_DATASTREAM
+<span class="lineNum">     447 </span>            : Q_GUI_EXPORT QDataStream &amp;operator&gt;&gt;(QDataStream &amp;in, QStandardItem &amp;item);
+<span class="lineNum">     448 </span>            : Q_GUI_EXPORT QDataStream &amp;operator&lt;&lt;(QDataStream &amp;out, const QStandardItem &amp;item);
+<span class="lineNum">     449 </span>            : #endif
+<span class="lineNum">     450 </span>            : 
+<span class="lineNum">     451 </span>            : #endif // QT_NO_STANDARDITEMMODEL
+<span class="lineNum">     452 </span>            : 
+<span class="lineNum">     453 </span>            : QT_END_NAMESPACE
+<span class="lineNum">     454 </span>            : 
+<span class="lineNum">     455 </span>            : #endif //QSTANDARDITEMMODEL_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src/ui_userdatadialog.h</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src</a> - ui_userdatadialog.h<span style="font-size: 80%;"> (source / <a href="ui_userdatadialog.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">165</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">66</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /********************************************************************************</a>
+<span class="lineNum">       2 </span>            : ** Form generated from reading UI file 'userdatadialog.ui'
+<span class="lineNum">       3 </span>            : **
+<span class="lineNum">       4 </span>            : ** Created by: Qt User Interface Compiler version 5.3.1
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** WARNING! All changes made in this file will be lost when recompiling UI file!
+<span class="lineNum">       7 </span>            : ********************************************************************************/
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #ifndef UI_USERDATADIALOG_H
+<span class="lineNum">      10 </span>            : #define UI_USERDATADIALOG_H
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : #include &lt;QtCore/QVariant&gt;
+<span class="lineNum">      13 </span>            : #include &lt;QtWidgets/QAction&gt;
+<span class="lineNum">      14 </span>            : #include &lt;QtWidgets/QApplication&gt;
+<span class="lineNum">      15 </span>            : #include &lt;QtWidgets/QButtonGroup&gt;
+<span class="lineNum">      16 </span>            : #include &lt;QtWidgets/QDialog&gt;
+<span class="lineNum">      17 </span>            : #include &lt;QtWidgets/QGridLayout&gt;
+<span class="lineNum">      18 </span>            : #include &lt;QtWidgets/QGroupBox&gt;
+<span class="lineNum">      19 </span>            : #include &lt;QtWidgets/QHBoxLayout&gt;
+<span class="lineNum">      20 </span>            : #include &lt;QtWidgets/QHeaderView&gt;
+<span class="lineNum">      21 </span>            : #include &lt;QtWidgets/QLabel&gt;
+<span class="lineNum">      22 </span>            : #include &lt;QtWidgets/QPushButton&gt;
+<span class="lineNum">      23 </span>            : #include &lt;QtWidgets/QSpacerItem&gt;
+<span class="lineNum">      24 </span>            : #include &quot;gui/widgets/checkfields/checkcity.h&quot;
+<span class="lineNum">      25 </span>            : #include &quot;gui/widgets/checkfields/checkemail.h&quot;
+<span class="lineNum">      26 </span>            : #include &quot;gui/widgets/checkfields/checkname.h&quot;
+<span class="lineNum">      27 </span>            : #include &quot;gui/widgets/checkfields/checkphone.h&quot;
+<span class="lineNum">      28 </span>            : #include &quot;gui/widgets/checkfields/checkpostalcode.h&quot;
+<span class="lineNum">      29 </span>            : #include &quot;gui/widgets/checkfields/checksiretnumber.h&quot;
+<span class="lineNum">      30 </span>            : #include &quot;gui/widgets/checkfields/checkuntilfield.h&quot;
+<span class="lineNum">      31 </span>            : #include &quot;gui/widgets/checkfields/checkvalidfield.h&quot;
+<span class="lineNum">      32 </span>            : 
+<span class="lineNum">      33 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      34 </span>            : 
+<span class="lineNum">      35 </span>            : class Ui_UserDataDialog
+<span class="lineNum">      36 </span>            : {
+<span class="lineNum">      37 </span>            : public:
+<span class="lineNum">      38 </span>            :     QGridLayout *gridLayout;
+<span class="lineNum">      39 </span>            :     QLabel *lbEmail;
+<span class="lineNum">      40 </span>            :     CheckPhone *leMobilePhone;
+<span class="lineNum">      41 </span>            :     QLabel *lbLastname;
+<span class="lineNum">      42 </span>            :     CheckSiretNumber *leNoSiret;
+<span class="lineNum">      43 </span>            :     QLabel *lbMobilePhone;
+<span class="lineNum">      44 </span>            :     QLabel *lbPhone;
+<span class="lineNum">      45 </span>            :     CheckPhone *lePhone;
+<span class="lineNum">      46 </span>            :     QLabel *lbNoSiret;
+<span class="lineNum">      47 </span>            :     QHBoxLayout *horizontalLayout;
+<span class="lineNum">      48 </span>            :     QSpacerItem *horizontalSpacer;
+<span class="lineNum">      49 </span>            :     QPushButton *btnValid;
+<span class="lineNum">      50 </span>            :     QPushButton *btnCancel;
+<span class="lineNum">      51 </span>            :     CheckValidField *leTitle;
+<span class="lineNum">      52 </span>            :     QLabel *lbCompany;
+<span class="lineNum">      53 </span>            :     CheckValidField *leCompany;
+<span class="lineNum">      54 </span>            :     CheckName *leLastname;
+<span class="lineNum">      55 </span>            :     QLabel *lbTitle;
+<span class="lineNum">      56 </span>            :     QGroupBox *groupBox;
+<span class="lineNum">      57 </span>            :     QGridLayout *gridLayout_2;
+<span class="lineNum">      58 </span>            :     CheckCity *leCity;
+<span class="lineNum">      59 </span>            :     QLabel *lbAddress;
+<span class="lineNum">      60 </span>            :     QLabel *lbCity;
+<span class="lineNum">      61 </span>            :     CheckPostalCode *lePostalCode;
+<span class="lineNum">      62 </span>            :     CheckUntilField *leAddress;
+<span class="lineNum">      63 </span>            :     QLabel *lbPostalCode;
+<span class="lineNum">      64 </span>            :     QLabel *lbFirstname;
+<span class="lineNum">      65 </span>            :     CheckName *leFirstname;
+<a name="66"><span class="lineNum">      66 </span>            :     CheckEmail *leEmail;</a>
+<span class="lineNum">      67 </span>            : 
+<span class="lineNum">      68 </span><span class="lineNoCov">          0 :     void setupUi(QDialog *UserDataDialog)</span>
+<a name="69"><span class="lineNum">      69 </span>            :     {</a>
+<span class="lineNum">      70 </span><span class="lineNoCov">          0 :         if (UserDataDialog-&gt;objectName().isEmpty())</span>
+<span class="lineNum">      71 </span><span class="lineNoCov">          0 :             UserDataDialog-&gt;setObjectName(QStringLiteral(&quot;UserDataDialog&quot;));</span>
+<a name="72"><span class="lineNum">      72 </span><span class="lineNoCov">          0 :         UserDataDialog-&gt;resize(390, 480);</span></a>
+<span class="lineNum">      73 </span><span class="lineNoCov">          0 :         QIcon icon;</span>
+<span class="lineNum">      74 </span><span class="lineNoCov">          0 :         icon.addFile(QStringLiteral(&quot;:/icons/FactDev&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="75"><span class="lineNum">      75 </span><span class="lineNoCov">          0 :         UserDataDialog-&gt;setWindowIcon(icon);</span></a>
+<span class="lineNum">      76 </span><span class="lineNoCov">          0 :         gridLayout = new QGridLayout(UserDataDialog);</span>
+<a name="77"><span class="lineNum">      77 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setObjectName(QStringLiteral(&quot;gridLayout&quot;));</span></a>
+<span class="lineNum">      78 </span><span class="lineNoCov">          0 :         lbEmail = new QLabel(UserDataDialog);</span>
+<span class="lineNum">      79 </span><span class="lineNoCov">          0 :         lbEmail-&gt;setObjectName(QStringLiteral(&quot;lbEmail&quot;));</span>
+<span class="lineNum">      80 </span>            : 
+<span class="lineNum">      81 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbEmail, 6, 1, 1, 1);</span>
+<a name="82"><span class="lineNum">      82 </span>            : </a>
+<span class="lineNum">      83 </span><span class="lineNoCov">          0 :         leMobilePhone = new CheckPhone(UserDataDialog);</span>
+<span class="lineNum">      84 </span><span class="lineNoCov">          0 :         leMobilePhone-&gt;setObjectName(QStringLiteral(&quot;leMobilePhone&quot;));</span>
+<span class="lineNum">      85 </span>            : 
+<span class="lineNum">      86 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leMobilePhone, 8, 2, 1, 1);</span>
+<a name="87"><span class="lineNum">      87 </span>            : </a>
+<span class="lineNum">      88 </span><span class="lineNoCov">          0 :         lbLastname = new QLabel(UserDataDialog);</span>
+<span class="lineNum">      89 </span><span class="lineNoCov">          0 :         lbLastname-&gt;setObjectName(QStringLiteral(&quot;lbLastname&quot;));</span>
+<span class="lineNum">      90 </span>            : 
+<span class="lineNum">      91 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbLastname, 1, 1, 1, 1);</span>
+<a name="92"><span class="lineNum">      92 </span>            : </a>
+<span class="lineNum">      93 </span><span class="lineNoCov">          0 :         leNoSiret = new CheckSiretNumber(UserDataDialog);</span>
+<span class="lineNum">      94 </span><span class="lineNoCov">          0 :         leNoSiret-&gt;setObjectName(QStringLiteral(&quot;leNoSiret&quot;));</span>
+<span class="lineNum">      95 </span>            : 
+<span class="lineNum">      96 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leNoSiret, 9, 2, 1, 1);</span>
+<a name="97"><span class="lineNum">      97 </span>            : </a>
+<span class="lineNum">      98 </span><span class="lineNoCov">          0 :         lbMobilePhone = new QLabel(UserDataDialog);</span>
+<span class="lineNum">      99 </span><span class="lineNoCov">          0 :         lbMobilePhone-&gt;setObjectName(QStringLiteral(&quot;lbMobilePhone&quot;));</span>
+<span class="lineNum">     100 </span>            : 
+<span class="lineNum">     101 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbMobilePhone, 8, 1, 1, 1);</span>
+<a name="102"><span class="lineNum">     102 </span>            : </a>
+<span class="lineNum">     103 </span><span class="lineNoCov">          0 :         lbPhone = new QLabel(UserDataDialog);</span>
+<span class="lineNum">     104 </span><span class="lineNoCov">          0 :         lbPhone-&gt;setObjectName(QStringLiteral(&quot;lbPhone&quot;));</span>
+<span class="lineNum">     105 </span>            : 
+<span class="lineNum">     106 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbPhone, 7, 1, 1, 1);</span>
+<a name="107"><span class="lineNum">     107 </span>            : </a>
+<span class="lineNum">     108 </span><span class="lineNoCov">          0 :         lePhone = new CheckPhone(UserDataDialog);</span>
+<span class="lineNum">     109 </span><span class="lineNoCov">          0 :         lePhone-&gt;setObjectName(QStringLiteral(&quot;lePhone&quot;));</span>
+<span class="lineNum">     110 </span>            : 
+<span class="lineNum">     111 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lePhone, 7, 2, 1, 1);</span>
+<a name="112"><span class="lineNum">     112 </span>            : </a>
+<span class="lineNum">     113 </span><span class="lineNoCov">          0 :         lbNoSiret = new QLabel(UserDataDialog);</span>
+<span class="lineNum">     114 </span><span class="lineNoCov">          0 :         lbNoSiret-&gt;setObjectName(QStringLiteral(&quot;lbNoSiret&quot;));</span>
+<span class="lineNum">     115 </span>            : 
+<span class="lineNum">     116 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbNoSiret, 9, 1, 1, 1);</span>
+<a name="117"><span class="lineNum">     117 </span>            : </a>
+<span class="lineNum">     118 </span><span class="lineNoCov">          0 :         horizontalLayout = new QHBoxLayout();</span>
+<span class="lineNum">     119 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;setObjectName(QStringLiteral(&quot;horizontalLayout&quot;));</span>
+<span class="lineNum">     120 </span><span class="lineNoCov">          0 :         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">     121 </span>            : 
+<span class="lineNum">     122 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addItem(horizontalSpacer);</span>
+<a name="123"><span class="lineNum">     123 </span>            : </a>
+<span class="lineNum">     124 </span><span class="lineNoCov">          0 :         btnValid = new QPushButton(UserDataDialog);</span>
+<a name="125"><span class="lineNum">     125 </span><span class="lineNoCov">          0 :         btnValid-&gt;setObjectName(QStringLiteral(&quot;btnValid&quot;));</span></a>
+<span class="lineNum">     126 </span><span class="lineNoCov">          0 :         QIcon icon1;</span>
+<span class="lineNum">     127 </span><span class="lineNoCov">          0 :         icon1.addFile(QStringLiteral(&quot;:/icons/img/ok_valid.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     128 </span><span class="lineNoCov">          0 :         btnValid-&gt;setIcon(icon1);</span>
+<span class="lineNum">     129 </span>            : 
+<span class="lineNum">     130 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addWidget(btnValid);</span>
+<a name="131"><span class="lineNum">     131 </span>            : </a>
+<span class="lineNum">     132 </span><span class="lineNoCov">          0 :         btnCancel = new QPushButton(UserDataDialog);</span>
+<a name="133"><span class="lineNum">     133 </span><span class="lineNoCov">          0 :         btnCancel-&gt;setObjectName(QStringLiteral(&quot;btnCancel&quot;));</span></a>
+<span class="lineNum">     134 </span><span class="lineNoCov">          0 :         QIcon icon2;</span>
+<span class="lineNum">     135 </span><span class="lineNoCov">          0 :         icon2.addFile(QStringLiteral(&quot;:/icons/img/cancel.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     136 </span><span class="lineNoCov">          0 :         btnCancel-&gt;setIcon(icon2);</span>
+<span class="lineNum">     137 </span>            : 
+<span class="lineNum">     138 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addWidget(btnCancel);</span>
+<span class="lineNum">     139 </span>            : 
+<span class="lineNum">     140 </span>            : 
+<span class="lineNum">     141 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addLayout(horizontalLayout, 12, 1, 1, 2);</span>
+<a name="142"><span class="lineNum">     142 </span>            : </a>
+<span class="lineNum">     143 </span><span class="lineNoCov">          0 :         leTitle = new CheckValidField(UserDataDialog);</span>
+<span class="lineNum">     144 </span><span class="lineNoCov">          0 :         leTitle-&gt;setObjectName(QStringLiteral(&quot;leTitle&quot;));</span>
+<span class="lineNum">     145 </span>            : 
+<span class="lineNum">     146 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leTitle, 4, 2, 1, 1);</span>
+<a name="147"><span class="lineNum">     147 </span>            : </a>
+<span class="lineNum">     148 </span><span class="lineNoCov">          0 :         lbCompany = new QLabel(UserDataDialog);</span>
+<span class="lineNum">     149 </span><span class="lineNoCov">          0 :         lbCompany-&gt;setObjectName(QStringLiteral(&quot;lbCompany&quot;));</span>
+<span class="lineNum">     150 </span>            : 
+<span class="lineNum">     151 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbCompany, 3, 1, 1, 1);</span>
+<a name="152"><span class="lineNum">     152 </span>            : </a>
+<span class="lineNum">     153 </span><span class="lineNoCov">          0 :         leCompany = new CheckValidField(UserDataDialog);</span>
+<span class="lineNum">     154 </span><span class="lineNoCov">          0 :         leCompany-&gt;setObjectName(QStringLiteral(&quot;leCompany&quot;));</span>
+<span class="lineNum">     155 </span>            : 
+<span class="lineNum">     156 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leCompany, 3, 2, 1, 1);</span>
+<a name="157"><span class="lineNum">     157 </span>            : </a>
+<span class="lineNum">     158 </span><span class="lineNoCov">          0 :         leLastname = new CheckName(UserDataDialog);</span>
+<span class="lineNum">     159 </span><span class="lineNoCov">          0 :         leLastname-&gt;setObjectName(QStringLiteral(&quot;leLastname&quot;));</span>
+<span class="lineNum">     160 </span>            : 
+<span class="lineNum">     161 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leLastname, 1, 2, 1, 1);</span>
+<a name="162"><span class="lineNum">     162 </span>            : </a>
+<span class="lineNum">     163 </span><span class="lineNoCov">          0 :         lbTitle = new QLabel(UserDataDialog);</span>
+<span class="lineNum">     164 </span><span class="lineNoCov">          0 :         lbTitle-&gt;setObjectName(QStringLiteral(&quot;lbTitle&quot;));</span>
+<span class="lineNum">     165 </span>            : 
+<span class="lineNum">     166 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbTitle, 4, 1, 1, 1);</span>
+<a name="167"><span class="lineNum">     167 </span>            : </a>
+<span class="lineNum">     168 </span><span class="lineNoCov">          0 :         groupBox = new QGroupBox(UserDataDialog);</span>
+<a name="169"><span class="lineNum">     169 </span><span class="lineNoCov">          0 :         groupBox-&gt;setObjectName(QStringLiteral(&quot;groupBox&quot;));</span></a>
+<span class="lineNum">     170 </span><span class="lineNoCov">          0 :         gridLayout_2 = new QGridLayout(groupBox);</span>
+<a name="171"><span class="lineNum">     171 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;setObjectName(QStringLiteral(&quot;gridLayout_2&quot;));</span></a>
+<span class="lineNum">     172 </span><span class="lineNoCov">          0 :         leCity = new CheckCity(groupBox);</span>
+<span class="lineNum">     173 </span><span class="lineNoCov">          0 :         leCity-&gt;setObjectName(QStringLiteral(&quot;leCity&quot;));</span>
+<span class="lineNum">     174 </span>            : 
+<span class="lineNum">     175 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(leCity, 1, 3, 1, 1);</span>
+<a name="176"><span class="lineNum">     176 </span>            : </a>
+<span class="lineNum">     177 </span><span class="lineNoCov">          0 :         lbAddress = new QLabel(groupBox);</span>
+<span class="lineNum">     178 </span><span class="lineNoCov">          0 :         lbAddress-&gt;setObjectName(QStringLiteral(&quot;lbAddress&quot;));</span>
+<span class="lineNum">     179 </span>            : 
+<span class="lineNum">     180 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(lbAddress, 0, 0, 1, 1);</span>
+<a name="181"><span class="lineNum">     181 </span>            : </a>
+<span class="lineNum">     182 </span><span class="lineNoCov">          0 :         lbCity = new QLabel(groupBox);</span>
+<span class="lineNum">     183 </span><span class="lineNoCov">          0 :         lbCity-&gt;setObjectName(QStringLiteral(&quot;lbCity&quot;));</span>
+<span class="lineNum">     184 </span>            : 
+<span class="lineNum">     185 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(lbCity, 1, 2, 1, 1);</span>
+<a name="186"><span class="lineNum">     186 </span>            : </a>
+<span class="lineNum">     187 </span><span class="lineNoCov">          0 :         lePostalCode = new CheckPostalCode(groupBox);</span>
+<span class="lineNum">     188 </span><span class="lineNoCov">          0 :         lePostalCode-&gt;setObjectName(QStringLiteral(&quot;lePostalCode&quot;));</span>
+<span class="lineNum">     189 </span>            : 
+<span class="lineNum">     190 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(lePostalCode, 1, 1, 1, 1);</span>
+<a name="191"><span class="lineNum">     191 </span>            : </a>
+<span class="lineNum">     192 </span><span class="lineNoCov">          0 :         leAddress = new CheckUntilField(groupBox);</span>
+<span class="lineNum">     193 </span><span class="lineNoCov">          0 :         leAddress-&gt;setObjectName(QStringLiteral(&quot;leAddress&quot;));</span>
+<span class="lineNum">     194 </span>            : 
+<span class="lineNum">     195 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(leAddress, 0, 1, 1, 3);</span>
+<a name="196"><span class="lineNum">     196 </span>            : </a>
+<span class="lineNum">     197 </span><span class="lineNoCov">          0 :         lbPostalCode = new QLabel(groupBox);</span>
+<span class="lineNum">     198 </span><span class="lineNoCov">          0 :         lbPostalCode-&gt;setObjectName(QStringLiteral(&quot;lbPostalCode&quot;));</span>
+<span class="lineNum">     199 </span>            : 
+<span class="lineNum">     200 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(lbPostalCode, 1, 0, 1, 1);</span>
+<span class="lineNum">     201 </span>            : 
+<span class="lineNum">     202 </span>            : 
+<span class="lineNum">     203 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(groupBox, 5, 1, 1, 2);</span>
+<a name="204"><span class="lineNum">     204 </span>            : </a>
+<span class="lineNum">     205 </span><span class="lineNoCov">          0 :         lbFirstname = new QLabel(UserDataDialog);</span>
+<span class="lineNum">     206 </span><span class="lineNoCov">          0 :         lbFirstname-&gt;setObjectName(QStringLiteral(&quot;lbFirstname&quot;));</span>
+<span class="lineNum">     207 </span>            : 
+<span class="lineNum">     208 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbFirstname, 2, 1, 1, 1);</span>
+<a name="209"><span class="lineNum">     209 </span>            : </a>
+<span class="lineNum">     210 </span><span class="lineNoCov">          0 :         leFirstname = new CheckName(UserDataDialog);</span>
+<span class="lineNum">     211 </span><span class="lineNoCov">          0 :         leFirstname-&gt;setObjectName(QStringLiteral(&quot;leFirstname&quot;));</span>
+<span class="lineNum">     212 </span>            : 
+<span class="lineNum">     213 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leFirstname, 2, 2, 1, 1);</span>
+<a name="214"><span class="lineNum">     214 </span>            : </a>
+<span class="lineNum">     215 </span><span class="lineNoCov">          0 :         leEmail = new CheckEmail(UserDataDialog);</span>
+<span class="lineNum">     216 </span><span class="lineNoCov">          0 :         leEmail-&gt;setObjectName(QStringLiteral(&quot;leEmail&quot;));</span>
+<span class="lineNum">     217 </span>            : 
+<span class="lineNum">     218 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leEmail, 6, 2, 1, 1);</span>
+<span class="lineNum">     219 </span>            : 
+<span class="lineNum">     220 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leLastname, leFirstname);</span>
+<span class="lineNum">     221 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leFirstname, leCompany);</span>
+<span class="lineNum">     222 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leCompany, leTitle);</span>
+<span class="lineNum">     223 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leTitle, leAddress);</span>
+<span class="lineNum">     224 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leAddress, lePostalCode);</span>
+<span class="lineNum">     225 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(lePostalCode, leCity);</span>
+<span class="lineNum">     226 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leCity, leEmail);</span>
+<span class="lineNum">     227 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leEmail, lePhone);</span>
+<span class="lineNum">     228 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(lePhone, leMobilePhone);</span>
+<span class="lineNum">     229 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leMobilePhone, leNoSiret);</span>
+<span class="lineNum">     230 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(leNoSiret, btnValid);</span>
+<span class="lineNum">     231 </span><span class="lineNoCov">          0 :         QWidget::setTabOrder(btnValid, btnCancel);</span>
+<span class="lineNum">     232 </span>            : 
+<span class="lineNum">     233 </span><span class="lineNoCov">          0 :         retranslateUi(UserDataDialog);</span>
+<span class="lineNum">     234 </span><span class="lineNoCov">          0 :         QObject::connect(btnValid, SIGNAL(released()), UserDataDialog, SLOT(accept()));</span>
+<span class="lineNum">     235 </span><span class="lineNoCov">          0 :         QObject::connect(btnCancel, SIGNAL(released()), UserDataDialog, SLOT(reject()));</span>
+<span class="lineNum">     236 </span><span class="lineNoCov">          0 :         QObject::connect(leEmail, SIGNAL(textChanged(QString)), leEmail, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     237 </span><span class="lineNoCov">          0 :         QObject::connect(lePhone, SIGNAL(textChanged(QString)), lePhone, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     238 </span><span class="lineNoCov">          0 :         QObject::connect(leMobilePhone, SIGNAL(textChanged(QString)), leMobilePhone, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     239 </span><span class="lineNoCov">          0 :         QObject::connect(lePostalCode, SIGNAL(textChanged(QString)), lePostalCode, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     240 </span><span class="lineNoCov">          0 :         QObject::connect(leCity, SIGNAL(textChanged(QString)), leCity, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     241 </span><span class="lineNoCov">          0 :         QObject::connect(leLastname, SIGNAL(textChanged(QString)), leLastname, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     242 </span><span class="lineNoCov">          0 :         QObject::connect(leFirstname, SIGNAL(textChanged(QString)), leFirstname, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     243 </span><span class="lineNoCov">          0 :         QObject::connect(leNoSiret, SIGNAL(textChanged(QString)), leNoSiret, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     244 </span><span class="lineNoCov">          0 :         QObject::connect(leCompany, SIGNAL(textChanged(QString)), leCompany, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     245 </span><span class="lineNoCov">          0 :         QObject::connect(leAddress, SIGNAL(textChanged(QString)), leAddress, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     246 </span><span class="lineNoCov">          0 :         QObject::connect(leTitle, SIGNAL(textChanged(QString)), leTitle, SLOT(fieldTextChanged(QString)));</span>
+<span class="lineNum">     247 </span><span class="lineNoCov">          0 :         QObject::connect(leLastname, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     248 </span><span class="lineNoCov">          0 :         QObject::connect(leFirstname, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     249 </span><span class="lineNoCov">          0 :         QObject::connect(leCompany, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     250 </span><span class="lineNoCov">          0 :         QObject::connect(leTitle, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     251 </span><span class="lineNoCov">          0 :         QObject::connect(leAddress, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     252 </span><span class="lineNoCov">          0 :         QObject::connect(leCity, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     253 </span><span class="lineNoCov">          0 :         QObject::connect(lePostalCode, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     254 </span><span class="lineNoCov">          0 :         QObject::connect(leEmail, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     255 </span><span class="lineNoCov">          0 :         QObject::connect(lePhone, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     256 </span><span class="lineNoCov">          0 :         QObject::connect(leMobilePhone, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     257 </span><span class="lineNoCov">          0 :         QObject::connect(leNoSiret, SIGNAL(textChanged(QString)), UserDataDialog, SLOT(checkFields()));</span>
+<span class="lineNum">     258 </span>            : 
+<span class="lineNum">     259 </span><span class="lineNoCov">          0 :         QMetaObject::connectSlotsByName(UserDataDialog);</span>
+<a name="260"><span class="lineNum">     260 </span><span class="lineNoCov">          0 :     } // setupUi</span></a>
+<span class="lineNum">     261 </span>            : 
+<span class="lineNum">     262 </span><span class="lineNoCov">          0 :     void retranslateUi(QDialog *UserDataDialog)</span>
+<span class="lineNum">     263 </span>            :     {
+<span class="lineNum">     264 </span><span class="lineNoCov">          0 :         UserDataDialog-&gt;setWindowTitle(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Renseigner les donn\303\251es vous concernant&quot;, 0));</span>
+<span class="lineNum">     265 </span><span class="lineNoCov">          0 :         lbEmail-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Email&quot;, 0));</span>
+<span class="lineNum">     266 </span><span class="lineNoCov">          0 :         leMobilePhone-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;06 01 02 03 04&quot;, 0));</span>
+<span class="lineNum">     267 </span><span class="lineNoCov">          0 :         lbLastname-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Nom&quot;, 0));</span>
+<span class="lineNum">     268 </span><span class="lineNoCov">          0 :         leNoSiret-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;123 123 123 1234&quot;, 0));</span>
+<span class="lineNum">     269 </span><span class="lineNoCov">          0 :         lbMobilePhone-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;T\303\251l. mobile&quot;, 0));</span>
+<span class="lineNum">     270 </span><span class="lineNoCov">          0 :         lbPhone-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;T\303\251l. fixe&quot;, 0));</span>
+<span class="lineNum">     271 </span><span class="lineNoCov">          0 :         lePhone-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;01 02 03 04 05&quot;, 0));</span>
+<span class="lineNum">     272 </span><span class="lineNoCov">          0 :         lbNoSiret-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;N\302\260 Siret&quot;, 0));</span>
+<span class="lineNum">     273 </span><span class="lineNoCov">          0 :         btnValid-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Sauvegarder&quot;, 0));</span>
+<span class="lineNum">     274 </span><span class="lineNoCov">          0 :         btnCancel-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Annuler&quot;, 0));</span>
+<span class="lineNum">     275 </span><span class="lineNoCov">          0 :         leTitle-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Expertise comptable&quot;, 0));</span>
+<span class="lineNum">     276 </span><span class="lineNoCov">          0 :         lbCompany-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Soci\303\251t\303\251&quot;, 0));</span>
+<span class="lineNum">     277 </span><span class="lineNoCov">          0 :         leCompany-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Fiducal8&quot;, 0));</span>
+<span class="lineNum">     278 </span>            : #ifndef QT_NO_TOOLTIP
+<span class="lineNum">     279 </span><span class="lineNoCov">          0 :         leLastname-&gt;setToolTip(QString());</span>
+<span class="lineNum">     280 </span>            : #endif // QT_NO_TOOLTIP
+<span class="lineNum">     281 </span><span class="lineNoCov">          0 :         leLastname-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;ADELIN&quot;, 0));</span>
+<span class="lineNum">     282 </span><span class="lineNoCov">          0 :         lbTitle-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Activit\303\251&quot;, 0));</span>
+<span class="lineNum">     283 </span><span class="lineNoCov">          0 :         groupBox-&gt;setTitle(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Adresse&quot;, 0));</span>
+<span class="lineNum">     284 </span><span class="lineNoCov">          0 :         leCity-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Paris&quot;, 0));</span>
+<span class="lineNum">     285 </span><span class="lineNoCov">          0 :         lbAddress-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;N\302\260, Rue&quot;, 0));</span>
+<span class="lineNum">     286 </span><span class="lineNoCov">          0 :         lbCity-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Ville&quot;, 0));</span>
+<span class="lineNum">     287 </span><span class="lineNoCov">          0 :         lePostalCode-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;75000&quot;, 0));</span>
+<span class="lineNum">     288 </span><span class="lineNoCov">          0 :         leAddress-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;42 Avenue de Toulouse&quot;, 0));</span>
+<span class="lineNum">     289 </span><span class="lineNoCov">          0 :         lbPostalCode-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Code Postal&quot;, 0));</span>
+<span class="lineNum">     290 </span><span class="lineNoCov">          0 :         lbFirstname-&gt;setText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;Pr\303\251nom&quot;, 0));</span>
+<span class="lineNum">     291 </span><span class="lineNoCov">          0 :         leFirstname-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;R\303\251mi&quot;, 0));</span>
+<span class="lineNum">     292 </span><span class="lineNoCov">          0 :         leEmail-&gt;setPlaceholderText(QApplication::translate(&quot;UserDataDialog&quot;, &quot;remi.adelin@fiducal.com&quot;, 0));</span>
+<span class="lineNum">     293 </span><span class="lineNoCov">          0 :     } // retranslateUi</span>
+<span class="lineNum">     294 </span>            : 
+<span class="lineNum">     295 </span>            : };
+<span class="lineNum">     296 </span>            : 
+<span class="lineNum">     297 </span>            : namespace Ui {
+<span class="lineNum">     298 </span>            :     class UserDataDialog: public Ui_UserDataDialog {};
+<span class="lineNum">     299 </span>            : } // namespace Ui
+<span class="lineNum">     300 </span>            : 
+<span class="lineNum">     301 </span>            : QT_END_NAMESPACE
+<span class="lineNum">     302 </span>            : 
+<span class="lineNum">     303 </span>            : #endif // UI_USERDATADIALOG_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

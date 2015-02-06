@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - /opt/Qt/5.3/gcc_64/include/QtCore/qlogging.h</title>
+  <link rel="stylesheet" type="text/css" href="../../../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../../../index.html">top level</a> - <a href="index.html">opt/Qt/5.3/gcc_64/include/QtCore</a> - qlogging.h<span style="font-size: 80%;"> (source / <a href="qlogging.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /****************************************************************************</a>
+<span class="lineNum">       2 </span>            : **
+<span class="lineNum">       3 </span>            : ** Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+<span class="lineNum">       4 </span>            : ** Contact: http://www.qt-project.org/legal
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** This file is part of the QtCore module of the Qt Toolkit.
+<span class="lineNum">       7 </span>            : **
+<span class="lineNum">       8 </span>            : ** $QT_BEGIN_LICENSE:LGPL$
+<span class="lineNum">       9 </span>            : ** Commercial License Usage
+<span class="lineNum">      10 </span>            : ** Licensees holding valid commercial Qt licenses may use this file in
+<span class="lineNum">      11 </span>            : ** accordance with the commercial license agreement provided with the
+<span class="lineNum">      12 </span>            : ** Software or, alternatively, in accordance with the terms contained in
+<span class="lineNum">      13 </span>            : ** a written agreement between you and Digia.  For licensing terms and
+<span class="lineNum">      14 </span>            : ** conditions see http://qt.digia.com/licensing.  For further information
+<span class="lineNum">      15 </span>            : ** use the contact form at http://qt.digia.com/contact-us.
+<span class="lineNum">      16 </span>            : **
+<span class="lineNum">      17 </span>            : ** GNU Lesser General Public License Usage
+<span class="lineNum">      18 </span>            : ** Alternatively, this file may be used under the terms of the GNU Lesser
+<span class="lineNum">      19 </span>            : ** General Public License version 2.1 as published by the Free Software
+<span class="lineNum">      20 </span>            : ** Foundation and appearing in the file LICENSE.LGPL included in the
+<span class="lineNum">      21 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      22 </span>            : ** ensure the GNU Lesser General Public License version 2.1 requirements
+<span class="lineNum">      23 </span>            : ** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+<span class="lineNum">      24 </span>            : **
+<span class="lineNum">      25 </span>            : ** In addition, as a special exception, Digia gives you certain additional
+<span class="lineNum">      26 </span>            : ** rights.  These rights are described in the Digia Qt LGPL Exception
+<span class="lineNum">      27 </span>            : ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+<span class="lineNum">      28 </span>            : **
+<span class="lineNum">      29 </span>            : ** GNU General Public License Usage
+<span class="lineNum">      30 </span>            : ** Alternatively, this file may be used under the terms of the GNU
+<span class="lineNum">      31 </span>            : ** General Public License version 3.0 as published by the Free Software
+<span class="lineNum">      32 </span>            : ** Foundation and appearing in the file LICENSE.GPL included in the
+<span class="lineNum">      33 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      34 </span>            : ** ensure the GNU General Public License version 3.0 requirements will be
+<span class="lineNum">      35 </span>            : ** met: http://www.gnu.org/copyleft/gpl.html.
+<span class="lineNum">      36 </span>            : **
+<span class="lineNum">      37 </span>            : **
+<span class="lineNum">      38 </span>            : ** $QT_END_LICENSE$
+<span class="lineNum">      39 </span>            : **
+<span class="lineNum">      40 </span>            : ****************************************************************************/
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span>            : #include &lt;QtCore/qglobal.h&gt;
+<span class="lineNum">      43 </span>            : 
+<span class="lineNum">      44 </span>            : #ifndef QLOGGING_H
+<span class="lineNum">      45 </span>            : #define QLOGGING_H
+<span class="lineNum">      46 </span>            : 
+<span class="lineNum">      47 </span>            : #if 0
+<span class="lineNum">      48 </span>            : // header is automatically included in qglobal.h
+<span class="lineNum">      49 </span>            : #pragma qt_no_master_include
+<span class="lineNum">      50 </span>            : #endif
+<span class="lineNum">      51 </span>            : 
+<span class="lineNum">      52 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      53 </span>            : 
+<span class="lineNum">      54 </span>            : /*
+<span class="lineNum">      55 </span>            :   Forward declarations only.
+<span class="lineNum">      56 </span>            : 
+<span class="lineNum">      57 </span>            :   In order to use the qDebug() stream, you must #include&lt;QDebug&gt;
+<span class="lineNum">      58 </span>            : */
+<span class="lineNum">      59 </span>            : class QDebug;
+<span class="lineNum">      60 </span>            : class QNoDebug;
+<span class="lineNum">      61 </span>            : 
+<span class="lineNum">      62 </span>            : enum QtMsgType { QtDebugMsg, QtWarningMsg, QtCriticalMsg, QtFatalMsg, QtSystemMsg = QtCriticalMsg };
+<span class="lineNum">      63 </span>            : 
+<span class="lineNum">      64 </span>            : class QMessageLogContext
+<span class="lineNum">      65 </span>            : {
+<span class="lineNum">      66 </span>            :     Q_DISABLE_COPY(QMessageLogContext)
+<a name="67"><span class="lineNum">      67 </span>            : public:</a>
+<span class="lineNum">      68 </span>            :     Q_DECL_CONSTEXPR QMessageLogContext() : version(1), line(0), file(0), function(0), category(0) {}
+<span class="lineNum">      69 </span><span class="lineNoCov">          0 :     Q_DECL_CONSTEXPR QMessageLogContext(const char *fileName, int lineNumber, const char *functionName, const char *categoryName)</span>
+<span class="lineNum">      70 </span><span class="lineNoCov">          0 :         : version(1), line(lineNumber), file(fileName), function(functionName), category(categoryName) {}</span>
+<span class="lineNum">      71 </span>            : 
+<span class="lineNum">      72 </span>            :     void copy(const QMessageLogContext &amp;logContext);
+<span class="lineNum">      73 </span>            : 
+<span class="lineNum">      74 </span>            :     int version;
+<span class="lineNum">      75 </span>            :     int line;
+<span class="lineNum">      76 </span>            :     const char *file;
+<span class="lineNum">      77 </span>            :     const char *function;
+<span class="lineNum">      78 </span>            :     const char *category;
+<span class="lineNum">      79 </span>            : 
+<span class="lineNum">      80 </span>            : private:
+<span class="lineNum">      81 </span>            :     friend class QMessageLogger;
+<span class="lineNum">      82 </span>            :     friend class QDebug;
+<span class="lineNum">      83 </span>            : };
+<span class="lineNum">      84 </span>            : 
+<span class="lineNum">      85 </span>            : class QLoggingCategory;
+<span class="lineNum">      86 </span>            : 
+<span class="lineNum">      87 </span>            : class Q_CORE_EXPORT QMessageLogger
+<span class="lineNum">      88 </span>            : {
+<span class="lineNum">      89 </span>            :     Q_DISABLE_COPY(QMessageLogger)
+<a name="90"><span class="lineNum">      90 </span>            : public:</a>
+<span class="lineNum">      91 </span>            :     Q_DECL_CONSTEXPR QMessageLogger() : context() {}
+<span class="lineNum">      92 </span><span class="lineNoCov">          0 :     Q_DECL_CONSTEXPR QMessageLogger(const char *file, int line, const char *function)</span>
+<span class="lineNum">      93 </span><span class="lineNoCov">          0 :         : context(file, line, function, &quot;default&quot;) {}</span>
+<span class="lineNum">      94 </span>            :     Q_DECL_CONSTEXPR QMessageLogger(const char *file, int line, const char *function, const char *category)
+<span class="lineNum">      95 </span>            :         : context(file, line, function, category) {}
+<span class="lineNum">      96 </span>            : 
+<span class="lineNum">      97 </span>            :     void debug(const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+<span class="lineNum">      98 </span>            :     void noDebug(const char *, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(2, 3)
+<span class="lineNum">      99 </span>            :     {}
+<span class="lineNum">     100 </span>            :     void warning(const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+<span class="lineNum">     101 </span>            :     void critical(const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+<span class="lineNum">     102 </span>            : 
+<span class="lineNum">     103 </span>            :     typedef const QLoggingCategory &amp;(*CategoryFunction)();
+<span class="lineNum">     104 </span>            : 
+<span class="lineNum">     105 </span>            :     void debug(const QLoggingCategory &amp;cat, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     106 </span>            :     void debug(CategoryFunction catFunc, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     107 </span>            :     void warning(const QLoggingCategory &amp;cat, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     108 </span>            :     void warning(CategoryFunction catFunc, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     109 </span>            :     void critical(const QLoggingCategory &amp;cat, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     110 </span>            :     void critical(CategoryFunction catFunc, const char *msg, ...) const Q_ATTRIBUTE_FORMAT_PRINTF(3, 4);
+<span class="lineNum">     111 </span>            : 
+<span class="lineNum">     112 </span>            : #ifndef Q_CC_MSVC
+<span class="lineNum">     113 </span>            :     Q_NORETURN
+<span class="lineNum">     114 </span>            : #endif
+<span class="lineNum">     115 </span>            :     void fatal(const char *msg, ...) const Q_DECL_NOTHROW Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+<span class="lineNum">     116 </span>            : 
+<span class="lineNum">     117 </span>            : #ifndef QT_NO_DEBUG_STREAM
+<span class="lineNum">     118 </span>            :     QDebug debug() const;
+<span class="lineNum">     119 </span>            :     QDebug debug(const QLoggingCategory &amp;cat) const;
+<span class="lineNum">     120 </span>            :     QDebug debug(CategoryFunction catFunc) const;
+<span class="lineNum">     121 </span>            :     QDebug warning() const;
+<span class="lineNum">     122 </span>            :     QDebug warning(const QLoggingCategory &amp;cat) const;
+<span class="lineNum">     123 </span>            :     QDebug warning(CategoryFunction catFunc) const;
+<span class="lineNum">     124 </span>            :     QDebug critical() const;
+<span class="lineNum">     125 </span>            :     QDebug critical(const QLoggingCategory &amp;cat) const;
+<span class="lineNum">     126 </span>            :     QDebug critical(CategoryFunction catFunc) const;
+<span class="lineNum">     127 </span>            : 
+<span class="lineNum">     128 </span>            :     QNoDebug noDebug() const Q_DECL_NOTHROW;
+<span class="lineNum">     129 </span>            : #endif // QT_NO_DEBUG_STREAM
+<span class="lineNum">     130 </span>            : 
+<span class="lineNum">     131 </span>            : private:
+<span class="lineNum">     132 </span>            :     QMessageLogContext context;
+<span class="lineNum">     133 </span>            : };
+<span class="lineNum">     134 </span>            : 
+<span class="lineNum">     135 </span>            : /*
+<span class="lineNum">     136 </span>            :   qDebug, qWarning, qCritical, qFatal are redefined to automatically include context information
+<span class="lineNum">     137 </span>            :  */
+<span class="lineNum">     138 </span>            : #define qDebug QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO).debug
+<span class="lineNum">     139 </span>            : #define qWarning QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO).warning
+<span class="lineNum">     140 </span>            : #define qCritical QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO).critical
+<span class="lineNum">     141 </span>            : #define qFatal QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO).fatal
+<span class="lineNum">     142 </span>            : 
+<span class="lineNum">     143 </span>            : #define QT_NO_QDEBUG_MACRO while (false) QMessageLogger().noDebug
+<span class="lineNum">     144 </span>            : #define QT_NO_QWARNING_MACRO while (false) QMessageLogger().noDebug
+<span class="lineNum">     145 </span>            : 
+<span class="lineNum">     146 </span>            : #if defined(QT_NO_DEBUG_OUTPUT)
+<span class="lineNum">     147 </span>            : #  undef qDebug
+<span class="lineNum">     148 </span>            : #  define qDebug QT_NO_QDEBUG_MACRO
+<span class="lineNum">     149 </span>            : #endif
+<span class="lineNum">     150 </span>            : #if defined(QT_NO_WARNING_OUTPUT)
+<span class="lineNum">     151 </span>            : #  undef qWarning
+<span class="lineNum">     152 </span>            : #  define qWarning QT_NO_QWARNING_MACRO
+<span class="lineNum">     153 </span>            : #endif
+<span class="lineNum">     154 </span>            : 
+<span class="lineNum">     155 </span>            : Q_CORE_EXPORT void qt_message_output(QtMsgType, const QMessageLogContext &amp;context,
+<span class="lineNum">     156 </span>            :                                      const QString &amp;message);
+<span class="lineNum">     157 </span>            : 
+<span class="lineNum">     158 </span>            : Q_CORE_EXPORT void qErrnoWarning(int code, const char *msg, ...);
+<span class="lineNum">     159 </span>            : Q_CORE_EXPORT void qErrnoWarning(const char *msg, ...);
+<span class="lineNum">     160 </span>            : 
+<span class="lineNum">     161 </span>            : #if QT_DEPRECATED_SINCE(5, 0)// deprecated. Use qInstallMessageHandler instead!
+<span class="lineNum">     162 </span>            : typedef void (*QtMsgHandler)(QtMsgType, const char *);
+<span class="lineNum">     163 </span>            : Q_CORE_EXPORT QT_DEPRECATED QtMsgHandler qInstallMsgHandler(QtMsgHandler);
+<span class="lineNum">     164 </span>            : #endif
+<span class="lineNum">     165 </span>            : 
+<span class="lineNum">     166 </span>            : typedef void (*QtMessageHandler)(QtMsgType, const QMessageLogContext &amp;, const QString &amp;);
+<span class="lineNum">     167 </span>            : Q_CORE_EXPORT QtMessageHandler qInstallMessageHandler(QtMessageHandler);
+<span class="lineNum">     168 </span>            : 
+<span class="lineNum">     169 </span>            : Q_CORE_EXPORT void qSetMessagePattern(const QString &amp;messagePattern);
+<span class="lineNum">     170 </span>            : 
+<span class="lineNum">     171 </span>            : QT_END_NAMESPACE
+<span class="lineNum">     172 </span>            : #endif // QLOGGING_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

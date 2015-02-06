@@ -1,0 +1,828 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - /opt/Qt/5.3/gcc_64/include/QtWidgets/qstyleoption.h</title>
+  <link rel="stylesheet" type="text/css" href="../../../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../../../index.html">top level</a> - <a href="index.html">opt/Qt/5.3/gcc_64/include/QtWidgets</a> - qstyleoption.h<span style="font-size: 80%;"> (source / <a href="qstyleoption.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">3</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /****************************************************************************</a>
+<span class="lineNum">       2 </span>            : **
+<span class="lineNum">       3 </span>            : ** Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+<span class="lineNum">       4 </span>            : ** Contact: http://www.qt-project.org/legal
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** This file is part of the QtWidgets module of the Qt Toolkit.
+<span class="lineNum">       7 </span>            : **
+<span class="lineNum">       8 </span>            : ** $QT_BEGIN_LICENSE:LGPL$
+<span class="lineNum">       9 </span>            : ** Commercial License Usage
+<span class="lineNum">      10 </span>            : ** Licensees holding valid commercial Qt licenses may use this file in
+<span class="lineNum">      11 </span>            : ** accordance with the commercial license agreement provided with the
+<span class="lineNum">      12 </span>            : ** Software or, alternatively, in accordance with the terms contained in
+<span class="lineNum">      13 </span>            : ** a written agreement between you and Digia.  For licensing terms and
+<span class="lineNum">      14 </span>            : ** conditions see http://qt.digia.com/licensing.  For further information
+<span class="lineNum">      15 </span>            : ** use the contact form at http://qt.digia.com/contact-us.
+<span class="lineNum">      16 </span>            : **
+<span class="lineNum">      17 </span>            : ** GNU Lesser General Public License Usage
+<span class="lineNum">      18 </span>            : ** Alternatively, this file may be used under the terms of the GNU Lesser
+<span class="lineNum">      19 </span>            : ** General Public License version 2.1 as published by the Free Software
+<span class="lineNum">      20 </span>            : ** Foundation and appearing in the file LICENSE.LGPL included in the
+<span class="lineNum">      21 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      22 </span>            : ** ensure the GNU Lesser General Public License version 2.1 requirements
+<span class="lineNum">      23 </span>            : ** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+<span class="lineNum">      24 </span>            : **
+<span class="lineNum">      25 </span>            : ** In addition, as a special exception, Digia gives you certain additional
+<span class="lineNum">      26 </span>            : ** rights.  These rights are described in the Digia Qt LGPL Exception
+<span class="lineNum">      27 </span>            : ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+<span class="lineNum">      28 </span>            : **
+<span class="lineNum">      29 </span>            : ** GNU General Public License Usage
+<span class="lineNum">      30 </span>            : ** Alternatively, this file may be used under the terms of the GNU
+<span class="lineNum">      31 </span>            : ** General Public License version 3.0 as published by the Free Software
+<span class="lineNum">      32 </span>            : ** Foundation and appearing in the file LICENSE.GPL included in the
+<span class="lineNum">      33 </span>            : ** packaging of this file.  Please review the following information to
+<span class="lineNum">      34 </span>            : ** ensure the GNU General Public License version 3.0 requirements will be
+<span class="lineNum">      35 </span>            : ** met: http://www.gnu.org/copyleft/gpl.html.
+<span class="lineNum">      36 </span>            : **
+<span class="lineNum">      37 </span>            : **
+<span class="lineNum">      38 </span>            : ** $QT_END_LICENSE$
+<span class="lineNum">      39 </span>            : **
+<span class="lineNum">      40 </span>            : ****************************************************************************/
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span>            : #ifndef QSTYLEOPTION_H
+<span class="lineNum">      43 </span>            : #define QSTYLEOPTION_H
+<span class="lineNum">      44 </span>            : 
+<span class="lineNum">      45 </span>            : #include &lt;QtCore/qvariant.h&gt;
+<span class="lineNum">      46 </span>            : #include &lt;QtWidgets/qabstractspinbox.h&gt;
+<span class="lineNum">      47 </span>            : #include &lt;QtGui/qicon.h&gt;
+<span class="lineNum">      48 </span>            : #include &lt;QtGui/qmatrix.h&gt;
+<span class="lineNum">      49 </span>            : #include &lt;QtWidgets/qslider.h&gt;
+<span class="lineNum">      50 </span>            : #include &lt;QtWidgets/qstyle.h&gt;
+<span class="lineNum">      51 </span>            : #include &lt;QtWidgets/qtabbar.h&gt;
+<span class="lineNum">      52 </span>            : #include &lt;QtWidgets/qtabwidget.h&gt;
+<span class="lineNum">      53 </span>            : #include &lt;QtWidgets/qrubberband.h&gt;
+<span class="lineNum">      54 </span>            : #include &lt;QtWidgets/qframe.h&gt;
+<span class="lineNum">      55 </span>            : #ifndef QT_NO_ITEMVIEWS
+<span class="lineNum">      56 </span>            : #   include &lt;QtCore/qabstractitemmodel.h&gt;
+<span class="lineNum">      57 </span>            : #endif
+<span class="lineNum">      58 </span>            : 
+<span class="lineNum">      59 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      60 </span>            : 
+<span class="lineNum">      61 </span>            : 
+<span class="lineNum">      62 </span>            : class QDebug;
+<span class="lineNum">      63 </span>            : 
+<span class="lineNum">      64 </span>            : class Q_WIDGETS_EXPORT QStyleOption
+<span class="lineNum">      65 </span>            : {
+<span class="lineNum">      66 </span>            : public:
+<span class="lineNum">      67 </span>            :     enum OptionType {
+<span class="lineNum">      68 </span>            :                       SO_Default, SO_FocusRect, SO_Button, SO_Tab, SO_MenuItem,
+<span class="lineNum">      69 </span>            :                       SO_Frame, SO_ProgressBar, SO_ToolBox, SO_Header,
+<span class="lineNum">      70 </span>            :                       SO_DockWidget, SO_ViewItem, SO_TabWidgetFrame,
+<span class="lineNum">      71 </span>            :                       SO_TabBarBase, SO_RubberBand, SO_ToolBar, SO_GraphicsItem,
+<span class="lineNum">      72 </span>            : 
+<span class="lineNum">      73 </span>            :                       SO_Complex = 0xf0000, SO_Slider, SO_SpinBox, SO_ToolButton, SO_ComboBox,
+<span class="lineNum">      74 </span>            :                       SO_TitleBar, SO_GroupBox, SO_SizeGrip,
+<span class="lineNum">      75 </span>            : 
+<span class="lineNum">      76 </span>            :                       SO_CustomBase = 0xf00,
+<span class="lineNum">      77 </span>            :                       SO_ComplexCustomBase = 0xf000000
+<span class="lineNum">      78 </span>            :                     };
+<span class="lineNum">      79 </span>            : 
+<span class="lineNum">      80 </span>            :     enum StyleOptionType { Type = SO_Default };
+<span class="lineNum">      81 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">      82 </span>            : 
+<span class="lineNum">      83 </span>            :     int version;
+<span class="lineNum">      84 </span>            :     int type;
+<span class="lineNum">      85 </span>            :     QStyle::State state;
+<span class="lineNum">      86 </span>            :     Qt::LayoutDirection direction;
+<span class="lineNum">      87 </span>            :     QRect rect;
+<span class="lineNum">      88 </span>            :     QFontMetrics fontMetrics;
+<span class="lineNum">      89 </span>            :     QPalette palette;
+<span class="lineNum">      90 </span>            :     QObject *styleObject;
+<span class="lineNum">      91 </span>            : 
+<span class="lineNum">      92 </span>            :     QStyleOption(int version = QStyleOption::Version, int type = SO_Default);
+<span class="lineNum">      93 </span>            :     QStyleOption(const QStyleOption &amp;other);
+<span class="lineNum">      94 </span>            :     ~QStyleOption();
+<span class="lineNum">      95 </span>            : 
+<span class="lineNum">      96 </span>            :     void init(const QWidget *w);
+<span class="lineNum">      97 </span>            :     inline void initFrom(const QWidget *w) { init(w); }
+<span class="lineNum">      98 </span>            :     QStyleOption &amp;operator=(const QStyleOption &amp;other);
+<span class="lineNum">      99 </span>            : };
+<span class="lineNum">     100 </span>            : 
+<span class="lineNum">     101 </span>            : class Q_WIDGETS_EXPORT QStyleOptionFocusRect : public QStyleOption
+<span class="lineNum">     102 </span>            : {
+<span class="lineNum">     103 </span>            : public:
+<span class="lineNum">     104 </span>            :     enum StyleOptionType { Type = SO_FocusRect };
+<span class="lineNum">     105 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     106 </span>            : 
+<span class="lineNum">     107 </span>            :     QColor backgroundColor;
+<span class="lineNum">     108 </span>            : 
+<span class="lineNum">     109 </span>            :     QStyleOptionFocusRect();
+<span class="lineNum">     110 </span>            :     QStyleOptionFocusRect(const QStyleOptionFocusRect &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     111 </span>            : 
+<span class="lineNum">     112 </span>            : protected:
+<span class="lineNum">     113 </span>            :     QStyleOptionFocusRect(int version);
+<span class="lineNum">     114 </span>            : };
+<span class="lineNum">     115 </span>            : 
+<span class="lineNum">     116 </span>            : class Q_WIDGETS_EXPORT QStyleOptionFrame : public QStyleOption
+<span class="lineNum">     117 </span>            : {
+<span class="lineNum">     118 </span>            : public:
+<span class="lineNum">     119 </span>            :     enum StyleOptionType { Type = SO_Frame };
+<span class="lineNum">     120 </span>            :     enum StyleOptionVersion { Version = 3 };
+<span class="lineNum">     121 </span>            : 
+<span class="lineNum">     122 </span>            :     int lineWidth;
+<span class="lineNum">     123 </span>            :     int midLineWidth;
+<span class="lineNum">     124 </span>            :     enum FrameFeature {
+<span class="lineNum">     125 </span>            :         None = 0x00,
+<span class="lineNum">     126 </span>            :         Flat = 0x01,
+<span class="lineNum">     127 </span>            :         Rounded = 0x02
+<span class="lineNum">     128 </span>            :     };
+<span class="lineNum">     129 </span>            :     Q_DECLARE_FLAGS(FrameFeatures, FrameFeature)
+<span class="lineNum">     130 </span>            :     FrameFeatures features;
+<span class="lineNum">     131 </span>            :     QFrame::Shape frameShape;
+<span class="lineNum">     132 </span>            : 
+<span class="lineNum">     133 </span>            :     QStyleOptionFrame();
+<span class="lineNum">     134 </span>            :     QStyleOptionFrame(const QStyleOptionFrame &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     135 </span>            : 
+<span class="lineNum">     136 </span>            : protected:
+<span class="lineNum">     137 </span>            :     QStyleOptionFrame(int version);
+<span class="lineNum">     138 </span>            : };
+<span class="lineNum">     139 </span>            : 
+<span class="lineNum">     140 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionFrame::FrameFeatures)
+<span class="lineNum">     141 </span>            : 
+<span class="lineNum">     142 </span>            : typedef QStyleOptionFrame QStyleOptionFrameV2;
+<span class="lineNum">     143 </span>            : typedef QStyleOptionFrame QStyleOptionFrameV3;
+<span class="lineNum">     144 </span>            : 
+<span class="lineNum">     145 </span>            : #ifndef QT_NO_TABWIDGET
+<span class="lineNum">     146 </span>            : class Q_WIDGETS_EXPORT QStyleOptionTabWidgetFrame : public QStyleOption
+<span class="lineNum">     147 </span>            : {
+<span class="lineNum">     148 </span>            : public:
+<span class="lineNum">     149 </span>            :     enum StyleOptionType { Type = SO_TabWidgetFrame };
+<span class="lineNum">     150 </span>            :     enum StyleOptionVersion { Version = 2 };
+<span class="lineNum">     151 </span>            : 
+<span class="lineNum">     152 </span>            :     int lineWidth;
+<span class="lineNum">     153 </span>            :     int midLineWidth;
+<span class="lineNum">     154 </span>            :     QTabBar::Shape shape;
+<span class="lineNum">     155 </span>            :     QSize tabBarSize;
+<span class="lineNum">     156 </span>            :     QSize rightCornerWidgetSize;
+<span class="lineNum">     157 </span>            :     QSize leftCornerWidgetSize;
+<span class="lineNum">     158 </span>            :     QRect tabBarRect;
+<span class="lineNum">     159 </span>            :     QRect selectedTabRect;
+<span class="lineNum">     160 </span>            : 
+<span class="lineNum">     161 </span>            :     QStyleOptionTabWidgetFrame();
+<span class="lineNum">     162 </span>            :     inline QStyleOptionTabWidgetFrame(const QStyleOptionTabWidgetFrame &amp;other)
+<span class="lineNum">     163 </span>            :         : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     164 </span>            : 
+<span class="lineNum">     165 </span>            : protected:
+<span class="lineNum">     166 </span>            :     QStyleOptionTabWidgetFrame(int version);
+<span class="lineNum">     167 </span>            : };
+<span class="lineNum">     168 </span>            : 
+<span class="lineNum">     169 </span>            : typedef QStyleOptionTabWidgetFrame QStyleOptionTabWidgetFrameV2;
+<span class="lineNum">     170 </span>            : #endif // QT_NO_TABWIDGET
+<span class="lineNum">     171 </span>            : 
+<span class="lineNum">     172 </span>            : 
+<span class="lineNum">     173 </span>            : #ifndef QT_NO_TABBAR
+<span class="lineNum">     174 </span>            : class Q_WIDGETS_EXPORT QStyleOptionTabBarBase : public QStyleOption
+<span class="lineNum">     175 </span>            : {
+<span class="lineNum">     176 </span>            : public:
+<span class="lineNum">     177 </span>            :     enum StyleOptionType { Type = SO_TabBarBase };
+<span class="lineNum">     178 </span>            :     enum StyleOptionVersion { Version = 2 };
+<span class="lineNum">     179 </span>            : 
+<span class="lineNum">     180 </span>            :     QTabBar::Shape shape;
+<span class="lineNum">     181 </span>            :     QRect tabBarRect;
+<span class="lineNum">     182 </span>            :     QRect selectedTabRect;
+<span class="lineNum">     183 </span>            :     bool documentMode;
+<span class="lineNum">     184 </span>            : 
+<span class="lineNum">     185 </span>            :     QStyleOptionTabBarBase();
+<span class="lineNum">     186 </span>            :     QStyleOptionTabBarBase(const QStyleOptionTabBarBase &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     187 </span>            : 
+<span class="lineNum">     188 </span>            : protected:
+<span class="lineNum">     189 </span>            :     QStyleOptionTabBarBase(int version);
+<span class="lineNum">     190 </span>            : };
+<span class="lineNum">     191 </span>            : 
+<span class="lineNum">     192 </span>            : typedef QStyleOptionTabBarBase QStyleOptionTabBarBaseV2;
+<span class="lineNum">     193 </span>            : #endif // QT_NO_TABBAR
+<span class="lineNum">     194 </span>            : 
+<span class="lineNum">     195 </span>            : class Q_WIDGETS_EXPORT QStyleOptionHeader : public QStyleOption
+<span class="lineNum">     196 </span>            : {
+<span class="lineNum">     197 </span>            : public:
+<span class="lineNum">     198 </span>            :     enum StyleOptionType { Type = SO_Header };
+<span class="lineNum">     199 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     200 </span>            : 
+<span class="lineNum">     201 </span>            :     enum SectionPosition { Beginning, Middle, End, OnlyOneSection };
+<span class="lineNum">     202 </span>            :     enum SelectedPosition { NotAdjacent, NextIsSelected, PreviousIsSelected,
+<span class="lineNum">     203 </span>            :                             NextAndPreviousAreSelected };
+<span class="lineNum">     204 </span>            :     enum SortIndicator { None, SortUp, SortDown };
+<span class="lineNum">     205 </span>            : 
+<span class="lineNum">     206 </span>            :     int section;
+<span class="lineNum">     207 </span>            :     QString text;
+<span class="lineNum">     208 </span>            :     Qt::Alignment textAlignment;
+<span class="lineNum">     209 </span>            :     QIcon icon;
+<span class="lineNum">     210 </span>            :     Qt::Alignment iconAlignment;
+<span class="lineNum">     211 </span>            :     SectionPosition position;
+<span class="lineNum">     212 </span>            :     SelectedPosition selectedPosition;
+<span class="lineNum">     213 </span>            :     SortIndicator sortIndicator;
+<span class="lineNum">     214 </span>            :     Qt::Orientation orientation;
+<span class="lineNum">     215 </span>            : 
+<span class="lineNum">     216 </span>            :     QStyleOptionHeader();
+<span class="lineNum">     217 </span>            :     QStyleOptionHeader(const QStyleOptionHeader &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     218 </span>            : 
+<span class="lineNum">     219 </span>            : protected:
+<span class="lineNum">     220 </span>            :     QStyleOptionHeader(int version);
+<span class="lineNum">     221 </span>            : };
+<span class="lineNum">     222 </span>            : 
+<span class="lineNum">     223 </span>            : class Q_WIDGETS_EXPORT QStyleOptionButton : public QStyleOption
+<span class="lineNum">     224 </span>            : {
+<span class="lineNum">     225 </span>            : public:
+<span class="lineNum">     226 </span>            :     enum StyleOptionType { Type = SO_Button };
+<span class="lineNum">     227 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     228 </span>            : 
+<span class="lineNum">     229 </span>            :     enum ButtonFeature { None = 0x00, Flat = 0x01, HasMenu = 0x02, DefaultButton = 0x04,
+<span class="lineNum">     230 </span>            :                          AutoDefaultButton = 0x08, CommandLinkButton = 0x10  };
+<span class="lineNum">     231 </span>            :     Q_DECLARE_FLAGS(ButtonFeatures, ButtonFeature)
+<span class="lineNum">     232 </span>            : 
+<span class="lineNum">     233 </span>            :     ButtonFeatures features;
+<span class="lineNum">     234 </span>            :     QString text;
+<span class="lineNum">     235 </span>            :     QIcon icon;
+<span class="lineNum">     236 </span>            :     QSize iconSize;
+<span class="lineNum">     237 </span>            : 
+<span class="lineNum">     238 </span>            :     QStyleOptionButton();
+<span class="lineNum">     239 </span>            :     QStyleOptionButton(const QStyleOptionButton &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     240 </span>            : 
+<span class="lineNum">     241 </span>            : protected:
+<span class="lineNum">     242 </span>            :     QStyleOptionButton(int version);
+<span class="lineNum">     243 </span>            : };
+<span class="lineNum">     244 </span>            : 
+<span class="lineNum">     245 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionButton::ButtonFeatures)
+<span class="lineNum">     246 </span>            : 
+<span class="lineNum">     247 </span>            : #ifndef QT_NO_TABBAR
+<span class="lineNum">     248 </span>            : class Q_WIDGETS_EXPORT QStyleOptionTab : public QStyleOption
+<span class="lineNum">     249 </span>            : {
+<span class="lineNum">     250 </span>            : public:
+<span class="lineNum">     251 </span>            :     enum StyleOptionType { Type = SO_Tab };
+<span class="lineNum">     252 </span>            :     enum StyleOptionVersion { Version = 3 };
+<span class="lineNum">     253 </span>            : 
+<span class="lineNum">     254 </span>            :     enum TabPosition { Beginning, Middle, End, OnlyOneTab };
+<span class="lineNum">     255 </span>            :     enum SelectedPosition { NotAdjacent, NextIsSelected, PreviousIsSelected };
+<span class="lineNum">     256 </span>            :     enum CornerWidget { NoCornerWidgets = 0x00, LeftCornerWidget = 0x01,
+<span class="lineNum">     257 </span>            :                         RightCornerWidget = 0x02 };
+<span class="lineNum">     258 </span>            :     enum TabFeature { None = 0x00, HasFrame = 0x01 };
+<span class="lineNum">     259 </span>            :     Q_DECLARE_FLAGS(CornerWidgets, CornerWidget)
+<span class="lineNum">     260 </span>            :     Q_DECLARE_FLAGS(TabFeatures, TabFeature)
+<span class="lineNum">     261 </span>            : 
+<span class="lineNum">     262 </span>            :     QTabBar::Shape shape;
+<span class="lineNum">     263 </span>            :     QString text;
+<span class="lineNum">     264 </span>            :     QIcon icon;
+<span class="lineNum">     265 </span>            :     int row;
+<span class="lineNum">     266 </span>            :     TabPosition position;
+<span class="lineNum">     267 </span>            :     SelectedPosition selectedPosition;
+<span class="lineNum">     268 </span>            :     CornerWidgets cornerWidgets;
+<span class="lineNum">     269 </span>            :     QSize iconSize;
+<span class="lineNum">     270 </span>            :     bool documentMode;
+<span class="lineNum">     271 </span>            :     QSize leftButtonSize;
+<span class="lineNum">     272 </span>            :     QSize rightButtonSize;
+<span class="lineNum">     273 </span>            :     TabFeatures features;
+<span class="lineNum">     274 </span>            : 
+<span class="lineNum">     275 </span>            :     QStyleOptionTab();
+<span class="lineNum">     276 </span>            :     QStyleOptionTab(const QStyleOptionTab &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     277 </span>            : 
+<span class="lineNum">     278 </span>            : protected:
+<span class="lineNum">     279 </span>            :     QStyleOptionTab(int version);
+<span class="lineNum">     280 </span>            : };
+<span class="lineNum">     281 </span>            : 
+<span class="lineNum">     282 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionTab::CornerWidgets)
+<span class="lineNum">     283 </span>            : 
+<span class="lineNum">     284 </span>            : typedef QStyleOptionTab QStyleOptionTabV2;
+<span class="lineNum">     285 </span>            : typedef QStyleOptionTab QStyleOptionTabV3;
+<span class="lineNum">     286 </span>            : #endif // QT_NO_TABBAR
+<span class="lineNum">     287 </span>            : 
+<span class="lineNum">     288 </span>            : 
+<span class="lineNum">     289 </span>            : #ifndef QT_NO_TOOLBAR
+<span class="lineNum">     290 </span>            : 
+<span class="lineNum">     291 </span>            : class Q_WIDGETS_EXPORT QStyleOptionToolBar : public QStyleOption
+<span class="lineNum">     292 </span>            : {
+<span class="lineNum">     293 </span>            : public:
+<span class="lineNum">     294 </span>            :     enum StyleOptionType { Type = SO_ToolBar };
+<span class="lineNum">     295 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     296 </span>            :     enum ToolBarPosition { Beginning, Middle, End, OnlyOne };
+<span class="lineNum">     297 </span>            :     enum ToolBarFeature { None = 0x0, Movable = 0x1 };
+<span class="lineNum">     298 </span>            :     Q_DECLARE_FLAGS(ToolBarFeatures, ToolBarFeature)
+<span class="lineNum">     299 </span>            :     ToolBarPosition positionOfLine; // The toolbar line position
+<span class="lineNum">     300 </span>            :     ToolBarPosition positionWithinLine; // The position within a toolbar
+<span class="lineNum">     301 </span>            :     Qt::ToolBarArea toolBarArea; // The toolbar docking area
+<span class="lineNum">     302 </span>            :     ToolBarFeatures features;
+<span class="lineNum">     303 </span>            :     int lineWidth;
+<span class="lineNum">     304 </span>            :     int midLineWidth;
+<span class="lineNum">     305 </span>            :     QStyleOptionToolBar();
+<span class="lineNum">     306 </span>            :     QStyleOptionToolBar(const QStyleOptionToolBar &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     307 </span>            : 
+<span class="lineNum">     308 </span>            : protected:
+<span class="lineNum">     309 </span>            :     QStyleOptionToolBar(int version);
+<span class="lineNum">     310 </span>            : };
+<span class="lineNum">     311 </span>            : 
+<span class="lineNum">     312 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionToolBar::ToolBarFeatures)
+<span class="lineNum">     313 </span>            : 
+<span class="lineNum">     314 </span>            : #endif // QT_NO_TOOLBAR
+<span class="lineNum">     315 </span>            : 
+<span class="lineNum">     316 </span>            : class Q_WIDGETS_EXPORT QStyleOptionProgressBar : public QStyleOption
+<span class="lineNum">     317 </span>            : {
+<span class="lineNum">     318 </span>            : public:
+<span class="lineNum">     319 </span>            :     enum StyleOptionType { Type = SO_ProgressBar };
+<span class="lineNum">     320 </span>            :     enum StyleOptionVersion { Version = 2 };
+<span class="lineNum">     321 </span>            : 
+<span class="lineNum">     322 </span>            :     int minimum;
+<span class="lineNum">     323 </span>            :     int maximum;
+<span class="lineNum">     324 </span>            :     int progress;
+<span class="lineNum">     325 </span>            :     QString text;
+<span class="lineNum">     326 </span>            :     Qt::Alignment textAlignment;
+<span class="lineNum">     327 </span>            :     bool textVisible;
+<span class="lineNum">     328 </span>            :     Qt::Orientation orientation;
+<span class="lineNum">     329 </span>            :     bool invertedAppearance;
+<span class="lineNum">     330 </span>            :     bool bottomToTop;
+<span class="lineNum">     331 </span>            : 
+<span class="lineNum">     332 </span>            :     QStyleOptionProgressBar();
+<span class="lineNum">     333 </span>            :     QStyleOptionProgressBar(const QStyleOptionProgressBar &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     334 </span>            : 
+<span class="lineNum">     335 </span>            : protected:
+<span class="lineNum">     336 </span>            :     QStyleOptionProgressBar(int version);
+<span class="lineNum">     337 </span>            : };
+<span class="lineNum">     338 </span>            : 
+<span class="lineNum">     339 </span>            : typedef QStyleOptionProgressBar QStyleOptionProgressBarV2;
+<span class="lineNum">     340 </span>            : 
+<span class="lineNum">     341 </span>            : class Q_WIDGETS_EXPORT QStyleOptionMenuItem : public QStyleOption
+<span class="lineNum">     342 </span>            : {
+<span class="lineNum">     343 </span>            : public:
+<span class="lineNum">     344 </span>            :     enum StyleOptionType { Type = SO_MenuItem };
+<span class="lineNum">     345 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     346 </span>            : 
+<span class="lineNum">     347 </span>            :     enum MenuItemType { Normal, DefaultItem, Separator, SubMenu, Scroller, TearOff, Margin,
+<span class="lineNum">     348 </span>            :                         EmptyArea };
+<span class="lineNum">     349 </span>            :     enum CheckType { NotCheckable, Exclusive, NonExclusive };
+<span class="lineNum">     350 </span>            : 
+<span class="lineNum">     351 </span>            :     MenuItemType menuItemType;
+<span class="lineNum">     352 </span>            :     CheckType checkType;
+<span class="lineNum">     353 </span>            :     bool checked;
+<span class="lineNum">     354 </span>            :     bool menuHasCheckableItems;
+<span class="lineNum">     355 </span>            :     QRect menuRect;
+<span class="lineNum">     356 </span>            :     QString text;
+<span class="lineNum">     357 </span>            :     QIcon icon;
+<span class="lineNum">     358 </span>            :     int maxIconWidth;
+<span class="lineNum">     359 </span>            :     int tabWidth;
+<span class="lineNum">     360 </span>            :     QFont font;
+<span class="lineNum">     361 </span>            : 
+<span class="lineNum">     362 </span>            :     QStyleOptionMenuItem();
+<span class="lineNum">     363 </span>            :     QStyleOptionMenuItem(const QStyleOptionMenuItem &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     364 </span>            : 
+<span class="lineNum">     365 </span>            : protected:
+<span class="lineNum">     366 </span>            :     QStyleOptionMenuItem(int version);
+<span class="lineNum">     367 </span>            : };
+<span class="lineNum">     368 </span>            : 
+<span class="lineNum">     369 </span>            : class Q_WIDGETS_EXPORT QStyleOptionDockWidget : public QStyleOption
+<span class="lineNum">     370 </span>            : {
+<span class="lineNum">     371 </span>            : public:
+<span class="lineNum">     372 </span>            :     enum StyleOptionType { Type = SO_DockWidget };
+<span class="lineNum">     373 </span>            :     enum StyleOptionVersion { Version = 2 };
+<span class="lineNum">     374 </span>            : 
+<span class="lineNum">     375 </span>            :     QString title;
+<span class="lineNum">     376 </span>            :     bool closable;
+<span class="lineNum">     377 </span>            :     bool movable;
+<span class="lineNum">     378 </span>            :     bool floatable;
+<span class="lineNum">     379 </span>            :     bool verticalTitleBar;
+<span class="lineNum">     380 </span>            : 
+<span class="lineNum">     381 </span>            :     QStyleOptionDockWidget();
+<span class="lineNum">     382 </span>            :     QStyleOptionDockWidget(const QStyleOptionDockWidget &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     383 </span>            : 
+<span class="lineNum">     384 </span>            : protected:
+<span class="lineNum">     385 </span>            :     QStyleOptionDockWidget(int version);
+<span class="lineNum">     386 </span>            : };
+<span class="lineNum">     387 </span>            : 
+<span class="lineNum">     388 </span>            : typedef QStyleOptionDockWidget QStyleOptionDockWidgetV2;
+<span class="lineNum">     389 </span>            : 
+<a name="390"><span class="lineNum">     390 </span>            : #ifndef QT_NO_ITEMVIEWS</a>
+<span class="lineNum">     391 </span>            : 
+<span class="lineNum">     392 </span><span class="lineNoCov">          0 : class Q_WIDGETS_EXPORT QStyleOptionViewItem : public QStyleOption</span>
+<span class="lineNum">     393 </span>            : {
+<span class="lineNum">     394 </span>            : public:
+<span class="lineNum">     395 </span>            :     enum StyleOptionType { Type = SO_ViewItem };
+<span class="lineNum">     396 </span>            :     enum StyleOptionVersion { Version = 4 };
+<span class="lineNum">     397 </span>            : 
+<span class="lineNum">     398 </span>            :     enum Position { Left, Right, Top, Bottom };
+<span class="lineNum">     399 </span>            : 
+<span class="lineNum">     400 </span>            :     Qt::Alignment displayAlignment;
+<span class="lineNum">     401 </span>            :     Qt::Alignment decorationAlignment;
+<span class="lineNum">     402 </span>            :     Qt::TextElideMode textElideMode;
+<span class="lineNum">     403 </span>            :     Position decorationPosition;
+<span class="lineNum">     404 </span>            :     QSize decorationSize;
+<span class="lineNum">     405 </span>            :     QFont font;
+<span class="lineNum">     406 </span>            :     bool showDecorationSelected;
+<span class="lineNum">     407 </span>            : 
+<span class="lineNum">     408 </span>            :     enum ViewItemFeature {
+<span class="lineNum">     409 </span>            :         None = 0x00,
+<span class="lineNum">     410 </span>            :         WrapText = 0x01,
+<span class="lineNum">     411 </span>            :         Alternate = 0x02,
+<span class="lineNum">     412 </span>            :         HasCheckIndicator = 0x04,
+<span class="lineNum">     413 </span>            :         HasDisplay = 0x08,
+<span class="lineNum">     414 </span>            :         HasDecoration = 0x10
+<span class="lineNum">     415 </span>            :     };
+<span class="lineNum">     416 </span>            :     Q_DECLARE_FLAGS(ViewItemFeatures, ViewItemFeature)
+<span class="lineNum">     417 </span>            : 
+<span class="lineNum">     418 </span>            :     ViewItemFeatures features;
+<span class="lineNum">     419 </span>            : 
+<span class="lineNum">     420 </span>            :     QLocale locale;
+<span class="lineNum">     421 </span>            :     const QWidget *widget;
+<span class="lineNum">     422 </span>            : 
+<span class="lineNum">     423 </span>            :     enum ViewItemPosition { Invalid, Beginning, Middle, End, OnlyOne };
+<span class="lineNum">     424 </span>            : 
+<span class="lineNum">     425 </span>            :     QModelIndex index;
+<span class="lineNum">     426 </span>            :     Qt::CheckState checkState;
+<span class="lineNum">     427 </span>            :     QIcon icon;
+<span class="lineNum">     428 </span>            :     QString text;
+<span class="lineNum">     429 </span>            :     ViewItemPosition viewItemPosition;
+<span class="lineNum">     430 </span>            :     QBrush backgroundBrush;
+<a name="431"><span class="lineNum">     431 </span>            : </a>
+<span class="lineNum">     432 </span>            :     QStyleOptionViewItem();
+<span class="lineNum">     433 </span><span class="lineNoCov">          0 :     QStyleOptionViewItem(const QStyleOptionViewItem &amp;other) : QStyleOption(Version, Type) { *this = other; }</span>
+<span class="lineNum">     434 </span>            : 
+<span class="lineNum">     435 </span>            : protected:
+<span class="lineNum">     436 </span>            :     QStyleOptionViewItem(int version);
+<span class="lineNum">     437 </span>            : };
+<span class="lineNum">     438 </span>            : 
+<span class="lineNum">     439 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionViewItem::ViewItemFeatures)
+<span class="lineNum">     440 </span>            : 
+<span class="lineNum">     441 </span>            : typedef QStyleOptionViewItem QStyleOptionViewItemV2;
+<span class="lineNum">     442 </span>            : typedef QStyleOptionViewItem QStyleOptionViewItemV3;
+<span class="lineNum">     443 </span>            : typedef QStyleOptionViewItem QStyleOptionViewItemV4;
+<span class="lineNum">     444 </span>            : 
+<span class="lineNum">     445 </span>            : #endif // QT_NO_ITEMVIEWS
+<span class="lineNum">     446 </span>            : 
+<span class="lineNum">     447 </span>            : class Q_WIDGETS_EXPORT QStyleOptionToolBox : public QStyleOption
+<span class="lineNum">     448 </span>            : {
+<span class="lineNum">     449 </span>            : public:
+<span class="lineNum">     450 </span>            :     enum StyleOptionType { Type = SO_ToolBox };
+<span class="lineNum">     451 </span>            :     enum StyleOptionVersion { Version = 2 };
+<span class="lineNum">     452 </span>            : 
+<span class="lineNum">     453 </span>            :     QString text;
+<span class="lineNum">     454 </span>            :     QIcon icon;
+<span class="lineNum">     455 </span>            : 
+<span class="lineNum">     456 </span>            :     enum TabPosition { Beginning, Middle, End, OnlyOneTab };
+<span class="lineNum">     457 </span>            :     enum SelectedPosition { NotAdjacent, NextIsSelected, PreviousIsSelected };
+<span class="lineNum">     458 </span>            : 
+<span class="lineNum">     459 </span>            :     TabPosition position;
+<span class="lineNum">     460 </span>            :     SelectedPosition selectedPosition;
+<span class="lineNum">     461 </span>            : 
+<span class="lineNum">     462 </span>            :     QStyleOptionToolBox();
+<span class="lineNum">     463 </span>            :     QStyleOptionToolBox(const QStyleOptionToolBox &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     464 </span>            : 
+<span class="lineNum">     465 </span>            : protected:
+<span class="lineNum">     466 </span>            :     QStyleOptionToolBox(int version);
+<span class="lineNum">     467 </span>            : };
+<span class="lineNum">     468 </span>            : 
+<span class="lineNum">     469 </span>            : typedef QStyleOptionToolBox QStyleOptionToolBoxV2;
+<span class="lineNum">     470 </span>            : 
+<span class="lineNum">     471 </span>            : #ifndef QT_NO_RUBBERBAND
+<span class="lineNum">     472 </span>            : class Q_WIDGETS_EXPORT QStyleOptionRubberBand : public QStyleOption
+<span class="lineNum">     473 </span>            : {
+<span class="lineNum">     474 </span>            : public:
+<span class="lineNum">     475 </span>            :     enum StyleOptionType { Type = SO_RubberBand };
+<span class="lineNum">     476 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     477 </span>            : 
+<span class="lineNum">     478 </span>            :     QRubberBand::Shape shape;
+<span class="lineNum">     479 </span>            :     bool opaque;
+<span class="lineNum">     480 </span>            : 
+<span class="lineNum">     481 </span>            :     QStyleOptionRubberBand();
+<span class="lineNum">     482 </span>            :     QStyleOptionRubberBand(const QStyleOptionRubberBand &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     483 </span>            : 
+<span class="lineNum">     484 </span>            : protected:
+<span class="lineNum">     485 </span>            :     QStyleOptionRubberBand(int version);
+<span class="lineNum">     486 </span>            : };
+<span class="lineNum">     487 </span>            : #endif // QT_NO_RUBBERBAND
+<span class="lineNum">     488 </span>            : 
+<span class="lineNum">     489 </span>            : // -------------------------- Complex style options -------------------------------
+<span class="lineNum">     490 </span>            : class Q_WIDGETS_EXPORT QStyleOptionComplex : public QStyleOption
+<span class="lineNum">     491 </span>            : {
+<span class="lineNum">     492 </span>            : public:
+<span class="lineNum">     493 </span>            :     enum StyleOptionType { Type = SO_Complex };
+<span class="lineNum">     494 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     495 </span>            : 
+<span class="lineNum">     496 </span>            :     QStyle::SubControls subControls;
+<span class="lineNum">     497 </span>            :     QStyle::SubControls activeSubControls;
+<span class="lineNum">     498 </span>            : 
+<span class="lineNum">     499 </span>            :     QStyleOptionComplex(int version = QStyleOptionComplex::Version, int type = SO_Complex);
+<span class="lineNum">     500 </span>            :     QStyleOptionComplex(const QStyleOptionComplex &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     501 </span>            : };
+<span class="lineNum">     502 </span>            : 
+<span class="lineNum">     503 </span>            : #ifndef QT_NO_SLIDER
+<span class="lineNum">     504 </span>            : class Q_WIDGETS_EXPORT QStyleOptionSlider : public QStyleOptionComplex
+<span class="lineNum">     505 </span>            : {
+<span class="lineNum">     506 </span>            : public:
+<span class="lineNum">     507 </span>            :     enum StyleOptionType { Type = SO_Slider };
+<span class="lineNum">     508 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     509 </span>            : 
+<span class="lineNum">     510 </span>            :     Qt::Orientation orientation;
+<span class="lineNum">     511 </span>            :     int minimum;
+<span class="lineNum">     512 </span>            :     int maximum;
+<span class="lineNum">     513 </span>            :     QSlider::TickPosition tickPosition;
+<span class="lineNum">     514 </span>            :     int tickInterval;
+<span class="lineNum">     515 </span>            :     bool upsideDown;
+<span class="lineNum">     516 </span>            :     int sliderPosition;
+<span class="lineNum">     517 </span>            :     int sliderValue;
+<span class="lineNum">     518 </span>            :     int singleStep;
+<span class="lineNum">     519 </span>            :     int pageStep;
+<span class="lineNum">     520 </span>            :     qreal notchTarget;
+<span class="lineNum">     521 </span>            :     bool dialWrapping;
+<span class="lineNum">     522 </span>            : 
+<span class="lineNum">     523 </span>            :     QStyleOptionSlider();
+<span class="lineNum">     524 </span>            :     QStyleOptionSlider(const QStyleOptionSlider &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     525 </span>            : 
+<span class="lineNum">     526 </span>            : protected:
+<span class="lineNum">     527 </span>            :     QStyleOptionSlider(int version);
+<span class="lineNum">     528 </span>            : };
+<span class="lineNum">     529 </span>            : #endif // QT_NO_SLIDER
+<span class="lineNum">     530 </span>            : 
+<span class="lineNum">     531 </span>            : #ifndef QT_NO_SPINBOX
+<span class="lineNum">     532 </span>            : class Q_WIDGETS_EXPORT QStyleOptionSpinBox : public QStyleOptionComplex
+<span class="lineNum">     533 </span>            : {
+<span class="lineNum">     534 </span>            : public:
+<span class="lineNum">     535 </span>            :     enum StyleOptionType { Type = SO_SpinBox };
+<span class="lineNum">     536 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     537 </span>            : 
+<span class="lineNum">     538 </span>            :     QAbstractSpinBox::ButtonSymbols buttonSymbols;
+<span class="lineNum">     539 </span>            :     QAbstractSpinBox::StepEnabled stepEnabled;
+<span class="lineNum">     540 </span>            :     bool frame;
+<span class="lineNum">     541 </span>            : 
+<span class="lineNum">     542 </span>            :     QStyleOptionSpinBox();
+<span class="lineNum">     543 </span>            :     QStyleOptionSpinBox(const QStyleOptionSpinBox &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     544 </span>            : 
+<span class="lineNum">     545 </span>            : protected:
+<span class="lineNum">     546 </span>            :     QStyleOptionSpinBox(int version);
+<span class="lineNum">     547 </span>            : };
+<span class="lineNum">     548 </span>            : #endif // QT_NO_SPINBOX
+<span class="lineNum">     549 </span>            : 
+<span class="lineNum">     550 </span>            : class Q_WIDGETS_EXPORT QStyleOptionToolButton : public QStyleOptionComplex
+<span class="lineNum">     551 </span>            : {
+<span class="lineNum">     552 </span>            : public:
+<span class="lineNum">     553 </span>            :     enum StyleOptionType { Type = SO_ToolButton };
+<span class="lineNum">     554 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     555 </span>            : 
+<span class="lineNum">     556 </span>            :     enum ToolButtonFeature { None = 0x00, Arrow = 0x01, Menu = 0x04, MenuButtonPopup = Menu, PopupDelay = 0x08,
+<span class="lineNum">     557 </span>            :                              HasMenu = 0x10 };
+<span class="lineNum">     558 </span>            :     Q_DECLARE_FLAGS(ToolButtonFeatures, ToolButtonFeature)
+<span class="lineNum">     559 </span>            : 
+<span class="lineNum">     560 </span>            :     ToolButtonFeatures features;
+<span class="lineNum">     561 </span>            :     QIcon icon;
+<span class="lineNum">     562 </span>            :     QSize iconSize;
+<span class="lineNum">     563 </span>            :     QString text;
+<span class="lineNum">     564 </span>            :     Qt::ArrowType arrowType;
+<span class="lineNum">     565 </span>            :     Qt::ToolButtonStyle toolButtonStyle;
+<span class="lineNum">     566 </span>            :     QPoint pos;
+<span class="lineNum">     567 </span>            :     QFont font;
+<span class="lineNum">     568 </span>            : 
+<span class="lineNum">     569 </span>            :     QStyleOptionToolButton();
+<span class="lineNum">     570 </span>            :     QStyleOptionToolButton(const QStyleOptionToolButton &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     571 </span>            : 
+<span class="lineNum">     572 </span>            : protected:
+<span class="lineNum">     573 </span>            :     QStyleOptionToolButton(int version);
+<span class="lineNum">     574 </span>            : };
+<span class="lineNum">     575 </span>            : 
+<span class="lineNum">     576 </span>            : Q_DECLARE_OPERATORS_FOR_FLAGS(QStyleOptionToolButton::ToolButtonFeatures)
+<span class="lineNum">     577 </span>            : 
+<span class="lineNum">     578 </span>            : class Q_WIDGETS_EXPORT QStyleOptionComboBox : public QStyleOptionComplex
+<span class="lineNum">     579 </span>            : {
+<span class="lineNum">     580 </span>            : public:
+<span class="lineNum">     581 </span>            :     enum StyleOptionType { Type = SO_ComboBox };
+<span class="lineNum">     582 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     583 </span>            : 
+<span class="lineNum">     584 </span>            :     bool editable;
+<span class="lineNum">     585 </span>            :     QRect popupRect;
+<span class="lineNum">     586 </span>            :     bool frame;
+<span class="lineNum">     587 </span>            :     QString currentText;
+<span class="lineNum">     588 </span>            :     QIcon currentIcon;
+<span class="lineNum">     589 </span>            :     QSize iconSize;
+<span class="lineNum">     590 </span>            : 
+<span class="lineNum">     591 </span>            :     QStyleOptionComboBox();
+<span class="lineNum">     592 </span>            :     QStyleOptionComboBox(const QStyleOptionComboBox &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     593 </span>            : 
+<span class="lineNum">     594 </span>            : protected:
+<span class="lineNum">     595 </span>            :     QStyleOptionComboBox(int version);
+<span class="lineNum">     596 </span>            : };
+<span class="lineNum">     597 </span>            : 
+<span class="lineNum">     598 </span>            : class Q_WIDGETS_EXPORT QStyleOptionTitleBar : public QStyleOptionComplex
+<span class="lineNum">     599 </span>            : {
+<span class="lineNum">     600 </span>            : public:
+<span class="lineNum">     601 </span>            :     enum StyleOptionType { Type = SO_TitleBar };
+<span class="lineNum">     602 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     603 </span>            : 
+<span class="lineNum">     604 </span>            :     QString text;
+<span class="lineNum">     605 </span>            :     QIcon icon;
+<span class="lineNum">     606 </span>            :     int titleBarState;
+<span class="lineNum">     607 </span>            :     Qt::WindowFlags titleBarFlags;
+<span class="lineNum">     608 </span>            : 
+<span class="lineNum">     609 </span>            :     QStyleOptionTitleBar();
+<span class="lineNum">     610 </span>            :     QStyleOptionTitleBar(const QStyleOptionTitleBar &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     611 </span>            : 
+<span class="lineNum">     612 </span>            : protected:
+<span class="lineNum">     613 </span>            :     QStyleOptionTitleBar(int version);
+<span class="lineNum">     614 </span>            : };
+<span class="lineNum">     615 </span>            : 
+<span class="lineNum">     616 </span>            : class Q_WIDGETS_EXPORT QStyleOptionGroupBox : public QStyleOptionComplex
+<span class="lineNum">     617 </span>            : {
+<span class="lineNum">     618 </span>            : public:
+<span class="lineNum">     619 </span>            :     enum StyleOptionType { Type = SO_GroupBox };
+<span class="lineNum">     620 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     621 </span>            : 
+<span class="lineNum">     622 </span>            :     QStyleOptionFrameV2::FrameFeatures features;
+<span class="lineNum">     623 </span>            :     QString text;
+<span class="lineNum">     624 </span>            :     Qt::Alignment textAlignment;
+<span class="lineNum">     625 </span>            :     QColor textColor;
+<span class="lineNum">     626 </span>            :     int lineWidth;
+<span class="lineNum">     627 </span>            :     int midLineWidth;
+<span class="lineNum">     628 </span>            : 
+<span class="lineNum">     629 </span>            :     QStyleOptionGroupBox();
+<span class="lineNum">     630 </span>            :     QStyleOptionGroupBox(const QStyleOptionGroupBox &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     631 </span>            : protected:
+<span class="lineNum">     632 </span>            :     QStyleOptionGroupBox(int version);
+<span class="lineNum">     633 </span>            : };
+<span class="lineNum">     634 </span>            : 
+<span class="lineNum">     635 </span>            : class Q_WIDGETS_EXPORT QStyleOptionSizeGrip : public QStyleOptionComplex
+<span class="lineNum">     636 </span>            : {
+<span class="lineNum">     637 </span>            : public:
+<span class="lineNum">     638 </span>            :     enum StyleOptionType { Type = SO_SizeGrip };
+<span class="lineNum">     639 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     640 </span>            : 
+<span class="lineNum">     641 </span>            :     Qt::Corner corner;
+<span class="lineNum">     642 </span>            : 
+<span class="lineNum">     643 </span>            :     QStyleOptionSizeGrip();
+<span class="lineNum">     644 </span>            :     QStyleOptionSizeGrip(const QStyleOptionSizeGrip &amp;other) : QStyleOptionComplex(Version, Type) { *this = other; }
+<span class="lineNum">     645 </span>            : protected:
+<span class="lineNum">     646 </span>            :     QStyleOptionSizeGrip(int version);
+<span class="lineNum">     647 </span>            : };
+<span class="lineNum">     648 </span>            : 
+<span class="lineNum">     649 </span>            : class Q_WIDGETS_EXPORT QStyleOptionGraphicsItem : public QStyleOption
+<span class="lineNum">     650 </span>            : {
+<span class="lineNum">     651 </span>            : public:
+<span class="lineNum">     652 </span>            :     enum StyleOptionType { Type = SO_GraphicsItem };
+<span class="lineNum">     653 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     654 </span>            : 
+<span class="lineNum">     655 </span>            :     QRectF exposedRect;
+<span class="lineNum">     656 </span>            :     QMatrix matrix;
+<span class="lineNum">     657 </span>            :     qreal levelOfDetail;
+<span class="lineNum">     658 </span>            : 
+<span class="lineNum">     659 </span>            :     QStyleOptionGraphicsItem();
+<span class="lineNum">     660 </span>            :     QStyleOptionGraphicsItem(const QStyleOptionGraphicsItem &amp;other) : QStyleOption(Version, Type) { *this = other; }
+<span class="lineNum">     661 </span>            :     static qreal levelOfDetailFromTransform(const QTransform &amp;worldTransform);
+<span class="lineNum">     662 </span>            : protected:
+<span class="lineNum">     663 </span>            :     QStyleOptionGraphicsItem(int version);
+<span class="lineNum">     664 </span>            : };
+<span class="lineNum">     665 </span>            : 
+<span class="lineNum">     666 </span>            : template &lt;typename T&gt;
+<span class="lineNum">     667 </span>            : T qstyleoption_cast(const QStyleOption *opt)
+<span class="lineNum">     668 </span>            : {
+<span class="lineNum">     669 </span>            :     if (opt &amp;&amp; opt-&gt;version &gt;= static_cast&lt;T&gt;(0)-&gt;Version &amp;&amp; (opt-&gt;type == static_cast&lt;T&gt;(0)-&gt;Type
+<span class="lineNum">     670 </span>            :         || int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleOption::SO_Default
+<span class="lineNum">     671 </span>            :         || (int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleOption::SO_Complex
+<span class="lineNum">     672 </span>            :             &amp;&amp; opt-&gt;type &gt; QStyleOption::SO_Complex)))
+<span class="lineNum">     673 </span>            :         return static_cast&lt;T&gt;(opt);
+<span class="lineNum">     674 </span>            :     return 0;
+<span class="lineNum">     675 </span>            : }
+<span class="lineNum">     676 </span>            : 
+<span class="lineNum">     677 </span>            : template &lt;typename T&gt;
+<span class="lineNum">     678 </span>            : T qstyleoption_cast(QStyleOption *opt)
+<span class="lineNum">     679 </span>            : {
+<span class="lineNum">     680 </span>            :     if (opt &amp;&amp; opt-&gt;version &gt;= static_cast&lt;T&gt;(0)-&gt;Version &amp;&amp; (opt-&gt;type == static_cast&lt;T&gt;(0)-&gt;Type
+<span class="lineNum">     681 </span>            :         || int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleOption::SO_Default
+<span class="lineNum">     682 </span>            :         || (int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleOption::SO_Complex
+<span class="lineNum">     683 </span>            :             &amp;&amp; opt-&gt;type &gt; QStyleOption::SO_Complex)))
+<span class="lineNum">     684 </span>            :         return static_cast&lt;T&gt;(opt);
+<span class="lineNum">     685 </span>            :     return 0;
+<span class="lineNum">     686 </span>            : }
+<span class="lineNum">     687 </span>            : 
+<span class="lineNum">     688 </span>            : // -------------------------- QStyleHintReturn -------------------------------
+<span class="lineNum">     689 </span>            : class Q_WIDGETS_EXPORT QStyleHintReturn {
+<span class="lineNum">     690 </span>            : public:
+<span class="lineNum">     691 </span>            :     enum HintReturnType {
+<span class="lineNum">     692 </span>            :         SH_Default=0xf000, SH_Mask, SH_Variant
+<span class="lineNum">     693 </span>            :     };
+<span class="lineNum">     694 </span>            : 
+<span class="lineNum">     695 </span>            :     enum StyleOptionType { Type = SH_Default };
+<span class="lineNum">     696 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     697 </span>            : 
+<span class="lineNum">     698 </span>            :     QStyleHintReturn(int version = QStyleOption::Version, int type = SH_Default);
+<span class="lineNum">     699 </span>            :     ~QStyleHintReturn();
+<span class="lineNum">     700 </span>            : 
+<span class="lineNum">     701 </span>            :     int version;
+<span class="lineNum">     702 </span>            :     int type;
+<span class="lineNum">     703 </span>            : };
+<span class="lineNum">     704 </span>            : 
+<span class="lineNum">     705 </span>            : class Q_WIDGETS_EXPORT QStyleHintReturnMask : public QStyleHintReturn {
+<span class="lineNum">     706 </span>            : public:
+<span class="lineNum">     707 </span>            :     enum StyleOptionType { Type = SH_Mask };
+<span class="lineNum">     708 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     709 </span>            : 
+<span class="lineNum">     710 </span>            :     QStyleHintReturnMask();
+<span class="lineNum">     711 </span>            :     ~QStyleHintReturnMask();
+<span class="lineNum">     712 </span>            : 
+<span class="lineNum">     713 </span>            :     QRegion region;
+<span class="lineNum">     714 </span>            : };
+<span class="lineNum">     715 </span>            : 
+<span class="lineNum">     716 </span>            : class Q_WIDGETS_EXPORT QStyleHintReturnVariant : public QStyleHintReturn {
+<span class="lineNum">     717 </span>            : public:
+<span class="lineNum">     718 </span>            :     enum StyleOptionType { Type = SH_Variant };
+<span class="lineNum">     719 </span>            :     enum StyleOptionVersion { Version = 1 };
+<span class="lineNum">     720 </span>            : 
+<span class="lineNum">     721 </span>            :     QStyleHintReturnVariant();
+<span class="lineNum">     722 </span>            :     ~QStyleHintReturnVariant();
+<span class="lineNum">     723 </span>            : 
+<span class="lineNum">     724 </span>            :     QVariant variant;
+<span class="lineNum">     725 </span>            : };
+<span class="lineNum">     726 </span>            : 
+<span class="lineNum">     727 </span>            : template &lt;typename T&gt;
+<span class="lineNum">     728 </span>            : T qstyleoption_cast(const QStyleHintReturn *hint)
+<span class="lineNum">     729 </span>            : {
+<span class="lineNum">     730 </span>            :     if (hint &amp;&amp; hint-&gt;version &lt;= static_cast&lt;T&gt;(0)-&gt;Version &amp;&amp;
+<span class="lineNum">     731 </span>            :         (hint-&gt;type == static_cast&lt;T&gt;(0)-&gt;Type || int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleHintReturn::SH_Default))
+<span class="lineNum">     732 </span>            :         return static_cast&lt;T&gt;(hint);
+<span class="lineNum">     733 </span>            :     return 0;
+<span class="lineNum">     734 </span>            : }
+<span class="lineNum">     735 </span>            : 
+<span class="lineNum">     736 </span>            : template &lt;typename T&gt;
+<span class="lineNum">     737 </span>            : T qstyleoption_cast(QStyleHintReturn *hint)
+<span class="lineNum">     738 </span>            : {
+<span class="lineNum">     739 </span>            :     if (hint &amp;&amp; hint-&gt;version &lt;= static_cast&lt;T&gt;(0)-&gt;Version &amp;&amp;
+<span class="lineNum">     740 </span>            :         (hint-&gt;type == static_cast&lt;T&gt;(0)-&gt;Type || int(static_cast&lt;T&gt;(0)-&gt;Type) == QStyleHintReturn::SH_Default))
+<span class="lineNum">     741 </span>            :         return static_cast&lt;T&gt;(hint);
+<span class="lineNum">     742 </span>            :     return 0;
+<span class="lineNum">     743 </span>            : }
+<span class="lineNum">     744 </span>            : 
+<span class="lineNum">     745 </span>            : #if !defined(QT_NO_DEBUG_STREAM)
+<span class="lineNum">     746 </span>            : Q_WIDGETS_EXPORT QDebug operator&lt;&lt;(QDebug debug, const QStyleOption::OptionType &amp;optionType);
+<span class="lineNum">     747 </span>            : Q_WIDGETS_EXPORT QDebug operator&lt;&lt;(QDebug debug, const QStyleOption &amp;option);
+<span class="lineNum">     748 </span>            : #endif
+<span class="lineNum">     749 </span>            : 
+<span class="lineNum">     750 </span>            : QT_END_NAMESPACE
+<span class="lineNum">     751 </span>            : 
+<span class="lineNum">     752 </span>            : #endif // QSTYLEOPTION_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

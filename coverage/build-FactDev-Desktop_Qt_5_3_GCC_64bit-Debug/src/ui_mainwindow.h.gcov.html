@@ -1,0 +1,666 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src/ui_mainwindow.h</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src</a> - ui_mainwindow.h<span style="font-size: 80%;"> (source / <a href="ui_mainwindow.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">392</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">164</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /********************************************************************************</a>
+<span class="lineNum">       2 </span>            : ** Form generated from reading UI file 'mainwindow.ui'
+<span class="lineNum">       3 </span>            : **
+<span class="lineNum">       4 </span>            : ** Created by: Qt User Interface Compiler version 5.3.1
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** WARNING! All changes made in this file will be lost when recompiling UI file!
+<span class="lineNum">       7 </span>            : ********************************************************************************/
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #ifndef UI_MAINWINDOW_H
+<span class="lineNum">      10 </span>            : #define UI_MAINWINDOW_H
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : #include &lt;QtCore/QVariant&gt;
+<span class="lineNum">      13 </span>            : #include &lt;QtWidgets/QAction&gt;
+<span class="lineNum">      14 </span>            : #include &lt;QtWidgets/QApplication&gt;
+<span class="lineNum">      15 </span>            : #include &lt;QtWidgets/QButtonGroup&gt;
+<span class="lineNum">      16 </span>            : #include &lt;QtWidgets/QCheckBox&gt;
+<span class="lineNum">      17 </span>            : #include &lt;QtWidgets/QDockWidget&gt;
+<span class="lineNum">      18 </span>            : #include &lt;QtWidgets/QGridLayout&gt;
+<span class="lineNum">      19 </span>            : #include &lt;QtWidgets/QGroupBox&gt;
+<span class="lineNum">      20 </span>            : #include &lt;QtWidgets/QHBoxLayout&gt;
+<span class="lineNum">      21 </span>            : #include &lt;QtWidgets/QHeaderView&gt;
+<span class="lineNum">      22 </span>            : #include &lt;QtWidgets/QLabel&gt;
+<span class="lineNum">      23 </span>            : #include &lt;QtWidgets/QLineEdit&gt;
+<span class="lineNum">      24 </span>            : #include &lt;QtWidgets/QMainWindow&gt;
+<span class="lineNum">      25 </span>            : #include &lt;QtWidgets/QMenu&gt;
+<span class="lineNum">      26 </span>            : #include &lt;QtWidgets/QMenuBar&gt;
+<span class="lineNum">      27 </span>            : #include &lt;QtWidgets/QPushButton&gt;
+<span class="lineNum">      28 </span>            : #include &lt;QtWidgets/QSpacerItem&gt;
+<span class="lineNum">      29 </span>            : #include &lt;QtWidgets/QStackedWidget&gt;
+<span class="lineNum">      30 </span>            : #include &lt;QtWidgets/QStatusBar&gt;
+<span class="lineNum">      31 </span>            : #include &lt;QtWidgets/QTableView&gt;
+<span class="lineNum">      32 </span>            : #include &lt;QtWidgets/QToolBar&gt;
+<span class="lineNum">      33 </span>            : #include &lt;QtWidgets/QTreeView&gt;
+<span class="lineNum">      34 </span>            : #include &lt;QtWidgets/QWidget&gt;
+<span class="lineNum">      35 </span>            : #include &quot;gui/widgets/customerdatawidget.h&quot;
+<span class="lineNum">      36 </span>            : #include &quot;gui/widgets/projectswidget.h&quot;
+<span class="lineNum">      37 </span>            : 
+<span class="lineNum">      38 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      39 </span>            : 
+<span class="lineNum">      40 </span>            : class Ui_MainWindow
+<span class="lineNum">      41 </span>            : {
+<span class="lineNum">      42 </span>            : public:
+<span class="lineNum">      43 </span>            :     QAction *btnAddProject;
+<span class="lineNum">      44 </span>            :     QAction *actSettings;
+<span class="lineNum">      45 </span>            :     QAction *actClose;
+<span class="lineNum">      46 </span>            :     QAction *actNew;
+<span class="lineNum">      47 </span>            :     QAction *actResearch;
+<span class="lineNum">      48 </span>            :     QAction *actionNewBill;
+<span class="lineNum">      49 </span>            :     QAction *actionNewQuote;
+<span class="lineNum">      50 </span>            :     QAction *actionPrint;
+<span class="lineNum">      51 </span>            :     QAction *actQt;
+<span class="lineNum">      52 </span>            :     QAction *actFact;
+<span class="lineNum">      53 </span>            :     QAction *actFactDev;
+<span class="lineNum">      54 </span>            :     QAction *actIcons;
+<span class="lineNum">      55 </span>            :     QWidget *centralWidget;
+<span class="lineNum">      56 </span>            :     QGridLayout *gridLayout_2;
+<span class="lineNum">      57 </span>            :     QStackedWidget *stackedWidget;
+<span class="lineNum">      58 </span>            :     QWidget *page;
+<span class="lineNum">      59 </span>            :     QGridLayout *gridLayout_3;
+<span class="lineNum">      60 </span>            :     QGridLayout *gridLayout_12;
+<span class="lineNum">      61 </span>            :     QPushButton *btnDelCustomer;
+<span class="lineNum">      62 </span>            :     QSpacerItem *horizontalSpacer;
+<span class="lineNum">      63 </span>            :     QPushButton *btnAddCustomer;
+<span class="lineNum">      64 </span>            :     QPushButton *btnEdit;
+<span class="lineNum">      65 </span>            :     QPushButton *btnNewProject;
+<span class="lineNum">      66 </span>            :     QTableView *tblCustomers;
+<span class="lineNum">      67 </span>            :     QWidget *page_2;
+<span class="lineNum">      68 </span>            :     QGridLayout *gridLayout_11;
+<span class="lineNum">      69 </span>            :     QPushButton *btnBackToCustomers;
+<span class="lineNum">      70 </span>            :     QTableView *tblProjects;
+<span class="lineNum">      71 </span>            :     QHBoxLayout *horizontalLayout;
+<span class="lineNum">      72 </span>            :     QSpacerItem *horizontalSpacer_4;
+<span class="lineNum">      73 </span>            :     Gui::Widgets::ProjectsWidget *widget;
+<span class="lineNum">      74 </span>            :     QLabel *lblProjects;
+<span class="lineNum">      75 </span>            :     QSpacerItem *horizontalSpacer_2;
+<span class="lineNum">      76 </span>            :     QWidget *page_3;
+<span class="lineNum">      77 </span>            :     QGridLayout *gridLayout_10;
+<span class="lineNum">      78 </span>            :     QGridLayout *gridLayout_8;
+<span class="lineNum">      79 </span>            :     QTableView *tblQuotes;
+<span class="lineNum">      80 </span>            :     QGridLayout *gridLayout_9;
+<span class="lineNum">      81 </span>            :     QPushButton *btnBackCustomersProject;
+<span class="lineNum">      82 </span>            :     QLabel *lblQuotes;
+<span class="lineNum">      83 </span>            :     QPushButton *btnBackToProjects;
+<span class="lineNum">      84 </span>            :     QSpacerItem *horizontalSpacer_3;
+<span class="lineNum">      85 </span>            :     QMenuBar *menuBar;
+<span class="lineNum">      86 </span>            :     QMenu *menuFichier;
+<span class="lineNum">      87 </span>            :     QMenu *menuClient;
+<span class="lineNum">      88 </span>            :     QMenu *menuA_propos;
+<span class="lineNum">      89 </span>            :     QToolBar *mainToolBar;
+<span class="lineNum">      90 </span>            :     QStatusBar *statusBar;
+<span class="lineNum">      91 </span>            :     QDockWidget *dockWidget;
+<span class="lineNum">      92 </span>            :     QWidget *dockWidgetContents;
+<span class="lineNum">      93 </span>            :     QGridLayout *gridLayout;
+<span class="lineNum">      94 </span>            :     QLineEdit *leSearch;
+<span class="lineNum">      95 </span>            :     QGroupBox *gpbxSearchFilter;
+<span class="lineNum">      96 </span>            :     QGridLayout *gridLayout_6;
+<span class="lineNum">      97 </span>            :     QCheckBox *chkSearchCompany;
+<span class="lineNum">      98 </span>            :     QCheckBox *chkReferentName;
+<span class="lineNum">      99 </span>            :     QDockWidget *dockWidget_2;
+<span class="lineNum">     100 </span>            :     QWidget *dockWidgetContents_2;
+<span class="lineNum">     101 </span>            :     QGridLayout *gridLayout_5;
+<span class="lineNum">     102 </span>            :     Gui::Widgets::CustomerDataWidget *wdgCustomerData;
+<span class="lineNum">     103 </span>            :     QSpacerItem *verticalSpacer;
+<span class="lineNum">     104 </span>            :     QDockWidget *dockWidget_3;
+<span class="lineNum">     105 </span>            :     QWidget *dockWidgetContents_3;
+<span class="lineNum">     106 </span>            :     QGridLayout *gridLayout_4;
+<span class="lineNum">     107 </span>            :     QTreeView *trCustomers;
+<span class="lineNum">     108 </span>            :     QDockWidget *dockWidget_4;
+<span class="lineNum">     109 </span>            :     QWidget *dockWidgetContents_4;
+<span class="lineNum">     110 </span>            :     QGridLayout *gridLayout_7;
+<span class="lineNum">     111 </span>            :     Gui::Widgets::CustomerDataWidget *wdgUserData;
+<a name="112"><span class="lineNum">     112 </span>            :     QSpacerItem *verticalSpacer_2;</a>
+<span class="lineNum">     113 </span>            : 
+<span class="lineNum">     114 </span><span class="lineNoCov">          0 :     void setupUi(QMainWindow *MainWindow)</span>
+<a name="115"><span class="lineNum">     115 </span>            :     {</a>
+<span class="lineNum">     116 </span><span class="lineNoCov">          0 :         if (MainWindow-&gt;objectName().isEmpty())</span>
+<span class="lineNum">     117 </span><span class="lineNoCov">          0 :             MainWindow-&gt;setObjectName(QStringLiteral(&quot;MainWindow&quot;));</span>
+<a name="118"><span class="lineNum">     118 </span><span class="lineNoCov">          0 :         MainWindow-&gt;resize(1237, 591);</span></a>
+<span class="lineNum">     119 </span><span class="lineNoCov">          0 :         QIcon icon;</span>
+<span class="lineNum">     120 </span><span class="lineNoCov">          0 :         icon.addFile(QStringLiteral(&quot;:/icons/FactDev&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="121"><span class="lineNum">     121 </span><span class="lineNoCov">          0 :         MainWindow-&gt;setWindowIcon(icon);</span></a>
+<span class="lineNum">     122 </span><span class="lineNoCov">          0 :         btnAddProject = new QAction(MainWindow);</span>
+<a name="123"><span class="lineNum">     123 </span><span class="lineNoCov">          0 :         btnAddProject-&gt;setObjectName(QStringLiteral(&quot;btnAddProject&quot;));</span></a>
+<span class="lineNum">     124 </span><span class="lineNoCov">          0 :         QIcon icon1;</span>
+<span class="lineNum">     125 </span><span class="lineNoCov">          0 :         icon1.addFile(QStringLiteral(&quot;:/icons/img/add_project.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="126"><span class="lineNum">     126 </span><span class="lineNoCov">          0 :         btnAddProject-&gt;setIcon(icon1);</span></a>
+<span class="lineNum">     127 </span><span class="lineNoCov">          0 :         actSettings = new QAction(MainWindow);</span>
+<a name="128"><span class="lineNum">     128 </span><span class="lineNoCov">          0 :         actSettings-&gt;setObjectName(QStringLiteral(&quot;actSettings&quot;));</span></a>
+<span class="lineNum">     129 </span><span class="lineNoCov">          0 :         QIcon icon2;</span>
+<span class="lineNum">     130 </span><span class="lineNoCov">          0 :         icon2.addFile(QStringLiteral(&quot;:/icons/img/settings.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="131"><span class="lineNum">     131 </span><span class="lineNoCov">          0 :         actSettings-&gt;setIcon(icon2);</span></a>
+<span class="lineNum">     132 </span><span class="lineNoCov">          0 :         actClose = new QAction(MainWindow);</span>
+<a name="133"><span class="lineNum">     133 </span><span class="lineNoCov">          0 :         actClose-&gt;setObjectName(QStringLiteral(&quot;actClose&quot;));</span></a>
+<span class="lineNum">     134 </span><span class="lineNoCov">          0 :         QIcon icon3;</span>
+<span class="lineNum">     135 </span><span class="lineNoCov">          0 :         icon3.addFile(QStringLiteral(&quot;:/icons/img/cancel.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="136"><span class="lineNum">     136 </span><span class="lineNoCov">          0 :         actClose-&gt;setIcon(icon3);</span></a>
+<span class="lineNum">     137 </span><span class="lineNoCov">          0 :         actNew = new QAction(MainWindow);</span>
+<a name="138"><span class="lineNum">     138 </span><span class="lineNoCov">          0 :         actNew-&gt;setObjectName(QStringLiteral(&quot;actNew&quot;));</span></a>
+<span class="lineNum">     139 </span><span class="lineNoCov">          0 :         QIcon icon4;</span>
+<span class="lineNum">     140 </span><span class="lineNoCov">          0 :         icon4.addFile(QStringLiteral(&quot;:/icons/addCustomer&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="141"><span class="lineNum">     141 </span><span class="lineNoCov">          0 :         actNew-&gt;setIcon(icon4);</span></a>
+<span class="lineNum">     142 </span><span class="lineNoCov">          0 :         actResearch = new QAction(MainWindow);</span>
+<a name="143"><span class="lineNum">     143 </span><span class="lineNoCov">          0 :         actResearch-&gt;setObjectName(QStringLiteral(&quot;actResearch&quot;));</span></a>
+<span class="lineNum">     144 </span><span class="lineNoCov">          0 :         QIcon icon5;</span>
+<span class="lineNum">     145 </span><span class="lineNoCov">          0 :         icon5.addFile(QStringLiteral(&quot;:/icons/img/search.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="146"><span class="lineNum">     146 </span><span class="lineNoCov">          0 :         actResearch-&gt;setIcon(icon5);</span></a>
+<span class="lineNum">     147 </span><span class="lineNoCov">          0 :         actionNewBill = new QAction(MainWindow);</span>
+<span class="lineNum">     148 </span><span class="lineNoCov">          0 :         actionNewBill-&gt;setObjectName(QStringLiteral(&quot;actionNewBill&quot;));</span>
+<a name="149"><span class="lineNum">     149 </span><span class="lineNoCov">          0 :         actionNewBill-&gt;setEnabled(false);</span></a>
+<span class="lineNum">     150 </span><span class="lineNoCov">          0 :         QIcon icon6;</span>
+<span class="lineNum">     151 </span><span class="lineNoCov">          0 :         icon6.addFile(QStringLiteral(&quot;:/icons/img/add_bill.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="152"><span class="lineNum">     152 </span><span class="lineNoCov">          0 :         actionNewBill-&gt;setIcon(icon6);</span></a>
+<span class="lineNum">     153 </span><span class="lineNoCov">          0 :         actionNewQuote = new QAction(MainWindow);</span>
+<span class="lineNum">     154 </span><span class="lineNoCov">          0 :         actionNewQuote-&gt;setObjectName(QStringLiteral(&quot;actionNewQuote&quot;));</span>
+<a name="155"><span class="lineNum">     155 </span><span class="lineNoCov">          0 :         actionNewQuote-&gt;setEnabled(false);</span></a>
+<span class="lineNum">     156 </span><span class="lineNoCov">          0 :         QIcon icon7;</span>
+<span class="lineNum">     157 </span><span class="lineNoCov">          0 :         icon7.addFile(QStringLiteral(&quot;:/icons/img/add_quote.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="158"><span class="lineNum">     158 </span><span class="lineNoCov">          0 :         actionNewQuote-&gt;setIcon(icon7);</span></a>
+<span class="lineNum">     159 </span><span class="lineNoCov">          0 :         actionPrint = new QAction(MainWindow);</span>
+<a name="160"><span class="lineNum">     160 </span><span class="lineNoCov">          0 :         actionPrint-&gt;setObjectName(QStringLiteral(&quot;actionPrint&quot;));</span></a>
+<span class="lineNum">     161 </span><span class="lineNoCov">          0 :         QIcon icon8;</span>
+<span class="lineNum">     162 </span><span class="lineNoCov">          0 :         icon8.addFile(QStringLiteral(&quot;:/icons/img/customer.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="163"><span class="lineNum">     163 </span><span class="lineNoCov">          0 :         actionPrint-&gt;setIcon(icon8);</span></a>
+<span class="lineNum">     164 </span><span class="lineNoCov">          0 :         actQt = new QAction(MainWindow);</span>
+<a name="165"><span class="lineNum">     165 </span><span class="lineNoCov">          0 :         actQt-&gt;setObjectName(QStringLiteral(&quot;actQt&quot;));</span></a>
+<span class="lineNum">     166 </span><span class="lineNoCov">          0 :         actFact = new QAction(MainWindow);</span>
+<a name="167"><span class="lineNum">     167 </span><span class="lineNoCov">          0 :         actFact-&gt;setObjectName(QStringLiteral(&quot;actFact&quot;));</span></a>
+<span class="lineNum">     168 </span><span class="lineNoCov">          0 :         QIcon icon9;</span>
+<span class="lineNum">     169 </span><span class="lineNoCov">          0 :         icon9.addFile(QStringLiteral(&quot;:/icons/Fact_square&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="170"><span class="lineNum">     170 </span><span class="lineNoCov">          0 :         actFact-&gt;setIcon(icon9);</span></a>
+<span class="lineNum">     171 </span><span class="lineNoCov">          0 :         actFactDev = new QAction(MainWindow);</span>
+<span class="lineNum">     172 </span><span class="lineNoCov">          0 :         actFactDev-&gt;setObjectName(QStringLiteral(&quot;actFactDev&quot;));</span>
+<a name="173"><span class="lineNum">     173 </span><span class="lineNoCov">          0 :         actFactDev-&gt;setIcon(icon);</span></a>
+<span class="lineNum">     174 </span><span class="lineNoCov">          0 :         actIcons = new QAction(MainWindow);</span>
+<a name="175"><span class="lineNum">     175 </span><span class="lineNoCov">          0 :         actIcons-&gt;setObjectName(QStringLiteral(&quot;actIcons&quot;));</span></a>
+<span class="lineNum">     176 </span><span class="lineNoCov">          0 :         QIcon icon10;</span>
+<span class="lineNum">     177 </span><span class="lineNoCov">          0 :         icon10.addFile(QStringLiteral(&quot;:/icons/img/information.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="178"><span class="lineNum">     178 </span><span class="lineNoCov">          0 :         actIcons-&gt;setIcon(icon10);</span></a>
+<span class="lineNum">     179 </span><span class="lineNoCov">          0 :         centralWidget = new QWidget(MainWindow);</span>
+<span class="lineNum">     180 </span><span class="lineNoCov">          0 :         centralWidget-&gt;setObjectName(QStringLiteral(&quot;centralWidget&quot;));</span>
+<span class="lineNum">     181 </span><span class="lineNoCov">          0 :         gridLayout_2 = new QGridLayout(centralWidget);</span>
+<a name="182"><span class="lineNum">     182 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     183 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="184"><span class="lineNum">     184 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;setObjectName(QStringLiteral(&quot;gridLayout_2&quot;));</span></a>
+<span class="lineNum">     185 </span><span class="lineNoCov">          0 :         stackedWidget = new QStackedWidget(centralWidget);</span>
+<a name="186"><span class="lineNum">     186 </span><span class="lineNoCov">          0 :         stackedWidget-&gt;setObjectName(QStringLiteral(&quot;stackedWidget&quot;));</span></a>
+<span class="lineNum">     187 </span><span class="lineNoCov">          0 :         page = new QWidget();</span>
+<span class="lineNum">     188 </span><span class="lineNoCov">          0 :         page-&gt;setObjectName(QStringLiteral(&quot;page&quot;));</span>
+<span class="lineNum">     189 </span><span class="lineNoCov">          0 :         gridLayout_3 = new QGridLayout(page);</span>
+<a name="190"><span class="lineNum">     190 </span><span class="lineNoCov">          0 :         gridLayout_3-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     191 </span><span class="lineNoCov">          0 :         gridLayout_3-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<span class="lineNum">     192 </span><span class="lineNoCov">          0 :         gridLayout_3-&gt;setObjectName(QStringLiteral(&quot;gridLayout_3&quot;));</span>
+<a name="193"><span class="lineNum">     193 </span><span class="lineNoCov">          0 :         gridLayout_12 = new QGridLayout();</span></a>
+<span class="lineNum">     194 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;setSpacing(6);</span>
+<span class="lineNum">     195 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;setObjectName(QStringLiteral(&quot;gridLayout_12&quot;));</span>
+<a name="196"><span class="lineNum">     196 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;setContentsMargins(-1, -1, -1, 0);</span></a>
+<span class="lineNum">     197 </span><span class="lineNoCov">          0 :         btnDelCustomer = new QPushButton(page);</span>
+<span class="lineNum">     198 </span><span class="lineNoCov">          0 :         btnDelCustomer-&gt;setObjectName(QStringLiteral(&quot;btnDelCustomer&quot;));</span>
+<a name="199"><span class="lineNum">     199 </span><span class="lineNoCov">          0 :         btnDelCustomer-&gt;setEnabled(false);</span></a>
+<span class="lineNum">     200 </span><span class="lineNoCov">          0 :         QIcon icon11;</span>
+<span class="lineNum">     201 </span><span class="lineNoCov">          0 :         icon11.addFile(QStringLiteral(&quot;:/icons/img/256/remove_user.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     202 </span><span class="lineNoCov">          0 :         btnDelCustomer-&gt;setIcon(icon11);</span>
+<span class="lineNum">     203 </span>            : 
+<span class="lineNum">     204 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addWidget(btnDelCustomer, 1, 3, 1, 1);</span>
+<span class="lineNum">     205 </span>            : 
+<span class="lineNum">     206 </span><span class="lineNoCov">          0 :         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">     207 </span>            : 
+<span class="lineNum">     208 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addItem(horizontalSpacer, 1, 0, 1, 1);</span>
+<a name="209"><span class="lineNum">     209 </span>            : </a>
+<span class="lineNum">     210 </span><span class="lineNoCov">          0 :         btnAddCustomer = new QPushButton(page);</span>
+<span class="lineNum">     211 </span><span class="lineNoCov">          0 :         btnAddCustomer-&gt;setObjectName(QStringLiteral(&quot;btnAddCustomer&quot;));</span>
+<span class="lineNum">     212 </span><span class="lineNoCov">          0 :         btnAddCustomer-&gt;setIcon(icon4);</span>
+<span class="lineNum">     213 </span>            : 
+<span class="lineNum">     214 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addWidget(btnAddCustomer, 1, 1, 1, 1);</span>
+<a name="215"><span class="lineNum">     215 </span>            : </a>
+<span class="lineNum">     216 </span><span class="lineNoCov">          0 :         btnEdit = new QPushButton(page);</span>
+<span class="lineNum">     217 </span><span class="lineNoCov">          0 :         btnEdit-&gt;setObjectName(QStringLiteral(&quot;btnEdit&quot;));</span>
+<a name="218"><span class="lineNum">     218 </span><span class="lineNoCov">          0 :         btnEdit-&gt;setEnabled(false);</span></a>
+<span class="lineNum">     219 </span><span class="lineNoCov">          0 :         QIcon icon12;</span>
+<span class="lineNum">     220 </span><span class="lineNoCov">          0 :         icon12.addFile(QStringLiteral(&quot;:/icons/edit&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     221 </span><span class="lineNoCov">          0 :         btnEdit-&gt;setIcon(icon12);</span>
+<span class="lineNum">     222 </span>            : 
+<span class="lineNum">     223 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addWidget(btnEdit, 1, 4, 1, 1);</span>
+<a name="224"><span class="lineNum">     224 </span>            : </a>
+<span class="lineNum">     225 </span><span class="lineNoCov">          0 :         btnNewProject = new QPushButton(page);</span>
+<span class="lineNum">     226 </span><span class="lineNoCov">          0 :         btnNewProject-&gt;setObjectName(QStringLiteral(&quot;btnNewProject&quot;));</span>
+<span class="lineNum">     227 </span><span class="lineNoCov">          0 :         btnNewProject-&gt;setIcon(icon1);</span>
+<span class="lineNum">     228 </span>            : 
+<span class="lineNum">     229 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addWidget(btnNewProject, 1, 2, 1, 1);</span>
+<a name="230"><span class="lineNum">     230 </span>            : </a>
+<span class="lineNum">     231 </span><span class="lineNoCov">          0 :         tblCustomers = new QTableView(page);</span>
+<span class="lineNum">     232 </span><span class="lineNoCov">          0 :         tblCustomers-&gt;setObjectName(QStringLiteral(&quot;tblCustomers&quot;));</span>
+<span class="lineNum">     233 </span><span class="lineNoCov">          0 :         tblCustomers-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</span>
+<span class="lineNum">     234 </span><span class="lineNoCov">          0 :         tblCustomers-&gt;setSelectionMode(QAbstractItemView::SingleSelection);</span>
+<span class="lineNum">     235 </span><span class="lineNoCov">          0 :         tblCustomers-&gt;setSelectionBehavior(QAbstractItemView::SelectRows);</span>
+<span class="lineNum">     236 </span>            : 
+<span class="lineNum">     237 </span><span class="lineNoCov">          0 :         gridLayout_12-&gt;addWidget(tblCustomers, 0, 0, 1, 6);</span>
+<span class="lineNum">     238 </span>            : 
+<span class="lineNum">     239 </span>            : 
+<span class="lineNum">     240 </span><span class="lineNoCov">          0 :         gridLayout_3-&gt;addLayout(gridLayout_12, 1, 0, 1, 1);</span>
+<span class="lineNum">     241 </span>            : 
+<a name="242"><span class="lineNum">     242 </span><span class="lineNoCov">          0 :         stackedWidget-&gt;addWidget(page);</span></a>
+<span class="lineNum">     243 </span><span class="lineNoCov">          0 :         page_2 = new QWidget();</span>
+<span class="lineNum">     244 </span><span class="lineNoCov">          0 :         page_2-&gt;setObjectName(QStringLiteral(&quot;page_2&quot;));</span>
+<span class="lineNum">     245 </span><span class="lineNoCov">          0 :         gridLayout_11 = new QGridLayout(page_2);</span>
+<a name="246"><span class="lineNum">     246 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     247 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="248"><span class="lineNum">     248 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;setObjectName(QStringLiteral(&quot;gridLayout_11&quot;));</span></a>
+<span class="lineNum">     249 </span><span class="lineNoCov">          0 :         btnBackToCustomers = new QPushButton(page_2);</span>
+<a name="250"><span class="lineNum">     250 </span><span class="lineNoCov">          0 :         btnBackToCustomers-&gt;setObjectName(QStringLiteral(&quot;btnBackToCustomers&quot;));</span></a>
+<span class="lineNum">     251 </span><span class="lineNoCov">          0 :         QIcon icon13;</span>
+<span class="lineNum">     252 </span><span class="lineNoCov">          0 :         icon13.addFile(QStringLiteral(&quot;:/icons/img/customer24.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     253 </span><span class="lineNoCov">          0 :         btnBackToCustomers-&gt;setIcon(icon13);</span>
+<span class="lineNum">     254 </span>            : 
+<span class="lineNum">     255 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;addWidget(btnBackToCustomers, 1, 0, 1, 1);</span>
+<a name="256"><span class="lineNum">     256 </span>            : </a>
+<span class="lineNum">     257 </span><span class="lineNoCov">          0 :         tblProjects = new QTableView(page_2);</span>
+<span class="lineNum">     258 </span><span class="lineNoCov">          0 :         tblProjects-&gt;setObjectName(QStringLiteral(&quot;tblProjects&quot;));</span>
+<span class="lineNum">     259 </span><span class="lineNoCov">          0 :         tblProjects-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</span>
+<span class="lineNum">     260 </span><span class="lineNoCov">          0 :         tblProjects-&gt;setSelectionBehavior(QAbstractItemView::SelectRows);</span>
+<span class="lineNum">     261 </span>            : 
+<span class="lineNum">     262 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;addWidget(tblProjects, 2, 0, 1, 3);</span>
+<span class="lineNum">     263 </span>            : 
+<a name="264"><span class="lineNum">     264 </span><span class="lineNoCov">          0 :         horizontalLayout = new QHBoxLayout();</span></a>
+<span class="lineNum">     265 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;setSpacing(6);</span>
+<span class="lineNum">     266 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;setObjectName(QStringLiteral(&quot;horizontalLayout&quot;));</span>
+<span class="lineNum">     267 </span><span class="lineNoCov">          0 :         horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">     268 </span>            : 
+<span class="lineNum">     269 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addItem(horizontalSpacer_4);</span>
+<a name="270"><span class="lineNum">     270 </span>            : </a>
+<span class="lineNum">     271 </span><span class="lineNoCov">          0 :         widget = new Gui::Widgets::ProjectsWidget(page_2);</span>
+<span class="lineNum">     272 </span><span class="lineNoCov">          0 :         widget-&gt;setObjectName(QStringLiteral(&quot;widget&quot;));</span>
+<span class="lineNum">     273 </span><span class="lineNoCov">          0 :         widget-&gt;setMinimumSize(QSize(200, 24));</span>
+<span class="lineNum">     274 </span>            : 
+<span class="lineNum">     275 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addWidget(widget);</span>
+<span class="lineNum">     276 </span>            : 
+<span class="lineNum">     277 </span>            : 
+<span class="lineNum">     278 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;addLayout(horizontalLayout, 3, 0, 1, 3);</span>
+<a name="279"><span class="lineNum">     279 </span>            : </a>
+<span class="lineNum">     280 </span><span class="lineNoCov">          0 :         lblProjects = new QLabel(page_2);</span>
+<span class="lineNum">     281 </span><span class="lineNoCov">          0 :         lblProjects-&gt;setObjectName(QStringLiteral(&quot;lblProjects&quot;));</span>
+<span class="lineNum">     282 </span><span class="lineNoCov">          0 :         lblProjects-&gt;setMaximumSize(QSize(300, 16777215));</span>
+<span class="lineNum">     283 </span>            : 
+<span class="lineNum">     284 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;addWidget(lblProjects, 1, 2, 1, 1);</span>
+<span class="lineNum">     285 </span>            : 
+<span class="lineNum">     286 </span><span class="lineNoCov">          0 :         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">     287 </span>            : 
+<span class="lineNum">     288 </span><span class="lineNoCov">          0 :         gridLayout_11-&gt;addItem(horizontalSpacer_2, 1, 1, 1, 1);</span>
+<span class="lineNum">     289 </span>            : 
+<a name="290"><span class="lineNum">     290 </span><span class="lineNoCov">          0 :         stackedWidget-&gt;addWidget(page_2);</span></a>
+<span class="lineNum">     291 </span><span class="lineNoCov">          0 :         page_3 = new QWidget();</span>
+<span class="lineNum">     292 </span><span class="lineNoCov">          0 :         page_3-&gt;setObjectName(QStringLiteral(&quot;page_3&quot;));</span>
+<span class="lineNum">     293 </span><span class="lineNoCov">          0 :         gridLayout_10 = new QGridLayout(page_3);</span>
+<a name="294"><span class="lineNum">     294 </span><span class="lineNoCov">          0 :         gridLayout_10-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     295 </span><span class="lineNoCov">          0 :         gridLayout_10-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<span class="lineNum">     296 </span><span class="lineNoCov">          0 :         gridLayout_10-&gt;setObjectName(QStringLiteral(&quot;gridLayout_10&quot;));</span>
+<a name="297"><span class="lineNum">     297 </span><span class="lineNoCov">          0 :         gridLayout_8 = new QGridLayout();</span></a>
+<span class="lineNum">     298 </span><span class="lineNoCov">          0 :         gridLayout_8-&gt;setSpacing(6);</span>
+<a name="299"><span class="lineNum">     299 </span><span class="lineNoCov">          0 :         gridLayout_8-&gt;setObjectName(QStringLiteral(&quot;gridLayout_8&quot;));</span></a>
+<span class="lineNum">     300 </span><span class="lineNoCov">          0 :         tblQuotes = new QTableView(page_3);</span>
+<span class="lineNum">     301 </span><span class="lineNoCov">          0 :         tblQuotes-&gt;setObjectName(QStringLiteral(&quot;tblQuotes&quot;));</span>
+<span class="lineNum">     302 </span><span class="lineNoCov">          0 :         tblQuotes-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</span>
+<span class="lineNum">     303 </span><span class="lineNoCov">          0 :         tblQuotes-&gt;setSelectionMode(QAbstractItemView::SingleSelection);</span>
+<span class="lineNum">     304 </span><span class="lineNoCov">          0 :         tblQuotes-&gt;setSelectionBehavior(QAbstractItemView::SelectRows);</span>
+<span class="lineNum">     305 </span>            : 
+<span class="lineNum">     306 </span><span class="lineNoCov">          0 :         gridLayout_8-&gt;addWidget(tblQuotes, 1, 0, 1, 1);</span>
+<span class="lineNum">     307 </span>            : 
+<a name="308"><span class="lineNum">     308 </span><span class="lineNoCov">          0 :         gridLayout_9 = new QGridLayout();</span></a>
+<span class="lineNum">     309 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;setSpacing(6);</span>
+<span class="lineNum">     310 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;setObjectName(QStringLiteral(&quot;gridLayout_9&quot;));</span>
+<a name="311"><span class="lineNum">     311 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;setContentsMargins(-1, -1, -1, 10);</span></a>
+<span class="lineNum">     312 </span><span class="lineNoCov">          0 :         btnBackCustomersProject = new QPushButton(page_3);</span>
+<a name="313"><span class="lineNum">     313 </span><span class="lineNoCov">          0 :         btnBackCustomersProject-&gt;setObjectName(QStringLiteral(&quot;btnBackCustomersProject&quot;));</span></a>
+<span class="lineNum">     314 </span><span class="lineNoCov">          0 :         QIcon icon14;</span>
+<span class="lineNum">     315 </span><span class="lineNoCov">          0 :         icon14.addFile(QStringLiteral(&quot;:/icons/customer&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     316 </span><span class="lineNoCov">          0 :         btnBackCustomersProject-&gt;setIcon(icon14);</span>
+<span class="lineNum">     317 </span>            : 
+<span class="lineNum">     318 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;addWidget(btnBackCustomersProject, 0, 0, 1, 1);</span>
+<a name="319"><span class="lineNum">     319 </span>            : </a>
+<span class="lineNum">     320 </span><span class="lineNoCov">          0 :         lblQuotes = new QLabel(page_3);</span>
+<span class="lineNum">     321 </span><span class="lineNoCov">          0 :         lblQuotes-&gt;setObjectName(QStringLiteral(&quot;lblQuotes&quot;));</span>
+<span class="lineNum">     322 </span><span class="lineNoCov">          0 :         lblQuotes-&gt;setMaximumSize(QSize(300, 16777215));</span>
+<span class="lineNum">     323 </span><span class="lineNoCov">          0 :         QFont font;</span>
+<span class="lineNum">     324 </span><span class="lineNoCov">          0 :         font.setPointSize(9);</span>
+<span class="lineNum">     325 </span><span class="lineNoCov">          0 :         font.setItalic(false);</span>
+<span class="lineNum">     326 </span><span class="lineNoCov">          0 :         lblQuotes-&gt;setFont(font);</span>
+<span class="lineNum">     327 </span>            : 
+<span class="lineNum">     328 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;addWidget(lblQuotes, 0, 3, 1, 1);</span>
+<a name="329"><span class="lineNum">     329 </span>            : </a>
+<span class="lineNum">     330 </span><span class="lineNoCov">          0 :         btnBackToProjects = new QPushButton(page_3);</span>
+<a name="331"><span class="lineNum">     331 </span><span class="lineNoCov">          0 :         btnBackToProjects-&gt;setObjectName(QStringLiteral(&quot;btnBackToProjects&quot;));</span></a>
+<span class="lineNum">     332 </span><span class="lineNoCov">          0 :         QIcon icon15;</span>
+<span class="lineNum">     333 </span><span class="lineNoCov">          0 :         icon15.addFile(QStringLiteral(&quot;:/icons/img/project.png&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<span class="lineNum">     334 </span><span class="lineNoCov">          0 :         btnBackToProjects-&gt;setIcon(icon15);</span>
+<span class="lineNum">     335 </span>            : 
+<span class="lineNum">     336 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;addWidget(btnBackToProjects, 0, 1, 1, 1);</span>
+<span class="lineNum">     337 </span>            : 
+<span class="lineNum">     338 </span><span class="lineNoCov">          0 :         horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">     339 </span>            : 
+<span class="lineNum">     340 </span><span class="lineNoCov">          0 :         gridLayout_9-&gt;addItem(horizontalSpacer_3, 0, 2, 1, 1);</span>
+<span class="lineNum">     341 </span>            : 
+<span class="lineNum">     342 </span>            : 
+<span class="lineNum">     343 </span><span class="lineNoCov">          0 :         gridLayout_8-&gt;addLayout(gridLayout_9, 0, 0, 1, 1);</span>
+<span class="lineNum">     344 </span>            : 
+<span class="lineNum">     345 </span>            : 
+<span class="lineNum">     346 </span><span class="lineNoCov">          0 :         gridLayout_10-&gt;addLayout(gridLayout_8, 0, 0, 1, 1);</span>
+<span class="lineNum">     347 </span>            : 
+<span class="lineNum">     348 </span><span class="lineNoCov">          0 :         stackedWidget-&gt;addWidget(page_3);</span>
+<span class="lineNum">     349 </span>            : 
+<span class="lineNum">     350 </span><span class="lineNoCov">          0 :         gridLayout_2-&gt;addWidget(stackedWidget, 0, 0, 1, 1);</span>
+<span class="lineNum">     351 </span>            : 
+<a name="352"><span class="lineNum">     352 </span><span class="lineNoCov">          0 :         MainWindow-&gt;setCentralWidget(centralWidget);</span></a>
+<span class="lineNum">     353 </span><span class="lineNoCov">          0 :         menuBar = new QMenuBar(MainWindow);</span>
+<span class="lineNum">     354 </span><span class="lineNoCov">          0 :         menuBar-&gt;setObjectName(QStringLiteral(&quot;menuBar&quot;));</span>
+<a name="355"><span class="lineNum">     355 </span><span class="lineNoCov">          0 :         menuBar-&gt;setGeometry(QRect(0, 0, 1237, 19));</span></a>
+<span class="lineNum">     356 </span><span class="lineNoCov">          0 :         menuFichier = new QMenu(menuBar);</span>
+<a name="357"><span class="lineNum">     357 </span><span class="lineNoCov">          0 :         menuFichier-&gt;setObjectName(QStringLiteral(&quot;menuFichier&quot;));</span></a>
+<span class="lineNum">     358 </span><span class="lineNoCov">          0 :         menuClient = new QMenu(menuBar);</span>
+<a name="359"><span class="lineNum">     359 </span><span class="lineNoCov">          0 :         menuClient-&gt;setObjectName(QStringLiteral(&quot;menuClient&quot;));</span></a>
+<span class="lineNum">     360 </span><span class="lineNoCov">          0 :         menuA_propos = new QMenu(menuBar);</span>
+<span class="lineNum">     361 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;setObjectName(QStringLiteral(&quot;menuA_propos&quot;));</span>
+<a name="362"><span class="lineNum">     362 </span><span class="lineNoCov">          0 :         MainWindow-&gt;setMenuBar(menuBar);</span></a>
+<span class="lineNum">     363 </span><span class="lineNoCov">          0 :         mainToolBar = new QToolBar(MainWindow);</span>
+<span class="lineNum">     364 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;setObjectName(QStringLiteral(&quot;mainToolBar&quot;));</span>
+<span class="lineNum">     365 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;setToolButtonStyle(Qt::ToolButtonTextUnderIcon);</span>
+<a name="366"><span class="lineNum">     366 </span><span class="lineNoCov">          0 :         MainWindow-&gt;addToolBar(Qt::TopToolBarArea, mainToolBar);</span></a>
+<span class="lineNum">     367 </span><span class="lineNoCov">          0 :         statusBar = new QStatusBar(MainWindow);</span>
+<span class="lineNum">     368 </span><span class="lineNoCov">          0 :         statusBar-&gt;setObjectName(QStringLiteral(&quot;statusBar&quot;));</span>
+<a name="369"><span class="lineNum">     369 </span><span class="lineNoCov">          0 :         MainWindow-&gt;setStatusBar(statusBar);</span></a>
+<span class="lineNum">     370 </span><span class="lineNoCov">          0 :         dockWidget = new QDockWidget(MainWindow);</span>
+<span class="lineNum">     371 </span><span class="lineNoCov">          0 :         dockWidget-&gt;setObjectName(QStringLiteral(&quot;dockWidget&quot;));</span>
+<span class="lineNum">     372 </span><span class="lineNoCov">          0 :         dockWidget-&gt;setMinimumSize(QSize(279, 161));</span>
+<a name="373"><span class="lineNum">     373 </span><span class="lineNoCov">          0 :         dockWidget-&gt;setMaximumSize(QSize(524287, 180));</span></a>
+<span class="lineNum">     374 </span><span class="lineNoCov">          0 :         dockWidgetContents = new QWidget();</span>
+<span class="lineNum">     375 </span><span class="lineNoCov">          0 :         dockWidgetContents-&gt;setObjectName(QStringLiteral(&quot;dockWidgetContents&quot;));</span>
+<span class="lineNum">     376 </span><span class="lineNoCov">          0 :         gridLayout = new QGridLayout(dockWidgetContents);</span>
+<a name="377"><span class="lineNum">     377 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     378 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="379"><span class="lineNum">     379 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setObjectName(QStringLiteral(&quot;gridLayout&quot;));</span></a>
+<span class="lineNum">     380 </span><span class="lineNoCov">          0 :         leSearch = new QLineEdit(dockWidgetContents);</span>
+<span class="lineNum">     381 </span><span class="lineNoCov">          0 :         leSearch-&gt;setObjectName(QStringLiteral(&quot;leSearch&quot;));</span>
+<span class="lineNum">     382 </span>            :         leSearch-&gt;setStyleSheet(QLatin1String(&quot;background: url(:/icons/searchMini);\n&quot;
+<span class="lineNum">     383 </span>            : &quot;background-position: right;\n&quot;
+<span class="lineNum">     384 </span>            : &quot;background-repeat: no-repeat;     \n&quot;
+<span class="lineNum">     385 </span>            : &quot;border-radius: 0px;\n&quot;
+<span class="lineNum">     386 </span>            : &quot;height: 23px;\n&quot;
+<span class="lineNum">     387 </span><span class="lineNoCov">          0 : &quot;border: 1px solid #bbb;&quot;));</span>
+<span class="lineNum">     388 </span><span class="lineNoCov">          0 :         leSearch-&gt;setClearButtonEnabled(true);</span>
+<span class="lineNum">     389 </span>            : 
+<span class="lineNum">     390 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(leSearch, 0, 0, 1, 1);</span>
+<a name="391"><span class="lineNum">     391 </span>            : </a>
+<span class="lineNum">     392 </span><span class="lineNoCov">          0 :         gpbxSearchFilter = new QGroupBox(dockWidgetContents);</span>
+<span class="lineNum">     393 </span><span class="lineNoCov">          0 :         gpbxSearchFilter-&gt;setObjectName(QStringLiteral(&quot;gpbxSearchFilter&quot;));</span>
+<span class="lineNum">     394 </span><span class="lineNoCov">          0 :         gpbxSearchFilter-&gt;setEnabled(true);</span>
+<span class="lineNum">     395 </span><span class="lineNoCov">          0 :         gpbxSearchFilter-&gt;setCheckable(true);</span>
+<span class="lineNum">     396 </span><span class="lineNoCov">          0 :         gpbxSearchFilter-&gt;setChecked(false);</span>
+<span class="lineNum">     397 </span><span class="lineNoCov">          0 :         gridLayout_6 = new QGridLayout(gpbxSearchFilter);</span>
+<a name="398"><span class="lineNum">     398 </span><span class="lineNoCov">          0 :         gridLayout_6-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     399 </span><span class="lineNoCov">          0 :         gridLayout_6-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="400"><span class="lineNum">     400 </span><span class="lineNoCov">          0 :         gridLayout_6-&gt;setObjectName(QStringLiteral(&quot;gridLayout_6&quot;));</span></a>
+<span class="lineNum">     401 </span><span class="lineNoCov">          0 :         chkSearchCompany = new QCheckBox(gpbxSearchFilter);</span>
+<span class="lineNum">     402 </span><span class="lineNoCov">          0 :         chkSearchCompany-&gt;setObjectName(QStringLiteral(&quot;chkSearchCompany&quot;));</span>
+<span class="lineNum">     403 </span><span class="lineNoCov">          0 :         chkSearchCompany-&gt;setEnabled(false);</span>
+<span class="lineNum">     404 </span><span class="lineNoCov">          0 :         chkSearchCompany-&gt;setChecked(true);</span>
+<span class="lineNum">     405 </span>            : 
+<span class="lineNum">     406 </span><span class="lineNoCov">          0 :         gridLayout_6-&gt;addWidget(chkSearchCompany, 0, 0, 1, 1);</span>
+<a name="407"><span class="lineNum">     407 </span>            : </a>
+<span class="lineNum">     408 </span><span class="lineNoCov">          0 :         chkReferentName = new QCheckBox(gpbxSearchFilter);</span>
+<span class="lineNum">     409 </span><span class="lineNoCov">          0 :         chkReferentName-&gt;setObjectName(QStringLiteral(&quot;chkReferentName&quot;));</span>
+<span class="lineNum">     410 </span><span class="lineNoCov">          0 :         chkReferentName-&gt;setEnabled(false);</span>
+<span class="lineNum">     411 </span><span class="lineNoCov">          0 :         chkReferentName-&gt;setChecked(true);</span>
+<span class="lineNum">     412 </span>            : 
+<span class="lineNum">     413 </span><span class="lineNoCov">          0 :         gridLayout_6-&gt;addWidget(chkReferentName, 1, 0, 1, 1);</span>
+<span class="lineNum">     414 </span>            : 
+<span class="lineNum">     415 </span>            : 
+<span class="lineNum">     416 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(gpbxSearchFilter, 1, 0, 1, 1);</span>
+<span class="lineNum">     417 </span>            : 
+<span class="lineNum">     418 </span><span class="lineNoCov">          0 :         dockWidget-&gt;setWidget(dockWidgetContents);</span>
+<a name="419"><span class="lineNum">     419 </span><span class="lineNoCov">          0 :         MainWindow-&gt;addDockWidget(static_cast&lt;Qt::DockWidgetArea&gt;(1), dockWidget);</span></a>
+<span class="lineNum">     420 </span><span class="lineNoCov">          0 :         dockWidget_2 = new QDockWidget(MainWindow);</span>
+<span class="lineNum">     421 </span><span class="lineNoCov">          0 :         dockWidget_2-&gt;setObjectName(QStringLiteral(&quot;dockWidget_2&quot;));</span>
+<a name="422"><span class="lineNum">     422 </span><span class="lineNoCov">          0 :         dockWidget_2-&gt;setMinimumSize(QSize(300, 66));</span></a>
+<span class="lineNum">     423 </span><span class="lineNoCov">          0 :         dockWidgetContents_2 = new QWidget();</span>
+<span class="lineNum">     424 </span><span class="lineNoCov">          0 :         dockWidgetContents_2-&gt;setObjectName(QStringLiteral(&quot;dockWidgetContents_2&quot;));</span>
+<span class="lineNum">     425 </span><span class="lineNoCov">          0 :         dockWidgetContents_2-&gt;setMinimumSize(QSize(300, 0));</span>
+<span class="lineNum">     426 </span><span class="lineNoCov">          0 :         gridLayout_5 = new QGridLayout(dockWidgetContents_2);</span>
+<a name="427"><span class="lineNum">     427 </span><span class="lineNoCov">          0 :         gridLayout_5-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     428 </span><span class="lineNoCov">          0 :         gridLayout_5-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="429"><span class="lineNum">     429 </span><span class="lineNoCov">          0 :         gridLayout_5-&gt;setObjectName(QStringLiteral(&quot;gridLayout_5&quot;));</span></a>
+<span class="lineNum">     430 </span><span class="lineNoCov">          0 :         wdgCustomerData = new Gui::Widgets::CustomerDataWidget(dockWidgetContents_2);</span>
+<span class="lineNum">     431 </span><span class="lineNoCov">          0 :         wdgCustomerData-&gt;setObjectName(QStringLiteral(&quot;wdgCustomerData&quot;));</span>
+<span class="lineNum">     432 </span><span class="lineNoCov">          0 :         wdgCustomerData-&gt;setMinimumSize(QSize(0, 0));</span>
+<span class="lineNum">     433 </span>            : 
+<span class="lineNum">     434 </span><span class="lineNoCov">          0 :         gridLayout_5-&gt;addWidget(wdgCustomerData, 0, 0, 1, 1);</span>
+<span class="lineNum">     435 </span>            : 
+<span class="lineNum">     436 </span><span class="lineNoCov">          0 :         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);</span>
+<span class="lineNum">     437 </span>            : 
+<span class="lineNum">     438 </span><span class="lineNoCov">          0 :         gridLayout_5-&gt;addItem(verticalSpacer, 1, 0, 1, 1);</span>
+<span class="lineNum">     439 </span>            : 
+<span class="lineNum">     440 </span><span class="lineNoCov">          0 :         dockWidget_2-&gt;setWidget(dockWidgetContents_2);</span>
+<a name="441"><span class="lineNum">     441 </span><span class="lineNoCov">          0 :         MainWindow-&gt;addDockWidget(static_cast&lt;Qt::DockWidgetArea&gt;(2), dockWidget_2);</span></a>
+<span class="lineNum">     442 </span><span class="lineNoCov">          0 :         dockWidget_3 = new QDockWidget(MainWindow);</span>
+<span class="lineNum">     443 </span><span class="lineNoCov">          0 :         dockWidget_3-&gt;setObjectName(QStringLiteral(&quot;dockWidget_3&quot;));</span>
+<a name="444"><span class="lineNum">     444 </span><span class="lineNoCov">          0 :         dockWidget_3-&gt;setMinimumSize(QSize(250, 183));</span></a>
+<span class="lineNum">     445 </span><span class="lineNoCov">          0 :         dockWidgetContents_3 = new QWidget();</span>
+<span class="lineNum">     446 </span><span class="lineNoCov">          0 :         dockWidgetContents_3-&gt;setObjectName(QStringLiteral(&quot;dockWidgetContents_3&quot;));</span>
+<span class="lineNum">     447 </span><span class="lineNoCov">          0 :         gridLayout_4 = new QGridLayout(dockWidgetContents_3);</span>
+<a name="448"><span class="lineNum">     448 </span><span class="lineNoCov">          0 :         gridLayout_4-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     449 </span><span class="lineNoCov">          0 :         gridLayout_4-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="450"><span class="lineNum">     450 </span><span class="lineNoCov">          0 :         gridLayout_4-&gt;setObjectName(QStringLiteral(&quot;gridLayout_4&quot;));</span></a>
+<span class="lineNum">     451 </span><span class="lineNoCov">          0 :         trCustomers = new QTreeView(dockWidgetContents_3);</span>
+<span class="lineNum">     452 </span><span class="lineNoCov">          0 :         trCustomers-&gt;setObjectName(QStringLiteral(&quot;trCustomers&quot;));</span>
+<span class="lineNum">     453 </span><span class="lineNoCov">          0 :         trCustomers-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</span>
+<span class="lineNum">     454 </span><span class="lineNoCov">          0 :         trCustomers-&gt;setExpandsOnDoubleClick(false);</span>
+<span class="lineNum">     455 </span>            : 
+<span class="lineNum">     456 </span><span class="lineNoCov">          0 :         gridLayout_4-&gt;addWidget(trCustomers, 1, 0, 1, 1);</span>
+<span class="lineNum">     457 </span>            : 
+<span class="lineNum">     458 </span><span class="lineNoCov">          0 :         dockWidget_3-&gt;setWidget(dockWidgetContents_3);</span>
+<a name="459"><span class="lineNum">     459 </span><span class="lineNoCov">          0 :         MainWindow-&gt;addDockWidget(static_cast&lt;Qt::DockWidgetArea&gt;(1), dockWidget_3);</span></a>
+<span class="lineNum">     460 </span><span class="lineNoCov">          0 :         dockWidget_4 = new QDockWidget(MainWindow);</span>
+<span class="lineNum">     461 </span><span class="lineNoCov">          0 :         dockWidget_4-&gt;setObjectName(QStringLiteral(&quot;dockWidget_4&quot;));</span>
+<a name="462"><span class="lineNum">     462 </span><span class="lineNoCov">          0 :         dockWidget_4-&gt;setMinimumSize(QSize(73, 200));</span></a>
+<span class="lineNum">     463 </span><span class="lineNoCov">          0 :         dockWidgetContents_4 = new QWidget();</span>
+<span class="lineNum">     464 </span><span class="lineNoCov">          0 :         dockWidgetContents_4-&gt;setObjectName(QStringLiteral(&quot;dockWidgetContents_4&quot;));</span>
+<span class="lineNum">     465 </span><span class="lineNoCov">          0 :         gridLayout_7 = new QGridLayout(dockWidgetContents_4);</span>
+<a name="466"><span class="lineNum">     466 </span><span class="lineNoCov">          0 :         gridLayout_7-&gt;setSpacing(6);</span></a>
+<span class="lineNum">     467 </span><span class="lineNoCov">          0 :         gridLayout_7-&gt;setContentsMargins(11, 11, 11, 11);</span>
+<a name="468"><span class="lineNum">     468 </span><span class="lineNoCov">          0 :         gridLayout_7-&gt;setObjectName(QStringLiteral(&quot;gridLayout_7&quot;));</span></a>
+<span class="lineNum">     469 </span><span class="lineNoCov">          0 :         wdgUserData = new Gui::Widgets::CustomerDataWidget(dockWidgetContents_4);</span>
+<span class="lineNum">     470 </span><span class="lineNoCov">          0 :         wdgUserData-&gt;setObjectName(QStringLiteral(&quot;wdgUserData&quot;));</span>
+<span class="lineNum">     471 </span><span class="lineNoCov">          0 :         wdgUserData-&gt;setMinimumSize(QSize(0, 0));</span>
+<span class="lineNum">     472 </span>            : 
+<span class="lineNum">     473 </span><span class="lineNoCov">          0 :         gridLayout_7-&gt;addWidget(wdgUserData, 0, 0, 1, 1);</span>
+<span class="lineNum">     474 </span>            : 
+<span class="lineNum">     475 </span><span class="lineNoCov">          0 :         verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);</span>
+<span class="lineNum">     476 </span>            : 
+<span class="lineNum">     477 </span><span class="lineNoCov">          0 :         gridLayout_7-&gt;addItem(verticalSpacer_2, 1, 0, 1, 1);</span>
+<span class="lineNum">     478 </span>            : 
+<span class="lineNum">     479 </span><span class="lineNoCov">          0 :         dockWidget_4-&gt;setWidget(dockWidgetContents_4);</span>
+<span class="lineNum">     480 </span><span class="lineNoCov">          0 :         MainWindow-&gt;addDockWidget(static_cast&lt;Qt::DockWidgetArea&gt;(2), dockWidget_4);</span>
+<span class="lineNum">     481 </span>            : 
+<span class="lineNum">     482 </span><span class="lineNoCov">          0 :         menuBar-&gt;addAction(menuFichier-&gt;menuAction());</span>
+<span class="lineNum">     483 </span><span class="lineNoCov">          0 :         menuBar-&gt;addAction(menuClient-&gt;menuAction());</span>
+<span class="lineNum">     484 </span><span class="lineNoCov">          0 :         menuBar-&gt;addAction(menuA_propos-&gt;menuAction());</span>
+<span class="lineNum">     485 </span><span class="lineNoCov">          0 :         menuFichier-&gt;addSeparator();</span>
+<span class="lineNum">     486 </span><span class="lineNoCov">          0 :         menuFichier-&gt;addAction(actSettings);</span>
+<span class="lineNum">     487 </span><span class="lineNoCov">          0 :         menuFichier-&gt;addAction(actClose);</span>
+<span class="lineNum">     488 </span><span class="lineNoCov">          0 :         menuClient-&gt;addAction(actNew);</span>
+<span class="lineNum">     489 </span><span class="lineNoCov">          0 :         menuClient-&gt;addAction(actResearch);</span>
+<span class="lineNum">     490 </span><span class="lineNoCov">          0 :         menuClient-&gt;addAction(actionNewBill);</span>
+<span class="lineNum">     491 </span><span class="lineNoCov">          0 :         menuClient-&gt;addAction(actionNewQuote);</span>
+<span class="lineNum">     492 </span><span class="lineNoCov">          0 :         menuClient-&gt;addAction(actionPrint);</span>
+<span class="lineNum">     493 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;addAction(actQt);</span>
+<span class="lineNum">     494 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;addAction(actFact);</span>
+<span class="lineNum">     495 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;addAction(actFactDev);</span>
+<span class="lineNum">     496 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;addAction(actIcons);</span>
+<span class="lineNum">     497 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;addSeparator();</span>
+<span class="lineNum">     498 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;addAction(actSettings);</span>
+<span class="lineNum">     499 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;addAction(actNew);</span>
+<span class="lineNum">     500 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;addAction(actionNewBill);</span>
+<span class="lineNum">     501 </span><span class="lineNoCov">          0 :         mainToolBar-&gt;addAction(actionNewQuote);</span>
+<span class="lineNum">     502 </span>            : 
+<span class="lineNum">     503 </span><span class="lineNoCov">          0 :         retranslateUi(MainWindow);</span>
+<span class="lineNum">     504 </span><span class="lineNoCov">          0 :         QObject::connect(btnEdit, SIGNAL(released()), MainWindow, SLOT(editCustomer()));</span>
+<span class="lineNum">     505 </span><span class="lineNoCov">          0 :         QObject::connect(btnDelCustomer, SIGNAL(released()), MainWindow, SLOT(removeCustomer()));</span>
+<span class="lineNum">     506 </span><span class="lineNoCov">          0 :         QObject::connect(leSearch, SIGNAL(textChanged(QString)), MainWindow, SLOT(search(QString)));</span>
+<span class="lineNum">     507 </span><span class="lineNoCov">          0 :         QObject::connect(gpbxSearchFilter, SIGNAL(clicked(bool)), chkSearchCompany, SLOT(setEnabled(bool)));</span>
+<span class="lineNum">     508 </span><span class="lineNoCov">          0 :         QObject::connect(gpbxSearchFilter, SIGNAL(clicked(bool)), chkReferentName, SLOT(setEnabled(bool)));</span>
+<span class="lineNum">     509 </span><span class="lineNoCov">          0 :         QObject::connect(chkSearchCompany, SIGNAL(clicked()), MainWindow, SLOT(search()));</span>
+<span class="lineNum">     510 </span><span class="lineNoCov">          0 :         QObject::connect(chkReferentName, SIGNAL(clicked()), MainWindow, SLOT(search()));</span>
+<span class="lineNum">     511 </span><span class="lineNoCov">          0 :         QObject::connect(gpbxSearchFilter, SIGNAL(clicked()), MainWindow, SLOT(search()));</span>
+<span class="lineNum">     512 </span><span class="lineNoCov">          0 :         QObject::connect(btnAddCustomer, SIGNAL(released()), MainWindow, SLOT(addCustomer()));</span>
+<span class="lineNum">     513 </span><span class="lineNoCov">          0 :         QObject::connect(btnNewProject, SIGNAL(released()), MainWindow, SLOT(newProject()));</span>
+<span class="lineNum">     514 </span><span class="lineNoCov">          0 :         QObject::connect(actClose, SIGNAL(triggered()), MainWindow, SLOT(close()));</span>
+<span class="lineNum">     515 </span><span class="lineNoCov">          0 :         QObject::connect(actNew, SIGNAL(triggered()), MainWindow, SLOT(addCustomer()));</span>
+<span class="lineNum">     516 </span><span class="lineNoCov">          0 :         QObject::connect(actQt, SIGNAL(triggered()), MainWindow, SLOT(aboutQt()));</span>
+<span class="lineNum">     517 </span><span class="lineNoCov">          0 :         QObject::connect(actFactDev, SIGNAL(triggered()), MainWindow, SLOT(aboutFactDev()));</span>
+<span class="lineNum">     518 </span><span class="lineNoCov">          0 :         QObject::connect(actIcons, SIGNAL(triggered()), MainWindow, SLOT(aboutIcons()));</span>
+<span class="lineNum">     519 </span><span class="lineNoCov">          0 :         QObject::connect(actFact, SIGNAL(triggered()), MainWindow, SLOT(aboutFact()));</span>
+<span class="lineNum">     520 </span><span class="lineNoCov">          0 :         QObject::connect(actSettings, SIGNAL(triggered()), MainWindow, SLOT(editUser()));</span>
+<span class="lineNum">     521 </span><span class="lineNoCov">          0 :         QObject::connect(tblCustomers, SIGNAL(doubleClicked(QModelIndex)), MainWindow, SLOT(changeProjectsTable()));</span>
+<span class="lineNum">     522 </span><span class="lineNoCov">          0 :         QObject::connect(btnBackToCustomers, SIGNAL(clicked()), MainWindow, SLOT(backToCustomersTable()));</span>
+<span class="lineNum">     523 </span><span class="lineNoCov">          0 :         QObject::connect(actionNewQuote, SIGNAL(triggered()), MainWindow, SLOT(addQuote()));</span>
+<span class="lineNum">     524 </span><span class="lineNoCov">          0 :         QObject::connect(tblProjects, SIGNAL(doubleClicked(QModelIndex)), MainWindow, SLOT(quotesProject()));</span>
+<span class="lineNum">     525 </span><span class="lineNoCov">          0 :         QObject::connect(btnBackToProjects, SIGNAL(clicked()), MainWindow, SLOT(backToProjectsTable()));</span>
+<span class="lineNum">     526 </span><span class="lineNoCov">          0 :         QObject::connect(widget, SIGNAL(addProject()), MainWindow, SLOT(newProject()));</span>
+<span class="lineNum">     527 </span><span class="lineNoCov">          0 :         QObject::connect(widget, SIGNAL(editProject()), MainWindow, SLOT(editProject()));</span>
+<span class="lineNum">     528 </span><span class="lineNoCov">          0 :         QObject::connect(widget, SIGNAL(removeProject()), MainWindow, SLOT(removeProject()));</span>
+<span class="lineNum">     529 </span><span class="lineNoCov">          0 :         QObject::connect(trCustomers, SIGNAL(clicked(QModelIndex)), MainWindow, SLOT(changeTree()));</span>
+<span class="lineNum">     530 </span><span class="lineNoCov">          0 :         QObject::connect(tblCustomers, SIGNAL(clicked(QModelIndex)), MainWindow, SLOT(changeCustomerTable()));</span>
+<span class="lineNum">     531 </span><span class="lineNoCov">          0 :         QObject::connect(tblProjects, SIGNAL(clicked(QModelIndex)), MainWindow, SLOT(updateBtn()));</span>
+<span class="lineNum">     532 </span><span class="lineNoCov">          0 :         QObject::connect(btnBackCustomersProject, SIGNAL(released()), MainWindow, SLOT(backToCustomersTable()));</span>
+<span class="lineNum">     533 </span>            : 
+<span class="lineNum">     534 </span><span class="lineNoCov">          0 :         stackedWidget-&gt;setCurrentIndex(0);</span>
+<span class="lineNum">     535 </span>            : 
+<span class="lineNum">     536 </span>            : 
+<span class="lineNum">     537 </span><span class="lineNoCov">          0 :         QMetaObject::connectSlotsByName(MainWindow);</span>
+<a name="538"><span class="lineNum">     538 </span><span class="lineNoCov">          0 :     } // setupUi</span></a>
+<span class="lineNum">     539 </span>            : 
+<span class="lineNum">     540 </span><span class="lineNoCov">          0 :     void retranslateUi(QMainWindow *MainWindow)</span>
+<span class="lineNum">     541 </span>            :     {
+<span class="lineNum">     542 </span><span class="lineNoCov">          0 :         MainWindow-&gt;setWindowTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;FactDev: Facture &amp; Devis&quot;, 0));</span>
+<span class="lineNum">     543 </span><span class="lineNoCov">          0 :         btnAddProject-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouveau projet&quot;, 0));</span>
+<span class="lineNum">     544 </span><span class="lineNoCov">          0 :         actSettings-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Param\303\250tres&quot;, 0));</span>
+<span class="lineNum">     545 </span><span class="lineNoCov">          0 :         actClose-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Fermer&quot;, 0));</span>
+<span class="lineNum">     546 </span><span class="lineNoCov">          0 :         actClose-&gt;setShortcut(QApplication::translate(&quot;MainWindow&quot;, &quot;Ctrl+Q&quot;, 0));</span>
+<span class="lineNum">     547 </span><span class="lineNoCov">          0 :         actNew-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouveau&quot;, 0));</span>
+<span class="lineNum">     548 </span><span class="lineNoCov">          0 :         actNew-&gt;setShortcut(QApplication::translate(&quot;MainWindow&quot;, &quot;Ctrl+N&quot;, 0));</span>
+<span class="lineNum">     549 </span><span class="lineNoCov">          0 :         actResearch-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Rechercher&quot;, 0));</span>
+<span class="lineNum">     550 </span><span class="lineNoCov">          0 :         actResearch-&gt;setShortcut(QApplication::translate(&quot;MainWindow&quot;, &quot;Ctrl+F&quot;, 0));</span>
+<span class="lineNum">     551 </span><span class="lineNoCov">          0 :         actionNewBill-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouvelle facture&quot;, 0));</span>
+<span class="lineNum">     552 </span><span class="lineNoCov">          0 :         actionNewQuote-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouveau devis&quot;, 0));</span>
+<span class="lineNum">     553 </span><span class="lineNoCov">          0 :         actionPrint-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Afficher&quot;, 0));</span>
+<span class="lineNum">     554 </span><span class="lineNoCov">          0 :         actQt-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Qt&quot;, 0));</span>
+<span class="lineNum">     555 </span><span class="lineNoCov">          0 :         actFact-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Fact&quot;, 0));</span>
+<span class="lineNum">     556 </span><span class="lineNoCov">          0 :         actFactDev-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;FactDev&quot;, 0));</span>
+<span class="lineNum">     557 </span><span class="lineNoCov">          0 :         actIcons-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Icons&quot;, 0));</span>
+<span class="lineNum">     558 </span><span class="lineNoCov">          0 :         btnDelCustomer-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Supprimer&quot;, 0));</span>
+<span class="lineNum">     559 </span><span class="lineNoCov">          0 :         btnAddCustomer-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouveau client&quot;, 0));</span>
+<span class="lineNum">     560 </span><span class="lineNoCov">          0 :         btnEdit-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Modifier &quot;, 0));</span>
+<span class="lineNum">     561 </span><span class="lineNoCov">          0 :         btnNewProject-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nouveau projet&quot;, 0));</span>
+<span class="lineNum">     562 </span><span class="lineNoCov">          0 :         btnBackToCustomers-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Retour aux clients&quot;, 0));</span>
+<span class="lineNum">     563 </span><span class="lineNoCov">          0 :         lblProjects-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;TextLabel&quot;, 0));</span>
+<span class="lineNum">     564 </span><span class="lineNoCov">          0 :         btnBackCustomersProject-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Retour aux clients&quot;, 0));</span>
+<span class="lineNum">     565 </span><span class="lineNoCov">          0 :         lblQuotes-&gt;setText(QString());</span>
+<span class="lineNum">     566 </span><span class="lineNoCov">          0 :         btnBackToProjects-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Retour aux projets&quot;, 0));</span>
+<span class="lineNum">     567 </span><span class="lineNoCov">          0 :         menuFichier-&gt;setTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Fichier&quot;, 0));</span>
+<span class="lineNum">     568 </span><span class="lineNoCov">          0 :         menuClient-&gt;setTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Client&quot;, 0));</span>
+<span class="lineNum">     569 </span><span class="lineNoCov">          0 :         menuA_propos-&gt;setTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;A propos&quot;, 0));</span>
+<span class="lineNum">     570 </span><span class="lineNoCov">          0 :         dockWidget-&gt;setWindowTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Recherche&quot;, 0));</span>
+<span class="lineNum">     571 </span><span class="lineNoCov">          0 :         leSearch-&gt;setInputMask(QString());</span>
+<span class="lineNum">     572 </span><span class="lineNoCov">          0 :         leSearch-&gt;setText(QString());</span>
+<span class="lineNum">     573 </span><span class="lineNoCov">          0 :         leSearch-&gt;setPlaceholderText(QApplication::translate(&quot;MainWindow&quot;, &quot;Effectuer une recherche&quot;, 0));</span>
+<span class="lineNum">     574 </span><span class="lineNoCov">          0 :         gpbxSearchFilter-&gt;setTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Filtre de recherche&quot;, 0));</span>
+<span class="lineNum">     575 </span><span class="lineNoCov">          0 :         chkSearchCompany-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nom de la soci\303\251t\303\251&quot;, 0));</span>
+<span class="lineNum">     576 </span><span class="lineNoCov">          0 :         chkReferentName-&gt;setText(QApplication::translate(&quot;MainWindow&quot;, &quot;Nom du r\303\251f\303\251rent&quot;, 0));</span>
+<span class="lineNum">     577 </span><span class="lineNoCov">          0 :         dockWidget_2-&gt;setWindowTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Donn\303\251es du client&quot;, 0));</span>
+<span class="lineNum">     578 </span><span class="lineNoCov">          0 :         dockWidget_3-&gt;setWindowTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Liste des clients&quot;, 0));</span>
+<span class="lineNum">     579 </span><span class="lineNoCov">          0 :         dockWidget_4-&gt;setWindowTitle(QApplication::translate(&quot;MainWindow&quot;, &quot;Mes donn\303\251es&quot;, 0));</span>
+<span class="lineNum">     580 </span><span class="lineNoCov">          0 :     } // retranslateUi</span>
+<span class="lineNum">     581 </span>            : 
+<span class="lineNum">     582 </span>            : };
+<span class="lineNum">     583 </span>            : 
+<span class="lineNum">     584 </span>            : namespace Ui {
+<span class="lineNum">     585 </span>            :     class MainWindow: public Ui_MainWindow {};
+<span class="lineNum">     586 </span>            : } // namespace Ui
+<span class="lineNum">     587 </span>            : 
+<span class="lineNum">     588 </span>            : QT_END_NAMESPACE
+<span class="lineNum">     589 </span>            : 
+<span class="lineNum">     590 </span>            : #endif // UI_MAINWINDOW_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

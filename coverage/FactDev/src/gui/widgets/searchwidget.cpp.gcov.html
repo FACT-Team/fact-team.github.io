@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - FactDev/src/gui/widgets/searchwidget.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../index.html">top level</a> - <a href="index.html">FactDev/src/gui/widgets</a> - searchwidget.cpp<span style="font-size: 80%;"> (source / <a href="searchwidget.cpp.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">1</td>
+            <td class="headerCovTableEntry">50</td>
+            <td class="headerCovTableEntryLo">2.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">2</td>
+            <td class="headerCovTableEntry">11</td>
+            <td class="headerCovTableEntryLo">18.2 %</td>
+          </tr>
+          <tr><td><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #include &quot;searchwidget.h&quot;</a>
+<span class="lineNum">       2 </span>            : #include &quot;ui_searchwidget.h&quot;
+<span class="lineNum">       3 </span>            : 
+<a name="4"><span class="lineNum">       4 </span>            : namespace Gui {</a>
+<span class="lineNum">       5 </span>            : namespace Widgets {
+<span class="lineNum">       6 </span><span class="lineNoCov">          0 : searchWidget::searchWidget(QWidget *parent) :</span>
+<span class="lineNum">       7 </span>            :     QWidget(parent),
+<span class="lineNum">       8 </span><span class="lineNoCov">          0 :     ui(new Ui::searchWidget)</span>
+<span class="lineNum">       9 </span>            : {
+<span class="lineNum">      10 </span><span class="lineNoCov">          0 :     ui-&gt;setupUi(this);</span>
+<span class="lineNum">      11 </span><span class="lineNoCov">          0 :     _isCustomerSelected = false;</span>
+<span class="lineNum">      12 </span><span class="lineNoCov">          0 :     updateTable();</span>
+<a name="13"><span class="lineNum">      13 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      14 </span>            : 
+<span class="lineNum">      15 </span><span class="lineNoCov">          0 : searchWidget::~searchWidget()</span>
+<span class="lineNum">      16 </span>            : {
+<span class="lineNum">      17 </span><span class="lineNoCov">          0 :     delete ui;</span>
+<a name="18"><span class="lineNum">      18 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      19 </span>            : 
+<span class="lineNum">      20 </span><span class="lineNoCov">          0 : int searchWidget::getCurrentCustomerId()</span>
+<span class="lineNum">      21 </span>            : {
+<span class="lineNum">      22 </span><span class="lineNoCov">          0 :     QModelIndex idCell = ui-&gt;tblSearch-&gt;model()-&gt;index(</span>
+<span class="lineNum">      23 </span><span class="lineNoCov">          0 :                 ui-&gt;tblSearch-&gt;currentIndex().row(), 0);</span>
+<span class="lineNum">      24 </span>            : 
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 :     return ui-&gt;tblSearch-&gt;model()-&gt;itemData(idCell).value(0).toInt();</span>
+<a name="26"><span class="lineNum">      26 </span>            : }</a>
+<span class="lineNum">      27 </span>            : 
+<span class="lineNum">      28 </span><span class="lineNoCov">          0 : void searchWidget::search(QString text)</span>
+<span class="lineNum">      29 </span>            : {
+<span class="lineNum">      30 </span><span class="lineNoCov">          0 :     Models::Search s;</span>
+<span class="lineNum">      31 </span><span class="lineNoCov">          0 :     s.setGroupFilter(false);</span>
+<span class="lineNum">      32 </span><span class="lineNoCov">          0 :     s.setSearchInCompanies(true);</span>
+<span class="lineNum">      33 </span><span class="lineNoCov">          0 :     s.setSearchInReferentLastname(true);</span>
+<span class="lineNum">      34 </span><span class="lineNoCov">          0 :     s.setText(text);</span>
+<span class="lineNum">      35 </span><span class="lineNoCov">          0 :     updateTable(s.getFilter());</span>
+<span class="lineNum">      36 </span>            : 
+<span class="lineNum">      37 </span>            :     QString styleSearchBackground =
+<span class="lineNum">      38 </span>            :             &quot;background: url(:/icons/searchMini);&quot;
+<span class="lineNum">      39 </span>            :             &quot;background-position: right;&quot;
+<span class="lineNum">      40 </span>            :             &quot;background-repeat: no-repeat;     &quot;
+<span class="lineNum">      41 </span>            :             &quot;border-radius: 0px;&quot;
+<span class="lineNum">      42 </span>            :             &quot;height: 23px;&quot;
+<span class="lineNum">      43 </span><span class="lineNoCov">          0 :             &quot;border: 1px solid #bbb;&quot;;</span>
+<span class="lineNum">      44 </span>            :     QString styleSearchNoBackground =
+<span class="lineNum">      45 </span>            :             &quot;border-radius: 0px;&quot;
+<span class="lineNum">      46 </span>            :             &quot;height: 23px;&quot;
+<span class="lineNum">      47 </span><span class="lineNoCov">          0 :             &quot;border: 1px solid #bbb;&quot;;</span>
+<span class="lineNum">      48 </span>            : 
+<span class="lineNum">      49 </span><span class="lineNoCov">          0 :     if(ui-&gt;leSearch-&gt;text() != &quot;&quot;) {</span>
+<span class="lineNum">      50 </span><span class="lineNoCov">          0 :         ui-&gt;leSearch-&gt;setStyleSheet(styleSearchNoBackground);</span>
+<span class="lineNum">      51 </span>            :     } else {
+<span class="lineNum">      52 </span><span class="lineNoCov">          0 :         ui-&gt;leSearch-&gt;setStyleSheet(styleSearchBackground);</span>
+<span class="lineNum">      53 </span><span class="lineNoCov">          0 :     }</span>
+<a name="54"><span class="lineNum">      54 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      55 </span>            : 
+<span class="lineNum">      56 </span><span class="lineNoCov">          0 : void searchWidget::getCustomerData() {</span>
+<span class="lineNum">      57 </span><span class="lineNoCov">          0 :     _isCustomerSelected = true;</span>
+<span class="lineNum">      58 </span><span class="lineNoCov">          0 :     Models::Customer customer = Models::Customer(getCurrentCustomerId());</span>
+<span class="lineNum">      59 </span>            : 
+<span class="lineNum">      60 </span><span class="lineNoCov">          0 :     ui-&gt;leCustomer-&gt;setText( customer.getFirstnameReferent() + &quot; &quot;</span>
+<span class="lineNum">      61 </span><span class="lineNoCov">          0 :                             + customer.getLastnameReferent());</span>
+<span class="lineNum">      62 </span><span class="lineNoCov">          0 :     emit selectCustomer();</span>
+<a name="63"><span class="lineNum">      63 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      64 </span>            : 
+<span class="lineNum">      65 </span><span class="lineNoCov">          0 : void searchWidget::updateTable(QString filter) {</span>
+<span class="lineNum">      66 </span>            : 
+<span class="lineNum">      67 </span>            :     ui-&gt;tblSearch-&gt;setModel(
+<span class="lineNum">      68 </span><span class="lineNoCov">          0 :                 Database::CustomerDatabase::instance()-&gt;getCustomersTable(filter));</span>
+<span class="lineNum">      69 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;hideColumn(0);</span>
+<span class="lineNum">      70 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;hideColumn(4);</span>
+<span class="lineNum">      71 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;hideColumn(5);</span>
+<span class="lineNum">      72 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;setColumnWidth(1, 200);</span>
+<span class="lineNum">      73 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;setColumnWidth(2, 120);</span>
+<span class="lineNum">      74 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;setColumnWidth(3, 120);</span>
+<a name="75"><span class="lineNum">      75 </span>            : </a>
+<span class="lineNum">      76 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">      77 </span><span class="lineNoCov">          0 : bool searchWidget::isCustomerSelected() const</span>
+<span class="lineNum">      78 </span>            : {
+<a name="79"><span class="lineNum">      79 </span><span class="lineNoCov">          0 :     return _isCustomerSelected;</span></a>
+<span class="lineNum">      80 </span>            : }
+<span class="lineNum">      81 </span><span class="lineNoCov">          0 : void searchWidget::selectCustomer(int id) {</span>
+<span class="lineNum">      82 </span><span class="lineNoCov">          0 :     ui-&gt;tblSearch-&gt;selectRow(id);</span>
+<span class="lineNum">      83 </span><span class="lineNoCov">          0 :     getCustomerData();</span>
+<a name="84"><span class="lineNum">      84 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      85 </span>            : }
+<span class="lineNum">      86 </span><span class="lineCov">          3 : }</span>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

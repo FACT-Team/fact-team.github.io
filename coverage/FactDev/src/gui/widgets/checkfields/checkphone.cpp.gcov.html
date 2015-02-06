@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - FactDev/src/gui/widgets/checkfields/checkphone.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../../index.html">top level</a> - <a href="index.html">FactDev/src/gui/widgets/checkfields</a> - checkphone.cpp<span style="font-size: 80%;"> (source / <a href="checkphone.cpp.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">25</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #include &quot;checkqlineedit.h&quot;</a>
+<span class="lineNum">       2 </span>            : #include &quot;checkphone.h&quot;
+<a name="3"><span class="lineNum">       3 </span>            : #include &lt;QDebug&gt;</a>
+<span class="lineNum">       4 </span>            : #include &lt;QStringRef&gt;
+<span class="lineNum">       5 </span><span class="lineNoCov">          0 : CheckPhone::CheckPhone(QWidget *w, QPushButton* btn) : CheckUntilField(w, btn) {</span>
+<span class="lineNum">       6 </span><span class="lineNoCov">          0 :     _country = &quot;&quot;;</span>
+<a name="7"><span class="lineNum">       7 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span><span class="lineNoCov">          0 : bool CheckPhone::check(QString text)</span>
+<span class="lineNum">      10 </span>            : {
+<span class="lineNum">      11 </span><span class="lineNoCov">          0 :     bool isChecked = true;</span>
+<span class="lineNum">      12 </span>            : 
+<span class="lineNum">      13 </span><span class="lineNoCov">          0 :     if ( text.length() == 0 ) {</span>
+<span class="lineNum">      14 </span><span class="lineNoCov">          0 :         isChecked = false;</span>
+<span class="lineNum">      15 </span>            :     }
+<span class="lineNum">      16 </span>            : 
+<span class="lineNum">      17 </span><span class="lineNoCov">          0 :     if (getCountry() == &quot;FRANCE&quot;) {</span>
+<span class="lineNum">      18 </span><span class="lineNoCov">          0 :         text = text.replace(&quot; &quot;, &quot;&quot;);</span>
+<span class="lineNum">      19 </span><span class="lineNoCov">          0 :         text = text.replace(&quot;.&quot;, &quot;&quot;);</span>
+<span class="lineNum">      20 </span><span class="lineNoCov">          0 :         text = text.replace(&quot;+33&quot;,&quot;0&quot;);</span>
+<span class="lineNum">      21 </span><span class="lineNoCov">          0 :         text = text.replace(&quot;(&quot;,&quot;&quot;);</span>
+<span class="lineNum">      22 </span><span class="lineNoCov">          0 :         text = text.replace(&quot;)&quot;,&quot;&quot;);</span>
+<span class="lineNum">      23 </span>            : 
+<span class="lineNum">      24 </span><span class="lineNoCov">          0 :         if (text.mid(0,4) == &quot;0033&quot;) {</span>
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 :             text = &quot;0&quot; + text.right(9);</span>
+<span class="lineNum">      26 </span>            :         }
+<span class="lineNum">      27 </span>            : 
+<span class="lineNum">      28 </span><span class="lineNoCov">          0 :         QRegExp phoneRgx(&quot;[0-9\\(\\)\\+\\s\\-\\.]{10,10}&quot;);</span>
+<span class="lineNum">      29 </span><span class="lineNoCov">          0 :         phoneRgx.setCaseSensitivity(Qt::CaseInsensitive);</span>
+<span class="lineNum">      30 </span><span class="lineNoCov">          0 :         phoneRgx.setPatternSyntax(QRegExp::RegExp);</span>
+<span class="lineNum">      31 </span><span class="lineNoCov">          0 :         isChecked = phoneRgx.exactMatch(text);</span>
+<span class="lineNum">      32 </span>            :     }
+<span class="lineNum">      33 </span>            : 
+<span class="lineNum">      34 </span><span class="lineNoCov">          0 :     return isChecked;</span>
+<a name="35"><span class="lineNum">      35 </span>            : }</a>
+<span class="lineNum">      36 </span>            : 
+<span class="lineNum">      37 </span><span class="lineNoCov">          0 : QString CheckPhone::getCountry() const</span>
+<span class="lineNum">      38 </span>            : {
+<span class="lineNum">      39 </span><span class="lineNoCov">          0 :     return _country;</span>
+<a name="40"><span class="lineNum">      40 </span>            : }</a>
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span><span class="lineNoCov">          0 : void CheckPhone::setCountry(const QString &amp;country)</span>
+<span class="lineNum">      43 </span>            : {
+<span class="lineNum">      44 </span><span class="lineNoCov">          0 :     _country = country.toUpper();</span>
+<span class="lineNum">      45 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">      46 </span>            : 
+<span class="lineNum">      47 </span>            : 
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

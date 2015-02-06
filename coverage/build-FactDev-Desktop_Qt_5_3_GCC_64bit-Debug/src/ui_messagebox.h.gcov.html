@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage_all.info - build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src/ui_messagebox.h</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">build-FactDev-Desktop_Qt_5_3_GCC_64bit-Debug/src</a> - ui_messagebox.h<span style="font-size: 80%;"> (source / <a href="ui_messagebox.h.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage_all.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">38</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2015-02-06</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">16</td>
+            <td class="headerCovTableEntryLo">0.0 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : /********************************************************************************</a>
+<span class="lineNum">       2 </span>            : ** Form generated from reading UI file 'messagebox.ui'
+<span class="lineNum">       3 </span>            : **
+<span class="lineNum">       4 </span>            : ** Created by: Qt User Interface Compiler version 5.3.1
+<span class="lineNum">       5 </span>            : **
+<span class="lineNum">       6 </span>            : ** WARNING! All changes made in this file will be lost when recompiling UI file!
+<span class="lineNum">       7 </span>            : ********************************************************************************/
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #ifndef UI_MESSAGEBOX_H
+<span class="lineNum">      10 </span>            : #define UI_MESSAGEBOX_H
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : #include &lt;QtCore/QVariant&gt;
+<span class="lineNum">      13 </span>            : #include &lt;QtWidgets/QAction&gt;
+<span class="lineNum">      14 </span>            : #include &lt;QtWidgets/QApplication&gt;
+<span class="lineNum">      15 </span>            : #include &lt;QtWidgets/QButtonGroup&gt;
+<span class="lineNum">      16 </span>            : #include &lt;QtWidgets/QDialog&gt;
+<span class="lineNum">      17 </span>            : #include &lt;QtWidgets/QGridLayout&gt;
+<span class="lineNum">      18 </span>            : #include &lt;QtWidgets/QHBoxLayout&gt;
+<span class="lineNum">      19 </span>            : #include &lt;QtWidgets/QHeaderView&gt;
+<span class="lineNum">      20 </span>            : #include &lt;QtWidgets/QLabel&gt;
+<span class="lineNum">      21 </span>            : #include &lt;QtWidgets/QPushButton&gt;
+<span class="lineNum">      22 </span>            : #include &lt;QtWidgets/QSpacerItem&gt;
+<span class="lineNum">      23 </span>            : 
+<span class="lineNum">      24 </span>            : QT_BEGIN_NAMESPACE
+<span class="lineNum">      25 </span>            : 
+<span class="lineNum">      26 </span>            : class Ui_MessageBox
+<span class="lineNum">      27 </span>            : {
+<span class="lineNum">      28 </span>            : public:
+<span class="lineNum">      29 </span>            :     QGridLayout *gridLayout;
+<span class="lineNum">      30 </span>            :     QLabel *lbText;
+<span class="lineNum">      31 </span>            :     QLabel *lbIcon;
+<span class="lineNum">      32 </span>            :     QHBoxLayout *horizontalLayout;
+<span class="lineNum">      33 </span>            :     QSpacerItem *horizontalSpacer;
+<a name="34"><span class="lineNum">      34 </span>            :     QPushButton *btnValid;</a>
+<span class="lineNum">      35 </span>            : 
+<span class="lineNum">      36 </span><span class="lineNoCov">          0 :     void setupUi(QDialog *MessageBox)</span>
+<a name="37"><span class="lineNum">      37 </span>            :     {</a>
+<span class="lineNum">      38 </span><span class="lineNoCov">          0 :         if (MessageBox-&gt;objectName().isEmpty())</span>
+<span class="lineNum">      39 </span><span class="lineNoCov">          0 :             MessageBox-&gt;setObjectName(QStringLiteral(&quot;MessageBox&quot;));</span>
+<span class="lineNum">      40 </span><span class="lineNoCov">          0 :         MessageBox-&gt;resize(435, 77);</span>
+<a name="41"><span class="lineNum">      41 </span><span class="lineNoCov">          0 :         MessageBox-&gt;setMaximumSize(QSize(600, 480));</span></a>
+<span class="lineNum">      42 </span><span class="lineNoCov">          0 :         QIcon icon;</span>
+<span class="lineNum">      43 </span><span class="lineNoCov">          0 :         icon.addFile(QStringLiteral(&quot;:/icons/FactDev&quot;), QSize(), QIcon::Normal, QIcon::Off);</span>
+<a name="44"><span class="lineNum">      44 </span><span class="lineNoCov">          0 :         MessageBox-&gt;setWindowIcon(icon);</span></a>
+<span class="lineNum">      45 </span><span class="lineNoCov">          0 :         gridLayout = new QGridLayout(MessageBox);</span>
+<span class="lineNum">      46 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setObjectName(QStringLiteral(&quot;gridLayout&quot;));</span>
+<a name="47"><span class="lineNum">      47 </span><span class="lineNoCov">          0 :         gridLayout-&gt;setSizeConstraint(QLayout::SetFixedSize);</span></a>
+<span class="lineNum">      48 </span><span class="lineNoCov">          0 :         lbText = new QLabel(MessageBox);</span>
+<span class="lineNum">      49 </span><span class="lineNoCov">          0 :         lbText-&gt;setObjectName(QStringLiteral(&quot;lbText&quot;));</span>
+<span class="lineNum">      50 </span><span class="lineNoCov">          0 :         lbText-&gt;setMaximumSize(QSize(400, 16777215));</span>
+<span class="lineNum">      51 </span>            : 
+<span class="lineNum">      52 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbText, 0, 1, 1, 1);</span>
+<a name="53"><span class="lineNum">      53 </span>            : </a>
+<span class="lineNum">      54 </span><span class="lineNoCov">          0 :         lbIcon = new QLabel(MessageBox);</span>
+<span class="lineNum">      55 </span><span class="lineNoCov">          0 :         lbIcon-&gt;setObjectName(QStringLiteral(&quot;lbIcon&quot;));</span>
+<span class="lineNum">      56 </span><span class="lineNoCov">          0 :         lbIcon-&gt;setMaximumSize(QSize(128, 128));</span>
+<span class="lineNum">      57 </span><span class="lineNoCov">          0 :         lbIcon-&gt;setTextFormat(Qt::AutoText);</span>
+<span class="lineNum">      58 </span>            : 
+<span class="lineNum">      59 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addWidget(lbIcon, 0, 0, 1, 1);</span>
+<a name="60"><span class="lineNum">      60 </span>            : </a>
+<span class="lineNum">      61 </span><span class="lineNoCov">          0 :         horizontalLayout = new QHBoxLayout();</span>
+<span class="lineNum">      62 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;setObjectName(QStringLiteral(&quot;horizontalLayout&quot;));</span>
+<span class="lineNum">      63 </span><span class="lineNoCov">          0 :         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);</span>
+<span class="lineNum">      64 </span>            : 
+<span class="lineNum">      65 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addItem(horizontalSpacer);</span>
+<a name="66"><span class="lineNum">      66 </span>            : </a>
+<span class="lineNum">      67 </span><span class="lineNoCov">          0 :         btnValid = new QPushButton(MessageBox);</span>
+<span class="lineNum">      68 </span><span class="lineNoCov">          0 :         btnValid-&gt;setObjectName(QStringLiteral(&quot;btnValid&quot;));</span>
+<span class="lineNum">      69 </span>            : 
+<span class="lineNum">      70 </span><span class="lineNoCov">          0 :         horizontalLayout-&gt;addWidget(btnValid);</span>
+<span class="lineNum">      71 </span>            : 
+<span class="lineNum">      72 </span>            : 
+<span class="lineNum">      73 </span><span class="lineNoCov">          0 :         gridLayout-&gt;addLayout(horizontalLayout, 1, 0, 1, 2);</span>
+<span class="lineNum">      74 </span>            : 
+<span class="lineNum">      75 </span>            : 
+<span class="lineNum">      76 </span><span class="lineNoCov">          0 :         retranslateUi(MessageBox);</span>
+<span class="lineNum">      77 </span><span class="lineNoCov">          0 :         QObject::connect(btnValid, SIGNAL(released()), MessageBox, SLOT(accept()));</span>
+<span class="lineNum">      78 </span>            : 
+<span class="lineNum">      79 </span><span class="lineNoCov">          0 :         QMetaObject::connectSlotsByName(MessageBox);</span>
+<a name="80"><span class="lineNum">      80 </span><span class="lineNoCov">          0 :     } // setupUi</span></a>
+<span class="lineNum">      81 </span>            : 
+<span class="lineNum">      82 </span><span class="lineNoCov">          0 :     void retranslateUi(QDialog *MessageBox)</span>
+<span class="lineNum">      83 </span>            :     {
+<span class="lineNum">      84 </span><span class="lineNoCov">          0 :         MessageBox-&gt;setWindowTitle(QApplication::translate(&quot;MessageBox&quot;, &quot;\303\200 propos&quot;, 0));</span>
+<span class="lineNum">      85 </span><span class="lineNoCov">          0 :         lbText-&gt;setText(QString());</span>
+<span class="lineNum">      86 </span><span class="lineNoCov">          0 :         lbIcon-&gt;setText(QString());</span>
+<span class="lineNum">      87 </span><span class="lineNoCov">          0 :         btnValid-&gt;setText(QApplication::translate(&quot;MessageBox&quot;, &quot;OK&quot;, 0));</span>
+<span class="lineNum">      88 </span><span class="lineNoCov">          0 :     } // retranslateUi</span>
+<span class="lineNum">      89 </span>            : 
+<span class="lineNum">      90 </span>            : };
+<span class="lineNum">      91 </span>            : 
+<span class="lineNum">      92 </span>            : namespace Ui {
+<span class="lineNum">      93 </span>            :     class MessageBox: public Ui_MessageBox {};
+<span class="lineNum">      94 </span>            : } // namespace Ui
+<span class="lineNum">      95 </span>            : 
+<span class="lineNum">      96 </span>            : QT_END_NAMESPACE
+<span class="lineNum">      97 </span>            : 
+<span class="lineNum">      98 </span>            : #endif // UI_MESSAGEBOX_H
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>
