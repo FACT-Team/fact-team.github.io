@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget" kind="class" prot="public">
+    <compoundname>Gui::Widgets::ContributoriesWidget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a17cd70b100aeeabf5b80dd8aeca3ad59" prot="private" static="no" mutable="no">
+        <type>Ui::ContributoriesWidget *</type>
+        <definition>Ui::ContributoriesWidget* Gui::Widgets::ContributoriesWidget::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="45" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a719acee92afb2d961c866e168adbf97b" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">Gui::Widgets::WdgModels::ContributoriesTableModel</ref> *</type>
+        <definition>Gui::Widgets::WdgModels::ContributoriesTableModel* Gui::Widgets::ContributoriesWidget::_model</definition>
+        <argsstring></argsstring>
+        <name>_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="46" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5517afc134491eb118b9d183e94476bc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::ContributoriesWidget::ContributoriesWidget</definition>
+        <argsstring>(QSharedPointer&lt; Customer &gt; c, QWidget *parent=0)</argsstring>
+        <name>ContributoriesWidget</name>
+        <param>
+          <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="22" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="8" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae8463fcb457e05f928a5a47b73736847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::ContributoriesWidget::~ContributoriesWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~ContributoriesWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="23" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a05ddbeb4ffce91003efc1c651d888955" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt;</type>
+        <definition>QList&lt; Contributory &gt; Gui::Widgets::ContributoriesWidget::getContributories</definition>
+        <argsstring>() const </argsstring>
+        <name>getContributories</name>
+        <briefdescription>
+<para>getContributories Get contributories List </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="29" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Gui::Widgets::ContributoriesWidget::count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="30" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a756c0d1076fad1a3805975343e66a1de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::add</definition>
+        <argsstring>(void)</argsstring>
+        <name>add</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>add Add a new empty contributory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a35895ad0b9c497263f633680288b414e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::remove</definition>
+        <argsstring>(void)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>remove Remove the current contributory </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="40" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a510bfd755cf271fd10b63cf68284cd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::contributoryChanged</definition>
+        <argsstring>()</argsstring>
+        <name>contributoryChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>Gui::Widgets::ContributoriesWidget</label>
+        <link refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>Gui::Widgets::ContributoriesWidget</label>
+        <link refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" line="18" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="17" bodyend="47"/>
+    <listofallmembers>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a719acee92afb2d961c866e168adbf97b" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_model</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a756c0d1076fad1a3805975343e66a1de" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>add</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5517afc134491eb118b9d183e94476bc" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>ContributoriesWidget</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a510bfd755cf271fd10b63cf68284cd02" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>contributoryChanged</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>count</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a05ddbeb4ffce91003efc1c651d888955" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>getContributories</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a35895ad0b9c497263f633680288b414e" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>remove</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a17cd70b100aeeabf5b80dd8aeca3ad59" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>ui</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae8463fcb457e05f928a5a47b73736847" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>~ContributoriesWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,10 @@
 var hierarchy =
 [
+    [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
+      [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
+        [ "CounterContext", "db/da6/classCounterContext.html", null ]
+      ] ]
+    ] ],
     [ "Database::Database", "da/d8e/classDatabase_1_1Database.html", [
       [ "Database::BillingDatabase", "d2/d86/classDatabase_1_1BillingDatabase.html", null ],
       [ "Database::ContributoryDatabase", "d5/de0/classDatabase_1_1ContributoryDatabase.html", null ],
@@ -36,6 +41,10 @@ var hierarchy =
     [ "Utils::ItemType", "d5/d7c/classUtils_1_1ItemType.html", null ],
     [ "Utils::Log", "db/db3/classUtils_1_1Log.html", null ],
     [ "Parameters", "de/d0a/classParameters.html", null ],
+    [ "Mustache::PartialResolver", "d0/dce/classMustache_1_1PartialResolver.html", [
+      [ "Mustache::PartialFileLoader", "da/d31/classMustache_1_1PartialFileLoader.html", null ],
+      [ "Mustache::PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", null ]
+    ] ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
       [ "Gui::Widgets::WdgModels::ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", null ]
@@ -66,7 +75,8 @@ var hierarchy =
       [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
-      [ "searchTest", "d7/d51/classsearchTest.html", null ]
+      [ "searchTest", "d7/d51/classsearchTest.html", null ],
+      [ "TestMustache", "de/d63/classTestMustache.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
@@ -76,8 +86,10 @@ var hierarchy =
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
       [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
     ] ],
+    [ "Mustache::Renderer", "dc/d58/classMustache_1_1Renderer.html", null ],
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
+    [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ]

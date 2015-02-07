@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d8/dd1/checkfieldsletters_8cpp" kind="file">
+    <compoundname>checkfieldsletters.cpp</compoundname>
+    <includes refid="d6/df4/checkfieldsletters_8h" local="yes">checkfieldsletters.h</includes>
+    <incdepgraph>
+      <node id="771">
+        <label>checkfieldsletters.h</label>
+        <link refid="d6/df4/checkfieldsletters_8h_source"/>
+        <childnode refid="772" relation="include">
+        </childnode>
+      </node>
+      <node id="772">
+        <label>checkuntilfield.h</label>
+        <link refid="d7/d52/checkuntilfield_8h_source"/>
+        <childnode refid="773" relation="include">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>QLineEdit</label>
+      </node>
+      <node id="770">
+        <label>src/gui/widgets/checkfields/checkfieldsletters.cpp</label>
+        <link refid="checkfieldsletters.cpp"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="776">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="777">
+        <label>QString</label>
+      </node>
+      <node id="775">
+        <label>QPushButton</label>
+      </node>
+      <node id="773">
+        <label>checkqlineedit.h</label>
+        <link refid="de/dc9/checkqlineedit_8h_source"/>
+        <childnode refid="774" relation="include">
+        </childnode>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="776" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkfieldsletters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="de/d19/classCheckFieldsLetters_1a5a8af8c6e89dc19c7e98304e5f40081d" kindref="member">CheckFieldsLetters::CheckFieldsLetters</ref>(QWidget<sp/>*w,<sp/>QPushButton<sp/>*btn)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="dc/db9/classCheckUntilField" kindref="compound">CheckUntilField</ref><sp/>(w,<sp/>btn)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d19/classCheckFieldsLetters_1a62574deb407fe83456e46381425a7b46" kindref="member">CheckFieldsLetters::check</ref>(QString<sp/>text)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>text.length()<sp/>==<sp/>0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>txtRgx(</highlight><highlight class="stringliteral">&quot;[a-zA-ZÉÈÀÊËœŒæÆîïôÔëéèêà\\-\\s\\&apos;\\,\\;\\(\\)\\.\\/\\\\]{2,64}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>txtRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>txtRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>txtRgx.exactMatch(text);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.cpp"/>
+  </compounddef>
+</doxygen>

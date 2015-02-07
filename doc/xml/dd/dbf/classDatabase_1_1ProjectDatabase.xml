@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dd/dbf/classDatabase_1_1ProjectDatabase" kind="class" prot="public">
+    <compoundname>Database::ProjectDatabase</compoundname>
+    <basecompoundref refid="da/d8e/classDatabase_1_1Database" prot="public" virt="non-virtual">Database::Database</basecompoundref>
+    <includes refid="d9/dfd/projectdatabase_8h" local="no">projectdatabase.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a4b2b699677fac0d8a0e4358e1b8243b7" prot="private" static="yes" mutable="no">
+        <type><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref> *</type>
+        <definition>ProjectDatabase * Database::ProjectDatabase::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Singleton instance of <ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="26" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a5c61b0b21d807f3d90d511ad529e015a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Database::ProjectDatabase::ProjectDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>ProjectDatabase</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>: is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a051359f2f1390cbdd3c47b1044ab166f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref> *</type>
+        <definition>ProjectDatabase * Database::ProjectDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>ProjectDatabase::getInstance Return an instance of <ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Instance of <ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="37" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="11" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1ae656663ce7e517e13815198f66341b2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
+        <definition>Models::Project * Database::ProjectDatabase::getProject</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>getProject</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para>ProjectDatabasegetProject Get informations about the project identified by &apos;pId&apos;. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>project </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the project </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="45" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="31" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a904588d19669d5e391518a946fd94ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Database::ProjectDatabase::addProject</definition>
+        <argsstring>(const Models::Project &amp;)</argsstring>
+        <name>addProject</name>
+        <param>
+          <type>const <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &amp;</type>
+          <defname>pProject</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>:addProject Add the project &apos;pProject&apos; to the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>project id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="52" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="57" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a5a839ed196050cf41a1b0f1073757599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Database::ProjectDatabase::updateProject</definition>
+        <argsstring>(const Models::Project &amp;)</argsstring>
+        <name>updateProject</name>
+        <param>
+          <type>const <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &amp;</type>
+          <defname>pProject</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>:updateProject Update informations about the project. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="58" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="86" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a45fb24373d53e060d05cb166cd635370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Database::ProjectDatabase::removeProject</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>removeProject</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para>removeProject Remove the project with the id &apos;pId&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>project id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="64" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="113" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a57f293ea89b06e1cefff8189a5dc9444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Database::ProjectDatabase::getNbProjects</definition>
+        <argsstring>()</argsstring>
+        <name>getNbProjects</name>
+        <briefdescription>
+<para><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>:getNbProjects Return the number of projects existing. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of projects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="71" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="132" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a9d86e98ae77eaef7875c36c84e08722b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Database::ProjectDatabase::getNbProjectsForACustomer</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>getNbProjectsForACustomer</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>:getNbProjectsForACustomer Return the number of projects existing for an identify customer <emphasis>pId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Project id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of projects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="79" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="150" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a1bbdbcb01b9741800e49902d0783e5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; int, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
+        <definition>QMap&lt; int, Models::Project &gt; Database::ProjectDatabase::getProjectsOfCustomer</definition>
+        <argsstring>(QSharedPointer&lt; Models::Customer &gt; c)</argsstring>
+        <name>getProjectsOfCustomer</name>
+        <param>
+          <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>getProjectsOfCustomer Return all projects of a customer </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The customer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>All projects of c with id in key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="86" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="167" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1ad2da7cde75b3b84dcdf2771969950ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItemModel *</type>
+        <definition>QStandardItemModel * Database::ProjectDatabase::getProjectsTable</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>getProjectsTable</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>getProjectsTable Return all projects of a customer in QStandardItemModel </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select only projects who are specified by <emphasis>filter</emphasis> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItemModel an item model for QTableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="93" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="193" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dbf/classDatabase_1_1ProjectDatabase_1a360d570a10c3e9df38241a650e1a30a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
+        <definition>Models::Project * Database::ProjectDatabase::getProject</definition>
+        <argsstring>(QSqlQuery &amp;q)</argsstring>
+        <name>getProject</name>
+        <param>
+          <type>QSqlQuery &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para>getProject Obtain a project without new query </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The project linked to q </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="100" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.cpp" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="dd/dbf/classDatabase_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref> class Project table database. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
+<simplesect kind="see"><para><ref refid="da/d8e/classDatabase_1_1Database" kindref="compound">Database</ref> </para></simplesect>
+<simplesect kind="see"><para>Project </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="281">
+        <label>Database::Database</label>
+        <link refid="da/d8e/classDatabase_1_1Database"/>
+      </node>
+      <node id="280">
+        <label>Database::ProjectDatabase</label>
+        <link refid="dd/dbf/classDatabase_1_1ProjectDatabase"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>Database::Database</label>
+        <link refid="da/d8e/classDatabase_1_1Database"/>
+        <childnode refid="283" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>Database::ProjectDatabase</label>
+        <link refid="dd/dbf/classDatabase_1_1ProjectDatabase"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/projectdatabase.h" bodystart="23" bodyend="101"/>
+    <listofallmembers>
+      <member refid="da/d8e/classDatabase_1_1Database_1ae14d34aebe8f014c101d9fdc0cdb0daf" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>_dbInstance</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a4b2b699677fac0d8a0e4358e1b8243b7" prot="private" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>_instance</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1ac57a668c068a49b734c0407235848f54" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>_instances</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a2b8055481c0231dab258d0446781a94d" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>_settings</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a904588d19669d5e391518a946fd94ddf" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>addProject</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a474fda5b2ee6cd1391f72ad5fe297ba5" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>cleanDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1af4d88f98b0ce31369af5bbf4fd167664" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>close</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7cb02c000e1bc3614aeda31ea6c13069" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>closeTransaction</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a4edb5ae1db1def878a728ce284d07871" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>createDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7c8f22f12dd131087a37f0b8222a3f63" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>Database</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a8fa0ebf8b613b8c25f2485dee5c332f3" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>executeFile</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a57f293ea89b06e1cefff8189a5dc9444" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getNbProjects</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a9d86e98ae77eaef7875c36c84e08722b" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getNbProjectsForACustomer</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1ae656663ce7e517e13815198f66341b2a" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getProject</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a360d570a10c3e9df38241a650e1a30a6" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getProject</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a1bbdbcb01b9741800e49902d0783e5f3" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getProjectsOfCustomer</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1ad2da7cde75b3b84dcdf2771969950ae9" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>getProjectsTable</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a051359f2f1390cbdd3c47b1044ab166f" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>instance</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7d0456fa60dffbdf454efdb5288b7a0f" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>isOpen</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aff2b9057350d618d9f126a0e6ac6be42" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>lastError</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a6c63e366e01da448bc43c8a463c6eabd" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>mDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aa12f5d991eb4d61ef0c6a0bc653f2580" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>open</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a657a65d7c085ef1b3fbc956d5c837ec0" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>openTransaction</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a5c61b0b21d807f3d90d511ad529e015a" prot="private" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>ProjectDatabase</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a45fb24373d53e060d05cb166cd635370" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>removeProject</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1acf027fd52b0669b1248cbb75e621c36a" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>setDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a77460984575eb485e3c6dcfc713e0e67" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>testCases</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1ac0ea3c8fe13b47917a499ffa9ace1f1b" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>updateBillingNumber</name></member>
+      <member refid="dd/dbf/classDatabase_1_1ProjectDatabase_1a5a839ed196050cf41a1b0f1073757599" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>updateProject</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aeddc953300288d633881cf9bb6a4264e" prot="protected" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>value</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a52d0d890cef301f3dfb61121cf2c375b" prot="public" virt="non-virtual"><scope>Database::ProjectDatabase</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

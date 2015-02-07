@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="de/d19/classCheckFieldsLetters" kind="class" prot="public">
+    <compoundname>CheckFieldsLetters</compoundname>
+    <basecompoundref refid="dc/db9/classCheckUntilField" prot="public" virt="non-virtual">CheckUntilField</basecompoundref>
+    <derivedcompoundref refid="de/de9/classCheckCity" prot="public" virt="non-virtual">CheckCity</derivedcompoundref>
+    <derivedcompoundref refid="d6/d52/classCheckCountry" prot="public" virt="non-virtual">CheckCountry</derivedcompoundref>
+    <derivedcompoundref refid="dc/d14/classCheckName" prot="public" virt="non-virtual">CheckName</derivedcompoundref>
+    <includes refid="d6/df4/checkfieldsletters_8h" local="no">checkfieldsletters.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d19/classCheckFieldsLetters_1a5a8af8c6e89dc19c7e98304e5f40081d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckFieldsLetters::CheckFieldsLetters</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckFieldsLetters</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="de/d19/classCheckFieldsLetters_1a5a8af8c6e89dc19c7e98304e5f40081d" kindref="member">CheckFieldsLetters::CheckFieldsLetters</ref> Construct a <ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h" line="16" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d19/classCheckFieldsLetters_1a62574deb407fe83456e46381425a7b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CheckFieldsLetters::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d5/d75/classICheckField_1a6bd42b4d49c165cdd92822135123fd4b">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="de/d19/classCheckFieldsLetters_1a62574deb407fe83456e46381425a7b46" kindref="member">CheckName::check</ref> Check if the field contains only letters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h" line="23" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.cpp" bodystart="8" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref> class Field with only letters (no numbers) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>CheckFieldsLetters</label>
+        <link refid="de/d19/classCheckFieldsLetters"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>CheckCountry</label>
+        <link refid="d6/d52/classCheckCountry"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>CheckName</label>
+        <link refid="dc/d14/classCheckName"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="63">
+        <label>QLineEdit</label>
+      </node>
+      <node id="65">
+        <label>CheckCity</label>
+        <link refid="de/de9/classCheckCity"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>CheckFieldsLetters</label>
+        <link refid="de/d19/classCheckFieldsLetters"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="71">
+        <label>QLineEdit</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h" line="9" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="de/d19/classCheckFieldsLetters_1a62574deb407fe83456e46381425a7b46" prot="public" virt="virtual"><scope>CheckFieldsLetters</scope><name>check</name></member>
+      <member refid="de/d19/classCheckFieldsLetters_1a5a8af8c6e89dc19c7e98304e5f40081d" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>CheckFieldsLetters</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1acc48f17bfddb47e4101a7aedbace7783" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>CheckQLineEdit</name></member>
+      <member refid="dc/db9/classCheckUntilField_1a7b3789fe02959e488b35a0e79362f786" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>CheckUntilField</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1aaf3b88a48a806bc6215f685bc45937a5" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a730ae162e31a8c76f5532d3f3c8903c6" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a137569359307e1b17449af3a72c5e80e" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>fieldTextChanged</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a87ea56ee9e7833b77c408be489b116e3" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>getBtnValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a50e64b1790af6edb2c587e098c8b99f8" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>isValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a28bb08ffaac7da25289a7d93639ba00f" prot="public" virt="non-virtual"><scope>CheckFieldsLetters</scope><name>setBtnValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

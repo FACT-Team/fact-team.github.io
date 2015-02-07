@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d5/d48/messagebox_8h" kind="file">
+    <compoundname>messagebox.h</compoundname>
+    <includes local="no">QDialog</includes>
+    <includedby refid="d3/dc9/messagebox_8cpp" local="yes">src/gui/dialogs/messagebox.cpp</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">src/mainwindow.h</includedby>
+    <incdepgraph>
+      <node id="676">
+        <label>QDialog</label>
+      </node>
+      <node id="675">
+        <label>src/gui/dialogs/messagebox.h</label>
+        <link refid="messagebox.h"/>
+        <childnode refid="676" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="680">
+        <label>src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+      <node id="678">
+        <label>src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="679">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+      <node id="677">
+        <label>src/gui/dialogs/messagebox.h</label>
+        <link refid="messagebox.h"/>
+        <childnode refid="678" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" prot="public">Gui::Dialogs::MessageBox</innerclass>
+    <innernamespace refid="db/d3c/namespaceUi">Ui</innernamespace>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="db/df5/namespaceGui_1_1Dialogs">Gui::Dialogs</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MESSAGEBOX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MESSAGEBOX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MessageBox;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
+<codeline lineno="15" refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" kindref="compound">MessageBox</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1ad5f6041f0f540c6d32b9feb7f139fa53" kindref="member">MessageBox</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" kindref="compound">MessageBox</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1ad00c9885477fb131a87e75abc9b88fb4" kindref="member">showAboutFact</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1a5d17e7db09f46eb20fce54135b850497" kindref="member">showAboutFactDev</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1af30290c193707375f259fe6970ab3d2d" kindref="member">showAboutIcons</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1acda77dd0e2edd3aa85b1de11ed7899a2" kindref="member">aboutFact</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1a0b92573a4e1ff4d44e8259d86b5b8275" kindref="member">aboutFactDev</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1a196094a26db9cff58e70801186b73453" kindref="member">aboutIcons</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1a4efd7f861c6338389dc7f42993413009" kindref="member">setImage</ref>(QString<sp/>img,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>128,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>128);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1af96c089b5fecffac59f2a337bad533cf" kindref="member">setText</ref>(QString<sp/>txt);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MessageBox<sp/>*ui;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MESSAGEBOX_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/messagebox.h"/>
+  </compounddef>
+</doxygen>

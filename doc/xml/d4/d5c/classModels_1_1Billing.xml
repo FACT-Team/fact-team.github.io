@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d4/d5c/classModels_1_1Billing" kind="class" prot="public">
+    <compoundname>Models::Billing</compoundname>
+    <basecompoundref refid="df/ddd/classModels_1_1IDatabaseModel" prot="public" virt="non-virtual">Models::IDatabaseModel</basecompoundref>
+    <includes refid="d4/dfe/billing_8h" local="no">billing.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1a4a640f421ccbaae9817e76af2a1eb528" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; &gt;</type>
+        <definition>QMap&lt;Project*,QList&lt;Contributory&gt; &gt; Models::Billing::_contributories</definition>
+        <argsstring></argsstring>
+        <name>_contributories</name>
+        <briefdescription>
+<para>List of contributories. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="146" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1ad3fe5cfc7f9a6942290294270afdb93b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::Billing::_title</definition>
+        <argsstring></argsstring>
+        <name>_title</name>
+        <briefdescription>
+<para>Title of billing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="147" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1acb603b411e5b9ecc243da07147cd6f8b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::Billing::_description</definition>
+        <argsstring></argsstring>
+        <name>_description</name>
+        <briefdescription>
+<para>Description of a billing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="148" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1a0f8da64a0a373577c24663fcc0d3d05f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Models::Billing::_number</definition>
+        <argsstring></argsstring>
+        <name>_number</name>
+        <briefdescription>
+<para>Number of billing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="149" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1a06ce886391dcba8a6bdb50e328dbed64" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Models::Billing::_isBilling</definition>
+        <argsstring></argsstring>
+        <name>_isBilling</name>
+        <briefdescription>
+<para>Is a billing… Or if a quote. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="150" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5c/classModels_1_1Billing_1a4122ac435ae923e95819ccbeaa815db1" prot="private" static="no" mutable="no">
+        <type>QDate</type>
+        <definition>QDate Models::Billing::_date</definition>
+        <argsstring></argsstring>
+        <name>_date</name>
+        <briefdescription>
+<para>Date for billing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="151" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Models::Billing::Billing</definition>
+        <argsstring>()</argsstring>
+        <name>Billing</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" kindref="member">Billing::Billing</ref>. Construct a <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="25" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="8" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a2fba091975b0c62f7e65771e335e038b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Models::Billing::Billing</definition>
+        <argsstring>(int id)</argsstring>
+        <name>Billing</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" kindref="member">Billing::Billing</ref>. Construct a <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> or quote. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a36da0cd70a8f9db9be57bf32f7610e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Models::Billing::~Billing</definition>
+        <argsstring>()</argsstring>
+        <name>~Billing</name>
+        <briefdescription>
+<para>destruct a billing object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="36" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ad2280a0d8dde4c36e88c344b01044caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Models::Billing::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <reimplements refid="df/ddd/classModels_1_1IDatabaseModel_1a8fcb1587824753cd121a7d961b60a98a">commit</reimplements>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ad2280a0d8dde4c36e88c344b01044caf" kindref="member">Billing::commit</ref>. Insert a modification in <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> table on the database. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="42" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="30" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Models::Billing::hydrat</definition>
+        <argsstring>(int getId)</argsstring>
+        <name>hydrat</name>
+        <reimplements refid="df/ddd/classModels_1_1IDatabaseModel_1af0814d81fc76a881bc64d9062adf1f6c">hydrat</reimplements>
+        <param>
+          <type>int</type>
+          <declname>getId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc" kindref="member">Billing::hydrat</ref>. Update of the <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> which is specified by <emphasis>getId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="49" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="60" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Models::Billing::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <reimplements refid="df/ddd/classModels_1_1IDatabaseModel_1a6d8eca5b493b57c21feafae75c783b14">remove</reimplements>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3" kindref="member">Billing::remove</ref>. Remove a <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="54" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a9c5e944c560fcecb356a9293b26f1ec6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; &gt;</type>
+        <definition>QMap&lt; Project *, QList&lt; Contributory &gt; &gt; Models::Billing::getContributories</definition>
+        <argsstring>() const </argsstring>
+        <name>getContributories</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a9c5e944c560fcecb356a9293b26f1ec6" kindref="member">Billing::getContributories</ref>. Return a map of <bold><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref></bold> for each <bold><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref></bold> of the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QMap&lt;<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>, QList&lt;Contributory&gt;&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="61" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a3636d785d2cb77d83d21a795e1f91a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::addContributory</definition>
+        <argsstring>(Contributory &amp;c)</argsstring>
+        <name>addContributory</name>
+        <param>
+          <type><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>addContributories Add a new contributory for project p </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> who contain <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="68" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a15cd358ce3cab05668c62c0771afdb85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::Billing::getTitle</definition>
+        <argsstring>() const </argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a15cd358ce3cab05668c62c0771afdb85" kindref="member">Billing::getTitle</ref>. return title of <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>title of <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="74" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ae20cea169abdffa5daaa368547425928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::setTitle</definition>
+        <argsstring>(const QString &amp;getTitle)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>getTitle</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ae20cea169abdffa5daaa368547425928" kindref="member">Billing::setTitle</ref>. Modify the title of <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Modify the title with <emphasis>getTitle</emphasis> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="80" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a5802215da8f4407457b8aeb7be525c65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::Billing::getDescription</definition>
+        <argsstring>() const </argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a5802215da8f4407457b8aeb7be525c65" kindref="member">Billing::getDescription</ref>. return description of <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>description of <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="86" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1adb5cf4382150387f10bb6b774ace6bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::setDescription</definition>
+        <argsstring>(const QString &amp;getDescription)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>getDescription</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1adb5cf4382150387f10bb6b774ace6bc8" kindref="member">Billing::setDescription</ref>. Modify the description of <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Modify the description with <emphasis>getDescription</emphasis> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="92" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a48c6e28a4aec13f8ed6b3ebbab837f0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Models::Billing::getNumber</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumber</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a48c6e28a4aec13f8ed6b3ebbab837f0b" kindref="member">Billing::getNumber</ref>. Return number of the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>_number of <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="98" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1a2b43e0c657a9e717c9d2c091d222369e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::setNumber</definition>
+        <argsstring>(int getNumber)</argsstring>
+        <name>setNumber</name>
+        <param>
+          <type>int</type>
+          <declname>getNumber</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1a2b43e0c657a9e717c9d2c091d222369e" kindref="member">Billing::setNumber</ref>. Modify <emphasis>_number</emphasis> of <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new number of the <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="104" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ab03dd29a9812a995355a1d93318f348f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Models::Billing::isBilling</definition>
+        <argsstring>() const </argsstring>
+        <name>isBilling</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ab03dd29a9812a995355a1d93318f348f" kindref="member">Billing::isBilling</ref>. Return if it&apos;s a billing or a quote. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>if it&apos;s billing or a quote </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="110" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1aff8b71426c02bc97f0a724ef762cd42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::setIsBilling</definition>
+        <argsstring>(bool isBilling)</argsstring>
+        <name>setIsBilling</name>
+        <param>
+          <type>bool</type>
+          <declname>isBilling</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1aff8b71426c02bc97f0a724ef762cd42e" kindref="member">Billing::setIsBilling</ref>. Modify <emphasis>isBilling</emphasis> of <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isBilling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="117" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1af0d1f0132d0902fb96456d0a9018b701" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QDate</type>
+        <definition>QDate Models::Billing::getDate</definition>
+        <argsstring>() const </argsstring>
+        <name>getDate</name>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1af0d1f0132d0902fb96456d0a9018b701" kindref="member">Billing::getDate</ref>. return date of the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>date of <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="123" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ae8db0fe5fe273fad31e2f846b5b891cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Billing::setDate</definition>
+        <argsstring>(const QDate &amp;getDate)</argsstring>
+        <name>setDate</name>
+        <param>
+          <type>const QDate &amp;</type>
+          <declname>getDate</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ae8db0fe5fe273fad31e2f846b5b891cb" kindref="member">Billing::setDate</ref>. Modify <emphasis>date</emphasis> of the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new date of the <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="129" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1af3d8818a1e00eaa707058567fccf045b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Models::Billing::operator==</definition>
+        <argsstring>(const Billing &amp;b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1af3d8818a1e00eaa707058567fccf045b" kindref="member">Billing::operator ==</ref> define the operator &quot;==&quot; to compare two billings and to see if they are the same. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> to compare with the current <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if they are the same billings else false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="136" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="76" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Models::Billing::operator!=</definition>
+        <argsstring>(const Billing &amp;b)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" kindref="member">Billing::operator !=</ref> defines the operator &quot;!=&quot; to compare two <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> and to see if they are different. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> to compare with the current <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the <bold><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref></bold> are different else false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="143" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> class : <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> or Quote of a <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Cédric Rohaut  for the quote part </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>Models::Billing</label>
+        <link refid="d4/d5c/classModels_1_1Billing"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Models::IDatabaseModel</label>
+        <link refid="df/ddd/classModels_1_1IDatabaseModel"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>Models::Billing</label>
+        <link refid="d4/d5c/classModels_1_1Billing"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Models::IDatabaseModel</label>
+        <link refid="df/ddd/classModels_1_1IDatabaseModel"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" line="20" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/billing.h" bodystart="19" bodyend="154"/>
+    <listofallmembers>
+      <member refid="d4/d5c/classModels_1_1Billing_1a4a640f421ccbaae9817e76af2a1eb528" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_contributories</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a4122ac435ae923e95819ccbeaa815db1" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_date</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1acb603b411e5b9ecc243da07147cd6f8b" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_description</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a85fbc8298dee2e84f310a21ed935665f" prot="protected" virt="non-virtual"><scope>Models::Billing</scope><name>_id</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a06ce886391dcba8a6bdb50e328dbed64" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_isBilling</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a0f8da64a0a373577c24663fcc0d3d05f" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_number</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ad3fe5cfc7f9a6942290294270afdb93b" prot="private" virt="non-virtual"><scope>Models::Billing</scope><name>_title</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1acfa9af965e01f44d6ff75226e23e4640" prot="protected" virt="non-virtual"><scope>Models::Billing</scope><name>_toRemoved</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a3636d785d2cb77d83d21a795e1f91a60" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>addContributory</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>Billing</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a2fba091975b0c62f7e65771e335e038b" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>Billing</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ad2280a0d8dde4c36e88c344b01044caf" prot="public" virt="virtual"><scope>Models::Billing</scope><name>commit</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a9c5e944c560fcecb356a9293b26f1ec6" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getContributories</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1af0d1f0132d0902fb96456d0a9018b701" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getDate</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a5802215da8f4407457b8aeb7be525c65" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getDescription</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a6a4d1d3c0912c97c61a9d4de7471afee" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getId</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a48c6e28a4aec13f8ed6b3ebbab837f0b" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getNumber</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a15cd358ce3cab05668c62c0771afdb85" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>getTitle</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc" prot="public" virt="virtual"><scope>Models::Billing</scope><name>hydrat</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ab03dd29a9812a995355a1d93318f348f" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>isBilling</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a058e5b85d95e9424245dc37eb122350c" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>isToRemoved</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>operator!=</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1af3d8818a1e00eaa707058567fccf045b" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>operator==</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3" prot="public" virt="virtual"><scope>Models::Billing</scope><name>remove</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ae8db0fe5fe273fad31e2f846b5b891cb" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setDate</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1adb5cf4382150387f10bb6b774ace6bc8" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setDescription</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a6bf2ec005b5d931e58ee8125e92d9722" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setId</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1aff8b71426c02bc97f0a724ef762cd42e" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setIsBilling</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a2b43e0c657a9e717c9d2c091d222369e" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setNumber</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1ae20cea169abdffa5daaa368547425928" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setTitle</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1ac399b44ba1178ef6f54da31203e11d9f" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>setToRemoved</name></member>
+      <member refid="d4/d5c/classModels_1_1Billing_1a36da0cd70a8f9db9be57bf32f7610e59" prot="public" virt="non-virtual"><scope>Models::Billing</scope><name>~Billing</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a7dd56f574720919d1703651f5896141f" prot="public" virt="virtual"><scope>Models::Billing</scope><name>~IDatabaseModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

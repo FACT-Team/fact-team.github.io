@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dc/d63/classCheckPostalCode" kind="class" prot="public">
+    <compoundname>CheckPostalCode</compoundname>
+    <basecompoundref refid="dc/db9/classCheckUntilField" prot="public" virt="non-virtual">CheckUntilField</basecompoundref>
+    <includes refid="d5/d31/checkpostalcode_8h" local="no">checkpostalcode.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d63/classCheckPostalCode_1aa55d3afb62827c594f9f4940673dddc0" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString CheckPostalCode::_country</definition>
+        <argsstring></argsstring>
+        <name>_country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="40" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d63/classCheckPostalCode_1a98cce06b95b46bf285cf6bc6e52cbfcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckPostalCode::CheckPostalCode</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckPostalCode</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="dc/d63/classCheckPostalCode_1a98cce06b95b46bf285cf6bc6e52cbfcb" kindref="member">CheckPostalCode::CheckPostalCode</ref> Construct a <ref refid="dc/d63/classCheckPostalCode" kindref="compound">CheckPostalCode</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="dc/d63/classCheckPostalCode" kindref="compound">CheckPostalCode</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="16" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/classCheckPostalCode_1ad91ba5622617675fbb5c767036163142" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CheckPostalCode::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d5/d75/classICheckField_1a6bd42b4d49c165cdd92822135123fd4b">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="dc/d63/classCheckPostalCode_1ad91ba5622617675fbb5c767036163142" kindref="member">CheckPostalCode::check</ref> Check if the field is valid. To be valid, a name should be composed of a character. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="7" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString CheckPostalCode::getCountry</definition>
+        <argsstring>() const </argsstring>
+        <name>getCountry</name>
+        <briefdescription>
+<para><ref refid="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" kindref="member">CheckPostalCode::getCountry</ref> Return the country linked to current field. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>country </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/classCheckPostalCode_1ac82e538c932bd9165d3d40ea949baa4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CheckPostalCode::setCountry</definition>
+        <argsstring>(const QString &amp;country)</argsstring>
+        <name>setCountry</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="dc/d63/classCheckPostalCode_1ac82e538c932bd9165d3d40ea949baa4b" kindref="member">CheckPostalCode::setCountry</ref> Modify the <emphasis>country</emphasis> linked to field. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>country</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New country </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="37" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="dc/d63/classCheckPostalCode" kindref="compound">CheckPostalCode</ref> class Line Edit of postal code with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>CheckPostalCode</label>
+        <link refid="dc/d63/classCheckPostalCode"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="98">
+        <label>QLineEdit</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="100">
+        <label>CheckPostalCode</label>
+        <link refid="dc/d63/classCheckPostalCode"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="103">
+        <label>QLineEdit</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="10" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="dc/d63/classCheckPostalCode_1aa55d3afb62827c594f9f4940673dddc0" prot="private" virt="non-virtual"><scope>CheckPostalCode</scope><name>_country</name></member>
+      <member refid="dc/d63/classCheckPostalCode_1ad91ba5622617675fbb5c767036163142" prot="public" virt="virtual"><scope>CheckPostalCode</scope><name>check</name></member>
+      <member refid="dc/d63/classCheckPostalCode_1a98cce06b95b46bf285cf6bc6e52cbfcb" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>CheckPostalCode</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1acc48f17bfddb47e4101a7aedbace7783" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>CheckQLineEdit</name></member>
+      <member refid="dc/db9/classCheckUntilField_1a7b3789fe02959e488b35a0e79362f786" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>CheckUntilField</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1aaf3b88a48a806bc6215f685bc45937a5" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a730ae162e31a8c76f5532d3f3c8903c6" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a137569359307e1b17449af3a72c5e80e" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>fieldTextChanged</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a87ea56ee9e7833b77c408be489b116e3" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>getBtnValid</name></member>
+      <member refid="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>getCountry</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a50e64b1790af6edb2c587e098c8b99f8" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>isValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a28bb08ffaac7da25289a7d93639ba00f" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>setBtnValid</name></member>
+      <member refid="dc/d63/classCheckPostalCode_1ac82e538c932bd9165d3d40ea949baa4b" prot="public" virt="non-virtual"><scope>CheckPostalCode</scope><name>setCountry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

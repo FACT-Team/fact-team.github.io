@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="de/d95/src_2libs_2qt-mustache_2README_8md" kind="file">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">[![Build<sp/>Status](https://travis-ci.org/robertknight/qt-mustache.svg?branch=master)](https://travis-ci.org/robertknight/qt-mustache)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Qt<sp/>Mustache</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">qt-mustache<sp/>is<sp/>a<sp/>simple<sp/>library<sp/>for<sp/>rendering<sp/>[Mustache<sp/>templates](http://mustache.github.com/).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Example<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```cpp</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;mustache.h&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">QVariantHash<sp/>contact;</highlight></codeline>
+<codeline><highlight class="normal">contact[&quot;name&quot;]<sp/>=<sp/>&quot;John<sp/>Smith&quot;;</highlight></codeline>
+<codeline><highlight class="normal">contact[&quot;email&quot;]<sp/>=<sp/>&quot;john.smith@gmail.com&quot;;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">QString<sp/>contactTemplate<sp/>=<sp/>&quot;&lt;b&gt;{{name}}&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:{{email}}\&quot;&gt;{{email}}&lt;/a&gt;&quot;;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Mustache::Renderer<sp/>renderer;</highlight></codeline>
+<codeline><highlight class="normal">Mustache::QtVariantContext<sp/>context(contact);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">QTextStream<sp/>output(stdout);</highlight></codeline>
+<codeline><highlight class="normal">output<sp/>&lt;&lt;<sp/>renderer.render(contactTemplate,<sp/>&amp;context);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Outputs:<sp/>`&lt;b&gt;John<sp/>Smith&lt;/b&gt;<sp/>&lt;a<sp/>href=&quot;mailto:john.smith@gmail.com&quot;&gt;john.smith@gmail.com&lt;/a&gt;`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>further<sp/>examples,<sp/>see<sp/>the<sp/>tests<sp/>in<sp/>`test_mustache.cpp`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Building</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>To<sp/>build<sp/>the<sp/>tests,<sp/>run<sp/>`qmake`<sp/>followed<sp/>by<sp/>`make`</highlight></codeline>
+<codeline><highlight class="normal"><sp/>*<sp/>To<sp/>use<sp/>qt-mustache<sp/>in<sp/>your<sp/>project,<sp/>just<sp/>add<sp/>the<sp/>`mustache.h`<sp/>and<sp/>`mustache.cpp`<sp/>files<sp/>to<sp/>your<sp/>project.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">###<sp/>License</highlight></codeline>
+<codeline><highlight class="normal"><sp/>qt-mustache<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>BSD<sp/>license.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Dependencies</highlight></codeline>
+<codeline><highlight class="normal"><sp/>qt-mustache<sp/>depends<sp/>on<sp/>the<sp/>QtCore<sp/>library.<sp/><sp/>It<sp/>is<sp/>compatible<sp/>with<sp/>Qt<sp/>4<sp/>and<sp/>Qt<sp/>5.</highlight></codeline>
+<codeline><highlight class="normal"><sp/></highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Syntax</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">qt-mustache<sp/>uses<sp/>the<sp/>standard<sp/>Mustache<sp/>syntax.<sp/><sp/>See<sp/>the<sp/>[Mustache<sp/>manual](http://mustache.github.com/mustache.5.html)<sp/>for<sp/>details.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Data<sp/>Sources</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">qt-mustache<sp/>expands<sp/>Mustache<sp/>tags<sp/>using<sp/>values<sp/>from<sp/>a<sp/>`Mustache::Context`.<sp/><sp/>`Mustache::QtVariantContext`<sp/>is<sp/>a<sp/>simple</highlight></codeline>
+<codeline><highlight class="normal">context<sp/>implementation<sp/>which<sp/>wraps<sp/>a<sp/>`QVariantHash`<sp/>or<sp/>`QVariantMap`.<sp/><sp/>If<sp/>you<sp/>want<sp/>to<sp/>render<sp/>a<sp/>template<sp/>using<sp/>a<sp/>custom<sp/>data<sp/>source,</highlight></codeline>
+<codeline><highlight class="normal">you<sp/>can<sp/>either<sp/>create<sp/>a<sp/>`QVariantHash`<sp/>which<sp/>mirrors<sp/>the<sp/>data<sp/>source<sp/>or<sp/>you<sp/>can<sp/>re-implement<sp/>`Mustache::Context`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Partials</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>a<sp/>`{{&gt;partial}}`<sp/>Mustache<sp/>tag<sp/>is<sp/>encountered,<sp/>qt-mustache<sp/>will<sp/>attempt<sp/>to<sp/>load<sp/>the<sp/>partial<sp/>using<sp/>a<sp/>`Mustache::PartialResolver`</highlight></codeline>
+<codeline><highlight class="normal">provided<sp/>by<sp/>the<sp/>context.<sp/><sp/>`Mustache::PartialMap`<sp/>is<sp/>a<sp/>simple<sp/>resolver<sp/>which<sp/>takes<sp/>a<sp/>`QHash&lt;QString,QString&gt;`<sp/>map<sp/>of<sp/>partial<sp/>names</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>values<sp/>and<sp/>looks<sp/>up<sp/>partials<sp/>in<sp/>that<sp/>map.<sp/><sp/>`Mustache::PartialFileLoader`<sp/>is<sp/>another<sp/>simple<sp/>resolver<sp/>which</highlight></codeline>
+<codeline><highlight class="normal">fetches<sp/>partials<sp/>from<sp/>`&lt;partial<sp/>name&gt;.mustache`<sp/>files<sp/>in<sp/>a<sp/>specified<sp/>directory.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>re-implement<sp/>the<sp/>`Mustache::PartialResolver`<sp/>interface<sp/>if<sp/>you<sp/>want<sp/>to<sp/>load<sp/>partials<sp/>from<sp/>a<sp/>custom<sp/>source</highlight></codeline>
+<codeline><highlight class="normal">(eg.<sp/>a<sp/>database).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Error<sp/>Handling</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>an<sp/>error<sp/>occurs<sp/>when<sp/>rendering<sp/>a<sp/>template,<sp/>`Mustache::Renderer::errorPosition()`<sp/>is<sp/>set<sp/>to<sp/>non-negative<sp/>value<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">template<sp/>rendering<sp/>stops.<sp/><sp/>If<sp/>the<sp/>error<sp/>occurs<sp/>whilst<sp/>rendering<sp/>a<sp/>partial<sp/>template,<sp/>`errorPartial()`<sp/>contains<sp/>the<sp/>name</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>the<sp/>partial.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Lambdas</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>[Mustache<sp/>manual](http://mustache.github.com/mustache.5.html)<sp/>provides<sp/>a<sp/>mechanism<sp/>to<sp/>customize<sp/>rendering<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">template<sp/>sections<sp/>by<sp/>setting<sp/>the<sp/>value<sp/>for<sp/>a<sp/>tag<sp/>to<sp/>a<sp/>callable<sp/>object<sp/>(eg.<sp/>a<sp/>lambda<sp/>in<sp/>Ruby<sp/>or<sp/>Javascript),</highlight></codeline>
+<codeline><highlight class="normal">which<sp/>takes<sp/>the<sp/>unrendered<sp/>block<sp/>of<sp/>text<sp/>for<sp/>a<sp/>template<sp/>section<sp/>and<sp/>renders<sp/>it<sp/>itself.<sp/><sp/>qt-mustache<sp/>supports</highlight></codeline>
+<codeline><highlight class="normal">this<sp/>via<sp/>the<sp/>`Context::canEval()`<sp/>and<sp/>`Context::eval()`<sp/>methods.</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/README.md"/>
+  </compounddef>
+</doxygen>

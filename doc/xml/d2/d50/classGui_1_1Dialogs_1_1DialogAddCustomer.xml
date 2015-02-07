@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" kind="class" prot="public">
+    <compoundname>Gui::Dialogs::DialogAddCustomer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="d3/d2c/dialogaddcustomer_8h" local="no">dialogaddcustomer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a6dbdba36c71ba5af2034b508ac9ec025" prot="private" static="no" mutable="no">
+        <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &gt;</type>
+        <definition>QSharedPointer&lt;Models::Customer&gt; Gui::Dialogs::DialogAddCustomer::_custom</definition>
+        <argsstring></argsstring>
+        <name>_custom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="55" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1aa31249bbb4bf8e3c1c8edcd68368ef84" prot="private" static="no" mutable="no">
+        <type>Ui::DialogAddCustomer *</type>
+        <definition>Ui::DialogAddCustomer* Gui::Dialogs::DialogAddCustomer::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="56" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a7ac689e5bcf3c4e28426016b5a2f1478" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Dialogs::DialogAddCustomer::DialogAddCustomer</definition>
+        <argsstring>(int id=0, QWidget *parent=0)</argsstring>
+        <name>DialogAddCustomer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" kindref="compound">DialogAddCustomer</ref> Construct a window to add/modify a Customer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Customer id </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget parent </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="30" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="7" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1aec356e1f2bae99bef7f3dafe4305bbd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Dialogs::DialogAddCustomer::~DialogAddCustomer</definition>
+        <argsstring>()</argsstring>
+        <name>~DialogAddCustomer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a25d53880ea053c960ee621fec29afb36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::DialogAddCustomer::fillFields</definition>
+        <argsstring>()</argsstring>
+        <name>fillFields</name>
+        <briefdescription>
+<para>fillFields If the Customer exits, fill line edits with the data of the current Customer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="37" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="24" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab9f488af3fdfbf0ca9851cc59946dd5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::DialogAddCustomer::accept</definition>
+        <argsstring>()</argsstring>
+        <name>accept</name>
+        <briefdescription>
+<para>accept Valid data inputed by user and add these data in <ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="42" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="38" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::DialogAddCustomer::reject</definition>
+        <argsstring>()</argsstring>
+        <name>reject</name>
+        <briefdescription>
+<para>reject Cancel the operation and close the windows </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="47" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::DialogAddCustomer::checkFields</definition>
+        <argsstring>()</argsstring>
+        <name>checkFields</name>
+        <briefdescription>
+<para>setFieldsComponents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="52" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.cpp" bodystart="66" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" kindref="compound">DialogAddCustomer</ref> class Window to add or modify a Customer. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Cédric Rohaut </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="220">
+        <label>Gui::Dialogs::DialogAddCustomer</label>
+        <link refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="222">
+        <label>Gui::Dialogs::DialogAddCustomer</label>
+        <link refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" line="21" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h" bodystart="20" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a6dbdba36c71ba5af2034b508ac9ec025" prot="private" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>_custom</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab9f488af3fdfbf0ca9851cc59946dd5d" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>accept</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>checkFields</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a7ac689e5bcf3c4e28426016b5a2f1478" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>DialogAddCustomer</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a25d53880ea053c960ee621fec29afb36" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>fillFields</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>reject</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1aa31249bbb4bf8e3c1c8edcd68368ef84" prot="private" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>ui</name></member>
+      <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1aec356e1f2bae99bef7f3dafe4305bbd8" prot="public" virt="non-virtual"><scope>Gui::Dialogs::DialogAddCustomer</scope><name>~DialogAddCustomer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,6 +2,7 @@ var NAVTREE =
 [
   [ "FactDev", "index.html", [
     [ "FactDev documentation", "index.html", null ],
+    [ "README", "d2/d70/md_src_libs_qt-mustache_README.html", null ],
     [ "QTestRunner", "dc/d04/md_tests_QTestRunner_README.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
@@ -13,6 +14,9 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -25,8 +29,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#ad5f6041f0f540c6d32b9feb7f139fa53",
-"dir_0eead514b9ed4592c90e101ed422560f.html"
+"d7/d29/classCheckSiretNumber.html",
+"de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

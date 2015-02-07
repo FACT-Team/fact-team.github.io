@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="db/db3/classUtils_1_1Log" kind="class" prot="public">
+    <compoundname>Utils::Log</compoundname>
+    <includes refid="d7/d7f/log_8h" local="no">log.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/db3/classUtils_1_1Log_1a05d59caa5f24307dd6fe8838508731dc" prot="private" static="yes" mutable="no">
+        <type><ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> *</type>
+        <definition>Log * Utils::Log::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para><ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> instance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="60" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/db3/classUtils_1_1Log_1a67a856e304d9fa07b177d415548926a7" prot="private" static="yes" mutable="no">
+        <type>TypeLog</type>
+        <definition>TypeLog Utils::Log::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <initializer>= INFO</initializer>
+        <briefdescription>
+<para>Type of log, WARNING, ERROR, INFO. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="61" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/db3/classUtils_1_1Log_1a72a7373e2a26b243e1d7e6e523165e04" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* Utils::Log::_file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+<para>The file for writing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="63" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1aea616362bc63f99499e3964d5dc759d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> &amp;</type>
+        <definition>Log &amp; Utils::Log::instance</definition>
+        <argsstring>(TypeLog type=INFO)</argsstring>
+        <name>instance</name>
+        <param>
+          <type>TypeLog</type>
+          <declname>type</declname>
+          <defval>INFO</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="db/db3/classUtils_1_1Log_1aea616362bc63f99499e3964d5dc759d2" kindref="member">Log::instance</ref>. Return the instance of logger. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of log : WARNING, INFO, ERROR </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Instance of logger. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="30" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="18" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1a659ea51c0749983cf9bba0274aa10184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Log::~Log</definition>
+        <argsstring>()</argsstring>
+        <name>~Log</name>
+        <briefdescription>
+<para><ref refid="db/db3/classUtils_1_1Log_1a659ea51c0749983cf9bba0274aa10184" kindref="member">Log::~Log</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1a9f21042e13648171da95b27830e91c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::Log::write</definition>
+        <argsstring>(const QString text)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="db/db3/classUtils_1_1Log_1a9f21042e13648171da95b27830e91c75" kindref="member">Log::write</ref>. Write log message in file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="41" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Log::Log</definition>
+        <argsstring>()</argsstring>
+        <name>Log</name>
+        <briefdescription>
+<para><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log::Log</ref>. <ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="46" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="7" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="db/db3/classUtils_1_1Log_1a1ecba3328cadecbbd7d65ae2852171fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend <ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> &amp;</type>
+        <definition>Log&amp; operator&lt;&lt;</definition>
+        <argsstring>(Log &amp;logger, const QString &amp;text)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type><ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> &amp;</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>operator &lt;&lt; for log writing </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logger</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Instance of Logger </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text to write </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>New logger. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="54" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1af5ea81fa1f2111de9cd4aadf7d6d1e46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Utils::Log::head</definition>
+        <argsstring>()</argsstring>
+        <name>head</name>
+        <briefdescription>
+<para>Log::head. Head of log instruction. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The head instruction : date Version logType </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="69" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db3/classUtils_1_1Log_1a7399b9a0de93095829ceccfa6dfaa823" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Utils::Log::typeLog2String</definition>
+        <argsstring>(TypeLog type)</argsstring>
+        <name>typeLog2String</name>
+        <param>
+          <type>TypeLog</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Log::typeLog2String. Display keyword in function of TypeLog. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type : INFO? ERROR, WARNING </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="dd/df6/classUtils_1_1String" kindref="compound">String</ref> KeyWord </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="76" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="db/db3/classUtils_1_1Log" kindref="compound">Log</ref> class for Simple management of log. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="247">
+        <label>Utils::Log</label>
+        <link refid="db/db3/classUtils_1_1Log"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" line="23" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.h" bodystart="22" bodyend="77"/>
+    <listofallmembers>
+      <member refid="db/db3/classUtils_1_1Log_1a72a7373e2a26b243e1d7e6e523165e04" prot="private" virt="non-virtual"><scope>Utils::Log</scope><name>_file</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a05d59caa5f24307dd6fe8838508731dc" prot="private" virt="non-virtual"><scope>Utils::Log</scope><name>_instance</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a67a856e304d9fa07b177d415548926a7" prot="private" virt="non-virtual"><scope>Utils::Log</scope><name>_type</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1af5ea81fa1f2111de9cd4aadf7d6d1e46" prot="private" virt="non-virtual"><scope>Utils::Log</scope><name>head</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1aea616362bc63f99499e3964d5dc759d2" prot="public" virt="non-virtual"><scope>Utils::Log</scope><name>instance</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" prot="public" virt="non-virtual"><scope>Utils::Log</scope><name>Log</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a1ecba3328cadecbbd7d65ae2852171fc" prot="public" virt="non-virtual"><scope>Utils::Log</scope><name>operator&lt;&lt;</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a7399b9a0de93095829ceccfa6dfaa823" prot="private" virt="non-virtual"><scope>Utils::Log</scope><name>typeLog2String</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a9f21042e13648171da95b27830e91c75" prot="public" virt="non-virtual"><scope>Utils::Log</scope><name>write</name></member>
+      <member refid="db/db3/classUtils_1_1Log_1a659ea51c0749983cf9bba0274aa10184" prot="public" virt="non-virtual"><scope>Utils::Log</scope><name>~Log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

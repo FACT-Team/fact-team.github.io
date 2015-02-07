@@ -1,0 +1,61 @@
+\href{https://travis-ci.org/robertknight/qt-mustache}{\tt !\mbox{[}Build Status\mbox{]}(https\+://travis-\/ci.\+org/robertknight/qt-\/mustache.\+svg?branch=master)}
+
+\section*{Qt Mustache}
+
+qt-\/mustache is a simple library for rendering \href{http://mustache.github.com/}{\tt Mustache templates}.
+
+\subsubsection*{Example Usage}
+
+```cpp \#include \char`\"{}mustache.\+h\char`\"{}
+
+Q\+Variant\+Hash contact; contact\mbox{[}\char`\"{}name\char`\"{}\mbox{]} = \char`\"{}\+John Smith\char`\"{}; contact\mbox{[}\char`\"{}email\char`\"{}\mbox{]} = \char`\"{}john.\+smith@gmail.\+com\char`\"{};
+
+Q\+String contact\+Template = \char`\"{}$<$b$>$\{\{name\}\}$<$/b$>$ $<$a href=\textbackslash{}\char`\"{}mailto\+:\{\{email\}\}"$>$\{\{email\}\}";
+
+\hyperlink{classMustache_1_1Renderer}{Mustache\+::\+Renderer} renderer; \hyperlink{classMustache_1_1QtVariantContext}{Mustache\+::\+Qt\+Variant\+Context} context(contact);
+
+Q\+Text\+Stream output(stdout); output $<$$<$ renderer.\+render(contact\+Template, \&context); ```
+
+Outputs\+: {\ttfamily $<$b$>$John Smith$<$/b$>$ $<$a href=\char`\"{}mailto\+:john.\+smith\textbackslash{}@gmail.\+com\char`\"{}$>$john.\+smith@gmail.\+com$<$/a$>$}
+
+For further examples, see the tests in {\ttfamily test\+\_\+mustache.\+cpp}
+
+\subsubsection*{Building}
+
+
+\begin{DoxyItemize}
+\item To build the tests, run {\ttfamily qmake} followed by {\ttfamily make}
+\item To use qt-\/mustache in your project, just add the {\ttfamily \hyperlink{mustache_8h_source}{mustache.\+h}} and {\ttfamily mustache.\+cpp} files to your project.
+\end{DoxyItemize}
+
+\subsubsection*{License}
+
+qt-\/mustache is licensed under the B\+S\+D license.
+
+\subsubsection*{Dependencies}
+
+qt-\/mustache depends on the Qt\+Core library. It is compatible with Qt 4 and Qt 5.
+
+\subsection*{Usage}
+
+\subsubsection*{Syntax}
+
+qt-\/mustache uses the standard Mustache syntax. See the \href{http://mustache.github.com/mustache.5.html}{\tt Mustache manual} for details.
+
+\subsubsection*{Data Sources}
+
+qt-\/mustache expands Mustache tags using values from a {\ttfamily \hyperlink{classMustache_1_1Context}{Mustache\+::\+Context}}. {\ttfamily \hyperlink{classMustache_1_1QtVariantContext}{Mustache\+::\+Qt\+Variant\+Context}} is a simple context implementation which wraps a {\ttfamily Q\+Variant\+Hash} or {\ttfamily Q\+Variant\+Map}. If you want to render a template using a custom data source, you can either create a {\ttfamily Q\+Variant\+Hash} which mirrors the data source or you can re-\/implement {\ttfamily \hyperlink{classMustache_1_1Context}{Mustache\+::\+Context}}.
+
+\subsubsection*{Partials}
+
+When a {\ttfamily \{\{$>$partial\}\}} Mustache tag is encountered, qt-\/mustache will attempt to load the partial using a {\ttfamily \hyperlink{classMustache_1_1PartialResolver}{Mustache\+::\+Partial\+Resolver}} provided by the context. {\ttfamily \hyperlink{classMustache_1_1PartialMap}{Mustache\+::\+Partial\+Map}} is a simple resolver which takes a {\ttfamily Q\+Hash$<$Q\+String,Q\+String$>$} map of partial names to values and looks up partials in that map. {\ttfamily \hyperlink{classMustache_1_1PartialFileLoader}{Mustache\+::\+Partial\+File\+Loader}} is another simple resolver which fetches partials from {\ttfamily $<$partial name$>$.mustache} files in a specified directory.
+
+You can re-\/implement the {\ttfamily \hyperlink{classMustache_1_1PartialResolver}{Mustache\+::\+Partial\+Resolver}} interface if you want to load partials from a custom source (eg. a database).
+
+\subsubsection*{Error Handling}
+
+If an error occurs when rendering a template, {\ttfamily Mustache\+::\+Renderer\+::error\+Position()} is set to non-\/negative value and template rendering stops. If the error occurs whilst rendering a partial template, {\ttfamily error\+Partial()} contains the name of the partial.
+
+\subsubsection*{Lambdas}
+
+The \href{http://mustache.github.com/mustache.5.html}{\tt Mustache manual} provides a mechanism to customize rendering of template sections by setting the value for a tag to a callable object (eg. a lambda in Ruby or Javascript), which takes the unrendered block of text for a template section and renders it itself. qt-\/mustache supports this via the {\ttfamily Context\+::can\+Eval()} and {\ttfamily Context\+::eval()} methods. 

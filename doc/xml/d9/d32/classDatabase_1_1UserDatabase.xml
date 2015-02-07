@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d9/d32/classDatabase_1_1UserDatabase" kind="class" prot="public">
+    <compoundname>Database::UserDatabase</compoundname>
+    <basecompoundref refid="da/d8e/classDatabase_1_1Database" prot="public" virt="non-virtual">Database::Database</basecompoundref>
+    <includes refid="d2/dbc/userdatabase_8h" local="no">userdatabase.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d9/d32/classDatabase_1_1UserDatabase_1a39273fd0f6da8bd39161a3251a1235c3" prot="private" static="yes" mutable="no">
+        <type><ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref> *</type>
+        <definition>UserDatabase * Database::UserDatabase::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Singleton instance of <ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="20" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d32/classDatabase_1_1UserDatabase_1abd2c8a2837f75c2c4f63f95345d9f518" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Database::UserDatabase::UserDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>UserDatabase</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref>: is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d32/classDatabase_1_1UserDatabase_1ac8cdf7dc9b0163d832ca473973916952" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref> *</type>
+        <definition>UserDatabase * Database::UserDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>UserDatabase::getInstance Return an instance of <ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Instance of <ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.cpp" bodystart="12" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d32/classDatabase_1_1UserDatabase_1a1b35f88b06fc54521bb72acd1fbbdc1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItemModel *</type>
+        <definition>QStandardItemModel* Database::UserDatabase::getUserTable</definition>
+        <argsstring>()</argsstring>
+        <name>getUserTable</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>getUserTable Return an item model of User for QTableView </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QStandardItemModel an item model </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d32/classDatabase_1_1UserDatabase_1ad05795be223fef14a114d712aebef2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d68/classModels_1_1User" kindref="compound">Models::User</ref> *</type>
+        <definition>Models::User * Database::UserDatabase::getUser</definition>
+        <argsstring>(const int pId=1)</argsstring>
+        <name>getUser</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>getUser Get informations about the user (identified by &apos;pId&apos;) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user id (1 default) * </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the user </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="44" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.cpp" bodystart="20" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d32/classDatabase_1_1UserDatabase_1af00cc95c910ab6ca3dbeef591531ae2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Database::UserDatabase::updateUser</definition>
+        <argsstring>(const Models::User &amp;)</argsstring>
+        <name>updateUser</name>
+        <param>
+          <type>const <ref refid="df/d68/classModels_1_1User" kindref="compound">Models::User</ref> &amp;</type>
+          <defname>pUser</defname>
+        </param>
+        <briefdescription>
+<para>updateUser Update informations about the user </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="49" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.cpp" bodystart="57" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d9/d32/classDatabase_1_1UserDatabase" kindref="compound">UserDatabase</ref> class Access to User data in the the table User of the <bold><ref refid="da/d8e/classDatabase_1_1Database" kindref="compound">Database</ref></bold> </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
+<simplesect kind="see"><para><ref refid="da/d8e/classDatabase_1_1Database" kindref="compound">Database</ref> </para></simplesect>
+<simplesect kind="see"><para>User </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>Database::UserDatabase</label>
+        <link refid="d9/d32/classDatabase_1_1UserDatabase"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>Database::Database</label>
+        <link refid="da/d8e/classDatabase_1_1Database"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>Database::UserDatabase</label>
+        <link refid="d9/d32/classDatabase_1_1UserDatabase"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>Database::Database</label>
+        <link refid="da/d8e/classDatabase_1_1Database"/>
+        <childnode refid="330" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" line="18" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h" bodystart="17" bodyend="51"/>
+    <listofallmembers>
+      <member refid="da/d8e/classDatabase_1_1Database_1ae14d34aebe8f014c101d9fdc0cdb0daf" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>_dbInstance</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1a39273fd0f6da8bd39161a3251a1235c3" prot="private" virt="non-virtual"><scope>Database::UserDatabase</scope><name>_instance</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1ac57a668c068a49b734c0407235848f54" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>_instances</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a2b8055481c0231dab258d0446781a94d" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>_settings</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a474fda5b2ee6cd1391f72ad5fe297ba5" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>cleanDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1af4d88f98b0ce31369af5bbf4fd167664" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>close</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7cb02c000e1bc3614aeda31ea6c13069" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>closeTransaction</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a4edb5ae1db1def878a728ce284d07871" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>createDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7c8f22f12dd131087a37f0b8222a3f63" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>Database</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a8fa0ebf8b613b8c25f2485dee5c332f3" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>executeFile</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1ad05795be223fef14a114d712aebef2e6" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>getUser</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1a1b35f88b06fc54521bb72acd1fbbdc1e" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>getUserTable</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1ac8cdf7dc9b0163d832ca473973916952" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>instance</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a7d0456fa60dffbdf454efdb5288b7a0f" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>isOpen</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aff2b9057350d618d9f126a0e6ac6be42" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>lastError</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a6c63e366e01da448bc43c8a463c6eabd" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>mDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aa12f5d991eb4d61ef0c6a0bc653f2580" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>open</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a657a65d7c085ef1b3fbc956d5c837ec0" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>openTransaction</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1acf027fd52b0669b1248cbb75e621c36a" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>setDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a77460984575eb485e3c6dcfc713e0e67" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>testCases</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1ac0ea3c8fe13b47917a499ffa9ace1f1b" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>updateBillingNumber</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1af00cc95c910ab6ca3dbeef591531ae2b" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>updateUser</name></member>
+      <member refid="d9/d32/classDatabase_1_1UserDatabase_1abd2c8a2837f75c2c4f63f95345d9f518" prot="private" virt="non-virtual"><scope>Database::UserDatabase</scope><name>UserDatabase</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1aeddc953300288d633881cf9bb6a4264e" prot="protected" virt="non-virtual"><scope>Database::UserDatabase</scope><name>value</name></member>
+      <member refid="da/d8e/classDatabase_1_1Database_1a52d0d890cef301f3dfb61121cf2c375b" prot="public" virt="non-virtual"><scope>Database::UserDatabase</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

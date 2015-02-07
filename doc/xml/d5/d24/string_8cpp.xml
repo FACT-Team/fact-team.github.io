@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d5/d24/string_8cpp" kind="file">
+    <compoundname>string.cpp</compoundname>
+    <includes refid="da/d66/string_8h" local="yes">string.h</includes>
+    <incdepgraph>
+      <node id="2043">
+        <label>QString</label>
+      </node>
+      <node id="2041">
+        <label>src/utils/string.cpp</label>
+        <link refid="string.cpp"/>
+        <childnode refid="2042" relation="include">
+        </childnode>
+      </node>
+      <node id="2042">
+        <label>string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="2043" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d4/d3d/namespaceUtils">Utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">QString<sp/><ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">String::firstLetterToUpper</ref>(QString<sp/>s)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s.replace(0,<sp/>1,<sp/>s[0].toUpper());</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/string.cpp"/>
+  </compounddef>
+</doxygen>

@@ -6,6 +6,15 @@ var annotated =
     ] ],
     [ "Gui", "d9/dad/namespaceGui.html", "d9/dad/namespaceGui" ],
     [ "Models", "dd/d20/namespaceModels.html", "dd/d20/namespaceModels" ],
+    [ "Mustache", null, [
+      [ "Context", "d7/d34/classMustache_1_1Context.html", "d7/d34/classMustache_1_1Context" ],
+      [ "PartialFileLoader", "da/d31/classMustache_1_1PartialFileLoader.html", "da/d31/classMustache_1_1PartialFileLoader" ],
+      [ "PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", "dc/d1a/classMustache_1_1PartialMap" ],
+      [ "PartialResolver", "d0/dce/classMustache_1_1PartialResolver.html", "d0/dce/classMustache_1_1PartialResolver" ],
+      [ "QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", "d5/d8b/classMustache_1_1QtVariantContext" ],
+      [ "Renderer", "dc/d58/classMustache_1_1Renderer.html", "dc/d58/classMustache_1_1Renderer" ],
+      [ "Tag", "d5/dc2/structMustache_1_1Tag.html", "d5/dc2/structMustache_1_1Tag" ]
+    ] ],
     [ "Utils", null, [
       [ "ItemType", "d5/d7c/classUtils_1_1ItemType.html", "d5/d7c/classUtils_1_1ItemType" ],
       [ "Log", "db/db3/classUtils_1_1Log.html", "db/db3/classUtils_1_1Log" ],
@@ -25,6 +34,7 @@ var annotated =
     [ "CheckUntilField", "dc/db9/classCheckUntilField.html", "dc/db9/classCheckUntilField" ],
     [ "CheckValidField", "dc/d93/classCheckValidField.html", "dc/d93/classCheckValidField" ],
     [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
+    [ "CounterContext", "db/da6/classCounterContext.html", "db/da6/classCounterContext" ],
     [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", "d2/d63/classCustomerDatabaseTest" ],
     [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", "d5/dcd/classCustomerModelTest" ],
     [ "ICheckField", "d5/d75/classICheckField.html", "d5/d75/classICheckField" ],
@@ -32,5 +42,6 @@ var annotated =
     [ "searchTest", "d7/d51/classsearchTest.html", "d7/d51/classsearchTest" ],
     [ "testadder", "d7/d26/classtestadder.html", "d7/d26/classtestadder" ],
     [ "TestAdder", "d0/d9b/classTestAdder.html", "d0/d9b/classTestAdder" ],
+    [ "TestMustache", "de/d63/classTestMustache.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", "db/d70/classTestRunner" ]
 ];

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d6/df9/customercontextualmenu_8h" kind="file">
+    <compoundname>customercontextualmenu.h</compoundname>
+    <includes local="no">QMenu</includes>
+    <includedby refid="d1/def/customercontextualmenu_8cpp" local="yes">src/gui/widgets/customercontextualmenu.cpp</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">src/mainwindow.h</includedby>
+    <incdepgraph>
+      <node id="1051">
+        <label>QMenu</label>
+      </node>
+      <node id="1050">
+        <label>src/gui/widgets/customercontextualmenu.h</label>
+        <link refid="customercontextualmenu.h"/>
+        <childnode refid="1051" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1055">
+        <label>src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+      <node id="1053">
+        <label>src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="1054" relation="include">
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>src/gui/widgets/customercontextualmenu.h</label>
+        <link refid="customercontextualmenu.h"/>
+        <childnode refid="1053" relation="include">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" prot="public">Gui::Widgets::CustomerContextualMenu</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERCONTEXTUALMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERCONTEXTUALMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMenu&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" kindref="compound">CustomerContextualMenu</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMenu</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu_1ab8fc199bd6adf21f7dd5e881e0a73b16" kindref="member">CustomerContextualMenu</ref>(QWidget*<sp/>w=0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu_1a6814dcf744752f9026c85a9640cf23ef" kindref="member">~CustomerContextualMenu</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>QAction*<sp/>_removeAction;<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QAction*<sp/>_editAction;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QAction*<sp/>_openAction;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERCONTEXTUALMENU_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/customercontextualmenu.h"/>
+  </compounddef>
+</doxygen>

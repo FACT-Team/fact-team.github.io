@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="db/d70/classTestRunner" kind="class" prot="public">
+    <compoundname>TestRunner</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d70/classTestRunner_1a2153fa757645f17a6d752486d814a0dc" prot="private" static="no" mutable="no">
+        <type>std::list&lt; QSharedPointer&lt; QObject &gt; &gt;</type>
+        <definition>std::list&lt;QSharedPointer&lt;QObject&gt; &gt; TestRunner::m_tests</definition>
+        <argsstring></argsstring>
+        <name>m_tests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" line="38" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d70/classTestRunner_1a4707c4680c85ce622fc375efcf39fc25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/d70/classTestRunner" kindref="compound">TestRunner</ref> &amp;</type>
+        <definition>TestRunner &amp; TestRunner::Instance</definition>
+        <argsstring>()</argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" line="23" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d70/classTestRunner_1affb5703febccf285914b08ce39e7396f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>char</type>
+        <definition>char TestRunner::RegisterTest</definition>
+        <argsstring>(QString name)</argsstring>
+        <name>RegisterTest</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" line="25" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d70/classTestRunner_1a0a247b43d9154ab88b489051d22221e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TestRunner::RunAll</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>RunAll</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.cpp" bodystart="8" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="322">
+        <label>TestRunner</label>
+        <link refid="db/d70/classTestRunner"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" line="21" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testrunner.h" bodystart="20" bodyend="39"/>
+    <listofallmembers>
+      <member refid="db/d70/classTestRunner_1a4707c4680c85ce622fc375efcf39fc25" prot="public" virt="non-virtual"><scope>TestRunner</scope><name>Instance</name></member>
+      <member refid="db/d70/classTestRunner_1a2153fa757645f17a6d752486d814a0dc" prot="private" virt="non-virtual"><scope>TestRunner</scope><name>m_tests</name></member>
+      <member refid="db/d70/classTestRunner_1affb5703febccf285914b08ce39e7396f" prot="public" virt="non-virtual"><scope>TestRunner</scope><name>RegisterTest</name></member>
+      <member refid="db/d70/classTestRunner_1a0a247b43d9154ab88b489051d22221e3" prot="public" virt="non-virtual"><scope>TestRunner</scope><name>RunAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

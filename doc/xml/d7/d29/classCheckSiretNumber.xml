@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d7/d29/classCheckSiretNumber" kind="class" prot="public">
+    <compoundname>CheckSiretNumber</compoundname>
+    <basecompoundref refid="d1/da9/classCheckQLineEdit" prot="public" virt="non-virtual">CheckQLineEdit</basecompoundref>
+    <includes refid="d9/db8/checksiretnumber_8h" local="no">checksiretnumber.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d29/classCheckSiretNumber_1a0581c0a2d6c0c1a62dab77515422b194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckSiretNumber::CheckSiretNumber</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckSiretNumber</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d7/d29/classCheckSiretNumber_1a0581c0a2d6c0c1a62dab77515422b194" kindref="member">CheckSiretNumber::CheckSiretNumber</ref> Construct a <ref refid="d7/d29/classCheckSiretNumber" kindref="compound">CheckSiretNumber</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="d7/d29/classCheckSiretNumber" kindref="compound">CheckSiretNumber</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="16" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d29/classCheckSiretNumber_1aaf0a1411e380789062564bd992e72c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CheckSiretNumber::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d5/d75/classICheckField_1a6bd42b4d49c165cdd92822135123fd4b">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d7/d29/classCheckSiretNumber_1aaf0a1411e380789062564bd992e72c1b" kindref="member">CheckSiretNumber::check</ref> Check if the field noSiret is valid. To be valid, a SIRET number should be composed of numbers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp" bodystart="7" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d7/d29/classCheckSiretNumber" kindref="compound">CheckSiretNumber</ref> class Line Edit with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="122">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="123">
+        <label>QLineEdit</label>
+      </node>
+      <node id="121">
+        <label>CheckSiretNumber</label>
+        <link refid="d7/d29/classCheckSiretNumber"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="127">
+        <label>QLineEdit</label>
+      </node>
+      <node id="125">
+        <label>CheckSiretNumber</label>
+        <link refid="d7/d29/classCheckSiretNumber"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="10" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d7/d29/classCheckSiretNumber_1aaf0a1411e380789062564bd992e72c1b" prot="public" virt="virtual"><scope>CheckSiretNumber</scope><name>check</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1acc48f17bfddb47e4101a7aedbace7783" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>CheckQLineEdit</name></member>
+      <member refid="d7/d29/classCheckSiretNumber_1a0581c0a2d6c0c1a62dab77515422b194" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>CheckSiretNumber</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1aaf3b88a48a806bc6215f685bc45937a5" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a730ae162e31a8c76f5532d3f3c8903c6" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a137569359307e1b17449af3a72c5e80e" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>fieldTextChanged</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a87ea56ee9e7833b77c408be489b116e3" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>getBtnValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a50e64b1790af6edb2c587e098c8b99f8" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>isValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a28bb08ffaac7da25289a7d93639ba00f" prot="public" virt="non-virtual"><scope>CheckSiretNumber</scope><name>setBtnValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

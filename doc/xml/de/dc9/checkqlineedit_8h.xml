@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="de/dc9/checkqlineedit_8h" kind="file">
+    <compoundname>checkqlineedit.h</compoundname>
+    <includes local="no">QLineEdit</includes>
+    <includes local="no">QPushButton</includes>
+    <includes refid="db/d07/icheckfield_8h" local="yes">icheckfield.h</includes>
+    <includedby refid="d7/d52/checkuntilfield_8h" local="yes">src/gui/widgets/checkfields/checkuntilfield.h</includedby>
+    <includedby refid="d8/d8f/checkemail_8h" local="yes">src/gui/widgets/checkfields/checkemail.h</includedby>
+    <includedby refid="d2/d43/checkphone_8cpp" local="yes">src/gui/widgets/checkfields/checkphone.cpp</includedby>
+    <includedby refid="d0/dd5/checkqlineedit_8cpp" local="yes">src/gui/widgets/checkfields/checkqlineedit.cpp</includedby>
+    <includedby refid="d9/db8/checksiretnumber_8h" local="yes">src/gui/widgets/checkfields/checksiretnumber.h</includedby>
+    <includedby refid="d0/d48/checkvalidfield_8h" local="yes">src/gui/widgets/checkfields/checkvalidfield.h</includedby>
+    <incdepgraph>
+      <node id="854">
+        <label>QLineEdit</label>
+      </node>
+      <node id="856">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>QString</label>
+      </node>
+      <node id="855">
+        <label>QPushButton</label>
+      </node>
+      <node id="853">
+        <label>src/gui/widgets/checkfields/checkqlineedit.h</label>
+        <link refid="checkqlineedit.h"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="855" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="868">
+        <label>src/gui/widgets/checkfields/checkvalidfield.h</label>
+        <link refid="d0/d48/checkvalidfield_8h_source"/>
+      </node>
+      <node id="861">
+        <label>src/gui/widgets/checkfields/checkcity.h</label>
+        <link refid="d0/d30/checkcity_8h_source"/>
+      </node>
+      <node id="860">
+        <label>src/gui/widgets/checkfields/checkfieldsletters.h</label>
+        <link refid="d6/df4/checkfieldsletters_8h_source"/>
+        <childnode refid="861" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>src/gui/widgets/checkfields/checkemail.h</label>
+        <link refid="d8/d8f/checkemail_8h_source"/>
+      </node>
+      <node id="859">
+        <label>src/gui/widgets/checkfields/checkuntilfield.h</label>
+        <link refid="d7/d52/checkuntilfield_8h_source"/>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>src/gui/widgets/checkfields/checkphone.h</label>
+        <link refid="d2/dcf/checkphone_8h_source"/>
+      </node>
+      <node id="867">
+        <label>src/gui/widgets/checkfields/checksiretnumber.h</label>
+        <link refid="d9/db8/checksiretnumber_8h_source"/>
+      </node>
+      <node id="863">
+        <label>src/gui/widgets/checkfields/checkname.h</label>
+        <link refid="da/d9e/checkname_8h_source"/>
+      </node>
+      <node id="862">
+        <label>src/gui/widgets/checkfields/checkcountry.h</label>
+        <link refid="d4/d72/checkcountry_8h_source"/>
+      </node>
+      <node id="858">
+        <label>src/gui/widgets/checkfields/checkqlineedit.h</label>
+        <link refid="checkqlineedit.h"/>
+        <childnode refid="859" relation="include">
+        </childnode>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
+      </node>
+      <node id="865">
+        <label>src/gui/widgets/checkfields/checkpostalcode.h</label>
+        <link refid="d5/d31/checkpostalcode_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/da9/classCheckQLineEdit" prot="public">CheckQLineEdit</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CHECKQLINEEDIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHECKQLINEEDIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QLineEdit&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPushButton&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;icheckfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d1/da9/classCheckQLineEdit" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QLineEdit,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d5/d75/classICheckField" kindref="compound">ICheckField</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1acc48f17bfddb47e4101a7aedbace7783" kindref="member">CheckQLineEdit</ref>(QWidget<sp/>*parent<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1a730ae162e31a8c76f5532d3f3c8903c6" kindref="member">displayCheckValidFieldIcon</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1aaf3b88a48a806bc6215f685bc45937a5" kindref="member">displayCheckNoValidFieldIcon</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton<sp/>*<ref refid="d1/da9/classCheckQLineEdit_1a87ea56ee9e7833b77c408be489b116e3" kindref="member">getBtnValid</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1a28bb08ffaac7da25289a7d93639ba00f" kindref="member">setBtnValid</ref>(QPushButton<sp/>*getBtnValid);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1a50e64b1790af6edb2c587e098c8b99f8" kindref="member">isValid</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit_1a137569359307e1b17449af3a72c5e80e" kindref="member">fieldTextChanged</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;text);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton*<sp/>_btnValid;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKQLINEEDIT_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkqlineedit.h"/>
+  </compounddef>
+</doxygen>

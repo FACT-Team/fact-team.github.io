@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d0/ddb/classCheckPhone" kind="class" prot="public">
+    <compoundname>CheckPhone</compoundname>
+    <basecompoundref refid="dc/db9/classCheckUntilField" prot="public" virt="non-virtual">CheckUntilField</basecompoundref>
+    <includes refid="d2/dcf/checkphone_8h" local="no">checkphone.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/ddb/classCheckPhone_1a73c1fe0d3305f56e01335a82bce10dbd" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString CheckPhone::_country</definition>
+        <argsstring></argsstring>
+        <name>_country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="38" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/ddb/classCheckPhone_1a491bceb9add48e7668162fc8ec511550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckPhone::CheckPhone</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckPhone</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d0/ddb/classCheckPhone_1a491bceb9add48e7668162fc8ec511550" kindref="member">CheckPhone::CheckPhone</ref> Construct a <ref refid="d0/ddb/classCheckPhone" kindref="compound">CheckPhone</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="d0/ddb/classCheckPhone" kindref="compound">CheckPhone</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="16" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/ddb/classCheckPhone_1ac60f1428fc89e1b2630db022e14509ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CheckPhone::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d5/d75/classICheckField_1a6bd42b4d49c165cdd92822135123fd4b">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d0/ddb/classCheckPhone_1ac60f1428fc89e1b2630db022e14509ed" kindref="member">CheckPhone::check</ref> Check if the field is valid. To be valid, a name should be composed of a character. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.cpp" bodystart="9" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/ddb/classCheckPhone_1a3dd528db0e731b23df0524e41415d05e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString CheckPhone::getCountry</definition>
+        <argsstring>() const </argsstring>
+        <name>getCountry</name>
+        <briefdescription>
+<para><ref refid="d0/ddb/classCheckPhone_1a3dd528db0e731b23df0524e41415d05e" kindref="member">CheckPhone::getCountry</ref> Return the country linked to current field. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="30" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/ddb/classCheckPhone_1a2a4a30d0a69611f72c539cc17919ccc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CheckPhone::setCountry</definition>
+        <argsstring>(const QString &amp;country)</argsstring>
+        <name>setCountry</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d0/ddb/classCheckPhone_1a2a4a30d0a69611f72c539cc17919ccc9" kindref="member">CheckPhone::setCountry</ref> Modify the <emphasis>country</emphasis> linked to field. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>country</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New country </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d0/ddb/classCheckPhone" kindref="compound">CheckPhone</ref> class Line Edit of Phone number with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="85">
+        <label>CheckPhone</label>
+        <link refid="d0/ddb/classCheckPhone"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="88">
+        <label>QLineEdit</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>CheckPhone</label>
+        <link refid="d0/ddb/classCheckPhone"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>CheckQLineEdit</label>
+        <link refid="d1/da9/classCheckQLineEdit"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>CheckUntilField</label>
+        <link refid="dc/db9/classCheckUntilField"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>ICheckField</label>
+        <link refid="d5/d75/classICheckField"/>
+      </node>
+      <node id="93">
+        <label>QLineEdit</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" line="10" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkphone.h" bodystart="9" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d0/ddb/classCheckPhone_1a73c1fe0d3305f56e01335a82bce10dbd" prot="private" virt="non-virtual"><scope>CheckPhone</scope><name>_country</name></member>
+      <member refid="d0/ddb/classCheckPhone_1ac60f1428fc89e1b2630db022e14509ed" prot="public" virt="virtual"><scope>CheckPhone</scope><name>check</name></member>
+      <member refid="d0/ddb/classCheckPhone_1a491bceb9add48e7668162fc8ec511550" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>CheckPhone</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1acc48f17bfddb47e4101a7aedbace7783" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>CheckQLineEdit</name></member>
+      <member refid="dc/db9/classCheckUntilField_1a7b3789fe02959e488b35a0e79362f786" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>CheckUntilField</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1aaf3b88a48a806bc6215f685bc45937a5" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a730ae162e31a8c76f5532d3f3c8903c6" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a137569359307e1b17449af3a72c5e80e" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>fieldTextChanged</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a87ea56ee9e7833b77c408be489b116e3" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>getBtnValid</name></member>
+      <member refid="d0/ddb/classCheckPhone_1a3dd528db0e731b23df0524e41415d05e" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>getCountry</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a50e64b1790af6edb2c587e098c8b99f8" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>isValid</name></member>
+      <member refid="d1/da9/classCheckQLineEdit_1a28bb08ffaac7da25289a7d93639ba00f" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>setBtnValid</name></member>
+      <member refid="d0/ddb/classCheckPhone_1a2a4a30d0a69611f72c539cc17919ccc9" prot="public" virt="non-virtual"><scope>CheckPhone</scope><name>setCountry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

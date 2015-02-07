@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d8/d9c/database_8h" kind="file">
+    <compoundname>database.h</compoundname>
+    <includes local="no">QtSql/QSql</includes>
+    <includes local="no">QtSql/QSqlQuery</includes>
+    <includes local="no">QtSql/QSqlError</includes>
+    <includes local="no">QtSql/QSqlRecord</includes>
+    <includes local="no">QStandardItemModel</includes>
+    <includes local="no">QSettings</includes>
+    <includes local="no">QStandardItem</includes>
+    <includes local="no">QDate</includes>
+    <includes local="no">QCoreApplication</includes>
+    <includes local="no">QFile</includes>
+    <includes local="no">exception</includes>
+    <includes refid="da/de0/dbexception_8h" local="yes">exceptions/dbexception.h</includes>
+    <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
+    <includes refid="d6/d3b/parameters_8h" local="yes">parameters.h</includes>
+    <includedby refid="d2/dd1/billingdatabase_8h" local="yes">src/database/billingdatabase.h</includedby>
+    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">src/database/contributorydatabase.h</includedby>
+    <includedby refid="d1/d70/customerdatabase_8h" local="yes">src/database/customerdatabase.h</includedby>
+    <includedby refid="da/d7b/database_8cpp" local="yes">src/database/database.cpp</includedby>
+    <includedby refid="d9/dfd/projectdatabase_8h" local="yes">src/database/projectdatabase.h</includedby>
+    <includedby refid="d2/dbc/userdatabase_8h" local="yes">src/database/userdatabase.h</includedby>
+    <incdepgraph>
+      <node id="243">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>QSettings</label>
+      </node>
+      <node id="232">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="247">
+        <label>QMessageBox</label>
+      </node>
+      <node id="233">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="246">
+        <label>stdexcept</label>
+      </node>
+      <node id="236">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="235">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="238">
+        <label>QStandardItem</label>
+      </node>
+      <node id="242">
+        <label>exception</label>
+      </node>
+      <node id="250">
+        <label>QDebug</label>
+      </node>
+      <node id="244">
+        <label>sstream</label>
+      </node>
+      <node id="239">
+        <label>QDate</label>
+      </node>
+      <node id="251">
+        <label>QString</label>
+      </node>
+      <node id="241">
+        <label>QFile</label>
+      </node>
+      <node id="248">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="245">
+        <label>iostream</label>
+      </node>
+      <node id="249">
+        <label>QTextStream</label>
+      </node>
+      <node id="252">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>src/database/database.h</label>
+        <link refid="database.h"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="264">
+        <label>src/database/customerdatabase.h</label>
+        <link refid="d1/d70/customerdatabase_8h_source"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+      <node id="262">
+        <label>src/utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
+      </node>
+      <node id="260">
+        <label>src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>tests/database/billingdatabasetest.h</label>
+        <link refid="d9/d01/billingdatabasetest_8h_source"/>
+      </node>
+      <node id="267">
+        <label>src/database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>src/gui/widgets/comboboxmodelwidget.h</label>
+        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
+      </node>
+      <node id="268">
+        <label>src/database/userdatabase.h</label>
+        <link refid="d2/dbc/userdatabase_8h_source"/>
+      </node>
+      <node id="253">
+        <label>src/database/database.h</label>
+        <link refid="database.h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>src/gui/widgets/searchwidget.h</label>
+        <link refid="d7/d15/searchwidget_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="da/d8e/classDatabase_1_1Database" prot="public">Database::Database</innerclass>
+    <innernamespace refid="dc/d4f/namespaceDatabase">Database</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Database_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Database_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSql&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlRecord&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardItemModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSettings&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardItem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QCoreApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFile&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;parameters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dda/namespaceExceptions" kindref="compound">Exceptions</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref><sp/>{</highlight></codeline>
+<codeline lineno="33" refid="da/d8e/classDatabase_1_1Database" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref>*<sp/>instance()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><sp/>lastError(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QSqlQuery&amp;<sp/>q);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>testCases();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cleanDatabase();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>executeFile(QString<sp/>pName);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openTransaction();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>closeTransaction();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>close();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>open();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDatabase(QSqlDatabase<sp/>sql);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createDatabase();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateBillingNumber();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref>()</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="da/d8e/classDatabase_1_1Database_1a45c615cdb03c353a52dcb1a9fffc2393" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref>*<sp/><ref refid="da/d8e/classDatabase_1_1Database_1a45c615cdb03c353a52dcb1a9fffc2393" kindref="member">_instance</ref>;<sp/></highlight></codeline>
+<codeline lineno="109" refid="da/d8e/classDatabase_1_1Database_1ae14d34aebe8f014c101d9fdc0cdb0daf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d8e/classDatabase_1_1Database_1ae14d34aebe8f014c101d9fdc0cdb0daf" kindref="member">_dbInstance</ref>;<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="da/d8e/classDatabase_1_1Database_1a2b8055481c0231dab258d0446781a94d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSettings*<sp/><ref refid="da/d8e/classDatabase_1_1Database_1a2b8055481c0231dab258d0446781a94d" kindref="member">_settings</ref>;<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="da/d8e/classDatabase_1_1Database_1a6c63e366e01da448bc43c8a463c6eabd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/><ref refid="da/d8e/classDatabase_1_1Database_1a6c63e366e01da448bc43c8a463c6eabd" kindref="member">mDatabase</ref>;<sp/></highlight></codeline>
+<codeline lineno="114" refid="da/d8e/classDatabase_1_1Database_1ac57a668c068a49b734c0407235848f54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Database*&gt;<sp/><ref refid="da/d8e/classDatabase_1_1Database_1ac57a668c068a49b734c0407235848f54" kindref="member">_instances</ref>;<sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="da/d8e/classDatabase_1_1Database_1a7d0456fa60dffbdf454efdb5288b7a0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d8e/classDatabase_1_1Database_1a7d0456fa60dffbdf454efdb5288b7a0f" kindref="member">isOpen</ref>;<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariant<sp/>value(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QSqlQuery&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>champ);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>Database_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/database.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dd/dc1/checksiretnumber_8cpp" kind="file">
+    <compoundname>checksiretnumber.cpp</compoundname>
+    <includes refid="d9/db8/checksiretnumber_8h" local="yes">checksiretnumber.h</includes>
+    <incdepgraph>
+      <node id="869">
+        <label>src/gui/widgets/checkfields/checksiretnumber.cpp</label>
+        <link refid="checksiretnumber.cpp"/>
+        <childnode refid="870" relation="include">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>QLineEdit</label>
+      </node>
+      <node id="874">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="875" relation="include">
+        </childnode>
+      </node>
+      <node id="875">
+        <label>QString</label>
+      </node>
+      <node id="873">
+        <label>QPushButton</label>
+      </node>
+      <node id="870">
+        <label>checksiretnumber.h</label>
+        <link refid="d9/db8/checksiretnumber_8h_source"/>
+        <childnode refid="871" relation="include">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>checkqlineedit.h</label>
+        <link refid="de/dc9/checkqlineedit_8h_source"/>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checksiretnumber.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="d7/d29/classCheckSiretNumber_1a0581c0a2d6c0c1a62dab77515422b194" kindref="member">CheckSiretNumber::CheckSiretNumber</ref>(QWidget*<sp/>w,<sp/>QPushButton<sp/>*btn)<sp/>:<sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref>(w,<sp/>btn)<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classCheckSiretNumber_1aaf0a1411e380789062564bd992e72c1b" kindref="member">CheckSiretNumber::check</ref>(QString<sp/>text)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>text.length()<sp/>!=<sp/>14<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>text.replace(</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>text.replace(</highlight><highlight class="stringliteral">&quot;-&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>siretRgx(</highlight><highlight class="stringliteral">&quot;[0-9]{14}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>siretRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>siretRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>siretRgx.exactMatch(text);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp"/>
+  </compounddef>
+</doxygen>

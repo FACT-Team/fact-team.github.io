@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="da/d31/classMustache_1_1PartialFileLoader" kind="class" prot="public">
+    <compoundname>Mustache::PartialFileLoader</compoundname>
+    <basecompoundref refid="d0/dce/classMustache_1_1PartialResolver" prot="public" virt="non-virtual">Mustache::PartialResolver</basecompoundref>
+    <includes refid="d9/d77/mustache_8h" local="no">mustache.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/d31/classMustache_1_1PartialFileLoader_1a390d96de540fc134ec3237355a0e31a4" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Mustache::PartialFileLoader::m_basePath</definition>
+        <argsstring></argsstring>
+        <name>m_basePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="163" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d31/classMustache_1_1PartialFileLoader_1a7c329ea753075b5e3dee700a60bbf933" prot="private" static="no" mutable="no">
+        <type>QHash&lt; QString, QString &gt;</type>
+        <definition>QHash&lt;QString, QString&gt; Mustache::PartialFileLoader::m_cache</definition>
+        <argsstring></argsstring>
+        <name>m_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="164" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d31/classMustache_1_1PartialFileLoader_1aa29e049400b033d96c184a72b03306bf" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PartialFileLoader::PartialFileLoader</definition>
+        <argsstring>(const QString &amp;basePath)</argsstring>
+        <name>PartialFileLoader</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="158" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d31/classMustache_1_1PartialFileLoader_1a36ba8b817708a8755293db46bceb0dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString PartialFileLoader::getPartial</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>getPartial</name>
+        <reimplements refid="d0/dce/classMustache_1_1PartialResolver_1a81e9c5a8b32a52266cd8ea0580c3d3ac">getPartial</reimplements>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the partial template with a given <computeroutput>name</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="160" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="214" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A partial fetcher when loads templates from &apos;&lt;name&gt;.mustache&apos; files in a given directory.</para><para>Once a partial has been loaded, it is cached for future use. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="258">
+        <label>Mustache::PartialFileLoader</label>
+        <link refid="da/d31/classMustache_1_1PartialFileLoader"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>Mustache::PartialResolver</label>
+        <link refid="d0/dce/classMustache_1_1PartialResolver"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="260">
+        <label>Mustache::PartialFileLoader</label>
+        <link refid="da/d31/classMustache_1_1PartialFileLoader"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>Mustache::PartialResolver</label>
+        <link refid="d0/dce/classMustache_1_1PartialResolver"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="156" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="155" bodyend="165"/>
+    <listofallmembers>
+      <member refid="da/d31/classMustache_1_1PartialFileLoader_1a36ba8b817708a8755293db46bceb0dbb" prot="public" virt="virtual"><scope>Mustache::PartialFileLoader</scope><name>getPartial</name></member>
+      <member refid="da/d31/classMustache_1_1PartialFileLoader_1a390d96de540fc134ec3237355a0e31a4" prot="private" virt="non-virtual"><scope>Mustache::PartialFileLoader</scope><name>m_basePath</name></member>
+      <member refid="da/d31/classMustache_1_1PartialFileLoader_1a7c329ea753075b5e3dee700a60bbf933" prot="private" virt="non-virtual"><scope>Mustache::PartialFileLoader</scope><name>m_cache</name></member>
+      <member refid="da/d31/classMustache_1_1PartialFileLoader_1aa29e049400b033d96c184a72b03306bf" prot="public" virt="non-virtual"><scope>Mustache::PartialFileLoader</scope><name>PartialFileLoader</name></member>
+      <member refid="d0/dce/classMustache_1_1PartialResolver_1a52e0e140a4be2278c2d1acb8884d1936" prot="public" virt="virtual"><scope>Mustache::PartialFileLoader</scope><name>~PartialResolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

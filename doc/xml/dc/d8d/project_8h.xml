@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dc/d8d/project_8h" kind="file">
+    <compoundname>project.h</compoundname>
+    <includes local="no">QString</includes>
+    <includes local="no">QDate</includes>
+    <includes local="no">QSharedPointer</includes>
+    <includes refid="de/d73/idatabasemodel_8h" local="yes">models/idatabasemodel.h</includes>
+    <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
+    <includedby refid="d9/dfd/projectdatabase_8h" local="yes">src/database/projectdatabase.h</includedby>
+    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">src/gui/dialogs/addprojectdialog.h</includedby>
+    <includedby refid="d5/dfb/projectcombodelegate_8h" local="yes">src/gui/widgets/delegates/projectcombodelegate.h</includedby>
+    <includedby refid="d1/dfa/ratewidget_8h" local="yes">src/gui/widgets/ratewidget.h</includedby>
+    <includedby refid="db/d31/itemtype_8h" local="yes">src/utils/itemtype.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">src/models/billing.h</includedby>
+    <includedby refid="d8/dee/contributory_8h" local="yes">src/models/contributory.h</includedby>
+    <includedby refid="df/d18/project_8cpp" local="yes">src/models/project.cpp</includedby>
+    <incdepgraph>
+      <node id="1815">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="1817">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+      </node>
+      <node id="1812">
+        <label>src/models/project.h</label>
+        <link refid="project.h"/>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1817" relation="include">
+        </childnode>
+      </node>
+      <node id="1816">
+        <label>models/idatabasemodel.h</label>
+        <link refid="de/d73/idatabasemodel_8h_source"/>
+      </node>
+      <node id="1814">
+        <label>QDate</label>
+      </node>
+      <node id="1813">
+        <label>QString</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1825">
+        <label>src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+      <node id="1828">
+        <label>src/utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1834">
+        <label>src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
+        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
+        <childnode refid="1833" relation="include">
+        </childnode>
+      </node>
+      <node id="1832">
+        <label>src/models/contributory.h</label>
+        <link refid="d8/dee/contributory_8h_source"/>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+      </node>
+      <node id="1831">
+        <label>src/gui/widgets/ratewidget.h</label>
+        <link refid="d1/dfa/ratewidget_8h_source"/>
+      </node>
+      <node id="1826">
+        <label>tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
+      </node>
+      <node id="1821">
+        <label>src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+      </node>
+      <node id="1818">
+        <label>src/models/project.h</label>
+        <link refid="project.h"/>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+      </node>
+      <node id="1823">
+        <label>src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="1824" relation="include">
+        </childnode>
+      </node>
+      <node id="1833">
+        <label>src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="1827" relation="include">
+        </childnode>
+      </node>
+      <node id="1822">
+        <label>src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+      </node>
+      <node id="1829">
+        <label>tests/database/billingdatabasetest.h</label>
+        <link refid="d9/d01/billingdatabasetest_8h_source"/>
+      </node>
+      <node id="1819">
+        <label>src/database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1827">
+        <label>src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1820">
+        <label>src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="1821" relation="include">
+        </childnode>
+      </node>
+      <node id="1824">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1830">
+        <label>src/gui/widgets/delegates/projectcombodelegate.h</label>
+        <link refid="d5/dfb/projectcombodelegate_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dd/d3f/classModels_1_1Project" prot="public">Models::Project</innerclass>
+    <innernamespace refid="dd/d20/namespaceModels">Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PROJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSharedPointer&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/idatabasemodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="dd/d3f/classModels_1_1Project" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/ddd/classModels_1_1IDatabaseModel" kindref="compound">IDatabaseModel</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="dd/d3f/classModels_1_1Project_1ad3dc764849815160de77877b1e261c86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1ad3dc764849815160de77877b1e261c86" kindref="member">LEGAL_RATE</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="dd/d3f/classModels_1_1Project_1a2cde659bf6be8b4919d7b4b7a53c336f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a2cde659bf6be8b4919d7b4b7a53c336f" kindref="member">NB_DAILY_HOURS</ref>;<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project_1acd757cadcbeda1f4f83a2b0cd3c1cec1" kindref="member">Project</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project_1acd757cadcbeda1f4f83a2b0cd3c1cec1" kindref="member">Project</ref>(QString<sp/>name);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project_1acd757cadcbeda1f4f83a2b0cd3c1cec1" kindref="member">Project</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a938f33016740cf7b33984d92ed932991" kindref="member">~Project</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1aa293709eeb68e4271cac8d4cce418ffa" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="dd/d3f/classModels_1_1Project_1a11d3b85bdc38daba928bfbfd962a0e32" kindref="member">getName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;name);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="dd/d3f/classModels_1_1Project_1a065b9cd68962c78302a84c686e10ae13" kindref="member">getDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;description);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate<sp/><ref refid="dd/d3f/classModels_1_1Project_1a31b8e46aabb1327499f7e36f170900e3" kindref="member">getBeginDate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a07dfb00cbec7442197a91bc0795ab14d" kindref="member">setBeginDate</ref>(QDate<sp/>beginDate);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate<sp/><ref refid="dd/d3f/classModels_1_1Project_1ae925d3750ebce7b1b30c9dc7c08302b0" kindref="member">getEndDate</ref>();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a89e9603b862d0a282e4eb03e122e8c05" kindref="member">setEndDate</ref>(QDate<sp/>endDate);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a46d74a7452e712d223f1ca444a4cc180" kindref="member">getDailyRate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dailyRate);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Customer&gt;<sp/><ref refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kindref="member">getCustomer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;<sp/>customer);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_name;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate<sp/>_beginDate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate<sp/>_endDate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_dailyRate;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Customer&gt;<sp/>_customer;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PROJECT_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/project.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d4/de4/classExceptions_1_1DbException" kind="class" prot="public">
+    <compoundname>Exceptions::DbException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+    <includes refid="da/de0/dbexception_8h" local="no">dbexception.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/de4/classExceptions_1_1DbException_1afc538ba4031e8d09cafbfbc0371f42eb" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Exceptions::DbException::_userError</definition>
+        <argsstring></argsstring>
+        <name>_userError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="48" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de4/classExceptions_1_1DbException_1a8fc1406c37086d53cc17c31e99c8e0a8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Exceptions::DbException::_errorCode</definition>
+        <argsstring></argsstring>
+        <name>_errorCode</name>
+        <briefdescription>
+<para>Error code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="50" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Exceptions::DbException::DbException</definition>
+        <argsstring>(const QString fct, const QString fctName, const QString logError, float errorCode)</argsstring>
+        <name>DbException</name>
+        <param>
+          <type>const QString</type>
+          <declname>fct</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>fctName</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>logError</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorCode</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" kindref="member">DbException::DbException</ref>. Construct a <ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ClassName of error </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fctName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>logError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Message error </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>errorCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Code of error </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="28" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.cpp" bodystart="4" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de4/classExceptions_1_1DbException_1ad82383b348d70958ec498ffb73f816ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Exceptions::DbException::~DbException</definition>
+        <argsstring>()</argsstring>
+        <name>~DbException</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>~DbException </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de4/classExceptions_1_1DbException_1a4c04dbebd510cb3206b0263bc57c9f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Exceptions::DbException::popupMessage</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>popupMessage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d4/de4/classExceptions_1_1DbException_1a4c04dbebd510cb3206b0263bc57c9f6d" kindref="member">DbException::popupMessage</ref>. Display a popup message with the message error. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="45" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref> class for database exception : queries, db file, … </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>Exceptions::DbException</label>
+        <link refid="d4/de4/classExceptions_1_1DbException"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="218">
+        <label>Exceptions::DbException</label>
+        <link refid="d4/de4/classExceptions_1_1DbException"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" line="19" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.h" bodystart="18" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d4/de4/classExceptions_1_1DbException_1a8fc1406c37086d53cc17c31e99c8e0a8" prot="private" virt="non-virtual"><scope>Exceptions::DbException</scope><name>_errorCode</name></member>
+      <member refid="d4/de4/classExceptions_1_1DbException_1afc538ba4031e8d09cafbfbc0371f42eb" prot="private" virt="non-virtual"><scope>Exceptions::DbException</scope><name>_userError</name></member>
+      <member refid="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" prot="public" virt="non-virtual"><scope>Exceptions::DbException</scope><name>DbException</name></member>
+      <member refid="d4/de4/classExceptions_1_1DbException_1a4c04dbebd510cb3206b0263bc57c9f6d" prot="public" virt="non-virtual"><scope>Exceptions::DbException</scope><name>popupMessage</name></member>
+      <member refid="d4/de4/classExceptions_1_1DbException_1ad82383b348d70958ec498ffb73f816ae" prot="public" virt="virtual"><scope>Exceptions::DbException</scope><name>~DbException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

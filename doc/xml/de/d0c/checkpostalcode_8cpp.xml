@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="de/d0c/checkpostalcode_8cpp" kind="file">
+    <compoundname>checkpostalcode.cpp</compoundname>
+    <includes refid="d5/d31/checkpostalcode_8h" local="yes">checkpostalcode.h</includes>
+    <includes local="no">QDebug</includes>
+    <incdepgraph>
+      <node id="828">
+        <label>src/gui/widgets/checkfields/checkpostalcode.cpp</label>
+        <link refid="checkpostalcode.cpp"/>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>QDebug</label>
+      </node>
+      <node id="830">
+        <label>checkuntilfield.h</label>
+        <link refid="d7/d52/checkuntilfield_8h_source"/>
+        <childnode refid="831" relation="include">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>QLineEdit</label>
+      </node>
+      <node id="834">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="835" relation="include">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>QString</label>
+      </node>
+      <node id="833">
+        <label>QPushButton</label>
+      </node>
+      <node id="831">
+        <label>checkqlineedit.h</label>
+        <link refid="de/dc9/checkqlineedit_8h_source"/>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>checkpostalcode.h</label>
+        <link refid="d5/d31/checkpostalcode_8h_source"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkpostalcode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="dc/d63/classCheckPostalCode_1a98cce06b95b46bf285cf6bc6e52cbfcb" kindref="member">CheckPostalCode::CheckPostalCode</ref>(QWidget*<sp/>w,<sp/>QPushButton*<sp/>btn<sp/>)<sp/>:<sp/><ref refid="dc/db9/classCheckUntilField" kindref="compound">CheckUntilField</ref><sp/>(w,<sp/>btn)<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/d63/classCheckPostalCode_1ad91ba5622617675fbb5c767036163142" kindref="member">CheckPostalCode::check</ref>(QString<sp/>text)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isChecked<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>text.length()<sp/>==<sp/>0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isChecked<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" kindref="member">getCountry</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;FRANCE&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text<sp/>=<sp/>text.replace(</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text<sp/>=<sp/>text.replace(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QRegExp<sp/>postalCodeRgx(</highlight><highlight class="stringliteral">&quot;[0-9]{5,5}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>postalCodeRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>postalCodeRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isChecked<sp/>=<sp/>postalCodeRgx.exactMatch(text);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isChecked;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">QString<sp/><ref refid="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" kindref="member">CheckPostalCode::getCountry</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_country;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d63/classCheckPostalCode_1ac82e538c932bd9165d3d40ea949baa4b" kindref="member">CheckPostalCode::setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>_country<sp/>=<sp/>country.toUpper();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp"/>
+  </compounddef>
+</doxygen>

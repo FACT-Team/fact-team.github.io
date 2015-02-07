@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d7/d95/testadder_8cpp" kind="file">
+    <compoundname>testadder.cpp</compoundname>
+    <includes refid="dd/da8/testrunner_8h" local="yes">testrunner.h</includes>
+    <incdepgraph>
+      <node id="2431">
+        <label>list</label>
+      </node>
+      <node id="2427">
+        <label>testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="2428" relation="include">
+        </childnode>
+        <childnode refid="2429" relation="include">
+        </childnode>
+        <childnode refid="2430" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+      </node>
+      <node id="2429">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2428">
+        <label>QTest</label>
+      </node>
+      <node id="2432">
+        <label>iostream</label>
+      </node>
+      <node id="2426">
+        <label>tests/QTestRunner/testadder.cpp</label>
+        <link refid="testadder.cpp"/>
+        <childnode refid="2427" relation="include">
+        </childnode>
+      </node>
+      <node id="2430">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d0/d9b/classTestAdder" prot="public">TestAdder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Thanks<sp/>to<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>https://marcoarena.wordpress.com/2012/06/23/increase-your-qtest-productivity</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>@aroquemaurel</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="10" refid="d0/d9b/classTestAdder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d9b/classTestAdder" kindref="compound">TestAdder</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><ref refid="d0/d9b/classTestAdder" kindref="compound">TestAdder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>newTest<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>T();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/>newTest-&gt;setObjectName(name);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/>TestRunner::Instance().RegisterTest(newTest);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/QTestRunner/testadder.cpp"/>
+  </compounddef>
+</doxygen>

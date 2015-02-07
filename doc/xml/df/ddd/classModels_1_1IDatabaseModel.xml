@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="df/ddd/classModels_1_1IDatabaseModel" kind="class" prot="public" abstract="yes">
+    <compoundname>Models::IDatabaseModel</compoundname>
+    <derivedcompoundref refid="d4/d5c/classModels_1_1Billing" prot="public" virt="non-virtual">Models::Billing</derivedcompoundref>
+    <derivedcompoundref refid="d5/dd1/classModels_1_1Contributory" prot="public" virt="non-virtual">Models::Contributory</derivedcompoundref>
+    <derivedcompoundref refid="db/dd7/classModels_1_1Customer" prot="public" virt="non-virtual">Models::Customer</derivedcompoundref>
+    <derivedcompoundref refid="dd/d3f/classModels_1_1Project" prot="public" virt="non-virtual">Models::Project</derivedcompoundref>
+    <derivedcompoundref refid="df/d68/classModels_1_1User" prot="public" virt="non-virtual">Models::User</derivedcompoundref>
+    <includes refid="de/d73/idatabasemodel_8h" local="no">idatabasemodel.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/ddd/classModels_1_1IDatabaseModel_1a85fbc8298dee2e84f310a21ed935665f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Models::IDatabaseModel::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+<para>Element identify. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="66" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/ddd/classModels_1_1IDatabaseModel_1acfa9af965e01f44d6ff75226e23e4640" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Models::IDatabaseModel::_toRemoved</definition>
+        <argsstring></argsstring>
+        <name>_toRemoved</name>
+        <briefdescription>
+<para>Flag to know if the object must be removed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="67" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a7dd56f574720919d1703651f5896141f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Models::IDatabaseModel::~IDatabaseModel</definition>
+        <argsstring>()</argsstring>
+        <name>~IDatabaseModel</name>
+        <briefdescription>
+<para>~IDatabaseModel Remove an instance of <ref refid="df/ddd/classModels_1_1IDatabaseModel" kindref="compound">IDatabaseModel</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="18" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a8fcb1587824753cd121a7d961b60a98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Models::IDatabaseModel::commit</definition>
+        <argsstring>()=0</argsstring>
+        <name>commit</name>
+        <reimplementedby refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4">commit</reimplementedby>
+        <reimplementedby refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915">commit</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba">commit</reimplementedby>
+        <reimplementedby refid="d4/d5c/classModels_1_1Billing_1ad2280a0d8dde4c36e88c344b01044caf">commit</reimplementedby>
+        <reimplementedby refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae">commit</reimplementedby>
+        <briefdescription>
+<para><ref refid="df/ddd/classModels_1_1IDatabaseModel_1a8fcb1587824753cd121a7d961b60a98a" kindref="member">IDatabaseModel::commit</ref> Update or insert data into the database. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1af0814d81fc76a881bc64d9062adf1f6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Models::IDatabaseModel::hydrat</definition>
+        <argsstring>(int id)=0</argsstring>
+        <name>hydrat</name>
+        <reimplementedby refid="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c">hydrat</reimplementedby>
+        <reimplementedby refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877">hydrat</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06">hydrat</reimplementedby>
+        <reimplementedby refid="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc">hydrat</reimplementedby>
+        <reimplementedby refid="dd/d3f/classModels_1_1Project_1aa293709eeb68e4271cac8d4cce418ffa">hydrat</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/ddd/classModels_1_1IDatabaseModel_1af0814d81fc76a881bc64d9062adf1f6c" kindref="member">IDatabaseModel::hydrat</ref> Get data of the element which is specified by the identify <emphasis>id</emphasis> from the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a6d8eca5b493b57c21feafae75c783b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Models::IDatabaseModel::remove</definition>
+        <argsstring>()=0</argsstring>
+        <name>remove</name>
+        <reimplementedby refid="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1">remove</reimplementedby>
+        <reimplementedby refid="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be">remove</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8">remove</reimplementedby>
+        <reimplementedby refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3">remove</reimplementedby>
+        <reimplementedby refid="dd/d3f/classModels_1_1Project_1ab55c71c009ae796e7dbe03017fed67ee">remove</reimplementedby>
+        <briefdescription>
+<para><ref refid="df/ddd/classModels_1_1IDatabaseModel_1a6d8eca5b493b57c21feafae75c783b14" kindref="member">IDatabaseModel::remove</ref> Remove the current element in the database. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a6a4d1d3c0912c97c61a9d4de7471afee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Models::IDatabaseModel::getId</definition>
+        <argsstring>() const </argsstring>
+        <name>getId</name>
+        <briefdescription>
+<para><ref refid="df/ddd/classModels_1_1IDatabaseModel_1a6a4d1d3c0912c97c61a9d4de7471afee" kindref="member">IDatabaseModel::getId</ref> Return the identify of the element of the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>identity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="40" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a6bf2ec005b5d931e58ee8125e92d9722" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::IDatabaseModel::setId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/ddd/classModels_1_1IDatabaseModel_1a6bf2ec005b5d931e58ee8125e92d9722" kindref="member">IDatabaseModel::setId</ref> Replace the current identify by <emphasis>id</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New identify </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="45" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1a058e5b85d95e9424245dc37eb122350c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Models::IDatabaseModel::isToRemoved</definition>
+        <argsstring>() const </argsstring>
+        <name>isToRemoved</name>
+        <briefdescription>
+<para>toRemoved return if object must be removed. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="51" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="df/ddd/classModels_1_1IDatabaseModel_1ac399b44ba1178ef6f54da31203e11d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::IDatabaseModel::setToRemoved</definition>
+        <argsstring>(bool toRemoved)</argsstring>
+        <name>setToRemoved</name>
+        <param>
+          <type>bool</type>
+          <declname>toRemoved</declname>
+        </param>
+        <briefdescription>
+<para>setToRemoved Change the flag for removed object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toRemoved</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new flag </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="60" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="df/ddd/classModels_1_1IDatabaseModel" kindref="compound">IDatabaseModel</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>Models::Billing</label>
+        <link refid="d4/d5c/classModels_1_1Billing"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>Models::User</label>
+        <link refid="df/d68/classModels_1_1User"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>Models::Contributory</label>
+        <link refid="d5/dd1/classModels_1_1Contributory"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>Models::Customer</label>
+        <link refid="db/dd7/classModels_1_1Customer"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>Models::IDatabaseModel</label>
+        <link refid="df/ddd/classModels_1_1IDatabaseModel"/>
+      </node>
+      <node id="241">
+        <label>Models::Project</label>
+        <link refid="dd/d3f/classModels_1_1Project"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="243">
+        <label>Models::IDatabaseModel</label>
+        <link refid="df/ddd/classModels_1_1IDatabaseModel"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" line="13" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/idatabasemodel.h" bodystart="12" bodyend="68"/>
+    <listofallmembers>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a85fbc8298dee2e84f310a21ed935665f" prot="protected" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>_id</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1acfa9af965e01f44d6ff75226e23e4640" prot="protected" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>_toRemoved</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a8fcb1587824753cd121a7d961b60a98a" prot="public" virt="pure-virtual"><scope>Models::IDatabaseModel</scope><name>commit</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a6a4d1d3c0912c97c61a9d4de7471afee" prot="public" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>getId</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1af0814d81fc76a881bc64d9062adf1f6c" prot="public" virt="pure-virtual"><scope>Models::IDatabaseModel</scope><name>hydrat</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a058e5b85d95e9424245dc37eb122350c" prot="public" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>isToRemoved</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a6d8eca5b493b57c21feafae75c783b14" prot="public" virt="pure-virtual"><scope>Models::IDatabaseModel</scope><name>remove</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a6bf2ec005b5d931e58ee8125e92d9722" prot="public" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>setId</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1ac399b44ba1178ef6f54da31203e11d9f" prot="public" virt="non-virtual"><scope>Models::IDatabaseModel</scope><name>setToRemoved</name></member>
+      <member refid="df/ddd/classModels_1_1IDatabaseModel_1a7dd56f574720919d1703651f5896141f" prot="public" virt="virtual"><scope>Models::IDatabaseModel</scope><name>~IDatabaseModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

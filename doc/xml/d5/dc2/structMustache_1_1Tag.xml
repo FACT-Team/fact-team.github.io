@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d5/dc2/structMustache_1_1Tag" kind="struct" prot="public">
+    <compoundname>Mustache::Tag</compoundname>
+    <includes refid="d9/d77/mustache_8h" local="no">mustache.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a086111e4e12caa18815558eaa30fa3fc" prot="public">
+          <name>Null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a05852982ec7e6203109aa4e2a3fe3269" prot="public">
+          <name>Value</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472ad1e9af4f164680cdebbdeaef2c0a271c" prot="public">
+          <name>SectionStart</name>
+          <briefdescription>
+<para>A {{key}} or {{{key}}} tag. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a63d4e5150e7c43623bfb976dbba96961" prot="public">
+          <name>InvertedSectionStart</name>
+          <briefdescription>
+<para>A {{#section}} tag. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472aa6404ddcd9008449cc61bea039dbb0af" prot="public">
+          <name>SectionEnd</name>
+          <briefdescription>
+<para>An {{^inverted-section}} tag. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472ae07f1dc49d6e06735f63ec039e7ec77c" prot="public">
+          <name>Partial</name>
+          <briefdescription>
+<para>A {{/section}} tag. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a85c0e87f362943cf0244792873edd478" prot="public">
+          <name>Comment</name>
+          <briefdescription>
+<para>A {{^partial}} tag. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a680bf1878bdfa8c7ed5a594603b638be" prot="public">
+          <name>SetDelimiter</name>
+          <briefdescription>
+<para>A {{! comment }} tag. </para>          </briefdescription>
+          <detaileddescription>
+<para>A {{=&lt;% %&gt;=}} tag </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="171" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="170" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="enum" id="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61" prot="public" static="no">
+        <name>EscapeMode</name>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61ae6091ea6280c208ad9557420c4bddc89" prot="public">
+          <name>Escape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61a1b1c63caf01ebcd4955c02d092fd8010" prot="public">
+          <name>Unescape</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61aca88f0066662358dc9c7a28bdf72c902" prot="public">
+          <name>Raw</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="183" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="182" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/dc2/structMustache_1_1Tag_1ad58b3b921b7e84c31efd88864c2040d4" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472" kindref="member">Type</ref></type>
+        <definition>Type Mustache::Tag::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="196" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dc2/structMustache_1_1Tag_1a25f46abd595426bc00230f69215db567" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Mustache::Tag::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="197" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dc2/structMustache_1_1Tag_1a4f967c59794b9dd5d711fa7a1d5aff43" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mustache::Tag::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="198" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dc2/structMustache_1_1Tag_1a9fc4a5ccee302e0bd9833ec2dd30bc3d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mustache::Tag::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="199" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" prot="public" static="no" mutable="no">
+        <type>EscapeMode</type>
+        <definition>EscapeMode Mustache::Tag::escapeMode</definition>
+        <argsstring></argsstring>
+        <name>escapeMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="200" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Mustache::Tag::Tag</definition>
+        <argsstring>()</argsstring>
+        <name>Tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="189" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="189" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Holds properties of a tag in a mustache template. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="312">
+        <label>Mustache::Tag</label>
+        <link refid="d5/dc2/structMustache_1_1Tag"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="169" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="168" bodyend="201"/>
+    <listofallmembers>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a85c0e87f362943cf0244792873edd478" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Comment</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1a9fc4a5ccee302e0bd9833ec2dd30bc3d" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>end</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61ae6091ea6280c208ad9557420c4bddc89" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Escape</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>EscapeMode</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>escapeMode</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a63d4e5150e7c43623bfb976dbba96961" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>InvertedSectionStart</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1a25f46abd595426bc00230f69215db567" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>key</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a086111e4e12caa18815558eaa30fa3fc" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Null</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472ae07f1dc49d6e06735f63ec039e7ec77c" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Partial</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61aca88f0066662358dc9c7a28bdf72c902" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Raw</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472aa6404ddcd9008449cc61bea039dbb0af" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>SectionEnd</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472ad1e9af4f164680cdebbdeaef2c0a271c" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>SectionStart</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a680bf1878bdfa8c7ed5a594603b638be" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>SetDelimiter</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1a4f967c59794b9dd5d711fa7a1d5aff43" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>start</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Tag</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ad58b3b921b7e84c31efd88864c2040d4" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>type</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Type</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1aa5b947e3ad6b6e0cf6ef5a4c69262e61a1b1c63caf01ebcd4955c02d092fd8010" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Unescape</name></member>
+      <member refid="d5/dc2/structMustache_1_1Tag_1ab702ed1288811f8bb16d76babfdb6472a05852982ec7e6203109aa4e2a3fe3269" prot="public" virt="non-virtual"><scope>Mustache::Tag</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

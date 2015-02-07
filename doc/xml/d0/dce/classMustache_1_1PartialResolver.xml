@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="d0/dce/classMustache_1_1PartialResolver" kind="class" prot="public" abstract="yes">
+    <compoundname>Mustache::PartialResolver</compoundname>
+    <derivedcompoundref refid="da/d31/classMustache_1_1PartialFileLoader" prot="public" virt="non-virtual">Mustache::PartialFileLoader</derivedcompoundref>
+    <derivedcompoundref refid="dc/d1a/classMustache_1_1PartialMap" prot="public" virt="non-virtual">Mustache::PartialMap</derivedcompoundref>
+    <includes refid="d9/d77/mustache_8h" local="no">mustache.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dce/classMustache_1_1PartialResolver_1a52e0e140a4be2278c2d1acb8884d1936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Mustache::PartialResolver::~PartialResolver</definition>
+        <argsstring>()</argsstring>
+        <name>~PartialResolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="131" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dce/classMustache_1_1PartialResolver_1a81e9c5a8b32a52266cd8ea0580c3d3ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>QString</type>
+        <definition>virtual QString Mustache::PartialResolver::getPartial</definition>
+        <argsstring>(const QString &amp;name)=0</argsstring>
+        <name>getPartial</name>
+        <reimplementedby refid="dc/d1a/classMustache_1_1PartialMap_1a676a6f9a77cdd53e91b18216733b2781">getPartial</reimplementedby>
+        <reimplementedby refid="da/d31/classMustache_1_1PartialFileLoader_1a36ba8b817708a8755293db46bceb0dbb">getPartial</reimplementedby>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the partial template with a given <computeroutput>name</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="134" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface for fetching template partials. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="267">
+        <label>Mustache::PartialFileLoader</label>
+        <link refid="da/d31/classMustache_1_1PartialFileLoader"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>Mustache::PartialMap</label>
+        <link refid="dc/d1a/classMustache_1_1PartialMap"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>Mustache::PartialResolver</label>
+        <link refid="d0/dce/classMustache_1_1PartialResolver"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="269">
+        <label>Mustache::PartialResolver</label>
+        <link refid="d0/dce/classMustache_1_1PartialResolver"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="129" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="128" bodyend="135"/>
+    <listofallmembers>
+      <member refid="d0/dce/classMustache_1_1PartialResolver_1a81e9c5a8b32a52266cd8ea0580c3d3ac" prot="public" virt="pure-virtual"><scope>Mustache::PartialResolver</scope><name>getPartial</name></member>
+      <member refid="d0/dce/classMustache_1_1PartialResolver_1a52e0e140a4be2278c2d1acb8884d1936" prot="public" virt="virtual"><scope>Mustache::PartialResolver</scope><name>~PartialResolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
