@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d57/classExceptions_1_1FileException" kind="class" prot="public">
+    <compoundname>Exceptions::FileException</compoundname>
+    <includes refid="d4/d79/fileexception_8h" local="no">fileexception.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d57/classExceptions_1_1FileException_1aa2e71aeddab0fa63d4ba3c15309ae3fb" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Exceptions::FileException::_userError</definition>
+        <argsstring></argsstring>
+        <name>_userError</name>
+        <briefdescription>
+<para>user error </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="39" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d57/classExceptions_1_1FileException_1a7e0493bfaf65bc7d9adaacac533d3e70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Exceptions::FileException::_errorCode</definition>
+        <argsstring></argsstring>
+        <name>_errorCode</name>
+        <briefdescription>
+<para>Error code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="40" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Exceptions::FileException::FileException</definition>
+        <argsstring>(const QString userError, const QString fctName, const QString logError, float errorCode)</argsstring>
+        <name>FileException</name>
+        <param>
+          <type>const QString</type>
+          <declname>userError</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>fctName</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>logError</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorCode</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" kindref="member">FileException::FileException</ref>. Construct a <ref refid="d9/d57/classExceptions_1_1FileException" kindref="compound">FileException</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ClassName of error </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fctName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>logError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Message error </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>errorCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Code of error </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="27" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.cpp" bodystart="4" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/classExceptions_1_1FileException_1adcb4568ba9b13534d12347d8f8fb5421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Exceptions::FileException::~FileException</definition>
+        <argsstring>()</argsstring>
+        <name>~FileException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="29" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/classExceptions_1_1FileException_1aba824967d55e0a9a29c23521d87f05dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Exceptions::FileException::popupMessage</definition>
+        <argsstring>(QWidget *parent)</argsstring>
+        <name>popupMessage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d9/d57/classExceptions_1_1FileException_1aba824967d55e0a9a29c23521d87f05dd" kindref="member">FileException::popupMessage</ref>. Display a popup message with the message error. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="36" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d9/d57/classExceptions_1_1FileException" kindref="compound">FileException</ref> class for file/acess file exception. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="233">
+        <label>Exceptions::FileException</label>
+        <link refid="d9/d57/classExceptions_1_1FileException"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" line="18" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/exceptions/fileexception.h" bodystart="17" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d9/d57/classExceptions_1_1FileException_1a7e0493bfaf65bc7d9adaacac533d3e70" prot="private" virt="non-virtual"><scope>Exceptions::FileException</scope><name>_errorCode</name></member>
+      <member refid="d9/d57/classExceptions_1_1FileException_1aa2e71aeddab0fa63d4ba3c15309ae3fb" prot="private" virt="non-virtual"><scope>Exceptions::FileException</scope><name>_userError</name></member>
+      <member refid="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" prot="public" virt="non-virtual"><scope>Exceptions::FileException</scope><name>FileException</name></member>
+      <member refid="d9/d57/classExceptions_1_1FileException_1aba824967d55e0a9a29c23521d87f05dd" prot="public" virt="non-virtual"><scope>Exceptions::FileException</scope><name>popupMessage</name></member>
+      <member refid="d9/d57/classExceptions_1_1FileException_1adcb4568ba9b13534d12347d8f8fb5421" prot="public" virt="non-virtual"><scope>Exceptions::FileException</scope><name>~FileException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

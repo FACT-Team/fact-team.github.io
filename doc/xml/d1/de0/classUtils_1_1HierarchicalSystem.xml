@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/de0/classUtils_1_1HierarchicalSystem" kind="class" prot="public">
+    <compoundname>Utils::HierarchicalSystem</compoundname>
+    <includes refid="de/d21/hierarchicalsystem_8h" local="no">hierarchicalsystem.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/de0/classUtils_1_1HierarchicalSystem_1a0c60320b785bb656153c4a2331bf78ab" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>QMap&lt;Project*, Customer&gt; Utils::HierarchicalSystem::_customers</definition>
+        <argsstring></argsstring>
+        <name>_customers</name>
+        <briefdescription>
+<para>Projects linked to Customers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="81" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/de0/classUtils_1_1HierarchicalSystem_1a729460adee64d5aa372d696453afcc06" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> *, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> * &gt;</type>
+        <definition>QMap&lt;Billing*, Project*&gt; Utils::HierarchicalSystem::_projects</definition>
+        <argsstring></argsstring>
+        <name>_projects</name>
+        <briefdescription>
+<para>Billing linked to Projects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="82" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1a55e085ac80ae1640b7fb428f2a5d188c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::HierarchicalSystem::HierarchicalSystem</definition>
+        <argsstring>()</argsstring>
+        <name>HierarchicalSystem</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a55e085ac80ae1640b7fb428f2a5d188c" kindref="member">HierarchicalSystem::HierarchicalSystem</ref> Construct a <ref refid="d1/de0/classUtils_1_1HierarchicalSystem" kindref="compound">HierarchicalSystem</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="29" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::HierarchicalSystem::getAllProjects</definition>
+        <argsstring>()</argsstring>
+        <name>getAllProjects</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" kindref="member">HierarchicalSystem::getAllProjects</ref> Get all projects and add each project to Customer linked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="35" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1a80b20dd898e0c44741cb4e6768342b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::HierarchicalSystem::getAllBillings</definition>
+        <argsstring>()</argsstring>
+        <name>getAllBillings</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a80b20dd898e0c44741cb4e6768342b72" kindref="member">HierarchicalSystem::getAllBillings</ref> Get all billings and add each billing to Project linked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="41" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1af0881e95aef001ee46d9f83a9e66dca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::HierarchicalSystem::updateData</definition>
+        <argsstring>()</argsstring>
+        <name>updateData</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1af0881e95aef001ee46d9f83a9e66dca5" kindref="member">HierarchicalSystem::updateData</ref> Update data on Customers, Projects, Billings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="47" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1a26f07f62ebb50520bc11665e26cedadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::HierarchicalSystem::addProjectToCustomer</definition>
+        <argsstring>(Project *p, Customer c)</argsstring>
+        <name>addProjectToCustomer</name>
+        <param>
+          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a26f07f62ebb50520bc11665e26cedadc" kindref="member">HierarchicalSystem::addProjectToCustomer</ref> Add the Project <emphasis>p</emphasis> to the Customer <emphasis>c</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Project </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Customer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="55" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1a4452533b6f536a92ba1a3c5fe3d8c12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utils::HierarchicalSystem::addBillingToProject</definition>
+        <argsstring>(Billing *b, Project *p)</argsstring>
+        <name>addBillingToProject</name>
+        <param>
+          <type><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a4452533b6f536a92ba1a3c5fe3d8c12d" kindref="member">HierarchicalSystem::addBillingToProject</ref> Add the Billing <emphasis>b</emphasis> to the Project p </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Billing </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Project </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="63" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1aa66210b1d52960ebc9b7b1d827de8564" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>QMap&lt; Project *, Customer &gt; Utils::HierarchicalSystem::getCustomers</definition>
+        <argsstring>() const </argsstring>
+        <name>getCustomers</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1aa66210b1d52960ebc9b7b1d827de8564" kindref="member">HierarchicalSystem::getCustomers</ref> Return all customers and these projects linked. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Projects linked to Customers </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="70" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de0/classUtils_1_1HierarchicalSystem_1ae62e86244c20f66c4b741ad3a235e7d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> *, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> * &gt;</type>
+        <definition>QMap&lt; Billing *, Project * &gt; Utils::HierarchicalSystem::getProjects</definition>
+        <argsstring>() const </argsstring>
+        <name>getProjects</name>
+        <briefdescription>
+<para><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae62e86244c20f66c4b741ad3a235e7d1" kindref="member">HierarchicalSystem::getProjects</ref> Return all projects and these billing linked. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Billing linked to Projects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="77" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d1/de0/classUtils_1_1HierarchicalSystem" kindref="compound">HierarchicalSystem</ref> class Create class which contains hierarchical system of FactDev. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
+<simplesect kind="see"><para>Customer </para><simplesectsep/><para>Project </para><simplesectsep/><para>Billing </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="241">
+        <label>Utils::HierarchicalSystem</label>
+        <link refid="d1/de0/classUtils_1_1HierarchicalSystem"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" line="22" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h" bodystart="22" bodyend="83"/>
+    <listofallmembers>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a0c60320b785bb656153c4a2331bf78ab" prot="private" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>_customers</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a729460adee64d5aa372d696453afcc06" prot="private" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>_projects</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a4452533b6f536a92ba1a3c5fe3d8c12d" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>addBillingToProject</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a26f07f62ebb50520bc11665e26cedadc" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>addProjectToCustomer</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a80b20dd898e0c44741cb4e6768342b72" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>getAllBillings</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>getAllProjects</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1aa66210b1d52960ebc9b7b1d827de8564" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>getCustomers</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae62e86244c20f66c4b741ad3a235e7d1" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>getProjects</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a55e085ac80ae1640b7fb428f2a5d188c" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>HierarchicalSystem</name></member>
+      <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1af0881e95aef001ee46d9f83a9e66dca5" prot="public" virt="non-virtual"><scope>Utils::HierarchicalSystem</scope><name>updateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

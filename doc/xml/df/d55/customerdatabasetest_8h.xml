@@ -1,67 +1,72 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="df/d55/customerdatabasetest_8h" kind="file">
     <compoundname>customerdatabasetest.h</compoundname>
     <includes local="no">QtTest/QtTest</includes>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
-    <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">tests/database/customerdatabasetest.cpp</includedby>
+    <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/database/customerdatabasetest.cpp</includedby>
     <incdepgraph>
-      <node id="2232">
+      <node id="2920">
         <label>list</label>
       </node>
-      <node id="2228">
-        <label>QTestRunner/testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="2229" relation="include">
-        </childnode>
-        <childnode refid="2230" relation="include">
-        </childnode>
-        <childnode refid="2231" relation="include">
-        </childnode>
-        <childnode refid="2232" relation="include">
-        </childnode>
-        <childnode refid="2233" relation="include">
+      <node id="2924">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="2925" relation="include">
         </childnode>
       </node>
-      <node id="2230">
+      <node id="2918">
         <label>QSharedPointer</label>
       </node>
-      <node id="2234">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="2235" relation="include">
-        </childnode>
-        <childnode refid="2236" relation="include">
-        </childnode>
-      </node>
-      <node id="2236">
-        <label>models/idatabasemodel.h</label>
-        <link refid="de/d73/idatabasemodel_8h_source"/>
-      </node>
-      <node id="2229">
+      <node id="2917">
         <label>QTest</label>
       </node>
-      <node id="2235">
+      <node id="2925">
+        <label>QVariantHash</label>
+      </node>
+      <node id="2923">
         <label>QString</label>
       </node>
-      <node id="2233">
+      <node id="2914">
+        <label>/home/florent/Documents/Projet_S8/FactDev/tests/database/customerdatabasetest.h</label>
+        <link refid="customerdatabasetest.h"/>
+        <childnode refid="2915" relation="include">
+        </childnode>
+        <childnode refid="2916" relation="include">
+        </childnode>
+        <childnode refid="2922" relation="include">
+        </childnode>
+      </node>
+      <node id="2921">
         <label>iostream</label>
       </node>
-      <node id="2226">
-        <label>tests/database/customerdatabasetest.h</label>
-        <link refid="customerdatabasetest.h"/>
-        <childnode refid="2227" relation="include">
+      <node id="2922">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="2923" relation="include">
         </childnode>
-        <childnode refid="2228" relation="include">
-        </childnode>
-        <childnode refid="2234" relation="include">
+        <childnode refid="2924" relation="include">
         </childnode>
       </node>
-      <node id="2231">
+      <node id="2916">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="2917" relation="include">
+        </childnode>
+        <childnode refid="2918" relation="include">
+        </childnode>
+        <childnode refid="2919" relation="include">
+        </childnode>
+        <childnode refid="2920" relation="include">
+        </childnode>
+        <childnode refid="2921" relation="include">
+        </childnode>
+      </node>
+      <node id="2919">
         <label>algorithm</label>
       </node>
-      <node id="2227">
+      <node id="2915">
         <label>QtTest/QtTest</label>
       </node>
     </incdepgraph>
@@ -71,14 +76,14 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtTest/QtTest&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERDATABASETEST_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERDATABASETEST_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtTest/QtTest&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="9" refid="d2/d63/classCustomerDatabaseTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d63/classCustomerDatabaseTest" kindref="compound">CustomerDatabaseTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
@@ -99,6 +104,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERDATABASETEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/database/customerdatabasetest.h"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/tests/database/customerdatabasetest.h"/>
   </compounddef>
 </doxygen>

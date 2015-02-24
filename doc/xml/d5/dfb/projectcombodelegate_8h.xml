@@ -1,68 +1,73 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d5/dfb/projectcombodelegate_8h" kind="file">
     <compoundname>projectcombodelegate.h</compoundname>
     <includes local="no">QItemDelegate</includes>
     <includes local="no">QComboBox</includes>
     <includes local="no">QApplication</includes>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
-    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">src/gui/widgets/contributorieswidget.cpp</includedby>
-    <includedby refid="d7/d39/projectcombodelegate_8cpp" local="yes">src/gui/widgets/delegates/projectcombodelegate.cpp</includedby>
+    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp</includedby>
+    <includedby refid="d7/d39/projectcombodelegate_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp</includedby>
     <incdepgraph>
-      <node id="1131">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="1133">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1129" relation="include">
-        </childnode>
-        <childnode refid="1132" relation="include">
+      <node id="1354">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="1355" relation="include">
         </childnode>
       </node>
-      <node id="1128">
+      <node id="1350">
         <label>models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1129" relation="include">
+        <childnode refid="1351" relation="include">
         </childnode>
-        <childnode refid="1130" relation="include">
+        <childnode refid="1352" relation="include">
         </childnode>
-        <childnode refid="1131" relation="include">
+        <childnode refid="1353" relation="include">
         </childnode>
-        <childnode refid="1132" relation="include">
+        <childnode refid="1354" relation="include">
         </childnode>
-        <childnode refid="1133" relation="include">
+        <childnode refid="1356" relation="include">
         </childnode>
       </node>
-      <node id="1127">
+      <node id="1353">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="1349">
         <label>QApplication</label>
       </node>
-      <node id="1132">
-        <label>models/idatabasemodel.h</label>
-        <link refid="de/d73/idatabasemodel_8h_source"/>
+      <node id="1355">
+        <label>QVariantHash</label>
       </node>
-      <node id="1130">
+      <node id="1352">
         <label>QDate</label>
       </node>
-      <node id="1129">
+      <node id="1351">
         <label>QString</label>
       </node>
-      <node id="1126">
+      <node id="1348">
         <label>QComboBox</label>
       </node>
-      <node id="1125">
+      <node id="1347">
         <label>QItemDelegate</label>
       </node>
-      <node id="1124">
-        <label>src/gui/widgets/delegates/projectcombodelegate.h</label>
+      <node id="1356">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1354" relation="include">
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="projectcombodelegate.h"/>
-        <childnode refid="1125" relation="include">
+        <childnode refid="1347" relation="include">
         </childnode>
-        <childnode refid="1126" relation="include">
+        <childnode refid="1348" relation="include">
         </childnode>
-        <childnode refid="1127" relation="include">
+        <childnode refid="1349" relation="include">
         </childnode>
-        <childnode refid="1128" relation="include">
+        <childnode refid="1350" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -75,15 +80,15 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PROJECTCOMBODELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJECTCOMBODELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PROJECTCOMBODELEGATE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PROJECTCOMBODELEGATE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QComboBox&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
@@ -109,6 +114,6 @@
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PROJECTCOMBODELEGATE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/delegates/projectcombodelegate.h"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/delegates/projectcombodelegate.h"/>
   </compounddef>
 </doxygen>

@@ -1,7 +1,7 @@
-\hypertarget{classCounterContext}{\section{Counter\+Context Class Reference}
-\label{classCounterContext}\index{Counter\+Context@{Counter\+Context}}
+\hypertarget{classCounterContext}{\section{Counter\-Context Class Reference}
+\label{classCounterContext}\index{Counter\-Context@{Counter\-Context}}
 }
-Inheritance diagram for Counter\+Context\+:\begin{figure}[H]
+Inheritance diagram for Counter\-Context\-:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=3.000000cm]{db/da6/classCounterContext}
@@ -10,14 +10,23 @@ Inheritance diagram for Counter\+Context\+:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}{{\bfseries Counter\+Context} (const Q\+Variant\+Hash \&map)}\label{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}
+\hypertarget{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}{{\bfseries Counter\-Context} (const Q\-Variant\-Hash \&map)}\label{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}
 
 \item 
-virtual bool \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\+Eval} (const Q\+String \&key) const 
+virtual bool \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval} (const Q\-String \&key) const 
 \item 
-virtual Q\+String \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval} (const Q\+String \&key, const Q\+String \&\+\_\+template, \hyperlink{classMustache_1_1Renderer}{Mustache\+::\+Renderer} $\ast$renderer)
+virtual Q\-String \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval} (const Q\-String \&key, const Q\-String \&\-\_\-template, \hyperlink{classMustache_1_1Renderer}{Mustache\-::\-Renderer} $\ast$renderer)
 \item 
-virtual Q\+String \hyperlink{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{string\+Value} (const Q\+String \&key) const 
+virtual Q\-String \hyperlink{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{string\-Value} (const Q\-String \&key) const 
+\item 
+\hypertarget{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}{{\bfseries Counter\-Context} (const Q\-Variant\-Hash \&map)}\label{classCounterContext_a05c70666c806b2cd888c24f5edae8d87}
+
+\item 
+virtual bool \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval} (const Q\-String \&key) const 
+\item 
+virtual Q\-String \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval} (const Q\-String \&key, const Q\-String \&\-\_\-template, \hyperlink{classMustache_1_1Renderer}{Mustache\-::\-Renderer} $\ast$renderer)
+\item 
+virtual Q\-String \hyperlink{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{string\-Value} (const Q\-String \&key) const 
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
@@ -29,49 +38,90 @@ virtual Q\+String \hyperlink{classCounterContext_adb984d696efcc32abaaf0aaeade4f8
 
 
 \subsection{Member Function Documentation}
-\hypertarget{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{\index{Counter\+Context@{Counter\+Context}!can\+Eval@{can\+Eval}}
-\index{can\+Eval@{can\+Eval}!Counter\+Context@{Counter\+Context}}
-\subsubsection[{can\+Eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Counter\+Context\+::can\+Eval (
+\hypertarget{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{\index{Counter\-Context@{Counter\-Context}!can\-Eval@{can\-Eval}}
+\index{can\-Eval@{can\-Eval}!CounterContext@{Counter\-Context}}
+\subsubsection[{can\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Counter\-Context\-::can\-Eval (
 \begin{DoxyParamCaption}
-\item[{const Q\+String \&}]{key}
+\item[{const Q\-String \&}]{key}
 \end{DoxyParamCaption}
 ) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}
-Returns true if \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} should be used to render section tags using {\ttfamily key}. If \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\+Eval()} returns true for a key, the renderer will pass the literal, unrendered block of text for the section to \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} and replace the section with the result.
+Returns true if \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} should be used to render section tags using {\ttfamily key}. If \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval()} returns true for a key, the renderer will pass the literal, unrendered block of text for the section to \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} and replace the section with the result.
 
-\hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\+Eval()} and \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} are equivalents for callable objects (eg. lambdas) in other Mustache implementations.
+\hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval()} and \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} are equivalents for callable objects (eg. lambdas) in other Mustache implementations.
 
 The default implementation always returns false. 
 
-Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a2671990a3c9d8d4d7b626fa85b841ab2}{Mustache\+::\+Qt\+Variant\+Context}.
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a2671990a3c9d8d4d7b626fa85b841ab2}{Mustache\-::\-Qt\-Variant\-Context}.
 
-\hypertarget{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{\index{Counter\+Context@{Counter\+Context}!eval@{eval}}
-\index{eval@{eval}!Counter\+Context@{Counter\+Context}}
-\subsubsection[{eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\+String Counter\+Context\+::eval (
+\hypertarget{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{\index{Counter\-Context@{Counter\-Context}!can\-Eval@{can\-Eval}}
+\index{can\-Eval@{can\-Eval}!CounterContext@{Counter\-Context}}
+\subsubsection[{can\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Counter\-Context\-::can\-Eval (
 \begin{DoxyParamCaption}
-\item[{const Q\+String \&}]{key, }
-\item[{const Q\+String \&}]{\+\_\+template, }
-\item[{{\bf Mustache\+::\+Renderer} $\ast$}]{renderer}
+\item[{const Q\-String \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}
+Returns true if \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} should be used to render section tags using {\ttfamily key}. If \hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval()} returns true for a key, the renderer will pass the literal, unrendered block of text for the section to \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} and replace the section with the result.
+
+\hyperlink{classCounterContext_a2b2c8d5bbd329e20ce6e16be72676291}{can\-Eval()} and \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()} are equivalents for callable objects (eg. lambdas) in other Mustache implementations.
+
+The default implementation always returns false. 
+
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a2671990a3c9d8d4d7b626fa85b841ab2}{Mustache\-::\-Qt\-Variant\-Context}.
+
+\hypertarget{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{\index{Counter\-Context@{Counter\-Context}!eval@{eval}}
+\index{eval@{eval}!CounterContext@{Counter\-Context}}
+\subsubsection[{eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-String Counter\-Context\-::eval (
+\begin{DoxyParamCaption}
+\item[{const Q\-String \&}]{key, }
+\item[{const Q\-String \&}]{\-\_\-template, }
+\item[{{\bf Mustache\-::\-Renderer} $\ast$}]{renderer}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}
 Callback used to render a template section with the given {\ttfamily key}. {\ttfamily renderer} will substitute the original section tag with the result of \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()}.
 
 The default implementation returns an empty string. 
 
-Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a0602be333afa1d4fa89c2c5820311bf1}{Mustache\+::\+Qt\+Variant\+Context}.
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a0602be333afa1d4fa89c2c5820311bf1}{Mustache\-::\-Qt\-Variant\-Context}.
 
-\hypertarget{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{\index{Counter\+Context@{Counter\+Context}!string\+Value@{string\+Value}}
-\index{string\+Value@{string\+Value}!Counter\+Context@{Counter\+Context}}
-\subsubsection[{string\+Value}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\+String Counter\+Context\+::string\+Value (
+\hypertarget{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{\index{Counter\-Context@{Counter\-Context}!eval@{eval}}
+\index{eval@{eval}!CounterContext@{Counter\-Context}}
+\subsubsection[{eval}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-String Counter\-Context\-::eval (
 \begin{DoxyParamCaption}
-\item[{const Q\+String \&}]{key}
+\item[{const Q\-String \&}]{key, }
+\item[{const Q\-String \&}]{\-\_\-template, }
+\item[{{\bf Mustache\-::\-Renderer} $\ast$}]{renderer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}
+Callback used to render a template section with the given {\ttfamily key}. {\ttfamily renderer} will substitute the original section tag with the result of \hyperlink{classCounterContext_a01764884d5bdbe014b8e569c10c82e99}{eval()}.
+
+The default implementation returns an empty string. 
+
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a0602be333afa1d4fa89c2c5820311bf1}{Mustache\-::\-Qt\-Variant\-Context}.
+
+\hypertarget{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{\index{Counter\-Context@{Counter\-Context}!string\-Value@{string\-Value}}
+\index{string\-Value@{string\-Value}!CounterContext@{Counter\-Context}}
+\subsubsection[{string\-Value}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-String Counter\-Context\-::string\-Value (
+\begin{DoxyParamCaption}
+\item[{const Q\-String \&}]{key}
 \end{DoxyParamCaption}
 ) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}
 Returns a string representation of the value for {\ttfamily key} in the current context. This is used to replace a Mustache value tag. 
 
-Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a55b19269efa6924edf21118ab0b49e08}{Mustache\+::\+Qt\+Variant\+Context}.
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a55b19269efa6924edf21118ab0b49e08}{Mustache\-::\-Qt\-Variant\-Context}.
+
+\hypertarget{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}{\index{Counter\-Context@{Counter\-Context}!string\-Value@{string\-Value}}
+\index{string\-Value@{string\-Value}!CounterContext@{Counter\-Context}}
+\subsubsection[{string\-Value}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-String Counter\-Context\-::string\-Value (
+\begin{DoxyParamCaption}
+\item[{const Q\-String \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCounterContext_adb984d696efcc32abaaf0aaeade4f8b8}
+Returns a string representation of the value for {\ttfamily key} in the current context. This is used to replace a Mustache value tag. 
+
+Reimplemented from \hyperlink{classMustache_1_1QtVariantContext_a55b19269efa6924edf21118ab0b49e08}{Mustache\-::\-Qt\-Variant\-Context}.
 
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
 \item 
-src/libs/qt-\/mustache/tests/test\+\_\+mustache.\+cpp\end{DoxyCompactItemize}
+/home/florent/\-Documents/\-Projet\-\_\-\-S8/\-Fact\-Dev/src/libs/qt-\/mustache/tests/test\-\_\-mustache.\-cpp\end{DoxyCompactItemize}

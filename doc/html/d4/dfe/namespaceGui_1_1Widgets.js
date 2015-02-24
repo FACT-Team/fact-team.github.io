@@ -4,7 +4,10 @@ var namespaceGui_1_1Widgets =
       [ "ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" ]
     ] ],
     [ "WdgModels", null, [
-      [ "ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" ]
+      [ "BillingsTableModel", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel" ],
+      [ "ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" ],
+      [ "CustomersTableModel", "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html", "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel" ],
+      [ "ProjectsTableModel", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" ]
     ] ],
     [ "ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget" ],
     [ "ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget" ],

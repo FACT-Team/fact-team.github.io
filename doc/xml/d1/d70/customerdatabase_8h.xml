@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d1/d70/customerdatabase_8h" kind="file">
     <compoundname>customerdatabase.h</compoundname>
     <includes refid="d8/d9c/database_8h" local="yes">database/database.h</includes>
@@ -7,264 +7,301 @@
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
     <includes refid="da/d66/string_8h" local="yes">utils/string.h</includes>
-    <includedby refid="df/d68/customerdatabase_8cpp" local="yes">src/database/customerdatabase.cpp</includedby>
-    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">src/gui/dialogs/addprojectdialog.h</includedby>
-    <includedby refid="d6/d5b/comboboxmodelwidget_8h" local="yes">src/gui/widgets/comboboxmodelwidget.h</includedby>
-    <includedby refid="d7/d15/searchwidget_8h" local="yes">src/gui/widgets/searchwidget.h</includedby>
-    <includedby refid="d9/d36/customer_8cpp" local="yes">src/models/customer.cpp</includedby>
-    <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">tests/database/customerdatabasetest.cpp</includedby>
-    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">tests/models/customermodeltest.cpp</includedby>
-    <includedby refid="db/d1e/searchtest_8cpp" local="yes">tests/models/searchtest.cpp</includedby>
+    <includes refid="da/d77/customerstablemodel_8h" local="yes">gui/widgets/widgetsmodels/customerstablemodel.h</includes>
+    <includedby refid="df/d68/customerdatabase_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp</includedby>
+    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</includedby>
+    <includedby refid="d6/d5b/comboboxmodelwidget_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/comboboxmodelwidget.h</includedby>
+    <includedby refid="d7/d15/searchwidget_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/searchwidget.h</includedby>
+    <includedby refid="d9/d36/customer_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/models/customer.cpp</includedby>
+    <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/database/customerdatabasetest.cpp</includedby>
+    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/models/customermodeltest.cpp</includedby>
+    <includedby refid="db/d1e/searchtest_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/models/searchtest.cpp</includedby>
     <incdepgraph>
-      <node id="188">
-        <label>exceptions/dbexception.h</label>
-        <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="187" relation="include">
-        </childnode>
-        <childnode refid="189" relation="include">
-        </childnode>
-        <childnode refid="190" relation="include">
-        </childnode>
-        <childnode refid="191" relation="include">
-        </childnode>
-        <childnode refid="192" relation="include">
-        </childnode>
-        <childnode refid="193" relation="include">
-        </childnode>
-      </node>
-      <node id="182">
+      <node id="211">
         <label>QSettings</label>
       </node>
-      <node id="175">
-        <label>src/database/customerdatabase.h</label>
-        <link refid="customerdatabase.h"/>
-        <childnode refid="176" relation="include">
-        </childnode>
-        <childnode refid="188" relation="include">
-        </childnode>
-        <childnode refid="198" relation="include">
-        </childnode>
-        <childnode refid="193" relation="include">
-        </childnode>
-        <childnode refid="200" relation="include">
-        </childnode>
-      </node>
-      <node id="177">
+      <node id="206">
         <label>QtSql/QSql</label>
       </node>
-      <node id="192">
+      <node id="221">
         <label>QMessageBox</label>
       </node>
-      <node id="178">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="191">
-        <label>stdexcept</label>
-      </node>
-      <node id="181">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="180">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="183">
-        <label>QStandardItem</label>
-      </node>
-      <node id="187">
-        <label>exception</label>
-      </node>
-      <node id="198">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="196" relation="include">
-        </childnode>
-        <childnode refid="199" relation="include">
-        </childnode>
-      </node>
-      <node id="199">
-        <label>models/idatabasemodel.h</label>
-        <link refid="de/d73/idatabasemodel_8h_source"/>
-      </node>
-      <node id="195">
-        <label>QDebug</label>
-      </node>
-      <node id="189">
-        <label>sstream</label>
-      </node>
-      <node id="184">
-        <label>QDate</label>
-      </node>
-      <node id="196">
-        <label>QString</label>
-      </node>
-      <node id="186">
-        <label>QFile</label>
-      </node>
-      <node id="193">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="186" relation="include">
-        </childnode>
-        <childnode refid="184" relation="include">
-        </childnode>
-        <childnode refid="185" relation="include">
-        </childnode>
-        <childnode refid="194" relation="include">
-        </childnode>
-        <childnode refid="195" relation="include">
-        </childnode>
-        <childnode refid="182" relation="include">
-        </childnode>
-        <childnode refid="196" relation="include">
-        </childnode>
-        <childnode refid="197" relation="include">
-        </childnode>
-      </node>
-      <node id="179">
-        <label>QtSql/QSqlError</label>
-      </node>
-      <node id="190">
-        <label>iostream</label>
-      </node>
-      <node id="200">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
-        <childnode refid="196" relation="include">
-        </childnode>
-      </node>
-      <node id="194">
-        <label>QTextStream</label>
-      </node>
-      <node id="197">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="196" relation="include">
-        </childnode>
-      </node>
-      <node id="176">
+      <node id="205">
         <label>database/database.h</label>
         <link refid="d8/d9c/database_8h_source"/>
-        <childnode refid="177" relation="include">
+        <childnode refid="206" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="207" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="208" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="209" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="210" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="211" relation="include">
         </childnode>
-        <childnode refid="183" relation="include">
+        <childnode refid="212" relation="include">
         </childnode>
-        <childnode refid="184" relation="include">
+        <childnode refid="213" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="214" relation="include">
         </childnode>
-        <childnode refid="186" relation="include">
+        <childnode refid="215" relation="include">
         </childnode>
-        <childnode refid="187" relation="include">
+        <childnode refid="216" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="217" relation="include">
         </childnode>
-        <childnode refid="193" relation="include">
+        <childnode refid="222" relation="include">
         </childnode>
-        <childnode refid="197" relation="include">
+        <childnode refid="226" relation="include">
         </childnode>
       </node>
-      <node id="185">
+      <node id="228">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>QObject</label>
+      </node>
+      <node id="226">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="225" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="225" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="204">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h</label>
+        <link refid="customerdatabase.h"/>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>stdexcept</label>
+      </node>
+      <node id="210">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="209">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="212">
+        <label>QStandardItem</label>
+      </node>
+      <node id="216">
+        <label>exception</label>
+      </node>
+      <node id="224">
+        <label>QDebug</label>
+      </node>
+      <node id="231">
+        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
+        <link refid="da/d77/customerstablemodel_8h_source"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>QVariantHash</label>
+      </node>
+      <node id="218">
+        <label>sstream</label>
+      </node>
+      <node id="213">
+        <label>QDate</label>
+      </node>
+      <node id="225">
+        <label>QString</label>
+      </node>
+      <node id="215">
+        <label>QFile</label>
+      </node>
+      <node id="208">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="217">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>iostream</label>
+      </node>
+      <node id="222">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>QTextStream</label>
+      </node>
+      <node id="233">
+        <label>QAbstractTableModel</label>
+      </node>
+      <node id="214">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="201">
-        <label>src/database/customerdatabase.h</label>
-        <link refid="customerdatabase.h"/>
-        <childnode refid="202" relation="include">
-        </childnode>
-        <childnode refid="205" relation="include">
-        </childnode>
-        <childnode refid="206" relation="include">
-        </childnode>
-      </node>
-      <node id="203">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
-      <node id="204">
-        <label>src/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="202" relation="include">
-        </childnode>
-      </node>
-      <node id="202">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="203" relation="include">
-        </childnode>
-        <childnode refid="204" relation="include">
-        </childnode>
-      </node>
-      <node id="205">
-        <label>src/gui/widgets/comboboxmodelwidget.h</label>
-        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
-      </node>
-      <node id="206">
-        <label>src/gui/widgets/searchwidget.h</label>
+      <node id="239">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/searchwidget.h</label>
         <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
+      <node id="237">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h</label>
+        <link refid="customerdatabase.h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
+        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
+      </node>
+      <node id="236">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
     </invincdepgraph>
-    <innerclass refid="de/de4/classDatabase_1_1CustomerDatabase" prot="public">Database::CustomerDatabase</innerclass>
-    <innernamespace refid="dc/d4f/namespaceDatabase">Database</innernamespace>
+    <innerclass refid="d8/d7e/classDatabases_1_1CustomerDatabase" prot="public">Databases::CustomerDatabase</innerclass>
+    <innernamespace refid="df/d31/namespaceDatabases">Databases</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>BDDCUSTOMER_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BDDCUSTOMER_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>BDDCUSTOMER_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BDDCUSTOMER_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dda/namespaceExceptions" kindref="compound">Exceptions</ref>;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref>;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref><sp/>{</highlight></codeline>
-<codeline lineno="23" refid="de/de4/classDatabase_1_1CustomerDatabase" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/de4/classDatabase_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de4/classDatabase_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>_instance;<sp/><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/widgetsmodels/customerstablemodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Exceptions;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Utils;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Gui::Widgets;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Databases<sp/>{</highlight></codeline>
+<codeline lineno="25" refid="d8/d7e/classDatabases_1_1CustomerDatabase" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/de4/classDatabase_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de4/classDatabase_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>instance()</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItemModel*<sp/>getCustomersTable(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItemModel<sp/>*getCustomersTree(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Models::Customer&gt;<sp/>getCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref>&amp;);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref>&amp;);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbCustomers();</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BDDCUSTOMER_H</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>instance()</highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel" kindref="compound">WdgModels::CustomersTableModel</ref>*<sp/>getCustomersTable(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItemModel<sp/>*getTree(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Models::Customer&gt;<sp/>getCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref>&amp;);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref>&amp;);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeCustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbCustomers();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItem<sp/>*getItemRoot();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItem<sp/>*getItemCustomer(QSqlQuery<sp/>q1);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItem<sp/>*getItemProject(QSqlQuery<sp/>q2);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>QStandardItem<sp/>*getItemBillQuote(QSqlQuery<sp/>q3);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Models::Customer&gt;<sp/>getCustomer(QSqlQuery<sp/>&amp;q);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateCustomer(QSqlQuery<sp/>&amp;q,<sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>&amp;pCustomer);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>_instance;<sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BDDCUSTOMER_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/customerdatabase.h"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h"/>
   </compounddef>
 </doxygen>

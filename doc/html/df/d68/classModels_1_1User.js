@@ -6,6 +6,7 @@ var classModels_1_1User =
     [ "getAddress", "df/d68/classModels_1_1User.html#afef76dde9b2e3fdb3c2fef33c2dc0d4d", null ],
     [ "getCity", "df/d68/classModels_1_1User.html#a6ee95d68097373de6273bd0386f2dff1", null ],
     [ "getCompany", "df/d68/classModels_1_1User.html#a5c2a1436bfaaf39df26d1ff45196ff43", null ],
+    [ "getDataMap", "df/d68/classModels_1_1User.html#abbc8a3a40b527497872240bf39f21314", null ],
     [ "getEmail", "df/d68/classModels_1_1User.html#a90b1f27762a58bbe2e903d8299678b74", null ],
     [ "getFirstname", "df/d68/classModels_1_1User.html#a409a0a6becdd16b9a34120511526ab4d", null ],
     [ "getLastname", "df/d68/classModels_1_1User.html#acd71c39455f4289dac70fe3688b956a6", null ],
@@ -14,6 +15,8 @@ var classModels_1_1User =
     [ "getPhone", "df/d68/classModels_1_1User.html#adc8fbd6d75a41d9ac9ee9473d781d1c1", null ],
     [ "getPostalCode", "df/d68/classModels_1_1User.html#a4d6dae7e681b0acc7bbd1c4cc7b84062", null ],
     [ "getTitle", "df/d68/classModels_1_1User.html#a56a37a1b1125c28e8e72c9a3551b7da5", null ],
+    [ "getWorkspaceName", "df/d68/classModels_1_1User.html#adf4c52429656a4f44c15d879caee5b10", null ],
+    [ "getWorkspacePath", "df/d68/classModels_1_1User.html#aa9421bda240316f9eebd0145f6dc3eda", null ],
     [ "hydrat", "df/d68/classModels_1_1User.html#ab46c7e1841dca66bc01cd95328b97877", null ],
     [ "remove", "df/d68/classModels_1_1User.html#ae0870269116b5bda3b5f1c8527e300be", null ],
     [ "setAddress", "df/d68/classModels_1_1User.html#a2a6098ed13472398a972944b88905ebd", null ],
@@ -26,5 +29,7 @@ var classModels_1_1User =
     [ "setNoSiret", "df/d68/classModels_1_1User.html#ae751ee06859dffce0cad08005c42c933", null ],
     [ "setPhone", "df/d68/classModels_1_1User.html#adb132ecafc7cc0afd42fc260f8a2e7b9", null ],
     [ "setPostalCode", "df/d68/classModels_1_1User.html#a5a75307bb95eae0970efd282519ec5ba", null ],
-    [ "setTitle", "df/d68/classModels_1_1User.html#a0fe65ebdee17c2986c874e480e1cb0bd", null ]
+    [ "setTitle", "df/d68/classModels_1_1User.html#a0fe65ebdee17c2986c874e480e1cb0bd", null ],
+    [ "setWorkspaceName", "df/d68/classModels_1_1User.html#ae51aa34e41159fe7e4541a8cfddc50a3", null ],
+    [ "setWorkspacePath", "df/d68/classModels_1_1User.html#ae62b6cc7c6c5f5ab80b9f066b67afc95", null ]
 ];

@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d9a/hierarchicalsystem_8cpp" kind="file">
+    <compoundname>hierarchicalsystem.cpp</compoundname>
+    <includes refid="d9/dfd/projectdatabase_8h" local="yes">database/projectdatabase.h</includes>
+    <includes refid="d2/dd1/billingdatabase_8h" local="yes">database/billingdatabase.h</includes>
+    <includes refid="da/de0/dbexception_8h" local="yes">exceptions/dbexception.h</includes>
+    <includes refid="de/d21/hierarchicalsystem_8h" local="yes">hierarchicalsystem.h</includes>
+    <includes local="no">QDebug</includes>
+    <incdepgraph>
+      <node id="2508">
+        <label>QMap</label>
+      </node>
+      <node id="2503">
+        <label>gui/widgets/widgetsmodels/projectstablemodel.h</label>
+        <link refid="dc/d1a/projectstablemodel_8h_source"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+      </node>
+      <node id="2481">
+        <label>QSettings</label>
+      </node>
+      <node id="2476">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="2491">
+        <label>QMessageBox</label>
+      </node>
+      <node id="2507">
+        <label>models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2511" relation="include">
+        </childnode>
+        <childnode refid="2512" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+      </node>
+      <node id="2475">
+        <label>database/database.h</label>
+        <link refid="d8/d9c/database_8h_source"/>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2477" relation="include">
+        </childnode>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+      </node>
+      <node id="2499">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="2500" relation="include">
+        </childnode>
+      </node>
+      <node id="2504">
+        <label>QObject</label>
+      </node>
+      <node id="2496">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+      </node>
+      <node id="2509">
+        <label>QList</label>
+      </node>
+      <node id="2502">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="2490">
+        <label>stdexcept</label>
+      </node>
+      <node id="2497">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+      </node>
+      <node id="2480">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="2498">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2479">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="2513">
+        <label>generator.h</label>
+        <link refid="d8/df4/generator_8h_source"/>
+        <childnode refid="2507" relation="include">
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>QStandardItem</label>
+      </node>
+      <node id="2486">
+        <label>exception</label>
+      </node>
+      <node id="2506">
+        <label>database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2514" relation="include">
+        </childnode>
+      </node>
+      <node id="2510">
+        <label>models/contributory.h</label>
+        <link refid="d8/dee/contributory_8h_source"/>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2511">
+        <label>models/user.h</label>
+        <link refid="d8/ddb/user_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+      </node>
+      <node id="2512">
+        <label>database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2502" relation="include">
+        </childnode>
+      </node>
+      <node id="2473">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp</label>
+        <link refid="hierarchicalsystem.cpp"/>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+      </node>
+      <node id="2494">
+        <label>QDebug</label>
+      </node>
+      <node id="2500">
+        <label>QVariantHash</label>
+      </node>
+      <node id="2488">
+        <label>sstream</label>
+      </node>
+      <node id="2483">
+        <label>QDate</label>
+      </node>
+      <node id="2495">
+        <label>QString</label>
+      </node>
+      <node id="2485">
+        <label>QFile</label>
+      </node>
+      <node id="2478">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="2487">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2491" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+      </node>
+      <node id="2489">
+        <label>iostream</label>
+      </node>
+      <node id="2492">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+      </node>
+      <node id="2474">
+        <label>database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+      </node>
+      <node id="2501">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2493">
+        <label>QTextStream</label>
+      </node>
+      <node id="2514">
+        <label>gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+      </node>
+      <node id="2505">
+        <label>QAbstractTableModel</label>
+      </node>
+      <node id="2484">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d4/d3d/namespaceUtils">Utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;database/projectdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/billingdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hierarchicalsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a55e085ac80ae1640b7fb428f2a5d188c" kindref="member">HierarchicalSystem::HierarchicalSystem</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1af0881e95aef001ee46d9f83a9e66dca5" kindref="member">updateData</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" kindref="member">HierarchicalSystem::getAllProjects</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p:<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" kindref="member">getAllProjects</ref>())</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>=<sp/>*(p-&gt;getCustomer());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a26f07f62ebb50520bc11665e26cedadc" kindref="member">addProjectToCustomer</ref>(p,<sp/>c);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a80b20dd898e0c44741cb4e6768342b72" kindref="member">HierarchicalSystem::getAllBillings</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;Project*,Billing*&gt;<sp/>map<sp/>=</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase_1aee84d7d07ff4a25251c61030019e5abb" kindref="member">Databases::BillingDatabase::instance</ref>()-&gt;<ref refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" kindref="member">getAllBillingsOfProject</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>map.cbegin();<sp/>it<sp/>!=<sp/>map.cend();<sp/>++it)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a4452533b6f536a92ba1a3c5fe3d8c12d" kindref="member">addBillingToProject</ref>(it.value(),<sp/>it.key());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1af0881e95aef001ee46d9f83a9e66dca5" kindref="member">HierarchicalSystem::updateData</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae45de757de5b0867d419a4d86e12c94f" kindref="member">getAllProjects</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a80b20dd898e0c44741cb4e6768342b72" kindref="member">getAllBillings</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a26f07f62ebb50520bc11665e26cedadc" kindref="member">HierarchicalSystem::addProjectToCustomer</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p,<sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>_customers.insert(p,c);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1a4452533b6f536a92ba1a3c5fe3d8c12d" kindref="member">HierarchicalSystem::addBillingToProject</ref>(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>*<sp/>b,<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>_projects.insert(b,p);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMap&lt;Project*,<sp/>Customer&gt;<sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1aa66210b1d52960ebc9b7b1d827de8564" kindref="member">HierarchicalSystem::getCustomers</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="51"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_customers;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">QMap&lt;Billing*,<sp/>Project*&gt;<sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem_1ae62e86244c20f66c4b741ad3a235e7d1" kindref="member">HierarchicalSystem::getProjects</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="57"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_projects;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.cpp"/>
+  </compounddef>
+</doxygen>

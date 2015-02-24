@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d7e/classDatabases_1_1CustomerDatabase" kind="class" prot="public">
+    <compoundname>Databases::CustomerDatabase</compoundname>
+    <basecompoundref refid="dd/db0/classDatabases_1_1Database" prot="public" virt="non-virtual">Databases::Database</basecompoundref>
+    <includes refid="d1/d70/customerdatabase_8h" local="no">customerdatabase.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a21d364988b108220f558da5582a0b6aa" prot="private" static="yes" mutable="no">
+        <type><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref> *</type>
+        <definition>CustomerDatabase * Databases::CustomerDatabase::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Singleton instance of <ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="136" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref> *</type>
+        <definition>CustomerDatabase * Databases::CustomerDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" kindref="member">CustomerDatabase::instance</ref> Return an instance of <bold><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>DbException </para></simplesect>
+<simplesect kind="return"><para>Instance of <ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="35" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="12" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a9c7ab43d4e219710604e030eb8ab44d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel" kindref="compound">WdgModels::CustomersTableModel</ref> *</type>
+        <definition>WdgModels::CustomersTableModel * Databases::CustomerDatabase::getCustomersTable</definition>
+        <argsstring>(QString filter=&quot;&quot;)</argsstring>
+        <name>getCustomersTable</name>
+        <param>
+          <type>QString</type>
+          <declname>filter</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a9c7ab43d4e219710604e030eb8ab44d8" kindref="member">CustomerDatabase::getCustomersTable</ref> Return an item model of customers for QTableView. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select only customers who are specified by <emphasis>filter</emphasis> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>DbException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItemModel an item model for QTableView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="44" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="23" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1ac611950b0502fbfe129ee1d1b495def4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItemModel *</type>
+        <definition>QStandardItemModel * Databases::CustomerDatabase::getTree</definition>
+        <argsstring>(QString filter=&quot;&quot;)</argsstring>
+        <name>getTree</name>
+        <param>
+          <type>QString</type>
+          <declname>filter</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ac611950b0502fbfe129ee1d1b495def4" kindref="member">CustomerDatabase::getTree</ref> Return an item model of customers for QTree. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select only customers who are specified by <emphasis>filter</emphasis> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>DbException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItemModel an item model for QTreeView </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="54" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="57" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1ab0544439382fb6891cd7d27f67cb120c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &gt;</type>
+        <definition>QSharedPointer&lt; Models::Customer &gt; Databases::CustomerDatabase::getCustomer</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>getCustomer</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab0544439382fb6891cd7d27f67cb120c" kindref="member">CustomerDatabase::getCustomer</ref> get informations about the customer identified by <emphasis>pId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>customer id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the Customer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="62" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="216" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a0f45861747bcb0eef12f432dfe9be30e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::CustomerDatabase::addCustomer</definition>
+        <argsstring>(const Models::Customer &amp;)</argsstring>
+        <name>addCustomer</name>
+        <param>
+          <type>const <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &amp;</type>
+          <defname>pCustomer</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a0f45861747bcb0eef12f432dfe9be30e" kindref="member">CustomerDatabase::addCustomer</ref> Add the customer <emphasis>pCustomer</emphasis> to the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>customer id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="69" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="246" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a2ef9838798500e7ad4a09a3ed401fc8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::CustomerDatabase::updateCustomer</definition>
+        <argsstring>(const Models::Customer &amp;)</argsstring>
+        <name>updateCustomer</name>
+        <param>
+          <type>const <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &amp;</type>
+          <defname>pCustomer</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a2ef9838798500e7ad4a09a3ed401fc8b" kindref="member">CustomerDatabase::updateCustomer</ref> Update informations about the customer <emphasis>pCustomer</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="75" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="281" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1acd2d887546a773f4c526796ac384ad53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::CustomerDatabase::removeCustomer</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>removeCustomer</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1acd2d887546a773f4c526796ac384ad53" kindref="member">CustomerDatabase::removeCustomer</ref> Remove the customer with the id <emphasis>pId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>customer id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="82" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="316" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1ab02a6a2999f6b92d38a3b6d71b940f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::CustomerDatabase::getNbCustomers</definition>
+        <argsstring>()</argsstring>
+        <name>getNbCustomers</name>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab02a6a2999f6b92d38a3b6d71b940f82" kindref="member">CustomerDatabase::getNbCustomers</ref> Return the number of customers existing. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of customers </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="89" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="336" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1af35f43c0329b37e88cb4f24783066968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItem *</type>
+        <definition>QStandardItem * Databases::CustomerDatabase::getItemRoot</definition>
+        <argsstring>()</argsstring>
+        <name>getItemRoot</name>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1af35f43c0329b37e88cb4f24783066968" kindref="member">CustomerDatabase::getItemRoot</ref> Return the first item for the QStandardItemModel. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>QStandardItem an item for QTree (level/depth 0) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="96" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1abad5bf2b61181f9896404850c4acfb84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItem *</type>
+        <definition>QStandardItem * Databases::CustomerDatabase::getItemCustomer</definition>
+        <argsstring>(QSqlQuery q1)</argsstring>
+        <name>getItemCustomer</name>
+        <param>
+          <type>QSqlQuery</type>
+          <declname>q1</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1abad5bf2b61181f9896404850c4acfb84" kindref="member">CustomerDatabase::getItemCustomer</ref> Return the customer item for the QStandardItemModel. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row of the sql query for customers </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItem an item for QTree (level/depth 1) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="104" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="147" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItem *</type>
+        <definition>QStandardItem * Databases::CustomerDatabase::getItemProject</definition>
+        <argsstring>(QSqlQuery q2)</argsstring>
+        <name>getItemProject</name>
+        <param>
+          <type>QSqlQuery</type>
+          <declname>q2</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" kindref="member">CustomerDatabase::getItemProject</ref> Return the project item for the QStandardItemModel. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row of the sql query for projects </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItem an item for QTree (level/depth 2) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="111" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="162" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1ab9311e006dc1e58486d6e682064912b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStandardItem *</type>
+        <definition>QStandardItem * Databases::CustomerDatabase::getItemBillQuote</definition>
+        <argsstring>(QSqlQuery q3)</argsstring>
+        <name>getItemBillQuote</name>
+        <param>
+          <type>QSqlQuery</type>
+          <declname>q3</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1abad5bf2b61181f9896404850c4acfb84" kindref="member">CustomerDatabase::getItemCustomer</ref> Return the bill/quote item for the QStandardItemModel. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first row of the sql query for bills/quotes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QStandardItem an item for QTree (level/depth 3) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="118" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="168" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a23017b6db7808fa1d03e55e063418670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &gt;</type>
+        <definition>QSharedPointer&lt; Models::Customer &gt; Databases::CustomerDatabase::getCustomer</definition>
+        <argsstring>(QSqlQuery &amp;q)</argsstring>
+        <name>getCustomer</name>
+        <param>
+          <type>QSqlQuery &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab0544439382fb6891cd7d27f67cb120c" kindref="member">CustomerDatabase::getCustomer</ref> Add the element of the <emphasis>q</emphasis> request and return their. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SQL request </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a customer formed according to QSharedPointer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="126" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="181" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1aedb0c575bd9141547e4e084fd260beb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::CustomerDatabase::updateCustomer</definition>
+        <argsstring>(QSqlQuery &amp;q, Customer &amp;pCustomer)</argsstring>
+        <name>updateCustomer</name>
+        <param>
+          <type>QSqlQuery &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &amp;</type>
+          <declname>pCustomer</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a2ef9838798500e7ad4a09a3ed401fc8b" kindref="member">CustomerDatabase::updateCustomer</ref> Update customer data according to the request <emphasis>q</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SQL request </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="133" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="201" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/d7e/classDatabases_1_1CustomerDatabase_1a4c7a82b1a53fc5fa7e6d6aaa3562342e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Databases::CustomerDatabase::CustomerDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>CustomerDatabase</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><bold><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref></bold> is a singleton </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="141" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <bold><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref></bold> class Customer table database. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Antoine de Roquemaurel </para><simplesectsep/><para>Manantsoa Razanajatovo </para><simplesectsep/><para>Florent Berbie </para><simplesectsep/><para>Cédric Rohaut </para></simplesect>
+<simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>Customer </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>Databases::CustomerDatabase</label>
+        <link refid="d8/d7e/classDatabases_1_1CustomerDatabase"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="199">
+        <label>Databases::CustomerDatabase</label>
+        <link refid="d8/d7e/classDatabases_1_1CustomerDatabase"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+        <childnode refid="200" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" line="26" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/customerdatabase.h" bodystart="25" bodyend="142"/>
+    <listofallmembers>
+      <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>_dbInstance</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a21d364988b108220f558da5582a0b6aa" prot="private" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>_instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1aaed4ecc36468c345c56df78ccb5b56c8" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>_instances</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a1254e2d5f196c9b6143da1cd57df5d31" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>_settings</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a0f45861747bcb0eef12f432dfe9be30e" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>addCustomer</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a52c30975504e35c7c475a52817d66b73" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>cleanDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56127c397e3c424401d59d64cdb8e8fc" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>close</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56faa5446bd58e6b3c3a4c503d9309b1" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>closeTransaction</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a50bde8faf6ab4c5dfdec74dc3ba7bbe7" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>createDatabase</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a4c7a82b1a53fc5fa7e6d6aaa3562342e" prot="private" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>CustomerDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a7d14f43864ce19a5e399ea4ed3ce808f" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>Database</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a21f6c86f95b149ac7dbf0ffc94021a93" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>executeFile</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab0544439382fb6891cd7d27f67cb120c" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getCustomer</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a23017b6db7808fa1d03e55e063418670" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getCustomer</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a9c7ab43d4e219710604e030eb8ab44d8" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getCustomersTable</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab9311e006dc1e58486d6e682064912b5" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getItemBillQuote</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1abad5bf2b61181f9896404850c4acfb84" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getItemCustomer</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getItemProject</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1af35f43c0329b37e88cb4f24783066968" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getItemRoot</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab02a6a2999f6b92d38a3b6d71b940f82" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getNbCustomers</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ac611950b0502fbfe129ee1d1b495def4" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>getTree</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abdde0f6fbef7f4d7353acda867f01ca0" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>isOpen</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abda5b1dd4c55bee049e9450a40a7baab" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>lastError</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a091c36a92c87204f4f63e96e7d34b9f7" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>mDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a53c4c277c2fbd3532d2bcaa1d47aed40" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>open</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a64d55cd9452bbf2a6fd1693df004de59" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>openTransaction</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1acd2d887546a773f4c526796ac384ad53" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>removeCustomer</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a88af2050b210c0d829d166f0f6d9e318" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>setDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>testCases</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a17b652086514e0a64d0e452a938ac7a5" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>updateBillingNumber</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a2ef9838798500e7ad4a09a3ed401fc8b" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>updateCustomer</name></member>
+      <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aedb0c575bd9141547e4e084fd260beb7" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>updateCustomer</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a5d8a99bd2d7b5c77eacb942ed790b12c" prot="protected" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>value</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a457a2dac579f1ffc743f452a2dcbbd5c" prot="public" virt="non-virtual"><scope>Databases::CustomerDatabase</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

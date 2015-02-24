@@ -1,22 +1,22 @@
-\hypertarget{classMustache_1_1Renderer}{\section{Mustache\+:\+:Renderer Class Reference}
-\label{classMustache_1_1Renderer}\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
+\hypertarget{classMustache_1_1Renderer}{\section{Mustache\-:\-:Renderer Class Reference}
+\label{classMustache_1_1Renderer}\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}}
 }
 
 
-{\ttfamily \#include $<$mustache.\+h$>$}
+{\ttfamily \#include $<$mustache.\-h$>$}
 
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-Q\+String \hyperlink{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{render} (const Q\+String \&\+\_\+template, \hyperlink{classMustache_1_1Context}{Context} $\ast$context)
+Q\-String \hyperlink{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{render} (const Q\-String \&\-\_\-template, \hyperlink{classMustache_1_1Context}{Context} $\ast$context)
 \item 
-Q\+String \hyperlink{classMustache_1_1Renderer_aaea1d06b2883b4f52a1117b7d5c5b75a}{error} () const 
+Q\-String \hyperlink{classMustache_1_1Renderer_aaea1d06b2883b4f52a1117b7d5c5b75a}{error} () const 
 \item 
-int \hyperlink{classMustache_1_1Renderer_a35aea613ad6426661a715520fa617cb7}{error\+Pos} () const 
+int \hyperlink{classMustache_1_1Renderer_a35aea613ad6426661a715520fa617cb7}{error\-Pos} () const 
 \item 
-Q\+String \hyperlink{classMustache_1_1Renderer_aa26c1e3e2444cccd926e1d8a4a50fcef}{error\+Partial} () const 
+Q\-String \hyperlink{classMustache_1_1Renderer_aa26c1e3e2444cccd926e1d8a4a50fcef}{error\-Partial} () const 
 \item 
-void \hyperlink{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}{set\+Tag\+Markers} (const Q\+String \&start\+Marker, const Q\+String \&end\+Marker)
+void \hyperlink{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}{set\-Tag\-Markers} (const Q\-String \&start\-Marker, const Q\-String \&end\-Marker)
 \end{DoxyCompactItemize}
 
 
@@ -24,48 +24,48 @@ void \hyperlink{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}{set
 Renders Mustache templates, replacing mustache tags with values from a provided context. 
 
 \subsection{Member Function Documentation}
-\hypertarget{classMustache_1_1Renderer_aaea1d06b2883b4f52a1117b7d5c5b75a}{\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}!error@{error}}
-\index{error@{error}!Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
-\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Renderer\+::error (
+\hypertarget{classMustache_1_1Renderer_aaea1d06b2883b4f52a1117b7d5c5b75a}{\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}!error@{error}}
+\index{error@{error}!Mustache::Renderer@{Mustache\-::\-Renderer}}
+\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Renderer\-::error (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 ) const}}\label{classMustache_1_1Renderer_aaea1d06b2883b4f52a1117b7d5c5b75a}
-Returns a message describing the last error encountered by the previous \hyperlink{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{render()} call. \hypertarget{classMustache_1_1Renderer_aa26c1e3e2444cccd926e1d8a4a50fcef}{\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}!error\+Partial@{error\+Partial}}
-\index{error\+Partial@{error\+Partial}!Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
-\subsubsection[{error\+Partial}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Renderer\+::error\+Partial (
+Returns a message describing the last error encountered by the previous \hyperlink{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{render()} call. \hypertarget{classMustache_1_1Renderer_aa26c1e3e2444cccd926e1d8a4a50fcef}{\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}!error\-Partial@{error\-Partial}}
+\index{error\-Partial@{error\-Partial}!Mustache::Renderer@{Mustache\-::\-Renderer}}
+\subsubsection[{error\-Partial}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Renderer\-::error\-Partial (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 ) const}}\label{classMustache_1_1Renderer_aa26c1e3e2444cccd926e1d8a4a50fcef}
-Returns the name of the partial where the error occurred, or an empty string if the error occurred in the main template. \hypertarget{classMustache_1_1Renderer_a35aea613ad6426661a715520fa617cb7}{\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}!error\+Pos@{error\+Pos}}
-\index{error\+Pos@{error\+Pos}!Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
-\subsubsection[{error\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}int Renderer\+::error\+Pos (
+Returns the name of the partial where the error occurred, or an empty string if the error occurred in the main template. \hypertarget{classMustache_1_1Renderer_a35aea613ad6426661a715520fa617cb7}{\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}!error\-Pos@{error\-Pos}}
+\index{error\-Pos@{error\-Pos}!Mustache::Renderer@{Mustache\-::\-Renderer}}
+\subsubsection[{error\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}int Renderer\-::error\-Pos (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 ) const}}\label{classMustache_1_1Renderer_a35aea613ad6426661a715520fa617cb7}
 Returns the position in the template where the last error occurred when rendering the template or -\/1 if no error occurred.
 
-If the error occurred in a partial template, the returned position is the offset in the partial template. \hypertarget{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}!render@{render}}
-\index{render@{render}!Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
-\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Renderer\+::render (
+If the error occurred in a partial template, the returned position is the offset in the partial template. \hypertarget{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}{\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}!render@{render}}
+\index{render@{render}!Mustache::Renderer@{Mustache\-::\-Renderer}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Renderer\-::render (
 \begin{DoxyParamCaption}
-\item[{const Q\+String \&}]{\+\_\+template, }
+\item[{const Q\-String \&}]{\-\_\-template, }
 \item[{{\bf Context} $\ast$}]{context}
 \end{DoxyParamCaption}
 )}}\label{classMustache_1_1Renderer_ab82d90fe802606145d1f7ed9f2a9cf81}
-Render a Mustache template, using {\ttfamily context} to fetch the values used to replace Mustache tags. \hypertarget{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}{\index{Mustache\+::\+Renderer@{Mustache\+::\+Renderer}!set\+Tag\+Markers@{set\+Tag\+Markers}}
-\index{set\+Tag\+Markers@{set\+Tag\+Markers}!Mustache\+::\+Renderer@{Mustache\+::\+Renderer}}
-\subsubsection[{set\+Tag\+Markers}]{\setlength{\rightskip}{0pt plus 5cm}void Renderer\+::set\+Tag\+Markers (
+Render a Mustache template, using {\ttfamily context} to fetch the values used to replace Mustache tags. \hypertarget{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}{\index{Mustache\-::\-Renderer@{Mustache\-::\-Renderer}!set\-Tag\-Markers@{set\-Tag\-Markers}}
+\index{set\-Tag\-Markers@{set\-Tag\-Markers}!Mustache::Renderer@{Mustache\-::\-Renderer}}
+\subsubsection[{set\-Tag\-Markers}]{\setlength{\rightskip}{0pt plus 5cm}void Renderer\-::set\-Tag\-Markers (
 \begin{DoxyParamCaption}
-\item[{const Q\+String \&}]{start\+Marker, }
-\item[{const Q\+String \&}]{end\+Marker}
+\item[{const Q\-String \&}]{start\-Marker, }
+\item[{const Q\-String \&}]{end\-Marker}
 \end{DoxyParamCaption}
 )}}\label{classMustache_1_1Renderer_a4b61e7a727926ca21a812f6649488eb6}
 Sets the default tag start and end markers. This can be overridden within a template. 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
-src/libs/qt-\/mustache/src/mustache.\+h\item 
-src/libs/qt-\/mustache/src/mustache.\+cpp\end{DoxyCompactItemize}
+/home/florent/\-Documents/\-Projet\-\_\-\-S8/\-Fact\-Dev/src/libs/qt-\/mustache/src/mustache.\-h\item 
+/home/florent/\-Documents/\-Projet\-\_\-\-S8/\-Fact\-Dev/src/libs/qt-\/mustache/src/mustache.\-cpp\end{DoxyCompactItemize}

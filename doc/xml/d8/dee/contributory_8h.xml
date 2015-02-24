@@ -1,149 +1,185 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d8/dee/contributory_8h" kind="file">
     <compoundname>contributory.h</compoundname>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
-    <includes refid="de/d73/idatabasemodel_8h" local="yes">models/idatabasemodel.h</includes>
-    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">src/database/contributorydatabase.h</includedby>
-    <includedby refid="db/d57/contributorieswidget_8h" local="yes">src/gui/widgets/contributorieswidget.h</includedby>
-    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">src/gui/widgets/contributorieswidget.cpp</includedby>
-    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">src/models/billing.h</includedby>
-    <includedby refid="d9/dec/contributory_8cpp" local="yes">src/models/contributory.cpp</includedby>
+    <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
+    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/models/billing.h</includedby>
+    <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
+    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp</includedby>
+    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
+    <includedby refid="d9/dec/contributory_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/models/contributory.cpp</includedby>
+    <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/database/contributoriesdatabasetest.h</includedby>
     <incdepgraph>
-      <node id="1680">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="1676">
-        <label>src/models/contributory.h</label>
-        <link refid="contributory.h"/>
-        <childnode refid="1677" relation="include">
-        </childnode>
-        <childnode refid="1681" relation="include">
+      <node id="2177">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="2178" relation="include">
         </childnode>
       </node>
-      <node id="1682">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1678" relation="include">
-        </childnode>
-        <childnode refid="1681" relation="include">
-        </childnode>
-      </node>
-      <node id="1677">
+      <node id="2173">
         <label>models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1678" relation="include">
+        <childnode refid="2174" relation="include">
         </childnode>
-        <childnode refid="1679" relation="include">
+        <childnode refid="2175" relation="include">
         </childnode>
-        <childnode refid="1680" relation="include">
+        <childnode refid="2176" relation="include">
         </childnode>
-        <childnode refid="1681" relation="include">
+        <childnode refid="2177" relation="include">
         </childnode>
-        <childnode refid="1682" relation="include">
+        <childnode refid="2179" relation="include">
         </childnode>
       </node>
-      <node id="1681">
-        <label>models/idatabasemodel.h</label>
-        <link refid="de/d73/idatabasemodel_8h_source"/>
+      <node id="2176">
+        <label>QSharedPointer</label>
       </node>
-      <node id="1679">
+      <node id="2172">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/contributory.h</label>
+        <link refid="contributory.h"/>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+      </node>
+      <node id="2178">
+        <label>QVariantHash</label>
+      </node>
+      <node id="2175">
         <label>QDate</label>
       </node>
-      <node id="1678">
+      <node id="2174">
         <label>QString</label>
+      </node>
+      <node id="2179">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1689">
-        <label>src/gui/widgets/projectswidget.h</label>
+      <node id="2194">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="2189" relation="include">
+        </childnode>
+      </node>
+      <node id="2182">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+        <childnode refid="2189" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+      </node>
+      <node id="2184">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="2185" relation="include">
+        </childnode>
+      </node>
+      <node id="2189">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="2184" relation="include">
+        </childnode>
+      </node>
+      <node id="2185">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+      </node>
+      <node id="2188">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/generator.h</label>
+        <link refid="d8/df4/generator_8h_source"/>
+        <childnode refid="2182" relation="include">
+        </childnode>
+      </node>
+      <node id="2192">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="2184" relation="include">
+        </childnode>
+      </node>
+      <node id="2186">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="1692">
-        <label>src/utils/itemtype.h</label>
-        <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="1687" relation="include">
+      <node id="2183">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
         </childnode>
       </node>
-      <node id="1695">
-        <label>src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
-        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
-        <childnode refid="1694" relation="include">
-        </childnode>
-      </node>
-      <node id="1683">
-        <label>src/models/contributory.h</label>
+      <node id="2180">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/contributory.h</label>
         <link refid="contributory.h"/>
-        <childnode refid="1684" relation="include">
+        <childnode refid="2181" relation="include">
         </childnode>
-        <childnode refid="1694" relation="include">
+        <childnode refid="2182" relation="include">
         </childnode>
-        <childnode refid="1695" relation="include">
+        <childnode refid="2194" relation="include">
         </childnode>
-        <childnode refid="1685" relation="include">
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
         </childnode>
       </node>
-      <node id="1690">
-        <label>tests/models/billingmodeltest.h</label>
+      <node id="2196">
+        <label>/home/florent/Documents/Projet_S8/FactDev/tests/database/contributoriesdatabasetest.h</label>
+        <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
+      </node>
+      <node id="2181">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="2182" relation="include">
+        </childnode>
+      </node>
+      <node id="2195">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
+        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
+        <childnode refid="2194" relation="include">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="2184" relation="include">
+        </childnode>
+      </node>
+      <node id="2187">
+        <label>/home/florent/Documents/Projet_S8/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
-      <node id="1685">
-        <label>src/models/billing.h</label>
-        <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="1686" relation="include">
-        </childnode>
-        <childnode refid="1691" relation="include">
-        </childnode>
-        <childnode refid="1692" relation="include">
-        </childnode>
-        <childnode refid="1693" relation="include">
-        </childnode>
-        <childnode refid="1690" relation="include">
-        </childnode>
-      </node>
-      <node id="1687">
-        <label>src/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="1688" relation="include">
-        </childnode>
-      </node>
-      <node id="1694">
-        <label>src/gui/widgets/contributorieswidget.h</label>
-        <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="1691" relation="include">
-        </childnode>
-      </node>
-      <node id="1686">
-        <label>src/database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="1687" relation="include">
-        </childnode>
-        <childnode refid="1690" relation="include">
-        </childnode>
-      </node>
-      <node id="1693">
-        <label>tests/database/billingdatabasetest.h</label>
+      <node id="2193">
+        <label>/home/florent/Documents/Projet_S8/FactDev/tests/database/billingdatabasetest.h</label>
         <link refid="d9/d01/billingdatabasetest_8h_source"/>
       </node>
-      <node id="1691">
-        <label>src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="1687" relation="include">
-        </childnode>
-      </node>
-      <node id="1684">
-        <label>src/database/contributorydatabase.h</label>
-        <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="1685" relation="include">
-        </childnode>
-      </node>
-      <node id="1688">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1689" relation="include">
-        </childnode>
-        <childnode refid="1687" relation="include">
+      <node id="2190">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="2183" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -154,13 +190,13 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/idatabasemodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref><sp/>{</highlight></codeline>
-<codeline lineno="11" refid="d5/dd1/classModels_1_1Contributory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/ddd/classModels_1_1IDatabaseModel" kindref="compound">IDatabaseModel</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
+<codeline lineno="11" refid="d5/dd1/classModels_1_1Contributory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kindref="member">Contributory</ref>();</highlight></codeline>
@@ -175,26 +211,32 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" kindref="member">getNbHours</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" kindref="member">getDataMap</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" kindref="member">setNbHours</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" kindref="member">getNbHours</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" kindref="member">getDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" kindref="member">setNbHours</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kindref="member">setDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getDescription);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" kindref="member">getDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_nbHours;<sp/></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/></highlight></codeline>
-<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kindref="member">setDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getDescription);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_nbHours;<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/models/contributory.h"/>
   </compounddef>
 </doxygen>

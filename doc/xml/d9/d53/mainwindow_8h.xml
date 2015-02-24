@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d9/d53/mainwindow_8h" kind="file">
     <compoundname>mainwindow.h</compoundname>
     <includes local="no">QMainWindow</includes>
     <includes local="no">QMessageBox</includes>
     <includes local="no">QModelIndex</includes>
     <includes local="no">QTableView</includes>
+    <includes local="no">QDir</includes>
     <includes refid="db/d31/itemtype_8h" local="yes">utils/itemtype.h</includes>
     <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
+    <includes refid="de/d21/hierarchicalsystem_8h" local="yes">utils/hierarchicalsystem.h</includes>
     <includes refid="d9/dfd/projectdatabase_8h" local="yes">database/projectdatabase.h</includes>
     <includes refid="d2/dd1/billingdatabase_8h" local="yes">database/billingdatabase.h</includes>
     <includes refid="db/d70/popup_8h" local="yes">gui/widgets/popup.h</includes>
@@ -18,461 +20,541 @@
     <includes refid="d8/d0b/addprojectdialog_8h" local="yes">gui/dialogs/addprojectdialog.h</includes>
     <includes refid="de/dbc/addquotedialog_8h" local="yes">gui/dialogs/addquotedialog.h</includes>
     <includes refid="d9/d85/search_8h" local="yes">models/search.h</includes>
-    <includedby refid="d8/dd9/mainwindow_8cpp" local="yes">src/mainwindow.cpp</includedby>
-    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">src/gui/dialogs/addprojectdialog.h</includedby>
+    <includedby refid="d8/dd9/mainwindow_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.cpp</includedby>
+    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</includedby>
     <incdepgraph>
-      <node id="1517">
+      <node id="1988">
         <label>QMap</label>
       </node>
-      <node id="1535">
-        <label>exceptions/dbexception.h</label>
-        <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="1534" relation="include">
-        </childnode>
-        <childnode refid="1536" relation="include">
-        </childnode>
-        <childnode refid="1537" relation="include">
-        </childnode>
-        <childnode refid="1538" relation="include">
-        </childnode>
-        <childnode refid="1509" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1530">
-        <label>QSettings</label>
-      </node>
-      <node id="1562">
-        <label>models/search.h</label>
-        <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-      </node>
-      <node id="1556">
-        <label>database/customerdatabase.h</label>
-        <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1535" relation="include">
-        </childnode>
-        <childnode refid="1521" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-        <childnode refid="1544" relation="include">
-        </childnode>
-      </node>
-      <node id="1525">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="1509">
-        <label>QMessageBox</label>
-      </node>
-      <node id="1560">
-        <label>QObject</label>
-      </node>
-      <node id="1512">
-        <label>utils/itemtype.h</label>
-        <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-        <childnode refid="1515" relation="include">
-        </childnode>
-        <childnode refid="1521" relation="include">
-        </childnode>
-        <childnode refid="1519" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1549">
-        <label>QMenu</label>
-      </node>
-      <node id="1553">
-        <label>models/user.h</label>
-        <link refid="d8/ddb/user_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1552">
-        <label>gui/dialogs/userdatadialog.h</label>
-        <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1553" relation="include">
-        </childnode>
-      </node>
-      <node id="1518">
-        <label>QList</label>
-      </node>
-      <node id="1546">
-        <label>gui/widgets/popup.h</label>
-        <link refid="db/d70/popup_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1547" relation="include">
-        </childnode>
-        <childnode refid="1509" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1526">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="1538">
-        <label>stdexcept</label>
-      </node>
-      <node id="1529">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="1508">
-        <label>QMainWindow</label>
-      </node>
-      <node id="1520">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="1559">
-        <label>gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
-        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1522" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1522">
-        <label>models/contributory.h</label>
-        <link refid="d8/dee/contributory_8h_source"/>
-        <childnode refid="1519" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-      </node>
-      <node id="1528">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="1554">
-        <label>gui/dialogs/dialogaddcustomer.h</label>
-        <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1521" relation="include">
-        </childnode>
-      </node>
-      <node id="1510">
-        <label>QModelIndex</label>
-      </node>
-      <node id="1531">
-        <label>QStandardItem</label>
-      </node>
-      <node id="1534">
-        <label>exception</label>
-      </node>
-      <node id="1515">
-        <label>models/billing.h</label>
-        <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1516" relation="include">
-        </childnode>
-        <childnode refid="1517" relation="include">
-        </childnode>
-        <childnode refid="1518" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-        <childnode refid="1519" relation="include">
-        </childnode>
-        <childnode refid="1522" relation="include">
-        </childnode>
-        <childnode refid="1523" relation="include">
-        </childnode>
-      </node>
-      <node id="1521">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-      </node>
-      <node id="1519">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1516" relation="include">
-        </childnode>
-        <childnode refid="1520" relation="include">
-        </childnode>
-        <childnode refid="1514" relation="include">
-        </childnode>
-        <childnode refid="1521" relation="include">
-        </childnode>
-      </node>
-      <node id="1507">
-        <label>src/mainwindow.h</label>
-        <link refid="mainwindow.h"/>
-        <childnode refid="1508" relation="include">
-        </childnode>
-        <childnode refid="1509" relation="include">
-        </childnode>
-        <childnode refid="1510" relation="include">
-        </childnode>
-        <childnode refid="1511" relation="include">
-        </childnode>
-        <childnode refid="1512" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-        <childnode refid="1543" relation="include">
-        </childnode>
-        <childnode refid="1545" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-        <childnode refid="1548" relation="include">
-        </childnode>
-        <childnode refid="1550" relation="include">
-        </childnode>
-        <childnode refid="1552" relation="include">
-        </childnode>
-        <childnode refid="1554" relation="include">
-        </childnode>
-        <childnode refid="1555" relation="include">
-        </childnode>
-        <childnode refid="1557" relation="include">
-        </childnode>
-        <childnode refid="1562" relation="include">
-        </childnode>
-      </node>
-      <node id="1558">
+      <node id="2036">
         <label>gui/widgets/contributorieswidget.h</label>
         <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="1547" relation="include">
+        <childnode refid="2025" relation="include">
         </childnode>
-        <childnode refid="1531" relation="include">
+        <childnode refid="2009" relation="include">
         </childnode>
-        <childnode refid="1522" relation="include">
+        <childnode refid="1993" relation="include">
         </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
-      </node>
-      <node id="1514">
-        <label>models/idatabasemodel.h</label>
-        <link refid="de/d73/idatabasemodel_8h_source"/>
-      </node>
-      <node id="1551">
-        <label>QDialog</label>
-      </node>
-      <node id="1541">
-        <label>QDebug</label>
-      </node>
-      <node id="1547">
-        <label>QWidget</label>
-      </node>
-      <node id="1536">
-        <label>sstream</label>
-      </node>
-      <node id="1545">
-        <label>database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="1515" relation="include">
-        </childnode>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-        <childnode refid="1544" relation="include">
+        <childnode refid="2037" relation="include">
         </childnode>
       </node>
-      <node id="1516">
-        <label>QDate</label>
-      </node>
-      <node id="1513">
-        <label>QString</label>
-      </node>
-      <node id="1533">
-        <label>QFile</label>
-      </node>
-      <node id="1539">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="1533" relation="include">
+      <node id="2017">
+        <label>gui/widgets/widgetsmodels/projectstablemodel.h</label>
+        <link refid="dc/d1a/projectstablemodel_8h_source"/>
+        <childnode refid="2018" relation="include">
         </childnode>
-        <childnode refid="1516" relation="include">
+        <childnode refid="2019" relation="include">
         </childnode>
-        <childnode refid="1532" relation="include">
+        <childnode refid="1990" relation="include">
         </childnode>
-        <childnode refid="1540" relation="include">
-        </childnode>
-        <childnode refid="1541" relation="include">
-        </childnode>
-        <childnode refid="1530" relation="include">
-        </childnode>
-        <childnode refid="1513" relation="include">
-        </childnode>
-        <childnode refid="1542" relation="include">
+        <childnode refid="1995" relation="include">
         </childnode>
       </node>
-      <node id="1527">
-        <label>QtSql/QSqlError</label>
+      <node id="2000">
+        <label>QSettings</label>
       </node>
-      <node id="1537">
-        <label>iostream</label>
+      <node id="2004">
+        <label>QtSql/QSql</label>
       </node>
-      <node id="1543">
-        <label>database/projectdatabase.h</label>
-        <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1535" relation="include">
-        </childnode>
-        <childnode refid="1519" relation="include">
-        </childnode>
-        <childnode refid="1544" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
+      <node id="1978">
+        <label>QMessageBox</label>
       </node>
-      <node id="1548">
-        <label>gui/widgets/customercontextualmenu.h</label>
-        <link refid="d6/df9/customercontextualmenu_8h_source"/>
-        <childnode refid="1549" relation="include">
+      <node id="1986">
+        <label>models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="1983" relation="include">
         </childnode>
-      </node>
-      <node id="1544">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
-        <childnode refid="1513" relation="include">
+        <childnode refid="1987" relation="include">
         </childnode>
-      </node>
-      <node id="1557">
-        <label>gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="1551" relation="include">
+        <childnode refid="1988" relation="include">
         </childnode>
-        <childnode refid="1515" relation="include">
+        <childnode refid="1989" relation="include">
         </childnode>
-        <childnode refid="1558" relation="include">
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="2002" relation="include">
+        </childnode>
+        <childnode refid="2020" relation="include">
         </childnode>
       </node>
-      <node id="1523">
-        <label>database/contributorydatabase.h</label>
-        <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1543" relation="include">
-        </childnode>
-        <childnode refid="1522" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-        <childnode refid="1544" relation="include">
-        </childnode>
-      </node>
-      <node id="1540">
-        <label>QTextStream</label>
-      </node>
-      <node id="1542">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="1513" relation="include">
-        </childnode>
-      </node>
-      <node id="1555">
-        <label>gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1556" relation="include">
-        </childnode>
-        <childnode refid="1519" relation="include">
-        </childnode>
-        <childnode refid="1521" relation="include">
-        </childnode>
-        <childnode refid="1507" relation="include">
-        </childnode>
-        <childnode refid="1508" relation="include">
-        </childnode>
-      </node>
-      <node id="1511">
-        <label>QTableView</label>
-      </node>
-      <node id="1550">
-        <label>gui/dialogs/messagebox.h</label>
-        <link refid="d5/d48/messagebox_8h_source"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-      </node>
-      <node id="1524">
+      <node id="2003">
         <label>database.h</label>
         <link refid="d8/d9c/database_8h_source"/>
-        <childnode refid="1525" relation="include">
+        <childnode refid="2004" relation="include">
         </childnode>
-        <childnode refid="1526" relation="include">
+        <childnode refid="2005" relation="include">
         </childnode>
-        <childnode refid="1527" relation="include">
+        <childnode refid="2006" relation="include">
         </childnode>
-        <childnode refid="1528" relation="include">
+        <childnode refid="2007" relation="include">
         </childnode>
-        <childnode refid="1529" relation="include">
+        <childnode refid="2008" relation="include">
         </childnode>
-        <childnode refid="1530" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
-        <childnode refid="1531" relation="include">
+        <childnode refid="2009" relation="include">
         </childnode>
-        <childnode refid="1516" relation="include">
+        <childnode refid="1987" relation="include">
         </childnode>
-        <childnode refid="1532" relation="include">
+        <childnode refid="1997" relation="include">
         </childnode>
-        <childnode refid="1533" relation="include">
+        <childnode refid="1996" relation="include">
         </childnode>
-        <childnode refid="1534" relation="include">
+        <childnode refid="2010" relation="include">
         </childnode>
-        <childnode refid="1535" relation="include">
+        <childnode refid="2011" relation="include">
         </childnode>
-        <childnode refid="1539" relation="include">
+        <childnode refid="1995" relation="include">
         </childnode>
-        <childnode refid="1542" relation="include">
+        <childnode refid="2001" relation="include">
         </childnode>
       </node>
-      <node id="1561">
+      <node id="1984">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="1985" relation="include">
+        </childnode>
+      </node>
+      <node id="2031">
+        <label>gui/dialogs/dialogaddcustomer.h</label>
+        <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+      </node>
+      <node id="2018">
+        <label>QObject</label>
+      </node>
+      <node id="2027">
+        <label>QMenu</label>
+      </node>
+      <node id="2001">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="1989">
+        <label>QList</label>
+      </node>
+      <node id="1976">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h</label>
+        <link refid="mainwindow.h"/>
+        <childnode refid="1977" relation="include">
+        </childnode>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1979" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+        <childnode refid="1981" relation="include">
+        </childnode>
+        <childnode refid="1982" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2015" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+        <childnode refid="2024" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+        <childnode refid="2028" relation="include">
+        </childnode>
+        <childnode refid="2030" relation="include">
+        </childnode>
+        <childnode refid="2031" relation="include">
+        </childnode>
+        <childnode refid="2032" relation="include">
+        </childnode>
+        <childnode refid="2035" relation="include">
+        </childnode>
+        <childnode refid="2038" relation="include">
+        </childnode>
+      </node>
+      <node id="2016">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="2035">
+        <label>gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+        <childnode refid="2036" relation="include">
+        </childnode>
+      </node>
+      <node id="2033">
+        <label>database/customerdatabase.h</label>
+        <link refid="d1/d70/customerdatabase_8h_source"/>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="2034" relation="include">
+        </childnode>
+      </node>
+      <node id="2005">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="2014">
+        <label>stdexcept</label>
+      </node>
+      <node id="1990">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1987" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+      </node>
+      <node id="2008">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="1977">
+        <label>QMainWindow</label>
+      </node>
+      <node id="1991">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2032">
+        <label>gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="2033" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1976" relation="include">
+        </childnode>
+        <childnode refid="1977" relation="include">
+        </childnode>
+      </node>
+      <node id="2007">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="2020">
+        <label>generator.h</label>
+        <link refid="d8/df4/generator_8h_source"/>
+        <childnode refid="1986" relation="include">
+        </childnode>
+      </node>
+      <node id="2021">
+        <label>utils/hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="1988" relation="include">
+        </childnode>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+      </node>
+      <node id="1979">
+        <label>QModelIndex</label>
+      </node>
+      <node id="2009">
+        <label>QStandardItem</label>
+      </node>
+      <node id="2010">
+        <label>exception</label>
+      </node>
+      <node id="2022">
+        <label>database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="1986" relation="include">
+        </childnode>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="2023" relation="include">
+        </childnode>
+      </node>
+      <node id="1993">
+        <label>models/contributory.h</label>
+        <link refid="d8/dee/contributory_8h_source"/>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>gui/widgets/popup.h</label>
+        <link refid="db/d70/popup_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="2025" relation="include">
+        </childnode>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1994">
+        <label>models/user.h</label>
+        <link refid="d8/ddb/user_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="2002">
+        <label>database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="2015" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+      </node>
+      <node id="2029">
+        <label>QDialog</label>
+      </node>
+      <node id="1999">
+        <label>QDebug</label>
+      </node>
+      <node id="2037">
+        <label>gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
+        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="2028">
+        <label>gui/dialogs/messagebox.h</label>
+        <link refid="d5/d48/messagebox_8h_source"/>
+        <childnode refid="2029" relation="include">
+        </childnode>
+      </node>
+      <node id="2025">
+        <label>QWidget</label>
+      </node>
+      <node id="2034">
+        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
+        <link refid="da/d77/customerstablemodel_8h_source"/>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1985">
+        <label>QVariantHash</label>
+      </node>
+      <node id="2012">
+        <label>sstream</label>
+      </node>
+      <node id="1987">
+        <label>QDate</label>
+      </node>
+      <node id="1983">
+        <label>QString</label>
+      </node>
+      <node id="1996">
+        <label>QFile</label>
+      </node>
+      <node id="2006">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="2011">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="2010" relation="include">
+        </childnode>
+        <childnode refid="2012" relation="include">
+        </childnode>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="2013">
+        <label>iostream</label>
+      </node>
+      <node id="1995">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="1996" relation="include">
+        </childnode>
+        <childnode refid="1987" relation="include">
+        </childnode>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+        <childnode refid="1999" relation="include">
+        </childnode>
+        <childnode refid="2000" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="2001" relation="include">
+        </childnode>
+      </node>
+      <node id="2015">
+        <label>database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+      </node>
+      <node id="1982">
+        <label>utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1992">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1984" relation="include">
+        </childnode>
+      </node>
+      <node id="1981">
+        <label>QDir</label>
+      </node>
+      <node id="1998">
+        <label>QTextStream</label>
+      </node>
+      <node id="1980">
+        <label>QTableView</label>
+      </node>
+      <node id="2030">
+        <label>gui/dialogs/userdatadialog.h</label>
+        <link refid="df/d22/userdatadialog_8h_source"/>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+      </node>
+      <node id="2026">
+        <label>gui/widgets/customercontextualmenu.h</label>
+        <link refid="d6/df9/customercontextualmenu_8h_source"/>
+        <childnode refid="2027" relation="include">
+        </childnode>
+      </node>
+      <node id="2023">
+        <label>gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="2038">
+        <label>models/search.h</label>
+        <link refid="d9/d85/search_8h_source"/>
+        <childnode refid="1983" relation="include">
+        </childnode>
+      </node>
+      <node id="2019">
         <label>QAbstractTableModel</label>
       </node>
-      <node id="1532">
+      <node id="1997">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1565">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
-      <node id="1563">
-        <label>src/mainwindow.h</label>
+      <node id="2039">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h</label>
         <link refid="mainwindow.h"/>
-        <childnode refid="1564" relation="include">
+        <childnode refid="2040" relation="include">
         </childnode>
       </node>
-      <node id="1564">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
+      <node id="2040">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1565" relation="include">
+        <childnode refid="2041" relation="include">
         </childnode>
-        <childnode refid="1563" relation="include">
+        <childnode refid="2039" relation="include">
         </childnode>
+      </node>
+      <node id="2041">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d5/d2f/classGui_1_1MainWindow" prot="public">Gui::MainWindow</innerclass>
@@ -483,103 +565,130 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MAINWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAINWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MAINWINDOW_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAINWINDOW_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMainWindow&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QModelIndex&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/itemtype.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/projectdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/billingdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/popup.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/customercontextualmenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/messagebox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/userdatadialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/dialogaddcustomer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/addprojectdialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/addquotedialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/search.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDir&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/itemtype.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/hierarchicalsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/projectdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/billingdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/popup.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/customercontextualmenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/messagebox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/userdatadialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/dialogaddcustomer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/addprojectdialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/addquotedialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="db/df5/namespaceGui_1_1Dialogs" kindref="compound">Gui::Dialogs</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/search.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MainWindow;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="d5/d2f/classGui_1_1MainWindow" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
-<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref>();</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentCustomerId();</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentProjectId();</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getCurrentCustomerName();</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getCurrentProjectName();</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTreeRoot();</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isCustomerItemTree();</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isProjectItemTree();</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isQuoteItemTree();</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>demo();</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addCustomer();</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editCustomer();</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeCustomer();</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addQuote();</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editUser();</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>search(QString<sp/>s);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>search();</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>newProject();</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeProject(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editProject(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutQt();</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutFact();</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutFactDev();</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutIcons();</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateBtn(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openContextualMenuTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>point);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openContextualMenuTree(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>point);</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeTree();</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeCustomerTable();</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeProjectsTable();</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>backToCustomersTable();</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>backToProjectsTable();</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>quotesProject();</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableCustomers(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableProjects(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTree(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateUser();</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableBillings(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idProject);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeItem(QTableView*<sp/>tbl,<sp/><ref refid="d5/d7c/classUtils_1_1ItemType" kindref="compound">Utils::ItemType</ref><sp/>item);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentTableId(QTableView<sp/>*tbl);</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MainWindow<sp/>*ui;<sp/></highlight></codeline>
-<codeline lineno="249"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MAINWINDOW_H</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Gui::Dialogs;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MainWindow;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="d5/d2f/classGui_1_1MainWindow" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d5/d2f/classGui_1_1MainWindow" kindref="compound">MainWindow</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentCustomerId();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentProjectId();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentQuoteId();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getCurrentCustomerName();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getCurrentProjectName();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>treeLevel();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>QModelIndex<sp/>rootTree();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addDoc(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isBilling);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>demo();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addCustomer();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editCustomer();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeCustomer();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addQuote();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addBill();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editUser();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>search(QString<sp/>s);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>search();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>newProject();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeProject(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editProject(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutQt();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutFact();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutFactDev();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>aboutIcons();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateButtons(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>editDoc();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeDoc();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>editQuote();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openContextualMenuTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>point);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openContextualMenuTree(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>point);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeTree();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeCustomerTable();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeProjectsTable();</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeDocsTable();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>customersTableToProjectsTable();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>backToCustomersTable();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>backToProjectsTable();</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>projectsTableToDocsTable();</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>QModelIndex<sp/>findParent();</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>quotesProject();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateUI(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableCustomers(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>-1);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableProjects(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>-1);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTree(QString<sp/>filter=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateUser();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateTableBillings(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idProject,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>-1);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeItem(QTableView*<sp/>tbl,<sp/><ref refid="d5/d7c/classUtils_1_1ItemType" kindref="compound">Utils::ItemType</ref><sp/>item);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentTableId(QTableView<sp/>*tbl);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateFolders();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>makeDirectory(QDir<sp/>&amp;directory,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>folder);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MainWindow<sp/>*ui;<sp/></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de0/classUtils_1_1HierarchicalSystem" kindref="compound">Utils::HierarchicalSystem</ref><sp/>_hierarchy;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="334"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MAINWINDOW_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/mainwindow.h"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kind="class" prot="public">
     <compoundname>Gui::Dialogs::AddQuoteDialog</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
@@ -11,12 +11,12 @@
         <argsstring></argsstring>
         <name>_quote</name>
         <briefdescription>
-<para>The quote. </para>        </briefdescription>
+<para>The quote or billing. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="49" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="49" bodyend="-1"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="54" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a836e68947c67a2117e7da8bfc3ee6b3e" prot="private" static="no" mutable="no">
         <type>Ui::AddQuoteDialog *</type>
@@ -29,15 +29,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="50" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="50" bodyend="-1"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="55" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1aa2f97eece61cf962621db04d11ea99d7" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>Gui::Dialogs::AddQuoteDialog::AddQuoteDialog</definition>
-        <argsstring>(int idCustomer=0, int id=0, QWidget *parent=0)</argsstring>
+        <argsstring>(bool isBilling, int idCustomer=0, int id=0, QWidget *parent=0)</argsstring>
         <name>AddQuoteDialog</name>
+        <param>
+          <type>bool</type>
+          <declname>isBilling</declname>
+        </param>
         <param>
           <type>int</type>
           <declname>idCustomer</declname>
@@ -54,7 +58,7 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1aa2f97eece61cf962621db04d11ea99d7" kindref="member">AddQuoteDialog::AddQuoteDialog</ref> Construct a windows <ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref>. </para>        </briefdescription>
+<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" kindref="member">AddQuoteDialog::AddQuoteDialog</ref> Construct a windows <ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref>. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -67,7 +71,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="29" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="7" bodyend="30"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="29" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="7" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a785fd0ceb950e0c7951720a28d4f0717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -80,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="30" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="32" bodyend="36"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="31" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -93,7 +97,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="35" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="38" bodyend="41"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="36" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="51" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Gui::Dialogs::AddQuoteDialog::getNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getNumber</name>
+        <briefdescription>
+<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" kindref="member">AddQuoteDialog::getNumber</ref> return the number of bill or quote. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="41" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="47" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,12 +119,12 @@
         <argsstring>()</argsstring>
         <name>accept</name>
         <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" kindref="member">AddQuoteDialog::accept</ref> Valid data inputed by user and add these data in <ref refid="dc/d4f/namespaceDatabase" kindref="compound">Database</ref>. </para>        </briefdescription>
+<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" kindref="member">AddQuoteDialog::accept</ref> Valid data inputed by user and add these data in Database. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="40" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="43" bodyend="53"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="45" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="64" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="45" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="55" bodyend="57"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="49" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="76" bodyend="78"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -137,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="47" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="59" bodyend="63"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="52" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="80" bodyend="84"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -167,12 +185,13 @@
         <label>QDialog</label>
       </node>
     </collaborationgraph>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" line="21" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="20" bodyend="51"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" line="21" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="20" bodyend="56"/>
     <listofallmembers>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a739ab76068086dcbb35395762a914659" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>_quote</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>accept</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1aa2f97eece61cf962621db04d11ea99d7" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>AddQuoteDialog</name></member>
+      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>AddQuoteDialog</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>fillFields</name></member>
+      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>getNumber</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>reject</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a836e68947c67a2117e7da8bfc3ee6b3e" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>ui</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5fa7b833c2a4271cc637e7dd9ec72fff" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>updateBtn</name></member>

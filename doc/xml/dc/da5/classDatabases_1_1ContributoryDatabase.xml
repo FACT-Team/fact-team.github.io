@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/da5/classDatabases_1_1ContributoryDatabase" kind="class" prot="public">
+    <compoundname>Databases::ContributoryDatabase</compoundname>
+    <basecompoundref refid="dd/db0/classDatabases_1_1Database" prot="public" virt="non-virtual">Databases::Database</basecompoundref>
+    <includes refid="d2/deb/contributorydatabase_8h" local="no">contributorydatabase.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/da5/classDatabases_1_1ContributoryDatabase_1abee994f77d5cdf4e06aa498009acbbe4" prot="private" static="yes" mutable="no">
+        <type><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref> *</type>
+        <definition>ContributoryDatabase * Databases::ContributoryDatabase::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Singleton instance of <ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="72" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref> *</type>
+        <definition>ContributoryDatabase * Databases::ContributoryDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>ContributoryDatabase::getInstance Return an instance of <bold><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref></bold> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>DbException </para></simplesect>
+<simplesect kind="return"><para>Instance of <ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="32" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="11" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref> *</type>
+        <definition>Models::Contributory * Databases::ContributoryDatabase::getContributory</definition>
+        <argsstring>(const int idContributory)</argsstring>
+        <name>getContributory</name>
+        <param>
+          <type>const int</type>
+          <declname>idContributory</declname>
+        </param>
+        <briefdescription>
+<para>ContributoryDatabase::getCustomer get informations about the Contributory identified by <emphasis>pId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idContributory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contributory id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the Contributory </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="40" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="53" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1afbf7fdec4e6998b36a04f3c31b8b6848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *, QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref> &gt; &gt;</type>
+        <definition>QMap&lt; Models::Project *, QList&lt; Models::Contributory &gt; &gt; Databases::ContributoryDatabase::getContributoriesByBilling</definition>
+        <argsstring>(const int idBilling)</argsstring>
+        <name>getContributoriesByBilling</name>
+        <param>
+          <type>const int</type>
+          <declname>idBilling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="42" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="78" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1abd7bf49a62d8e267d898936122b5c2a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::ContributoryDatabase::addContributory</definition>
+        <argsstring>(const Models::Contributory &amp;)</argsstring>
+        <name>addContributory</name>
+        <param>
+          <type>const <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref> &amp;</type>
+          <defname>pContributory</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abd7bf49a62d8e267d898936122b5c2a7" kindref="member">ContributoryDatabase::addContributory</ref> Add the Contributory <emphasis>pContributory</emphasis> to the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Contributory id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="49" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="116" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1a748062c6793dd80115ded9bffba75b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::ContributoryDatabase::updateContributory</definition>
+        <argsstring>(const Models::Contributory &amp;)</argsstring>
+        <name>updateContributory</name>
+        <param>
+          <type>const <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref> &amp;</type>
+          <defname>pContributory</defname>
+        </param>
+        <briefdescription>
+<para>ContributoryDatabase::updateCustomer Update informations about the Contributory <emphasis>pCustomer</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="55" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="139" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1a3c99a1730bce8dbf3cab72896d8f17ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::ContributoryDatabase::removeContributory</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>removeContributory</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para>ContributoryDatabase::removeCustomer Remove the Contributory with the id <emphasis>pId</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contributory id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="62" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="159" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1a6fc0f3eca03c49d919e7dbd2f8290555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref> *</type>
+        <definition>Models::Contributory * Databases::ContributoryDatabase::getContributory</definition>
+        <argsstring>(QSqlQuery &amp;q)</argsstring>
+        <name>getContributory</name>
+        <param>
+          <type>QSqlQuery &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para>getContributory Obtain a contributory without new query </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The contributory linked to q </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="69" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="19" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/da5/classDatabases_1_1ContributoryDatabase_1a52479eeb5ab01a9e3c25dfe92344457c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Databases::ContributoryDatabase::ContributoryDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>ContributoryDatabase</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><bold><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref></bold> is a singleton </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="77" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.cpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <bold><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref></bold> class Contributory (or Quote) table database. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Cédric Rohaut  </para></simplesect>
+<simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>Contributory/Quote </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="179">
+        <label>Databases::ContributoryDatabase</label>
+        <link refid="dc/da5/classDatabases_1_1ContributoryDatabase"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>Databases::ContributoryDatabase</label>
+        <link refid="dc/da5/classDatabases_1_1ContributoryDatabase"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+        <childnode refid="182" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" line="24" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/database/contributorydatabase.h" bodystart="23" bodyend="79"/>
+    <listofallmembers>
+      <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>_dbInstance</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abee994f77d5cdf4e06aa498009acbbe4" prot="private" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>_instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1aaed4ecc36468c345c56df78ccb5b56c8" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>_instances</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a1254e2d5f196c9b6143da1cd57df5d31" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>_settings</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abd7bf49a62d8e267d898936122b5c2a7" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>addContributory</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a52c30975504e35c7c475a52817d66b73" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>cleanDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56127c397e3c424401d59d64cdb8e8fc" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>close</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56faa5446bd58e6b3c3a4c503d9309b1" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>closeTransaction</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a52479eeb5ab01a9e3c25dfe92344457c" prot="private" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>ContributoryDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a50bde8faf6ab4c5dfdec74dc3ba7bbe7" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>createDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a7d14f43864ce19a5e399ea4ed3ce808f" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>Database</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a21f6c86f95b149ac7dbf0ffc94021a93" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>executeFile</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1afbf7fdec4e6998b36a04f3c31b8b6848" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>getContributoriesByBilling</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>getContributory</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a6fc0f3eca03c49d919e7dbd2f8290555" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>getContributory</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abdde0f6fbef7f4d7353acda867f01ca0" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>isOpen</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abda5b1dd4c55bee049e9450a40a7baab" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>lastError</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a091c36a92c87204f4f63e96e7d34b9f7" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>mDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a53c4c277c2fbd3532d2bcaa1d47aed40" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>open</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a64d55cd9452bbf2a6fd1693df004de59" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>openTransaction</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a3c99a1730bce8dbf3cab72896d8f17ff" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>removeContributory</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a88af2050b210c0d829d166f0f6d9e318" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>setDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>testCases</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a17b652086514e0a64d0e452a938ac7a5" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>updateBillingNumber</name></member>
+      <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a748062c6793dd80115ded9bffba75b6a" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>updateContributory</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a5d8a99bd2d7b5c77eacb942ed790b12c" prot="protected" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>value</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a457a2dac579f1ffc743f452a2dcbbd5c" prot="public" virt="non-virtual"><scope>Databases::ContributoryDatabase</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

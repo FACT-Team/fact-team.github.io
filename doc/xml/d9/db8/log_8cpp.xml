@@ -1,60 +1,60 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d9/db8/log_8cpp" kind="file">
     <compoundname>log.cpp</compoundname>
     <includes refid="d7/d7f/log_8h" local="yes">log.h</includes>
     <incdepgraph>
-      <node id="2004">
+      <node id="2654">
         <label>QSettings</label>
       </node>
-      <node id="2003">
-        <label>QDebug</label>
-      </node>
-      <node id="2000">
-        <label>QDate</label>
-      </node>
-      <node id="2005">
-        <label>QString</label>
-      </node>
-      <node id="1999">
-        <label>QFile</label>
-      </node>
-      <node id="1998">
-        <label>log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="1999" relation="include">
-        </childnode>
-        <childnode refid="2000" relation="include">
-        </childnode>
-        <childnode refid="2001" relation="include">
-        </childnode>
-        <childnode refid="2002" relation="include">
-        </childnode>
-        <childnode refid="2003" relation="include">
-        </childnode>
-        <childnode refid="2004" relation="include">
-        </childnode>
-        <childnode refid="2005" relation="include">
-        </childnode>
-        <childnode refid="2006" relation="include">
-        </childnode>
-      </node>
-      <node id="1997">
-        <label>src/utils/log.cpp</label>
-        <link refid="log.cpp"/>
-        <childnode refid="1998" relation="include">
-        </childnode>
-      </node>
-      <node id="2002">
-        <label>QTextStream</label>
-      </node>
-      <node id="2006">
+      <node id="2656">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="2005" relation="include">
+        <childnode refid="2655" relation="include">
         </childnode>
       </node>
-      <node id="2001">
+      <node id="2653">
+        <label>QDebug</label>
+      </node>
+      <node id="2650">
+        <label>QDate</label>
+      </node>
+      <node id="2655">
+        <label>QString</label>
+      </node>
+      <node id="2649">
+        <label>QFile</label>
+      </node>
+      <node id="2647">
+        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/log.cpp</label>
+        <link refid="log.cpp"/>
+        <childnode refid="2648" relation="include">
+        </childnode>
+      </node>
+      <node id="2648">
+        <label>log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="2649" relation="include">
+        </childnode>
+        <childnode refid="2650" relation="include">
+        </childnode>
+        <childnode refid="2651" relation="include">
+        </childnode>
+        <childnode refid="2652" relation="include">
+        </childnode>
+        <childnode refid="2653" relation="include">
+        </childnode>
+        <childnode refid="2654" relation="include">
+        </childnode>
+        <childnode refid="2655" relation="include">
+        </childnode>
+        <childnode refid="2656" relation="include">
+        </childnode>
+      </node>
+      <node id="2652">
+        <label>QTextStream</label>
+      </node>
+      <node id="2651">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -66,7 +66,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal">Log*<sp/>Log::_instance<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">TypeLog<sp/>Log::_type<sp/>=<sp/>INFO;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -116,6 +116,6 @@
 <codeline lineno="50"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/log.cpp"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/utils/log.cpp"/>
   </compounddef>
 </doxygen>

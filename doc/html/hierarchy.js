@@ -2,19 +2,23 @@ var hierarchy =
 [
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
+        [ "CounterContext", "db/da6/classCounterContext.html", null ],
         [ "CounterContext", "db/da6/classCounterContext.html", null ]
       ] ]
     ] ],
-    [ "Database::Database", "da/d8e/classDatabase_1_1Database.html", [
-      [ "Database::BillingDatabase", "d2/d86/classDatabase_1_1BillingDatabase.html", null ],
-      [ "Database::ContributoryDatabase", "d5/de0/classDatabase_1_1ContributoryDatabase.html", null ],
-      [ "Database::CustomerDatabase", "de/de4/classDatabase_1_1CustomerDatabase.html", null ],
-      [ "Database::ProjectDatabase", "dd/dbf/classDatabase_1_1ProjectDatabase.html", null ],
-      [ "Database::UserDatabase", "d9/d32/classDatabase_1_1UserDatabase.html", null ]
+    [ "Databases::Database", "dd/db0/classDatabases_1_1Database.html", [
+      [ "Databases::BillingDatabase", "df/df8/classDatabases_1_1BillingDatabase.html", null ],
+      [ "Databases::ContributoryDatabase", "dc/da5/classDatabases_1_1ContributoryDatabase.html", null ],
+      [ "Databases::CustomerDatabase", "d8/d7e/classDatabases_1_1CustomerDatabase.html", null ],
+      [ "Databases::ProjectDatabase", "d7/d39/classDatabases_1_1ProjectDatabase.html", null ],
+      [ "Databases::UserDatabase", "d0/d33/classDatabases_1_1UserDatabase.html", null ]
     ] ],
     [ "exception", null, [
       [ "Exceptions::DbException", "d4/de4/classExceptions_1_1DbException.html", null ]
     ] ],
+    [ "Exceptions::FileException", "d9/d57/classExceptions_1_1FileException.html", null ],
+    [ "Generator", "d9/d12/classGenerator.html", null ],
+    [ "Utils::HierarchicalSystem", "d1/de0/classUtils_1_1HierarchicalSystem.html", null ],
     [ "ICheckField", "d5/d75/classICheckField.html", [
       [ "CheckQLineEdit", "d1/da9/classCheckQLineEdit.html", [
         [ "CheckEmail", "da/d1d/classCheckEmail.html", null ],
@@ -31,7 +35,7 @@ var hierarchy =
         [ "CheckValidField", "dc/d93/classCheckValidField.html", null ]
       ] ]
     ] ],
-    [ "Models::IDatabaseModel", "df/ddd/classModels_1_1IDatabaseModel.html", [
+    [ "Models::IModel", "d0/d9c/classModels_1_1IModel.html", [
       [ "Models::Billing", "d4/d5c/classModels_1_1Billing.html", null ],
       [ "Models::Contributory", "d5/dd1/classModels_1_1Contributory.html", null ],
       [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
@@ -47,7 +51,10 @@ var hierarchy =
     ] ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
-      [ "Gui::Widgets::WdgModels::ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", null ]
+      [ "Gui::Widgets::WdgModels::BillingsTableModel", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html", null ],
+      [ "Gui::Widgets::WdgModels::ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", null ],
+      [ "Gui::Widgets::WdgModels::CustomersTableModel", "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html", null ],
+      [ "Gui::Widgets::WdgModels::ProjectsTableModel", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html", null ]
     ] ],
     [ "QDialog", null, [
       [ "Gui::Dialogs::AddContributoryDialog", "d5/de2/classGui_1_1Dialogs_1_1AddContributoryDialog.html", null ],
@@ -75,7 +82,9 @@ var hierarchy =
       [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
+      [ "Generation", "d4/df7/classGeneration.html", null ],
       [ "searchTest", "d7/d51/classsearchTest.html", null ],
+      [ "TestMustache", "de/d63/classTestMustache.html", null ],
       [ "TestMustache", "de/d63/classTestMustache.html", null ]
     ] ],
     [ "QWidget", null, [

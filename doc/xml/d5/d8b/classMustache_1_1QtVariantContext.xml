@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d5/d8b/classMustache_1_1QtVariantContext" kind="class" prot="public">
     <compoundname>Mustache::QtVariantContext</compoundname>
     <basecompoundref refid="d7/d34/classMustache_1_1Context" prot="public" virt="non-virtual">Mustache::Context</basecompoundref>
+    <derivedcompoundref refid="db/da6/classCounterContext" prot="public" virt="non-virtual">CounterContext</derivedcompoundref>
     <derivedcompoundref refid="db/da6/classCounterContext" prot="public" virt="non-virtual">CounterContext</derivedcompoundref>
     <includes refid="d9/d77/mustache_8h" local="no">mustache.h</includes>
       <sectiondef kind="public-type">
@@ -17,7 +18,7 @@
 <para>Construct a <ref refid="d5/d8b/classMustache_1_1QtVariantContext" kindref="compound">QtVariantContext</ref> which wraps a dictionary in a QVariantHash or a QVariantMap. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="109" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="109" bodyend="-1"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="109" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -32,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="124" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="124" bodyend="-1"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="124" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="111" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="97" bodyend="101"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="111" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="97" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1a55b19269efa6924edf21118ab0b49e08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>QString</type>
@@ -64,6 +65,7 @@
         <argsstring>(const QString &amp;key) const </argsstring>
         <name>stringValue</name>
         <reimplements refid="d7/d34/classMustache_1_1Context_1a49d5e75bc9d85b279f620b6557eefd0c">stringValue</reimplements>
+        <reimplementedby refid="db/da6/classCounterContext_1adb984d696efcc32abaaf0aaeade4f8b8">stringValue</reimplementedby>
         <reimplementedby refid="db/da6/classCounterContext_1adb984d696efcc32abaaf0aaeade4f8b8">stringValue</reimplementedby>
         <param>
           <type>const QString &amp;</type>
@@ -75,7 +77,7 @@
 <para>Returns a string representation of the value for <computeroutput>key</computeroutput> in the current context. This is used to replace a Mustache value tag. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="113" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="155" bodyend="161"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="113" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="155" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1af5f93b6ff7ac3c24928757a2af1b8820" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -93,7 +95,7 @@
 <para>Returns true if the value for <computeroutput>key</computeroutput> is &apos;false&apos; or an empty list. &apos;False&apos; values typically include empty strings, the boolean value false etc.</para><para>When processing a section Mustache tag, the section is not rendered if the key is false, or for an inverted section tag, the section is only rendered if the key is false. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="114" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="138" bodyend="153"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="114" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="138" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1aa055fefa606e0958549cb4671e628e9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -111,7 +113,7 @@
 <para>Returns the number of items in the list value for <computeroutput>key</computeroutput> or 0 if the value for <computeroutput>key</computeroutput> is not a list. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="115" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="179" bodyend="185"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="115" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="179" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1aa5164d437812877c96faa833d8ce5eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -134,7 +136,7 @@
 <para>Set the current context to the value for <computeroutput>key</computeroutput>. If index is &gt;= 0, set the current context to the <computeroutput>index&apos;th</computeroutput> value in the list value for <computeroutput>key</computeroutput>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="116" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="163" bodyend="172"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="116" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="163" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1adfb3067d5cf209e4203a0b1754008efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -148,7 +150,7 @@
 <para>Exit the current context. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="117" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="174" bodyend="177"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="117" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="174" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1a2671990a3c9d8d4d7b626fa85b841ab2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156,6 +158,7 @@
         <argsstring>(const QString &amp;key) const </argsstring>
         <name>canEval</name>
         <reimplements refid="d7/d34/classMustache_1_1Context_1a27d9b726c1554653f1783d0eb693662a">canEval</reimplements>
+        <reimplementedby refid="db/da6/classCounterContext_1a2b2c8d5bbd329e20ce6e16be72676291">canEval</reimplementedby>
         <reimplementedby refid="db/da6/classCounterContext_1a2b2c8d5bbd329e20ce6e16be72676291">canEval</reimplementedby>
         <param>
           <type>const QString &amp;</type>
@@ -167,7 +170,7 @@
 <para>Returns true if <ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a0602be333afa1d4fa89c2c5820311bf1" kindref="member">eval()</ref> should be used to render section tags using <computeroutput>key</computeroutput>. If <ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a2671990a3c9d8d4d7b626fa85b841ab2" kindref="member">canEval()</ref> returns true for a key, the renderer will pass the literal, unrendered block of text for the section to <ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a0602be333afa1d4fa89c2c5820311bf1" kindref="member">eval()</ref> and replace the section with the result.</para><para><ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a2671990a3c9d8d4d7b626fa85b841ab2" kindref="member">canEval()</ref> and <ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a0602be333afa1d4fa89c2c5820311bf1" kindref="member">eval()</ref> are equivalents for callable objects (eg. lambdas) in other Mustache implementations.</para><para>The default implementation always returns false. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="118" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="187" bodyend="190"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="118" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="187" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/classMustache_1_1QtVariantContext_1a0602be333afa1d4fa89c2c5820311bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QString</type>
@@ -175,6 +178,7 @@
         <argsstring>(const QString &amp;key, const QString &amp;_template, Mustache::Renderer *renderer)</argsstring>
         <name>eval</name>
         <reimplements refid="d7/d34/classMustache_1_1Context_1acded87450182e91cbb0b37e375a4a366">eval</reimplements>
+        <reimplementedby refid="db/da6/classCounterContext_1a01764884d5bdbe014b8e569c10c82e99">eval</reimplementedby>
         <reimplementedby refid="db/da6/classCounterContext_1a01764884d5bdbe014b8e569c10c82e99">eval</reimplementedby>
         <param>
           <type>const QString &amp;</type>
@@ -194,7 +198,7 @@
 <para>Callback used to render a template section with the given <computeroutput>key</computeroutput>. <computeroutput>renderer</computeroutput> will substitute the original section tag with the result of <ref refid="d5/d8b/classMustache_1_1QtVariantContext_1a0602be333afa1d4fa89c2c5820311bf1" kindref="member">eval()</ref>.</para><para>The default implementation returns an empty string. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="119" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="192" bodyend="199"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="119" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="192" bodyend="199"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -213,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="122" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="123" bodyend="136"/>
+        <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="122" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.cpp" bodystart="123" bodyend="136"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -221,36 +225,38 @@
     <detaileddescription>
 <para>A context implementation which wraps a QVariantHash or QVariantMap. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="290">
+      <node id="312">
         <label>CounterContext</label>
         <link refid="db/da6/classCounterContext"/>
-        <childnode refid="288" relation="public-inheritance">
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="310" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="288">
+      <node id="310">
         <label>Mustache::QtVariantContext</label>
         <link refid="d5/d8b/classMustache_1_1QtVariantContext"/>
-        <childnode refid="289" relation="public-inheritance">
+        <childnode refid="311" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="289">
+      <node id="311">
         <label>Mustache::Context</label>
         <link refid="d7/d34/classMustache_1_1Context"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="291">
+      <node id="313">
         <label>Mustache::QtVariantContext</label>
         <link refid="d5/d8b/classMustache_1_1QtVariantContext"/>
-        <childnode refid="292" relation="public-inheritance">
+        <childnode refid="314" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="292">
+      <node id="314">
         <label>Mustache::Context</label>
         <link refid="d7/d34/classMustache_1_1Context"/>
       </node>
     </collaborationgraph>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" line="101" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="100" bodyend="125"/>
+    <location file="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" line="101" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/libs/qt-mustache/src/mustache.h" bodystart="100" bodyend="125"/>
     <listofallmembers>
       <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a2671990a3c9d8d4d7b626fa85b841ab2" prot="public" virt="virtual"><scope>Mustache::QtVariantContext</scope><name>canEval</name></member>
       <member refid="d7/d34/classMustache_1_1Context_1a0a3453e4a263cc9a1d061485c621f74e" prot="public" virt="non-virtual"><scope>Mustache::QtVariantContext</scope><name>Context</name></member>
