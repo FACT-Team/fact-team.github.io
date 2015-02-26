@@ -96,32 +96,6 @@ var hierarchy =
       [ "TestMustache", "de/d63/classTestMustache.html", null ],
       [ "TestMustache", "de/d63/classTestMustache.html", null ]
     ] ],
-    [ "qt_meta_stringdata_BillingDatabaseTest_t", "d0/d5b/structqt__meta__stringdata__BillingDatabaseTest__t.html", null ],
-    [ "qt_meta_stringdata_BillingModelTest_t", "df/d29/structqt__meta__stringdata__BillingModelTest__t.html", null ],
-    [ "qt_meta_stringdata_ContributoriesDatabaseTest_t", "d5/d9e/structqt__meta__stringdata__ContributoriesDatabaseTest__t.html", null ],
-    [ "qt_meta_stringdata_CustomerDatabaseTest_t", "df/d1d/structqt__meta__stringdata__CustomerDatabaseTest__t.html", null ],
-    [ "qt_meta_stringdata_CustomerModelTest_t", "d0/dbd/structqt__meta__stringdata__CustomerModelTest__t.html", null ],
-    [ "qt_meta_stringdata_Generation_t", "df/dff/structqt__meta__stringdata__Generation__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Dialogs__AddProjectDialog_t", "d3/d6d/structqt__meta__stringdata__Gui____Dialogs____AddProjectDialog__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Dialogs__AddQuoteDialog_t", "d6/d9f/structqt__meta__stringdata__Gui____Dialogs____AddQuoteDialog__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Dialogs__DialogAddCustomer_t", "d9/daa/structqt__meta__stringdata__Gui____Dialogs____DialogAddCustomer__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Dialogs__MessageBox_t", "de/dcf/structqt__meta__stringdata__Gui____Dialogs____MessageBox__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Dialogs__UserDataDialog_t", "d3/d7b/structqt__meta__stringdata__Gui____Dialogs____UserDataDialog__t.html", null ],
-    [ "qt_meta_stringdata_Gui__MainWindow_t", "d0/d61/structqt__meta__stringdata__Gui____MainWindow__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__CheckFields__CheckQLineEdit_t", "dc/dec/structqt__meta__stringdata__Gui____Widgets____CheckFields____CheckQLineEdit__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__ComboBoxModelWidget_t", "dc/d49/structqt__meta__stringdata__Gui____Widgets____ComboBoxModelWidget__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__ContributoriesWidget_t", "d5/d23/structqt__meta__stringdata__Gui____Widgets____ContributoriesWidget__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__CustomerDataWidget_t", "d4/d9b/structqt__meta__stringdata__Gui____Widgets____CustomerDataWidget__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__Delegates__ComboBoxDelegate_t", "d1/ddc/structqt__meta__stringdata__Gui____Widgets____Delegates____ComboBoxDelegate__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__Delegates__DoubleSpinBoxDelegate_t", "d5/d29/structqt__meta__stringdata__Gui____Widgets____Delegates____DoubleSpinBoxDelegate__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__Delegates__ProjectComboDelegate_t", "da/dbe/structqt__meta__stringdata__Gui____Widgets____Delegates____ProjectComboDelegate__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__Delegates__UnitComboDelegate_t", "d0/dd5/structqt__meta__stringdata__Gui____Widgets____Delegates____UnitComboDelegate__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__ProjectsWidget_t", "d5/d84/structqt__meta__stringdata__Gui____Widgets____ProjectsWidget__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__RateWidget_t", "d0/d29/structqt__meta__stringdata__Gui____Widgets____RateWidget__t.html", null ],
-    [ "qt_meta_stringdata_Gui__Widgets__searchWidget_t", "d8/dbe/structqt__meta__stringdata__Gui____Widgets____searchWidget__t.html", null ],
-    [ "qt_meta_stringdata_RateModelTest_t", "d6/de7/structqt__meta__stringdata__RateModelTest__t.html", null ],
-    [ "qt_meta_stringdata_searchTest_t", "d2/db4/structqt__meta__stringdata__searchTest__t.html", null ],
-    [ "qt_meta_stringdata_TestMustache_t", "d9/d6a/structqt__meta__stringdata__TestMustache__t.html", null ],
     [ "QWidget", null, [
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
@@ -137,41 +111,5 @@ var hierarchy =
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
-    [ "TestRunner", "db/d70/classTestRunner.html", null ],
-    [ "Ui_AddProjectDialog", "d5/dda/classUi__AddProjectDialog.html", [
-      [ "Ui::AddProjectDialog", "d9/d0a/classUi_1_1AddProjectDialog.html", null ]
-    ] ],
-    [ "Ui_AddQuoteDialog", "d0/d1e/classUi__AddQuoteDialog.html", [
-      [ "Ui::AddQuoteDialog", "d0/d21/classUi_1_1AddQuoteDialog.html", null ]
-    ] ],
-    [ "Ui_ComboBoxModelWidget", "d8/dbf/classUi__ComboBoxModelWidget.html", [
-      [ "Ui::ComboBoxModelWidget", "da/dd8/classUi_1_1ComboBoxModelWidget.html", null ]
-    ] ],
-    [ "Ui_ContributoriesWidget", "dd/d83/classUi__ContributoriesWidget.html", [
-      [ "Ui::ContributoriesWidget", "d3/db6/classUi_1_1ContributoriesWidget.html", null ]
-    ] ],
-    [ "Ui_CustomerDataWidget", "d4/da3/classUi__CustomerDataWidget.html", [
-      [ "Ui::CustomerDataWidget", "d1/dd1/classUi_1_1CustomerDataWidget.html", null ]
-    ] ],
-    [ "Ui_DialogAddCustomer", "da/d16/classUi__DialogAddCustomer.html", [
-      [ "Ui::DialogAddCustomer", "de/d03/classUi_1_1DialogAddCustomer.html", null ]
-    ] ],
-    [ "Ui_MainWindow", "d5/d3f/classUi__MainWindow.html", [
-      [ "Ui::MainWindow", "d9/dbd/classUi_1_1MainWindow.html", null ]
-    ] ],
-    [ "Ui_MessageBox", "d9/d1e/classUi__MessageBox.html", [
-      [ "Ui::MessageBox", "d2/dfb/classUi_1_1MessageBox.html", null ]
-    ] ],
-    [ "Ui_ProjectsWidget", "d3/de9/classUi__ProjectsWidget.html", [
-      [ "Ui::ProjectsWidget", "db/ddd/classUi_1_1ProjectsWidget.html", null ]
-    ] ],
-    [ "Ui_RateWidget", "d9/de8/classUi__RateWidget.html", [
-      [ "Ui::RateWidget", "df/d17/classUi_1_1RateWidget.html", null ]
-    ] ],
-    [ "Ui_searchWidget", "d4/d9f/classUi__searchWidget.html", [
-      [ "Ui::searchWidget", "dd/d88/classUi_1_1searchWidget.html", null ]
-    ] ],
-    [ "Ui_UserDataDialog", "d4/db3/classUi__UserDataDialog.html", [
-      [ "Ui::UserDataDialog", "d0/d73/classUi_1_1UserDataDialog.html", null ]
-    ] ]
+    [ "TestRunner", "db/d70/classTestRunner.html", null ]
 ];

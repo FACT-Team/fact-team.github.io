@@ -5,48 +5,41 @@
     <includes local="no">QDialog</includes>
     <includedby refid="d3/dc9/messagebox_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.cpp</includedby>
     <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</includedby>
-    <includedby refid="df/d2b/moc__messagebox_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/moc_messagebox.cpp</includedby>
     <incdepgraph>
-      <node id="1090">
+      <node id="1002">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.h</label>
         <link refid="messagebox.h"/>
-        <childnode refid="1091" relation="include">
+        <childnode refid="1003" relation="include">
         </childnode>
       </node>
-      <node id="1091">
+      <node id="1003">
         <label>QDialog</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1093">
+      <node id="1005">
         <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="1094" relation="include">
+        <childnode refid="1006" relation="include">
         </childnode>
       </node>
-      <node id="1092">
+      <node id="1004">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.h</label>
         <link refid="messagebox.h"/>
-        <childnode refid="1093" relation="include">
+        <childnode refid="1005" relation="include">
         </childnode>
       </node>
-      <node id="1094">
+      <node id="1006">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1095" relation="include">
+        <childnode refid="1007" relation="include">
         </childnode>
-        <childnode refid="1093" relation="include">
+        <childnode refid="1005" relation="include">
         </childnode>
       </node>
-      <node id="1096">
-        <label>/home/travis/build/FACT-Team/FactDev/src/ui_mainwindow.h</label>
-        <link refid="d4/d8d/ui__mainwindow_8h_source"/>
-      </node>
-      <node id="1095">
+      <node id="1007">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
-        <childnode refid="1096" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" prot="public">Gui::Dialogs::MessageBox</innerclass>
@@ -92,7 +85,7 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1af96c089b5fecffac59f2a337bad533cf" kindref="member">setText</ref>(QString<sp/>txt);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dfb/classUi_1_1MessageBox" kindref="compound">Ui::MessageBox</ref><sp/>*ui;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MessageBox<sp/>*ui;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">}</highlight></codeline>

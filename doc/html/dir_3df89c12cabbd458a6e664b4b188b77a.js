@@ -8,17 +8,5 @@ var dir_3df89c12cabbd458a6e664b4b188b77a =
     [ "utils", "dir_57ce03667ca34656f0a97254cdb34d82.html", "dir_57ce03667ca34656f0a97254cdb34d82" ],
     [ "generator.h", "d8/df4/generator_8h_source.html", null ],
     [ "mainwindow.h", "d9/d53/mainwindow_8h_source.html", null ],
-    [ "parameters.h", "d6/d3b/parameters_8h_source.html", null ],
-    [ "ui_addprojectdialog.h", "d5/dd6/ui__addprojectdialog_8h_source.html", null ],
-    [ "ui_addquotedialog.h", "db/da4/ui__addquotedialog_8h_source.html", null ],
-    [ "ui_comboboxmodelwidget.h", "dd/db5/ui__comboboxmodelwidget_8h_source.html", null ],
-    [ "ui_contributorieswidget.h", "d2/d7e/ui__contributorieswidget_8h_source.html", null ],
-    [ "ui_customerdatawidget.h", "d3/d4f/ui__customerdatawidget_8h_source.html", null ],
-    [ "ui_dialogaddcustomer.h", "db/d63/ui__dialogaddcustomer_8h_source.html", null ],
-    [ "ui_mainwindow.h", "d4/d8d/ui__mainwindow_8h_source.html", null ],
-    [ "ui_messagebox.h", "d2/dbe/ui__messagebox_8h_source.html", null ],
-    [ "ui_projectswidget.h", "d3/d72/ui__projectswidget_8h_source.html", null ],
-    [ "ui_ratewidget.h", "d8/dee/ui__ratewidget_8h_source.html", null ],
-    [ "ui_searchwidget.h", "d3/d8c/ui__searchwidget_8h_source.html", null ],
-    [ "ui_userdatadialog.h", "d5/d66/ui__userdatadialog_8h_source.html", null ]
+    [ "parameters.h", "d6/d3b/parameters_8h_source.html", null ]
 ];
