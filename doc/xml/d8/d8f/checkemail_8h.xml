@@ -3,41 +3,64 @@
   <compounddef id="d8/d8f/checkemail_8h" kind="file">
     <compoundname>checkemail.h</compoundname>
     <includes refid="de/dc9/checkqlineedit_8h" local="yes">checkqlineedit.h</includes>
-    <includedby refid="df/d46/checkemail_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkemail.cpp</includedby>
+    <includedby refid="df/d46/checkemail_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.cpp</includedby>
+    <includedby refid="db/d63/ui__dialogaddcustomer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="970">
+      <node id="1213">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="971" relation="include">
+        <childnode refid="1214" relation="include">
         </childnode>
-        <childnode refid="972" relation="include">
+        <childnode refid="1215" relation="include">
         </childnode>
-        <childnode refid="973" relation="include">
+        <childnode refid="1216" relation="include">
         </childnode>
       </node>
-      <node id="969">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkemail.h</label>
+      <node id="1212">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h</label>
         <link refid="checkemail.h"/>
-        <childnode refid="970" relation="include">
+        <childnode refid="1213" relation="include">
         </childnode>
       </node>
-      <node id="971">
-        <label>QLineEdit</label>
-      </node>
-      <node id="974">
-        <label>QString</label>
-      </node>
-      <node id="972">
-        <label>QPushButton</label>
-      </node>
-      <node id="973">
+      <node id="1216">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="974" relation="include">
+        <childnode refid="1217" relation="include">
         </childnode>
       </node>
+      <node id="1214">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1217">
+        <label>QString</label>
+      </node>
+      <node id="1215">
+        <label>QPushButton</label>
+      </node>
     </incdepgraph>
-    <innerclass refid="da/d1d/classCheckEmail" prot="public">CheckEmail</innerclass>
+    <invincdepgraph>
+      <node id="1218">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h</label>
+        <link refid="checkemail.h"/>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</label>
+        <link refid="db/d63/ui__dialogaddcustomer_8h_source"/>
+      </node>
+      <node id="1220">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail" prot="public">Gui::Widgets::CheckFields::CheckEmail</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -48,16 +71,22 @@
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkqlineedit.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="da/d1d/classCheckEmail" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d1d/classCheckEmail" kindref="compound">CheckEmail</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d1d/classCheckEmail_1a385bd05063deaf42fc02918b9348c8ac" kindref="member">CheckEmail</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d1d/classCheckEmail_1a544d7656d36bd463391fe2f4dd3e13c6" kindref="member">check</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>text);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKEMAIL_H</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail" kindref="compound">CheckEmail</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" kindref="compound">CheckQLineEdit</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail_1a51694aa43bf0adb2246d0dd9b1d19c0c" kindref="member">CheckEmail</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail_1a166b7e7d39ca307a52477b2d9ef65ef1" kindref="member">check</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>text);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKEMAIL_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkemail.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h"/>
   </compounddef>
 </doxygen>

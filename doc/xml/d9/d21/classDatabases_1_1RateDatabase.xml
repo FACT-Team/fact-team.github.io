@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d21/classDatabases_1_1RateDatabase" kind="class" prot="public">
+    <compoundname>Databases::RateDatabase</compoundname>
+    <basecompoundref refid="dd/db0/classDatabases_1_1Database" prot="public" virt="non-virtual">Databases::Database</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d9/d21/classDatabases_1_1RateDatabase_1a8db36488922f024c55ed3ba4a8eef79b" prot="private" static="yes" mutable="no">
+        <type><ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref> *</type>
+        <definition>RateDatabase * Databases::RateDatabase::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Singleton instance of <ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d21/classDatabases_1_1RateDatabase_1a9fd72575a2eb189565a0d9eba14121ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref> *</type>
+        <definition>RateDatabase * Databases::RateDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para>RateDatabase::getInstance Return an instance of <ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Instance of <ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp" bodystart="12" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d21/classDatabases_1_1RateDatabase_1aee32610b164a56b9aaa0a3acddfd8c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::RateDatabase::addRateProject</definition>
+        <argsstring>(int idProject, int idBilling, double hourlyRate)</argsstring>
+        <name>addRateProject</name>
+        <param>
+          <type>int</type>
+          <declname>idProject</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idBilling</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hourlyRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp" bodystart="21" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d21/classDatabases_1_1RateDatabase_1a2d3e0e20c108d335903b17d291fe1a13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Databases::RateDatabase::getRate</definition>
+        <argsstring>(const int idBilling, const int idProject) const </argsstring>
+        <name>getRate</name>
+        <param>
+          <type>const int</type>
+          <declname>idBilling</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>idProject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp" bodystart="61" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d21/classDatabases_1_1RateDatabase_1a48019f4138b2a3bc3cbd144b1dec6abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::RateDatabase::updateRateProject</definition>
+        <argsstring>(int idProject, int idBilling, double hourlyRate)</argsstring>
+        <name>updateRateProject</name>
+        <param>
+          <type>int</type>
+          <declname>idProject</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idBilling</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hourlyRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp" bodystart="41" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d21/classDatabases_1_1RateDatabase_1af914ad9c98084c0ca182916299e53a34" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Databases::RateDatabase::RateDatabase</definition>
+        <argsstring>()</argsstring>
+        <name>RateDatabase</name>
+        <exceptions> throw (<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)</exceptions>
+        <briefdescription>
+<para><ref refid="d9/d21/classDatabases_1_1RateDatabase" kindref="compound">RateDatabase</ref>: is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="449">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+      </node>
+      <node id="448">
+        <label>Databases::RateDatabase</label>
+        <link refid="d9/d21/classDatabases_1_1RateDatabase"/>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="451">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+        <childnode refid="451" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="450">
+        <label>Databases::RateDatabase</label>
+        <link refid="d9/d21/classDatabases_1_1RateDatabase"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>_dbInstance</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1a8db36488922f024c55ed3ba4a8eef79b" prot="private" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>_instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1aaed4ecc36468c345c56df78ccb5b56c8" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>_instances</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a1254e2d5f196c9b6143da1cd57df5d31" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>_settings</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1aee32610b164a56b9aaa0a3acddfd8c27" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>addRateProject</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a52c30975504e35c7c475a52817d66b73" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>cleanDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56127c397e3c424401d59d64cdb8e8fc" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>close</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a56faa5446bd58e6b3c3a4c503d9309b1" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>closeTransaction</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a50bde8faf6ab4c5dfdec74dc3ba7bbe7" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>createDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a7d14f43864ce19a5e399ea4ed3ce808f" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>Database</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a21f6c86f95b149ac7dbf0ffc94021a93" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>executeFile</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1a2d3e0e20c108d335903b17d291fe1a13" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>getRate</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1a9fd72575a2eb189565a0d9eba14121ec" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>instance</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abdde0f6fbef7f4d7353acda867f01ca0" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>isOpen</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a00fcd95238619a41f7a734deaef3ea9f" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>lastError</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a091c36a92c87204f4f63e96e7d34b9f7" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>mDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a53c4c277c2fbd3532d2bcaa1d47aed40" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>open</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a64d55cd9452bbf2a6fd1693df004de59" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>openTransaction</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1af914ad9c98084c0ca182916299e53a34" prot="private" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>RateDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a88af2050b210c0d829d166f0f6d9e318" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>setDatabase</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>testCases</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a17b652086514e0a64d0e452a938ac7a5" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>updateBillingNumber</name></member>
+      <member refid="d9/d21/classDatabases_1_1RateDatabase_1a48019f4138b2a3bc3cbd144b1dec6abc" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>updateRateProject</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1abac96d2e284c2f13b7fc692994059d74" prot="protected" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>value</name></member>
+      <member refid="dd/db0/classDatabases_1_1Database_1a457a2dac579f1ffc743f452a2dcbbd5c" prot="public" virt="non-virtual"><scope>Databases::RateDatabase</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -3,53 +3,76 @@
   <compounddef id="d0/d30/checkcity_8h" kind="file">
     <compoundname>checkcity.h</compoundname>
     <includes refid="d6/df4/checkfieldsletters_8h" local="yes">checkfieldsletters.h</includes>
-    <includedby refid="d4/d65/checkcity_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcity.cpp</includedby>
+    <includedby refid="d4/d65/checkcity_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.cpp</includedby>
+    <includedby refid="db/d63/ui__dialogaddcustomer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="936">
+      <node id="1176">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="937" relation="include">
+        <childnode refid="1177" relation="include">
         </childnode>
-        <childnode refid="938" relation="include">
+        <childnode refid="1178" relation="include">
         </childnode>
-        <childnode refid="939" relation="include">
+        <childnode refid="1179" relation="include">
         </childnode>
       </node>
-      <node id="934">
+      <node id="1174">
         <label>checkfieldsletters.h</label>
         <link refid="d6/df4/checkfieldsletters_8h_source"/>
-        <childnode refid="935" relation="include">
+        <childnode refid="1175" relation="include">
         </childnode>
       </node>
-      <node id="935">
+      <node id="1175">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="936" relation="include">
+        <childnode refid="1176" relation="include">
         </childnode>
       </node>
-      <node id="937">
-        <label>QLineEdit</label>
-      </node>
-      <node id="940">
-        <label>QString</label>
-      </node>
-      <node id="938">
-        <label>QPushButton</label>
-      </node>
-      <node id="939">
+      <node id="1179">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="940" relation="include">
+        <childnode refid="1180" relation="include">
         </childnode>
       </node>
-      <node id="933">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcity.h</label>
+      <node id="1173">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.h</label>
         <link refid="checkcity.h"/>
-        <childnode refid="934" relation="include">
+        <childnode refid="1174" relation="include">
         </childnode>
+      </node>
+      <node id="1177">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1180">
+        <label>QString</label>
+      </node>
+      <node id="1178">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
-    <innerclass refid="de/de9/classCheckCity" prot="public">CheckCity</innerclass>
+    <invincdepgraph>
+      <node id="1182">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</label>
+        <link refid="db/d63/ui__dialogaddcustomer_8h_source"/>
+      </node>
+      <node id="1181">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.h</label>
+        <link refid="checkcity.h"/>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1183" relation="include">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity" prot="public">Gui::Widgets::CheckFields::CheckCity</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -59,15 +82,20 @@
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CHECKCITY_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkfieldsletters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="de/de9/classCheckCity" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/de9/classCheckCity" kindref="compound">CheckCity</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/de9/classCheckCity_1a639556875bd01b8cee5cf92759972ca5" kindref="member">CheckCity</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKCITY_H</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="11" refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity" kindref="compound">CheckCity</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity_1a880266cfcc69ab006f907748ec35a101" kindref="member">CheckCity</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKCITY_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcity.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.h"/>
   </compounddef>
 </doxygen>

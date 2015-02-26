@@ -5,190 +5,199 @@
     <includes local="no">QString</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
     <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
-    <includedby refid="d2/dbc/userdatabase_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/database/userdatabase.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/models/billing.h</includedby>
-    <includedby refid="d8/d1b/generator_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/generator.cpp</includedby>
-    <includedby refid="df/d22/userdatadialog_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/userdatadialog.h</includedby>
-    <includedby refid="db/de4/customerdatawidget_8h" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/customerdatawidget.h</includedby>
-    <includedby refid="d6/d33/user_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/models/user.cpp</includedby>
+    <includedby refid="d2/dbc/userdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
+    <includedby refid="d8/d1b/generator_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/generator.cpp</includedby>
+    <includedby refid="df/d22/userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</includedby>
+    <includedby refid="db/de4/customerdatawidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</includedby>
+    <includedby refid="d9/d36/customer_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp</includedby>
+    <includedby refid="d6/d33/user_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.cpp</includedby>
     <incdepgraph>
-      <node id="2417">
-        <label>QSettings</label>
-      </node>
-      <node id="2409">
+      <node id="3713">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="2410" relation="include">
+        <childnode refid="3714" relation="include">
         </childnode>
       </node>
-      <node id="2418">
+      <node id="3721">
+        <label>QSettings</label>
+      </node>
+      <node id="3711">
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
+        <link refid="user.h"/>
+        <childnode refid="3712" relation="include">
+        </childnode>
+        <childnode refid="3713" relation="include">
+        </childnode>
+        <childnode refid="3715" relation="include">
+        </childnode>
+      </node>
+      <node id="3722">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="2408" relation="include">
+        <childnode refid="3712" relation="include">
         </childnode>
       </node>
-      <node id="2407">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/user.h</label>
-        <link refid="user.h"/>
-        <childnode refid="2408" relation="include">
-        </childnode>
-        <childnode refid="2409" relation="include">
-        </childnode>
-        <childnode refid="2411" relation="include">
-        </childnode>
-      </node>
-      <node id="2416">
-        <label>QDebug</label>
-      </node>
-      <node id="2410">
-        <label>QVariantHash</label>
-      </node>
-      <node id="2413">
-        <label>QDate</label>
-      </node>
-      <node id="2408">
-        <label>QString</label>
-      </node>
-      <node id="2412">
-        <label>QFile</label>
-      </node>
-      <node id="2411">
+      <node id="3715">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="2412" relation="include">
+        <childnode refid="3716" relation="include">
         </childnode>
-        <childnode refid="2413" relation="include">
+        <childnode refid="3717" relation="include">
         </childnode>
-        <childnode refid="2414" relation="include">
+        <childnode refid="3718" relation="include">
         </childnode>
-        <childnode refid="2415" relation="include">
+        <childnode refid="3719" relation="include">
         </childnode>
-        <childnode refid="2416" relation="include">
+        <childnode refid="3720" relation="include">
         </childnode>
-        <childnode refid="2417" relation="include">
+        <childnode refid="3721" relation="include">
         </childnode>
-        <childnode refid="2408" relation="include">
+        <childnode refid="3712" relation="include">
         </childnode>
-        <childnode refid="2418" relation="include">
+        <childnode refid="3722" relation="include">
         </childnode>
       </node>
-      <node id="2415">
+      <node id="3720">
+        <label>QDebug</label>
+      </node>
+      <node id="3714">
+        <label>QVariantHash</label>
+      </node>
+      <node id="3717">
+        <label>QDate</label>
+      </node>
+      <node id="3712">
+        <label>QString</label>
+      </node>
+      <node id="3716">
+        <label>QFile</label>
+      </node>
+      <node id="3719">
         <label>QTextStream</label>
       </node>
-      <node id="2414">
+      <node id="3718">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2421">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/billing.h</label>
-        <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="2422" relation="include">
-        </childnode>
-        <childnode refid="2427" relation="include">
-        </childnode>
-        <childnode refid="2428" relation="include">
-        </childnode>
-        <childnode refid="2429" relation="include">
-        </childnode>
-        <childnode refid="2430" relation="include">
-        </childnode>
-        <childnode refid="2431" relation="include">
-        </childnode>
-        <childnode refid="2432" relation="include">
-        </childnode>
-        <childnode refid="2426" relation="include">
-        </childnode>
-      </node>
-      <node id="2434">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/customerdatawidget.h</label>
-        <link refid="db/de4/customerdatawidget_8h_source"/>
-      </node>
-      <node id="2423">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="2424" relation="include">
-        </childnode>
-      </node>
-      <node id="2428">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="2423" relation="include">
-        </childnode>
-      </node>
-      <node id="2424">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="2425" relation="include">
-        </childnode>
-        <childnode refid="2423" relation="include">
-        </childnode>
-      </node>
-      <node id="2427">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="2421" relation="include">
-        </childnode>
-      </node>
-      <node id="2431">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/hierarchicalsystem.h</label>
-        <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="2423" relation="include">
-        </childnode>
-      </node>
-      <node id="2425">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
-      <node id="2420">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/userdatabase.h</label>
-        <link refid="d2/dbc/userdatabase_8h_source"/>
-      </node>
-      <node id="2422">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="2423" relation="include">
-        </childnode>
-        <childnode refid="2426" relation="include">
-        </childnode>
-      </node>
-      <node id="2419">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/models/user.h</label>
-        <link refid="user.h"/>
-        <childnode refid="2420" relation="include">
-        </childnode>
-        <childnode refid="2421" relation="include">
-        </childnode>
-        <childnode refid="2433" relation="include">
-        </childnode>
-        <childnode refid="2434" relation="include">
-        </childnode>
-      </node>
-      <node id="2430">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/utils/itemtype.h</label>
+      <node id="3735">
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="2423" relation="include">
+        <childnode refid="3727" relation="include">
         </childnode>
       </node>
-      <node id="2426">
-        <label>/home/florent/Documents/Projet_S8/FactDev/tests/models/billingmodeltest.h</label>
+      <node id="3726">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="3727" relation="include">
+        </childnode>
+        <childnode refid="3731" relation="include">
+        </childnode>
+      </node>
+      <node id="3727">
+        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="3728" relation="include">
+        </childnode>
+      </node>
+      <node id="3732">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator.h</label>
+        <link refid="d8/df4/generator_8h_source"/>
+        <childnode refid="3725" relation="include">
+        </childnode>
+      </node>
+      <node id="3731">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
-      <node id="2432">
-        <label>/home/florent/Documents/Projet_S8/FactDev/tests/database/billingdatabasetest.h</label>
+      <node id="3723">
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
+        <link refid="user.h"/>
+        <childnode refid="3724" relation="include">
+        </childnode>
+        <childnode refid="3725" relation="include">
+        </childnode>
+        <childnode refid="3738" relation="include">
+        </childnode>
+        <childnode refid="3739" relation="include">
+        </childnode>
+      </node>
+      <node id="3734">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="3726" relation="include">
+        </childnode>
+      </node>
+      <node id="3728">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="3729" relation="include">
+        </childnode>
+        <childnode refid="3727" relation="include">
+        </childnode>
+      </node>
+      <node id="3730">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_mainwindow.h</label>
+        <link refid="d4/d8d/ui__mainwindow_8h_source"/>
+      </node>
+      <node id="3737">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
         <link refid="d9/d01/billingdatabasetest_8h_source"/>
       </node>
-      <node id="2433">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/dialogs/userdatadialog.h</label>
-        <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="2423" relation="include">
+      <node id="3733">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="3727" relation="include">
         </childnode>
       </node>
-      <node id="2429">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
-        <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="2422" relation="include">
+      <node id="3725">
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="3726" relation="include">
         </childnode>
+        <childnode refid="3732" relation="include">
+        </childnode>
+        <childnode refid="3733" relation="include">
+        </childnode>
+        <childnode refid="3734" relation="include">
+        </childnode>
+        <childnode refid="3735" relation="include">
+        </childnode>
+        <childnode refid="3736" relation="include">
+        </childnode>
+        <childnode refid="3737" relation="include">
+        </childnode>
+        <childnode refid="3731" relation="include">
+        </childnode>
+      </node>
+      <node id="3736">
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="3727" relation="include">
+        </childnode>
+      </node>
+      <node id="3729">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+        <childnode refid="3730" relation="include">
+        </childnode>
+      </node>
+      <node id="3738">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</label>
+        <link refid="df/d22/userdatadialog_8h_source"/>
+        <childnode refid="3727" relation="include">
+        </childnode>
+      </node>
+      <node id="3739">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</label>
+        <link refid="db/de4/customerdatawidget_8h_source"/>
+        <childnode refid="3730" relation="include">
+        </childnode>
+      </node>
+      <node id="3724">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
+        <link refid="d2/dbc/userdatabase_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="df/d68/classModels_1_1User" prot="public">Models::User</innerclass>
@@ -279,6 +288,6 @@
 <codeline lineno="218"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USER_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/models/user.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h"/>
   </compounddef>
 </doxygen>

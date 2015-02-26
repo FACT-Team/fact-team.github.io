@@ -5,7 +5,7 @@
     <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a17cd70b100aeeabf5b80dd8aeca3ad59" prot="private" static="no" mutable="no">
-        <type>Ui::ContributoriesWidget *</type>
+        <type><ref refid="d3/db6/classUi_1_1ContributoriesWidget" kindref="compound">Ui::ContributoriesWidget</ref> *</type>
         <definition>Ui::ContributoriesWidget* Gui::Widgets::ContributoriesWidget::ui</definition>
         <argsstring></argsstring>
         <name>ui</name>
@@ -15,20 +15,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="51" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="51" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="61" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a719acee92afb2d961c866e168adbf97b" prot="private" static="no" mutable="no">
-        <type><ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">Gui::Widgets::WdgModels::ContributoriesTableModel</ref> *</type>
-        <definition>Gui::Widgets::WdgModels::ContributoriesTableModel* Gui::Widgets::ContributoriesWidget::_model</definition>
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a540549b17af5444760c45b6cba80c0b9" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">WdgModels::ContributoriesTableModel</ref> * &gt;</type>
+        <definition>QList&lt;WdgModels::ContributoriesTableModel*&gt; Gui::Widgets::ContributoriesWidget::_modelsContributories</definition>
         <argsstring></argsstring>
-        <name>_model</name>
+        <name>_modelsContributories</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="52" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="52" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="62" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a4e4ecbeddd372102e77731ff35039760" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">WdgModels::ContributoriesTableModel</ref> * &gt;</type>
+        <definition>QList&lt;WdgModels::ContributoriesTableModel*&gt; Gui::Widgets::ContributoriesWidget::_modelsContributoriesToRemoved</definition>
+        <argsstring></argsstring>
+        <name>_modelsContributoriesToRemoved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="63" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1afec96babe27f0c56c99aebedf714304f" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel" kindref="compound">Gui::Widgets::WdgModels::ProjectContributoriesTableModel</ref> *</type>
+        <definition>Gui::Widgets::WdgModels::ProjectContributoriesTableModel* Gui::Widgets::ContributoriesWidget::_modelProjects</definition>
+        <argsstring></argsstring>
+        <name>_modelProjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="64" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a2e63def7f4afcd90cdddb63ce9e6f540" prot="private" static="no" mutable="no">
+        <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &gt;</type>
+        <definition>QSharedPointer&lt;Customer&gt; Gui::Widgets::ContributoriesWidget::_customer</definition>
+        <argsstring></argsstring>
+        <name>_customer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="65" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -52,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="22" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="8" bodyend="23"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="12" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae8463fcb457e05f928a5a47b73736847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -65,11 +104,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="23" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="25" bodyend="28"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="26" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
-      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a05ddbeb4ffce91003efc1c651d888955" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt;</type>
-        <definition>QList&lt; Contributory &gt; Gui::Widgets::ContributoriesWidget::getContributories</definition>
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a72c0f4a49aaafdf045154bafb1e76049" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref> *</type>
+        <definition>ContributoriesList * Gui::Widgets::ContributoriesWidget::getContributories</definition>
         <argsstring>() const </argsstring>
         <name>getContributories</name>
         <briefdescription>
@@ -79,7 +118,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="29" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="30" bodyend="33"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="38" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -92,16 +131,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="30" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="55" bodyend="57"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="33" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="168" bodyend="170"/>
       </memberdef>
-      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a745f5a8cac438f645907454117a7872f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae61498391d4aaf199bed8183961d515c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Gui::Widgets::ContributoriesWidget::add</definition>
-        <argsstring>(Contributory c)</argsstring>
+        <argsstring>(ContributoriesList &amp;list)</argsstring>
         <name>add</name>
         <param>
-          <type><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref></type>
-          <declname>c</declname>
+          <type><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref> &amp;</type>
+          <declname>list</declname>
         </param>
         <briefdescription>
 <para>add Add the Contributory <emphasis>c</emphasis> in the model </para>        </briefdescription>
@@ -117,7 +156,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="36" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="41" bodyend="45"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="39" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="69" bodyend="78"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -135,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="41" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="35" bodyend="39"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="44" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="63" bodyend="67"/>
       </memberdef>
       <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a35895ad0b9c497263f633680288b414e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -151,7 +190,105 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="46" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="47" bodyend="53"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="49" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="80" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1afaa982bf1f4b77fd3bf55be0c83c4056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::addProject</definition>
+        <argsstring>(QPair&lt; Project *, Rate &gt; *p=0)</argsstring>
+        <name>addProject</name>
+        <param>
+          <type>QPair&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref> &gt; *</type>
+          <declname>p</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="51" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="89" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad907c5827c4e1ee3b82adbe6f2f77309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::removeProject</definition>
+        <argsstring>(void)</argsstring>
+        <name>removeProject</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="111" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5a4be90c82f8b6d0b0e3b7a658a488ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::changeProject</definition>
+        <argsstring>(void)</argsstring>
+        <name>changeProject</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="53" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="122" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1acb1cc99ae6f72205394d7b52f0a5f20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::editing</definition>
+        <argsstring>(void)</argsstring>
+        <name>editing</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="54" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="128" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::updateUi</definition>
+        <argsstring>(void)</argsstring>
+        <name>updateUi</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="134" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="slot" id="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::ContributoriesWidget::updatePrice</definition>
+        <argsstring>(void)</argsstring>
+        <name>updatePrice</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="56" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp" bodystart="151" bodyend="166"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -166,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="49" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="59" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/moc_contributorieswidget.cpp" bodystart="164" bodyend="167"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -174,38 +311,47 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="171">
+      <node id="204">
         <label>Gui::Widgets::ContributoriesWidget</label>
         <link refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget"/>
-        <childnode refid="172" relation="public-inheritance">
+        <childnode refid="205" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="172">
+      <node id="205">
         <label>QWidget</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="173">
+      <node id="206">
         <label>Gui::Widgets::ContributoriesWidget</label>
         <link refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget"/>
-        <childnode refid="174" relation="public-inheritance">
+        <childnode refid="207" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="174">
+      <node id="207">
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" line="18" column="1" bodyfile="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="17" bodyend="53"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h" bodystart="20" bodyend="66"/>
     <listofallmembers>
-      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a719acee92afb2d961c866e168adbf97b" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_model</name></member>
-      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a745f5a8cac438f645907454117a7872f" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>add</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a2e63def7f4afcd90cdddb63ce9e6f540" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_customer</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1afec96babe27f0c56c99aebedf714304f" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_modelProjects</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a540549b17af5444760c45b6cba80c0b9" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_modelsContributories</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a4e4ecbeddd372102e77731ff35039760" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>_modelsContributoriesToRemoved</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae61498391d4aaf199bed8183961d515c" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>add</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a756c0d1076fad1a3805975343e66a1de" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>add</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1afaa982bf1f4b77fd3bf55be0c83c4056" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>addProject</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5a4be90c82f8b6d0b0e3b7a658a488ee" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>changeProject</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5517afc134491eb118b9d183e94476bc" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>ContributoriesWidget</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a510bfd755cf271fd10b63cf68284cd02" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>contributoryChanged</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>count</name></member>
-      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a05ddbeb4ffce91003efc1c651d888955" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>getContributories</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1acb1cc99ae6f72205394d7b52f0a5f20d" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>editing</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a72c0f4a49aaafdf045154bafb1e76049" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>getContributories</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a35895ad0b9c497263f633680288b414e" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>remove</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad907c5827c4e1ee3b82adbe6f2f77309" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>removeProject</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a17cd70b100aeeabf5b80dd8aeca3ad59" prot="private" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>ui</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>updatePrice</name></member>
+      <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>updateUi</name></member>
       <member refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ae8463fcb457e05f928a5a47b73736847" prot="public" virt="non-virtual"><scope>Gui::Widgets::ContributoriesWidget</scope><name>~ContributoriesWidget</name></member>
     </listofallmembers>
   </compounddef>

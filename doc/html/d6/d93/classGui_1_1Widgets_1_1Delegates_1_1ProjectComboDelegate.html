@@ -79,6 +79,7 @@ Inheritance diagram for Gui::Widgets::Delegates::ProjectComboDelegate:</div>
  <div class="center">
   <img src="../../d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.png" usemap="#Gui::Widgets::Delegates::ProjectComboDelegate_map" alt=""/>
   <map id="Gui::Widgets::Delegates::ProjectComboDelegate_map" name="Gui::Widgets::Delegates::ProjectComboDelegate_map">
+<area href="../../d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html" alt="Gui::Widgets::Delegates::ComboBoxDelegate" shape="rect" coords="0,56,278,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -90,22 +91,38 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbfc28a3e6de34dc63d7290ae5b5c053"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbfc28a3e6de34dc63d7290ae5b5c053"></a>
 QWidget *&#160;</td><td class="memItemRight" valign="bottom"><b>createEditor</b> (QWidget *parent, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </td></tr>
 <tr class="separator:adbfc28a3e6de34dc63d7290ae5b5c053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154846518810338a4ddaaa96ad29f7fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a154846518810338a4ddaaa96ad29f7fe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setEditorData</b> (QWidget *editor, const QModelIndex &amp;index) const </td></tr>
-<tr class="separator:a154846518810338a4ddaaa96ad29f7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7281f5f400d7f3a6e150cd17a3e95beb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7281f5f400d7f3a6e150cd17a3e95beb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setModelData</b> (QWidget *editor, QAbstractItemModel *model, const QModelIndex &amp;index) const </td></tr>
-<tr class="separator:a7281f5f400d7f3a6e150cd17a3e95beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ea80843021afbcb24012d505b61c2b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ea80843021afbcb24012d505b61c2b6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateEditorGeometry</b> (QWidget *editor, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </td></tr>
-<tr class="separator:a3ea80843021afbcb24012d505b61c2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20cbc84d26b83083fdf7efecae3407cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20cbc84d26b83083fdf7efecae3407cf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>paint</b> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </td></tr>
 <tr class="separator:a20cbc84d26b83083fdf7efecae3407cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e14627b3942a96f190e31a4e67edc95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e14627b3942a96f190e31a4e67edc95"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removeInCombo</b> (QList&lt; int &gt; &amp;)</td></tr>
+<tr class="separator:a7e14627b3942a96f190e31a4e67edc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d0ef3a5179d72ab577f359c8f7a6fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63d0ef3a5179d72ab577f359c8f7a6fa"></a>
+QMap&lt; int, <a class="el" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getProjects</b> () const </td></tr>
+<tr class="separator:a63d0ef3a5179d72ab577f359c8f7a6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07bf1e09c752159161a3f585c61b4d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad07bf1e09c752159161a3f585c61b4d7"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>getLocked</b> () const </td></tr>
+<tr class="separator:ad07bf1e09c752159161a3f585c61b4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93369dde11856d4097851f7f1158f48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac93369dde11856d4097851f7f1158f48"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLocked</b> (bool getLlocked)</td></tr>
+<tr class="separator:ac93369dde11856d4097851f7f1158f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html">Gui::Widgets::Delegates::ComboBoxDelegate</a></td></tr>
+<tr class="memitem:a34105ef48d776c556598b9b15e7abdcc inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34105ef48d776c556598b9b15e7abdcc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ComboBoxDelegate</b> (QObject *parent=0)</td></tr>
+<tr class="separator:a34105ef48d776c556598b9b15e7abdcc inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d218e265b7656e17fece8a73e53e90 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30d218e265b7656e17fece8a73e53e90"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setEditorData</b> (QWidget *editor, const QModelIndex &amp;index) const </td></tr>
+<tr class="separator:a30d218e265b7656e17fece8a73e53e90 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2d51e4e44e7f3cdc9baac783bbc1b1 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f2d51e4e44e7f3cdc9baac783bbc1b1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setModelData</b> (QWidget *editor, QAbstractItemModel *model, const QModelIndex &amp;index) const </td></tr>
+<tr class="separator:a2f2d51e4e44e7f3cdc9baac783bbc1b1 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf54b72e544b24cc34270154ae6aed3 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abdf54b72e544b24cc34270154ae6aed3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateEditorGeometry</b> (QWidget *editor, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </td></tr>
+<tr class="separator:abdf54b72e544b24cc34270154ae6aed3 inherit pub_methods_classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/delegates/<a class="el" href="../../d5/dfb/projectcombodelegate_8h_source.html">projectcombodelegate.h</a></li>
-<li>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp</li>
+<li>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/<a class="el" href="../../d5/dfb/projectcombodelegate_8h_source.html">projectcombodelegate.h</a></li>
+<li>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -113,7 +130,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>paint</b> (QPainter *
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dad/namespaceGui.html">Gui</a></li><li class="navelem"><a class="el" href="../../d4/dfe/namespaceGui_1_1Widgets.html">Widgets</a></li><li class="navelem"><b>Delegates</b></li><li class="navelem"><a class="el" href="../../d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html">ProjectComboDelegate</a></li>
-    <li class="footer">Generated on Tue Feb 24 2015 14:08:36 for FactDev by
+    <li class="footer">Generated on Thu Feb 26 2015 11:04:04 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

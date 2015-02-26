@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dee/ui__ratewidget_8h" kind="file">
+    <compoundname>ui_ratewidget.h</compoundname>
+    <includes local="no">QtCore/QVariant</includes>
+    <includes local="no">QtWidgets/QAction</includes>
+    <includes local="no">QtWidgets/QApplication</includes>
+    <includes local="no">QtWidgets/QButtonGroup</includes>
+    <includes local="no">QtWidgets/QDoubleSpinBox</includes>
+    <includes local="no">QtWidgets/QGridLayout</includes>
+    <includes local="no">QtWidgets/QHeaderView</includes>
+    <includes local="no">QtWidgets/QLabel</includes>
+    <includes local="no">QtWidgets/QWidget</includes>
+    <includedby refid="d2/dcd/ratewidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.cpp</includedby>
+    <incdepgraph>
+      <node id="4063">
+        <label>QtWidgets/QWidget</label>
+      </node>
+      <node id="4062">
+        <label>QtWidgets/QLabel</label>
+      </node>
+      <node id="4059">
+        <label>QtWidgets/QDoubleSpinBox</label>
+      </node>
+      <node id="4055">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="4061">
+        <label>QtWidgets/QHeaderView</label>
+      </node>
+      <node id="4056">
+        <label>QtWidgets/QAction</label>
+      </node>
+      <node id="4058">
+        <label>QtWidgets/QButtonGroup</label>
+      </node>
+      <node id="4057">
+        <label>QtWidgets/QApplication</label>
+      </node>
+      <node id="4054">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_ratewidget.h</label>
+        <link refid="ui_ratewidget.h"/>
+        <childnode refid="4055" relation="include">
+        </childnode>
+        <childnode refid="4056" relation="include">
+        </childnode>
+        <childnode refid="4057" relation="include">
+        </childnode>
+        <childnode refid="4058" relation="include">
+        </childnode>
+        <childnode refid="4059" relation="include">
+        </childnode>
+        <childnode refid="4060" relation="include">
+        </childnode>
+        <childnode refid="4061" relation="include">
+        </childnode>
+        <childnode refid="4062" relation="include">
+        </childnode>
+        <childnode refid="4063" relation="include">
+        </childnode>
+      </node>
+      <node id="4060">
+        <label>QtWidgets/QGridLayout</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d9/de8/classUi__RateWidget" prot="public">Ui_RateWidget</innerclass>
+    <innerclass refid="df/d17/classUi_1_1RateWidget" prot="public">Ui::RateWidget</innerclass>
+    <innernamespace refid="db/d3c/namespaceUi">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/********************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Form<sp/>generated<sp/>from<sp/>reading<sp/>UI<sp/>file<sp/>&apos;ratewidget.ui&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created<sp/>by:<sp/>Qt<sp/>User<sp/>Interface<sp/>Compiler<sp/>version<sp/>5.2.0</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost<sp/>when<sp/>recompiling<sp/>UI<sp/>file!</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">********************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UI_RATEWIDGET_H</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UI_RATEWIDGET_H</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QVariant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QAction&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QButtonGroup&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QDoubleSpinBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QGridLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QHeaderView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QLabel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">QT_BEGIN_NAMESPACE</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="d9/de8/classUi__RateWidget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/de8/classUi__RateWidget" kindref="compound">Ui_RateWidget</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout<sp/>*gridLayout;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QDoubleSpinBox<sp/>*sbHourlyRate;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel<sp/>*label_2;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel<sp/>*label;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QDoubleSpinBox<sp/>*sbDailyRate;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setupUi(QWidget<sp/>*RateWidget)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(RateWidget-&gt;objectName().isEmpty())</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RateWidget-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RateWidget-&gt;resize(400,<sp/>42);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(RateWidget);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayout&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDoubleSpinBox(RateWidget);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;sbHourlyRate&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate-&gt;setButtonSymbols(QAbstractSpinBox::PlusMinus);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate-&gt;setMinimum(9.61);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate-&gt;setMaximum(999);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addWidget(sbHourlyRate,<sp/>0,<sp/>3,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(RateWidget);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;label_2&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addWidget(label_2,<sp/>0,<sp/>2,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(RateWidget);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addWidget(label,<sp/>0,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbDailyRate<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDoubleSpinBox(RateWidget);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbDailyRate-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;sbDailyRate&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbDailyRate-&gt;setButtonSymbols(QAbstractSpinBox::PlusMinus);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbDailyRate-&gt;setMaximum(9999);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addWidget(sbDailyRate,<sp/>0,<sp/>1,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retranslateUi(RateWidget);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(sbDailyRate,<sp/>SIGNAL(editingFinished()),<sp/>RateWidget,<sp/>SLOT(setDailyRate()));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(sbHourlyRate,<sp/>SIGNAL(editingFinished()),<sp/>RateWidget,<sp/>SLOT(setHourlyRate()));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMetaObject::connectSlotsByName(RateWidget);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>setupUi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>retranslateUi(QWidget<sp/>*RateWidget)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RateWidget-&gt;setWindowTitle(QApplication::translate(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Form&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TOOLTIP</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHourlyRate-&gt;setToolTip(QApplication::translate(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Tarif<sp/>en<sp/>euros<sp/>(\342\202\254)&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TOOLTIP</highlight></codeline>
+<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Tarif<sp/>horaire&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Tarif<sp/>journalier&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TOOLTIP</highlight></codeline>
+<codeline lineno="82"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbDailyRate-&gt;setToolTip(QApplication::translate(</highlight><highlight class="stringliteral">&quot;RateWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Tarif<sp/>en<sp/>euros<sp/>(\342\202\254)&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TOOLTIP</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>retranslateUi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
+<codeline lineno="89" refid="df/d17/classUi_1_1RateWidget" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d17/classUi_1_1RateWidget" kindref="compound">RateWidget</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d9/de8/classUi__RateWidget" kindref="compound">Ui_RateWidget</ref><sp/>{};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Ui</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">QT_END_NAMESPACE</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>UI_RATEWIDGET_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/ui_ratewidget.h"/>
+  </compounddef>
+</doxygen>

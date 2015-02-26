@@ -4,56 +4,59 @@
     <compoundname>checkcity.cpp</compoundname>
     <includes refid="d0/d30/checkcity_8h" local="yes">checkcity.h</includes>
     <incdepgraph>
-      <node id="927">
+      <node id="1167">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="928" relation="include">
+        <childnode refid="1168" relation="include">
         </childnode>
-        <childnode refid="929" relation="include">
+        <childnode refid="1169" relation="include">
         </childnode>
-        <childnode refid="930" relation="include">
-        </childnode>
-      </node>
-      <node id="923">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcity.cpp</label>
-        <link refid="checkcity.cpp"/>
-        <childnode refid="924" relation="include">
+        <childnode refid="1170" relation="include">
         </childnode>
       </node>
-      <node id="925">
+      <node id="1165">
         <label>checkfieldsletters.h</label>
         <link refid="d6/df4/checkfieldsletters_8h_source"/>
-        <childnode refid="926" relation="include">
+        <childnode refid="1166" relation="include">
         </childnode>
       </node>
-      <node id="926">
+      <node id="1166">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="927" relation="include">
+        <childnode refid="1167" relation="include">
         </childnode>
       </node>
-      <node id="928">
-        <label>QLineEdit</label>
-      </node>
-      <node id="931">
-        <label>QString</label>
-      </node>
-      <node id="929">
-        <label>QPushButton</label>
-      </node>
-      <node id="930">
+      <node id="1170">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="931" relation="include">
+        <childnode refid="1171" relation="include">
         </childnode>
       </node>
-      <node id="924">
+      <node id="1164">
         <label>checkcity.h</label>
         <link refid="d0/d30/checkcity_8h_source"/>
-        <childnode refid="925" relation="include">
+        <childnode refid="1165" relation="include">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1171">
+        <label>QString</label>
+      </node>
+      <node id="1169">
+        <label>QPushButton</label>
+      </node>
+      <node id="1163">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.cpp</label>
+        <link refid="checkcity.cpp"/>
+        <childnode refid="1164" relation="include">
         </childnode>
       </node>
     </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -61,10 +64,18 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkcity.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"><ref refid="de/de9/classCheckCity_1a639556875bd01b8cee5cf92759972ca5" kindref="member">CheckCity::CheckCity</ref>(QWidget<sp/>*w,<sp/>QPushButton*<sp/>btn)<sp/>:<sp/><ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref><sp/>(w,<sp/>btn)<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="d4/dfe/namespaceGui_1_1Widgets" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity_1a880266cfcc69ab006f907748ec35a101" kindref="member">CheckCity::CheckCity</ref>(QWidget<sp/>*w,<sp/>QPushButton*<sp/>btn)<sp/>:<sp/>CheckFieldsLetters<sp/>(w,<sp/>btn)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcity.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.cpp"/>
   </compounddef>
 </doxygen>

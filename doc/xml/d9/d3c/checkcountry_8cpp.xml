@@ -4,56 +4,59 @@
     <compoundname>checkcountry.cpp</compoundname>
     <includes refid="d4/d72/checkcountry_8h" local="yes">checkcountry.h</includes>
     <incdepgraph>
-      <node id="946">
+      <node id="1188">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="947" relation="include">
+        <childnode refid="1189" relation="include">
         </childnode>
-        <childnode refid="948" relation="include">
+        <childnode refid="1190" relation="include">
         </childnode>
-        <childnode refid="949" relation="include">
-        </childnode>
-      </node>
-      <node id="943">
-        <label>checkcountry.h</label>
-        <link refid="d4/d72/checkcountry_8h_source"/>
-        <childnode refid="944" relation="include">
+        <childnode refid="1191" relation="include">
         </childnode>
       </node>
-      <node id="944">
+      <node id="1186">
         <label>checkfieldsletters.h</label>
         <link refid="d6/df4/checkfieldsletters_8h_source"/>
-        <childnode refid="945" relation="include">
+        <childnode refid="1187" relation="include">
         </childnode>
       </node>
-      <node id="945">
+      <node id="1187">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="946" relation="include">
+        <childnode refid="1188" relation="include">
         </childnode>
       </node>
-      <node id="947">
-        <label>QLineEdit</label>
-      </node>
-      <node id="950">
-        <label>QString</label>
-      </node>
-      <node id="942">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcountry.cpp</label>
-        <link refid="checkcountry.cpp"/>
-        <childnode refid="943" relation="include">
-        </childnode>
-      </node>
-      <node id="948">
-        <label>QPushButton</label>
-      </node>
-      <node id="949">
+      <node id="1191">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="950" relation="include">
+        <childnode refid="1192" relation="include">
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1192">
+        <label>QString</label>
+      </node>
+      <node id="1190">
+        <label>QPushButton</label>
+      </node>
+      <node id="1185">
+        <label>checkcountry.h</label>
+        <link refid="d4/d72/checkcountry_8h_source"/>
+        <childnode refid="1186" relation="include">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcountry.cpp</label>
+        <link refid="checkcountry.cpp"/>
+        <childnode refid="1185" relation="include">
         </childnode>
       </node>
     </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -61,13 +64,20 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkcountry.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><ref refid="d6/d52/classCheckCountry_1aa6aa76f22635d879105449836dd68bbd" kindref="member">CheckCountry::CheckCountry</ref>(QWidget*<sp/>w,<sp/>QPushButton*<sp/>btn<sp/>)</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="de/d19/classCheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref><sp/>(w,<sp/>btn)</highlight></codeline>
-<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry_1ae432c47f8bede68b29a89af24b234eef" kindref="member">CheckCountry::CheckCountry</ref>(QWidget*<sp/>w,<sp/>QPushButton*<sp/>btn<sp/>)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>CheckFieldsLetters<sp/>(w,<sp/>btn)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkcountry.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcountry.cpp"/>
   </compounddef>
 </doxygen>

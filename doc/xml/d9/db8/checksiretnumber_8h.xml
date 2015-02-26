@@ -3,41 +3,57 @@
   <compounddef id="d9/db8/checksiretnumber_8h" kind="file">
     <compoundname>checksiretnumber.h</compoundname>
     <includes refid="de/dc9/checkqlineedit_8h" local="yes">checkqlineedit.h</includes>
-    <includedby refid="dd/dc1/checksiretnumber_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp</includedby>
+    <includedby refid="dd/dc1/checksiretnumber_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="1084">
+      <node id="1344">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1085" relation="include">
+        <childnode refid="1345" relation="include">
         </childnode>
-        <childnode refid="1086" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
-        <childnode refid="1087" relation="include">
-        </childnode>
-      </node>
-      <node id="1085">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1083">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checksiretnumber.h</label>
-        <link refid="checksiretnumber.h"/>
-        <childnode refid="1084" relation="include">
+        <childnode refid="1347" relation="include">
         </childnode>
       </node>
-      <node id="1088">
-        <label>QString</label>
-      </node>
-      <node id="1086">
-        <label>QPushButton</label>
-      </node>
-      <node id="1087">
+      <node id="1347">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1088" relation="include">
+        <childnode refid="1348" relation="include">
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1348">
+        <label>QString</label>
+      </node>
+      <node id="1346">
+        <label>QPushButton</label>
+      </node>
+      <node id="1343">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h</label>
+        <link refid="checksiretnumber.h"/>
+        <childnode refid="1344" relation="include">
         </childnode>
       </node>
     </incdepgraph>
-    <innerclass refid="d7/d29/classCheckSiretNumber" prot="public">CheckSiretNumber</innerclass>
+    <invincdepgraph>
+      <node id="1349">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h</label>
+        <link refid="checksiretnumber.h"/>
+        <childnode refid="1350" relation="include">
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" prot="public">Gui::Widgets::CheckFields::CheckSiretNumber</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -48,16 +64,21 @@
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkqlineedit.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="d7/d29/classCheckSiretNumber" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d29/classCheckSiretNumber" kindref="compound">CheckSiretNumber</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d29/classCheckSiretNumber_1a0581c0a2d6c0c1a62dab77515422b194" kindref="member">CheckSiretNumber</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classCheckSiretNumber_1aaf0a1411e380789062564bd992e72c1b" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKSIRETNUMBER_H</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" kindref="compound">CheckSiretNumber</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" kindref="compound">CheckQLineEdit</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a084cf5bf5f0630ef0a92a4bb2be8646e" kindref="member">CheckSiretNumber</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a973f81b959d34b28818159303932f5f8" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKSIRETNUMBER_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checksiretnumber.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h"/>
   </compounddef>
 </doxygen>

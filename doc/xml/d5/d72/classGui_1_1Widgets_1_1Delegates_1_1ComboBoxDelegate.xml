@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" kind="class" prot="public" abstract="yes">
+    <compoundname>Gui::Widgets::Delegates::ComboBoxDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QItemDelegate</basecompoundref>
+    <derivedcompoundref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" prot="public" virt="non-virtual">Gui::Widgets::Delegates::ProjectComboDelegate</derivedcompoundref>
+    <derivedcompoundref refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" prot="public" virt="non-virtual">Gui::Widgets::Delegates::UnitComboDelegate</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a34105ef48d776c556598b9b15e7abdcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::Delegates::ComboBoxDelegate::ComboBoxDelegate</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>ComboBoxDelegate</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1aa24c5896e30295ad7dbe47c91093b2db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>QWidget *</type>
+        <definition>virtual QWidget* Gui::Widgets::Delegates::ComboBoxDelegate::createEditor</definition>
+        <argsstring>(QWidget *parent, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const =0</argsstring>
+        <name>createEditor</name>
+        <reimplementedby refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1adbfc28a3e6de34dc63d7290ae5b5c053">createEditor</reimplementedby>
+        <reimplementedby refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a246f92146bdf89200867629b68e3a86a">createEditor</reimplementedby>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const QStyleOptionViewItem &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a0b7f0752890cd3fb257361a7990a74c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::Delegates::ComboBoxDelegate::paint</definition>
+        <argsstring>(QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const =0</argsstring>
+        <name>paint</name>
+        <reimplementedby refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a20cbc84d26b83083fdf7efecae3407cf">paint</reimplementedby>
+        <reimplementedby refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a2efed5aa3b9bde3cd80e9518cde00e60">paint</reimplementedby>
+        <param>
+          <type>QPainter *</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>const QStyleOptionViewItem &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a30d218e265b7656e17fece8a73e53e90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::Delegates::ComboBoxDelegate::setEditorData</definition>
+        <argsstring>(QWidget *editor, const QModelIndex &amp;index) const </argsstring>
+        <name>setEditorData</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp" bodystart="12" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a2f2d51e4e44e7f3cdc9baac783bbc1b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::Delegates::ComboBoxDelegate::setModelData</definition>
+        <argsstring>(QWidget *editor, QAbstractItemModel *model, const QModelIndex &amp;index) const </argsstring>
+        <name>setModelData</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type>QAbstractItemModel *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1abdf54b72e544b24cc34270154ae6aed3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::Delegates::ComboBoxDelegate::updateEditorGeometry</definition>
+        <argsstring>(QWidget *editor, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </argsstring>
+        <name>updateEditorGeometry</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type>const QStyleOptionViewItem &amp;</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>Gui::Widgets::Delegates::ProjectComboDelegate</label>
+        <link refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>Gui::Widgets::Delegates::UnitComboDelegate</label>
+        <link refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>QItemDelegate</label>
+      </node>
+      <node id="170">
+        <label>Gui::Widgets::Delegates::ComboBoxDelegate</label>
+        <link refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="175">
+        <label>QItemDelegate</label>
+      </node>
+      <node id="174">
+        <label>Gui::Widgets::Delegates::ComboBoxDelegate</label>
+        <link refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h" bodystart="11" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a34105ef48d776c556598b9b15e7abdcc" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>ComboBoxDelegate</name></member>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1aa24c5896e30295ad7dbe47c91093b2db" prot="public" virt="pure-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>createEditor</name></member>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a0b7f0752890cd3fb257361a7990a74c2" prot="public" virt="pure-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>paint</name></member>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a30d218e265b7656e17fece8a73e53e90" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>setEditorData</name></member>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a2f2d51e4e44e7f3cdc9baac783bbc1b1" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>setModelData</name></member>
+      <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1abdf54b72e544b24cc34270154ae6aed3" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::ComboBoxDelegate</scope><name>updateEditorGeometry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+var classUi__ContributoriesWidget =
+[
+    [ "retranslateUi", "dd/d83/classUi__ContributoriesWidget.html#ac16a55af65065b86b9485933334d0752", null ],
+    [ "setupUi", "dd/d83/classUi__ContributoriesWidget.html#aeb538e14848329059289f3715bfaf043", null ],
+    [ "btnAddPrestation", "dd/d83/classUi__ContributoriesWidget.html#a2cdbce0f78b8f986a8ea21c14d553cc2", null ],
+    [ "btnAddProject", "dd/d83/classUi__ContributoriesWidget.html#a8fb85a7b3bd4f3240c60f0740408ef37", null ],
+    [ "btnRemoveProject", "dd/d83/classUi__ContributoriesWidget.html#adcbddad48d22951ecfe14e3a507d1978", null ],
+    [ "btnRmovePrestation", "dd/d83/classUi__ContributoriesWidget.html#ac5cb4d021bd28ffbea4c802d871967e3", null ],
+    [ "gridLayout", "dd/d83/classUi__ContributoriesWidget.html#aae8b6b8139ca570fa5a08e767bfd3fc3", null ],
+    [ "gridLayout_4", "dd/d83/classUi__ContributoriesWidget.html#a3a4c392ccd86d75dc5b8dc5bc3b3e122", null ],
+    [ "gridLayout_5", "dd/d83/classUi__ContributoriesWidget.html#aa220959fb46c5af97b29c8f2bf6f0963", null ],
+    [ "gridLayoutWidget", "dd/d83/classUi__ContributoriesWidget.html#a3e10320ace42649edb87b991aeb5c69a", null ],
+    [ "gridLayoutWidget_2", "dd/d83/classUi__ContributoriesWidget.html#aa54c04863ed8d76992e05fc386771177", null ],
+    [ "horizontalLayout", "dd/d83/classUi__ContributoriesWidget.html#ad7802560543aff03423f92fa29ee6918", null ],
+    [ "horizontalLayout_2", "dd/d83/classUi__ContributoriesWidget.html#a769af7928734e84dd680373bbc95693c", null ],
+    [ "horizontalLayout_3", "dd/d83/classUi__ContributoriesWidget.html#af404cd643fd4e14ced5cff20d43e9095", null ],
+    [ "horizontalLayout_4", "dd/d83/classUi__ContributoriesWidget.html#ab5a4f6bb01854780ae5e277bae6204b1", null ],
+    [ "horizontalSpacer_2", "dd/d83/classUi__ContributoriesWidget.html#a5f66c1ef0db139d0cf247f3277d6ec86", null ],
+    [ "horizontalSpacer_3", "dd/d83/classUi__ContributoriesWidget.html#a6dac0712444276370cfeb9221d9425b1", null ],
+    [ "horizontalSpacer_4", "dd/d83/classUi__ContributoriesWidget.html#aaf04e1590e80db81b7e9b136c8a2167c", null ],
+    [ "label", "dd/d83/classUi__ContributoriesWidget.html#a7f43b63228920e66c5199aa828c8a88f", null ],
+    [ "label_2", "dd/d83/classUi__ContributoriesWidget.html#a7b5ed1645d1a8d7db343d87be046889f", null ],
+    [ "sbAllSums", "dd/d83/classUi__ContributoriesWidget.html#ad64addd4225c398a66e6497044da39ef", null ],
+    [ "sbSubSum", "dd/d83/classUi__ContributoriesWidget.html#a7d8e3d30cc335b461414932e68f39b38", null ],
+    [ "splitter", "dd/d83/classUi__ContributoriesWidget.html#a5ed9df41f329ed0490fff96ac58a63b1", null ],
+    [ "stack", "dd/d83/classUi__ContributoriesWidget.html#a4b7f921be8382fecb1efffe34d6157ee", null ],
+    [ "tblProjects", "dd/d83/classUi__ContributoriesWidget.html#a8b39e5e70773fb1c422956ba25af632b", null ]
+];

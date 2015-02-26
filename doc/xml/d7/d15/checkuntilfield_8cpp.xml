@@ -4,44 +4,47 @@
     <compoundname>checkuntilfield.cpp</compoundname>
     <includes refid="d7/d52/checkuntilfield_8h" local="yes">checkuntilfield.h</includes>
     <incdepgraph>
-      <node id="1092">
+      <node id="1353">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1093" relation="include">
+        <childnode refid="1354" relation="include">
         </childnode>
-        <childnode refid="1094" relation="include">
+        <childnode refid="1355" relation="include">
         </childnode>
-        <childnode refid="1095" relation="include">
+        <childnode refid="1356" relation="include">
         </childnode>
       </node>
-      <node id="1091">
+      <node id="1352">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="1092" relation="include">
+        <childnode refid="1353" relation="include">
         </childnode>
       </node>
-      <node id="1093">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1096">
-        <label>QString</label>
-      </node>
-      <node id="1094">
-        <label>QPushButton</label>
-      </node>
-      <node id="1095">
+      <node id="1356">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1096" relation="include">
+        <childnode refid="1357" relation="include">
         </childnode>
       </node>
-      <node id="1090">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkuntilfield.cpp</label>
+      <node id="1351">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkuntilfield.cpp</label>
         <link refid="checkuntilfield.cpp"/>
-        <childnode refid="1091" relation="include">
+        <childnode refid="1352" relation="include">
         </childnode>
+      </node>
+      <node id="1354">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1357">
+        <label>QString</label>
+      </node>
+      <node id="1355">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -49,16 +52,23 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkuntilfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"><ref refid="dc/db9/classCheckUntilField_1a7b3789fe02959e488b35a0e79362f786" kindref="member">CheckUntilField::CheckUntilField</ref>(QWidget*<sp/>w,<sp/>QPushButton*<sp/>btn)<sp/>:<sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref>(w,<sp/>btn)<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/db9/classCheckUntilField_1acfb9e2f95bebcb5b5d2337e3ac4f4d47" kindref="member">CheckUntilField::check</ref>(QString<sp/>text)<sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>text.length()<sp/>!=<sp/>0;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField_1a351fcf364f4ca3b2b4da806e6e5cf185" kindref="member">CheckUntilField::CheckUntilField</ref>(QWidget*<sp/>w,<sp/>QPushButton*<sp/>btn)<sp/>:<sp/>CheckQLineEdit(w,<sp/>btn)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField_1ad8d3923aa32bbcba0d73bb4240fe96e8" kindref="member">CheckUntilField::check</ref>(QString<sp/>text)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>text.length()<sp/>!=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkuntilfield.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkuntilfield.cpp"/>
   </compounddef>
 </doxygen>

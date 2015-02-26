@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d7e/ui__contributorieswidget_8h" kind="file">
+    <compoundname>ui_contributorieswidget.h</compoundname>
+    <includes local="no">QtCore/QVariant</includes>
+    <includes local="no">QtWidgets/QAction</includes>
+    <includes local="no">QtWidgets/QApplication</includes>
+    <includes local="no">QtWidgets/QButtonGroup</includes>
+    <includes local="no">QtWidgets/QDoubleSpinBox</includes>
+    <includes local="no">QtWidgets/QGridLayout</includes>
+    <includes local="no">QtWidgets/QHBoxLayout</includes>
+    <includes local="no">QtWidgets/QHeaderView</includes>
+    <includes local="no">QtWidgets/QLabel</includes>
+    <includes local="no">QtWidgets/QPushButton</includes>
+    <includes local="no">QtWidgets/QSpacerItem</includes>
+    <includes local="no">QtWidgets/QSplitter</includes>
+    <includes local="no">QtWidgets/QStackedWidget</includes>
+    <includes local="no">QtWidgets/QTableView</includes>
+    <includes local="no">QtWidgets/QWidget</includes>
+    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp</includedby>
+    <incdepgraph>
+      <node id="3893">
+        <label>QtWidgets/QWidget</label>
+      </node>
+      <node id="3891">
+        <label>QtWidgets/QStackedWidget</label>
+      </node>
+      <node id="3887">
+        <label>QtWidgets/QLabel</label>
+      </node>
+      <node id="3892">
+        <label>QtWidgets/QTableView</label>
+      </node>
+      <node id="3878">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_contributorieswidget.h</label>
+        <link refid="ui_contributorieswidget.h"/>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+        <childnode refid="3882" relation="include">
+        </childnode>
+        <childnode refid="3883" relation="include">
+        </childnode>
+        <childnode refid="3884" relation="include">
+        </childnode>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+        <childnode refid="3889" relation="include">
+        </childnode>
+        <childnode refid="3890" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+        <childnode refid="3892" relation="include">
+        </childnode>
+        <childnode refid="3893" relation="include">
+        </childnode>
+      </node>
+      <node id="3883">
+        <label>QtWidgets/QDoubleSpinBox</label>
+      </node>
+      <node id="3890">
+        <label>QtWidgets/QSplitter</label>
+      </node>
+      <node id="3889">
+        <label>QtWidgets/QSpacerItem</label>
+      </node>
+      <node id="3879">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="3888">
+        <label>QtWidgets/QPushButton</label>
+      </node>
+      <node id="3886">
+        <label>QtWidgets/QHeaderView</label>
+      </node>
+      <node id="3880">
+        <label>QtWidgets/QAction</label>
+      </node>
+      <node id="3882">
+        <label>QtWidgets/QButtonGroup</label>
+      </node>
+      <node id="3885">
+        <label>QtWidgets/QHBoxLayout</label>
+      </node>
+      <node id="3881">
+        <label>QtWidgets/QApplication</label>
+      </node>
+      <node id="3884">
+        <label>QtWidgets/QGridLayout</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="dd/d83/classUi__ContributoriesWidget" prot="public">Ui_ContributoriesWidget</innerclass>
+    <innerclass refid="d3/db6/classUi_1_1ContributoriesWidget" prot="public">Ui::ContributoriesWidget</innerclass>
+    <innernamespace refid="db/d3c/namespaceUi">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/********************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Form<sp/>generated<sp/>from<sp/>reading<sp/>UI<sp/>file<sp/>&apos;contributorieswidget.ui&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created<sp/>by:<sp/>Qt<sp/>User<sp/>Interface<sp/>Compiler<sp/>version<sp/>5.2.0</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost<sp/>when<sp/>recompiling<sp/>UI<sp/>file!</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">********************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UI_CONTRIBUTORIESWIDGET_H</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UI_CONTRIBUTORIESWIDGET_H</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/QVariant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QAction&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QButtonGroup&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QDoubleSpinBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QGridLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QHBoxLayout&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QHeaderView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QLabel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QPushButton&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QSpacerItem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QSplitter&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QStackedWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtWidgets/QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">QT_BEGIN_NAMESPACE</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="dd/d83/classUi__ContributoriesWidget" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d83/classUi__ContributoriesWidget" kindref="compound">Ui_ContributoriesWidget</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout<sp/>*gridLayout_5;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QSplitter<sp/>*splitter;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget<sp/>*gridLayoutWidget;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout<sp/>*gridLayout_4;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout<sp/>*horizontalLayout;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton<sp/>*btnAddProject;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton<sp/>*btnRemoveProject;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*tblProjects;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget<sp/>*gridLayoutWidget_2;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout<sp/>*gridLayout;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QStackedWidget<sp/>*stack;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout<sp/>*horizontalLayout_2;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem<sp/>*horizontalSpacer_2;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton<sp/>*btnAddPrestation;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton<sp/>*btnRmovePrestation;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout<sp/>*horizontalLayout_3;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem<sp/>*horizontalSpacer_3;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel<sp/>*label_2;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QDoubleSpinBox<sp/>*sbSubSum;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout<sp/>*horizontalLayout_4;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem<sp/>*horizontalSpacer_4;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel<sp/>*label;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QDoubleSpinBox<sp/>*sbAllSums;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setupUi(QWidget<sp/>*ContributoriesWidget)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ContributoriesWidget-&gt;objectName().isEmpty())</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ContributoriesWidget-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ContributoriesWidget-&gt;resize(798,<sp/>300);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_5<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(ContributoriesWidget);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_5-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayout_5&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSplitter(ContributoriesWidget);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;splitter&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSizePolicy<sp/>sizePolicy(QSizePolicy::Ignored,<sp/>QSizePolicy::Preferred);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setHorizontalStretch(0);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setVerticalStretch(0);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setHeightForWidth(splitter-&gt;sizePolicy().hasHeightForWidth());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setSizePolicy(sizePolicy);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setCursor(QCursor(Qt::ArrowCursor));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setLayoutDirection(Qt::LeftToRight);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setOrientation(Qt::Horizontal);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setOpaqueResize(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;setChildrenCollapsible(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayoutWidget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(splitter);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayoutWidget-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayoutWidget&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(gridLayoutWidget);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayout_4&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4-&gt;setSizeConstraint(QLayout::SetMinimumSize);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4-&gt;setContentsMargins(0,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;horizontalLayout&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout-&gt;setSizeConstraint(QLayout::SetMinimumSize);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddProject<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPushButton(gridLayoutWidget);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddProject-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;btnAddProject&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIcon<sp/>icon;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon.addFile(QStringLiteral(</highlight><highlight class="stringliteral">&quot;:/icons/img/add_project.png&quot;</highlight><highlight class="normal">),<sp/>QSize(),<sp/>QIcon::Normal,<sp/>QIcon::Off);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddProject-&gt;setIcon(icon);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout-&gt;addWidget(btnAddProject);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRemoveProject<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPushButton(gridLayoutWidget);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRemoveProject-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;btnRemoveProject&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIcon<sp/>icon1;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon1.addFile(QStringLiteral(</highlight><highlight class="stringliteral">&quot;:/icons/img/remove_project.png&quot;</highlight><highlight class="normal">),<sp/>QSize(),<sp/>QIcon::Normal,<sp/>QIcon::Off);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRemoveProject-&gt;setIcon(icon1);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout-&gt;addWidget(btnRemoveProject);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4-&gt;addLayout(horizontalLayout,<sp/>1,<sp/>0,<sp/>1,<sp/>2);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tblProjects<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView(gridLayoutWidget);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tblProjects-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;tblProjects&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSizePolicy<sp/>sizePolicy1(QSizePolicy::Minimum,<sp/>QSizePolicy::Expanding);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy1.setHorizontalStretch(0);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy1.setVerticalStretch(0);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy1.setHeightForWidth(tblProjects-&gt;sizePolicy().hasHeightForWidth());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tblProjects-&gt;setSizePolicy(sizePolicy1);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tblProjects-&gt;setMaximumSize(QSize(380,<sp/>16777215));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tblProjects-&gt;setSelectionBehavior(QAbstractItemView::SelectRows);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_4-&gt;addWidget(tblProjects,<sp/>0,<sp/>0,<sp/>1,<sp/>2);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;addWidget(gridLayoutWidget);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayoutWidget_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(splitter);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayoutWidget_2-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayoutWidget_2&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;gridLayout&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;setSizeConstraint(QLayout::SetMaximumSize);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;setContentsMargins(0,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stack<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QStackedWidget(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stack-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;stack&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addWidget(stack,<sp/>0,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;horizontalLayout_2&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2-&gt;setSizeConstraint(QLayout::SetMaximumSize);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalSpacer_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(40,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2-&gt;addItem(horizontalSpacer_2);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddPrestation<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPushButton(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddPrestation-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;btnAddPrestation&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIcon<sp/>icon2;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon2.addFile(QStringLiteral(</highlight><highlight class="stringliteral">&quot;:/icons/img/add_contributory.png&quot;</highlight><highlight class="normal">),<sp/>QSize(),<sp/>QIcon::Normal,<sp/>QIcon::Off);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddPrestation-&gt;setIcon(icon2);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2-&gt;addWidget(btnAddPrestation);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRmovePrestation<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPushButton(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRmovePrestation-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;btnRmovePrestation&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIcon<sp/>icon3;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon3.addFile(QStringLiteral(</highlight><highlight class="stringliteral">&quot;:/icons/img/remove_contributory.png&quot;</highlight><highlight class="normal">),<sp/>QSize(),<sp/>QIcon::Normal,<sp/>QIcon::Off);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRmovePrestation-&gt;setIcon(icon3);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_2-&gt;addWidget(btnRmovePrestation);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addLayout(horizontalLayout_2,<sp/>1,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;horizontalLayout_3&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3-&gt;setSizeConstraint(QLayout::SetMaximumSize);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalSpacer_3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(40,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3-&gt;addItem(horizontalSpacer_3);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;label_2&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3-&gt;addWidget(label_2);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDoubleSpinBox(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;sbSubSum&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setButtonSymbols(QAbstractSpinBox::NoButtons);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setMaximum(100001);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_3-&gt;addWidget(sbSubSum);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addLayout(horizontalLayout_3,<sp/>2,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;horizontalLayout_4&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4-&gt;setSizeConstraint(QLayout::SetMaximumSize);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalSpacer_4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(40,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4-&gt;addItem(horizontalSpacer_4);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4-&gt;addWidget(label);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDoubleSpinBox(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setObjectName(QStringLiteral(</highlight><highlight class="stringliteral">&quot;sbAllSums&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setButtonSymbols(QAbstractSpinBox::NoButtons);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setMaximum(100001);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>horizontalLayout_4-&gt;addWidget(sbAllSums);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout-&gt;addLayout(horizontalLayout_4,<sp/>3,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;addWidget(gridLayoutWidget_2);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridLayout_5-&gt;addWidget(splitter,<sp/>0,<sp/>0,<sp/>1,<sp/>1);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(tblProjects,<sp/>btnAddProject);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(btnAddProject,<sp/>btnRemoveProject);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(btnRemoveProject,<sp/>btnAddPrestation);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(btnAddPrestation,<sp/>btnRmovePrestation);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(btnRmovePrestation,<sp/>sbSubSum);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget::setTabOrder(sbSubSum,<sp/>sbAllSums);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retranslateUi(ContributoriesWidget);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(btnAddPrestation,<sp/>SIGNAL(released()),<sp/>ContributoriesWidget,<sp/>SLOT(add()));</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(btnRmovePrestation,<sp/>SIGNAL(released()),<sp/>ContributoriesWidget,<sp/>SLOT(</highlight><highlight class="keyword">remove</highlight><highlight class="normal">()));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(btnAddProject,<sp/>SIGNAL(released()),<sp/>ContributoriesWidget,<sp/>SLOT(addProject()));</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(btnRemoveProject,<sp/>SIGNAL(released()),<sp/>ContributoriesWidget,<sp/>SLOT(removeProject()));</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(tblProjects,<sp/>SIGNAL(doubleClicked(QModelIndex)),<sp/>ContributoriesWidget,<sp/>SLOT(editing()));</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(tblProjects,<sp/>SIGNAL(clicked(QModelIndex)),<sp/>ContributoriesWidget,<sp/>SLOT(changeProject()));</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QObject::connect(tblProjects,<sp/>SIGNAL(activated(QModelIndex)),<sp/>ContributoriesWidget,<sp/>SLOT(changeProject()));</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMetaObject::connectSlotsByName(ContributoriesWidget);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>setupUi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>retranslateUi(QWidget<sp/>*ContributoriesWidget)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ContributoriesWidget-&gt;setWindowTitle(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Form&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddProject-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Ajouter<sp/>le<sp/>projet&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRemoveProject-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Supprimer<sp/>le<sp/>projet&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnAddPrestation-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Ajouter<sp/>une<sp/>prestation&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btnRmovePrestation-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Supprimer<sp/>la<sp/>prestation&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_2-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Sous-Total&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setSpecialValueText(QString());</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbSubSum-&gt;setSuffix(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\342\202\254&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label-&gt;setText(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Total:&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setSpecialValueText(QString());</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbAllSums-&gt;setSuffix(QApplication::translate(</highlight><highlight class="stringliteral">&quot;ContributoriesWidget&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\342\202\254&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>retranslateUi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
+<codeline lineno="243" refid="d3/db6/classUi_1_1ContributoriesWidget" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/db6/classUi_1_1ContributoriesWidget" kindref="compound">ContributoriesWidget</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dd/d83/classUi__ContributoriesWidget" kindref="compound">Ui_ContributoriesWidget</ref><sp/>{};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Ui</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">QT_END_NAMESPACE</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>UI_CONTRIBUTORIESWIDGET_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/ui_contributorieswidget.h"/>
+  </compounddef>
+</doxygen>

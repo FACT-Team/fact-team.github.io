@@ -3,47 +3,70 @@
   <compounddef id="d2/dcf/checkphone_8h" kind="file">
     <compoundname>checkphone.h</compoundname>
     <includes refid="d7/d52/checkuntilfield_8h" local="yes">checkuntilfield.h</includes>
-    <includedby refid="d2/d43/checkphone_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkphone.cpp</includedby>
+    <includedby refid="d2/d43/checkphone_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkphone.cpp</includedby>
+    <includedby refid="db/d63/ui__dialogaddcustomer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="1028">
+      <node id="1279">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1029" relation="include">
+        <childnode refid="1280" relation="include">
         </childnode>
-        <childnode refid="1030" relation="include">
+        <childnode refid="1281" relation="include">
         </childnode>
-        <childnode refid="1031" relation="include">
+        <childnode refid="1282" relation="include">
         </childnode>
       </node>
-      <node id="1027">
+      <node id="1277">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkphone.h</label>
+        <link refid="checkphone.h"/>
+        <childnode refid="1278" relation="include">
+        </childnode>
+      </node>
+      <node id="1278">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="1028" relation="include">
+        <childnode refid="1279" relation="include">
         </childnode>
       </node>
-      <node id="1029">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1032">
-        <label>QString</label>
-      </node>
-      <node id="1030">
-        <label>QPushButton</label>
-      </node>
-      <node id="1031">
+      <node id="1282">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1032" relation="include">
+        <childnode refid="1283" relation="include">
         </childnode>
       </node>
-      <node id="1026">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkphone.h</label>
-        <link refid="checkphone.h"/>
-        <childnode refid="1027" relation="include">
-        </childnode>
+      <node id="1280">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1283">
+        <label>QString</label>
+      </node>
+      <node id="1281">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
-    <innerclass refid="d0/ddb/classCheckPhone" prot="public">CheckPhone</innerclass>
+    <invincdepgraph>
+      <node id="1285">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</label>
+        <link refid="db/d63/ui__dialogaddcustomer_8h_source"/>
+      </node>
+      <node id="1284">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkphone.h</label>
+        <link refid="checkphone.h"/>
+        <childnode refid="1285" relation="include">
+        </childnode>
+        <childnode refid="1286" relation="include">
+        </childnode>
+      </node>
+      <node id="1286">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" prot="public">Gui::Widgets::CheckFields::CheckPhone</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -54,22 +77,28 @@
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkuntilfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="d0/ddb/classCheckPhone" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/ddb/classCheckPhone" kindref="compound">CheckPhone</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/db9/classCheckUntilField" kindref="compound">CheckUntilField</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/ddb/classCheckPhone_1a491bceb9add48e7668162fc8ec511550" kindref="member">CheckPhone</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/ddb/classCheckPhone_1ac60f1428fc89e1b2630db022e14509ed" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d0/ddb/classCheckPhone_1a3dd528db0e731b23df0524e41415d05e" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/ddb/classCheckPhone_1a2a4a30d0a69611f72c539cc17919ccc9" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKPHONE_H</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" kindref="compound">CheckPhone</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" kindref="compound">CheckUntilField</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1ac7103ecce21d8d55ecf46c403eb4b625" kindref="member">CheckPhone</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn=0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1a15e8da6b25e752c6fb816e6655bdb062" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1ae68d979332fba8523ec69a7e85790ed6" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1ac59318e7efa5616389b9eb3a55daaead" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKPHONE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkphone.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkphone.h"/>
   </compounddef>
 </doxygen>

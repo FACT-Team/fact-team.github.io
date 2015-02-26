@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>FactDev: /home/florent/Documents/Projet_S8/FactDev/src/database/database.h Source File</title>
+<title>FactDev: /home/travis/build/FACT-Team/FactDev/src/database/database.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d8/d9c/database_8h_source.html','../..
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>* instance() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QString  lastError(<span class="keyword">const</span> QSqlQuery&amp; q);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QString  lastError(<span class="keyword">const</span> QSqlQuery&amp; q) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> testCases();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('d8/d9c/database_8h_source.html','../..
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
 <div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">  120</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">isOpen</a>; </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    QVariant value(<span class="keyword">const</span> QSqlQuery&amp; q, <span class="keyword">const</span> QString&amp; champ);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    QVariant value(<span class="keyword">const</span> QSqlQuery&amp; q, <span class="keyword">const</span> QString&amp; champ) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;};</div>
@@ -152,8 +152,8 @@ $(document).ready(function(){initNavTree('d8/d9c/database_8h_source.html','../..
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_01536a2b641ff09914428354c1e7be1e.html">florent</a></li><li class="navelem"><a class="el" href="../../dir_8f15acdd43684e13a623b9576dcf007e.html">Documents</a></li><li class="navelem"><a class="el" href="../../dir_12b596b7195a2ba645fd5a3bc7eac442.html">Projet_S8</a></li><li class="navelem"><a class="el" href="../../dir_3cdce1f891efcdfae7290d4c5e992495.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_2cfe326f6814968c72b240c9fc613af5.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b394c8c2cb665e69b5f0039e19e9f942.html">database</a></li><li class="navelem"><b>database.h</b></li>
-    <li class="footer">Generated on Tue Feb 24 2015 14:08:28 for FactDev by
+    <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_fb3819ff5273056abe09370430f56163.html">database</a></li><li class="navelem"><b>database.h</b></li>
+    <li class="footer">Generated on Thu Feb 26 2015 11:03:51 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

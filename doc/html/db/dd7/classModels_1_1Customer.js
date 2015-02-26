@@ -13,6 +13,7 @@ var classModels_1_1Customer =
     [ "getFirstnameReferent", "db/dd7/classModels_1_1Customer.html#a30934fb39c552863e588c40d01725a18", null ],
     [ "getLastnameReferent", "db/dd7/classModels_1_1Customer.html#a73b93f9ad0718980bbfa2b283b3285ba", null ],
     [ "getMobilePhone", "db/dd7/classModels_1_1Customer.html#a97211324b1f890b5f7a3fffc447289d7", null ],
+    [ "getNameFolder", "db/dd7/classModels_1_1Customer.html#ab7c63946125a6b8d876f0f4e2b50c97e", null ],
     [ "getPath", "db/dd7/classModels_1_1Customer.html#ac1aec0fb9058333e1a2496b1c29049af", null ],
     [ "getPhone", "db/dd7/classModels_1_1Customer.html#a0438cd11dfe13bb89c0233ffe288cc73", null ],
     [ "getPostalCode", "db/dd7/classModels_1_1Customer.html#ad544bdcd4d021f92bd77e5aa24f31f21", null ],

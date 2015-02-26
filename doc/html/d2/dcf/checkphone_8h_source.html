@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>FactDev: /home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkphone.h Source File</title>
+<title>FactDev: /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkphone.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -73,34 +73,40 @@ $(document).ready(function(){initNavTree('d2/dcf/checkphone_8h_source.html','../
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;checkuntilfield.h&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d0/ddb/classCheckPhone.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/ddb/classCheckPhone.html">CheckPhone</a> : <span class="keyword">public</span> <a class="code" href="../../dc/db9/classCheckUntilField.html">CheckUntilField</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d0/ddb/classCheckPhone.html#a491bceb9add48e7668162fc8ec511550">CheckPhone</a>(QWidget* w = 0, QPushButton* btn=0);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d0/ddb/classCheckPhone.html#ac60f1428fc89e1b2630db022e14509ed">check</a>(QString text);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    QString <a class="code" href="../../d0/ddb/classCheckPhone.html#a3dd528db0e731b23df0524e41415d05e">getCountry</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/ddb/classCheckPhone.html#a2a4a30d0a69611f72c539cc17919ccc9">setCountry</a>(<span class="keyword">const</span> QString &amp;country);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span> :</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    QString _country;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif // CHECKPHONE_H</span></div>
-<div class="ttc" id="classCheckPhone_html_a491bceb9add48e7668162fc8ec511550"><div class="ttname"><a href="../../d0/ddb/classCheckPhone.html#a491bceb9add48e7668162fc8ec511550">CheckPhone::CheckPhone</a></div><div class="ttdeci">CheckPhone(QWidget *w=0, QPushButton *btn=0)</div><div class="ttdoc">CheckPhone::CheckPhone Construct a CheckPhone. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:5</div></div>
-<div class="ttc" id="classCheckUntilField_html"><div class="ttname"><a href="../../dc/db9/classCheckUntilField.html">CheckUntilField</a></div><div class="ttdoc">The CheckUntilField class. </div><div class="ttdef"><b>Definition:</b> checkuntilfield.h:9</div></div>
-<div class="ttc" id="classCheckPhone_html_ac60f1428fc89e1b2630db022e14509ed"><div class="ttname"><a href="../../d0/ddb/classCheckPhone.html#ac60f1428fc89e1b2630db022e14509ed">CheckPhone::check</a></div><div class="ttdeci">bool check(QString text)</div><div class="ttdoc">CheckPhone::check Check if the field is valid. To be valid, a name should be composed of a character...</div><div class="ttdef"><b>Definition:</b> checkphone.cpp:9</div></div>
-<div class="ttc" id="classCheckPhone_html"><div class="ttname"><a href="../../d0/ddb/classCheckPhone.html">CheckPhone</a></div><div class="ttdoc">The CheckPhone class Line Edit of Phone number with a check icon. </div><div class="ttdef"><b>Definition:</b> checkphone.h:9</div></div>
-<div class="ttc" id="classCheckPhone_html_a3dd528db0e731b23df0524e41415d05e"><div class="ttname"><a href="../../d0/ddb/classCheckPhone.html#a3dd528db0e731b23df0524e41415d05e">CheckPhone::getCountry</a></div><div class="ttdeci">QString getCountry() const </div><div class="ttdoc">CheckPhone::getCountry Return the country linked to current field. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:37</div></div>
-<div class="ttc" id="classCheckPhone_html_a2a4a30d0a69611f72c539cc17919ccc9"><div class="ttname"><a href="../../d0/ddb/classCheckPhone.html#a2a4a30d0a69611f72c539cc17919ccc9">CheckPhone::setCountry</a></div><div class="ttdeci">void setCountry(const QString &amp;country)</div><div class="ttdoc">CheckPhone::setCountry Modify the country linked to field. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:42</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>Gui {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>CheckFields {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html">CheckPhone</a> : <span class="keyword">public</span> <a class="code" href="../../d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField.html">CheckUntilField</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ac7103ecce21d8d55ecf46c403eb4b625">CheckPhone</a>(QWidget* w = 0, QPushButton* btn=0);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#a15e8da6b25e752c6fb816e6655bdb062">check</a>(QString text);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    QString <a class="code" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ae68d979332fba8523ec69a7e85790ed6">getCountry</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ac59318e7efa5616389b9eb3a55daaead">setCountry</a>(<span class="keyword">const</span> QString &amp;country);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">private</span> :</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    QString _country;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // CHECKPHONE_H</span></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_html_ac7103ecce21d8d55ecf46c403eb4b625"><div class="ttname"><a href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ac7103ecce21d8d55ecf46c403eb4b625">Gui::Widgets::CheckFields::CheckPhone::CheckPhone</a></div><div class="ttdeci">CheckPhone(QWidget *w=0, QPushButton *btn=0)</div><div class="ttdoc">CheckPhone::CheckPhone Construct a CheckPhone. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:10</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_html_ae68d979332fba8523ec69a7e85790ed6"><div class="ttname"><a href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ae68d979332fba8523ec69a7e85790ed6">Gui::Widgets::CheckFields::CheckPhone::getCountry</a></div><div class="ttdeci">QString getCountry() const </div><div class="ttdoc">CheckPhone::getCountry Return the country linked to current field. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:42</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_html_ac59318e7efa5616389b9eb3a55daaead"><div class="ttname"><a href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ac59318e7efa5616389b9eb3a55daaead">Gui::Widgets::CheckFields::CheckPhone::setCountry</a></div><div class="ttdeci">void setCountry(const QString &amp;country)</div><div class="ttdoc">CheckPhone::setCountry Modify the country linked to field. </div><div class="ttdef"><b>Definition:</b> checkphone.cpp:47</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField_html"><div class="ttname"><a href="../../d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField.html">Gui::Widgets::CheckFields::CheckUntilField</a></div><div class="ttdoc">The CheckUntilField class. </div><div class="ttdef"><b>Definition:</b> checkuntilfield.h:12</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_html_a15e8da6b25e752c6fb816e6655bdb062"><div class="ttname"><a href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#a15e8da6b25e752c6fb816e6655bdb062">Gui::Widgets::CheckFields::CheckPhone::check</a></div><div class="ttdeci">bool check(QString text)</div><div class="ttdoc">CheckPhone::check Check if the field is valid. To be valid, a name should be composed of a character...</div><div class="ttdef"><b>Definition:</b> checkphone.cpp:14</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_html"><div class="ttname"><a href="../../da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html">Gui::Widgets::CheckFields::CheckPhone</a></div><div class="ttdoc">The CheckPhone class Line Edit of Phone number with a check icon. </div><div class="ttdef"><b>Definition:</b> checkphone.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_01536a2b641ff09914428354c1e7be1e.html">florent</a></li><li class="navelem"><a class="el" href="../../dir_8f15acdd43684e13a623b9576dcf007e.html">Documents</a></li><li class="navelem"><a class="el" href="../../dir_12b596b7195a2ba645fd5a3bc7eac442.html">Projet_S8</a></li><li class="navelem"><a class="el" href="../../dir_3cdce1f891efcdfae7290d4c5e992495.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_2cfe326f6814968c72b240c9fc613af5.html">src</a></li><li class="navelem"><a class="el" href="../../dir_174c047aa1b758fdd7c588154e07d9be.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_e9fb79c5d98dde1b65b4989e0122d5e5.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_6e201315ea457949183b7364303165c0.html">checkfields</a></li><li class="navelem"><b>checkphone.h</b></li>
-    <li class="footer">Generated on Tue Feb 24 2015 14:08:28 for FactDev by
+    <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_381b413982d478049d22ff06f0a5ecf9.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_5612d4083169620a978afed5dfdfce80.html">checkfields</a></li><li class="navelem"><b>checkphone.h</b></li>
+    <li class="footer">Generated on Thu Feb 26 2015 11:03:51 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

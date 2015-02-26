@@ -2,8 +2,8 @@ var NAVTREE =
 [
   [ "FactDev", "index.html", [
     [ "FactDev documentation", "index.html", null ],
-    [ "README", "dc/d0f/md__home_florent_Documents_Projet_S8_FactDev_src_libs_qt-mustache_README.html", null ],
-    [ "QTestRunner", "d6/d1f/md__home_florent_Documents_Projet_S8_FactDev_tests_QTestRunner_README.html", null ],
+    [ "README", "da/d07/md__home_travis_build_FACT-Team_FactDev_src_libs_qt-mustache_README.html", null ],
+    [ "QTestRunner", "d7/d95/md__home_travis_build_FACT-Team_FactDev_tests_QTestRunner_README.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
@@ -29,9 +29,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#a5fa7b833c2a4271cc637e7dd9ec72fff",
-"dc/d63/classCheckPostalCode.html#ad91ba5622617675fbb5c767036163142",
-"functions_m.html"
+"d4/db3/classUi__UserDataDialog.html#a5a7582b88f51febecc47c4260dda1dd5",
+"d5/dda/classUi__AddProjectDialog.html#ae6bfac03392dadaa3828a710dca17786",
+"d9/de8/classUi__RateWidget.html#a1da35b235ab696627467f5f110fad250",
+"dd/d83/classUi__ContributoriesWidget.html#a769af7928734e84dd680373bbc95693c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

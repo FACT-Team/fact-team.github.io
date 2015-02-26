@@ -40,11 +40,16 @@ Q\-Variant\-Hash \hyperlink{classModels_1_1Billing_a2363c0b978434c0a835f894a67eb
 \hypertarget{classModels_1_1Billing_a3f835c6f4ea0b66c43bb7fec40c6e075}{void \hyperlink{classModels_1_1Billing_a3f835c6f4ea0b66c43bb7fec40c6e075}{generate\-Tex} ()}\label{classModels_1_1Billing_a3f835c6f4ea0b66c43bb7fec40c6e075}
 
 \begin{DoxyCompactList}\small\item\em generate\-Tex Generate a .tex file for the billing \end{DoxyCompactList}\item 
-Q\-Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, Q\-List\\*
-$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ $>$ \hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{get\-Contributories} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{Billing\-::get\-Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1ContributoriesList}{Contributories\-List} \& \hyperlink{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}{get\-Contributories} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}{Billing\-::get\-Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1Billing_a3636d785d2cb77d83d21a795e1f91a60}{add\-Contributory} (\hyperlink{classModels_1_1Contributory}{Contributory} \&c)
 \begin{DoxyCompactList}\small\item\em add\-Contributories Add a new contributory for project p \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{double {\bfseries get\-Sum\-Rate} ()}\label{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}
+
+\item 
+\hypertarget{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{double {\bfseries get\-Sum\-Quantity} ()}\label{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}
+
+\item 
 Q\-String \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\-Title} () const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{Billing\-::get\-Title}. return title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{set\-Title} (const Q\-String \&\hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\-Title})
@@ -69,6 +74,9 @@ bool \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{operat
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{Billing\-::operator ==} define the operator \char`\"{}==\char`\"{} to compare two billings and to see if they are the same. \end{DoxyCompactList}\item 
 bool \hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{operator!=} (const \hyperlink{classModels_1_1Billing}{Billing} \&b)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{Billing\-::operator !=} defines the operator \char`\"{}!=\char`\"{} to compare two {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} and to see if they are different. \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1Billing_acb836caf7aef8e953c432661cb8aa55f}{void {\bfseries set\-Contributories} (const \hyperlink{classModels_1_1ContributoriesList}{Contributories\-List} \&contributories)}\label{classModels_1_1Billing_acb836caf7aef8e953c432661cb8aa55f}
+
+\item 
 bool \hyperlink{classModels_1_1Billing_a6d3f5da2e9a0b7de217dc51220c4c7b7}{operator$<$} (const \hyperlink{classModels_1_1Billing}{Billing} \&b) const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a6d3f5da2e9a0b7de217dc51220c4c7b7}{Billing\-::operator $<$} defines the operator "$<$ to compare two {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} and to see if the fisrt is anterior to the second. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
@@ -120,16 +128,16 @@ add\-Contributories Add a new contributory for project p
 {\em c} & The new \hyperlink{classModels_1_1Contributory}{Contributory} \\
 \hline
 \end{DoxyParams}
-\hypertarget{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{\index{Models\-::\-Billing@{Models\-::\-Billing}!get\-Contributories@{get\-Contributories}}
+\hypertarget{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}{\index{Models\-::\-Billing@{Models\-::\-Billing}!get\-Contributories@{get\-Contributories}}
 \index{get\-Contributories@{get\-Contributories}!Models::Billing@{Models\-::\-Billing}}
-\subsubsection[{get\-Contributories}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Map$<$ {\bf Project} $\ast$, Q\-List$<$ {\bf Contributory} $>$ $>$ Models\-::\-Billing\-::get\-Contributories (
+\subsubsection[{get\-Contributories}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Contributories\-List} \& Models\-::\-Billing\-::get\-Contributories (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-) const}}\label{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}
+)}}\label{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}
 
 
-\hyperlink{classModels_1_1Billing_a9c5e944c560fcecb356a9293b26f1ec6}{Billing\-::get\-Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
+\hyperlink{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}{Billing\-::get\-Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} 
 
 \begin{DoxyReturn}{Returns}
 Q\-Map$<$\hyperlink{classModels_1_1Project}{Project}, Q\-List$<$\-Contributory$>$$>$ 
@@ -383,5 +391,5 @@ true if they are the same billings else false
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
-/home/florent/\-Documents/\-Projet\-\_\-\-S8/\-Fact\-Dev/src/models/billing.\-h\item 
-/home/florent/\-Documents/\-Projet\-\_\-\-S8/\-Fact\-Dev/src/models/billing.\-cpp\end{DoxyCompactItemize}
+/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/models/billing.\-h\item 
+/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/models/billing.\-cpp\end{DoxyCompactItemize}

@@ -21,7 +21,5 @@ var classModels_1_1Project =
     [ "setDailyRate", "dd/d3f/classModels_1_1Project.html#a9bc03d9632334a550bd25f6286d2c7a2", null ],
     [ "setDescription", "dd/d3f/classModels_1_1Project.html#a2cccaca77bff95f13b3320f3f03dc9e7", null ],
     [ "setEndDate", "dd/d3f/classModels_1_1Project.html#a89e9603b862d0a282e4eb03e122e8c05", null ],
-    [ "setName", "dd/d3f/classModels_1_1Project.html#ac5ffa6ff6d31647fd880881257f47889", null ],
-    [ "LEGAL_RATE", "dd/d3f/classModels_1_1Project.html#ad3dc764849815160de77877b1e261c86", null ],
-    [ "NB_DAILY_HOURS", "dd/d3f/classModels_1_1Project.html#a2cde659bf6be8b4919d7b4b7a53c336f", null ]
+    [ "setName", "dd/d3f/classModels_1_1Project.html#ac5ffa6ff6d31647fd880881257f47889", null ]
 ];

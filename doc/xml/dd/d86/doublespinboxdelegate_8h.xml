@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d86/doublespinboxdelegate_8h" kind="file">
+    <compoundname>doublespinboxdelegate.h</compoundname>
+    <includes local="no">QItemDelegate</includes>
+    <includes local="no">QDoubleSpinBox</includes>
+    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp</includedby>
+    <includedby refid="dd/d71/doublespinboxdelegate_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp</includedby>
+    <includedby refid="d1/d15/moc__doublespinboxdelegate_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/moc_doublespinboxdelegate.cpp</includedby>
+    <incdepgraph>
+      <node id="1677">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h</label>
+        <link refid="doublespinboxdelegate.h"/>
+        <childnode refid="1678" relation="include">
+        </childnode>
+        <childnode refid="1679" relation="include">
+        </childnode>
+      </node>
+      <node id="1679">
+        <label>QDoubleSpinBox</label>
+      </node>
+      <node id="1678">
+        <label>QItemDelegate</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" prot="public">Gui::Widgets::Delegates::DoubleSpinBoxDelegate</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d2/da4/namespaceGui_1_1Widgets_1_1Delegates">Gui::Widgets::Delegates</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SPINBOXDELEGATE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPINBOXDELEGATE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDoubleSpinBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kindref="compound">DoubleSpinBoxDelegate</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QItemDelegate</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kindref="compound">DoubleSpinBoxDelegate</ref>(QObject<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget<sp/>*createEditor(QWidget<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEditorData(QWidget<sp/>*editor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setModelData(QWidget<sp/>*editor,<sp/>QAbstractItemModel<sp/>*model,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateEditorGeometry(QWidget<sp/>*editor,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPINBOXDELEGATE_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h"/>
+  </compounddef>
+</doxygen>

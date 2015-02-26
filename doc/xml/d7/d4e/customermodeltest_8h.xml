@@ -4,63 +4,64 @@
     <compoundname>customermodeltest.h</compoundname>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
-    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/tests/models/customermodeltest.cpp</includedby>
+    <includedby refid="d2/dad/moc__customermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/moc_customermodeltest.cpp</includedby>
+    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.cpp</includedby>
     <incdepgraph>
-      <node id="3163">
+      <node id="5093">
         <label>list</label>
       </node>
-      <node id="3167">
+      <node id="5097">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3168" relation="include">
+        <childnode refid="5098" relation="include">
         </childnode>
       </node>
-      <node id="3161">
+      <node id="5088">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h</label>
+        <link refid="customermodeltest.h"/>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5095" relation="include">
+        </childnode>
+      </node>
+      <node id="5091">
         <label>QSharedPointer</label>
       </node>
-      <node id="3158">
-        <label>/home/florent/Documents/Projet_S8/FactDev/tests/models/customermodeltest.h</label>
-        <link refid="customermodeltest.h"/>
-        <childnode refid="3159" relation="include">
-        </childnode>
-        <childnode refid="3165" relation="include">
-        </childnode>
-      </node>
-      <node id="3160">
+      <node id="5090">
         <label>QTest</label>
       </node>
-      <node id="3168">
+      <node id="5098">
         <label>QVariantHash</label>
       </node>
-      <node id="3166">
+      <node id="5096">
         <label>QString</label>
       </node>
-      <node id="3164">
+      <node id="5094">
         <label>iostream</label>
       </node>
-      <node id="3165">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="3166" relation="include">
-        </childnode>
-        <childnode refid="3167" relation="include">
-        </childnode>
-      </node>
-      <node id="3159">
+      <node id="5089">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="3160" relation="include">
+        <childnode refid="5090" relation="include">
         </childnode>
-        <childnode refid="3161" relation="include">
+        <childnode refid="5091" relation="include">
         </childnode>
-        <childnode refid="3162" relation="include">
+        <childnode refid="5092" relation="include">
         </childnode>
-        <childnode refid="3163" relation="include">
+        <childnode refid="5093" relation="include">
         </childnode>
-        <childnode refid="3164" relation="include">
+        <childnode refid="5094" relation="include">
         </childnode>
       </node>
-      <node id="3162">
+      <node id="5095">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="5096" relation="include">
+        </childnode>
+        <childnode refid="5097" relation="include">
+        </childnode>
+      </node>
+      <node id="5092">
         <label>algorithm</label>
       </node>
     </incdepgraph>
@@ -90,14 +91,16 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitInsert();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hydrat();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c1;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c2;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">DECLARE_TEST(<ref refid="d5/dcd/classCustomerModelTest" kindref="compound">CustomerModelTest</ref>)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERMODELTEST_H</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getPath();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getNameFolder();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c1;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c2;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">DECLARE_TEST(<ref refid="d5/dcd/classCustomerModelTest" kindref="compound">CustomerModelTest</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERMODELTEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/tests/models/customermodeltest.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h"/>
   </compounddef>
 </doxygen>

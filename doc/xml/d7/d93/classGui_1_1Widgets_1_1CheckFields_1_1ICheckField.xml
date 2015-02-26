@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField" kind="class" prot="public" abstract="yes">
+    <compoundname>Gui::Widgets::CheckFields::ICheckField</compoundname>
+    <derivedcompoundref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckQLineEdit</derivedcompoundref>
+    <includes refid="db/d07/icheckfield_8h" local="no">icheckfield.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Gui::Widgets::CheckFields::ICheckField::check</definition>
+        <argsstring>(QString text)=0</argsstring>
+        <name>check</name>
+        <reimplementedby refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a871d7b28becd80aac9fc75a2057bb15d">check</reimplementedby>
+        <reimplementedby refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters_1a95f6808ecc2cedf22407fc1791827851">check</reimplementedby>
+        <reimplementedby refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField_1ad8d3923aa32bbcba0d73bb4240fe96e8">check</reimplementedby>
+        <reimplementedby refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a973f81b959d34b28818159303932f5f8">check</reimplementedby>
+        <reimplementedby refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a27abf247ec158aafb2c13779f6630449">check</reimplementedby>
+        <reimplementedby refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1a15e8da6b25e752c6fb816e6655bdb062">check</reimplementedby>
+        <reimplementedby refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail_1a166b7e7d39ca307a52477b2d9ef65ef1">check</reimplementedby>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>check Check if the field (line edit) is valid Return TRUE if the field is valid, else FALSE </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/icheckfield.h" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField" kindref="compound">ICheckField</ref> class Interface to check fields validity. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="305">
+        <label>Gui::Widgets::CheckFields::CheckFieldsLetters</label>
+        <link refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>Gui::Widgets::CheckFields::CheckSiretNumber</label>
+        <link refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>Gui::Widgets::CheckFields::CheckUntilField</label>
+        <link refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="306">
+        <label>Gui::Widgets::CheckFields::CheckCity</label>
+        <link refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>Gui::Widgets::CheckFields::CheckCountry</label>
+        <link refid="d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>Gui::Widgets::CheckFields::CheckPhone</label>
+        <link refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>Gui::Widgets::CheckFields::CheckValidField</label>
+        <link refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>Gui::Widgets::CheckFields::CheckName</label>
+        <link refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>Gui::Widgets::CheckFields::CheckEmail</label>
+        <link refid="d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>Gui::Widgets::CheckFields::CheckPostalCode</label>
+        <link refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/icheckfield.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/icheckfield.h" bodystart="12" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144" prot="public" virt="pure-virtual"><scope>Gui::Widgets::CheckFields::ICheckField</scope><name>check</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

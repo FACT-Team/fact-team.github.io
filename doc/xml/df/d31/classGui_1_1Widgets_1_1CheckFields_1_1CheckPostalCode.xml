@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kind="class" prot="public">
+    <compoundname>Gui::Widgets::CheckFields::CheckPostalCode</compoundname>
+    <basecompoundref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckUntilField</basecompoundref>
+    <includes refid="d5/d31/checkpostalcode_8h" local="no">checkpostalcode.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a8e651009e7aaf676f5b6986e53f67064" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Gui::Widgets::CheckFields::CheckPostalCode::_country</definition>
+        <argsstring></argsstring>
+        <name>_country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a31765b09c8742c26ed6b5f38be7b414b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::CheckFields::CheckPostalCode::CheckPostalCode</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckPostalCode</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a31765b09c8742c26ed6b5f38be7b414b" kindref="member">CheckPostalCode::CheckPostalCode</ref> Construct a <ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kindref="compound">CheckPostalCode</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kindref="compound">CheckPostalCode</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a27abf247ec158aafb2c13779f6630449" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Gui::Widgets::CheckFields::CheckPostalCode::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a27abf247ec158aafb2c13779f6630449" kindref="member">CheckPostalCode::check</ref> Check if the field is valid. To be valid, a name should be composed of a character. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="13" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a2987b2e62bc39f5c9a56dfce31f429fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Gui::Widgets::CheckFields::CheckPostalCode::getCountry</definition>
+        <argsstring>() const </argsstring>
+        <name>getCountry</name>
+        <briefdescription>
+<para><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a2987b2e62bc39f5c9a56dfce31f429fe" kindref="member">CheckPostalCode::getCountry</ref> Return the country linked to current field. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>country </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1af57970124c6e10b516794f90f2b9f0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Widgets::CheckFields::CheckPostalCode::setCountry</definition>
+        <argsstring>(const QString &amp;country)</argsstring>
+        <name>setCountry</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1af57970124c6e10b516794f90f2b9f0be" kindref="member">CheckPostalCode::setCountry</ref> Modify the <emphasis>country</emphasis> linked to field. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>country</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New country </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="40" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kindref="compound">CheckPostalCode</ref> class Line Edit of postal code with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="115">
+        <label>Gui::Widgets::CheckFields::CheckUntilField</label>
+        <link refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="117">
+        <label>QLineEdit</label>
+      </node>
+      <node id="114">
+        <label>Gui::Widgets::CheckFields::CheckPostalCode</label>
+        <link refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="120">
+        <label>Gui::Widgets::CheckFields::CheckUntilField</label>
+        <link refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="122">
+        <label>QLineEdit</label>
+      </node>
+      <node id="119">
+        <label>Gui::Widgets::CheckFields::CheckPostalCode</label>
+        <link refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" line="13" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h" bodystart="12" bodyend="44"/>
+    <listofallmembers>
+      <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a8e651009e7aaf676f5b6986e53f67064" prot="private" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>_country</name></member>
+      <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a27abf247ec158aafb2c13779f6630449" prot="public" virt="virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>check</name></member>
+      <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a31765b09c8742c26ed6b5f38be7b414b" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>CheckPostalCode</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a354342ac8c875603552dfd894c5322b8" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>CheckQLineEdit</name></member>
+      <member refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField_1a351fcf364f4ca3b2b4da806e6e5cf185" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>CheckUntilField</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0c35fee8c76e651163e71ddaac04dc97" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1abd546dd41a60c8182c45fa7f4f9666db" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1ad297d518964bd170e8cc7533795ff99e" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>fieldTextChanged</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0fd99ca76208b4986c6165b9ef1c04e3" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>getBtnValid</name></member>
+      <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a2987b2e62bc39f5c9a56dfce31f429fe" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>getCountry</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a468dcf5d39993973ee4c891658baba18" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>isValid</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1aa5f2ef2358512cf6e7d2eb4af58deb8d" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>setBtnValid</name></member>
+      <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1af57970124c6e10b516794f90f2b9f0be" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPostalCode</scope><name>setCountry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

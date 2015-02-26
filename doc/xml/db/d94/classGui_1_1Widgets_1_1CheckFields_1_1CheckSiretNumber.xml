@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" kind="class" prot="public">
+    <compoundname>Gui::Widgets::CheckFields::CheckSiretNumber</compoundname>
+    <basecompoundref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckQLineEdit</basecompoundref>
+    <includes refid="d9/db8/checksiretnumber_8h" local="no">checksiretnumber.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a084cf5bf5f0630ef0a92a4bb2be8646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::CheckFields::CheckSiretNumber::CheckSiretNumber</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckSiretNumber</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a084cf5bf5f0630ef0a92a4bb2be8646e" kindref="member">CheckSiretNumber::CheckSiretNumber</ref> Construct a <ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" kindref="compound">CheckSiretNumber</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget linked to <bold><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" kindref="compound">CheckSiretNumber</ref></bold> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a973f81b959d34b28818159303932f5f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Gui::Widgets::CheckFields::CheckSiretNumber::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a973f81b959d34b28818159303932f5f8" kindref="member">CheckSiretNumber::check</ref> Check if the field noSiret is valid. To be valid, a SIRET number should be composed of numbers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.cpp" bodystart="11" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" kindref="compound">CheckSiretNumber</ref> class Line Edit with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="140">
+        <label>Gui::Widgets::CheckFields::CheckSiretNumber</label>
+        <link refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="142">
+        <label>QLineEdit</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="144">
+        <label>Gui::Widgets::CheckFields::CheckSiretNumber</label>
+        <link refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="146">
+        <label>QLineEdit</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" line="13" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checksiretnumber.h" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a973f81b959d34b28818159303932f5f8" prot="public" virt="virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>check</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a354342ac8c875603552dfd894c5322b8" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>CheckQLineEdit</name></member>
+      <member refid="db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber_1a084cf5bf5f0630ef0a92a4bb2be8646e" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>CheckSiretNumber</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0c35fee8c76e651163e71ddaac04dc97" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1abd546dd41a60c8182c45fa7f4f9666db" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1ad297d518964bd170e8cc7533795ff99e" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>fieldTextChanged</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0fd99ca76208b4986c6165b9ef1c04e3" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>getBtnValid</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a468dcf5d39993973ee4c891658baba18" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>isValid</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1aa5f2ef2358512cf6e7d2eb4af58deb8d" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckSiretNumber</scope><name>setBtnValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

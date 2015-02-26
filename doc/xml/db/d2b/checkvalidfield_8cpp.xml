@@ -4,44 +4,47 @@
     <compoundname>checkvalidfield.cpp</compoundname>
     <includes refid="d0/d48/checkvalidfield_8h" local="yes">checkvalidfield.h</includes>
     <incdepgraph>
-      <node id="1113">
+      <node id="1379">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1114" relation="include">
+        <childnode refid="1380" relation="include">
         </childnode>
-        <childnode refid="1115" relation="include">
+        <childnode refid="1381" relation="include">
         </childnode>
-        <childnode refid="1116" relation="include">
+        <childnode refid="1382" relation="include">
         </childnode>
       </node>
-      <node id="1112">
+      <node id="1378">
         <label>checkvalidfield.h</label>
         <link refid="d0/d48/checkvalidfield_8h_source"/>
-        <childnode refid="1113" relation="include">
+        <childnode refid="1379" relation="include">
         </childnode>
       </node>
-      <node id="1114">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1117">
-        <label>QString</label>
-      </node>
-      <node id="1115">
-        <label>QPushButton</label>
-      </node>
-      <node id="1116">
+      <node id="1382">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1117" relation="include">
+        <childnode refid="1383" relation="include">
         </childnode>
       </node>
-      <node id="1111">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp</label>
+      <node id="1377">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp</label>
         <link refid="checkvalidfield.cpp"/>
-        <childnode refid="1112" relation="include">
+        <childnode refid="1378" relation="include">
         </childnode>
+      </node>
+      <node id="1380">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1383">
+        <label>QString</label>
+      </node>
+      <node id="1381">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -49,15 +52,21 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkvalidfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"><ref refid="dc/d93/classCheckValidField_1acfb0bb44b22b5355a227273f439210b8" kindref="member">CheckValidField::CheckValidField</ref>(QWidget*<sp/>w,<sp/>QPushButton<sp/>*btn)<sp/>:<sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref>(w,<sp/>btn)<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a17f7b1d7ce52fb9112a0f60fa0d4f572" kindref="member">CheckValidField::CheckValidField</ref>(QWidget*<sp/>w,<sp/>QPushButton<sp/>*btn)<sp/>:<sp/>CheckQLineEdit(w,<sp/>btn)<sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/d93/classCheckValidField_1a192b1c9c84ea8897661425fd3c0b9e8e" kindref="member">CheckValidField::check</ref>(QString)<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a871d7b28becd80aac9fc75a2057bb15d" kindref="member">CheckValidField::check</ref>(QString)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp"/>
   </compounddef>
 </doxygen>

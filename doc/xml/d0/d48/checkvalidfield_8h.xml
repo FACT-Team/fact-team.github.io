@@ -3,41 +3,64 @@
   <compounddef id="d0/d48/checkvalidfield_8h" kind="file">
     <compoundname>checkvalidfield.h</compoundname>
     <includes refid="de/dc9/checkqlineedit_8h" local="yes">checkqlineedit.h</includes>
-    <includedby refid="db/d2b/checkvalidfield_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp</includedby>
+    <includedby refid="db/d2b/checkvalidfield_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp</includedby>
+    <includedby refid="db/d63/ui__dialogaddcustomer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="1120">
+      <node id="1386">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1121" relation="include">
+        <childnode refid="1387" relation="include">
         </childnode>
-        <childnode refid="1122" relation="include">
+        <childnode refid="1388" relation="include">
         </childnode>
-        <childnode refid="1123" relation="include">
+        <childnode refid="1389" relation="include">
         </childnode>
       </node>
-      <node id="1119">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkvalidfield.h</label>
+      <node id="1385">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.h</label>
         <link refid="checkvalidfield.h"/>
-        <childnode refid="1120" relation="include">
+        <childnode refid="1386" relation="include">
         </childnode>
       </node>
-      <node id="1121">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1124">
-        <label>QString</label>
-      </node>
-      <node id="1122">
-        <label>QPushButton</label>
-      </node>
-      <node id="1123">
+      <node id="1389">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1124" relation="include">
+        <childnode refid="1390" relation="include">
         </childnode>
       </node>
+      <node id="1387">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1390">
+        <label>QString</label>
+      </node>
+      <node id="1388">
+        <label>QPushButton</label>
+      </node>
     </incdepgraph>
-    <innerclass refid="dc/d93/classCheckValidField" prot="public">CheckValidField</innerclass>
+    <invincdepgraph>
+      <node id="1391">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.h</label>
+        <link refid="checkvalidfield.h"/>
+        <childnode refid="1392" relation="include">
+        </childnode>
+        <childnode refid="1393" relation="include">
+        </childnode>
+      </node>
+      <node id="1392">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</label>
+        <link refid="db/d63/ui__dialogaddcustomer_8h_source"/>
+      </node>
+      <node id="1393">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" prot="public">Gui::Widgets::CheckFields::CheckValidField</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -48,15 +71,20 @@
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkqlineedit.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="dc/d93/classCheckValidField" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d93/classCheckValidField" kindref="compound">CheckValidField</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/da9/classCheckQLineEdit" kindref="compound">CheckQLineEdit</ref><sp/>{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d93/classCheckValidField_1acfb0bb44b22b5355a227273f439210b8" kindref="member">CheckValidField</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0)<sp/>;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/d93/classCheckValidField_1a192b1c9c84ea8897661425fd3c0b9e8e" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKVALIDFIELD_H</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" kindref="compound">CheckValidField</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" kindref="compound">CheckQLineEdit</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a17f7b1d7ce52fb9112a0f60fa0d4f572" kindref="member">CheckValidField</ref>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0)<sp/>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a871d7b28becd80aac9fc75a2057bb15d" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKVALIDFIELD_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkvalidfield.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.h"/>
   </compounddef>
 </doxygen>

@@ -3,47 +3,70 @@
   <compounddef id="d5/d31/checkpostalcode_8h" kind="file">
     <compoundname>checkpostalcode.h</compoundname>
     <includes refid="d7/d52/checkuntilfield_8h" local="yes">checkuntilfield.h</includes>
-    <includedby refid="de/d0c/checkpostalcode_8cpp" local="yes">/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp</includedby>
+    <includedby refid="de/d0c/checkpostalcode_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.cpp</includedby>
+    <includedby refid="db/d63/ui__dialogaddcustomer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</includedby>
+    <includedby refid="d5/d66/ui__userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</includedby>
     <incdepgraph>
-      <node id="1046">
+      <node id="1299">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1300" relation="include">
         </childnode>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1301" relation="include">
         </childnode>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1302" relation="include">
         </childnode>
       </node>
-      <node id="1045">
+      <node id="1297">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h</label>
+        <link refid="checkpostalcode.h"/>
+        <childnode refid="1298" relation="include">
+        </childnode>
+      </node>
+      <node id="1298">
         <label>checkuntilfield.h</label>
         <link refid="d7/d52/checkuntilfield_8h_source"/>
-        <childnode refid="1046" relation="include">
+        <childnode refid="1299" relation="include">
         </childnode>
       </node>
-      <node id="1047">
-        <label>QLineEdit</label>
-      </node>
-      <node id="1050">
-        <label>QString</label>
-      </node>
-      <node id="1048">
-        <label>QPushButton</label>
-      </node>
-      <node id="1049">
+      <node id="1302">
         <label>icheckfield.h</label>
         <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1303" relation="include">
         </childnode>
       </node>
-      <node id="1044">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkpostalcode.h</label>
-        <link refid="checkpostalcode.h"/>
-        <childnode refid="1045" relation="include">
-        </childnode>
+      <node id="1300">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1303">
+        <label>QString</label>
+      </node>
+      <node id="1301">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
-    <innerclass refid="dc/d63/classCheckPostalCode" prot="public">CheckPostalCode</innerclass>
+    <invincdepgraph>
+      <node id="1305">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_dialogaddcustomer.h</label>
+        <link refid="db/d63/ui__dialogaddcustomer_8h_source"/>
+      </node>
+      <node id="1304">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h</label>
+        <link refid="checkpostalcode.h"/>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1306" relation="include">
+        </childnode>
+      </node>
+      <node id="1306">
+        <label>/home/travis/build/FACT-Team/FactDev/src/ui_userdatadialog.h</label>
+        <link refid="d5/d66/ui__userdatadialog_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" prot="public">Gui::Widgets::CheckFields::CheckPostalCode</innerclass>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -54,22 +77,27 @@
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkuntilfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="dc/d63/classCheckPostalCode" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d63/classCheckPostalCode" kindref="compound">CheckPostalCode</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/db9/classCheckUntilField" kindref="compound">CheckUntilField</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d63/classCheckPostalCode_1a98cce06b95b46bf285cf6bc6e52cbfcb" kindref="member">CheckPostalCode</ref><sp/>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/d63/classCheckPostalCode_1ad91ba5622617675fbb5c767036163142" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="dc/d63/classCheckPostalCode_1a3691eb5a484579a77622529ae25261a4" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d63/classCheckPostalCode_1ac82e538c932bd9165d3d40ea949baa4b" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKPOSTALCODE_H</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kindref="compound">CheckPostalCode</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" kindref="compound">CheckUntilField</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a31765b09c8742c26ed6b5f38be7b414b" kindref="member">CheckPostalCode</ref><sp/>(QWidget*<sp/>w<sp/>=<sp/>0,<sp/>QPushButton*<sp/>btn<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a27abf247ec158aafb2c13779f6630449" kindref="member">check</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a2987b2e62bc39f5c9a56dfce31f429fe" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1af57970124c6e10b516794f90f2b9f0be" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKPOSTALCODE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/checkfields/checkpostalcode.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkpostalcode.h"/>
   </compounddef>
 </doxygen>

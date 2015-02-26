@@ -3,69 +3,115 @@
   <compounddef id="d2/dcd/ratewidget_8cpp" kind="file">
     <compoundname>ratewidget.cpp</compoundname>
     <includes refid="d1/dfa/ratewidget_8h" local="yes">ratewidget.h</includes>
-    <includes local="yes">ui_ratewidget.h</includes>
+    <includes refid="d8/dee/ui__ratewidget_8h" local="yes">ui_ratewidget.h</includes>
     <incdepgraph>
-      <node id="1520">
-        <label>/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/ratewidget.cpp</label>
-        <link refid="ratewidget.cpp"/>
-        <childnode refid="1521" relation="include">
-        </childnode>
-        <childnode refid="1530" relation="include">
-        </childnode>
+      <node id="1953">
+        <label>QtWidgets/QWidget</label>
       </node>
-      <node id="1527">
+      <node id="1941">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1528" relation="include">
+        <childnode refid="1942" relation="include">
         </childnode>
       </node>
-      <node id="1523">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1525" relation="include">
-        </childnode>
-        <childnode refid="1526" relation="include">
-        </childnode>
-        <childnode refid="1527" relation="include">
-        </childnode>
-        <childnode refid="1529" relation="include">
-        </childnode>
+      <node id="1952">
+        <label>QtWidgets/QLabel</label>
       </node>
-      <node id="1526">
+      <node id="1949">
+        <label>QtWidgets/QDoubleSpinBox</label>
+      </node>
+      <node id="1940">
         <label>QSharedPointer</label>
       </node>
-      <node id="1522">
+      <node id="1945">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="1937">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="1938" relation="include">
+        </childnode>
+        <childnode refid="1939" relation="include">
+        </childnode>
+        <childnode refid="1940" relation="include">
+        </childnode>
+        <childnode refid="1941" relation="include">
+        </childnode>
+        <childnode refid="1943" relation="include">
+        </childnode>
+      </node>
+      <node id="1936">
         <label>QWidget</label>
       </node>
-      <node id="1528">
+      <node id="1951">
+        <label>QtWidgets/QHeaderView</label>
+      </node>
+      <node id="1942">
         <label>QVariantHash</label>
       </node>
-      <node id="1525">
+      <node id="1939">
         <label>QDate</label>
       </node>
-      <node id="1524">
+      <node id="1938">
         <label>QString</label>
       </node>
-      <node id="1529">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1524" relation="include">
+      <node id="1946">
+        <label>QtWidgets/QAction</label>
+      </node>
+      <node id="1948">
+        <label>QtWidgets/QButtonGroup</label>
+      </node>
+      <node id="1947">
+        <label>QtWidgets/QApplication</label>
+      </node>
+      <node id="1934">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.cpp</label>
+        <link refid="ratewidget.cpp"/>
+        <childnode refid="1935" relation="include">
         </childnode>
-        <childnode refid="1527" relation="include">
+        <childnode refid="1944" relation="include">
         </childnode>
       </node>
-      <node id="1521">
+      <node id="1935">
         <label>ratewidget.h</label>
         <link refid="d1/dfa/ratewidget_8h_source"/>
-        <childnode refid="1522" relation="include">
+        <childnode refid="1936" relation="include">
         </childnode>
-        <childnode refid="1523" relation="include">
+        <childnode refid="1937" relation="include">
         </childnode>
       </node>
-      <node id="1530">
+      <node id="1943">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1938" relation="include">
+        </childnode>
+        <childnode refid="1941" relation="include">
+        </childnode>
+      </node>
+      <node id="1944">
         <label>ui_ratewidget.h</label>
+        <link refid="d8/dee/ui__ratewidget_8h_source"/>
+        <childnode refid="1945" relation="include">
+        </childnode>
+        <childnode refid="1946" relation="include">
+        </childnode>
+        <childnode refid="1947" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
+        <childnode refid="1949" relation="include">
+        </childnode>
+        <childnode refid="1950" relation="include">
+        </childnode>
+        <childnode refid="1951" relation="include">
+        </childnode>
+        <childnode refid="1952" relation="include">
+        </childnode>
+        <childnode refid="1953" relation="include">
+        </childnode>
+      </node>
+      <node id="1950">
+        <label>QtWidgets/QGridLayout</label>
       </node>
     </incdepgraph>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
@@ -95,55 +141,55 @@
 <codeline lineno="18"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1aaad3463fdd580fb30af147bee194d986" kindref="member">RateWidget::initRate</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(Project::NB_DAILY_HOURS<sp/>*<sp/>Project::LEGAL_RATE);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;sbHourlyRate-&gt;setValue(Project::LEGAL_RATE);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(Project::NB_DAILY_HOURS<sp/>*<sp/>Project::LEGAL_RATE);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>ui-&gt;sbHourlyRate-&gt;setValue(Project::LEGAL_RATE);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1ae45a317c4472714c742b472b40c8028a" kindref="member">RateWidget::setWidgetDailyRateValue</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(value);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a6709f344452ce25d111e503bf8087582" kindref="member">setDailyRate</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(value);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>emit<sp/>setDailyRate();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a2020dfe26413b0a940e6c9c9bf3e5aa6" kindref="member">RateWidget::getDailyRate</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ui-&gt;sbDailyRate-&gt;value();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>return<sp/>ui-&gt;sbDailyRate-&gt;value();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a6709f344452ce25d111e503bf8087582" kindref="member">RateWidget::setDailyRate</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ui-&gt;sbDailyRate-&gt;value()<sp/>&gt;<sp/>Project::NB_DAILY_HOURS<sp/>*<sp/>Project::LEGAL_RATE)<sp/>{</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isDailyRateModified<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1ab5b8f371cee5a697470639f64e7856d6" kindref="member">updateConversionRate</ref>();</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1aaad3463fdd580fb30af147bee194d986" kindref="member">initRate</ref>();</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(ui-&gt;sbDailyRate-&gt;value()<sp/>&gt;<sp/>Project::NB_DAILY_HOURS<sp/>*<sp/>Project::LEGAL_RATE)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isDailyRateModified<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateConversionRate();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}<sp/>else<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>initRate();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a710d062c9dfdb11c0b66174aa392e617" kindref="member">RateWidget::getHourlyRate</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ui-&gt;sbHourlyRate-&gt;value();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>return<sp/>ui-&gt;sbHourlyRate-&gt;value();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a5c45d856fa577d87d6b9c2a4821fb804" kindref="member">RateWidget::setHourlyRate</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ui-&gt;sbHourlyRate-&gt;value()<sp/>&gt;<sp/>Project::LEGAL_RATE)<sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isDailyRateModified<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1ab5b8f371cee5a697470639f64e7856d6" kindref="member">updateConversionRate</ref>();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1aaad3463fdd580fb30af147bee194d986" kindref="member">initRate</ref>();</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(ui-&gt;sbHourlyRate-&gt;value()<sp/>&gt;<sp/>Project::LEGAL_RATE)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_isDailyRateModified<sp/>=<sp/>false;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateConversionRate();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}<sp/>else<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initRate();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1ab5b8f371cee5a697470639f64e7856d6" kindref="member">RateWidget::updateConversionRate</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_isDailyRateModified)<sp/>{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbHourlyRate-&gt;setValue(<ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a2020dfe26413b0a940e6c9c9bf3e5aa6" kindref="member">getDailyRate</ref>()/Project::NB_DAILY_HOURS);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(<ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget_1a710d062c9dfdb11c0b66174aa392e617" kindref="member">getHourlyRate</ref>()*Project::NB_DAILY_HOURS);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(_isDailyRateModified)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbHourlyRate-&gt;setValue(getDailyRate()/Project::NB_DAILY_HOURS);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}<sp/>else<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbDailyRate-&gt;setValue(getHourlyRate()*Project::NB_DAILY_HOURS);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/florent/Documents/Projet_S8/FactDev/src/gui/widgets/ratewidget.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.cpp"/>
   </compounddef>
 </doxygen>
