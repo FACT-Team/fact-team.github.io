@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d15/usermodeltest_8h" kind="file">
+    <compoundname>usermodeltest.h</compoundname>
+    <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
+    <includes refid="d8/ddb/user_8h" local="yes">models/user.h</includes>
+    <includedby refid="da/de3/usermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.cpp</includedby>
+    <incdepgraph>
+      <node id="4251">
+        <label>list</label>
+      </node>
+      <node id="4255">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="4256" relation="include">
+        </childnode>
+      </node>
+      <node id="4263">
+        <label>QSettings</label>
+      </node>
+      <node id="4253">
+        <label>models/user.h</label>
+        <link refid="d8/ddb/user_8h_source"/>
+        <childnode refid="4254" relation="include">
+        </childnode>
+        <childnode refid="4255" relation="include">
+        </childnode>
+        <childnode refid="4257" relation="include">
+        </childnode>
+      </node>
+      <node id="4264">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="4254" relation="include">
+        </childnode>
+      </node>
+      <node id="4249">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="4257">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="4258" relation="include">
+        </childnode>
+        <childnode refid="4259" relation="include">
+        </childnode>
+        <childnode refid="4260" relation="include">
+        </childnode>
+        <childnode refid="4261" relation="include">
+        </childnode>
+        <childnode refid="4262" relation="include">
+        </childnode>
+        <childnode refid="4263" relation="include">
+        </childnode>
+        <childnode refid="4254" relation="include">
+        </childnode>
+        <childnode refid="4264" relation="include">
+        </childnode>
+      </node>
+      <node id="4262">
+        <label>QDebug</label>
+      </node>
+      <node id="4248">
+        <label>QTest</label>
+      </node>
+      <node id="4256">
+        <label>QVariantHash</label>
+      </node>
+      <node id="4259">
+        <label>QDate</label>
+      </node>
+      <node id="4254">
+        <label>QString</label>
+      </node>
+      <node id="4258">
+        <label>QFile</label>
+      </node>
+      <node id="4246">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</label>
+        <link refid="usermodeltest.h"/>
+        <childnode refid="4247" relation="include">
+        </childnode>
+        <childnode refid="4253" relation="include">
+        </childnode>
+      </node>
+      <node id="4252">
+        <label>iostream</label>
+      </node>
+      <node id="4261">
+        <label>QTextStream</label>
+      </node>
+      <node id="4247">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="4248" relation="include">
+        </childnode>
+        <childnode refid="4249" relation="include">
+        </childnode>
+        <childnode refid="4250" relation="include">
+        </childnode>
+        <childnode refid="4251" relation="include">
+        </childnode>
+        <childnode refid="4252" relation="include">
+        </childnode>
+      </node>
+      <node id="4250">
+        <label>algorithm</label>
+      </node>
+      <node id="4260">
+        <label>QCoreApplication</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="de/d37/classUserModelTest" prot="public">UserModelTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERMODELTEST_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USERMODELTEST_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/user.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="de/d37/classUserModelTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d37/classUserModelTest" kindref="compound">UserModelTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d37/classUserModelTest" kindref="compound">UserModelTest</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals1();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals2();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>notEquals();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitUpdate();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hydrat();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>u1;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>u2;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">DECLARE_TEST(<ref refid="de/d37/classUserModelTest" kindref="compound">UserModelTest</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USERMODELTEST_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h"/>
+  </compounddef>
+</doxygen>

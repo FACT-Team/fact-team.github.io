@@ -6,6 +6,7 @@ var hierarchy =
         [ "CounterContext", "db/da6/classCounterContext.html", null ]
       ] ]
     ] ],
+    [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", null ],
     [ "Databases::Database", "dd/db0/classDatabases_1_1Database.html", [
       [ "Databases::BillingDatabase", "df/df8/classDatabases_1_1BillingDatabase.html", null ],
       [ "Databases::ContributoryDatabase", "dc/da5/classDatabases_1_1ContributoryDatabase.html", null ],
@@ -88,13 +89,20 @@ var hierarchy =
       [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", null ],
       [ "BillingModelTest", "dc/d0c/classBillingModelTest.html", null ],
       [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
+      [ "ContributoryModelTest", "d5/d97/classContributoryModelTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
       [ "Generation", "d4/df7/classGeneration.html", null ],
+      [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
+      [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", null ],
+      [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", null ],
       [ "RateModelTest", "d2/dcd/classRateModelTest.html", null ],
       [ "searchTest", "d7/d51/classsearchTest.html", null ],
+      [ "StringTest", "d1/d6b/classStringTest.html", null ],
       [ "TestMustache", "de/d63/classTestMustache.html", null ],
-      [ "TestMustache", "de/d63/classTestMustache.html", null ]
+      [ "TestMustache", "de/d63/classTestMustache.html", null ],
+      [ "UserDatabaseTest", "d7/dc1/classUserDatabaseTest.html", null ],
+      [ "UserModelTest", "de/d37/classUserModelTest.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
@@ -109,7 +117,7 @@ var hierarchy =
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ]
 ];

@@ -85,7 +85,11 @@ void \hyperlink{classModels_1_1User_ae51aa34e41159fe7e4541a8cfddc50a3}{set\-Work
 Q\-String \hyperlink{classModels_1_1User_aa9421bda240316f9eebd0145f6dc3eda}{get\-Workspace\-Path} () const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1User_aa9421bda240316f9eebd0145f6dc3eda}{User\-::get\-Workspace\-Path} Return the path of the workspace user. \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1User_ae62b6cc7c6c5f5ab80b9f066b67afc95}{set\-Workspace\-Path} (const Q\-String \&workspace\-Path)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1User_ae62b6cc7c6c5f5ab80b9f066b67afc95}{User\-::set\-Workspace\-Path} Change the current workspace path by the new {\itshape workspace\-Path} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1User_ae62b6cc7c6c5f5ab80b9f066b67afc95}{User\-::set\-Workspace\-Path} Change the current workspace path by the new {\itshape workspace\-Path} \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{operator==} (const \hyperlink{classModels_1_1User}{User} \&u)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{User\-::operator ==} Re-\/define the operator \char`\"{}==\char`\"{} to compare if the current \hyperlink{classModels_1_1User}{User} is the same to the other {\bfseries \hyperlink{classModels_1_1User}{User}} {\itshape c} Return T\-R\-U\-E if both Users are the same, else F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1User_aa1cdb1f752173aedd5f0c43edcb0b10b}{operator!=} (const \hyperlink{classModels_1_1User}{User} \&u)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{User\-::operator ==} Re-\/define the operator \char`\"{}!=\char`\"{} to compare if the current \hyperlink{classModels_1_1User}{User} is differnt to the other {\bfseries \hyperlink{classModels_1_1User}{User}} {\itshape c} Return T\-R\-U\-E if both Users are different, else F\-A\-L\-S\-E. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -337,6 +341,44 @@ workspace path
 
 Implements \hyperlink{classModels_1_1IModel_a7ce6def437f5e1f6a78ee1d67ca028e4}{Models\-::\-I\-Model}.
 
+\hypertarget{classModels_1_1User_aa1cdb1f752173aedd5f0c43edcb0b10b}{\index{Models\-::\-User@{Models\-::\-User}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Models::User@{Models\-::\-User}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-User\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf User} \&}]{u}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1User_aa1cdb1f752173aedd5f0c43edcb0b10b}
+
+
+\hyperlink{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{User\-::operator ==} Re-\/define the operator \char`\"{}!=\char`\"{} to compare if the current \hyperlink{classModels_1_1User}{User} is differnt to the other {\bfseries \hyperlink{classModels_1_1User}{User}} {\itshape c} Return T\-R\-U\-E if both Users are different, else F\-A\-L\-S\-E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & \hyperlink{classModels_1_1User}{User} to compare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{\index{Models\-::\-User@{Models\-::\-User}!operator==@{operator==}}
+\index{operator==@{operator==}!Models::User@{Models\-::\-User}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-User\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf User} \&}]{u}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}
+
+
+\hyperlink{classModels_1_1User_a60d18c2d1df053f1abf1215414f0b4b6}{User\-::operator ==} Re-\/define the operator \char`\"{}==\char`\"{} to compare if the current \hyperlink{classModels_1_1User}{User} is the same to the other {\bfseries \hyperlink{classModels_1_1User}{User}} {\itshape c} Return T\-R\-U\-E if both Users are the same, else F\-A\-L\-S\-E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & \hyperlink{classModels_1_1User}{User} to compare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
 \hypertarget{classModels_1_1User_a2a6098ed13472398a972944b88905ebd}{\index{Models\-::\-User@{Models\-::\-User}!set\-Address@{set\-Address}}
 \index{set\-Address@{set\-Address}!Models::User@{Models\-::\-User}}
 \subsubsection[{set\-Address}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-User\-::set\-Address (
@@ -510,7 +552,7 @@ User\-::set\-Firstnament Modify the user {\itshape firstname}
 
 
 \begin{DoxyParams}{Parameters}
-{\em title} & Short description on activity(ies) of customer company \\
+{\em title} & Short description on activity(ies) of \hyperlink{classModels_1_1User}{User} company \\
 \hline
 \end{DoxyParams}
 \hypertarget{classModels_1_1User_ae51aa34e41159fe7e4541a8cfddc50a3}{\index{Models\-::\-User@{Models\-::\-User}!set\-Workspace\-Name@{set\-Workspace\-Name}}

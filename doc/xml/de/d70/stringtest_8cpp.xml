@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d70/stringtest_8cpp" kind="file">
+    <compoundname>stringtest.cpp</compoundname>
+    <includes refid="db/d1a/stringtest_8h" local="yes">stringtest.h</includes>
+    <incdepgraph>
+      <node id="4414">
+        <label>list</label>
+      </node>
+      <node id="4409">
+        <label>QObject</label>
+      </node>
+      <node id="4412">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="4416">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="4417" relation="include">
+        </childnode>
+      </node>
+      <node id="4408">
+        <label>stringtest.h</label>
+        <link refid="db/d1a/stringtest_8h_source"/>
+        <childnode refid="4409" relation="include">
+        </childnode>
+        <childnode refid="4410" relation="include">
+        </childnode>
+        <childnode refid="4416" relation="include">
+        </childnode>
+      </node>
+      <node id="4411">
+        <label>QTest</label>
+      </node>
+      <node id="4417">
+        <label>QString</label>
+      </node>
+      <node id="4415">
+        <label>iostream</label>
+      </node>
+      <node id="4407">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</label>
+        <link refid="stringtest.cpp"/>
+        <childnode refid="4408" relation="include">
+        </childnode>
+      </node>
+      <node id="4410">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="4411" relation="include">
+        </childnode>
+        <childnode refid="4412" relation="include">
+        </childnode>
+        <childnode refid="4413" relation="include">
+        </childnode>
+        <childnode refid="4414" relation="include">
+        </childnode>
+        <childnode refid="4415" relation="include">
+        </childnode>
+      </node>
+      <node id="4413">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;stringtest.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">StringTest::StringTest()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>StringTest::firstLetterToUpperTest()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">Utils::String::firstLetterToUpper</ref>(</highlight><highlight class="stringliteral">&quot;MACHIN&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;MACHIN&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">Utils::String::firstLetterToUpper</ref>(</highlight><highlight class="stringliteral">&quot;mACHIN&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;MACHIN&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">Utils::String::firstLetterToUpper</ref>(</highlight><highlight class="stringliteral">&quot;machin&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Machin&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp"/>
+  </compounddef>
+</doxygen>

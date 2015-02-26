@@ -18,6 +18,8 @@ var classModels_1_1User =
     [ "getWorkspaceName", "df/d68/classModels_1_1User.html#adf4c52429656a4f44c15d879caee5b10", null ],
     [ "getWorkspacePath", "df/d68/classModels_1_1User.html#aa9421bda240316f9eebd0145f6dc3eda", null ],
     [ "hydrat", "df/d68/classModels_1_1User.html#ab46c7e1841dca66bc01cd95328b97877", null ],
+    [ "operator!=", "df/d68/classModels_1_1User.html#aa1cdb1f752173aedd5f0c43edcb0b10b", null ],
+    [ "operator==", "df/d68/classModels_1_1User.html#a60d18c2d1df053f1abf1215414f0b4b6", null ],
     [ "remove", "df/d68/classModels_1_1User.html#ae0870269116b5bda3b5f1c8527e300be", null ],
     [ "setAddress", "df/d68/classModels_1_1User.html#a2a6098ed13472398a972944b88905ebd", null ],
     [ "setCity", "df/d68/classModels_1_1User.html#a98c035e4275b8170bec888bea05b24d9", null ],

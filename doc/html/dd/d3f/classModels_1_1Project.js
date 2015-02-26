@@ -13,6 +13,7 @@ var classModels_1_1Project =
     [ "getEndDate", "dd/d3f/classModels_1_1Project.html#aaf6792d15dcd65c3708e4a01b80e3108", null ],
     [ "getName", "dd/d3f/classModels_1_1Project.html#a11d3b85bdc38daba928bfbfd962a0e32", null ],
     [ "hydrat", "dd/d3f/classModels_1_1Project.html#aa293709eeb68e4271cac8d4cce418ffa", null ],
+    [ "operator!=", "dd/d3f/classModels_1_1Project.html#adf5947680a4eca62cd1cbda58a2a62f0", null ],
     [ "operator<", "dd/d3f/classModels_1_1Project.html#a8e7cc264d433c708323faccae7bdd082", null ],
     [ "operator==", "dd/d3f/classModels_1_1Project.html#a2f322e63f6b42273c24093b9df46c2d6", null ],
     [ "remove", "dd/d3f/classModels_1_1Project.html#ab55c71c009ae796e7dbe03017fed67ee", null ],

@@ -67,7 +67,9 @@ void \hyperlink{classModels_1_1Project_a9d305edf054735b911e144516d3eccba}{set\-C
 bool \hyperlink{classModels_1_1Project_a2f322e63f6b42273c24093b9df46c2d6}{operator==} (const \hyperlink{classModels_1_1Project}{Project} \&p)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Project_a2f322e63f6b42273c24093b9df46c2d6}{Project\-::operator ==} Re-\/define the operator \char`\"{}==\char`\"{} to compare if the current project is the same to the other {\bfseries \hyperlink{classModels_1_1Project}{Project}} {\itshape p} Return T\-R\-U\-E if both projects are the same, else F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
 bool \hyperlink{classModels_1_1Project_a8e7cc264d433c708323faccae7bdd082}{operator$<$} (const \hyperlink{classModels_1_1Project}{Project} \&p) const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Project_a8e7cc264d433c708323faccae7bdd082}{Project\-::operator $<$} defines the operator "$<$ to compare two {\bfseries \hyperlink{classModels_1_1Project}{Project}} and to see if the fisrt is anterior to the second. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Project_a8e7cc264d433c708323faccae7bdd082}{Project\-::operator $<$} defines the operator "$<$ to compare two {\bfseries \hyperlink{classModels_1_1Project}{Project}} and to see if the fisrt is anterior to the second. \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1Project_adf5947680a4eca62cd1cbda58a2a62f0}{operator!=} (const \hyperlink{classModels_1_1Project}{Project} \&p)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Project_a2f322e63f6b42273c24093b9df46c2d6}{Project\-::operator ==} Re-\/define the operator \char`\"{}!=\char`\"{} to compare if the current project is differnt to the other {\bfseries \hyperlink{classModels_1_1Project}{Project}} {\itshape p} Return T\-R\-U\-E if both projects are different, else F\-A\-L\-S\-E. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -224,6 +226,25 @@ project name
 
 Implements \hyperlink{classModels_1_1IModel_a7ce6def437f5e1f6a78ee1d67ca028e4}{Models\-::\-I\-Model}.
 
+\hypertarget{classModels_1_1Project_adf5947680a4eca62cd1cbda58a2a62f0}{\index{Models\-::\-Project@{Models\-::\-Project}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Models::Project@{Models\-::\-Project}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-Project\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Project} \&}]{p}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Project_adf5947680a4eca62cd1cbda58a2a62f0}
+
+
+\hyperlink{classModels_1_1Project_a2f322e63f6b42273c24093b9df46c2d6}{Project\-::operator ==} Re-\/define the operator \char`\"{}!=\char`\"{} to compare if the current project is differnt to the other {\bfseries \hyperlink{classModels_1_1Project}{Project}} {\itshape p} Return T\-R\-U\-E if both projects are different, else F\-A\-L\-S\-E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \hyperlink{classModels_1_1Project}{Project} to compare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
 \hypertarget{classModels_1_1Project_a8e7cc264d433c708323faccae7bdd082}{\index{Models\-::\-Project@{Models\-::\-Project}!operator$<$@{operator$<$}}
 \index{operator$<$@{operator$<$}!Models::Project@{Models\-::\-Project}}
 \subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-Project\-::operator$<$ (
