@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"d5/dcd/classCustomerModelTest.html#ab2b5895ca718f44c2e0657cf7f26340f":[4,0,13,0],
 "d5/dd1/classModels_1_1Contributory.html":[4,0,3,2],
 "d5/dd1/classModels_1_1Contributory.html#a0808e6453b222f62d3288361dcb56d16":[4,0,3,2,9],
 "d5/dd1/classModels_1_1Contributory.html#a12d4199fa7175c0b43f62eddf7c3d69e":[4,0,3,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a6de2edfe709a762d907a47d027fb8ba9":[4,0,2,1,1,1,4],
 "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a9c07f33b62b05f64979f52e9fead2553":[4,0,2,1,1,1,3],
 "da/d5e/billingmodeltest_8h_source.html":[5,0,0,0,0,0,1,1,0],
-"da/d5e/projectswidget_8h_source.html":[5,0,0,0,0,0,0,2,1,8],
-"da/d66/string_8h_source.html":[5,0,0,0,0,0,0,5,3]
+"da/d5e/projectswidget_8h_source.html":[5,0,0,0,0,0,0,2,1,8]
 };

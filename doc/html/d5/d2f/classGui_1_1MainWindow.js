@@ -15,6 +15,7 @@ var classGui_1_1MainWindow =
     [ "editDoc", "d5/d2f/classGui_1_1MainWindow.html#a06bc679c41574cb679c6e5e7b673139c", null ],
     [ "editProject", "d5/d2f/classGui_1_1MainWindow.html#adade8f873eb855b2ca0bb851c91cc5a9", null ],
     [ "editUser", "d5/d2f/classGui_1_1MainWindow.html#a5dfb182cf52eb48f71e70cd193ef7a8b", null ],
+    [ "generateTex", "d5/d2f/classGui_1_1MainWindow.html#a0aaba9436d6649908c54bbe7382d5780", null ],
     [ "getCurrentCustomerId", "d5/d2f/classGui_1_1MainWindow.html#a202cb1e7a7c0e47af15306c2587693ec", null ],
     [ "getCurrentCustomerName", "d5/d2f/classGui_1_1MainWindow.html#a0303a1752424b1e8c1a6e1b0bba2a823", null ],
     [ "getCurrentProjectId", "d5/d2f/classGui_1_1MainWindow.html#a9580e96fd90710c5e2c299c68108409a", null ],
