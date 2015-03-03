@@ -18,7 +18,6 @@
     <includedby refid="da/de0/dbexception_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h</includedby>
     <includedby refid="d4/d79/fileexception_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.h</includedby>
     <includedby refid="d8/ddb/user_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.h</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</includedby>
     <includedby refid="db/d70/popup_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/popup.h</includedby>
     <includedby refid="da/dfc/billingstablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</includedby>
     <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
@@ -26,6 +25,7 @@
     <includedby refid="dc/d08/projectcontributoriestablemodel_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp</includedby>
     <includedby refid="dc/d1a/projectstablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h</includedby>
     <includedby refid="db/d31/itemtype_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</includedby>
     <includedby refid="d9/db8/log_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp</includedby>
     <incdepgraph>
       <node id="3247">
@@ -77,12 +77,12 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3263">
+      <node id="3262">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
         <childnode refid="3253" relation="include">
         </childnode>
-        <childnode refid="3264" relation="include">
+        <childnode refid="3263" relation="include">
         </childnode>
       </node>
       <node id="3252">
@@ -91,6 +91,12 @@
         <childnode refid="3253" relation="include">
         </childnode>
         <childnode refid="3256" relation="include">
+        </childnode>
+      </node>
+      <node id="3253">
+        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="3254" relation="include">
         </childnode>
       </node>
       <node id="3259">
@@ -116,7 +122,7 @@
         </childnode>
         <childnode refid="3278" relation="include">
         </childnode>
-        <childnode refid="3262" relation="include">
+        <childnode refid="3264" relation="include">
         </childnode>
       </node>
       <node id="3281">
@@ -131,12 +137,6 @@
         <childnode refid="3283" relation="include">
         </childnode>
         <childnode refid="3284" relation="include">
-        </childnode>
-      </node>
-      <node id="3253">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="3254" relation="include">
         </childnode>
       </node>
       <node id="3287">
@@ -162,7 +162,7 @@
         </childnode>
         <childnode refid="3278" relation="include">
         </childnode>
-        <childnode refid="3262" relation="include">
+        <childnode refid="3264" relation="include">
         </childnode>
       </node>
       <node id="3272">
@@ -194,8 +194,6 @@
         </childnode>
         <childnode refid="3281" relation="include">
         </childnode>
-        <childnode refid="3253" relation="include">
-        </childnode>
         <childnode refid="3285" relation="include">
         </childnode>
         <childnode refid="3261" relation="include">
@@ -206,7 +204,9 @@
         </childnode>
         <childnode refid="3288" relation="include">
         </childnode>
-        <childnode refid="3263" relation="include">
+        <childnode refid="3262" relation="include">
+        </childnode>
+        <childnode refid="3253" relation="include">
         </childnode>
       </node>
       <node id="3275">
@@ -247,16 +247,16 @@
         <childnode refid="3253" relation="include">
         </childnode>
       </node>
-      <node id="3264">
+      <node id="3263">
         <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
         <link refid="d7/d49/itemtypetest_8h_source"/>
       </node>
       <node id="3254">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3253" relation="include">
-        </childnode>
         <childnode refid="3255" relation="include">
+        </childnode>
+        <childnode refid="3253" relation="include">
         </childnode>
       </node>
       <node id="3266">
@@ -340,14 +340,14 @@
         </childnode>
         <childnode refid="3262" relation="include">
         </childnode>
-        <childnode refid="3263" relation="include">
+        <childnode refid="3264" relation="include">
         </childnode>
         <childnode refid="3265" relation="include">
         </childnode>
         <childnode refid="3256" relation="include">
         </childnode>
       </node>
-      <node id="3262">
+      <node id="3264">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
         <link refid="de/d21/hierarchicalsystem_8h_source"/>
         <childnode refid="3253" relation="include">

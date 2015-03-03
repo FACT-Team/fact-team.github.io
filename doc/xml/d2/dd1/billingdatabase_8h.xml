@@ -8,7 +8,7 @@
     <includes refid="da/d66/string_8h" local="yes">utils/string.h</includes>
     <includes refid="da/dfc/billingstablemodel_8h" local="yes">gui/widgets/widgetsmodels/billingstablemodel.h</includes>
     <includedby refid="d4/dba/billingdatabase_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</includedby>
     <includedby refid="d0/de7/billing_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.cpp</includedby>
     <includedby refid="d9/d01/contributorieslist_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp</includedby>
     <includedby refid="d4/d9a/hierarchicalsystem_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.cpp</includedby>
@@ -352,22 +352,22 @@
         <childnode refid="94" relation="include">
         </childnode>
       </node>
-      <node id="94">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
-        <link refid="da/d5e/billingmodeltest_8h_source"/>
-      </node>
       <node id="91">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="92" relation="include">
         </childnode>
       </node>
+      <node id="94">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
+      </node>
       <node id="92">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="91" relation="include">
-        </childnode>
         <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
         </childnode>
       </node>
       <node id="93">

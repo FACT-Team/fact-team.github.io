@@ -353,15 +353,16 @@
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Project::operator<sp/>&lt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>&amp;p)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="131"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>getBeginDate()<sp/>&lt;<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a31b8e46aabb1327499f7e36f170900e3" kindref="member">getBeginDate</ref>();</highlight></codeline>
-<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Project::operator<sp/>!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>&amp;p)</highlight></codeline>
-<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>p);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>getBeginDate()<sp/>==<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a31b8e46aabb1327499f7e36f170900e3" kindref="member">getBeginDate</ref>()<sp/>&amp;&amp;<sp/>*(getCustomer())<sp/>==<sp/>*(p.<ref refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kindref="member">getCustomer</ref>())<sp/>&amp;&amp;<sp/>getDailyRate()<sp/>==<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a46d74a7452e712d223f1ca444a4cc180" kindref="member">getDailyRate</ref>()<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getDescription()<sp/>==<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a065b9cd68962c78302a84c686e10ae13" kindref="member">getDescription</ref>()<sp/>&amp;&amp;<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kindref="member">getEndDate</ref>()<sp/>==<sp/>getEndDate()<sp/>&amp;&amp;<sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a11d3b85bdc38daba928bfbfd962a0e32" kindref="member">getName</ref>()<sp/>==<sp/>getName();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Project::operator<sp/>!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>&amp;p)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>p);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/project.cpp"/>
   </compounddef>
