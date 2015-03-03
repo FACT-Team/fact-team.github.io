@@ -6,11 +6,10 @@
     <includes refid="d1/d70/customerdatabase_8h" local="yes">database/customerdatabase.h</includes>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
-    <includes refid="d9/d53/mainwindow_8h" local="yes">mainwindow.h</includes>
-    <includes local="no">QMainWindow</includes>
+    <includes refid="d9/d53/mainwindow_8h" local="yes">gui/mainwindow.h</includes>
     <includedby refid="dd/dc9/addprojectdialog_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</includedby>
     <includedby refid="da/d5e/projectswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</includedby>
     <incdepgraph>
       <node id="846">
         <label>QMap</label>
@@ -58,46 +57,6 @@
         <childnode refid="833" relation="include">
         </childnode>
         <childnode refid="859" relation="include">
-        </childnode>
-      </node>
-      <node id="839">
-        <label>mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="840" relation="include">
-        </childnode>
-        <childnode refid="824" relation="include">
-        </childnode>
-        <childnode refid="841" relation="include">
-        </childnode>
-        <childnode refid="842" relation="include">
-        </childnode>
-        <childnode refid="843" relation="include">
-        </childnode>
-        <childnode refid="844" relation="include">
-        </childnode>
-        <childnode refid="825" relation="include">
-        </childnode>
-        <childnode refid="857" relation="include">
-        </childnode>
-        <childnode refid="854" relation="include">
-        </childnode>
-        <childnode refid="858" relation="include">
-        </childnode>
-        <childnode refid="860" relation="include">
-        </childnode>
-        <childnode refid="862" relation="include">
-        </childnode>
-        <childnode refid="864" relation="include">
-        </childnode>
-        <childnode refid="865" relation="include">
-        </childnode>
-        <childnode refid="866" relation="include">
-        </childnode>
-        <childnode refid="805" relation="include">
-        </childnode>
-        <childnode refid="867" relation="include">
-        </childnode>
-        <childnode refid="874" relation="include">
         </childnode>
       </node>
       <node id="809">
@@ -151,6 +110,46 @@
         <childnode refid="831" relation="include">
         </childnode>
         <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>gui/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="858" relation="include">
+        </childnode>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="805" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
         </childnode>
       </node>
       <node id="873">
@@ -365,8 +364,6 @@
         <childnode refid="830" relation="include">
         </childnode>
         <childnode refid="839" relation="include">
-        </childnode>
-        <childnode refid="840" relation="include">
         </childnode>
       </node>
       <node id="807">
@@ -588,8 +585,8 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="877">
-        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
+      <node id="876">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="875" relation="include">
         </childnode>
@@ -602,7 +599,7 @@
         <childnode refid="877" relation="include">
         </childnode>
       </node>
-      <node id="876">
+      <node id="877">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
@@ -625,7 +622,7 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mainwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/mainwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog" kindref="compound">AddProjectDialog</ref>;</highlight></codeline>

@@ -5,7 +5,7 @@
     <includes local="no">QDialog</includes>
     <includes refid="d8/ddb/user_8h" local="yes">models/user.h</includes>
     <includedby refid="dd/da7/userdatadialog_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.cpp</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</includedby>
     <includedby refid="db/d40/billingmodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.cpp</includedby>
     <incdepgraph>
       <node id="1040">
@@ -88,7 +88,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1051">
-        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="1052" relation="include">
         </childnode>
@@ -96,9 +96,9 @@
       <node id="1052">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1053" relation="include">
-        </childnode>
         <childnode refid="1051" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
         </childnode>
       </node>
       <node id="1053">
