@@ -4,77 +4,115 @@
     <compoundname>projectcombodelegate.h</compoundname>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="df/d88/comboboxdelegate_8h" local="yes">gui/widgets/delegates/comboboxdelegate.h</includes>
-    <includedby refid="dc/d77/contributorieswidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp</includedby>
+    <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
     <includedby refid="d7/d39/projectcombodelegate_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp</includedby>
     <incdepgraph>
-      <node id="1549">
+      <node id="1806">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1550" relation="include">
+        <childnode refid="1807" relation="include">
         </childnode>
       </node>
-      <node id="1548">
+      <node id="1805">
         <label>QSharedPointer</label>
       </node>
-      <node id="1544">
+      <node id="1801">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="projectcombodelegate.h"/>
-        <childnode refid="1545" relation="include">
+        <childnode refid="1802" relation="include">
         </childnode>
-        <childnode refid="1552" relation="include">
+        <childnode refid="1809" relation="include">
         </childnode>
       </node>
-      <node id="1555">
+      <node id="1812">
         <label>QApplication</label>
       </node>
-      <node id="1545">
+      <node id="1802">
         <label>models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1546" relation="include">
+        <childnode refid="1803" relation="include">
         </childnode>
-        <childnode refid="1547" relation="include">
+        <childnode refid="1804" relation="include">
         </childnode>
-        <childnode refid="1548" relation="include">
+        <childnode refid="1805" relation="include">
         </childnode>
-        <childnode refid="1549" relation="include">
+        <childnode refid="1806" relation="include">
         </childnode>
-        <childnode refid="1551" relation="include">
+        <childnode refid="1808" relation="include">
         </childnode>
       </node>
-      <node id="1550">
+      <node id="1807">
         <label>QVariantHash</label>
       </node>
-      <node id="1547">
+      <node id="1804">
         <label>QDate</label>
       </node>
-      <node id="1546">
+      <node id="1803">
         <label>QString</label>
       </node>
-      <node id="1552">
+      <node id="1809">
         <label>gui/widgets/delegates/comboboxdelegate.h</label>
         <link refid="df/d88/comboboxdelegate_8h_source"/>
-        <childnode refid="1553" relation="include">
+        <childnode refid="1810" relation="include">
         </childnode>
-        <childnode refid="1554" relation="include">
+        <childnode refid="1811" relation="include">
         </childnode>
-        <childnode refid="1555" relation="include">
+        <childnode refid="1812" relation="include">
         </childnode>
       </node>
-      <node id="1554">
+      <node id="1811">
         <label>QComboBox</label>
       </node>
-      <node id="1553">
+      <node id="1810">
         <label>QItemDelegate</label>
       </node>
-      <node id="1551">
+      <node id="1808">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1546" relation="include">
+        <childnode refid="1803" relation="include">
         </childnode>
-        <childnode refid="1549" relation="include">
+        <childnode refid="1806" relation="include">
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="1816">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="1817" relation="include">
+        </childnode>
+      </node>
+      <node id="1814">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="1815" relation="include">
+        </childnode>
+      </node>
+      <node id="1817">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+      </node>
+      <node id="1813">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
+        <link refid="projectcombodelegate.h"/>
+        <childnode refid="1814" relation="include">
+        </childnode>
+      </node>
+      <node id="1815">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="1816" relation="include">
+        </childnode>
+      </node>
+      <node id="1818">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" prot="public">Gui::Widgets::Delegates::ProjectComboDelegate</innerclass>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
     <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
