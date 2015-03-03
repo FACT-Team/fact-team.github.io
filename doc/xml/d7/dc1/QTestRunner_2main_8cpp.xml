@@ -3,19 +3,140 @@
   <compounddef id="d7/dc1/QTestRunner_2main_8cpp" kind="file">
     <compoundname>main.cpp</compoundname>
     <includes local="no">QApplication</includes>
+    <includes local="no">QString</includes>
     <includes refid="dd/da8/testrunner_8h" local="yes">testrunner.h</includes>
+    <includes refid="d8/d9c/database_8h" local="yes">database/database.h</includes>
     <incdepgraph>
-      <node id="3715">
+      <node id="3716">
         <label>list</label>
       </node>
-      <node id="3713">
+      <node id="3724">
+        <label>QSettings</label>
+      </node>
+      <node id="3719">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="3733">
+        <label>QMessageBox</label>
+      </node>
+      <node id="3730">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="3729" relation="include">
+        </childnode>
+        <childnode refid="3731" relation="include">
+        </childnode>
+        <childnode refid="3717" relation="include">
+        </childnode>
+        <childnode refid="3732" relation="include">
+        </childnode>
+        <childnode refid="3733" relation="include">
+        </childnode>
+        <childnode refid="3734" relation="include">
+        </childnode>
+      </node>
+      <node id="3720">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="3737">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="3711" relation="include">
+        </childnode>
+      </node>
+      <node id="3718">
+        <label>database/database.h</label>
+        <link refid="d8/d9c/database_8h_source"/>
+        <childnode refid="3719" relation="include">
+        </childnode>
+        <childnode refid="3720" relation="include">
+        </childnode>
+        <childnode refid="3721" relation="include">
+        </childnode>
+        <childnode refid="3722" relation="include">
+        </childnode>
+        <childnode refid="3723" relation="include">
+        </childnode>
+        <childnode refid="3724" relation="include">
+        </childnode>
+        <childnode refid="3725" relation="include">
+        </childnode>
+        <childnode refid="3726" relation="include">
+        </childnode>
+        <childnode refid="3727" relation="include">
+        </childnode>
+        <childnode refid="3728" relation="include">
+        </childnode>
+        <childnode refid="3729" relation="include">
+        </childnode>
+        <childnode refid="3730" relation="include">
+        </childnode>
+        <childnode refid="3734" relation="include">
+        </childnode>
+        <childnode refid="3737" relation="include">
+        </childnode>
+      </node>
+      <node id="3732">
+        <label>stdexcept</label>
+      </node>
+      <node id="3723">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="3714">
         <label>QSharedPointer</label>
+      </node>
+      <node id="3734">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="3728" relation="include">
+        </childnode>
+        <childnode refid="3726" relation="include">
+        </childnode>
+        <childnode refid="3727" relation="include">
+        </childnode>
+        <childnode refid="3735" relation="include">
+        </childnode>
+        <childnode refid="3736" relation="include">
+        </childnode>
+        <childnode refid="3724" relation="include">
+        </childnode>
+        <childnode refid="3711" relation="include">
+        </childnode>
+        <childnode refid="3737" relation="include">
+        </childnode>
+      </node>
+      <node id="3722">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="3725">
+        <label>QStandardItem</label>
+      </node>
+      <node id="3729">
+        <label>exception</label>
       </node>
       <node id="3710">
         <label>QApplication</label>
       </node>
-      <node id="3712">
+      <node id="3736">
+        <label>QDebug</label>
+      </node>
+      <node id="3713">
         <label>QTest</label>
+      </node>
+      <node id="3731">
+        <label>sstream</label>
+      </node>
+      <node id="3726">
+        <label>QDate</label>
+      </node>
+      <node id="3711">
+        <label>QString</label>
+      </node>
+      <node id="3728">
+        <label>QFile</label>
+      </node>
+      <node id="3721">
+        <label>QtSql/QSqlError</label>
       </node>
       <node id="3709">
         <label>/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp</label>
@@ -24,15 +145,20 @@
         </childnode>
         <childnode refid="3711" relation="include">
         </childnode>
-      </node>
-      <node id="3716">
-        <label>iostream</label>
-      </node>
-      <node id="3711">
-        <label>testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
         <childnode refid="3712" relation="include">
         </childnode>
+        <childnode refid="3718" relation="include">
+        </childnode>
+      </node>
+      <node id="3717">
+        <label>iostream</label>
+      </node>
+      <node id="3735">
+        <label>QTextStream</label>
+      </node>
+      <node id="3712">
+        <label>testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
         <childnode refid="3713" relation="include">
         </childnode>
         <childnode refid="3714" relation="include">
@@ -41,9 +167,14 @@
         </childnode>
         <childnode refid="3716" relation="include">
         </childnode>
+        <childnode refid="3717" relation="include">
+        </childnode>
       </node>
-      <node id="3714">
+      <node id="3715">
         <label>algorithm</label>
+      </node>
+      <node id="3727">
+        <label>QCoreApplication</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -67,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp" bodystart="11" bodyend="15"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp" bodystart="12" bodyend="20"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -83,13 +214,18 @@
 <codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QCoreApplication<sp/>a(argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS(argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>QCoreApplication<sp/>a(argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>f(QString(a.applicationDirPath()+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+<ref refid="de/d0a/classParameters_1a80b98bd51d910bcc2203afcacbc7df87" kindref="member">Parameters::DB_FILENAME</ref>));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>f.remove();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Execution<sp/>des<sp/>tests<sp/>de<sp/>FactDev<sp/>v&quot;</highlight><highlight class="normal">+QString::number(<ref refid="de/d0a/classParameters_1a279ee24140c761de46178daa8960bdc8" kindref="member">Parameters::VERSION</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS(argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/main.cpp"/>
   </compounddef>
