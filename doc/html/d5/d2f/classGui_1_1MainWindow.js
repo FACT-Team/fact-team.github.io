@@ -26,7 +26,6 @@ var classGui_1_1MainWindow =
     [ "removeProject", "d5/d2f/classGui_1_1MainWindow.html#a7e00765c3da7a97ba937bdecb095200b", null ],
     [ "rootTree", "d5/d2f/classGui_1_1MainWindow.html#ad2b58d18473d125b431ee0974c905748", null ],
     [ "search", "d5/d2f/classGui_1_1MainWindow.html#af50656b4c43aa53bae1ac4a3d6b4c953", null ],
-    [ "test", "d5/d2f/classGui_1_1MainWindow.html#aa0be7126042b38f1c3fd2fcd0acda32e", null ],
     [ "treeLevel", "d5/d2f/classGui_1_1MainWindow.html#a382370c8f119d99d409b1b5708a3e846", null ],
     [ "updateButtons", "d5/d2f/classGui_1_1MainWindow.html#ac71b4c99f67e10b31d9855e80a9565b7", null ]
 ];
