@@ -56,8 +56,8 @@
         <argsstring>()=0</argsstring>
         <name>commit</name>
         <reimplementedby refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4">commit</reimplementedby>
-        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba">commit</reimplementedby>
         <reimplementedby refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915">commit</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba">commit</reimplementedby>
         <reimplementedby refid="d4/d5c/classModels_1_1Billing_1ad2280a0d8dde4c36e88c344b01044caf">commit</reimplementedby>
         <reimplementedby refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae">commit</reimplementedby>
         <briefdescription>
@@ -74,8 +74,8 @@
         <argsstring>(int id)=0</argsstring>
         <name>hydrat</name>
         <reimplementedby refid="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c">hydrat</reimplementedby>
-        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06">hydrat</reimplementedby>
         <reimplementedby refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877">hydrat</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06">hydrat</reimplementedby>
         <reimplementedby refid="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc">hydrat</reimplementedby>
         <reimplementedby refid="dd/d3f/classModels_1_1Project_1aa293709eeb68e4271cac8d4cce418ffa">hydrat</reimplementedby>
         <param>
@@ -104,8 +104,8 @@
         <argsstring>()=0</argsstring>
         <name>remove</name>
         <reimplementedby refid="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1">remove</reimplementedby>
-        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8">remove</reimplementedby>
         <reimplementedby refid="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be">remove</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8">remove</reimplementedby>
         <reimplementedby refid="dd/d3f/classModels_1_1Project_1ab55c71c009ae796e7dbe03017fed67ee">remove</reimplementedby>
         <reimplementedby refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3">remove</reimplementedby>
         <briefdescription>
@@ -122,8 +122,8 @@
         <argsstring>()=0</argsstring>
         <name>getDataMap</name>
         <reimplementedby refid="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40">getDataMap</reimplementedby>
-        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca">getDataMap</reimplementedby>
         <reimplementedby refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314">getDataMap</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca">getDataMap</reimplementedby>
         <reimplementedby refid="dd/d3f/classModels_1_1Project_1a7db5156657a7dbadd024aead14a40182">getDataMap</reimplementedby>
         <reimplementedby refid="d4/d5c/classModels_1_1Billing_1a2363c0b978434c0a835f894a67eb81e1">getDataMap</reimplementedby>
         <briefdescription>
@@ -220,43 +220,43 @@
 <para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="275">
+      <node id="273">
         <label>Models::Billing</label>
         <link refid="d4/d5c/classModels_1_1Billing"/>
-        <childnode refid="274" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="279">
-        <label>Models::User</label>
-        <link refid="df/d68/classModels_1_1User"/>
-        <childnode refid="274" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="276">
-        <label>Models::Contributory</label>
-        <link refid="d5/dd1/classModels_1_1Contributory"/>
-        <childnode refid="274" relation="public-inheritance">
+        <childnode refid="272" relation="public-inheritance">
         </childnode>
       </node>
       <node id="277">
-        <label>Models::Customer</label>
-        <link refid="db/dd7/classModels_1_1Customer"/>
-        <childnode refid="274" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="278">
-        <label>Models::Project</label>
-        <link refid="dd/d3f/classModels_1_1Project"/>
-        <childnode refid="274" relation="public-inheritance">
+        <label>Models::User</label>
+        <link refid="df/d68/classModels_1_1User"/>
+        <childnode refid="272" relation="public-inheritance">
         </childnode>
       </node>
       <node id="274">
+        <label>Models::Contributory</label>
+        <link refid="d5/dd1/classModels_1_1Contributory"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>Models::Customer</label>
+        <link refid="db/dd7/classModels_1_1Customer"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>Models::Project</label>
+        <link refid="dd/d3f/classModels_1_1Project"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="280">
+      <node id="278">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>

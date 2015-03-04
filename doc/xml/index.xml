@@ -3,7 +3,8 @@
   <compound refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog" kind="class"><name>Gui::Dialogs::AddProjectDialog</name>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a5b3fa5d61df1a043b11bc35303e80615" kind="variable"><name>_project</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a2d8c0daf722db2eb73fae1c68bf418ec" kind="variable"><name>ui</name></member>
-    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a73e81dfba4038bfd8d697c012a8a2d97" kind="function"><name>AddProjectDialog</name></member>
+    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a1fa86f5366f321233655aaf6923ec892" kind="function"><name>AddProjectDialog</name></member>
+    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7433c07961921a18abb56a6aeb741b1f" kind="function"><name>AddProjectDialog</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7445d90f4a237ad1588cdd570b6503dd" kind="function"><name>~AddProjectDialog</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" kind="function"><name>accept</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a767dcea1ae96d2efc3085f8ade4406ce" kind="function"><name>reject</name></member>
@@ -485,9 +486,6 @@
     <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" kind="function"><name>reject</name></member>
     <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" kind="slot"><name>checkFields</name></member>
   </compound>
-  <compound refid="d8/d40/classUtils_1_1Directories" kind="class"><name>Utils::Directories</name>
-    <member refid="d8/d40/classUtils_1_1Directories_1aee35810bcf4ef02b37408f23f2dcdb49" kind="function"><name>makeDirectory</name></member>
-  </compound>
   <compound refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kind="class"><name>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</name>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" kind="function"><name>DoubleSpinBoxDelegate</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" kind="function"><name>createEditor</name></member>
@@ -579,7 +577,7 @@
   </compound>
   <compound refid="d5/d2f/classGui_1_1MainWindow" kind="class"><name>Gui::MainWindow</name>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a102b881e11df3d8ae7030e4ddef293d4" kind="variable"><name>ui</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1af52b8cd02ab61164515138bac35a4a60" kind="variable"><name>_searchDock</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1ab0e1fc92353a6049ebcef3a8debbb107" kind="variable"><name>_hierarchy</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5ea8e526d288b96595618942d44154d3" kind="function"><name>MainWindow</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a1e7fb4a2a0d243c35b711554f1fd6d96" kind="function"><name>~MainWindow</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a202cb1e7a7c0e47af15306c2587693ec" kind="function"><name>getCurrentCustomerId</name></member>
@@ -590,6 +588,7 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a382370c8f119d99d409b1b5708a3e846" kind="function"><name>treeLevel</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ad2b58d18473d125b431ee0974c905748" kind="function"><name>rootTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adf04c63032d4014163797ca73041511f" kind="function"><name>addDoc</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1aeb176a1942f2e0e442deef58717b8678" kind="function"><name>demo</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a52d033c14efb98b5b389121b8d60f2fe" kind="slot"><name>addCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6487a725a2b58b89062944778ac59eca" kind="slot"><name>editCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ab86dd052f06fb56dbd77e3ae4c228796" kind="slot"><name>removeCustomer</name></member>
@@ -597,7 +596,8 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a4b9d5d9bee4b7a5f7d8cfe04d1222315" kind="slot"><name>addBill</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5dfb182cf52eb48f71e70cd193ef7a8b" kind="slot"><name>editUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af50656b4c43aa53bae1ac4a3d6b4c953" kind="slot"><name>search</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1acc49a5a35dfc7eb8f835ff425618e2d9" kind="slot"><name>addProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1aed8cb16bd8f1fc5419abc0038f3dc9ef" kind="slot"><name>search</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a8ea6f84e7b61e6f826d8530700f7f780" kind="slot"><name>newProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a7e00765c3da7a97ba937bdecb095200b" kind="slot"><name>removeProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adade8f873eb855b2ca0bb851c91cc5a9" kind="slot"><name>editProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6df8072789ea8ec81ca2dd8fa78a4b01" kind="slot"><name>aboutQt</name></member>
@@ -619,8 +619,6 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1af66a639cd1debdc95c5d7085d82518d0" kind="slot"><name>backToProjectsTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af96061e8285f0c48137d093ab97f8a86" kind="slot"><name>projectsTableToDocsTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a869dced470d03a410cd6512d54f73270" kind="slot"><name>findParent</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a00eab7aab4d62dad1aea8c74f665d5a3" kind="function"><name>setupUi</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1ac7fdd5d88e3eae674d0bfa7878247b3b" kind="function"><name>setupSignalsSlots</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a375857579f744667dae9b656ed01bf88" kind="function"><name>updateUI</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a72836957e4797ae4efa1d92e11a9fbc2" kind="function"><name>updateTableCustomers</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ad9803be89cc7aa0eecbb7dce21862236" kind="function"><name>updateTableProjects</name></member>
@@ -629,6 +627,8 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1afc3dbfd261f3cfcb9457a4e907968d34" kind="function"><name>updateTableBillings</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a96277750854e7e59d94f2722db629bca" kind="function"><name>removeItem</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8872b4afec93e55dd67c02d3146c1037" kind="function"><name>getCurrentTableId</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1aada3ff3f113743c93d008897e0cdf581" kind="function"><name>updateFolders</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1ab6c83785f4144637078becec7e1da90a" kind="function"><name>makeDirectory</name></member>
   </compound>
   <compound refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" kind="class"><name>Gui::Dialogs::MessageBox</name>
     <member refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1aec7f5cfdaef903a10ffc0dfc7071d70b" kind="variable"><name>ui</name></member>
@@ -661,9 +661,6 @@
   <compound refid="d0/dce/classMustache_1_1PartialResolver" kind="class"><name>Mustache::PartialResolver</name>
     <member refid="d0/dce/classMustache_1_1PartialResolver_1a52e0e140a4be2278c2d1acb8884d1936" kind="function"><name>~PartialResolver</name></member>
     <member refid="d0/dce/classMustache_1_1PartialResolver_1a81e9c5a8b32a52266cd8ea0580c3d3ac" kind="function"><name>getPartial</name></member>
-  </compound>
-  <compound refid="d4/d7a/classUtils_1_1pointers" kind="class"><name>Utils::pointers</name>
-    <member refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kind="function"><name>deleteIfNotNull</name></member>
   </compound>
   <compound refid="d4/d2f/classGui_1_1Widgets_1_1Popup" kind="class"><name>Gui::Widgets::Popup</name>
     <member refid="d4/d2f/classGui_1_1Widgets_1_1Popup_1ac4a9958b16b454eab84eeb95a1f01fa7" kind="function"><name>toImplement</name></member>
@@ -913,13 +910,6 @@
     <member refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kind="function"><name>getText</name></member>
     <member refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kind="function"><name>setText</name></member>
   </compound>
-  <compound refid="de/db4/classGui_1_1Docks_1_1SearchDock" kind="class"><name>Gui::Docks::SearchDock</name>
-    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a45a9616bc0f20517e0182d7824ee3189" kind="variable"><name>ui</name></member>
-    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kind="function"><name>SearchDock</name></member>
-    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a5c03d289e8dc3352e232e4d3bc290080" kind="function"><name>~SearchDock</name></member>
-    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a7360b52fd0bc03e089049b574e509c02" kind="slot"><name>search</name></member>
-    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a9b33dea8adfe26b4d7a5dadffbbb07a7" kind="signal"><name>textChanged</name></member>
-  </compound>
   <compound refid="d7/d51/classsearchTest" kind="class"><name>searchTest</name>
     <member refid="d7/d51/classsearchTest_1ace24f995afdfd987a2c97c0167ed6e28" kind="variable"><name>_search</name></member>
     <member refid="d7/d51/classsearchTest_1a21b6ae1d7256867c133e98b9140662b4" kind="function"><name>searchTest</name></member>
@@ -936,14 +926,11 @@
   <compound refid="d7/d75/classGui_1_1Widgets_1_1searchWidget" kind="class"><name>Gui::Widgets::searchWidget</name>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1ae05776f86bd8937372c0098112c8f7e0" kind="variable"><name>ui</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a413bc1f3a77cbaeeef05c48c64df0744" kind="variable"><name>_isCustomerSelected</name></member>
-    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a6e91cead715950e0f701d05a5e8ff949" kind="variable"><name>_idCustomer</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a8d77bcf326543f841d1c05fe9819183f" kind="function"><name>searchWidget</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1aa79135dfe1626fd224fda37ea693b38e" kind="function"><name>~searchWidget</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a93c6519cc7e0d8f440451d14fb85bd31" kind="function"><name>getCurrentCustomerId</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a3cb27e088874c5b8c548d0346a5d85f2" kind="function"><name>isCustomerSelected</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a96ba18927785257377dcd3701d41e8d1" kind="function"><name>selectCustomer</name></member>
-    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a20de80dbfa207b4ecc8b12433fcebb4b" kind="function"><name>getIdCustomer</name></member>
-    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1afeea186f9ca8a0bb2ee4f88cd199281e" kind="function"><name>setIdCustomer</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1adf91225827fde587bea0d0fc803b0034" kind="slot"><name>search</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1ae9e5a460a5320c8bfad4d6878009ccbc" kind="slot"><name>getCustomerData</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a9b6248c515bac4b6f58237c2f73d804b" kind="signal"><name>selectCustomer</name></member>
@@ -1042,7 +1029,6 @@
     <member refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" kind="function"><name>hydrat</name></member>
     <member refid="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be" kind="function"><name>remove</name></member>
     <member refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" kind="function"><name>getDataMap</name></member>
-    <member refid="df/d68/classModels_1_1User_1ae61c862ac430d25b538601f343f7bf98" kind="function"><name>updateFolders</name></member>
     <member refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" kind="function"><name>getFirstname</name></member>
     <member refid="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" kind="function"><name>setFirstname</name></member>
     <member refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" kind="function"><name>getLastname</name></member>
@@ -1113,8 +1099,6 @@
   <compound refid="d9/dad/namespaceGui" kind="namespace"><name>Gui</name>
   </compound>
   <compound refid="db/df5/namespaceGui_1_1Dialogs" kind="namespace"><name>Gui::Dialogs</name>
-  </compound>
-  <compound refid="d5/d7f/namespaceGui_1_1Docks" kind="namespace"><name>Gui::Docks</name>
   </compound>
   <compound refid="d4/dfe/namespaceGui_1_1Widgets" kind="namespace"><name>Gui::Widgets</name>
   </compound>
@@ -1196,14 +1180,6 @@
   <compound refid="dd/da7/userdatadialog_8cpp" kind="file"><name>userdatadialog.cpp</name>
   </compound>
   <compound refid="df/d22/userdatadialog_8h" kind="file"><name>userdatadialog.h</name>
-  </compound>
-  <compound refid="da/d54/searchdock_8cpp" kind="file"><name>searchdock.cpp</name>
-  </compound>
-  <compound refid="d2/dd7/searchdock_8h" kind="file"><name>searchdock.h</name>
-  </compound>
-  <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
-  </compound>
-  <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
   </compound>
   <compound refid="d4/d65/checkcity_8cpp" kind="file"><name>checkcity.cpp</name>
   </compound>
@@ -1348,6 +1324,10 @@
   </compound>
   <compound refid="d0/dc2/main_8dox" kind="file"><name>main.dox</name>
   </compound>
+  <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
   <compound refid="d0/de7/billing_8cpp" kind="file"><name>billing.cpp</name>
   </compound>
   <compound refid="d4/dfe/billing_8h" kind="file"><name>billing.h</name>
@@ -1386,10 +1366,6 @@
   </compound>
   <compound refid="d6/d3b/parameters_8h" kind="file"><name>parameters.h</name>
   </compound>
-  <compound refid="db/d05/directories_8cpp" kind="file"><name>directories.cpp</name>
-  </compound>
-  <compound refid="de/ddd/directories_8h" kind="file"><name>directories.h</name>
-  </compound>
   <compound refid="d4/d9a/hierarchicalsystem_8cpp" kind="file"><name>hierarchicalsystem.cpp</name>
   </compound>
   <compound refid="de/d21/hierarchicalsystem_8h" kind="file"><name>hierarchicalsystem.h</name>
@@ -1401,10 +1377,6 @@
   <compound refid="d9/db8/log_8cpp" kind="file"><name>log.cpp</name>
   </compound>
   <compound refid="d7/d7f/log_8h" kind="file"><name>log.h</name>
-  </compound>
-  <compound refid="d9/dcd/pointers_8cpp" kind="file"><name>pointers.cpp</name>
-  </compound>
-  <compound refid="d5/d57/pointers_8h" kind="file"><name>pointers.h</name>
   </compound>
   <compound refid="d5/d24/string_8cpp" kind="file"><name>string.cpp</name>
   </compound>
@@ -1506,8 +1478,6 @@
   </compound>
   <compound refid="dir_c11973596eefdbf3e94ab0570adc11d0" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs</name>
   </compound>
-  <compound refid="dir_cd8223983cb40692571c161656178ed2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/docks</name>
-  </compound>
   <compound refid="dir_0a7d3e18ce1707e40fad728c32777277" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/exceptions</name>
   </compound>
   <compound refid="dir_980fe81c3e6521024333b1db5aa179f3" kind="dir"><name>/home/travis/build/FACT-Team</name>
@@ -1517,8 +1487,6 @@
   <compound refid="dir_b290be4b5d02b7b48e72ffae6f8b88d6" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui</name>
   </compound>
   <compound refid="dir_a81148cad0d1c2f777266445256be29e" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs</name>
-  </compound>
-  <compound refid="dir_87c96b12451580b9a6411c53a4bfc1d2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow</name>
   </compound>
   <compound refid="dir_a02b716cee8d027f23c7b369ea6a1703" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/models</name>
   </compound>

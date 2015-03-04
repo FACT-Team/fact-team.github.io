@@ -15,7 +15,6 @@ var hierarchy =
       [ "Databases::RateDatabase", "d9/d21/classDatabases_1_1RateDatabase.html", null ],
       [ "Databases::UserDatabase", "d0/d33/classDatabases_1_1UserDatabase.html", null ]
     ] ],
-    [ "Utils::Directories", "d8/d40/classUtils_1_1Directories.html", null ],
     [ "exception", null, [
       [ "Exceptions::DbException", "d4/de4/classExceptions_1_1DbException.html", null ]
     ] ],
@@ -52,7 +51,6 @@ var hierarchy =
       [ "Mustache::PartialFileLoader", "da/d31/classMustache_1_1PartialFileLoader.html", null ],
       [ "Mustache::PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", null ]
     ] ],
-    [ "Utils::pointers", "d4/d7a/classUtils_1_1pointers.html", null ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
       [ "Gui::Widgets::WdgModels::BillingsTableModel", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html", null ],
@@ -67,9 +65,6 @@ var hierarchy =
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
       [ "Gui::Dialogs::UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", null ]
-    ] ],
-    [ "QDockWidget", null, [
-      [ "Gui::Docks::SearchDock", "de/db4/classGui_1_1Docks_1_1SearchDock.html", null ]
     ] ],
     [ "QItemDelegate", null, [
       [ "Gui::Widgets::Delegates::ComboBoxDelegate", "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html", [

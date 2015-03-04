@@ -7,9 +7,6 @@ var namespaceGui =
       [ "MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", "d9/d31/classGui_1_1Dialogs_1_1MessageBox" ],
       [ "UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog" ]
     ] ],
-    [ "Docks", null, [
-      [ "SearchDock", "de/db4/classGui_1_1Docks_1_1SearchDock.html", "de/db4/classGui_1_1Docks_1_1SearchDock" ]
-    ] ],
     [ "Widgets", "d4/dfe/namespaceGui_1_1Widgets.html", "d4/dfe/namespaceGui_1_1Widgets" ],
     [ "MainWindow", "d5/d2f/classGui_1_1MainWindow.html", "d5/d2f/classGui_1_1MainWindow" ]
 ];
