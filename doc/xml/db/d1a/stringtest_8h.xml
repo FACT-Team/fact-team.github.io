@@ -7,45 +7,43 @@
     <includes refid="da/d66/string_8h" local="yes">utils/string.h</includes>
     <includedby refid="de/d70/stringtest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</includedby>
     <incdepgraph>
-      <node id="4986">
+      <node id="4987">
         <label>list</label>
       </node>
-      <node id="4981">
+      <node id="4982">
         <label>QObject</label>
       </node>
-      <node id="4984">
+      <node id="4985">
         <label>QSharedPointer</label>
       </node>
-      <node id="4988">
+      <node id="4989">
         <label>utils/string.h</label>
         <link refid="da/d66/string_8h_source"/>
+        <childnode refid="4990" relation="include">
+        </childnode>
+      </node>
+      <node id="4981">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.h</label>
+        <link refid="stringtest.h"/>
+        <childnode refid="4982" relation="include">
+        </childnode>
+        <childnode refid="4983" relation="include">
+        </childnode>
         <childnode refid="4989" relation="include">
         </childnode>
       </node>
-      <node id="4980">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.h</label>
-        <link refid="stringtest.h"/>
-        <childnode refid="4981" relation="include">
-        </childnode>
-        <childnode refid="4982" relation="include">
-        </childnode>
-        <childnode refid="4988" relation="include">
-        </childnode>
-      </node>
-      <node id="4983">
+      <node id="4984">
         <label>QTest</label>
       </node>
-      <node id="4989">
+      <node id="4990">
         <label>QString</label>
       </node>
-      <node id="4987">
+      <node id="4988">
         <label>iostream</label>
       </node>
-      <node id="4982">
+      <node id="4983">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="4983" relation="include">
-        </childnode>
         <childnode refid="4984" relation="include">
         </childnode>
         <childnode refid="4985" relation="include">
@@ -54,8 +52,10 @@
         </childnode>
         <childnode refid="4987" relation="include">
         </childnode>
+        <childnode refid="4988" relation="include">
+        </childnode>
       </node>
-      <node id="4985">
+      <node id="4986">
         <label>algorithm</label>
       </node>
     </incdepgraph>
