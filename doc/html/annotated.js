@@ -17,9 +17,11 @@ var annotated =
       [ "Renderer", "dc/d58/classMustache_1_1Renderer.html", "dc/d58/classMustache_1_1Renderer" ]
     ] ],
     [ "Utils", null, [
+      [ "Directories", "d8/d40/classUtils_1_1Directories.html", "d8/d40/classUtils_1_1Directories" ],
       [ "HierarchicalSystem", "d1/de0/classUtils_1_1HierarchicalSystem.html", "d1/de0/classUtils_1_1HierarchicalSystem" ],
       [ "ItemType", "d5/d7c/classUtils_1_1ItemType.html", "d5/d7c/classUtils_1_1ItemType" ],
       [ "Log", "db/db3/classUtils_1_1Log.html", "db/db3/classUtils_1_1Log" ],
+      [ "pointers", "d4/d7a/classUtils_1_1pointers.html", "d4/d7a/classUtils_1_1pointers" ],
       [ "String", "dd/df6/classUtils_1_1String.html", "dd/df6/classUtils_1_1String" ]
     ] ],
     [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", "d1/db1/classBillingDatabaseTest" ],
