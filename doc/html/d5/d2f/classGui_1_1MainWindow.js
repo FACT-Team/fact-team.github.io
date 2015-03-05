@@ -11,6 +11,7 @@ var classGui_1_1MainWindow =
     [ "addDoc", "d5/d2f/classGui_1_1MainWindow.html#adf04c63032d4014163797ca73041511f", null ],
     [ "addProject", "d5/d2f/classGui_1_1MainWindow.html#acc49a5a35dfc7eb8f835ff425618e2d9", null ],
     [ "addQuote", "d5/d2f/classGui_1_1MainWindow.html#aa7d3f2553b55d74885ad7f19ed403dfd", null ],
+    [ "billingIsPaid", "d5/d2f/classGui_1_1MainWindow.html#a149c8e2210fa249c0510e1f607079fde", null ],
     [ "editCustomer", "d5/d2f/classGui_1_1MainWindow.html#a6487a725a2b58b89062944778ac59eca", null ],
     [ "editDoc", "d5/d2f/classGui_1_1MainWindow.html#a06bc679c41574cb679c6e5e7b673139c", null ],
     [ "editProject", "d5/d2f/classGui_1_1MainWindow.html#adade8f873eb855b2ca0bb851c91cc5a9", null ],

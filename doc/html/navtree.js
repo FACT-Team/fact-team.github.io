@@ -29,9 +29,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472ae07f1dc49d6e06735f63ec039e7ec77c",
-"da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a60bb2e12c0b0398c74d0e8c95304d7e4",
-"df/d3e/classProjectDatabaseTest.html#a248e2bfcc11bf553a5e004b2e1ce9e33"
+"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472a85c0e87f362943cf0244792873edd478",
+"da/d31/classMustache_1_1PartialFileLoader.html#a36ba8b817708a8755293db46bceb0dbb",
+"df/d31/namespaceDatabases.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

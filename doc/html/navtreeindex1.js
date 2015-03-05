@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472a85c0e87f362943cf0244792873edd478":[4,0,4,5,1,6],
+"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472aa6404ddcd9008449cc61bea039dbb0af":[4,0,4,5,1,4],
+"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472ad1e9af4f164680cdebbdeaef2c0a271c":[4,0,4,5,1,2],
 "d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472ae07f1dc49d6e06735f63ec039e7ec77c":[4,0,4,5,1,5],
 "d5/dc2/structMustache_1_1Tag.html#ad58b3b921b7e84c31efd88864c2040d4":[4,0,4,5,7],
 "d5/dcd/classCustomerModelTest.html":[4,0,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "da/d01/unitcombodelegate_8h_source.html":[5,0,0,0,0,0,0,2,3,1,3],
 "da/d07/md__home_travis_build_FACT-Team_FactDev_src_libs_qt-mustache_README.html":[1],
 "da/d15/usermodeltest_8h_source.html":[5,0,0,0,0,0,1,1,7],
-"da/d31/classMustache_1_1PartialFileLoader.html":[4,0,4,4],
-"da/d31/classMustache_1_1PartialFileLoader.html#a36ba8b817708a8755293db46bceb0dbb":[4,0,4,4,1],
-"da/d31/classMustache_1_1PartialFileLoader.html#aa29e049400b033d96c184a72b03306bf":[4,0,4,4,0],
-"da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html":[4,0,2,2,1,1]
+"da/d31/classMustache_1_1PartialFileLoader.html":[4,0,4,4]
 };

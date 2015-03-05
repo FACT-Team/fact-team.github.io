@@ -28,6 +28,7 @@
     <member refid="d4/d5c/classModels_1_1Billing_1a0f8da64a0a373577c24663fcc0d3d05f" kind="variable"><name>_number</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a06ce886391dcba8a6bdb50e328dbed64" kind="variable"><name>_isBilling</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a4122ac435ae923e95819ccbeaa815db1" kind="variable"><name>_date</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1acce59cb74b416af440792930c8d46a98" kind="variable"><name>_isPaid</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" kind="function"><name>Billing</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a2fba091975b0c62f7e65771e335e038b" kind="function"><name>Billing</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a36da0cd70a8f9db9be57bf32f7610e59" kind="function"><name>~Billing</name></member>
@@ -50,6 +51,8 @@
     <member refid="d4/d5c/classModels_1_1Billing_1aff8b71426c02bc97f0a724ef762cd42e" kind="function"><name>setIsBilling</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af0d1f0132d0902fb96456d0a9018b701" kind="function"><name>getDate</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ae8db0fe5fe273fad31e2f846b5b891cb" kind="function"><name>setDate</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1ab2f9bd62e920be8c68313e35bbcabd46" kind="function"><name>isPaid</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a99cf8c1b7435fe268b8fa9257cad6c56" kind="function"><name>setIsPaid</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af3d8818a1e00eaa707058567fccf045b" kind="function"><name>operator==</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" kind="function"><name>operator!=</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1acb836caf7aef8e953c432661cb8aa55f" kind="function"><name>setContributories</name></member>
@@ -64,6 +67,7 @@
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a74643c7e242cfe6fc294985984d6a65f" kind="function"><name>updateBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1aa6869fce7290e50723b5db5e125e9a6e" kind="function"><name>removeBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ab4eb6ce0f1126599012912d4869ad8b8" kind="function"><name>addBillingProject</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" kind="function"><name>isBillingPaid</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ad6320bcb8053fc0097939221546f7ecf" kind="function"><name>removeBillingProject</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" kind="function"><name>getMaxBillingNumber</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" kind="function"><name>getMaxQuoteNumber</name></member>
@@ -595,6 +599,7 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1ab86dd052f06fb56dbd77e3ae4c228796" kind="slot"><name>removeCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa7d3f2553b55d74885ad7f19ed403dfd" kind="slot"><name>addQuote</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a4b9d5d9bee4b7a5f7d8cfe04d1222315" kind="slot"><name>addBill</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a149c8e2210fa249c0510e1f607079fde" kind="slot"><name>billingIsPaid</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5dfb182cf52eb48f71e70cd193ef7a8b" kind="slot"><name>editUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af50656b4c43aa53bae1ac4a3d6b4c953" kind="slot"><name>search</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1acc49a5a35dfc7eb8f835ff425618e2d9" kind="slot"><name>addProject</name></member>

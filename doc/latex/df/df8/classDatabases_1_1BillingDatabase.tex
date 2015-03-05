@@ -32,6 +32,8 @@ void \hyperlink{classDatabases_1_1BillingDatabase_aa6869fce7290e50723b5db5e125e9
 \begin{DoxyCompactList}\small\item\em Billing\-Database\-::remove\-Customer Remove the billing with the id {\itshape p\-Id} \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1BillingDatabase_ab4eb6ce0f1126599012912d4869ad8b8}{add\-Billing\-Project} (const int id\-Project, const int id\-Billing, const int id\-Contributory)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ab4eb6ce0f1126599012912d4869ad8b8}{Billing\-Database\-::add\-Billing\-Project} Link a project, a billing and a contributory in the table Billing\-Project. \end{DoxyCompactList}\item 
+bool \hyperlink{classDatabases_1_1BillingDatabase_a0e1651d61ecec830edf4da0413cda325}{is\-Billing\-Paid} (const int p\-Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0e1651d61ecec830edf4da0413cda325}{Billing\-Database\-::is\-Billing\-Paid} Return T\-R\-U\-E if the id {\itshape p\-Id} correspond to a Billing and not quote (is\-Billing = 1) and if this billing is paid (is\-Paid = 1) else return F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1BillingDatabase_ad6320bcb8053fc0097939221546f7ecf}{remove\-Billing\-Project} (const int id\-Project, const int id\-Billing, const int id\-Contributory)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ad6320bcb8053fc0097939221546f7ecf}{Billing\-Database\-::remove\-Billing\-Project} remove a link between a project, a billing and a contributory in the table Billing\-Project. \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1BillingDatabase_a57e4b68cac145ba400d408698312599b}{get\-Max\-Billing\-Number} ()
@@ -220,6 +222,25 @@ Db\-Exception
 \end{DoxySeeAlso}
 \begin{DoxyReturn}{Returns}
 Instance of \hyperlink{classDatabases_1_1BillingDatabase}{Billing\-Database} 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a0e1651d61ecec830edf4da0413cda325}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!is\-Billing\-Paid@{is\-Billing\-Paid}}
+\index{is\-Billing\-Paid@{is\-Billing\-Paid}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{is\-Billing\-Paid}]{\setlength{\rightskip}{0pt plus 5cm}bool Databases\-::\-Billing\-Database\-::is\-Billing\-Paid (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\-Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a0e1651d61ecec830edf4da0413cda325}
+
+
+\hyperlink{classDatabases_1_1BillingDatabase_a0e1651d61ecec830edf4da0413cda325}{Billing\-Database\-::is\-Billing\-Paid} Return T\-R\-U\-E if the id {\itshape p\-Id} correspond to a Billing and not quote (is\-Billing = 1) and if this billing is paid (is\-Paid = 1) else return F\-A\-L\-S\-E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Id} & Billing id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+T\-R\-U\-E if billing is paid 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_aa6869fce7290e50723b5db5e125e9a6e}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!remove\-Billing@{remove\-Billing}}
 \index{remove\-Billing@{remove\-Billing}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}

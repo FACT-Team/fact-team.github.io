@@ -70,6 +70,10 @@ Q\-Date \hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{get
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{Billing\-::get\-Date}. return date of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{set\-Date} (const Q\-Date \&\hyperlink{classModels_1_1Billing_af0d1f0132d0902fb96456d0a9018b701}{get\-Date})
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ae8db0fe5fe273fad31e2f846b5b891cb}{Billing\-::set\-Date}. Modify {\itshape date} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
+bool \hyperlink{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}{is\-Paid} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}{Billing\-::is\-Paid} Return T\-R\-U\-E if thee current billing is paid else return F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1Billing_a99cf8c1b7435fe268b8fa9257cad6c56}{set\-Is\-Paid} (bool \hyperlink{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}{is\-Paid})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a99cf8c1b7435fe268b8fa9257cad6c56}{Billing\-::set\-Is\-Paid} Define the current billing according the argument {\itshape is\-Paid} \end{DoxyCompactList}\item 
 bool \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{operator==} (const \hyperlink{classModels_1_1Billing}{Billing} \&b)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af3d8818a1e00eaa707058567fccf045b}{Billing\-::operator ==} define the operator \char`\"{}==\char`\"{} to compare two billings and to see if they are the same. \end{DoxyCompactList}\item 
 bool \hyperlink{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{operator!=} (const \hyperlink{classModels_1_1Billing}{Billing} \&b)
@@ -250,6 +254,20 @@ Implements \hyperlink{classModels_1_1IModel_a7ce6def437f5e1f6a78ee1d67ca028e4}{M
 \begin{DoxyReturn}{Returns}
 if it's billing or a quote 
 \end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}{\index{Models\-::\-Billing@{Models\-::\-Billing}!is\-Paid@{is\-Paid}}
+\index{is\-Paid@{is\-Paid}!Models::Billing@{Models\-::\-Billing}}
+\subsubsection[{is\-Paid}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-Billing\-::is\-Paid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}
+
+
+\hyperlink{classModels_1_1Billing_ab2f9bd62e920be8c68313e35bbcabd46}{Billing\-::is\-Paid} Return T\-R\-U\-E if thee current billing is paid else return F\-A\-L\-S\-E. 
+
+\begin{DoxyReturn}{Returns}
+Boolean 
+\end{DoxyReturn}
 \hypertarget{classModels_1_1Billing_ae6ff88e05384718d57be1be38f250a52}{\index{Models\-::\-Billing@{Models\-::\-Billing}!operator!=@{operator!=}}
 \index{operator!=@{operator!=}!Models::Billing@{Models\-::\-Billing}}
 \subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-Billing\-::operator!= (
@@ -353,6 +371,22 @@ true if they are the same billings else false
 
 \begin{DoxyParams}{Parameters}
 {\em is\-Billing} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1Billing_a99cf8c1b7435fe268b8fa9257cad6c56}{\index{Models\-::\-Billing@{Models\-::\-Billing}!set\-Is\-Paid@{set\-Is\-Paid}}
+\index{set\-Is\-Paid@{set\-Is\-Paid}!Models::Billing@{Models\-::\-Billing}}
+\subsubsection[{set\-Is\-Paid}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Billing\-::set\-Is\-Paid (
+\begin{DoxyParamCaption}
+\item[{bool}]{is\-Paid}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_a99cf8c1b7435fe268b8fa9257cad6c56}
+
+
+\hyperlink{classModels_1_1Billing_a99cf8c1b7435fe268b8fa9257cad6c56}{Billing\-::set\-Is\-Paid} Define the current billing according the argument {\itshape is\-Paid} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\-Paid} & Boolean \\
 \hline
 \end{DoxyParams}
 \hypertarget{classModels_1_1Billing_a2b43e0c657a9e717c9d2c091d222369e}{\index{Models\-::\-Billing@{Models\-::\-Billing}!set\-Number@{set\-Number}}

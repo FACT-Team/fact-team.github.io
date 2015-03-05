@@ -16,6 +16,7 @@ var classModels_1_1Billing =
     [ "getTitle", "d4/d5c/classModels_1_1Billing.html#a15cd358ce3cab05668c62c0771afdb85", null ],
     [ "hydrat", "d4/d5c/classModels_1_1Billing.html#a689643008955fdcd5833631a6202c0dc", null ],
     [ "isBilling", "d4/d5c/classModels_1_1Billing.html#ab03dd29a9812a995355a1d93318f348f", null ],
+    [ "isPaid", "d4/d5c/classModels_1_1Billing.html#ab2f9bd62e920be8c68313e35bbcabd46", null ],
     [ "operator!=", "d4/d5c/classModels_1_1Billing.html#ae6ff88e05384718d57be1be38f250a52", null ],
     [ "operator<", "d4/d5c/classModels_1_1Billing.html#a6d3f5da2e9a0b7de217dc51220c4c7b7", null ],
     [ "operator==", "d4/d5c/classModels_1_1Billing.html#af3d8818a1e00eaa707058567fccf045b", null ],
@@ -24,6 +25,7 @@ var classModels_1_1Billing =
     [ "setDate", "d4/d5c/classModels_1_1Billing.html#ae8db0fe5fe273fad31e2f846b5b891cb", null ],
     [ "setDescription", "d4/d5c/classModels_1_1Billing.html#adb5cf4382150387f10bb6b774ace6bc8", null ],
     [ "setIsBilling", "d4/d5c/classModels_1_1Billing.html#aff8b71426c02bc97f0a724ef762cd42e", null ],
+    [ "setIsPaid", "d4/d5c/classModels_1_1Billing.html#a99cf8c1b7435fe268b8fa9257cad6c56", null ],
     [ "setNumber", "d4/d5c/classModels_1_1Billing.html#a2b43e0c657a9e717c9d2c091d222369e", null ],
     [ "setTitle", "d4/d5c/classModels_1_1Billing.html#ae20cea169abdffa5daaa368547425928", null ]
 ];

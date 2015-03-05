@@ -110,6 +110,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:ab4eb6ce0f1126599012912d4869ad8b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#ab4eb6ce0f1126599012912d4869ad8b8">addBillingProject</a> (const int idProject, const int idBilling, const int idContributory)</td></tr>
 <tr class="memdesc:ab4eb6ce0f1126599012912d4869ad8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#ab4eb6ce0f1126599012912d4869ad8b8" title="BillingDatabase::addBillingProject Link a project, a billing and a contributory in the table BillingP...">BillingDatabase::addBillingProject</a> Link a project, a billing and a contributory in the table BillingProject.  <a href="#ab4eb6ce0f1126599012912d4869ad8b8">More...</a><br/></td></tr>
 <tr class="separator:ab4eb6ce0f1126599012912d4869ad8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1651d61ecec830edf4da0413cda325"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#a0e1651d61ecec830edf4da0413cda325">isBillingPaid</a> (const int pId)</td></tr>
+<tr class="memdesc:a0e1651d61ecec830edf4da0413cda325"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#a0e1651d61ecec830edf4da0413cda325" title="BillingDatabase::isBillingPaid Return TRUE if the id pId correspond to a Billing and not quote (isBil...">BillingDatabase::isBillingPaid</a> Return TRUE if the id <em>pId</em> correspond to a Billing and not quote (isBilling = 1) and if this billing is paid (isPaid = 1) else return FALSE.  <a href="#a0e1651d61ecec830edf4da0413cda325">More...</a><br/></td></tr>
+<tr class="separator:a0e1651d61ecec830edf4da0413cda325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6320bcb8053fc0097939221546f7ecf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#ad6320bcb8053fc0097939221546f7ecf">removeBillingProject</a> (const int idProject, const int idBilling, const int idContributory)</td></tr>
 <tr class="memdesc:ad6320bcb8053fc0097939221546f7ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#ad6320bcb8053fc0097939221546f7ecf" title="BillingDatabase::removeBillingProject remove a link between a project, a billing and a contributory i...">BillingDatabase::removeBillingProject</a> remove a link between a project, a billing and a contributory in the table BillingProject.  <a href="#ad6320bcb8053fc0097939221546f7ecf">More...</a><br/></td></tr>
 <tr class="separator:ad6320bcb8053fc0097939221546f7ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -461,6 +464,31 @@ Billing/Quote </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a0e1651d61ecec830edf4da0413cda325"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Databases::BillingDatabase::isBillingPaid </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>pId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html#a0e1651d61ecec830edf4da0413cda325" title="BillingDatabase::isBillingPaid Return TRUE if the id pId correspond to a Billing and not quote (isBil...">BillingDatabase::isBillingPaid</a> Return TRUE if the id <em>pId</em> correspond to a Billing and not quote (isBilling = 1) and if this billing is paid (isPaid = 1) else return FALSE. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pId</td><td>Billing id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if billing is paid </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa6869fce7290e50723b5db5e125e9a6e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -537,7 +565,7 @@ Billing/Quote </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d31/namespaceDatabases.html">Databases</a></li><li class="navelem"><a class="el" href="../../df/df8/classDatabases_1_1BillingDatabase.html">BillingDatabase</a></li>
-    <li class="footer">Generated on Thu Mar 5 2015 09:44:27 for FactDev by
+    <li class="footer">Generated on Thu Mar 5 2015 14:39:35 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
