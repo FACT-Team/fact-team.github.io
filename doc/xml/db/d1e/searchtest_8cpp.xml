@@ -6,122 +6,81 @@
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includes refid="d1/d70/customerdatabase_8h" local="yes">database/customerdatabase.h</includes>
     <incdepgraph>
-      <node id="4685">
+      <node id="4676">
         <label>list</label>
       </node>
-      <node id="4693">
+      <node id="4684">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="4685" relation="include">
+        </childnode>
+      </node>
+      <node id="4678">
+        <label>models/search.h</label>
+        <link refid="d9/d85/search_8h_source"/>
+        <childnode refid="4679" relation="include">
+        </childnode>
+      </node>
+      <node id="4692">
+        <label>QSettings</label>
+      </node>
+      <node id="4696">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="4706">
+        <label>QMessageBox</label>
+      </node>
+      <node id="4681">
+        <label>QObject</label>
+      </node>
+      <node id="4670">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.cpp</label>
+        <link refid="searchtest.cpp"/>
+        <childnode refid="4671" relation="include">
+        </childnode>
+        <childnode refid="4683" relation="include">
+        </childnode>
         <childnode refid="4694" relation="include">
         </childnode>
       </node>
-      <node id="4687">
-        <label>models/search.h</label>
-        <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="4688" relation="include">
-        </childnode>
-      </node>
-      <node id="4701">
-        <label>QSettings</label>
-      </node>
-      <node id="4705">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="4715">
-        <label>QMessageBox</label>
-      </node>
-      <node id="4690">
-        <label>QObject</label>
-      </node>
-      <node id="4679">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.cpp</label>
-        <link refid="searchtest.cpp"/>
-        <childnode refid="4680" relation="include">
-        </childnode>
-        <childnode refid="4692" relation="include">
-        </childnode>
-        <childnode refid="4703" relation="include">
-        </childnode>
-      </node>
-      <node id="4712">
+      <node id="4703">
         <label>exceptions/dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="4711" relation="include">
+        <childnode refid="4702" relation="include">
         </childnode>
-        <childnode refid="4713" relation="include">
+        <childnode refid="4704" relation="include">
         </childnode>
-        <childnode refid="4686" relation="include">
+        <childnode refid="4677" relation="include">
         </childnode>
-        <childnode refid="4714" relation="include">
-        </childnode>
-        <childnode refid="4715" relation="include">
-        </childnode>
-        <childnode refid="4695" relation="include">
-        </childnode>
-      </node>
-      <node id="4680">
-        <label>searchtest.h</label>
-        <link refid="d4/df4/searchtest_8h_source"/>
-        <childnode refid="4681" relation="include">
-        </childnode>
-        <childnode refid="4687" relation="include">
-        </childnode>
-        <childnode refid="4689" relation="include">
-        </childnode>
-      </node>
-      <node id="4706">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="4702">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="4688" relation="include">
-        </childnode>
-      </node>
-      <node id="4704">
-        <label>database/database.h</label>
-        <link refid="d8/d9c/database_8h_source"/>
         <childnode refid="4705" relation="include">
         </childnode>
         <childnode refid="4706" relation="include">
         </childnode>
-        <childnode refid="4707" relation="include">
-        </childnode>
-        <childnode refid="4708" relation="include">
-        </childnode>
-        <childnode refid="4709" relation="include">
-        </childnode>
-        <childnode refid="4701" relation="include">
-        </childnode>
-        <childnode refid="4710" relation="include">
-        </childnode>
-        <childnode refid="4697" relation="include">
-        </childnode>
-        <childnode refid="4698" relation="include">
-        </childnode>
-        <childnode refid="4696" relation="include">
-        </childnode>
-        <childnode refid="4711" relation="include">
-        </childnode>
-        <childnode refid="4712" relation="include">
-        </childnode>
-        <childnode refid="4695" relation="include">
-        </childnode>
-        <childnode refid="4702" relation="include">
+        <childnode refid="4686" relation="include">
         </childnode>
       </node>
-      <node id="4714">
-        <label>stdexcept</label>
+      <node id="4671">
+        <label>searchtest.h</label>
+        <link refid="d4/df4/searchtest_8h_source"/>
+        <childnode refid="4672" relation="include">
+        </childnode>
+        <childnode refid="4678" relation="include">
+        </childnode>
+        <childnode refid="4680" relation="include">
+        </childnode>
       </node>
-      <node id="4709">
-        <label>QStandardItemModel</label>
+      <node id="4697">
+        <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="4683">
-        <label>QSharedPointer</label>
+      <node id="4693">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="4679" relation="include">
+        </childnode>
       </node>
       <node id="4695">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
+        <label>database/database.h</label>
+        <link refid="d8/d9c/database_8h_source"/>
         <childnode refid="4696" relation="include">
         </childnode>
         <childnode refid="4697" relation="include">
@@ -132,115 +91,156 @@
         </childnode>
         <childnode refid="4700" relation="include">
         </childnode>
+        <childnode refid="4692" relation="include">
+        </childnode>
         <childnode refid="4701" relation="include">
         </childnode>
         <childnode refid="4688" relation="include">
         </childnode>
+        <childnode refid="4689" relation="include">
+        </childnode>
+        <childnode refid="4687" relation="include">
+        </childnode>
         <childnode refid="4702" relation="include">
         </childnode>
+        <childnode refid="4703" relation="include">
+        </childnode>
+        <childnode refid="4686" relation="include">
+        </childnode>
+        <childnode refid="4693" relation="include">
+        </childnode>
       </node>
-      <node id="4708">
-        <label>QtSql/QSqlRecord</label>
+      <node id="4705">
+        <label>stdexcept</label>
       </node>
-      <node id="4710">
-        <label>QStandardItem</label>
+      <node id="4700">
+        <label>QStandardItemModel</label>
       </node>
-      <node id="4711">
-        <label>exception</label>
+      <node id="4674">
+        <label>QSharedPointer</label>
       </node>
-      <node id="4716">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
+      <node id="4686">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="4687" relation="include">
+        </childnode>
         <childnode refid="4688" relation="include">
-        </childnode>
-      </node>
-      <node id="4703">
-        <label>database/customerdatabase.h</label>
-        <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="4704" relation="include">
-        </childnode>
-        <childnode refid="4712" relation="include">
-        </childnode>
-        <childnode refid="4692" relation="include">
-        </childnode>
-        <childnode refid="4695" relation="include">
-        </childnode>
-        <childnode refid="4716" relation="include">
         </childnode>
         <childnode refid="4689" relation="include">
         </childnode>
-      </node>
-      <node id="4700">
-        <label>QDebug</label>
-      </node>
-      <node id="4689">
-        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
-        <link refid="da/d77/customerstablemodel_8h_source"/>
         <childnode refid="4690" relation="include">
         </childnode>
         <childnode refid="4691" relation="include">
         </childnode>
         <childnode refid="4692" relation="include">
         </childnode>
-        <childnode refid="4695" relation="include">
-        </childnode>
-      </node>
-      <node id="4682">
-        <label>QTest</label>
-      </node>
-      <node id="4694">
-        <label>QVariantHash</label>
-      </node>
-      <node id="4713">
-        <label>sstream</label>
-      </node>
-      <node id="4697">
-        <label>QDate</label>
-      </node>
-      <node id="4688">
-        <label>QString</label>
-      </node>
-      <node id="4696">
-        <label>QFile</label>
-      </node>
-      <node id="4707">
-        <label>QtSql/QSqlError</label>
-      </node>
-      <node id="4686">
-        <label>iostream</label>
-      </node>
-      <node id="4699">
-        <label>QTextStream</label>
-      </node>
-      <node id="4681">
-        <label>QTestRunner/testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="4682" relation="include">
-        </childnode>
-        <childnode refid="4683" relation="include">
-        </childnode>
-        <childnode refid="4684" relation="include">
-        </childnode>
-        <childnode refid="4685" relation="include">
-        </childnode>
-        <childnode refid="4686" relation="include">
-        </childnode>
-      </node>
-      <node id="4692">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="4688" relation="include">
+        <childnode refid="4679" relation="include">
         </childnode>
         <childnode refid="4693" relation="include">
         </childnode>
       </node>
-      <node id="4684">
-        <label>algorithm</label>
+      <node id="4699">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="4701">
+        <label>QStandardItem</label>
+      </node>
+      <node id="4702">
+        <label>exception</label>
+      </node>
+      <node id="4707">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="4679" relation="include">
+        </childnode>
+      </node>
+      <node id="4694">
+        <label>database/customerdatabase.h</label>
+        <link refid="d1/d70/customerdatabase_8h_source"/>
+        <childnode refid="4695" relation="include">
+        </childnode>
+        <childnode refid="4703" relation="include">
+        </childnode>
+        <childnode refid="4683" relation="include">
+        </childnode>
+        <childnode refid="4686" relation="include">
+        </childnode>
+        <childnode refid="4707" relation="include">
+        </childnode>
+        <childnode refid="4680" relation="include">
+        </childnode>
       </node>
       <node id="4691">
-        <label>QAbstractTableModel</label>
+        <label>QDebug</label>
+      </node>
+      <node id="4680">
+        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
+        <link refid="da/d77/customerstablemodel_8h_source"/>
+        <childnode refid="4681" relation="include">
+        </childnode>
+        <childnode refid="4682" relation="include">
+        </childnode>
+        <childnode refid="4683" relation="include">
+        </childnode>
+        <childnode refid="4686" relation="include">
+        </childnode>
+      </node>
+      <node id="4673">
+        <label>QTest</label>
+      </node>
+      <node id="4685">
+        <label>QVariantHash</label>
+      </node>
+      <node id="4704">
+        <label>sstream</label>
+      </node>
+      <node id="4688">
+        <label>QDate</label>
+      </node>
+      <node id="4679">
+        <label>QString</label>
+      </node>
+      <node id="4687">
+        <label>QFile</label>
       </node>
       <node id="4698">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="4677">
+        <label>iostream</label>
+      </node>
+      <node id="4690">
+        <label>QTextStream</label>
+      </node>
+      <node id="4672">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="4673" relation="include">
+        </childnode>
+        <childnode refid="4674" relation="include">
+        </childnode>
+        <childnode refid="4675" relation="include">
+        </childnode>
+        <childnode refid="4676" relation="include">
+        </childnode>
+        <childnode refid="4677" relation="include">
+        </childnode>
+      </node>
+      <node id="4683">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="4679" relation="include">
+        </childnode>
+        <childnode refid="4684" relation="include">
+        </childnode>
+      </node>
+      <node id="4675">
+        <label>algorithm</label>
+      </node>
+      <node id="4682">
+        <label>QAbstractTableModel</label>
+      </node>
+      <node id="4689">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
