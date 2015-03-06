@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472a680bf1878bdfa8c7ed5a594603b638be":[4,0,4,5,1,7],
 "d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472a85c0e87f362943cf0244792873edd478":[4,0,4,5,1,6],
 "d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472aa6404ddcd9008449cc61bea039dbb0af":[4,0,4,5,1,4],
 "d5/dc2/structMustache_1_1Tag.html#ab702ed1288811f8bb16d76babfdb6472ad1e9af4f164680cdebbdeaef2c0a271c":[4,0,4,5,1,2],
@@ -33,7 +34,7 @@ var NAVTREEINDEX1 =
 "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#a68b6b01e0818cb6615b2335d486aac09":[4,0,2,0,1,4],
 "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#a785fd0ceb950e0c7951720a28d4f0717":[4,0,2,0,1,1],
 "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#abcc6fc79a513dd1765a4494d9499586b":[4,0,2,0,1,2],
-"d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#ae6a6d0730d6ec3804ab802821e89ebd5":[4,0,2,0,1,0],
+"d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#afd8d99fa13d193bef641a9daea144daa":[4,0,2,0,1,0],
 "d6/d44/classModels_1_1Search.html":[4,0,3,7],
 "d6/d44/classModels_1_1Search.html#a05ea0037161dce5dde6876afa384d71f":[4,0,3,7,0],
 "d6/d44/classModels_1_1Search.html#a1bd00e3da5d5e10b4bec6579fb1c8bfa":[4,0,3,7,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d9/dfd/projectdatabase_8h_source.html":[5,0,0,0,0,0,0,0,4],
 "da/d01/unitcombodelegate_8h_source.html":[5,0,0,0,0,0,0,2,3,1,3],
 "da/d07/md__home_travis_build_FACT-Team_FactDev_src_libs_qt-mustache_README.html":[1],
-"da/d15/usermodeltest_8h_source.html":[5,0,0,0,0,0,1,1,7],
-"da/d31/classMustache_1_1PartialFileLoader.html":[4,0,4,4]
+"da/d15/usermodeltest_8h_source.html":[5,0,0,0,0,0,1,1,7]
 };
