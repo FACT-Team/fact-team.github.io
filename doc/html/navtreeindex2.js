@@ -36,8 +36,8 @@ var NAVTREEINDEX2 =
 "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html#a084cf5bf5f0630ef0a92a4bb2be8646e":[4,0,2,2,0,8,0],
 "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html#a973f81b959d34b28818159303932f5f8":[4,0,2,2,0,8,1],
 "db/da6/classCounterContext.html":[4,0,11],
-"db/da6/classCounterContext.html#a01764884d5bdbe014b8e569c10c82e99":[4,0,11,4],
 "db/da6/classCounterContext.html#a01764884d5bdbe014b8e569c10c82e99":[4,0,11,5],
+"db/da6/classCounterContext.html#a01764884d5bdbe014b8e569c10c82e99":[4,0,11,4],
 "db/da6/classCounterContext.html#a05c70666c806b2cd888c24f5edae8d87":[4,0,11,0],
 "db/da6/classCounterContext.html#a05c70666c806b2cd888c24f5edae8d87":[4,0,11,1],
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,11,3],
@@ -246,8 +246,8 @@ var NAVTREEINDEX2 =
 "de/dc9/checkqlineedit_8h_source.html":[5,0,0,0,0,0,0,2,3,0,7],
 "de/ddd/directories_8h_source.html":[5,0,0,0,0,0,0,5,0],
 "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html":[4,0,2,0,4],
-"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a150383686cb4cb53d2ce1a708b500641":[4,0,2,0,4,8],
-"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a30d97171779c86ecc497ef6990829fca":[4,0,2,0,4,5],
+"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a30d97171779c86ecc497ef6990829fca":[4,0,2,0,4,4],
 "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a978449729fbfc503919f29d1d2c7b4f6":[4,0,2,0,4,0],
-"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a9ea73c16c7917ff50c596cd1942dabfa":[4,0,2,0,4,4]
+"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a9ea73c16c7917ff50c596cd1942dabfa":[4,0,2,0,4,3],
+"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#aa5da70f656530017906b5aa974fbc080":[4,0,2,0,4,2]
 };
