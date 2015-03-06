@@ -66,7 +66,6 @@ var hierarchy =
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
-      [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
       [ "Gui::Dialogs::UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
