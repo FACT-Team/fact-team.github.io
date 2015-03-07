@@ -6,6 +6,7 @@ var dir_5612d4083169620a978afed5dfdfce80 =
     [ "checkfieldsletters.h", "d6/df4/checkfieldsletters_8h_source.html", null ],
     [ "checkfieldsnumbers.h", "db/d12/checkfieldsnumbers_8h_source.html", null ],
     [ "checkipaddress.h", "da/da2/checkipaddress_8h_source.html", null ],
+    [ "checklogin.h", "d3/d0c/checklogin_8h_source.html", null ],
     [ "checkname.h", "da/d9e/checkname_8h_source.html", null ],
     [ "checkphone.h", "d2/dcf/checkphone_8h_source.html", null ],
     [ "checkpostalcode.h", "d5/d31/checkpostalcode_8h_source.html", null ],

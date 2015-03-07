@@ -34,6 +34,7 @@ var hierarchy =
           ] ],
           [ "Gui::Widgets::CheckFields::CheckFieldsNumbers", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers.html", null ],
           [ "Gui::Widgets::CheckFields::CheckIpAddress", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress.html", null ],
+          [ "Gui::Widgets::CheckFields::CheckLogin", "dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", null ]
         ] ],

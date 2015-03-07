@@ -7,6 +7,7 @@ var namespaceGui_1_1Widgets =
       [ "CheckFieldsLetters", "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html", "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters" ],
       [ "CheckFieldsNumbers", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers.html", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers" ],
       [ "CheckIpAddress", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress.html", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress" ],
+      [ "CheckLogin", "dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin.html", "dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin" ],
       [ "CheckName", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName.html", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" ],
       [ "CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" ],
       [ "CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" ],
