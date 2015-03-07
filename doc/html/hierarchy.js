@@ -32,6 +32,8 @@ var hierarchy =
             [ "Gui::Widgets::CheckFields::CheckCountry", "d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry.html", null ],
             [ "Gui::Widgets::CheckFields::CheckName", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName.html", null ]
           ] ],
+          [ "Gui::Widgets::CheckFields::CheckFieldsNumbers", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers.html", null ],
+          [ "Gui::Widgets::CheckFields::CheckIpAddress", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", null ]
         ] ],
@@ -124,7 +126,7 @@ var hierarchy =
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ]
 ];

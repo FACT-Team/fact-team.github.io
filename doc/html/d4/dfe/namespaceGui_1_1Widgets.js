@@ -5,6 +5,8 @@ var namespaceGui_1_1Widgets =
       [ "CheckCountry", "d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry.html", "d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry" ],
       [ "CheckEmail", "d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail.html", "d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail" ],
       [ "CheckFieldsLetters", "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html", "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters" ],
+      [ "CheckFieldsNumbers", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers.html", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers" ],
+      [ "CheckIpAddress", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress.html", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress" ],
       [ "CheckName", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName.html", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" ],
       [ "CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" ],
       [ "CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" ],
