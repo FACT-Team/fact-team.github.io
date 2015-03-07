@@ -13,6 +13,7 @@ var classModels_1_1Billing =
     [ "getNumber", "d4/d5c/classModels_1_1Billing.html#a48c6e28a4aec13f8ed6b3ebbab837f0b", null ],
     [ "getSumQuantity", "d4/d5c/classModels_1_1Billing.html#a360006189d4867e3281009b0c465bc53", null ],
     [ "getSumRate", "d4/d5c/classModels_1_1Billing.html#ab12d213423acfe0e0b7b1f6b43a92e28", null ],
+    [ "getSumRateProject", "d4/d5c/classModels_1_1Billing.html#ac5d25f7002d05ec0bd368fb80be8c9dc", null ],
     [ "getTitle", "d4/d5c/classModels_1_1Billing.html#a15cd358ce3cab05668c62c0771afdb85", null ],
     [ "hydrat", "d4/d5c/classModels_1_1Billing.html#a689643008955fdcd5833631a6202c0dc", null ],
     [ "isBilling", "d4/d5c/classModels_1_1Billing.html#ab03dd29a9812a995355a1d93318f348f", null ],
