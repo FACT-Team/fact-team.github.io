@@ -5,6 +5,7 @@ var classDatabases_1_1BillingDatabase =
     [ "getAllBillingsOfProject", "df/df8/classDatabases_1_1BillingDatabase.html#a44c3e09fbb7d540579f4cceae4d6901f", null ],
     [ "getBilling", "df/df8/classDatabases_1_1BillingDatabase.html#a835d4ca35a046fe1d0b336a1b8cf8f85", null ],
     [ "getBilling", "df/df8/classDatabases_1_1BillingDatabase.html#a2e6c6cd8b3b040eeb7fc6ae727e85013", null ],
+    [ "getBillings", "df/df8/classDatabases_1_1BillingDatabase.html#a0eb72e4dfee0ff38f2f4b795a16007c8", null ],
     [ "getBillingsTable", "df/df8/classDatabases_1_1BillingDatabase.html#ade754e6aa116aa75606cf24474631322", null ],
     [ "getMaxBillingNumber", "df/df8/classDatabases_1_1BillingDatabase.html#a57e4b68cac145ba400d408698312599b", null ],
     [ "getMaxQuoteNumber", "df/df8/classDatabases_1_1BillingDatabase.html#a91704d31741279aacf9a9903b7ebcbf5", null ],

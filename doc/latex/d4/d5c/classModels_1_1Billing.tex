@@ -44,12 +44,10 @@ Q\-Variant\-Hash \hyperlink{classModels_1_1Billing_a2363c0b978434c0a835f894a67eb
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_af3d66c06d8c4d855b0efa5ff599a3ceb}{Billing\-::get\-Contributories}. Return a map of {\bfseries \hyperlink{classModels_1_1Contributory}{Contributory}} for each {\bfseries \hyperlink{classModels_1_1Project}{Project}} of the {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1Billing_a3636d785d2cb77d83d21a795e1f91a60}{add\-Contributory} (\hyperlink{classModels_1_1Contributory}{Contributory} \&c)
 \begin{DoxyCompactList}\small\item\em add\-Contributories Add a new contributory for project p \end{DoxyCompactList}\item 
-\hypertarget{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{double {\bfseries get\-Sum\-Rate} ()}\label{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}
-
-\item 
-\hypertarget{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{double {\bfseries get\-Sum\-Quantity} ()}\label{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}
-
-\item 
+double \hyperlink{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{get\-Sum\-Rate} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{Billing\-::get\-Sum\-Rate}. return {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} total by money. \end{DoxyCompactList}\item 
+double \hyperlink{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{get\-Sum\-Quantity} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{Billing\-::get\-Sum\-Quantity}. return {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} total by time. \end{DoxyCompactList}\item 
 Q\-String \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\-Title} () const 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{Billing\-::get\-Title}. return title of {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1Billing_ae20cea169abdffa5daaa368547425928}{set\-Title} (const Q\-String \&\hyperlink{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{get\-Title})
@@ -90,7 +88,7 @@ bool \hyperlink{classModels_1_1Billing_a6d3f5da2e9a0b7de217dc51220c4c7b7}{operat
 The \hyperlink{classModels_1_1Billing}{Billing} class \-: \hyperlink{classModels_1_1Billing}{Billing} or Quote of a \hyperlink{classModels_1_1Customer}{Customer}. 
 
 \begin{DoxyAuthor}{Author}
-Cédric Rohaut  for the quote part 
+
 \end{DoxyAuthor}
 
 
@@ -205,6 +203,34 @@ description of \hyperlink{classModels_1_1Billing}{Billing}
 
 \begin{DoxyReturn}{Returns}
 \-\_\-number of \hyperlink{classModels_1_1Billing}{Billing} 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{\index{Models\-::\-Billing@{Models\-::\-Billing}!get\-Sum\-Quantity@{get\-Sum\-Quantity}}
+\index{get\-Sum\-Quantity@{get\-Sum\-Quantity}!Models::Billing@{Models\-::\-Billing}}
+\subsubsection[{get\-Sum\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-Billing\-::get\-Sum\-Quantity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}
+
+
+\hyperlink{classModels_1_1Billing_a360006189d4867e3281009b0c465bc53}{Billing\-::get\-Sum\-Quantity}. return {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} total by time. 
+
+\begin{DoxyReturn}{Returns}
+time in hours 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{\index{Models\-::\-Billing@{Models\-::\-Billing}!get\-Sum\-Rate@{get\-Sum\-Rate}}
+\index{get\-Sum\-Rate@{get\-Sum\-Rate}!Models::Billing@{Models\-::\-Billing}}
+\subsubsection[{get\-Sum\-Rate}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-Billing\-::get\-Sum\-Rate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}
+
+
+\hyperlink{classModels_1_1Billing_ab12d213423acfe0e0b7b1f6b43a92e28}{Billing\-::get\-Sum\-Rate}. return {\bfseries \hyperlink{classModels_1_1Billing}{Billing}} total by money. 
+
+\begin{DoxyReturn}{Returns}
+money 
 \end{DoxyReturn}
 \hypertarget{classModels_1_1Billing_a15cd358ce3cab05668c62c0771afdb85}{\index{Models\-::\-Billing@{Models\-::\-Billing}!get\-Title@{get\-Title}}
 \index{get\-Title@{get\-Title}!Models::Billing@{Models\-::\-Billing}}
