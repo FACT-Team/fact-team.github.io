@@ -31,6 +31,7 @@ var namespaceGui_1_1Widgets =
     [ "ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget" ],
     [ "CustomerContextualMenu", "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html", "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" ],
     [ "CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget" ],
+    [ "DatabaseSettingsWidget", "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html", "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget" ],
     [ "Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", "d4/d2f/classGui_1_1Widgets_1_1Popup" ],
     [ "ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget" ],
     [ "RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", "d0/de2/classGui_1_1Widgets_1_1RateWidget" ],
