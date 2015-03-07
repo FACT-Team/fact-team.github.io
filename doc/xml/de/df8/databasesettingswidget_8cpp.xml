@@ -62,8 +62,15 @@
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a42909f8a25f7e75685f1b02d811fd6eb" kindref="member">DatabaseSettingsWidget::checkRepeatLogin</ref>(QString<sp/>text)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leLoginRepeat-&gt;loginPreviousInputed(ui-&gt;leLogin-&gt;text());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>ui-&gt;leLoginRepeat-&gt;fieldTextChanged(text);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">isValid</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/databasesettingswidget.cpp"/>
   </compounddef>
