@@ -4,92 +4,92 @@
     <compoundname>customerstablemodel.cpp</compoundname>
     <includes refid="da/d77/customerstablemodel_8h" local="yes">customerstablemodel.h</includes>
     <incdepgraph>
-      <node id="2468">
+      <node id="2594">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="2469" relation="include">
+        <childnode refid="2595" relation="include">
         </childnode>
       </node>
-      <node id="2476">
+      <node id="2602">
         <label>QSettings</label>
       </node>
-      <node id="2464">
+      <node id="2590">
         <label>QObject</label>
       </node>
-      <node id="2477">
+      <node id="2603">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2593" relation="include">
         </childnode>
       </node>
-      <node id="2462">
+      <node id="2588">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.cpp</label>
         <link refid="customerstablemodel.cpp"/>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2589" relation="include">
         </childnode>
       </node>
-      <node id="2470">
+      <node id="2596">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="2471" relation="include">
+        <childnode refid="2597" relation="include">
         </childnode>
-        <childnode refid="2472" relation="include">
+        <childnode refid="2598" relation="include">
         </childnode>
-        <childnode refid="2473" relation="include">
+        <childnode refid="2599" relation="include">
         </childnode>
-        <childnode refid="2474" relation="include">
+        <childnode refid="2600" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2601" relation="include">
         </childnode>
-        <childnode refid="2476" relation="include">
+        <childnode refid="2602" relation="include">
         </childnode>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2593" relation="include">
         </childnode>
-        <childnode refid="2477" relation="include">
+        <childnode refid="2603" relation="include">
         </childnode>
       </node>
-      <node id="2475">
+      <node id="2601">
         <label>QDebug</label>
       </node>
-      <node id="2463">
+      <node id="2589">
         <label>customerstablemodel.h</label>
         <link refid="da/d77/customerstablemodel_8h_source"/>
-        <childnode refid="2464" relation="include">
+        <childnode refid="2590" relation="include">
         </childnode>
-        <childnode refid="2465" relation="include">
+        <childnode refid="2591" relation="include">
         </childnode>
-        <childnode refid="2466" relation="include">
+        <childnode refid="2592" relation="include">
         </childnode>
-        <childnode refid="2470" relation="include">
+        <childnode refid="2596" relation="include">
         </childnode>
       </node>
-      <node id="2469">
+      <node id="2595">
         <label>QVariantHash</label>
       </node>
-      <node id="2472">
+      <node id="2598">
         <label>QDate</label>
       </node>
-      <node id="2467">
+      <node id="2593">
         <label>QString</label>
       </node>
-      <node id="2471">
+      <node id="2597">
         <label>QFile</label>
       </node>
-      <node id="2474">
+      <node id="2600">
         <label>QTextStream</label>
       </node>
-      <node id="2466">
+      <node id="2592">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2593" relation="include">
         </childnode>
-        <childnode refid="2468" relation="include">
+        <childnode refid="2594" relation="include">
         </childnode>
       </node>
-      <node id="2465">
+      <node id="2591">
         <label>QAbstractTableModel</label>
       </node>
-      <node id="2473">
+      <node id="2599">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -124,7 +124,7 @@
 <codeline lineno="24"><highlight class="normal">QVariant<sp/><ref refid="d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel_1a56f0da4118917c722bc27eb907e7e5fa" kindref="member">Gui::Widgets::WdgModels::CustomersTableModel::data</ref>(</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>role)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="26"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((role<sp/>!=<sp/>Qt::DisplayRole<sp/>&amp;&amp;<sp/>role<sp/>!=<sp/>Qt::EditRole)<sp/>||<sp/>index.row()<sp/>==<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(role<sp/>!=<sp/>Qt::DisplayRole<sp/>&amp;&amp;<sp/>role<sp/>!=<sp/>Qt::EditRole<sp/>||<sp/>index.row()<sp/>==<sp/>-1)<sp/>{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QVariant();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
