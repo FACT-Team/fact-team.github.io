@@ -132,7 +132,8 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a835d4ca35a046fe1d0b336a1b8cf8f85">Databases::BillingDatabase</a>
 </li>
 <li>getBillings()
-: <a class="el" href="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a9fd40a3339be5a1efbe621f6a1bb89aa">Gui::Widgets::WdgModels::BillingsTableModel</a>
+: <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a0eb72e4dfee0ff38f2f4b795a16007c8">Databases::BillingDatabase</a>
+, <a class="el" href="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a9fd40a3339be5a1efbe621f6a1bb89aa">Gui::Widgets::WdgModels::BillingsTableModel</a>
 </li>
 <li>getBillingsTable()
 : <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#ade754e6aa116aa75606cf24474631322">Databases::BillingDatabase</a>
@@ -153,11 +154,17 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 , <a class="el" href="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html#af20bc21f24f7597b6b7d053d11d02d97">Gui::Widgets::WdgModels::ContributoriesTableModel</a>
 , <a class="el" href="d4/d5c/classModels_1_1Billing.html#af3d66c06d8c4d855b0efa5ff599a3ceb">Models::Billing</a>
 </li>
+<li>getContributoriesByBilling()
+: <a class="el" href="dc/da5/classDatabases_1_1ContributoryDatabase.html#afa10024c8a5afe7fd6c09a254357e5c2">Databases::ContributoryDatabase</a>
+</li>
+<li>getContributoriesByBillingAndProject()
+: <a class="el" href="dc/da5/classDatabases_1_1ContributoryDatabase.html#ab1da3fd9479fc39d05da9d52ffc9bea2">Databases::ContributoryDatabase</a>
+</li>
 <li>getContributory()
 : <a class="el" href="dc/da5/classDatabases_1_1ContributoryDatabase.html#a76b6541c4b770a51b8d1a449631a5ffd">Databases::ContributoryDatabase</a>
 </li>
-<li>getCopy()
-: <a class="el" href="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html#a343bac79889747e55412d11bd2e27cbb">Gui::Dialogs::AddQuoteDialog</a>
+<li>getCost()
+: <a class="el" href="dd/d3f/classModels_1_1Project.html#a6ad25c30f89821cd988a7ae92d84b41b">Models::Project</a>
 </li>
 <li>getCountry()
 : <a class="el" href="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html#ae68d979332fba8523ec69a7e85790ed6">Gui::Widgets::CheckFields::CheckPhone</a>
@@ -263,14 +270,8 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getMaxBillingNumber()
 : <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a57e4b68cac145ba400d408698312599b">Databases::BillingDatabase</a>
 </li>
-<li>getMaxBillingNumberOfCustomer()
-: <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a78cf9a2e6d059fcf20136aa4b0b9d7ba">Databases::BillingDatabase</a>
-</li>
 <li>getMaxQuoteNumber()
 : <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a91704d31741279aacf9a9903b7ebcbf5">Databases::BillingDatabase</a>
-</li>
-<li>getMaxQuoteNumberOfCustomer()
-: <a class="el" href="df/df8/classDatabases_1_1BillingDatabase.html#a0cbeb663b7246adb4209b2da2e691429">Databases::BillingDatabase</a>
 </li>
 <li>getMobilePhone()
 : <a class="el" href="db/dd7/classModels_1_1Customer.html#a97211324b1f890b5f7a3fffc447289d7">Models::Customer</a>
@@ -347,6 +348,12 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>getSearchInReferentLastname()
 : <a class="el" href="d6/d44/classModels_1_1Search.html#aa415bcd966fef7bcd1cd5bd3373d57f6">Models::Search</a>
 </li>
+<li>getSumQuantity()
+: <a class="el" href="d4/d5c/classModels_1_1Billing.html#a360006189d4867e3281009b0c465bc53">Models::Billing</a>
+</li>
+<li>getSumRate()
+: <a class="el" href="d4/d5c/classModels_1_1Billing.html#ab12d213423acfe0e0b7b1f6b43a92e28">Models::Billing</a>
+</li>
 <li>getText()
 : <a class="el" href="d6/d44/classModels_1_1Search.html#a30d4355f72278e6e466dc64208947f8b">Models::Search</a>
 </li>
@@ -375,7 +382,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 8 2015 16:37:22 for FactDev by
+    <li class="footer">Generated on Sun Mar 8 2015 17:28:40 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
