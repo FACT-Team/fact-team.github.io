@@ -928,7 +928,7 @@
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d2f/classGui_1_1MainWindow_1a06bc679c41574cb679c6e5e7b673139c" kindref="member">MainWindow::editDoc</ref>()</highlight></codeline>
 <codeline lineno="189"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref><sp/>editDocDialog(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>(getCurrentQuoteId()).isBilling(),<sp/>getCurrentCustomerId(),getCurrentQuoteId(),</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref><sp/>editDocDialog(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>(getCurrentQuoteId()).isBilling(),<sp/>getCurrentCustomerId(),getCurrentQuoteId(),</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(editDocDialog.exec())<sp/>{</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateTableBillings(getCurrentProjectId());</highlight></codeline>
@@ -950,7 +950,7 @@
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
 <codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d2f/classGui_1_1MainWindow_1adf1e721c73626d1810dd90c84920dcde" kindref="member">MainWindow::copyDoc</ref>()</highlight></codeline>
 <codeline lineno="211"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref><sp/>copyDocDialog(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>(getCurrentQuoteId()).isBilling(),<sp/>getCurrentCustomerId(),getCurrentQuoteId(),</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref><sp/>copyDocDialog(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref>(getCurrentQuoteId()).isBilling(),<sp/>getCurrentCustomerId(),getCurrentQuoteId(),</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(copyDocDialog.exec())<sp/>{</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>updateTableBillings(getCurrentProjectId());</highlight></codeline>
