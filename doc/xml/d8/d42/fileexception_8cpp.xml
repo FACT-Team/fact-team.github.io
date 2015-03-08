@@ -4,15 +4,17 @@
     <compoundname>fileexception.cpp</compoundname>
     <includes refid="d4/d79/fileexception_8h" local="yes">fileexception.h</includes>
     <incdepgraph>
-      <node id="642">
+      <node id="641">
         <label>QSettings</label>
       </node>
-      <node id="635">
+      <node id="634">
         <label>QMessageBox</label>
       </node>
-      <node id="630">
+      <node id="629">
         <label>fileexception.h</label>
         <link refid="d4/d79/fileexception_8h_source"/>
+        <childnode refid="630" relation="include">
+        </childnode>
         <childnode refid="631" relation="include">
         </childnode>
         <childnode refid="632" relation="include">
@@ -23,21 +25,21 @@
         </childnode>
         <childnode refid="635" relation="include">
         </childnode>
-        <childnode refid="636" relation="include">
-        </childnode>
       </node>
-      <node id="644">
+      <node id="643">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="643" relation="include">
+        <childnode refid="642" relation="include">
         </childnode>
       </node>
-      <node id="634">
+      <node id="633">
         <label>stdexcept</label>
       </node>
-      <node id="636">
+      <node id="635">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="636" relation="include">
+        </childnode>
         <childnode refid="637" relation="include">
         </childnode>
         <childnode refid="638" relation="include">
@@ -52,40 +54,38 @@
         </childnode>
         <childnode refid="643" relation="include">
         </childnode>
-        <childnode refid="644" relation="include">
+      </node>
+      <node id="630">
+        <label>exception</label>
+      </node>
+      <node id="640">
+        <label>QDebug</label>
+      </node>
+      <node id="628">
+        <label>/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.cpp</label>
+        <link refid="fileexception.cpp"/>
+        <childnode refid="629" relation="include">
         </childnode>
       </node>
       <node id="631">
-        <label>exception</label>
-      </node>
-      <node id="641">
-        <label>QDebug</label>
-      </node>
-      <node id="629">
-        <label>/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.cpp</label>
-        <link refid="fileexception.cpp"/>
-        <childnode refid="630" relation="include">
-        </childnode>
-      </node>
-      <node id="632">
         <label>sstream</label>
       </node>
-      <node id="638">
+      <node id="637">
         <label>QDate</label>
       </node>
-      <node id="643">
+      <node id="642">
         <label>QString</label>
       </node>
-      <node id="637">
+      <node id="636">
         <label>QFile</label>
       </node>
-      <node id="633">
+      <node id="632">
         <label>iostream</label>
       </node>
-      <node id="640">
+      <node id="639">
         <label>QTextStream</label>
       </node>
-      <node id="639">
+      <node id="638">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
