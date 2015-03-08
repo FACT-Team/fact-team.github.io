@@ -25,8 +25,8 @@ Inheritance diagram for Gui\-:\-:Dialogs\-:\-:Add\-Quote\-Dialog\-:\begin{figure
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_ae6a6d0730d6ec3804ab802821e89ebd5}{Add\-Quote\-Dialog} (bool is\-Billing, int id\-Customer=0, int id=0, Q\-Widget $\ast$parent=0)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_ae6a6d0730d6ec3804ab802821e89ebd5}{Add\-Quote\-Dialog\-::\-Add\-Quote\-Dialog} Construct a windows \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}. \end{DoxyCompactList}\item 
+\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_acd7cc49da87e4bbe0317dc1e5f3d58cb}{Add\-Quote\-Dialog} (bool is\-Billing, int id\-Customer=0, int id=0, bool copy=false, Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_acd7cc49da87e4bbe0317dc1e5f3d58cb}{Add\-Quote\-Dialog\-::\-Add\-Quote\-Dialog} Construct a windows \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}. \end{DoxyCompactList}\item 
 \hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_a5dd0cca14b1172a7e1dd9019d8fa8ff3}{void \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a5dd0cca14b1172a7e1dd9019d8fa8ff3}{fill\-Fields} ()}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_a5dd0cca14b1172a7e1dd9019d8fa8ff3}
 
 \begin{DoxyCompactList}\small\item\em Add\-Quote\-Dialog\-::\-Fill line edits with the data of the quote. \end{DoxyCompactList}\item 
@@ -37,40 +37,67 @@ int \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a68b6b01e0818cb6615b2335d48
 \begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_abcc6fc79a513dd1765a4494d9499586b}{Add\-Quote\-Dialog\-::accept} Valid data inputed by user and add these data in Database. \end{DoxyCompactList}\item 
 \hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_a1ae935c40fb54142aad3a610a137bd36}{void \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a1ae935c40fb54142aad3a610a137bd36}{reject} ()}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_a1ae935c40fb54142aad3a610a137bd36}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a1ae935c40fb54142aad3a610a137bd36}{Add\-Quote\-Dialog\-::reject} Cancel the operation and close the windows. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a1ae935c40fb54142aad3a610a137bd36}{Add\-Quote\-Dialog\-::reject} Cancel the operation and close the windows. \end{DoxyCompactList}\item 
+bool \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a343bac79889747e55412d11bd2e27cbb}{get\-Copy} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a343bac79889747e55412d11bd2e27cbb}{Add\-Quote\-Dialog\-::get\-Copy} return if {\bfseries \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}} is an add by copy of Billing/quote or if it's edition or add of Billing/quote. \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_add29bc442ab7783f062b594a97fc8270}{set\-Copy} (bool copy)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_add29bc442ab7783f062b594a97fc8270}{Add\-Quote\-Dialog\-::set\-Copy} Change the {\itshape \-\_\-copy} value to define if it's a copy of a Billing/quote or if it's a new Billing or a Billing edition. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 The \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog} class Window to add or modify a Quote. 
 
 \begin{DoxyAuthor}{Author}
-
+Cédric Rohaut 
 \end{DoxyAuthor}
 
 
 \subsection{Constructor \& Destructor Documentation}
-\hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_ae6a6d0730d6ec3804ab802821e89ebd5}{\index{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}!Add\-Quote\-Dialog@{Add\-Quote\-Dialog}}
+\hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_acd7cc49da87e4bbe0317dc1e5f3d58cb}{\index{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}!Add\-Quote\-Dialog@{Add\-Quote\-Dialog}}
 \index{Add\-Quote\-Dialog@{Add\-Quote\-Dialog}!Gui::Dialogs::AddQuoteDialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}}
 \subsubsection[{Add\-Quote\-Dialog}]{\setlength{\rightskip}{0pt plus 5cm}Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog\-::\-Add\-Quote\-Dialog (
 \begin{DoxyParamCaption}
 \item[{bool}]{is\-Billing, }
 \item[{int}]{id\-Customer = {\ttfamily 0}, }
 \item[{int}]{id = {\ttfamily 0}, }
+\item[{bool}]{copy = {\ttfamily false}, }
 \item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_ae6a6d0730d6ec3804ab802821e89ebd5}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_acd7cc49da87e4bbe0317dc1e5f3d58cb}
 
 
-\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_ae6a6d0730d6ec3804ab802821e89ebd5}{Add\-Quote\-Dialog\-::\-Add\-Quote\-Dialog} Construct a windows \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}. 
+\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_acd7cc49da87e4bbe0317dc1e5f3d58cb}{Add\-Quote\-Dialog\-::\-Add\-Quote\-Dialog} Construct a windows \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}. 
 
 
 \begin{DoxyParams}{Parameters}
+{\em is\-Billing} & displaying of a quote or a Billing \\
+\hline
+{\em id\-Customer} & the id of the Customer \\
+\hline
+{\em id} & the id of the quote or the billing of the Customer's Project \\
+\hline
+{\em edit} & if it's an edition or a copy of a quote/\-Billing \\
+\hline
 {\em parent} & Q\-Widget of the current windows \\
 \hline
 \end{DoxyParams}
 
 
 \subsection{Member Function Documentation}
+\hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_a343bac79889747e55412d11bd2e27cbb}{\index{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}!get\-Copy@{get\-Copy}}
+\index{get\-Copy@{get\-Copy}!Gui::Dialogs::AddQuoteDialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}}
+\subsubsection[{get\-Copy}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog\-::get\-Copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_a343bac79889747e55412d11bd2e27cbb}
+
+
+\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_a343bac79889747e55412d11bd2e27cbb}{Add\-Quote\-Dialog\-::get\-Copy} return if {\bfseries \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog}} is an add by copy of Billing/quote or if it's edition or add of Billing/quote. 
+
+\begin{DoxyReturn}{Returns}
+if it's a copy or not 
+\end{DoxyReturn}
 \hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_a68b6b01e0818cb6615b2335d486aac09}{\index{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}!get\-Number@{get\-Number}}
 \index{get\-Number@{get\-Number}!Gui::Dialogs::AddQuoteDialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}}
 \subsubsection[{get\-Number}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog\-::get\-Number (
@@ -85,6 +112,22 @@ The \hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog}{Add\-Quote\-Dialog} class 
 \begin{DoxyReturn}{Returns}
 int 
 \end{DoxyReturn}
+\hypertarget{classGui_1_1Dialogs_1_1AddQuoteDialog_add29bc442ab7783f062b594a97fc8270}{\index{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}!set\-Copy@{set\-Copy}}
+\index{set\-Copy@{set\-Copy}!Gui::Dialogs::AddQuoteDialog@{Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog}}
+\subsubsection[{set\-Copy}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Dialogs\-::\-Add\-Quote\-Dialog\-::set\-Copy (
+\begin{DoxyParamCaption}
+\item[{bool}]{copy}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Dialogs_1_1AddQuoteDialog_add29bc442ab7783f062b594a97fc8270}
+
+
+\hyperlink{classGui_1_1Dialogs_1_1AddQuoteDialog_add29bc442ab7783f062b594a97fc8270}{Add\-Quote\-Dialog\-::set\-Copy} Change the {\itshape \-\_\-copy} value to define if it's a copy of a Billing/quote or if it's a new Billing or a Billing edition. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em copy} & \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
