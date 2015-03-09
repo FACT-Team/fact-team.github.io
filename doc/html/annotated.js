@@ -5,9 +5,6 @@ var annotated =
       [ "DbException", "d4/de4/classExceptions_1_1DbException.html", "d4/de4/classExceptions_1_1DbException" ],
       [ "FileException", "d9/d57/classExceptions_1_1FileException.html", "d9/d57/classExceptions_1_1FileException" ]
     ] ],
-    [ "Generator", null, [
-      [ "TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", "d4/d12/classGenerator_1_1TexGenerator" ]
-    ] ],
     [ "Gui", "d9/dad/namespaceGui.html", "d9/dad/namespaceGui" ],
     [ "Models", "dd/d20/namespaceModels.html", "dd/d20/namespaceModels" ],
     [ "Mustache", null, [
@@ -36,6 +33,7 @@ var annotated =
     [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", "d2/d63/classCustomerDatabaseTest" ],
     [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", "d5/dcd/classCustomerModelTest" ],
     [ "Generation", "d4/df7/classGeneration.html", "d4/df7/classGeneration" ],
+    [ "Generator", "d9/d12/classGenerator.html", "d9/d12/classGenerator" ],
     [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
     [ "Parameters", "de/d0a/classParameters.html", "de/d0a/classParameters" ],
     [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", "df/d3e/classProjectDatabaseTest" ],
@@ -43,8 +41,8 @@ var annotated =
     [ "RateModelTest", "d2/dcd/classRateModelTest.html", "d2/dcd/classRateModelTest" ],
     [ "searchTest", "d7/d51/classsearchTest.html", "d7/d51/classsearchTest" ],
     [ "StringTest", "d1/d6b/classStringTest.html", "d1/d6b/classStringTest" ],
-    [ "TestAdder", "d0/d9b/classTestAdder.html", "d0/d9b/classTestAdder" ],
     [ "testadder", "d7/d26/classtestadder.html", "d7/d26/classtestadder" ],
+    [ "TestAdder", "d0/d9b/classTestAdder.html", "d0/d9b/classTestAdder" ],
     [ "TestMustache", "de/d63/classTestMustache.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", "db/d70/classTestRunner" ],
     [ "UserDatabaseTest", "d7/dc1/classUserDatabaseTest.html", "d7/dc1/classUserDatabaseTest" ],

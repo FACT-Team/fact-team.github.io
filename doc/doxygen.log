@@ -7,7 +7,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h:11: warning: Compound Gui::Widgets::Delegates::ProjectComboDelegate is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h:11: warning: Compound searchTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/utils/pointers.h:8: warning: Compound Utils::pointers is not documented.
-/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h:11: warning: Compound Generator::TexGenerator is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h:10: warning: Compound CustomerDatabaseTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h:8: warning: Compound ItemTypeTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h:12: warning: Compound Gui::Widgets::Delegates::DoubleSpinBoxDelegate is not documented.
@@ -25,6 +24,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h:12: warning: Compound Gui::Widgets::Delegates::UnitComboDelegate is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h:15: warning: Compound Gui::Docks::SearchDock is not documented.
 /home/travis/build/FACT-Team/FactDev/src/utils/directories.h:9: warning: Compound Utils::Directories is not documented.
+/home/travis/build/FACT-Team/FactDev/src/generator.h:9: warning: Compound Generator is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/generation.h:7: warning: Compound Generation is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h:10: warning: Compound BillingModelTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/rate.h:9: warning: Compound Models::Rate is not documented.
@@ -32,6 +32,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h:10: warning: Compound UserDatabaseTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/qt-mustache/test_mustache.h:23: warning: Compound TestMustache is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.h:22: warning: Compound TestMustache is not documented.
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h:18: warning: Compound Gui::Dialogs::StartedWindowsDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h:11: warning: Compound ContributoryListTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h:12: warning: Compound Databases::RateDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h:12: warning: Compound Gui::Widgets::Delegates::ComboBoxDelegate is not documented.
@@ -43,6 +44,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/qt-mustache/test_mustache.cpp:241: warning: Member CounterContext(const QVariantHash &map) (function) of class CounterContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:111: warning: Member QtVariantContext(const QVariant &root, PartialResolver *resolver=0) (function) of class Mustache::QtVariantContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.cpp:255: warning: Member counter (variable) of class CounterContext is not documented.
+/home/travis/build/FACT-Team/FactDev/src/generator.h:11: warning: Member Generator(QString tpl) (function) of class Generator is not documented.
+/home/travis/build/FACT-Team/FactDev/src/generator.h:14: warning: Member generate(QVariantHash data, QString path) (function) of class Generator is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testadder.cpp:13: warning: Member TestAdder(const QString &name) (function) of class TestAdder is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:25: warning: Member RegisterTest(QString name) (function) of class TestRunner is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:35: warning: Member RunAll(int argc, char *argv[]) (function) of class TestRunner is not documented.
@@ -67,8 +70,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: argument 'userError' of command @param is not found in the argument list of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode)
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: The following parameters of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode) are not documented:
   parameter 'fct'
-/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h:13: warning: Member TexGenerator(QString tpl) (function) of class Generator::TexGenerator is not documented.
-/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h:16: warning: Member generate(QVariantHash data, QString path) (function) of class Generator::TexGenerator is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:100: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
 /home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:100: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
   parameter 'isBilling'
@@ -77,6 +78,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'isBilling'
   parameter 'idCustomer'
   parameter 'id'
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h:22: warning: Member StartedWindowsDialog(QWidget *parent=0) (function) of class Gui::Dialogs::StartedWindowsDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h:23: warning: Member search(QString text) (slot) of class Gui::Docks::SearchDock is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h:26: warning: Member textChanged(QString text) (signal) of class Gui::Docks::SearchDock is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h:19: warning: Member SearchDock(QWidget *parent=0, Qt::WindowFlags flags=0) (function) of class Gui::Docks::SearchDock is not documented.
@@ -112,6 +114,12 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h:31: warning: end of comment block while expecting command </em>
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h:31: warning: end of comment block while expecting command </em>
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h:15: warning: The following parameters of Gui::Widgets::CheckFields::CheckFieldsLetters::CheckFieldsLetters(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkfieldsnumbers.h:20: warning: The following parameters of Gui::Widgets::CheckFields::CheckFieldsNumbers::CheckFieldsNumbers(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkipaddress.h:20: warning: The following parameters of Gui::Widgets::CheckFields::CheckIpAddress::CheckIpAddress(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checklogin.h:19: warning: The following parameters of Gui::Widgets::CheckFields::CheckLogin::CheckLogin(QWidget *w=0, QPushButton *btn=0) are not documented:
   parameter 'btn'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkname.h:16: warning: The following parameters of Gui::Widgets::CheckFields::CheckName::CheckName(QWidget *w=0, QPushButton *btn=0) are not documented:
   parameter 'btn'
@@ -266,6 +274,12 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h:31: warning: end of comment block while expecting command </em>
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkemail.h:31: warning: end of comment block while expecting command </em>
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkfieldsletters.h:15: warning: The following parameters of Gui::Widgets::CheckFields::CheckFieldsLetters::CheckFieldsLetters(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkfieldsnumbers.h:20: warning: The following parameters of Gui::Widgets::CheckFields::CheckFieldsNumbers::CheckFieldsNumbers(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkipaddress.h:20: warning: The following parameters of Gui::Widgets::CheckFields::CheckIpAddress::CheckIpAddress(QWidget *w=0, QPushButton *btn=0) are not documented:
+  parameter 'btn'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checklogin.h:19: warning: The following parameters of Gui::Widgets::CheckFields::CheckLogin::CheckLogin(QWidget *w=0, QPushButton *btn=0) are not documented:
   parameter 'btn'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkname.h:16: warning: The following parameters of Gui::Widgets::CheckFields::CheckName::CheckName(QWidget *w=0, QPushButton *btn=0) are not documented:
   parameter 'btn'

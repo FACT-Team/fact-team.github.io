@@ -4,6 +4,9 @@
     <compoundname>Gui::Widgets::CheckFields::CheckUntilField</compoundname>
     <basecompoundref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckQLineEdit</basecompoundref>
     <derivedcompoundref refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckFieldsLetters</derivedcompoundref>
+    <derivedcompoundref refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckFieldsNumbers</derivedcompoundref>
+    <derivedcompoundref refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckIpAddress</derivedcompoundref>
+    <derivedcompoundref refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckLogin</derivedcompoundref>
     <derivedcompoundref refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckPhone</derivedcompoundref>
     <derivedcompoundref refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckPostalCode</derivedcompoundref>
     <includes refid="d7/d52/checkuntilfield_8h" local="no">checkuntilfield.h</includes>
@@ -72,84 +75,102 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="133">
+      <node id="166">
         <label>Gui::Widgets::CheckFields::CheckFieldsLetters</label>
         <link refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters"/>
-        <childnode refid="129" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="129">
+      <node id="162">
         <label>Gui::Widgets::CheckFields::CheckUntilField</label>
         <link refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField"/>
-        <childnode refid="130" relation="public-inheritance">
+        <childnode refid="163" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="130">
+      <node id="163">
         <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
         <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
-        <childnode refid="131" relation="public-inheritance">
+        <childnode refid="164" relation="public-inheritance">
         </childnode>
-        <childnode refid="132" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="132">
+      <node id="170">
+        <label>Gui::Widgets::CheckFields::CheckFieldsNumbers</label>
+        <link refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
         <label>Gui::Widgets::CheckFields::ICheckField</label>
         <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
       </node>
-      <node id="134">
+      <node id="167">
         <label>Gui::Widgets::CheckFields::CheckCity</label>
         <link refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity"/>
-        <childnode refid="133" relation="public-inheritance">
+        <childnode refid="166" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="135">
+      <node id="168">
         <label>Gui::Widgets::CheckFields::CheckCountry</label>
         <link refid="d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry"/>
-        <childnode refid="133" relation="public-inheritance">
+        <childnode refid="166" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="131">
+      <node id="171">
+        <label>Gui::Widgets::CheckFields::CheckIpAddress</label>
+        <link refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="164">
         <label>QLineEdit</label>
       </node>
-      <node id="137">
+      <node id="173">
         <label>Gui::Widgets::CheckFields::CheckPhone</label>
         <link refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone"/>
-        <childnode refid="129" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="136">
+      <node id="169">
         <label>Gui::Widgets::CheckFields::CheckName</label>
         <link refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName"/>
-        <childnode refid="133" relation="public-inheritance">
+        <childnode refid="166" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="138">
+      <node id="172">
+        <label>Gui::Widgets::CheckFields::CheckLogin</label>
+        <link refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
         <label>Gui::Widgets::CheckFields::CheckPostalCode</label>
         <link refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode"/>
-        <childnode refid="129" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="139">
+      <node id="175">
         <label>Gui::Widgets::CheckFields::CheckUntilField</label>
         <link refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField"/>
-        <childnode refid="140" relation="public-inheritance">
+        <childnode refid="176" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="140">
+      <node id="176">
         <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
         <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
-        <childnode refid="141" relation="public-inheritance">
+        <childnode refid="177" relation="public-inheritance">
         </childnode>
-        <childnode refid="142" relation="public-inheritance">
+        <childnode refid="178" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="142">
+      <node id="178">
         <label>Gui::Widgets::CheckFields::ICheckField</label>
         <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
       </node>
-      <node id="141">
+      <node id="177">
         <label>QLineEdit</label>
       </node>
     </collaborationgraph>
