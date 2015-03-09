@@ -7,7 +7,6 @@ var dir_381b413982d478049d22ff06f0a5ecf9 =
     [ "contributorieswidget.h", "db/d57/contributorieswidget_8h_source.html", null ],
     [ "customercontextualmenu.h", "d6/df9/customercontextualmenu_8h_source.html", null ],
     [ "customerdatawidget.h", "db/de4/customerdatawidget_8h_source.html", null ],
-    [ "databasesettingswidget.h", "d5/dd2/databasesettingswidget_8h_source.html", null ],
     [ "popup.h", "db/d70/popup_8h_source.html", null ],
     [ "projectswidget.h", "da/d5e/projectswidget_8h_source.html", null ],
     [ "ratewidget.h", "d1/dfa/ratewidget_8h_source.html", null ],
