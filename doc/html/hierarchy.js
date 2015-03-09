@@ -6,7 +6,6 @@ var hierarchy =
         [ "CounterContext", "db/da6/classCounterContext.html", null ]
       ] ]
     ] ],
-    [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", null ],
     [ "Databases::Database", "dd/db0/classDatabases_1_1Database.html", [
       [ "Databases::BillingDatabase", "df/df8/classDatabases_1_1BillingDatabase.html", null ],
       [ "Databases::ContributoryDatabase", "dc/da5/classDatabases_1_1ContributoryDatabase.html", null ],
@@ -94,6 +93,7 @@ var hierarchy =
       [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", null ],
       [ "BillingModelTest", "dc/d0c/classBillingModelTest.html", null ],
       [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
+      [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", null ],
       [ "ContributoryModelTest", "d5/d97/classContributoryModelTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
