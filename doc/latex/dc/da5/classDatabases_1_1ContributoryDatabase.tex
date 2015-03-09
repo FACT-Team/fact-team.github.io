@@ -21,9 +21,8 @@ Inheritance diagram for Databases\-:\-:Contributory\-Database\-:\begin{figure}[H
 \item 
 \hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} $\ast$ \hyperlink{classDatabases_1_1ContributoryDatabase_a76b6541c4b770a51b8d1a449631a5ffd}{get\-Contributory} (const int id\-Contributory)
 \begin{DoxyCompactList}\small\item\em Contributory\-Database\-::get\-Customer get informations about the Contributory identified by {\itshape p\-Id} \end{DoxyCompactList}\item 
-\hypertarget{classDatabases_1_1ContributoryDatabase_a9d2a5e5322fa50ecd6e4b89f1102cb9b}{\hyperlink{classModels_1_1ContributoriesList}{Models\-::\-Contributories\-List} {\bfseries get\-Contributories\-By\-Billing} (const int id\-Billing)}\label{classDatabases_1_1ContributoryDatabase_a9d2a5e5322fa50ecd6e4b89f1102cb9b}
-
-\item 
+\hyperlink{classModels_1_1ContributoriesList}{Models\-::\-Contributories\-List} \hyperlink{classDatabases_1_1ContributoryDatabase_afa10024c8a5afe7fd6c09a254357e5c2}{get\-Contributories\-By\-Billing} (const int billing\-Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1ContributoryDatabase_afa10024c8a5afe7fd6c09a254357e5c2}{Contributory\-Database\-::get\-Contributories\-By\-Billing} get informations about the Contributory identified by {\itshape Billing} \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1ContributoryDatabase_abd7bf49a62d8e267d898936122b5c2a7}{add\-Contributory} (const \hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} \&)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1ContributoryDatabase_abd7bf49a62d8e267d898936122b5c2a7}{Contributory\-Database\-::add\-Contributory} Add the Contributory {\itshape p\-Contributory} to the database. \end{DoxyCompactList}\item 
 \hypertarget{classDatabases_1_1ContributoryDatabase_a748062c6793dd80115ded9bffba75b6a}{void \hyperlink{classDatabases_1_1ContributoryDatabase_a748062c6793dd80115ded9bffba75b6a}{update\-Contributory} (const \hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} \&)}\label{classDatabases_1_1ContributoryDatabase_a748062c6793dd80115ded9bffba75b6a}
@@ -32,7 +31,9 @@ int \hyperlink{classDatabases_1_1ContributoryDatabase_abd7bf49a62d8e267d89893612
 void \hyperlink{classDatabases_1_1ContributoryDatabase_a3c99a1730bce8dbf3cab72896d8f17ff}{remove\-Contributory} (const int p\-Id)
 \begin{DoxyCompactList}\small\item\em Contributory\-Database\-::remove\-Customer Remove the Contributory with the id {\itshape p\-Id} \end{DoxyCompactList}\item 
 \hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} $\ast$ \hyperlink{classDatabases_1_1ContributoryDatabase_a6fc0f3eca03c49d919e7dbd2f8290555}{get\-Contributory} (Q\-Sql\-Query \&q)
-\begin{DoxyCompactList}\small\item\em get\-Contributory Obtain a contributory without new query \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em get\-Contributory Obtain a contributory without new query \end{DoxyCompactList}\item 
+\hyperlink{classModels_1_1ContributoriesList}{Models\-::\-Contributories\-List} \hyperlink{classDatabases_1_1ContributoryDatabase_ab1da3fd9479fc39d05da9d52ffc9bea2}{get\-Contributories\-By\-Billing\-And\-Project} (const int billing\-Id, const int project\-Id)
+\begin{DoxyCompactList}\small\item\em get\-Contributory Get contributories list by project and billing \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -45,7 +46,7 @@ static \hyperlink{classDatabases_1_1ContributoryDatabase}{Contributory\-Database
 The {\bfseries \hyperlink{classDatabases_1_1ContributoryDatabase}{Contributory\-Database}} class Contributory (or Quote) table database. 
 
 \begin{DoxyAuthor}{Author}
-Cédric Rohaut  
+
 \end{DoxyAuthor}
 \begin{DoxySeeAlso}{See Also}
 \hyperlink{classDatabases_1_1Database}{Database} 
@@ -68,6 +69,47 @@ Contributory/\-Quote
 
 \begin{DoxyReturn}{Returns}
 Contributory id 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1ContributoryDatabase_afa10024c8a5afe7fd6c09a254357e5c2}{\index{Databases\-::\-Contributory\-Database@{Databases\-::\-Contributory\-Database}!get\-Contributories\-By\-Billing@{get\-Contributories\-By\-Billing}}
+\index{get\-Contributories\-By\-Billing@{get\-Contributories\-By\-Billing}!Databases::ContributoryDatabase@{Databases\-::\-Contributory\-Database}}
+\subsubsection[{get\-Contributories\-By\-Billing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\-::\-Contributories\-List} Databases\-::\-Contributory\-Database\-::get\-Contributories\-By\-Billing (
+\begin{DoxyParamCaption}
+\item[{const int}]{billing\-Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1ContributoryDatabase_afa10024c8a5afe7fd6c09a254357e5c2}
+
+
+\hyperlink{classDatabases_1_1ContributoryDatabase_afa10024c8a5afe7fd6c09a254357e5c2}{Contributory\-Database\-::get\-Contributories\-By\-Billing} get informations about the Contributory identified by {\itshape Billing} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\-Billing} & Contributory id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Contributory 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1ContributoryDatabase_ab1da3fd9479fc39d05da9d52ffc9bea2}{\index{Databases\-::\-Contributory\-Database@{Databases\-::\-Contributory\-Database}!get\-Contributories\-By\-Billing\-And\-Project@{get\-Contributories\-By\-Billing\-And\-Project}}
+\index{get\-Contributories\-By\-Billing\-And\-Project@{get\-Contributories\-By\-Billing\-And\-Project}!Databases::ContributoryDatabase@{Databases\-::\-Contributory\-Database}}
+\subsubsection[{get\-Contributories\-By\-Billing\-And\-Project}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\-::\-Contributories\-List} Databases\-::\-Contributory\-Database\-::get\-Contributories\-By\-Billing\-And\-Project (
+\begin{DoxyParamCaption}
+\item[{const int}]{billing\-Id, }
+\item[{const int}]{project\-Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1ContributoryDatabase_ab1da3fd9479fc39d05da9d52ffc9bea2}
+
+
+get\-Contributory Get contributories list by project and billing 
+
+
+\begin{DoxyParams}{Parameters}
+{\em billing\-Id} & \\
+\hline
+{\em project\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The contributories list by project and billing 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1ContributoryDatabase_a76b6541c4b770a51b8d1a449631a5ffd}{\index{Databases\-::\-Contributory\-Database@{Databases\-::\-Contributory\-Database}!get\-Contributory@{get\-Contributory}}
 \index{get\-Contributory@{get\-Contributory}!Databases::ContributoryDatabase@{Databases\-::\-Contributory\-Database}}
