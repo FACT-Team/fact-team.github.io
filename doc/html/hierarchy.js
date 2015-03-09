@@ -6,7 +6,6 @@ var hierarchy =
         [ "CounterContext", "db/da6/classCounterContext.html", null ]
       ] ]
     ] ],
-    [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", null ],
     [ "Databases::Database", "dd/db0/classDatabases_1_1Database.html", [
       [ "Databases::BillingDatabase", "df/df8/classDatabases_1_1BillingDatabase.html", null ],
       [ "Databases::ContributoryDatabase", "dc/da5/classDatabases_1_1ContributoryDatabase.html", null ],
@@ -25,7 +24,6 @@ var hierarchy =
     [ "Gui::Widgets::CheckFields::ICheckField", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField.html", [
       [ "Gui::Widgets::CheckFields::CheckQLineEdit", "d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit.html", [
         [ "Gui::Widgets::CheckFields::CheckEmail", "d1/d07/classGui_1_1Widgets_1_1CheckFields_1_1CheckEmail.html", null ],
-        [ "Gui::Widgets::CheckFields::CheckPortNumber", "d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber.html", null ],
         [ "Gui::Widgets::CheckFields::CheckSiretNumber", "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html", null ],
         [ "Gui::Widgets::CheckFields::CheckUntilField", "d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField.html", [
           [ "Gui::Widgets::CheckFields::CheckFieldsLetters", "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html", [
@@ -33,9 +31,6 @@ var hierarchy =
             [ "Gui::Widgets::CheckFields::CheckCountry", "d0/d3f/classGui_1_1Widgets_1_1CheckFields_1_1CheckCountry.html", null ],
             [ "Gui::Widgets::CheckFields::CheckName", "da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName.html", null ]
           ] ],
-          [ "Gui::Widgets::CheckFields::CheckFieldsNumbers", "d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers.html", null ],
-          [ "Gui::Widgets::CheckFields::CheckIpAddress", "db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress.html", null ],
-          [ "Gui::Widgets::CheckFields::CheckLogin", "dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", null ]
         ] ],
@@ -70,7 +65,6 @@ var hierarchy =
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
-      [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
       [ "Gui::Dialogs::UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
@@ -99,6 +93,7 @@ var hierarchy =
       [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", null ],
       [ "BillingModelTest", "dc/d0c/classBillingModelTest.html", null ],
       [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", null ],
+      [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", null ],
       [ "ContributoryModelTest", "d5/d97/classContributoryModelTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
@@ -118,7 +113,6 @@ var hierarchy =
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
-      [ "Gui::Widgets::DatabaseSettingsWidget", "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html", null ],
       [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
       [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
