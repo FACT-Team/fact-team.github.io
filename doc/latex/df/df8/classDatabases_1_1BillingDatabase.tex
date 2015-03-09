@@ -43,7 +43,9 @@ int \hyperlink{classDatabases_1_1BillingDatabase_a91704d31741279aacf9a9903b7ebcb
 Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a2e6c6cd8b3b040eeb7fc6ae727e85013}{get\-Billing} (Q\-Sql\-Query \&q)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} Add the element of the {\itshape q} request and return their. \end{DoxyCompactList}\item 
 Q\-Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, \hyperlink{classModels_1_1Billing}{Billing} $\ast$ $>$ \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{get\-All\-Billings\-Of\-Project} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{Billing\-Database\-::get\-All\-Billings\-Of\-Project} Return a map with the project id as key linked to the billing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{Billing\-Database\-::get\-All\-Billings\-Of\-Project} Return a map with the project id as key linked to the billing. \end{DoxyCompactList}\item 
+Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{get\-Billings} (const int project\-Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -56,7 +58,7 @@ static \hyperlink{classDatabases_1_1BillingDatabase}{Billing\-Database} $\ast$ \
 The {\bfseries \hyperlink{classDatabases_1_1BillingDatabase}{Billing\-Database}} class Billing (or Quote) table database. 
 
 \begin{DoxyAuthor}{Author}
-Cédric Rohaut  
+
 \end{DoxyAuthor}
 \begin{DoxySeeAlso}{See Also}
 \hyperlink{classDatabases_1_1Database}{Database} 
@@ -153,6 +155,25 @@ the Billing
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 a billing formed according to Q\-Shared\-Pointer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings@{get\-Billings}}
+\index{get\-Billings@{get\-Billings}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Billings}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-Billings (
+\begin{DoxyParamCaption}
+\item[{const int}]{project\-Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}
+
+
+\hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project\-Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List with bills 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings\-Table@{get\-Billings\-Table}}
 \index{get\-Billings\-Table@{get\-Billings\-Table}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
