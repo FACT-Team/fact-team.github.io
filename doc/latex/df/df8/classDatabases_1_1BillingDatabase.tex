@@ -40,10 +40,6 @@ int \hyperlink{classDatabases_1_1BillingDatabase_a57e4b68cac145ba400d40869831259
 \begin{DoxyCompactList}\small\item\em get\-Max\-Billing\-Number Get the last number of a billing \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1BillingDatabase_a91704d31741279aacf9a9903b7ebcbf5}{get\-Max\-Quote\-Number} ()
 \begin{DoxyCompactList}\small\item\em get\-Max\-Quote\-Number Get the last number of a quote \end{DoxyCompactList}\item 
-int \hyperlink{classDatabases_1_1BillingDatabase_a78cf9a2e6d059fcf20136aa4b0b9d7ba}{get\-Max\-Billing\-Number\-Of\-Customer} (const int id\-Customer)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a78cf9a2e6d059fcf20136aa4b0b9d7ba}{Billing\-Database\-::get\-Max\-Billing\-Number\-Of\-Customer} Get the last number of a {\bfseries Customer}'s Billing. \end{DoxyCompactList}\item 
-int \hyperlink{classDatabases_1_1BillingDatabase_a0cbeb663b7246adb4209b2da2e691429}{get\-Max\-Quote\-Number\-Of\-Customer} (const int id\-Customer)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0cbeb663b7246adb4209b2da2e691429}{Billing\-Database\-::get\-Max\-Quote\-Number\-Of\-Customer} Get the last number of a {\bfseries Customer}'s quote. \end{DoxyCompactList}\item 
 Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a2e6c6cd8b3b040eeb7fc6ae727e85013}{get\-Billing} (Q\-Sql\-Query \&q)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} Add the element of the {\itshape q} request and return their. \end{DoxyCompactList}\item 
 Q\-Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, \hyperlink{classModels_1_1Billing}{Billing} $\ast$ $>$ \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{get\-All\-Billings\-Of\-Project} ()
@@ -196,25 +192,6 @@ get\-Max\-Billing\-Number Get the last number of a billing
 \begin{DoxyReturn}{Returns}
 The max number 
 \end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_a78cf9a2e6d059fcf20136aa4b0b9d7ba}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Max\-Billing\-Number\-Of\-Customer@{get\-Max\-Billing\-Number\-Of\-Customer}}
-\index{get\-Max\-Billing\-Number\-Of\-Customer@{get\-Max\-Billing\-Number\-Of\-Customer}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-Max\-Billing\-Number\-Of\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Max\-Billing\-Number\-Of\-Customer (
-\begin{DoxyParamCaption}
-\item[{const int}]{id\-Customer}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_a78cf9a2e6d059fcf20136aa4b0b9d7ba}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_a78cf9a2e6d059fcf20136aa4b0b9d7ba}{Billing\-Database\-::get\-Max\-Billing\-Number\-Of\-Customer} Get the last number of a {\bfseries Customer}'s Billing. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Customer} & Customer id \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the last number of the {\bfseries Customer}'s Billing 
-\end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_a91704d31741279aacf9a9903b7ebcbf5}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Max\-Quote\-Number@{get\-Max\-Quote\-Number}}
 \index{get\-Max\-Quote\-Number@{get\-Max\-Quote\-Number}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
 \subsubsection[{get\-Max\-Quote\-Number}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Max\-Quote\-Number (
@@ -228,25 +205,6 @@ get\-Max\-Quote\-Number Get the last number of a quote
 
 \begin{DoxyReturn}{Returns}
 The last number 
-\end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_a0cbeb663b7246adb4209b2da2e691429}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Max\-Quote\-Number\-Of\-Customer@{get\-Max\-Quote\-Number\-Of\-Customer}}
-\index{get\-Max\-Quote\-Number\-Of\-Customer@{get\-Max\-Quote\-Number\-Of\-Customer}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-Max\-Quote\-Number\-Of\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Max\-Quote\-Number\-Of\-Customer (
-\begin{DoxyParamCaption}
-\item[{const int}]{id\-Customer}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_a0cbeb663b7246adb4209b2da2e691429}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_a0cbeb663b7246adb4209b2da2e691429}{Billing\-Database\-::get\-Max\-Quote\-Number\-Of\-Customer} Get the last number of a {\bfseries Customer}'s quote. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Customer} & Customer id \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the last number of the {\bfseries Customer}'s quote 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_aee84d7d07ff4a25251c61030019e5abb}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!instance@{instance}}
 \index{instance@{instance}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}

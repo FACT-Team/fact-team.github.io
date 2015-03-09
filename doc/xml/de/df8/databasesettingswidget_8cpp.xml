@@ -67,24 +67,29 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">isValid</ref>();</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">DatabaseSettingsWidget::isValid</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a063c346b830524fb1f96f32984fb5493" kindref="member">DatabaseSettingsWidget::userInterfaceChanged</ref>()</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>ui-&gt;leDbName-&gt;isValid()</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leUser-&gt;isValid()</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(ui-&gt;leLogin-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leLoginRepeat-&gt;isValid())</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leIpAddress-&gt;isValid()</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a42909f8a25f7e75685f1b02d811fd6eb" kindref="member">DatabaseSettingsWidget::checkRepeatLogin</ref>(QString<sp/>text)</highlight></codeline>
-<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leLoginRepeat-&gt;loginPreviousInputed(ui-&gt;leLogin-&gt;text());</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>ui-&gt;leLoginRepeat-&gt;fieldTextChanged(text);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">isValid</ref>();</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a6947626c7bb6807572e0a49ef2f53c70" kindref="member">textfieldChanged</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">DatabaseSettingsWidget::isValid</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>ui-&gt;leDbName-&gt;isValid()</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leUser-&gt;isValid()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(ui-&gt;leLogin-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leLoginRepeat-&gt;isValid())</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leIpAddress-&gt;isValid()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a42909f8a25f7e75685f1b02d811fd6eb" kindref="member">DatabaseSettingsWidget::checkRepeatLogin</ref>(QString<sp/>text)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leLoginRepeat-&gt;loginPreviousInputed(ui-&gt;leLogin-&gt;text());</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>ui-&gt;leLoginRepeat-&gt;fieldTextChanged(text);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kindref="member">isValid</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/databasesettingswidget.cpp"/>
   </compounddef>

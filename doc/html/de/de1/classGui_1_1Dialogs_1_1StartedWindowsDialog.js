@@ -11,5 +11,6 @@ var classGui_1_1Dialogs_1_1StartedWindowsDialog =
     [ "isDatabaseCentralized", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ac5127ad449080835c6f3bb572fb3e481", null ],
     [ "isDatabaseTypeValid", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ad582a62ec4204c2ef5081c5431824491", null ],
     [ "nextToPage2", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#afd791a73e2d897147b31c829131942af", null ],
-    [ "nextToPage3", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#abac16c4f9fc0a3481565530fa01d8494", null ]
+    [ "nextToPage3", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#abac16c4f9fc0a3481565530fa01d8494", null ],
+    [ "updateNextButton", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#aedfea7b7d80e1877e50647fae5bdc052", null ]
 ];
