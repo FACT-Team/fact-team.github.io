@@ -5,9 +5,9 @@
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
     <includedby refid="d2/deb/contributorydatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
     <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
     <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
     <includedby refid="dd/d0f/contributorieslist_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</includedby>
     <includedby refid="d9/dec/contributory_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp</includedby>
     <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</includedby>
@@ -79,12 +79,6 @@
         <childnode refid="2989" relation="include">
         </childnode>
       </node>
-      <node id="2990">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="2984" relation="include">
-        </childnode>
-      </node>
       <node id="2986">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
@@ -106,9 +100,9 @@
         <link refid="dd/d0f/contributorieslist_8h_source"/>
         <childnode refid="2983" relation="include">
         </childnode>
-        <childnode refid="2984" relation="include">
-        </childnode>
         <childnode refid="2997" relation="include">
+        </childnode>
+        <childnode refid="2984" relation="include">
         </childnode>
         <childnode refid="3000" relation="include">
         </childnode>
@@ -130,11 +124,11 @@
         <link refid="contributory.h"/>
         <childnode refid="2983" relation="include">
         </childnode>
-        <childnode refid="2984" relation="include">
-        </childnode>
         <childnode refid="2997" relation="include">
         </childnode>
         <childnode refid="2998" relation="include">
+        </childnode>
+        <childnode refid="2984" relation="include">
         </childnode>
         <childnode refid="2999" relation="include">
         </childnode>
@@ -180,6 +174,12 @@
       <node id="2983">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
         <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="2984" relation="include">
+        </childnode>
+      </node>
+      <node id="2990">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
         <childnode refid="2984" relation="include">
         </childnode>
       </node>
@@ -260,17 +260,13 @@
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getLongDescription()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setLongDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getLongDescription);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_nbHours;<sp/></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_longDescription;</highlight></codeline>
-<codeline lineno="118"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_nbHours;<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h"/>
   </compounddef>

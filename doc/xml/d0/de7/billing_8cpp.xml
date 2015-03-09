@@ -37,16 +37,6 @@
       <node id="2742">
         <label>QMessageBox</label>
       </node>
-      <node id="2760">
-        <label>generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="2715" relation="include">
-        </childnode>
-        <childnode refid="2726" relation="include">
-        </childnode>
-        <childnode refid="2761" relation="include">
-        </childnode>
-      </node>
       <node id="2758">
         <label>QObject</label>
       </node>
@@ -332,6 +322,16 @@
       <node id="2750">
         <label>QtSql/QSqlError</label>
       </node>
+      <node id="2760">
+        <label>generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="2715" relation="include">
+        </childnode>
+        <childnode refid="2726" relation="include">
+        </childnode>
+        <childnode refid="2761" relation="include">
+        </childnode>
+      </node>
       <node id="2740">
         <label>iostream</label>
       </node>
@@ -465,7 +465,7 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>_isPaid<sp/>=<sp/>quote-&gt;<ref refid="d4/d5c/classModels_1_1Billing_1ab2f9bd62e920be8c68313e35bbcabd46" kindref="member">isPaid</ref>();</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>_toRemoved<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>_contributories<sp/>=</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1afa10024c8a5afe7fd6c09a254357e5c2" kindref="member">getContributoriesByBilling</ref>(_id);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">ContributoryDatabase::instance</ref>()-&gt;getContributoriesByBilling(_id);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Billing::remove()</highlight></codeline>
@@ -506,7 +506,7 @@
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Billing::generateTex()</highlight></codeline>
 <codeline lineno="93"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d12/classGenerator" kindref="compound">Generator</ref><sp/>g(</highlight><highlight class="stringliteral">&quot;:/tpl/billingtpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d12/classGenerator_1_1TexGenerator" kindref="compound">Generator::TexGenerator</ref><sp/>g(</highlight><highlight class="stringliteral">&quot;:/tpl/billingtpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>s,fact;</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isBilling())<sp/>{</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Facture&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -569,7 +569,7 @@
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Billing::getSumRate()</highlight></codeline>
 <codeline lineno="156"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_contributories.getSumRate();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_contributories.getSumRate();</highlight></codeline>
 <codeline lineno="158"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Billing::getSumQuantity()</highlight></codeline>

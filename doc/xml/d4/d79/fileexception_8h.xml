@@ -100,18 +100,12 @@
         <childnode refid="675" relation="include">
         </childnode>
       </node>
-      <node id="668">
+      <node id="669">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
         <link refid="d2/dd1/billingdatabase_8h_source"/>
         <childnode refid="661" relation="include">
         </childnode>
-        <childnode refid="669" relation="include">
-        </childnode>
-      </node>
-      <node id="670">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="667" relation="include">
+        <childnode refid="670" relation="include">
         </childnode>
       </node>
       <node id="661">
@@ -120,7 +114,7 @@
         <childnode refid="662" relation="include">
         </childnode>
       </node>
-      <node id="669">
+      <node id="670">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
@@ -131,11 +125,11 @@
         </childnode>
         <childnode refid="667" relation="include">
         </childnode>
-        <childnode refid="670" relation="include">
-        </childnode>
         <childnode refid="677" relation="include">
         </childnode>
         <childnode refid="678" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
         </childnode>
         <childnode refid="679" relation="include">
         </childnode>
@@ -151,7 +145,7 @@
       <node id="672">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
         <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="668" relation="include">
+        <childnode refid="669" relation="include">
         </childnode>
       </node>
       <node id="675">
@@ -182,16 +176,22 @@
         <childnode refid="661" relation="include">
         </childnode>
       </node>
+      <node id="667">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="668" relation="include">
+        </childnode>
+      </node>
       <node id="679">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</label>
         <link refid="da/d15/usermodeltest_8h_source"/>
       </node>
-      <node id="667">
+      <node id="668">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="668" relation="include">
+        <childnode refid="669" relation="include">
         </childnode>
-        <childnode refid="670" relation="include">
+        <childnode refid="667" relation="include">
         </childnode>
         <childnode refid="671" relation="include">
         </childnode>
@@ -203,7 +203,7 @@
         </childnode>
         <childnode refid="676" relation="include">
         </childnode>
-        <childnode refid="669" relation="include">
+        <childnode refid="670" relation="include">
         </childnode>
       </node>
       <node id="673">
@@ -261,9 +261,10 @@
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_userError;<sp/></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FILEEXCEPTION_H</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_errorCode;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FILEEXCEPTION_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.h"/>
   </compounddef>

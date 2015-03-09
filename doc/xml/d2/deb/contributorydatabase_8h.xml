@@ -289,12 +289,6 @@
         <childnode refid="195" relation="include">
         </childnode>
       </node>
-      <node id="196">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="190" relation="include">
-        </childnode>
-      </node>
       <node id="192">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
@@ -336,6 +330,12 @@
       <node id="189">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
         <link refid="contributorydatabase.h"/>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
         <childnode refid="190" relation="include">
         </childnode>
       </node>
@@ -401,28 +401,24 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref><sp/>*getContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idContributory);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">Models::ContributoriesList</ref><sp/>getContributoriesByBilling(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>billingId);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">Models::ContributoriesList</ref><sp/>getContributoriesByBilling(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBilling);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref><sp/>*getContributory(QSqlQuery<sp/>&amp;q);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">Models::ContributoriesList</ref><sp/>getContributoriesByBillingAndProject(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>billingId,</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>projectId);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref>*<sp/>_instance;<sp/><sp/></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORYDATABASE_H</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeContributory(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref><sp/>*getContributory(QSqlQuery<sp/>&amp;q);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref>*<sp/>_instance;<sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase" kindref="compound">ContributoryDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORYDATABASE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h"/>
   </compounddef>

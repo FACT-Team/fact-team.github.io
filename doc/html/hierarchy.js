@@ -20,7 +20,6 @@ var hierarchy =
       [ "Exceptions::DbException", "d4/de4/classExceptions_1_1DbException.html", null ]
     ] ],
     [ "Exceptions::FileException", "d9/d57/classExceptions_1_1FileException.html", null ],
-    [ "Generator", "d9/d12/classGenerator.html", null ],
     [ "Utils::HierarchicalSystem", "d1/de0/classUtils_1_1HierarchicalSystem.html", null ],
     [ "Gui::Widgets::CheckFields::ICheckField", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField.html", [
       [ "Gui::Widgets::CheckFields::CheckQLineEdit", "d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit.html", [
@@ -124,5 +123,6 @@ var hierarchy =
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
-    [ "TestRunner", "db/d70/classTestRunner.html", null ]
+    [ "TestRunner", "db/d70/classTestRunner.html", null ],
+    [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];
