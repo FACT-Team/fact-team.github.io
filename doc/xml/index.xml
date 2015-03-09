@@ -77,6 +77,7 @@
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" kind="function"><name>getMaxQuoteNumber</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" kind="function"><name>getBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" kind="function"><name>getAllBillingsOfProject</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kind="function"><name>getBillings</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac5350c5f16b6c699da4676b965c564df" kind="function"><name>BillingDatabase</name></member>
   </compound>
   <compound refid="d1/db1/classBillingDatabaseTest" kind="class"><name>BillingDatabaseTest</name>
@@ -280,6 +281,7 @@
     <member refid="d5/dd1/classModels_1_1Contributory_1ab6149e9de1f6f794f1320a2ca6879a2b" kind="variable"><name>_project</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ab5ba6e0f97268cbf747cbe2544cb64ec" kind="variable"><name>_nbHours</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a6f2e073ba8ae191102e748a9a005a6bb" kind="variable"><name>_description</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1acce814328dbc8ccd7715dd34c0c9a974" kind="variable"><name>_longDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kind="function"><name>Contributory</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1acbece77d876ca9d49d9fec868a74be5f" kind="function"><name>Contributory</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" kind="function"><name>~Contributory</name></member>
@@ -295,16 +297,19 @@
     <member refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kind="function"><name>setDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kind="function"><name>operator==</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kind="function"><name>operator!=</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" kind="function"><name>getLongDescription</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" kind="function"><name>setLongDescription</name></member>
   </compound>
   <compound refid="dc/da5/classDatabases_1_1ContributoryDatabase" kind="class"><name>Databases::ContributoryDatabase</name>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abee994f77d5cdf4e06aa498009acbbe4" kind="variable"><name>_instance</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kind="function"><name>instance</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kind="function"><name>getContributory</name></member>
-    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a9d2a5e5322fa50ecd6e4b89f1102cb9b" kind="function"><name>getContributoriesByBilling</name></member>
+    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1afa10024c8a5afe7fd6c09a254357e5c2" kind="function"><name>getContributoriesByBilling</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abd7bf49a62d8e267d898936122b5c2a7" kind="function"><name>addContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a748062c6793dd80115ded9bffba75b6a" kind="function"><name>updateContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a3c99a1730bce8dbf3cab72896d8f17ff" kind="function"><name>removeContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a6fc0f3eca03c49d919e7dbd2f8290555" kind="function"><name>getContributory</name></member>
+    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ab1da3fd9479fc39d05da9d52ffc9bea2" kind="function"><name>getContributoriesByBillingAndProject</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a52479eeb5ab01a9e3c25dfe92344457c" kind="function"><name>ContributoryDatabase</name></member>
   </compound>
   <compound refid="d4/de2/classContributoryListTest" kind="class"><name>ContributoryListTest</name>
@@ -478,7 +483,6 @@
   </compound>
   <compound refid="d4/de4/classExceptions_1_1DbException" kind="class"><name>Exceptions::DbException</name>
     <member refid="d4/de4/classExceptions_1_1DbException_1afc538ba4031e8d09cafbfbc0371f42eb" kind="variable"><name>_userError</name></member>
-    <member refid="d4/de4/classExceptions_1_1DbException_1a8fc1406c37086d53cc17c31e99c8e0a8" kind="variable"><name>_errorCode</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" kind="function"><name>DbException</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1ad82383b348d70958ec498ffb73f816ae" kind="function"><name>~DbException</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1a4c04dbebd510cb3206b0263bc57c9f6d" kind="function"><name>popupMessage</name></member>
@@ -505,7 +509,6 @@
   </compound>
   <compound refid="d9/d57/classExceptions_1_1FileException" kind="class"><name>Exceptions::FileException</name>
     <member refid="d9/d57/classExceptions_1_1FileException_1aa2e71aeddab0fa63d4ba3c15309ae3fb" kind="variable"><name>_userError</name></member>
-    <member refid="d9/d57/classExceptions_1_1FileException_1a7e0493bfaf65bc7d9adaacac533d3e70" kind="variable"><name>_errorCode</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" kind="function"><name>FileException</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1adcb4568ba9b13534d12347d8f8fb5421" kind="function"><name>~FileException</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1aba824967d55e0a9a29c23521d87f05dd" kind="function"><name>popupMessage</name></member>
@@ -683,6 +686,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a5382453ff21c02a7c5371115288a7420" kind="variable"><name>_description</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9ff0e5c77d087ee640087b1e29917b85" kind="variable"><name>_beginDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9bce4b467c33d948b1f094e1015f9508" kind="variable"><name>_endDate</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1acf8876aff5f58b1135432ffac127f2b7" kind="variable"><name>_cost</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ade51277c6a3a6184ddd623ed027887c9" kind="variable"><name>_dailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1acb89fc1cf8b21395935dee050970dcbc" kind="variable"><name>_customer</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1acd757cadcbeda1f4f83a2b0cd3c1cec1" kind="function"><name>Project</name></member>
@@ -701,6 +705,8 @@
     <member refid="dd/d3f/classModels_1_1Project_1a07dfb00cbec7442197a91bc0795ab14d" kind="function"><name>setBeginDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kind="function"><name>getEndDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a89e9603b862d0a282e4eb03e122e8c05" kind="function"><name>setEndDate</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kind="function"><name>getCost</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a840437ed81c595608bd285cac4065082" kind="function"><name>setCost</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a46d74a7452e712d223f1ca444a4cc180" kind="function"><name>getDailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kind="function"><name>setDailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kind="function"><name>getCustomer</name></member>
@@ -708,6 +714,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a2f322e63f6b42273c24093b9df46c2d6" kind="function"><name>operator==</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a8e7cc264d433c708323faccae7bdd082" kind="function"><name>operator&lt;</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1adf5947680a4eca62cd1cbda58a2a62f0" kind="function"><name>operator!=</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a834fc60160333ebd1bc5e6a2025fe775" kind="function"><name>costCompute</name></member>
   </compound>
   <compound refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kind="class"><name>Gui::Widgets::Delegates::ProjectComboDelegate</name>
     <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" kind="variable"><name>_projects</name></member>

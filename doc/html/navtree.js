@@ -30,8 +30,8 @@ var NAVTREEINDEX =
 [
 ".html",
 "d5/dc2/structMustache_1_1Tag.html#aa5b947e3ad6b6e0cf6ef5a4c69262e61",
-"d9/dc5/classModels_1_1Rate.html#ab867d2b5b114df71814c742c957badd8",
-"de/dbc/addquotedialog_8h_source.html"
+"d9/dc5/classModels_1_1Rate.html#a937b0efecbc5b3561ad08fe712165d0b",
+"de/d63/classTestMustache.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
