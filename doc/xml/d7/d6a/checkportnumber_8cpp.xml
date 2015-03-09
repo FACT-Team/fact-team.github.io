@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d6a/checkportnumber_8cpp" kind="file">
+    <compoundname>checkportnumber.cpp</compoundname>
+    <includes refid="dd/d32/checkportnumber_8h" local="yes">checkportnumber.h</includes>
+    <incdepgraph>
+      <node id="1627">
+        <label>gui/widgets/checkfields/checkqlineedit.h</label>
+        <link refid="de/dc9/checkqlineedit_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1629" relation="include">
+        </childnode>
+        <childnode refid="1630" relation="include">
+        </childnode>
+      </node>
+      <node id="1626">
+        <label>checkportnumber.h</label>
+        <link refid="dd/d32/checkportnumber_8h_source"/>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1630" relation="include">
+        </childnode>
+      </node>
+      <node id="1630">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="1631" relation="include">
+        </childnode>
+      </node>
+      <node id="1625">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.cpp</label>
+        <link refid="checkportnumber.cpp"/>
+        <childnode refid="1626" relation="include">
+        </childnode>
+      </node>
+      <node id="1628">
+        <label>QLineEdit</label>
+      </node>
+      <node id="1631">
+        <label>QString</label>
+      </node>
+      <node id="1629">
+        <label>QPushButton</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d6/d63/namespaceGui_1_1Widgets_1_1CheckFields">Gui::Widgets::CheckFields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkportnumber.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1a587504802ee5cdc0529c411b45d50ee9" kindref="member">CheckPortNumber::CheckPortNumber</ref>(QWidget*<sp/>w,<sp/>QPushButton<sp/>*btn)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>CheckQLineEdit(w,<sp/>btn)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1aca2bfa31e06451c77a7a38020c2819b7" kindref="member">CheckPortNumber::check</ref>(QString<sp/>text)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>numberRgx(</highlight><highlight class="stringliteral">&quot;[0-9]{0,8}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>numberRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>numberRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>numberRgx.exactMatch(text);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.cpp"/>
+  </compounddef>
+</doxygen>

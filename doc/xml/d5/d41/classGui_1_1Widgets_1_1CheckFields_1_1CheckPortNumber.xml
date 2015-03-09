@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber" kind="class" prot="public">
+    <compoundname>Gui::Widgets::CheckFields::CheckPortNumber</compoundname>
+    <basecompoundref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckQLineEdit</basecompoundref>
+    <includes refid="dd/d32/checkportnumber_8h" local="no">checkportnumber.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1a587504802ee5cdc0529c411b45d50ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Widgets::CheckFields::CheckPortNumber::CheckPortNumber</definition>
+        <argsstring>(QWidget *w=0, QPushButton *btn=0)</argsstring>
+        <name>CheckPortNumber</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>w</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QPushButton *</type>
+          <declname>btn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber" kindref="compound">CheckPortNumber</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>btn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1aca2bfa31e06451c77a7a38020c2819b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Gui::Widgets::CheckFields::CheckPortNumber::check</definition>
+        <argsstring>(QString text)</argsstring>
+        <name>check</name>
+        <reimplements refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144">check</reimplements>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1aca2bfa31e06451c77a7a38020c2819b7" kindref="member">CheckPortNumber::check</ref> Check if the field contains only numbers or an empty text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.h" line="33" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.cpp" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers" kindref="compound">CheckFieldsNumbers</ref> class Line Edit of number with a check icon. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Florent BERBIE </para></simplesect>
+<simplesect kind="see"><para><ref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" kindref="compound">CheckQLineEdit</ref> </para><simplesectsep/><para><ref refid="d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" kindref="compound">CheckUntilField</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="127">
+        <label>QLineEdit</label>
+      </node>
+      <node id="125">
+        <label>Gui::Widgets::CheckFields::CheckPortNumber</label>
+        <link refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="130">
+        <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
+        <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>Gui::Widgets::CheckFields::ICheckField</label>
+        <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
+      </node>
+      <node id="131">
+        <label>QLineEdit</label>
+      </node>
+      <node id="129">
+        <label>Gui::Widgets::CheckFields::CheckPortNumber</label>
+        <link refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkportnumber.h" bodystart="17" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1aca2bfa31e06451c77a7a38020c2819b7" prot="public" virt="virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>check</name></member>
+      <member refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1a587504802ee5cdc0529c411b45d50ee9" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>CheckPortNumber</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a354342ac8c875603552dfd894c5322b8" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>CheckQLineEdit</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0c35fee8c76e651163e71ddaac04dc97" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>displayCheckNoValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1abd546dd41a60c8182c45fa7f4f9666db" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>displayCheckValidFieldIcon</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1ad297d518964bd170e8cc7533795ff99e" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>fieldTextChanged</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a0fd99ca76208b4986c6165b9ef1c04e3" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>getBtnValid</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1a468dcf5d39993973ee4c891658baba18" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>isValid</name></member>
+      <member refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit_1aa5f2ef2358512cf6e7d2eb4af58deb8d" prot="public" virt="non-virtual"><scope>Gui::Widgets::CheckFields::CheckPortNumber</scope><name>setBtnValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -21,9 +21,9 @@ Inheritance diagram for Gui\-:\-:Widgets\-:\-:Database\-Settings\-Widget\-:\begi
 \item 
 bool \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a8b7f1184a885ca63edce7957b74751c6}{is\-Valid} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a8b7f1184a885ca63edce7957b74751c6}{Database\-Settings\-Widget\-::is\-Valid} Return T\-R\-U\-E if all fields are correctly inputed else F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
-\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a42909f8a25f7e75685f1b02d811fd6eb}{void \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a42909f8a25f7e75685f1b02d811fd6eb}{check\-Repeat\-Login} (Q\-String text)}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a42909f8a25f7e75685f1b02d811fd6eb}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a99bb50cd3d4eb68c5b8d9b20a983a605}{void \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a99bb50cd3d4eb68c5b8d9b20a983a605}{check\-Repeat\-Password} (Q\-String text)}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a99bb50cd3d4eb68c5b8d9b20a983a605}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a42909f8a25f7e75685f1b02d811fd6eb}{Database\-Settings\-Widget\-::check\-Repeat\-Login} Check if the second login field is the same than the first. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Database\-Settings\-Widget\-::check\-Repeat\-Login Check if the second login field is the same than the first. \end{DoxyCompactList}\item 
 \hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a063c346b830524fb1f96f32984fb5493}{void \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a063c346b830524fb1f96f32984fb5493}{user\-Interface\-Changed} ()}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a063c346b830524fb1f96f32984fb5493}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a063c346b830524fb1f96f32984fb5493}{Database\-Settings\-Widget\-::user\-Interface\-Changed} User interface has changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -40,7 +40,17 @@ bool \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a8b7f1184a885ca63e
 \begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a723805fcd8e71878c6d66b7296f16d85}{Database\-Settings\-Widget\-::\-Database\-Settings\-Widget} Construct a \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget}{Database\-Settings\-Widget}. \end{DoxyCompactList}\item 
 \hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a79e2fb995dbd14f4c4d0b54bdfaf5d5f}{void \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a79e2fb995dbd14f4c4d0b54bdfaf5d5f}{fill\-Fields} ()}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a79e2fb995dbd14f4c4d0b54bdfaf5d5f}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a79e2fb995dbd14f4c4d0b54bdfaf5d5f}{Database\-Settings\-Widget\-::fill\-Fields} Complete fields with a default value for field Database name, Username, I\-P address and port. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a79e2fb995dbd14f4c4d0b54bdfaf5d5f}{Database\-Settings\-Widget\-::fill\-Fields} Complete fields with a default value for field Database name, Username, I\-P address and port. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a5096ca0a98fa130fa49222b554e5dacf}{get\-Database\-Name} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a5096ca0a98fa130fa49222b554e5dacf}{Database\-Settings\-Widget\-::get\-Database\-Name} Return the database name. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad84fec6fb4c19610e3de6608be85f8cc}{get\-Login} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad84fec6fb4c19610e3de6608be85f8cc}{Database\-Settings\-Widget\-::get\-Login} Return the login of the user. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_abb8ebee9842d5efc50f4309bb4a650f1}{get\-Password} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_abb8ebee9842d5efc50f4309bb4a650f1}{Database\-Settings\-Widget\-::get\-Password} Return the password of the user. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_aebcc7341f204c1b8f8ea930154c1a331}{get\-Domain\-Name\-Or\-I\-P} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_aebcc7341f204c1b8f8ea930154c1a331}{Database\-Settings\-Widget\-::get\-Domain\-Name\-Or\-I\-P} Return the domain name or I\-P address on the machine where is the database. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad2f99b62e1ae43f973fbf135ee889908}{get\-Port} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad2f99b62e1ae43f973fbf135ee889908}{Database\-Settings\-Widget\-::get\-Port} Return the port of the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -71,6 +81,76 @@ The \hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget}{Database\-Settings
 
 
 \subsection{Member Function Documentation}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a5096ca0a98fa130fa49222b554e5dacf}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!get\-Database\-Name@{get\-Database\-Name}}
+\index{get\-Database\-Name@{get\-Database\-Name}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
+\subsubsection[{get\-Database\-Name}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::get\-Database\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a5096ca0a98fa130fa49222b554e5dacf}
+
+
+\hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a5096ca0a98fa130fa49222b554e5dacf}{Database\-Settings\-Widget\-::get\-Database\-Name} Return the database name. 
+
+\begin{DoxyReturn}{Returns}
+Database name 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_aebcc7341f204c1b8f8ea930154c1a331}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!get\-Domain\-Name\-Or\-I\-P@{get\-Domain\-Name\-Or\-I\-P}}
+\index{get\-Domain\-Name\-Or\-I\-P@{get\-Domain\-Name\-Or\-I\-P}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
+\subsubsection[{get\-Domain\-Name\-Or\-I\-P}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::get\-Domain\-Name\-Or\-I\-P (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_aebcc7341f204c1b8f8ea930154c1a331}
+
+
+\hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_aebcc7341f204c1b8f8ea930154c1a331}{Database\-Settings\-Widget\-::get\-Domain\-Name\-Or\-I\-P} Return the domain name or I\-P address on the machine where is the database. 
+
+\begin{DoxyReturn}{Returns}
+Domain name or I\-P address 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad84fec6fb4c19610e3de6608be85f8cc}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!get\-Login@{get\-Login}}
+\index{get\-Login@{get\-Login}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
+\subsubsection[{get\-Login}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::get\-Login (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad84fec6fb4c19610e3de6608be85f8cc}
+
+
+\hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad84fec6fb4c19610e3de6608be85f8cc}{Database\-Settings\-Widget\-::get\-Login} Return the login of the user. 
+
+\begin{DoxyReturn}{Returns}
+Login of the user 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_abb8ebee9842d5efc50f4309bb4a650f1}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!get\-Password@{get\-Password}}
+\index{get\-Password@{get\-Password}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
+\subsubsection[{get\-Password}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::get\-Password (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_abb8ebee9842d5efc50f4309bb4a650f1}
+
+
+\hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_abb8ebee9842d5efc50f4309bb4a650f1}{Database\-Settings\-Widget\-::get\-Password} Return the password of the user. 
+
+\begin{DoxyReturn}{Returns}
+User password 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad2f99b62e1ae43f973fbf135ee889908}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!get\-Port@{get\-Port}}
+\index{get\-Port@{get\-Port}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
+\subsubsection[{get\-Port}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::get\-Port (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad2f99b62e1ae43f973fbf135ee889908}
+
+
+\hyperlink{classGui_1_1Widgets_1_1DatabaseSettingsWidget_ad2f99b62e1ae43f973fbf135ee889908}{Database\-Settings\-Widget\-::get\-Port} Return the port of the database. 
+
+\begin{DoxyReturn}{Returns}
+Database port 
+\end{DoxyReturn}
 \hypertarget{classGui_1_1Widgets_1_1DatabaseSettingsWidget_a8b7f1184a885ca63edce7957b74751c6}{\index{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}!is\-Valid@{is\-Valid}}
 \index{is\-Valid@{is\-Valid}!Gui::Widgets::DatabaseSettingsWidget@{Gui\-::\-Widgets\-::\-Database\-Settings\-Widget}}
 \subsubsection[{is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-::\-Widgets\-::\-Database\-Settings\-Widget\-::is\-Valid (
