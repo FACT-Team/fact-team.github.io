@@ -70,16 +70,20 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress_1a785f3ccf0fba4db3e83bfaaaea37455e" kindref="member">CheckIpAddress::check</ref>(QString<sp/>text)</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>numberRgx(</highlight><highlight class="stringliteral">&quot;[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>numberRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>numberRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>ipAddessRgx(</highlight><highlight class="stringliteral">&quot;[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>ipAddessRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>ipAddessRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>numberRgx.exactMatch(text);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>domainName(</highlight><highlight class="stringliteral">&quot;\\b[A-Z0-9._%+-]+\\.[A-Z]{2,4}\\b&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>domainName.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>domainName.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ipAddessRgx.exactMatch(text)<sp/>||<sp/>domainName.exactMatch(text);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkipaddress.cpp"/>
   </compounddef>
