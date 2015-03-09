@@ -354,36 +354,35 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;New<sp/>description&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>c2<sp/>=<sp/>*(<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">Databases::ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kindref="member">getContributory</ref>(3));</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/>(c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>()<sp/>==<sp/>c2.<ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>());</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c1<sp/>==<sp/>c2);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::commitInsert()</highlight></codeline>
-<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(0);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>c2<sp/>=<sp/>*(<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">Databases::ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kindref="member">getContributory</ref>(c1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>()));</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c1<sp/>==<sp/>c2);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::hydrat()</highlight></codeline>
-<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c(1);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c<sp/>==<sp/>c1);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::commitRemove()</highlight></codeline>
-<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(23);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref>*<sp/>c<sp/>=<sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">Databases::ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kindref="member">getContributory</ref>(23);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c<sp/>==<sp/>0);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c1<sp/>==<sp/>c2);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::commitInsert()</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(0);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>c2<sp/>=<sp/>*(<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">Databases::ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kindref="member">getContributory</ref>(c1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>()));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c1<sp/>==<sp/>c2);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::hydrat()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c(1);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c<sp/>==<sp/>c1);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryModelTest::commitRemove()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>setup();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(23);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref>*<sp/>c<sp/>=<sp/><ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kindref="member">Databases::ContributoryDatabase::instance</ref>()-&gt;<ref refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kindref="member">getContributory</ref>(23);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.cpp"/>
   </compounddef>
