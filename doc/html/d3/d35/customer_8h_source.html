@@ -126,25 +126,31 @@ $(document).ready(function(){initNavTree('d3/d35/customer_8h_source.html','../..
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    QString <a class="code" href="../../db/dd7/classModels_1_1Customer.html#ab7c63946125a6b8d876f0f4e2b50c97e">getNameFolder</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#ab379700fa93f5b9eb0f8546b03aff70f">operator ==</a>(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;c);</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#a07e61dd9ad79b6be765ea1dabccf1e18">operator !=</a>(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;c);</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    QString _firstnameReferent; </div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    QString _lastnameReferent;  </div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    QString _company;           </div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    QString _address;           </div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    QString _postalCode;        </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    QString _city;              </div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    QString _country;           </div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    QString _email;             </div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    QString _mobilePhone;       </div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    QString _phone;             </div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    QString _fax;               </div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;};</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;}</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor">#endif // CUSTOMER_H</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#a193fb1920b53048d8a5f7c8e08581e69">getTurnover</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#aee29f27497db5cd37bc835e202c24eac">setTurnover</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> &amp;turnover);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#ab379700fa93f5b9eb0f8546b03aff70f">operator ==</a>(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;c);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html#a07e61dd9ad79b6be765ea1dabccf1e18">operator !=</a>(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;c);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    QString _firstnameReferent; </div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    QString _lastnameReferent;  </div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    QString _company;           </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    QString _address;           </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    QString _postalCode;        </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    QString _city;              </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    QString _country;           </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    QString _email;             </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    QString _mobilePhone;       </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    QString _phone;             </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    QString _fax;               </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">double</span>  _turnover;          </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;};</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;}</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor">#endif // CUSTOMER_H</span></div>
+<div class="ttc" id="classModels_1_1Customer_html_a193fb1920b53048d8a5f7c8e08581e69"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a193fb1920b53048d8a5f7c8e08581e69">Models::Customer::getTurnover</a></div><div class="ttdeci">double getTurnover() const </div><div class="ttdoc">Customer::getTurnover Return the turnover of the customer money that customer pay, revenue sales. </div><div class="ttdef"><b>Definition:</b> customer.cpp:204</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_afd430475dc1bf7f9b1548767265aa821"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#afd430475dc1bf7f9b1548767265aa821">Models::Customer::setCountry</a></div><div class="ttdeci">void setCountry(const QString &amp;country)</div><div class="ttdoc">Customer::setCountry Replace the country of the Customer company by country </div><div class="ttdef"><b>Definition:</b> customer.cpp:199</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_ae2d41b145d9c468f7e3c40a38882873d"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#ae2d41b145d9c468f7e3c40a38882873d">Models::Customer::setAddress</a></div><div class="ttdeci">void setAddress(const QString &amp;address)</div><div class="ttdoc">Customer::setAddress Replace the current company address by the new address </div><div class="ttdef"><b>Definition:</b> customer.cpp:118</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_af5c0f2b6d80ad9e6bcbfe39b697d65c4"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#af5c0f2b6d80ad9e6bcbfe39b697d65c4">Models::Customer::commit</a></div><div class="ttdeci">void commit()</div><div class="ttdoc">Customer::commit Update customer data on the database. </div><div class="ttdef"><b>Definition:</b> customer.cpp:17</div></div>
@@ -174,6 +180,7 @@ $(document).ready(function(){initNavTree('d3/d35/customer_8h_source.html','../..
 <div class="ttc" id="classModels_1_1Customer_html_ace3f86c1e5108ede84a1a09516b37e50"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#ace3f86c1e5108ede84a1a09516b37e50">Models::Customer::getCity</a></div><div class="ttdeci">QString getCity() const </div><div class="ttdoc">Customer::getCity Return the city of the customer company. </div><div class="ttdef"><b>Definition:</b> customer.cpp:131</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_a4a6ba86c58db9bca2737bbeb723a0db3"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a4a6ba86c58db9bca2737bbeb723a0db3">Models::Customer::setFax</a></div><div class="ttdeci">void setFax(const QString &amp;fax)</div><div class="ttdoc">Customer::setFax Replace the current fax number by fax </div><div class="ttdef"><b>Definition:</b> customer.cpp:172</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_a64ff31bbe0c7aba0b9976d8d253b7b33"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a64ff31bbe0c7aba0b9976d8d253b7b33">Models::Customer::setLastnameReferent</a></div><div class="ttdeci">void setLastnameReferent(const QString &amp;lastnameReferent)</div><div class="ttdoc">Customer::setLarstnameReferent Replace the referent lastname of the customer by lastnameReferent ...</div><div class="ttdef"><b>Definition:</b> customer.cpp:100</div></div>
+<div class="ttc" id="classModels_1_1Customer_html_aee29f27497db5cd37bc835e202c24eac"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#aee29f27497db5cd37bc835e202c24eac">Models::Customer::setTurnover</a></div><div class="ttdeci">void setTurnover(const double &amp;turnover)</div><div class="ttdoc">Customer::setTurnover Replace the current turnover by turnover </div><div class="ttdef"><b>Definition:</b> customer.cpp:209</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_a23fb516872c6aebf9b1eb6a7ec86cb7f"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a23fb516872c6aebf9b1eb6a7ec86cb7f">Models::Customer::getCompany</a></div><div class="ttdeci">QString getCompany() const </div><div class="ttdoc">Customer::getCompany Return the name of the company customer. </div><div class="ttdef"><b>Definition:</b> customer.cpp:104</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_a07e61dd9ad79b6be765ea1dabccf1e18"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a07e61dd9ad79b6be765ea1dabccf1e18">Models::Customer::operator!=</a></div><div class="ttdeci">bool operator!=(const Customer &amp;c)</div><div class="ttdoc">Customer::operator == Re-define the operator &quot;!=&quot; to compare if the current customer is differnt to t...</div><div class="ttdef"><b>Definition:</b> customer.cpp:81</div></div>
 <div class="ttc" id="classModels_1_1Customer_html_a0438cd11dfe13bb89c0233ffe288cc73"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html#a0438cd11dfe13bb89c0233ffe288cc73">Models::Customer::getPhone</a></div><div class="ttdeci">QString getPhone() const </div><div class="ttdoc">Customer::getPhone Return the number of desktop phone. </div><div class="ttdef"><b>Definition:</b> customer.cpp:158</div></div>
@@ -183,7 +190,7 @@ $(document).ready(function(){initNavTree('d3/d35/customer_8h_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a0fc242344fcc8d14eec4e83d12430b2.html">models</a></li><li class="navelem"><b>customer.h</b></li>
-    <li class="footer">Generated on Tue Mar 10 2015 11:55:36 for FactDev by
+    <li class="footer">Generated on Tue Mar 10 2015 13:09:56 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
