@@ -523,14 +523,14 @@
 <codeline lineno="93"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d12/classGenerator_1_1TexGenerator" kindref="compound">Generator::TexGenerator</ref><sp/>g(</highlight><highlight class="stringliteral">&quot;:/tpl/billingtpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>g.generate(getDataMap(),<sp/>getPath()+</highlight><highlight class="stringliteral">&quot;.tex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>g.<ref refid="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" kindref="member">generate</ref>(getDataMap(),<sp/>getPath()+</highlight><highlight class="stringliteral">&quot;.tex&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Billing::generatePdf()</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>generateTex();</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d69/classGenerator_1_1PdfGenerator" kindref="compound">Generator::PdfGenerator</ref><sp/>g;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>g.generate(getFolder(),<sp/>getFilename());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>g.<ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" kindref="member">generate</ref>(getFolder(),<sp/>getFilename());</highlight></codeline>
 <codeline lineno="104"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">QString<sp/>Billing::getFolder()<sp/>{</highlight></codeline>
