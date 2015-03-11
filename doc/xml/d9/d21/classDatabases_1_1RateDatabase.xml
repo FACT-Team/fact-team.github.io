@@ -130,29 +130,29 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="412">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+      </node>
+      <node id="411">
+        <label>Databases::RateDatabase</label>
+        <link refid="d9/d21/classDatabases_1_1RateDatabase"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="414">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
+        <childnode refid="414" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
       </node>
       <node id="413">
         <label>Databases::RateDatabase</label>
         <link refid="d9/d21/classDatabases_1_1RateDatabase"/>
         <childnode refid="414" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="416">
-        <label>Databases::Database</label>
-        <link refid="dd/db0/classDatabases_1_1Database"/>
-        <childnode refid="416" relation="usage">
-          <edgelabel>#_instance</edgelabel>
-        </childnode>
-      </node>
-      <node id="415">
-        <label>Databases::RateDatabase</label>
-        <link refid="d9/d21/classDatabases_1_1RateDatabase"/>
-        <childnode refid="416" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

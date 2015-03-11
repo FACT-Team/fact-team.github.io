@@ -106,29 +106,29 @@
 <simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>User </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
+      <node id="474">
+        <label>Databases::Database</label>
+        <link refid="dd/db0/classDatabases_1_1Database"/>
+      </node>
+      <node id="473">
+        <label>Databases::UserDatabase</label>
+        <link refid="d0/d33/classDatabases_1_1UserDatabase"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="476">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
+        <childnode refid="476" relation="usage">
+          <edgelabel>#_instance</edgelabel>
+        </childnode>
       </node>
       <node id="475">
         <label>Databases::UserDatabase</label>
         <link refid="d0/d33/classDatabases_1_1UserDatabase"/>
         <childnode refid="476" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="478">
-        <label>Databases::Database</label>
-        <link refid="dd/db0/classDatabases_1_1Database"/>
-        <childnode refid="478" relation="usage">
-          <edgelabel>#_instance</edgelabel>
-        </childnode>
-      </node>
-      <node id="477">
-        <label>Databases::UserDatabase</label>
-        <link refid="d0/d33/classDatabases_1_1UserDatabase"/>
-        <childnode refid="478" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

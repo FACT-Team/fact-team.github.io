@@ -17,7 +17,6 @@ var classModels_1_1Customer =
     [ "getPath", "db/dd7/classModels_1_1Customer.html#ac1aec0fb9058333e1a2496b1c29049af", null ],
     [ "getPhone", "db/dd7/classModels_1_1Customer.html#a0438cd11dfe13bb89c0233ffe288cc73", null ],
     [ "getPostalCode", "db/dd7/classModels_1_1Customer.html#ad544bdcd4d021f92bd77e5aa24f31f21", null ],
-    [ "getTurnover", "db/dd7/classModels_1_1Customer.html#a193fb1920b53048d8a5f7c8e08581e69", null ],
     [ "hydrat", "db/dd7/classModels_1_1Customer.html#afe3ed7fb893d61ea6f4d14e73779382c", null ],
     [ "operator!=", "db/dd7/classModels_1_1Customer.html#a07e61dd9ad79b6be765ea1dabccf1e18", null ],
     [ "operator==", "db/dd7/classModels_1_1Customer.html#ab379700fa93f5b9eb0f8546b03aff70f", null ],
@@ -32,6 +31,5 @@ var classModels_1_1Customer =
     [ "setLastnameReferent", "db/dd7/classModels_1_1Customer.html#a64ff31bbe0c7aba0b9976d8d253b7b33", null ],
     [ "setMobilePhone", "db/dd7/classModels_1_1Customer.html#abefe9de1e3c46501916e461ba6609450", null ],
     [ "setPhone", "db/dd7/classModels_1_1Customer.html#abbc25028b09ae36da632cefbfbbbcce6", null ],
-    [ "setPostalCode", "db/dd7/classModels_1_1Customer.html#a2bd4ac52294de78236e159caaa29412b", null ],
-    [ "setTurnover", "db/dd7/classModels_1_1Customer.html#aee29f27497db5cd37bc835e202c24eac", null ]
+    [ "setPostalCode", "db/dd7/classModels_1_1Customer.html#a2bd4ac52294de78236e159caaa29412b", null ]
 ];
