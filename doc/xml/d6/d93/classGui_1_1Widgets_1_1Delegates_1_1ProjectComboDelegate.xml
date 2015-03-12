@@ -3,6 +3,7 @@
   <compounddef id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kind="class" prot="public">
     <compoundname>Gui::Widgets::Delegates::ProjectComboDelegate</compoundname>
     <basecompoundref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" prot="public" virt="non-virtual">Gui::Widgets::Delegates::ComboBoxDelegate</basecompoundref>
+    <includes refid="d5/dfb/projectcombodelegate_8h" local="no">projectcombodelegate.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" prot="private" static="no" mutable="no">
         <type>QMap&lt; int, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
@@ -15,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="69" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1aad3572824a02980ed2f75758cd3bc00b" prot="private" static="no" mutable="no">
         <type>QList&lt; int &gt;</type>
@@ -28,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="70" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1aba69321d944d18f0a539bdc512706338" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -41,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="29" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="71" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,12 +61,27 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a5fda87c3db87a0928717810a0ac2812f" kindref="member">ProjectComboDelegate::ProjectComboDelegate</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="7" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="7" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1adbfc28a3e6de34dc63d7290ae5b5c053" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>QWidget *</type>
@@ -86,12 +102,35 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1adbfc28a3e6de34dc63d7290ae5b5c053" kindref="member">ProjectComboDelegate::createEditor</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="13" bodyend="32"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="31" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="13" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a20cbc84d26b83083fdf7efecae3407cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -112,12 +151,34 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a20cbc84d26b83083fdf7efecae3407cf" kindref="member">ProjectComboDelegate::paint</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="34" bodyend="42"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="41" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="34" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a7e14627b3942a96f190e31a4e67edc95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129,12 +190,12 @@
           <defname>l</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a7e14627b3942a96f190e31a4e67edc95" kindref="member">ProjectComboDelegate::removeInCombo</ref>. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="44" bodyend="47"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="48" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a63d0ef3a5179d72ab577f359c8f7a6fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QMap&lt; int, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
@@ -142,12 +203,13 @@
         <argsstring>() const </argsstring>
         <name>getProjects</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1a63d0ef3a5179d72ab577f359c8f7a6fa" kindref="member">ProjectComboDelegate::getProjects</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="48" bodyend="51"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="54" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1ad07bf1e09c752159161a3f585c61b4d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155,12 +217,13 @@
         <argsstring>() const </argsstring>
         <name>getLocked</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1ad07bf1e09c752159161a3f585c61b4d7" kindref="member">ProjectComboDelegate::getLocked</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="58" bodyend="61"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="60" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="58" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1ac93369dde11856d4097851f7f1158f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172,16 +235,24 @@
           <declname>getLlocked</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1ac93369dde11856d4097851f7f1158f48" kindref="member">ProjectComboDelegate::setLocked</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getLlocked</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="53" bodyend="56"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="66" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.cpp" bodystart="53" bodyend="56"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kindref="compound">ProjectComboDelegate</ref> class. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
@@ -218,7 +289,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="10" bodyend="30"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h" bodystart="13" bodyend="72"/>
     <listofallmembers>
       <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1aba69321d944d18f0a539bdc512706338" prot="private" virt="non-virtual"><scope>Gui::Widgets::Delegates::ProjectComboDelegate</scope><name>_locked</name></member>
       <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" prot="private" virt="non-virtual"><scope>Gui::Widgets::Delegates::ProjectComboDelegate</scope><name>_projects</name></member>
