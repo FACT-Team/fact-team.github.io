@@ -352,40 +352,52 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/rate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
-<codeline lineno="10" refid="d7/d6a/classModels_1_1ContributoriesList" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref><sp/>:<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>QMap&lt;QPair&lt;Project*,Models::Rate&gt;*,QList&lt;Contributory&gt;<sp/>&gt;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref>();</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref>();</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ad341e0527f4c9057281400f6cf54e54f" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addContributory(<ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;<sp/>contributory);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addProject(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p,<sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref><sp/>rate);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Contributory&gt;<sp/>&amp;getContributories(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getIdBilling()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setIdBilling(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getIdBilling);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a313800788580eb469df125fe8d47c6a6" kindref="member">setAllIdContributories</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idContributory);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>getInsert()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setInsert(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>getInsert);</highlight></codeline>
+<codeline lineno="14" refid="d7/d6a/classModels_1_1ContributoriesList" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>QMap&lt;QPair&lt;Project*,Models::Rate&gt;*,QList&lt;Contributory&gt;<sp/>&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a3563e04b5d5b144846679f3ef4fd9387" kindref="member">ContributoriesList</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d7/d6a/classModels_1_1ContributoriesList" kindref="compound">ContributoriesList</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ad341e0527f4c9057281400f6cf54e54f" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a62b01d5292326da5902589ddb9b71234" kindref="member">addContributory</ref>(<ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Models::Contributory</ref>&amp;<sp/>contributory);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbProjects();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>getSumRate();</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>getSumQuantity();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Customer&gt;<sp/>getCustomer();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Project<sp/>*&gt;<sp/>getProjects();</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Contributory&gt;<sp/>*getAllContributories();</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref><sp/>getRate(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref><sp/>*project);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantList<sp/>getDataMap();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_idBilling;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_insert;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORIESLIST_H</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a4c99c890fc7d7616678d6e5f7ee558f5" kindref="member">addProject</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p,<sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref><sp/>rate);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Contributory&gt;<sp/>&amp;<ref refid="d7/d6a/classModels_1_1ContributoriesList_1a2549547fd3866d879ebbfd1f38145fc5" kindref="member">getContributories</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a3fbbce49ffcdbfa0693f4d21dd0d8c14" kindref="member">getIdBilling</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ad93d74f1b3e0a4ad83bad859812b3547" kindref="member">setIdBilling</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBilling);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a313800788580eb469df125fe8d47c6a6" kindref="member">setAllIdContributories</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idContributory);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ab5b32ef1b153af303852d10b0168a41f" kindref="member">getInsert</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a5d34942a45954d98e53112e2523bee9b" kindref="member">setInsert</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>insert);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a026202989560ff9d462d6104b3788657" kindref="member">getNbProjects</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ae2fd3ad53b082ee8adf3d0249e4f539b" kindref="member">getSumRate</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">getSumQuantity</ref>();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Customer&gt;<sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a760097b1c0d7822cfd3d4796d553fae9" kindref="member">getCustomer</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Project<sp/>*&gt;<sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a4d52a35870cd9257ee3b5db75bd8ff25" kindref="member">getProjects</ref>();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Contributory&gt;<sp/>*<ref refid="d7/d6a/classModels_1_1ContributoriesList_1a629a25a7958dba28ec37c8a3709cdf2f" kindref="member">getAllContributories</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref><sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" kindref="member">getRate</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref><sp/>*project);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantList<sp/><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af063322348b0f02d0c7159bd7413a836" kindref="member">getDataMap</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_idBilling;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_insert;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORIESLIST_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h"/>
   </compounddef>

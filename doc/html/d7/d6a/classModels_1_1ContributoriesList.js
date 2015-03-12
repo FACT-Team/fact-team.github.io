@@ -17,6 +17,6 @@ var classModels_1_1ContributoriesList =
     [ "getSumQuantity", "d7/d6a/classModels_1_1ContributoriesList.html#af9b3b1b703cebeef552d058999ffcc4c", null ],
     [ "getSumRate", "d7/d6a/classModels_1_1ContributoriesList.html#ae2fd3ad53b082ee8adf3d0249e4f539b", null ],
     [ "setAllIdContributories", "d7/d6a/classModels_1_1ContributoriesList.html#a313800788580eb469df125fe8d47c6a6", null ],
-    [ "setIdBilling", "d7/d6a/classModels_1_1ContributoriesList.html#a759f76db48c3dfe88ab8bd534b835553", null ],
-    [ "setInsert", "d7/d6a/classModels_1_1ContributoriesList.html#a543e4e70e7b10efc05027108247c3958", null ]
+    [ "setIdBilling", "d7/d6a/classModels_1_1ContributoriesList.html#ad93d74f1b3e0a4ad83bad859812b3547", null ],
+    [ "setInsert", "d7/d6a/classModels_1_1ContributoriesList.html#a5d34942a45954d98e53112e2523bee9b", null ]
 ];
