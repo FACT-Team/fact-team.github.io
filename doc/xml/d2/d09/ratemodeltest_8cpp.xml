@@ -204,9 +204,9 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RateModelTest::setHourly()</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_rate<sp/>=<sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref>();</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>_rate.<ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">setHourlyRate</ref>(12.42);</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(12.42,<sp/>_rate.<ref refid="d9/dc5/classModels_1_1Rate_1ac4c3d9c09bed20d639997da7d6c6798b" kindref="member">getHourlyRate</ref>());</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(12.42<sp/>*<sp/>_rate.<ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>(),<sp/>_rate.<ref refid="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" kindref="member">getDailyRate</ref>());</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>_rate.setHourlyRate(12.42);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(12.42,<sp/>_rate.getHourlyRate());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(12.42<sp/>*<sp/>_rate.getNbDailyHours(),<sp/>_rate.getDailyRate());</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>_rate<sp/>=<sp/><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref>(13.37);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(13.37,<sp/>_rate.getHourlyRate());</highlight></codeline>

@@ -98,39 +98,33 @@ $(document).ready(function(){initNavTree('d7/d15/searchwidget_8h_source.html','.
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a3cb27e088874c5b8c548d0346a5d85f2">isCustomerSelected</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a9b6248c515bac4b6f58237c2f73d804b">selectCustomer</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> selectCustomer(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> getIdCustomer() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> setIdCustomer(<span class="keywordtype">int</span> getIdCustomer);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a20de80dbfa207b4ecc8b12433fcebb4b">getIdCustomer</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#adf91225827fde587bea0d0fc803b0034">search</a>(QString toSearch);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a80edf8bc8de24fb6dc47201ec133d185">setIdCustomer</a>(<span class="keywordtype">int</span> idCustomer);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#adf91225827fde587bea0d0fc803b0034">search</a>(QString toSearch);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#ae9e5a460a5320c8bfad4d6878009ccbc">getCustomerData</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;signals:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a9b6248c515bac4b6f58237c2f73d804b">selectCustomer</a>();</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    Ui::searchWidget *ui;               </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> updateTable(QString text=<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">bool</span> _isCustomerSelected;   </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">int</span> _idCustomer;            </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;};</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif // SEARCHWIDGET_H</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#ae9e5a460a5320c8bfad4d6878009ccbc">getCustomerData</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;signals:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> selectCustomer();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    Ui::searchWidget *ui;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> updateTable(QString text=<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">bool</span> _isCustomerSelected;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> _idCustomer;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif // SEARCHWIDGET_H</span></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_ae9e5a460a5320c8bfad4d6878009ccbc"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#ae9e5a460a5320c8bfad4d6878009ccbc">Gui::Widgets::searchWidget::getCustomerData</a></div><div class="ttdeci">void getCustomerData()</div><div class="ttdoc">searchWidget::getCustomerData Return data on the customer selected in the QTableView and display this...</div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:63</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a8d77bcf326543f841d1c05fe9819183f"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a8d77bcf326543f841d1c05fe9819183f">Gui::Widgets::searchWidget::searchWidget</a></div><div class="ttdeci">searchWidget(QWidget *parent=0)</div><div class="ttdoc">searchWidget::searchWidget Construct a search widget </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:6</div></div>
-<div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a9b6248c515bac4b6f58237c2f73d804b"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a9b6248c515bac4b6f58237c2f73d804b">Gui::Widgets::searchWidget::selectCustomer</a></div><div class="ttdeci">void selectCustomer()</div><div class="ttdoc">searchWidget::selectCustomer Signal that the Customer selected has changed </div></div>
-<div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a3cb27e088874c5b8c548d0346a5d85f2"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a3cb27e088874c5b8c548d0346a5d85f2">Gui::Widgets::searchWidget::isCustomerSelected</a></div><div class="ttdeci">bool isCustomerSelected() const </div><div class="ttdoc">searchWidget::isCustomerSelected Return TRUE if a customer is selected, else FALSE ...</div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:94</div></div>
-<div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a20de80dbfa207b4ecc8b12433fcebb4b"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a20de80dbfa207b4ecc8b12433fcebb4b">Gui::Widgets::searchWidget::getIdCustomer</a></div><div class="ttdeci">int getIdCustomer() const </div><div class="ttdoc">searchWidget::getIdCustomer Return the Customer id of the Customer line selected </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:84</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a3cb27e088874c5b8c548d0346a5d85f2"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a3cb27e088874c5b8c548d0346a5d85f2">Gui::Widgets::searchWidget::isCustomerSelected</a></div><div class="ttdeci">bool isCustomerSelected() const </div><div class="ttdoc">isCustomerSelected Return TRUE if a customer is selected, else FALSE </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:94</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_adf91225827fde587bea0d0fc803b0034"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#adf91225827fde587bea0d0fc803b0034">Gui::Widgets::searchWidget::search</a></div><div class="ttdeci">void search(QString toSearch)</div><div class="ttdoc">searchWidget::launch a search </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:32</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html">Gui::Widgets::searchWidget</a></div><div class="ttdoc">Class for search in database. </div><div class="ttdef"><b>Definition:</b> searchwidget.h:21</div></div>
-<div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a80edf8bc8de24fb6dc47201ec133d185"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a80edf8bc8de24fb6dc47201ec133d185">Gui::Widgets::searchWidget::setIdCustomer</a></div><div class="ttdeci">void setIdCustomer(int idCustomer)</div><div class="ttdoc">searchWidget::setIdCustomer Change the customer id by the new idCustomer </div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:89</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1searchWidget_html_a93c6519cc7e0d8f440451d14fb85bd31"><div class="ttname"><a href="../../d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a93c6519cc7e0d8f440451d14fb85bd31">Gui::Widgets::searchWidget::getCurrentCustomerId</a></div><div class="ttdeci">int getCurrentCustomerId()</div><div class="ttdoc">searchWidget::getCurrentCustomerId Return the id of the customer selected in the table ...</div><div class="ttdef"><b>Definition:</b> searchwidget.cpp:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +132,7 @@ $(document).ready(function(){initNavTree('d7/d15/searchwidget_8h_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_381b413982d478049d22ff06f0a5ecf9.html">widgets</a></li><li class="navelem"><b>searchwidget.h</b></li>
-    <li class="footer">Generated on Fri Mar 13 2015 08:15:44 for FactDev by
+    <li class="footer">Generated on Fri Mar 13 2015 10:41:30 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

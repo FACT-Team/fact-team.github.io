@@ -85,47 +85,47 @@ $(document).ready(function(){initNavTree('d2/deb/contributorydatabase_8h_source.
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>Databases {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>* instance()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a> *getContributory(<span class="keyword">const</span> <span class="keywordtype">int</span> idContributory);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a> getContributoriesByBilling(<span class="keyword">const</span> <span class="keywordtype">int</span> billingId);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> addContributory(<span class="keyword">const</span> <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a>&amp;);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> updateContributory(<span class="keyword">const</span> <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a>&amp;);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> removeContributory(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a> *getContributory(QSqlQuery &amp;q);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a> getContributoriesByBillingAndProject(</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">int</span> billingId, <span class="keyword">const</span> <span class="keywordtype">int</span> projectId);</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a> : <span class="keyword">public</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>* instance()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a> *getContributory(<span class="keyword">const</span> <span class="keywordtype">int</span> idContributory);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a> getContributoriesByBilling(<span class="keyword">const</span> <span class="keywordtype">int</span> billingId);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">int</span> addContributory(<span class="keyword">const</span> <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a>&amp;);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> updateContributory(<span class="keyword">const</span> <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a>&amp;);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> removeContributory(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a> *getContributory(QSqlQuery &amp;q);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a> getContributoriesByBillingAndProject(<span class="keyword">const</span> <span class="keywordtype">int</span> billingId,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                                    <span class="keyword">const</span> <span class="keywordtype">int</span> projectId);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>* _instance;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*) ;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;};</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORYDATABASE_H</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>* _instance;  </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">ContributoryDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*) ;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;};</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif // CONTRIBUTORYDATABASE_H</span></div>
 <div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
 <div class="ttc" id="classDatabases_1_1Database_html"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:33</div></div>
-<div class="ttc" id="classDatabases_1_1ContributoryDatabase_html"><div class="ttname"><a href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">Databases::ContributoryDatabase</a></div><div class="ttdoc">The ContributoryDatabase class Contributory (or Quote) table database. </div><div class="ttdef"><b>Definition:</b> contributorydatabase.h:25</div></div>
+<div class="ttc" id="classDatabases_1_1ContributoryDatabase_html"><div class="ttname"><a href="../../dc/da5/classDatabases_1_1ContributoryDatabase.html">Databases::ContributoryDatabase</a></div><div class="ttdoc">The ContributoryDatabase class Contributory (or Quote) table database. </div><div class="ttdef"><b>Definition:</b> contributorydatabase.h:24</div></div>
 <div class="ttc" id="classModels_1_1Contributory_html"><div class="ttname"><a href="../../d5/dd1/classModels_1_1Contributory.html">Models::Contributory</a></div><div class="ttdoc">The Contributory class. </div><div class="ttdef"><b>Definition:</b> contributory.h:11</div></div>
-<div class="ttc" id="classModels_1_1ContributoriesList_html"><div class="ttname"><a href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a></div><div class="ttdoc">The ContributoriesList class List of contributories. </div><div class="ttdef"><b>Definition:</b> contributorieslist.h:14</div></div>
+<div class="ttc" id="classModels_1_1ContributoriesList_html"><div class="ttname"><a href="../../d7/d6a/classModels_1_1ContributoriesList.html">Models::ContributoriesList</a></div><div class="ttdef"><b>Definition:</b> contributorieslist.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_fb3819ff5273056abe09370430f56163.html">database</a></li><li class="navelem"><b>contributorydatabase.h</b></li>
-    <li class="footer">Generated on Fri Mar 13 2015 08:15:44 for FactDev by
+    <li class="footer">Generated on Fri Mar 13 2015 10:41:30 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
