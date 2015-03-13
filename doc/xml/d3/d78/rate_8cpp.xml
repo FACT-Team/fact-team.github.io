@@ -174,45 +174,47 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idBilling,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idProject)</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">setHourlyRate</ref>(<ref refid="d9/d21/classDatabases_1_1RateDatabase_1a9fd72575a2eb189565a0d9eba14121ec" kindref="member">Databases::RateDatabase::instance</ref>()-&gt;getRate(idBilling,<sp/>idProject));</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref>()</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a2f07614aa1d1a4957fd8d4de4d3680d5" kindref="member">Rate::setDailyRate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>value)</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/>value<sp/>&gt;=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>()<sp/>*<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>()<sp/>?<sp/>value<sp/>/<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>()<sp/>:<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">Rate::setHourlyRate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>value)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/>value<sp/>&gt;=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>()<sp/>?<sp/>value<sp/>:<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" kindref="member">Rate::getDailyRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="33"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_hourly<sp/>*<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>();</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1ac4c3d9c09bed20d639997da7d6c6798b" kindref="member">Rate::getHourlyRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="38"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_hourly;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">Rate::getNbDailyHours</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="43"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NB_DAILY_HOURS;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">Rate::getLegalRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="48"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>LEGAL_RATE;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">setHourlyRate</ref>(<ref refid="d9/d21/classDatabases_1_1RateDatabase_1a9fd72575a2eb189565a0d9eba14121ec" kindref="member">Databases::RateDatabase::instance</ref>()-&gt;getRate(idBilling,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>idProject));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a2f07614aa1d1a4957fd8d4de4d3680d5" kindref="member">Rate::setDailyRate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>value)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/>value<sp/>&gt;=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>()<sp/>*<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>()<sp/>?</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>/<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>()<sp/>:<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">Rate::setHourlyRate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>value)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>_hourly<sp/>=<sp/>value<sp/>&gt;=<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>()<sp/>?<sp/>value<sp/>:<sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">getLegalRate</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" kindref="member">Rate::getDailyRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="35"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_hourly<sp/>*<sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">getNbDailyHours</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1ac4c3d9c09bed20d639997da7d6c6798b" kindref="member">Rate::getHourlyRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="40"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_hourly;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">Rate::getNbDailyHours</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NB_DAILY_HOURS;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">Rate::getLegalRate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="50"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>LEGAL_RATE;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp"/>
   </compounddef>
