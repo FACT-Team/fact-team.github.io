@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="de/d0a/classModels_1_1People" kind="class" prot="public">
     <compoundname>Models::People</compoundname>
+    <derivedcompoundref refid="db/dd7/classModels_1_1Customer" prot="public" virt="non-virtual">Models::Customer</derivedcompoundref>
+    <derivedcompoundref refid="df/d68/classModels_1_1User" prot="public" virt="non-virtual">Models::User</derivedcompoundref>
     <includes refid="d2/d90/people_8h" local="no">people.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="de/d0a/classModels_1_1People_1a1d8f684ab3483f9deeec0a84e7597790" prot="private" static="no" mutable="no">
@@ -648,8 +650,26 @@
 <para>The <ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref> class <ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref>. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="370">
+        <label>Models::User</label>
+        <link refid="df/d68/classModels_1_1User"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>Models::Customer</label>
+        <link refid="db/dd7/classModels_1_1Customer"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>Models::People</label>
+        <link refid="de/d0a/classModels_1_1People"/>
+      </node>
+    </inheritancegraph>
     <collaborationgraph>
-      <node id="367">
+      <node id="371">
         <label>Models::People</label>
         <link refid="de/d0a/classModels_1_1People"/>
       </node>
