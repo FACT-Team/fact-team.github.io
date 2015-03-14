@@ -96,30 +96,28 @@ $(document).ready(function(){initNavTree('da/d77/customerstablemodel_8h_source.h
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    QVariant data(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">int</span> role = Qt::DisplayRole) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    QVariant headerData(<span class="keywordtype">int</span> section,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        Qt::Orientation orientation,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                        <span class="keywordtype">int</span> role = Qt::DisplayRole) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;     <span class="keywordtype">bool</span> setData(<span class="keyword">const</span> QModelIndex &amp; index, <span class="keyword">const</span> QVariant &amp; value,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                  <span class="keywordtype">int</span> role = Qt::EditRole);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> append(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;customer);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> i);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    Qt::ItemFlags flags(<span class="keyword">const</span> QModelIndex &amp; index) <span class="keyword">const</span> ;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> count();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    QList&lt;Customer&gt; getCustomers() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    QList&lt;Customer&gt; _customers; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;};</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    QVariant headerData(<span class="keywordtype">int</span> section, Qt::Orientation orientation, <span class="keywordtype">int</span> role = Qt::DisplayRole) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;     <span class="keywordtype">bool</span> setData(<span class="keyword">const</span> QModelIndex &amp; index, <span class="keyword">const</span> QVariant &amp; value,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                  <span class="keywordtype">int</span> role = Qt::EditRole);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> append(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;customer);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> <span class="keyword">remove</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> i);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    Qt::ItemFlags flags(<span class="keyword">const</span> QModelIndex &amp; index) <span class="keyword">const</span> ;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> count();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    QList&lt;Customer&gt; getCustomers() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    QList&lt;Customer&gt; _customers; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;};</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif // CUSTOMERSTABLEMODEL_H</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#endif // CUSTOMERSTABLEMODEL_H</span></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel_html"><div class="ttname"><a href="../../d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html">Gui::Widgets::WdgModels::CustomersTableModel</a></div><div class="ttdoc">The CustomersTableModel class for a customer table. </div><div class="ttdef"><b>Definition:</b> customerstablemodel.h:21</div></div>
 <div class="ttc" id="classModels_1_1Customer_html"><div class="ttname"><a href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a></div><div class="ttdoc">The Customer class Customer. </div><div class="ttdef"><b>Definition:</b> customer.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -128,7 +126,7 @@ $(document).ready(function(){initNavTree('da/d77/customerstablemodel_8h_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_381b413982d478049d22ff06f0a5ecf9.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_6b0e5f72d58861195a9b9f880997bf35.html">widgetsmodels</a></li><li class="navelem"><b>customerstablemodel.h</b></li>
-    <li class="footer">Generated on Sat Mar 14 2015 09:19:20 for FactDev by
+    <li class="footer">Generated on Sat Mar 14 2015 09:38:07 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

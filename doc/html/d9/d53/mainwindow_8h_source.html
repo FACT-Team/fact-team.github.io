@@ -152,8 +152,9 @@ $(document).ready(function(){initNavTree('d9/d53/mainwindow_8h_source.html','../
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordtype">void</span> copyDoc();</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">void</span> openPdf();</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="comment">//void editQuote();</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">void</span> openPdf();</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="keyword">private</span> slots:</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">void</span> openContextualMenuTable(<span class="keyword">const</span> QPoint point);</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordtype">void</span> openContextualMenuTree(<span class="keyword">const</span> QPoint point);</div>
@@ -166,40 +167,40 @@ $(document).ready(function(){initNavTree('d9/d53/mainwindow_8h_source.html','../
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">void</span> backToProjectsTable();</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">void</span> projectsTableToDocsTable();</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    QModelIndex findParent();</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordtype">void</span> setupUi();</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordtype">void</span> setupSignalsSlots();</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordtype">void</span> updateUI(QString filter=<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">void</span> updateTableCustomers(QString filter=<span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordtype">void</span> updateTableProjects(<span class="keyword">const</span> <span class="keywordtype">int</span> pId = 0, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordtype">void</span> updateTree(QString filter=<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordtype">void</span> updateUser();</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordtype">void</span> updateTableBillings(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordtype">void</span> removeItem(QTableView* tbl, <a class="code" href="../../d5/d7c/classUtils_1_1ItemType.html">Utils::ItemType</a> item);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="comment">//void quotesProject();</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordtype">void</span> setupUi();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordtype">void</span> setupSignalsSlots();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordtype">void</span> updateUI(QString filter=<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordtype">void</span> updateTableCustomers(QString filter=<span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordtype">void</span> updateTableProjects(<span class="keyword">const</span> <span class="keywordtype">int</span> pId = 0, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordtype">void</span> updateTree(QString filter=<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordtype">void</span> updateUser();</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordtype">void</span> updateTableBillings(<span class="keyword">const</span> <span class="keywordtype">int</span> idProject, <span class="keyword">const</span> <span class="keywordtype">int</span> row = -1);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordtype">void</span> removeItem(QTableView* tbl, <a class="code" href="../../d5/d7c/classUtils_1_1ItemType.html">Utils::ItemType</a> item);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordtype">int</span> getCurrentTableId(QTableView *tbl);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keywordtype">int</span> getCurrentTableId(QTableView *tbl);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    Ui::MainWindow *ui;             </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Docks::SearchDock</a>* _searchDock; </div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;};</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#endif // MAINWINDOW_H</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    Ui::MainWindow *ui; </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Docks::SearchDock</a>* _searchDock;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;};</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;}</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">#endif // MAINWINDOW_H</span></div>
 <div class="ttc" id="classGui_1_1MainWindow_html"><div class="ttname"><a href="../../d5/d2f/classGui_1_1MainWindow.html">Gui::MainWindow</a></div><div class="ttdoc">The MainWindow class Main Window of the software. </div><div class="ttdef"><b>Definition:</b> mainwindow.h:47</div></div>
 <div class="ttc" id="classUtils_1_1ItemType_html"><div class="ttname"><a href="../../d5/d7c/classUtils_1_1ItemType.html">Utils::ItemType</a></div><div class="ttdoc">The ItemType class Item type model. </div><div class="ttdef"><b>Definition:</b> itemtype.h:15</div></div>
-<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Gui::Docks::SearchDock</a></div><div class="ttdoc">The SearchDock class Dock which contains search bar. </div><div class="ttdef"><b>Definition:</b> searchdock.h:16</div></div>
+<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Gui::Docks::SearchDock</a></div><div class="ttdef"><b>Definition:</b> searchdock.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_87c96b12451580b9a6411c53a4bfc1d2.html">mainwindow</a></li><li class="navelem"><b>mainwindow.h</b></li>
-    <li class="footer">Generated on Sat Mar 14 2015 09:19:20 for FactDev by
+    <li class="footer">Generated on Sat Mar 14 2015 09:38:07 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
