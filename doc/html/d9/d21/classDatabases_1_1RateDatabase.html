@@ -86,14 +86,14 @@ Inheritance diagram for Databases::RateDatabase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aee32610b164a56b9aaa0a3acddfd8c27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee32610b164a56b9aaa0a3acddfd8c27"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addRateProject</b> (int idProject, int idBilling, double hourlyRate)</td></tr>
+<tr class="memitem:aee32610b164a56b9aaa0a3acddfd8c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27">addRateProject</a> (int idProject, int idBilling, double hourlyRate)</td></tr>
+<tr class="memdesc:aee32610b164a56b9aaa0a3acddfd8c27"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27" title="RateDatabase::addRateProject Add a new rate hourlyRate to the Project identified by idProject of the ...">RateDatabase::addRateProject</a> Add a new rate <em>hourlyRate</em> to the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify.  <a href="#aee32610b164a56b9aaa0a3acddfd8c27">More...</a><br/></td></tr>
 <tr class="separator:aee32610b164a56b9aaa0a3acddfd8c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3e0e20c108d335903b17d291fe1a13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d3e0e20c108d335903b17d291fe1a13"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>getRate</b> (const int idBilling, const int idProject) const </td></tr>
+<tr class="memitem:a2d3e0e20c108d335903b17d291fe1a13"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13">getRate</a> (const int idBilling, const int idProject) const </td></tr>
+<tr class="memdesc:a2d3e0e20c108d335903b17d291fe1a13"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13" title="RateDatabase::getRate Return the rate of the Project identified by idProject of the Billing with idBi...">RateDatabase::getRate</a> Return the rate of the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify.  <a href="#a2d3e0e20c108d335903b17d291fe1a13">More...</a><br/></td></tr>
 <tr class="separator:a2d3e0e20c108d335903b17d291fe1a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48019f4138b2a3bc3cbd144b1dec6abc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48019f4138b2a3bc3cbd144b1dec6abc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateRateProject</b> (int idProject, int idBilling, double hourlyRate)</td></tr>
+<tr class="memitem:a48019f4138b2a3bc3cbd144b1dec6abc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a48019f4138b2a3bc3cbd144b1dec6abc">updateRateProject</a> (int idProject, int idBilling, double hourlyRate)</td></tr>
+<tr class="memdesc:a48019f4138b2a3bc3cbd144b1dec6abc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a48019f4138b2a3bc3cbd144b1dec6abc" title="RateDatabase::updateRateProject Update the current rate by the new hourlyRate of the Project identifi...">RateDatabase::updateRateProject</a> Update the current rate by the new <em>hourlyRate</em> of the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify.  <a href="#a48019f4138b2a3bc3cbd144b1dec6abc">More...</a><br/></td></tr>
 <tr class="separator:a48019f4138b2a3bc3cbd144b1dec6abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classDatabases_1_1Database"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classDatabases_1_1Database')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></td></tr>
 <tr class="memitem:a00fcd95238619a41f7a734deaef3ea9f inherit pub_methods_classDatabases_1_1Database"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db0/classDatabases_1_1Database.html#a00fcd95238619a41f7a734deaef3ea9f">lastError</a> (const QSqlQuery &amp;q) const </td></tr>
@@ -190,6 +190,84 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:abdde0f6fbef7f4d7353acda867f01ca0 inherit pro_static_attribs_classDatabases_1_1Database"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aee32610b164a56b9aaa0a3acddfd8c27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Databases::RateDatabase::addRateProject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idProject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idBilling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hourlyRate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27" title="RateDatabase::addRateProject Add a new rate hourlyRate to the Project identified by idProject of the ...">RateDatabase::addRateProject</a> Add a new rate <em>hourlyRate</em> to the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idProject</td><td>Project identify </td></tr>
+    <tr><td class="paramname">idBilling</td><td>Billing identify </td></tr>
+    <tr><td class="paramname">hourlyRate</td><td>New hourly rate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2d3e0e20c108d335903b17d291fe1a13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Databases::RateDatabase::getRate </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>idBilling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>idProject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13" title="RateDatabase::getRate Return the rate of the Project identified by idProject of the Billing with idBi...">RateDatabase::getRate</a> Return the rate of the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idBilling</td><td>Billing identify </td></tr>
+    <tr><td class="paramname">idProject</td><td>Project identify </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Rate of the Project of a Billing </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a9fd72575a2eb189565a0d9eba14121ec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -222,6 +300,48 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
+<a class="anchor" id="a48019f4138b2a3bc3cbd144b1dec6abc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Databases::RateDatabase::updateRateProject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idProject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idBilling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hourlyRate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html#a48019f4138b2a3bc3cbd144b1dec6abc" title="RateDatabase::updateRateProject Update the current rate by the new hourlyRate of the Project identifi...">RateDatabase::updateRateProject</a> Update the current rate by the new <em>hourlyRate</em> of the Project identified by <em>idProject</em> of the Billing with <em>idBilling</em> as identify. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idProject</td><td>Project identify </td></tr>
+    <tr><td class="paramname">idBilling</td><td>Billing identify </td></tr>
+    <tr><td class="paramname">hourlyRate</td><td>New hourly rate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/FACT-Team/FactDev/src/database/<a class="el" href="../../d5/d8a/ratedatabase_8h_source.html">ratedatabase.h</a></li>
 <li>/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp</li>
@@ -232,7 +352,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d31/namespaceDatabases.html">Databases</a></li><li class="navelem"><a class="el" href="../../d9/d21/classDatabases_1_1RateDatabase.html">RateDatabase</a></li>
-    <li class="footer">Generated on Sat Mar 14 2015 07:34:31 for FactDev by
+    <li class="footer">Generated on Sat Mar 14 2015 09:14:34 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
