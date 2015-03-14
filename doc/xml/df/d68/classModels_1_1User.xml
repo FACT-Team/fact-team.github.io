@@ -2,10 +2,48 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="df/d68/classModels_1_1User" kind="class" prot="public">
     <compoundname>Models::User</compoundname>
-    <basecompoundref refid="de/d0a/classModels_1_1People" prot="public" virt="non-virtual">Models::People</basecompoundref>
     <basecompoundref refid="d0/d9c/classModels_1_1IModel" prot="public" virt="non-virtual">Models::IModel</basecompoundref>
     <includes refid="d8/ddb/user_8h" local="no">user.h</includes>
       <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1a6cf29a0a236e7ec900c2f425e9f6c85a" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_firstname</definition>
+        <argsstring></argsstring>
+        <name>_firstname</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref> firstname. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="242" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1ab27bec2ad4f94a8c3dfad87e3a7fc7a2" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_lastname</definition>
+        <argsstring></argsstring>
+        <name>_lastname</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref> lastname. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="243" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1a7720288f331bd5858978a425515855db" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_company</definition>
+        <argsstring></argsstring>
+        <name>_company</name>
+        <briefdescription>
+<para>Company name of the <ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="244" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="df/d68/classModels_1_1User_1a2811a449926c135f0dd6b7c81ee1d452" prot="private" static="no" mutable="no">
         <type>QString</type>
         <definition>QString Models::User::_title</definition>
@@ -17,7 +55,85 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="141" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="141" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="245" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1a91031b41ec3d37608e19cae9973cc0f3" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_address</definition>
+        <argsstring></argsstring>
+        <name>_address</name>
+        <briefdescription>
+<para>Name and number of street. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="246" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1af0b887979c52c4523093627d1f7cb7ec" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_postalCode</definition>
+        <argsstring></argsstring>
+        <name>_postalCode</name>
+        <briefdescription>
+<para>Postal code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="247" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1a309b9cebd437696e2e835b113de94c97" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_city</definition>
+        <argsstring></argsstring>
+        <name>_city</name>
+        <briefdescription>
+<para>City. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="248" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1ae063b3c5e2688cfdbe2f358c717313fe" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_email</definition>
+        <argsstring></argsstring>
+        <name>_email</name>
+        <briefdescription>
+<para>Professionnal email of the company. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="249" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1acf90a1bf6a8e5e390f7fed0c610875c4" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_mobilePhone</definition>
+        <argsstring></argsstring>
+        <name>_mobilePhone</name>
+        <briefdescription>
+<para>Professionnal number of mobile phone. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="250" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d68/classModels_1_1User_1a5e102652d4f829204bc9cf9bf999cd9e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Models::User::_phone</definition>
+        <argsstring></argsstring>
+        <name>_phone</name>
+        <briefdescription>
+<para>Number of desktop phone. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="251" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="251" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d68/classModels_1_1User_1af650999e2e711d32314e50faaf0a767b" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -30,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="142" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="142" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="252" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="252" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d68/classModels_1_1User_1a47952911ed24738caa351b71ab278ade" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -43,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="143" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="143" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="253" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d68/classModels_1_1User_1ade60fdf921120c32b29e737012d9ef77" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -56,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="144" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="144" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="254" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="254" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -71,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="26" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="8" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1a8eb50ce05c34b28cf39ff980066f3113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -96,7 +212,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="13" bodyend="16"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="31" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -110,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="18" bodyend="24"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="36" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="18" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -137,7 +253,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="44" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="94" bodyend="131"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="95" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -151,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="49" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="26" bodyend="29"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="48" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="26" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QVariantHash</type>
@@ -166,7 +282,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="31" bodyend="45"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="54" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="31" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ae61c862ac430d25b538601f343f7bf98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190,7 +306,124 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="72" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="47" bodyend="92"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="71" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="48" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getFirstname</definition>
+        <argsstring>() const </argsstring>
+        <name>getFirstname</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" kindref="member">User::getFirstname</ref> Return the user firstname. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref> firstname </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="77" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setFirstname</definition>
+        <argsstring>(const QString &amp;firstname)</argsstring>
+        <name>setFirstname</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>firstname</declname>
+        </param>
+        <briefdescription>
+<para>User::setFirstnament Modify the user <emphasis>firstname</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New user firstname </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getLastname</definition>
+        <argsstring>() const </argsstring>
+        <name>getLastname</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" kindref="member">User::getLastname</ref> Return the user lastname. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref> lastname </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="88" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a3537478a5fe9e2bcb74cd7e267ca1a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setLastname</definition>
+        <argsstring>(const QString &amp;lastname)</argsstring>
+        <name>setLastname</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>lastname</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a3537478a5fe9e2bcb74cd7e267ca1a5f" kindref="member">User::setLastname</ref> Modify the user <emphasis>lastname</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lastname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New user lastname </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="93" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a5c2a1436bfaaf39df26d1ff45196ff43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getCompany</definition>
+        <argsstring>() const </argsstring>
+        <name>getCompany</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a5c2a1436bfaaf39df26d1ff45196ff43" kindref="member">User::getCompany</ref> Return the user company. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>New company name </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="99" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1ab51a6e7ea016ad3c7d18c754582edd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setCompany</definition>
+        <argsstring>(const QString &amp;company)</argsstring>
+        <name>setCompany</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>company</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1ab51a6e7ea016ad3c7d18c754582edd53" kindref="member">User::setCompany</ref> Modify the user <emphasis>company</emphasis> name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>company</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New user company name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="159" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1a56a37a1b1125c28e8e72c9a3551b7da5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -204,7 +437,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="79" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="133" bodyend="136"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="111" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="164" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -229,7 +462,241 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="85" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="138" bodyend="141"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="117" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1afef76dde9b2e3fdb3c2fef33c2dc0d4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getAddress</definition>
+        <argsstring>() const </argsstring>
+        <name>getAddress</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1afef76dde9b2e3fdb3c2fef33c2dc0d4d" kindref="member">User::getAddress</ref> Return the company addess (Number and name of street) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Address company </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="124" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a2a6098ed13472398a972944b88905ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setAddress</definition>
+        <argsstring>(const QString &amp;address)</argsstring>
+        <name>setAddress</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a2a6098ed13472398a972944b88905ebd" kindref="member">User::setAddress</ref> Modify the user company <emphasis>address</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Company address (name and number of street) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="129" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a4d6dae7e681b0acc7bbd1c4cc7b84062" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getPostalCode</definition>
+        <argsstring>() const </argsstring>
+        <name>getPostalCode</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a4d6dae7e681b0acc7bbd1c4cc7b84062" kindref="member">User::getPostalCode</ref> Return the postal code. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>postal code </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="135" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="183" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a5a75307bb95eae0970efd282519ec5ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setPostalCode</definition>
+        <argsstring>(const QString &amp;postalCode)</argsstring>
+        <name>setPostalCode</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>postalCode</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a5a75307bb95eae0970efd282519ec5ba" kindref="member">User::setPostalCode</ref> Modify the postal code <emphasis>postalCode</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>postalCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New postal code </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="140" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a6ee95d68097373de6273bd0386f2dff1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getCity</definition>
+        <argsstring>() const </argsstring>
+        <name>getCity</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a6ee95d68097373de6273bd0386f2dff1" kindref="member">User::getCity</ref> Return the city. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>city </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="146" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a98c035e4275b8170bec888bea05b24d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setCity</definition>
+        <argsstring>(const QString &amp;city)</argsstring>
+        <name>setCity</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>city</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a98c035e4275b8170bec888bea05b24d9" kindref="member">User::setCity</ref> Modify the <emphasis>city</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>city</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Company city address </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="151" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a90b1f27762a58bbe2e903d8299678b74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getEmail</definition>
+        <argsstring>() const </argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a90b1f27762a58bbe2e903d8299678b74" kindref="member">User::getEmail</ref> Return the user professional <emphasis>email</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>professional email </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="157" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1a69fc70b244bccf493df300af812a18c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setEmail</definition>
+        <argsstring>(const QString &amp;email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1a69fc70b244bccf493df300af812a18c3" kindref="member">User::setEmail</ref> Modify the user professional <emphasis>email</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user professional email </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="162" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1aba9d318cad6935104eff02f6b5659d5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getMobilePhone</definition>
+        <argsstring>() const </argsstring>
+        <name>getMobilePhone</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1aba9d318cad6935104eff02f6b5659d5c" kindref="member">User::getMobilePhone</ref> Return the number of the professional mobile phone. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of mobile phone </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="169" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1abed6684c24a3ba695a90a69a3a6d7572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setMobilePhone</definition>
+        <argsstring>(const QString &amp;mobilePhone)</argsstring>
+        <name>setMobilePhone</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>mobilePhone</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1abed6684c24a3ba695a90a69a3a6d7572" kindref="member">User::setMobilePhone</ref> Modify the number of the professional user mobile phone <emphasis>mobilePhone</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mobilePhone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of the professional mobile phone </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="175" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1adc8fbd6d75a41d9ac9ee9473d781d1c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Models::User::getPhone</definition>
+        <argsstring>() const </argsstring>
+        <name>getPhone</name>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1adc8fbd6d75a41d9ac9ee9473d781d1c1" kindref="member">User::getPhone</ref> Return the number of the desktop phone. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of the desktop phone </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="181" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d68/classModels_1_1User_1adb132ecafc7cc0afd42fc260f8a2e7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::User::setPhone</definition>
+        <argsstring>(const QString &amp;phone)</argsstring>
+        <name>setPhone</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d68/classModels_1_1User_1adb132ecafc7cc0afd42fc260f8a2e7b9" kindref="member">User::setPhone</ref> Modify the number of the desktop <emphasis>phone</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>phone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of the desktop phone </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="186" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="225" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1a617ee9ede3791842fbf8593f08660d37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -243,7 +710,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="92" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="143" bodyend="146"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="193" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="229" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -268,7 +735,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="98" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="148" bodyend="151"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="199" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="234" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1adf4c52429656a4f44c15d879caee5b10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -282,7 +749,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="153" bodyend="156"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="205" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="239" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ae51aa34e41159fe7e4541a8cfddc50a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -307,7 +774,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="110" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="158" bodyend="161"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="211" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="244" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1aa9421bda240316f9eebd0145f6dc3eda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -321,7 +788,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="116" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="163" bodyend="166"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="217" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="249" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1ae62b6cc7c6c5f5ab80b9f066b67afc95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -346,7 +813,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="122" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="168" bodyend="171"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="223" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="254" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1a60d18c2d1df053f1abf1215414f0b4b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -372,7 +839,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="130" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="173" bodyend="178"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="231" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="259" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -398,7 +865,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="138" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="180" bodyend="185"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="239" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.cpp" bodystart="267" bodyend="270"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -407,88 +874,78 @@
 <para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="475">
+      <node id="469">
         <label>Models::User</label>
         <link refid="df/d68/classModels_1_1User"/>
-        <childnode refid="476" relation="public-inheritance">
-        </childnode>
-        <childnode refid="477" relation="public-inheritance">
+        <childnode refid="470" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="477">
+      <node id="470">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
-      </node>
-      <node id="476">
-        <label>Models::People</label>
-        <link refid="de/d0a/classModels_1_1People"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="478">
+      <node id="471">
         <label>Models::User</label>
         <link refid="df/d68/classModels_1_1User"/>
-        <childnode refid="479" relation="public-inheritance">
-        </childnode>
-        <childnode refid="480" relation="public-inheritance">
+        <childnode refid="472" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="480">
+      <node id="472">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
-      <node id="479">
-        <label>Models::People</label>
-        <link refid="de/d0a/classModels_1_1People"/>
-      </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="20" bodyend="145"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/user.h" bodystart="19" bodyend="255"/>
     <listofallmembers>
+      <member refid="df/d68/classModels_1_1User_1a91031b41ec3d37608e19cae9973cc0f3" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_address</name></member>
+      <member refid="df/d68/classModels_1_1User_1a309b9cebd437696e2e835b113de94c97" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_city</name></member>
+      <member refid="df/d68/classModels_1_1User_1a7720288f331bd5858978a425515855db" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_company</name></member>
+      <member refid="df/d68/classModels_1_1User_1ae063b3c5e2688cfdbe2f358c717313fe" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_email</name></member>
+      <member refid="df/d68/classModels_1_1User_1a6cf29a0a236e7ec900c2f425e9f6c85a" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_firstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" prot="protected" virt="non-virtual"><scope>Models::User</scope><name>_id</name></member>
+      <member refid="df/d68/classModels_1_1User_1ab27bec2ad4f94a8c3dfad87e3a7fc7a2" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_lastname</name></member>
+      <member refid="df/d68/classModels_1_1User_1acf90a1bf6a8e5e390f7fed0c610875c4" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_mobilePhone</name></member>
       <member refid="df/d68/classModels_1_1User_1af650999e2e711d32314e50faaf0a767b" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_noSiret</name></member>
+      <member refid="df/d68/classModels_1_1User_1a5e102652d4f829204bc9cf9bf999cd9e" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_phone</name></member>
+      <member refid="df/d68/classModels_1_1User_1af0b887979c52c4523093627d1f7cb7ec" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_postalCode</name></member>
       <member refid="df/d68/classModels_1_1User_1a2811a449926c135f0dd6b7c81ee1d452" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_title</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a8958f103202a45a8f77b86acebafe69c" prot="protected" virt="non-virtual"><scope>Models::User</scope><name>_toRemoved</name></member>
       <member refid="df/d68/classModels_1_1User_1a47952911ed24738caa351b71ab278ade" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_workspaceName</name></member>
       <member refid="df/d68/classModels_1_1User_1ade60fdf921120c32b29e737012d9ef77" prot="private" virt="non-virtual"><scope>Models::User</scope><name>_workspacePath</name></member>
       <member refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" prot="public" virt="virtual"><scope>Models::User</scope><name>commit</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a4d327556f59357912c54c14cf940151d" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getAddress</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a478528b88890758e11887f9d48372680" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getCity</name></member>
-      <member refid="de/d0a/classModels_1_1People_1af4d0cf50ce941c262717b6f10b9d4b89" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getCompany</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a0df66681e0b8fcf099ad0a05863a8e13" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getCountry</name></member>
+      <member refid="df/d68/classModels_1_1User_1afef76dde9b2e3fdb3c2fef33c2dc0d4d" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getAddress</name></member>
+      <member refid="df/d68/classModels_1_1User_1a6ee95d68097373de6273bd0386f2dff1" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getCity</name></member>
+      <member refid="df/d68/classModels_1_1User_1a5c2a1436bfaaf39df26d1ff45196ff43" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getCompany</name></member>
       <member refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" prot="public" virt="virtual"><scope>Models::User</scope><name>getDataMap</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a183e3ac09f44e38b32d7ba72aef85757" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getEmail</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getFax</name></member>
-      <member refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getFirstname</name></member>
+      <member refid="df/d68/classModels_1_1User_1a90b1f27762a58bbe2e903d8299678b74" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getEmail</name></member>
+      <member refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getId</name></member>
-      <member refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getLastname</name></member>
-      <member refid="de/d0a/classModels_1_1People_1aaf8d6ac89ea0ae0a1064503f3b9b6dbb" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getMobilePhone</name></member>
+      <member refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getLastname</name></member>
+      <member refid="df/d68/classModels_1_1User_1aba9d318cad6935104eff02f6b5659d5c" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getMobilePhone</name></member>
       <member refid="df/d68/classModels_1_1User_1a617ee9ede3791842fbf8593f08660d37" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getNoSiret</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a4e30c7e027f2be5c8bc7813e37e12f94" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getPhone</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a30999a844f67ddef254e2c2343df8946" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getPostalCode</name></member>
+      <member refid="df/d68/classModels_1_1User_1adc8fbd6d75a41d9ac9ee9473d781d1c1" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getPhone</name></member>
+      <member refid="df/d68/classModels_1_1User_1a4d6dae7e681b0acc7bbd1c4cc7b84062" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getPostalCode</name></member>
       <member refid="df/d68/classModels_1_1User_1a56a37a1b1125c28e8e72c9a3551b7da5" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getTitle</name></member>
       <member refid="df/d68/classModels_1_1User_1adf4c52429656a4f44c15d879caee5b10" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getWorkspaceName</name></member>
       <member refid="df/d68/classModels_1_1User_1aa9421bda240316f9eebd0145f6dc3eda" prot="public" virt="non-virtual"><scope>Models::User</scope><name>getWorkspacePath</name></member>
       <member refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" prot="public" virt="virtual"><scope>Models::User</scope><name>hydrat</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1adecabe4161742cfc81ddbadc6706d9e9" prot="public" virt="non-virtual"><scope>Models::User</scope><name>isToRemoved</name></member>
       <member refid="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" prot="public" virt="non-virtual"><scope>Models::User</scope><name>operator!=</name></member>
-      <member refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" prot="public" virt="non-virtual" ambiguityscope="Models::People::"><scope>Models::User</scope><name>operator!=</name></member>
       <member refid="df/d68/classModels_1_1User_1a60d18c2d1df053f1abf1215414f0b4b6" prot="public" virt="non-virtual"><scope>Models::User</scope><name>operator==</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" prot="public" virt="non-virtual" ambiguityscope="Models::People::"><scope>Models::User</scope><name>operator==</name></member>
-      <member refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" prot="public" virt="non-virtual"><scope>Models::User</scope><name>People</name></member>
       <member refid="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be" prot="public" virt="virtual"><scope>Models::User</scope><name>remove</name></member>
-      <member refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setAddress</name></member>
-      <member refid="de/d0a/classModels_1_1People_1ab19eae39212a096542ed8c24567f3ca9" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setCity</name></member>
-      <member refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setCompany</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a3062f5f760ee85553b28b3ef1f15492a" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setCountry</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setEmail</name></member>
-      <member refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setFax</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setFirstname</name></member>
+      <member refid="df/d68/classModels_1_1User_1a2a6098ed13472398a972944b88905ebd" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setAddress</name></member>
+      <member refid="df/d68/classModels_1_1User_1a98c035e4275b8170bec888bea05b24d9" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setCity</name></member>
+      <member refid="df/d68/classModels_1_1User_1ab51a6e7ea016ad3c7d18c754582edd53" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setCompany</name></member>
+      <member refid="df/d68/classModels_1_1User_1a69fc70b244bccf493df300af812a18c3" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setEmail</name></member>
+      <member refid="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setId</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setLastname</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setMobilePhone</name></member>
+      <member refid="df/d68/classModels_1_1User_1a3537478a5fe9e2bcb74cd7e267ca1a5f" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setLastname</name></member>
+      <member refid="df/d68/classModels_1_1User_1abed6684c24a3ba695a90a69a3a6d7572" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setMobilePhone</name></member>
       <member refid="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setNoSiret</name></member>
-      <member refid="de/d0a/classModels_1_1People_1adea0f24c3438d7c65a6df522e3253863" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setPhone</name></member>
-      <member refid="de/d0a/classModels_1_1People_1a89ea420d87ce7e32e8fc1b7a83616eaf" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setPostalCode</name></member>
+      <member refid="df/d68/classModels_1_1User_1adb132ecafc7cc0afd42fc260f8a2e7b9" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setPhone</name></member>
+      <member refid="df/d68/classModels_1_1User_1a5a75307bb95eae0970efd282519ec5ba" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setPostalCode</name></member>
       <member refid="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setTitle</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setToRemoved</name></member>
       <member refid="df/d68/classModels_1_1User_1ae51aa34e41159fe7e4541a8cfddc50a3" prot="public" virt="non-virtual"><scope>Models::User</scope><name>setWorkspaceName</name></member>

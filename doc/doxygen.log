@@ -63,8 +63,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
   parameter 'pName'
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:99: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:99: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:92: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
+/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:92: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
   parameter 'pId'
 /home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h:20: warning: Member addRateProject(int idProject, int idBilling, double hourlyRate) (function) of class Databases::RateDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h:21: warning: Member getRate(const int idBilling, const int idProject) const  (function) of class Databases::RateDatabase is not documented.
@@ -193,11 +193,11 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:74: warning: argument 'Project' of command @param is not found in the argument list of Gui::Widgets::WdgModels::ProjectsTableModel::append(const Project &project)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:74: warning: The following parameters of Gui::Widgets::WdgModels::ProjectsTableModel::append(const Project &project) are not documented:
   parameter 'project'
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:205: warning: Member setContributories(const ContributoriesList &contributories) (function) of class Models::Billing is not documented.
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:31: warning: argument 'int' of command @param is not found in the argument list of Models::Billing::Billing(int id)
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:31: warning: The following parameters of Models::Billing::Billing(int id) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:207: warning: Member setContributories(const ContributoriesList &contributories) (function) of class Models::Billing is not documented.
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:32: warning: argument 'int' of command @param is not found in the argument list of Models::Billing::Billing(int id)
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:32: warning: The following parameters of Models::Billing::Billing(int id) are not documented:
   parameter 'id'
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:99: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:101: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
 /home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h:21: warning: Member addContributory(Models::Contributory &contributory) (function) of class Models::ContributoriesList is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h:22: warning: Member addProject(Project *p, Models::Rate rate) (function) of class Models::ContributoriesList is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h:23: warning: Member getContributories(Project *p) (function) of class Models::ContributoriesList is not documented.
@@ -215,14 +215,14 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h:45: warning: Member getDataMap() (function) of class Models::ContributoriesList is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/contributory.h:110: warning: Member getLongDescription() const  (function) of class Models::Contributory is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/contributory.h:111: warning: Member setLongDescription(const QString &getLongDescription) (function) of class Models::Contributory is not documented.
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:169: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:169: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:172: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:172: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:161: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:161: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:152: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:152: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:155: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:155: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
   parameter 'p'
 /home/travis/build/FACT-Team/FactDev/src/models/rate.h:11: warning: Member Rate(double hourly) (function) of class Models::Rate is not documented.
 /home/travis/build/FACT-Team/FactDev/src/models/rate.h:12: warning: Member Rate(int idBilling, int idProject) (function) of class Models::Rate is not documented.
@@ -260,10 +260,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: The following parameters of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0) are not documented:
   parameter 'copy'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:19: warning: Found unknown command `\Oxynos'
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:31: warning: argument 'int' of command @param is not found in the argument list of Models::Billing::Billing(int id)
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:31: warning: The following parameters of Models::Billing::Billing(int id) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:32: warning: argument 'int' of command @param is not found in the argument list of Models::Billing::Billing(int id)
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:32: warning: The following parameters of Models::Billing::Billing(int id) are not documented:
   parameter 'id'
-/home/travis/build/FACT-Team/FactDev/src/models/billing.h:99: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
+/home/travis/build/FACT-Team/FactDev/src/models/billing.h:101: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: argument 'pId' of command @param is not found in the argument list of Databases::BillingDatabase::getBillingsTable(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: The following parameters of Databases::BillingDatabase::getBillingsTable(const int idProject) are not documented:
   parameter 'idProject'
@@ -340,17 +340,17 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:275: warning: The following parameters of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1) are not documented:
   parameter 'pId'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:150: warning: Unsupported xml/html tag <name> found
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:152: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:152: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:155: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:155: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:161: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:161: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:169: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:169: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:172: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:172: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:99: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:99: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:92: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
+/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:92: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
   parameter 'pId'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:26: warning: argument 'parent' of command @param is not found in the argument list of Gui::Widgets::WdgModels::ProjectsTableModel::ProjectsTableModel()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:74: warning: argument 'Project' of command @param is not found in the argument list of Gui::Widgets::WdgModels::ProjectsTableModel::append(const Project &project)
