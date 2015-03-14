@@ -10,12 +10,15 @@ Inheritance diagram for Databases\-:\-:Rate\-Database\-:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}{add\-Rate\-Project} (int id\-Project, int id\-Billing, double hourly\-Rate)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}{Rate\-Database\-::add\-Rate\-Project} Add a new rate {\itshape hourly\-Rate} to the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. \end{DoxyCompactList}\item 
-double \hyperlink{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}{get\-Rate} (const int id\-Billing, const int id\-Project) const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}{Rate\-Database\-::get\-Rate} Return the rate of the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. \end{DoxyCompactList}\item 
-void \hyperlink{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}{update\-Rate\-Project} (int id\-Project, int id\-Billing, double hourly\-Rate)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}{Rate\-Database\-::update\-Rate\-Project} Update the current rate by the new {\itshape hourly\-Rate} of the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\hypertarget{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}{void {\bfseries add\-Rate\-Project} (int id\-Project, int id\-Billing, double hourly\-Rate)}\label{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}
+
+\item 
+\hypertarget{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}{double {\bfseries get\-Rate} (const int id\-Billing, const int id\-Project) const }\label{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}
+
+\item 
+\hypertarget{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}{void {\bfseries update\-Rate\-Project} (int id\-Project, int id\-Billing, double hourly\-Rate)}\label{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}
+
+\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -25,50 +28,6 @@ static \hyperlink{classDatabases_1_1RateDatabase}{Rate\-Database} $\ast$ \hyperl
 
 
 \subsection{Member Function Documentation}
-\hypertarget{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}{\index{Databases\-::\-Rate\-Database@{Databases\-::\-Rate\-Database}!add\-Rate\-Project@{add\-Rate\-Project}}
-\index{add\-Rate\-Project@{add\-Rate\-Project}!Databases::RateDatabase@{Databases\-::\-Rate\-Database}}
-\subsubsection[{add\-Rate\-Project}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-Rate\-Database\-::add\-Rate\-Project (
-\begin{DoxyParamCaption}
-\item[{int}]{id\-Project, }
-\item[{int}]{id\-Billing, }
-\item[{double}]{hourly\-Rate}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}
-
-
-\hyperlink{classDatabases_1_1RateDatabase_aee32610b164a56b9aaa0a3acddfd8c27}{Rate\-Database\-::add\-Rate\-Project} Add a new rate {\itshape hourly\-Rate} to the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Project} & Project identify \\
-\hline
-{\em id\-Billing} & Billing identify \\
-\hline
-{\em hourly\-Rate} & New hourly rate \\
-\hline
-\end{DoxyParams}
-\hypertarget{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}{\index{Databases\-::\-Rate\-Database@{Databases\-::\-Rate\-Database}!get\-Rate@{get\-Rate}}
-\index{get\-Rate@{get\-Rate}!Databases::RateDatabase@{Databases\-::\-Rate\-Database}}
-\subsubsection[{get\-Rate}]{\setlength{\rightskip}{0pt plus 5cm}double Databases\-::\-Rate\-Database\-::get\-Rate (
-\begin{DoxyParamCaption}
-\item[{const int}]{id\-Billing, }
-\item[{const int}]{id\-Project}
-\end{DoxyParamCaption}
-) const}}\label{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}
-
-
-\hyperlink{classDatabases_1_1RateDatabase_a2d3e0e20c108d335903b17d291fe1a13}{Rate\-Database\-::get\-Rate} Return the rate of the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Billing} & Billing identify \\
-\hline
-{\em id\-Project} & Project identify \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-Rate of the Project of a Billing 
-\end{DoxyReturn}
 \hypertarget{classDatabases_1_1RateDatabase_a9fd72575a2eb189565a0d9eba14121ec}{\index{Databases\-::\-Rate\-Database@{Databases\-::\-Rate\-Database}!instance@{instance}}
 \index{instance@{instance}!Databases::RateDatabase@{Databases\-::\-Rate\-Database}}
 \subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rate\-Database} $\ast$ Databases\-::\-Rate\-Database\-::instance (
@@ -83,28 +42,6 @@ Rate\-Database\-::get\-Instance Return an instance of \hyperlink{classDatabases_
 \begin{DoxyReturn}{Returns}
 Instance of \hyperlink{classDatabases_1_1RateDatabase}{Rate\-Database} 
 \end{DoxyReturn}
-\hypertarget{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}{\index{Databases\-::\-Rate\-Database@{Databases\-::\-Rate\-Database}!update\-Rate\-Project@{update\-Rate\-Project}}
-\index{update\-Rate\-Project@{update\-Rate\-Project}!Databases::RateDatabase@{Databases\-::\-Rate\-Database}}
-\subsubsection[{update\-Rate\-Project}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-Rate\-Database\-::update\-Rate\-Project (
-\begin{DoxyParamCaption}
-\item[{int}]{id\-Project, }
-\item[{int}]{id\-Billing, }
-\item[{double}]{hourly\-Rate}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}
-
-
-\hyperlink{classDatabases_1_1RateDatabase_a48019f4138b2a3bc3cbd144b1dec6abc}{Rate\-Database\-::update\-Rate\-Project} Update the current rate by the new {\itshape hourly\-Rate} of the Project identified by {\itshape id\-Project} of the Billing with {\itshape id\-Billing} as identify. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Project} & Project identify \\
-\hline
-{\em id\-Billing} & Billing identify \\
-\hline
-{\em hourly\-Rate} & New hourly rate \\
-\hline
-\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}

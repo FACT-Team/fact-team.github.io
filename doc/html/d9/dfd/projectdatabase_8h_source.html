@@ -106,24 +106,24 @@ $(document).ready(function(){initNavTree('d9/dfd/projectdatabase_8h_source.html'
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> getNbProjectsForACustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    QMap&lt;int, Models::Project&gt; getProjectsOfCustomer(</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            QSharedPointer&lt;Models::Customer&gt; c);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html">WdgModels::ProjectsTableModel</a>* getProjectsTable(<span class="keyword">const</span> <span class="keywordtype">int</span> pId)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    QSharedPointer&lt;Project&gt; updateProject(QSqlQuery &amp;q);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    QList&lt;Project*&gt; getAllProjects();</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html">ProjectDatabase</a>* _instance;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;};</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    QMap&lt;int, Models::Project&gt; getProjectsOfCustomer(QSharedPointer&lt;Models::Customer&gt; c);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    QList&lt;Models::Project&gt; getProjects(<span class="keyword">const</span> <span class="keywordtype">int</span> customerId);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html">WdgModels::ProjectsTableModel</a>* getProjectsTable(<span class="keyword">const</span> <span class="keywordtype">int</span> pId) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    QSharedPointer&lt;Project&gt; updateProject(QSqlQuery &amp;q);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    QList&lt;Project*&gt; getAllProjects();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html">ProjectDatabase</a>* _instance; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html">ProjectDatabase</a>() <span class="keywordflow">throw</span> (<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;};</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#endif // PROJECTDATABASE_H</span></div>
 <div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
 <div class="ttc" id="classDatabases_1_1Database_html"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:33</div></div>
 <div class="ttc" id="classModels_1_1Project_html"><div class="ttname"><a href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a></div><div class="ttdoc">The Project class : Project linked to a Customer. </div><div class="ttdef"><b>Definition:</b> project.h:17</div></div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d9/dfd/projectdatabase_8h_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_fb3819ff5273056abe09370430f56163.html">database</a></li><li class="navelem"><b>projectdatabase.h</b></li>
-    <li class="footer">Generated on Sat Mar 14 2015 17:01:19 for FactDev by
+    <li class="footer">Generated on Sat Mar 14 2015 17:27:07 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
