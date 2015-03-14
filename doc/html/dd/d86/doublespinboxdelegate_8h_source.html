@@ -78,35 +78,45 @@ $(document).ready(function(){initNavTree('dd/d86/doublespinboxdelegate_8h_source
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>Widgets {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>Delegates {</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">DoubleSpinBoxDelegate</a> : <span class="keyword">public</span> QItemDelegate</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">DoubleSpinBoxDelegate</a>(QObject *parent = 0);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    QWidget *createEditor(QWidget *parent, <span class="keyword">const</span> QStyleOptionViewItem &amp;option,</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                          <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> setEditorData(QWidget *editor, <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> setModelData(QWidget *editor, QAbstractItemModel *model,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                      <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> updateEditorGeometry(QWidget *editor,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">const</span> QStyleOptionViewItem &amp;option, <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;};</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // SPINBOXDELEGATE_H</span></div>
-<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">Gui::Widgets::Delegates::DoubleSpinBoxDelegate</a></div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.h:11</div></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">DoubleSpinBoxDelegate</a> : <span class="keyword">public</span> QItemDelegate</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a6d7df575ca17247028df99296fd2cf88">DoubleSpinBoxDelegate</a>(QObject *parent = 0);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    QWidget *<a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a681be1ef9cc0db4e315bc2cb8f7690be">createEditor</a>(QWidget *parent,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                          <span class="keyword">const</span> QStyleOptionViewItem &amp;option,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                          <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a60bb2e12c0b0398c74d0e8c95304d7e4">setEditorData</a>(QWidget *editor, <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a9c07f33b62b05f64979f52e9fead2553">setModelData</a>(QWidget *editor,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                      QAbstractItemModel *model,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                      <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a6de2edfe709a762d907a47d027fb8ba9">updateEditorGeometry</a>(QWidget *editor,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                              <span class="keyword">const</span> QStyleOptionViewItem &amp;option,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                              <span class="keyword">const</span> QModelIndex &amp;index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif // SPINBOXDELEGATE_H</span></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html_a6d7df575ca17247028df99296fd2cf88"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a6d7df575ca17247028df99296fd2cf88">Gui::Widgets::Delegates::DoubleSpinBoxDelegate::DoubleSpinBoxDelegate</a></div><div class="ttdeci">DoubleSpinBoxDelegate(QObject *parent=0)</div><div class="ttdoc">DoubleSpinBoxDelegate::DoubleSpinBoxDelegate. </div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.cpp:7</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html_a6de2edfe709a762d907a47d027fb8ba9"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a6de2edfe709a762d907a47d027fb8ba9">Gui::Widgets::Delegates::DoubleSpinBoxDelegate::updateEditorGeometry</a></div><div class="ttdeci">void updateEditorGeometry(QWidget *editor, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </div><div class="ttdoc">DoubleSpinBoxDelegate::updateEditorGeometry Update the editor for the item specified by index accordi...</div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.cpp:30</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html_a9c07f33b62b05f64979f52e9fead2553"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a9c07f33b62b05f64979f52e9fead2553">Gui::Widgets::Delegates::DoubleSpinBoxDelegate::setModelData</a></div><div class="ttdeci">void setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &amp;index) const </div><div class="ttdoc">DoubleSpinBoxDelegate::setEditorData Sets the data to be displayed and edited by the editor from the ...</div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.cpp:38</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html_a681be1ef9cc0db4e315bc2cb8f7690be"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a681be1ef9cc0db4e315bc2cb8f7690be">Gui::Widgets::Delegates::DoubleSpinBoxDelegate::createEditor</a></div><div class="ttdeci">QWidget * createEditor(QWidget *parent, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const </div><div class="ttdoc">DoubleSpinBoxDelegate::createEditor Return a ComboBox specified by index item defined by the parent w...</div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.cpp:11</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html_a60bb2e12c0b0398c74d0e8c95304d7e4"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html#a60bb2e12c0b0398c74d0e8c95304d7e4">Gui::Widgets::Delegates::DoubleSpinBoxDelegate::setEditorData</a></div><div class="ttdeci">void setEditorData(QWidget *editor, const QModelIndex &amp;index) const </div><div class="ttdoc">DoubleSpinBoxDelegate::setEditorData Sets the data to be displayed and edited by the editor from the ...</div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.cpp:21</div></div>
+<div class="ttc" id="classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_html"><div class="ttname"><a href="../../da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html">Gui::Widgets::Delegates::DoubleSpinBoxDelegate</a></div><div class="ttdoc">The DoubleSpinBoxDelegate class. </div><div class="ttdef"><b>Definition:</b> doublespinboxdelegate.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_381b413982d478049d22ff06f0a5ecf9.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_af4d103a181eeb5b1fd9a3345fff3451.html">delegates</a></li><li class="navelem"><b>doublespinboxdelegate.h</b></li>
-    <li class="footer">Generated on Sat Mar 14 2015 09:38:07 for FactDev by
+    <li class="footer">Generated on Sat Mar 14 2015 17:01:19 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

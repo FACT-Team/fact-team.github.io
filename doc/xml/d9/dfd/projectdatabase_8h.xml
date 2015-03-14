@@ -373,22 +373,24 @@
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbProjectsForACustomer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;int,<sp/>Models::Project&gt;<sp/>getProjectsOfCustomer(QSharedPointer&lt;Models::Customer&gt;<sp/>c);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref>*<sp/>getProjectsTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Project&gt;<sp/>updateProject(QSqlQuery<sp/>&amp;q);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Project*&gt;<sp/>getAllProjects();</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>*<sp/>_instance;<sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;int,<sp/>Models::Project&gt;<sp/>getProjectsOfCustomer(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSharedPointer&lt;Models::Customer&gt;<sp/>c);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref>*<sp/>getProjectsTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pId)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>QSharedPointer&lt;Project&gt;<sp/>updateProject(QSqlQuery<sp/>&amp;q);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Project*&gt;<sp/>getAllProjects();</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PROJECTDATABASE_H</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>*<sp/>_instance;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PROJECTDATABASE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h"/>
   </compounddef>
