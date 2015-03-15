@@ -85,6 +85,7 @@ var NAVTREEINDEX0 =
 "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html#aec356e1f2bae99bef7f3dafe4305bbd8":[4,0,3,0,2,1],
 "d2/d63/classCustomerDatabaseTest.html":[4,0,13],
 "d2/d63/classCustomerDatabaseTest.html#ac84b69096404352fe741ddd9fc6181ce":[4,0,13,0],
+"d2/d90/people_8h_source.html":[5,0,0,0,0,0,0,5,5],
 "d2/dbc/userdatabase_8h_source.html":[5,0,0,0,0,0,0,0,6],
 "d2/dcd/classRateModelTest.html":[4,0,20],
 "d2/dcd/classRateModelTest.html#a7e003f379e700c99d4e02fc1968ddc9a":[4,0,20,0],
@@ -223,7 +224,7 @@ var NAVTREEINDEX0 =
 "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html#a34105ef48d776c556598b9b15e7abdcc":[4,0,3,2,1,0,0],
 "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html#aa24c5896e30295ad7dbe47c91093b2db":[4,0,3,2,1,0,1],
 "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html#abdf54b72e544b24cc34270154ae6aed3":[4,0,3,2,1,0,5],
-"d5/d79/rate_8h_source.html":[5,0,0,0,0,0,0,5,6],
+"d5/d79/rate_8h_source.html":[5,0,0,0,0,0,0,5,7],
 "d5/d7c/classUtils_1_1ItemType.html":[4,0,6,2],
 "d5/d7c/classUtils_1_1ItemType.html#a09fdb09837ad0ab678a271d3f97dd006":[4,0,6,2,2],
 "d5/d7c/classUtils_1_1ItemType.html#a181d6656c7e2db09962fda0925c38ea5":[4,0,6,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d5/d8b/classMustache_1_1QtVariantContext.html#af5f93b6ff7ac3c24928757a2af1b8820":[4,0,5,1,4],
 "d5/d97/classContributoryModelTest.html":[4,0,11],
 "d5/d97/classContributoryModelTest.html#a35027c436f784e86064e27070d0910e0":[4,0,11,0],
-"d5/db7/tests_2qt-mustache_2test__mustache_8h_source.html":[5,0,0,0,0,0,1,2,0],
-"d5/dc2/structMustache_1_1Tag.html":[4,0,5,5]
+"d5/db7/tests_2qt-mustache_2test__mustache_8h_source.html":[5,0,0,0,0,0,1,2,0]
 };
