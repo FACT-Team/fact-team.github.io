@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d9/dc5/classModels_1_1Rate" kind="class" prot="public">
     <compoundname>Models::Rate</compoundname>
+    <includes refid="d5/d79/rate_8h" local="no">rate.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d9/dc5/classModels_1_1Rate_1ab647da35cc42067e1eae4f83801ba4ae" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -9,12 +10,12 @@
         <argsstring></argsstring>
         <name>_hourly</name>
         <briefdescription>
-        </briefdescription>
+<para>Hourly rate. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="70" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -30,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="71" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d9/dc5/classModels_1_1Rate_1aa024950a7dc23b8b0b8234310aef0f56" prot="private" static="yes" mutable="no">
         <type>const int</type>
@@ -44,10 +45,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="72" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Models::Rate::Rate</definition>
+        <argsstring>()</argsstring>
+        <name>Rate</name>
+        <briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref> Construct a <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1ad2d770be11eb899e8bcf673ed462836e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>Models::Rate::Rate</definition>
@@ -58,12 +72,20 @@
           <declname>hourly</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref> Construct a <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref> with an hourly rate. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hourly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hourly rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="7" bodyend="10"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="7" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1ab867d2b5b114df71814c742c957badd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -79,25 +101,27 @@
           <declname>idProject</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" kindref="member">Rate::Rate</ref> Construct a <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref> for the <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> with <emphasis>idBilling</emphasis> as identify and from the project identified by <emphasis>idProject</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idBilling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> identify </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idProject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> identify </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="12" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>Models::Rate::Rate</definition>
-        <argsstring>()</argsstring>
-        <name>Rate</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="13" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="17" bodyend="20"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="33" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="12" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a2f07614aa1d1a4957fd8d4de4d3680d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -109,12 +133,12 @@
           <defname>value</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a2f07614aa1d1a4957fd8d4de4d3680d5" kindref="member">Rate::setDailyRate</ref> Modify the daily rate with the new value. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="22" bodyend="25"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="38" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="23" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -126,12 +150,12 @@
           <defname>value</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" kindref="member">Rate::setHourlyRate</ref> Modify the hourly rate with the new value. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="27" bodyend="30"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="29" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -139,12 +163,13 @@
         <argsstring>() const </argsstring>
         <name>getDailyRate</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" kindref="member">Rate::getDailyRate</ref> Return the daily rate. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="32" bodyend="35"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="49" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="34" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1ac4c3d9c09bed20d639997da7d6c6798b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -152,12 +177,13 @@
         <argsstring>() const </argsstring>
         <name>getHourlyRate</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1ac4c3d9c09bed20d639997da7d6c6798b" kindref="member">Rate::getHourlyRate</ref> Return the hourly rate. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="37" bodyend="40"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -165,12 +191,13 @@
         <argsstring>() const </argsstring>
         <name>getNbDailyHours</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" kindref="member">Rate::getNbDailyHours</ref> Return the number of daily hours. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="42" bodyend="45"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -178,25 +205,27 @@
         <argsstring>() const </argsstring>
         <name>getLegalRate</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/dc5/classModels_1_1Rate_1aa06f56d236743c66b2e6b1bc772b9233" kindref="member">Rate::getLegalRate</ref> Return the legal rate. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="47" bodyend="50"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref> class <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Rate</ref> of a prestation. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
+</para>    </detaileddescription>
     <collaborationgraph>
-      <node id="416">
+      <node id="410">
         <label>Models::Rate</label>
         <link refid="d9/dc5/classModels_1_1Rate"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="9" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="8" bodyend="26"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" line="13" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/rate.h" bodystart="12" bodyend="73"/>
     <listofallmembers>
       <member refid="d9/dc5/classModels_1_1Rate_1ab647da35cc42067e1eae4f83801ba4ae" prot="private" virt="non-virtual"><scope>Models::Rate</scope><name>_hourly</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1a937b0efecbc5b3561ad08fe712165d0b" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>getDailyRate</name></member>
@@ -205,9 +234,9 @@
       <member refid="d9/dc5/classModels_1_1Rate_1a08add6d8b4db1b9a37a3f9cc22d0d0df" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>getNbDailyHours</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1aa48a31fad51009f324326309e80557a1" prot="private" virt="non-virtual"><scope>Models::Rate</scope><name>LEGAL_RATE</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1aa024950a7dc23b8b0b8234310aef0f56" prot="private" virt="non-virtual"><scope>Models::Rate</scope><name>NB_DAILY_HOURS</name></member>
+      <member refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>Rate</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1ad2d770be11eb899e8bcf673ed462836e" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>Rate</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1ab867d2b5b114df71814c742c957badd8" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>Rate</name></member>
-      <member refid="d9/dc5/classModels_1_1Rate_1a609460ae8c48027ed4ac1aaac416f690" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>Rate</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1a2f07614aa1d1a4957fd8d4de4d3680d5" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>setDailyRate</name></member>
       <member refid="d9/dc5/classModels_1_1Rate_1a75a770086f7ef9e702b961a32fc735b5" prot="public" virt="non-virtual"><scope>Models::Rate</scope><name>setHourlyRate</name></member>
     </listofallmembers>

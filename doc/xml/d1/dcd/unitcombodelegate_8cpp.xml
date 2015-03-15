@@ -4,42 +4,42 @@
     <compoundname>unitcombodelegate.cpp</compoundname>
     <includes refid="da/d01/unitcombodelegate_8h" local="yes">unitcombodelegate.h</includes>
     <incdepgraph>
-      <node id="2185">
+      <node id="2155">
         <label>unitcombodelegate.h</label>
         <link refid="da/d01/unitcombodelegate_8h_source"/>
-        <childnode refid="2186" relation="include">
+        <childnode refid="2156" relation="include">
         </childnode>
-        <childnode refid="2187" relation="include">
+        <childnode refid="2157" relation="include">
         </childnode>
-        <childnode refid="2188" relation="include">
+        <childnode refid="2158" relation="include">
         </childnode>
       </node>
-      <node id="2190">
+      <node id="2160">
         <label>QApplication</label>
       </node>
-      <node id="2186">
+      <node id="2156">
         <label>QWidget</label>
       </node>
-      <node id="2188">
+      <node id="2158">
         <label>gui/widgets/delegates/comboboxdelegate.h</label>
         <link refid="df/d88/comboboxdelegate_8h_source"/>
-        <childnode refid="2189" relation="include">
+        <childnode refid="2159" relation="include">
         </childnode>
-        <childnode refid="2187" relation="include">
+        <childnode refid="2157" relation="include">
         </childnode>
-        <childnode refid="2190" relation="include">
+        <childnode refid="2160" relation="include">
         </childnode>
       </node>
-      <node id="2184">
+      <node id="2154">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.cpp</label>
         <link refid="unitcombodelegate.cpp"/>
-        <childnode refid="2185" relation="include">
+        <childnode refid="2155" relation="include">
         </childnode>
       </node>
-      <node id="2187">
+      <node id="2157">
         <label>QComboBox</label>
       </node>
-      <node id="2189">
+      <node id="2159">
         <label>QItemDelegate</label>
       </node>
     </incdepgraph>
@@ -57,40 +57,46 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal">UnitComboDelegate::UnitComboDelegate(QObject<sp/>*parent)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1afd1dc5362c4ed8263354e80337d9958a" kindref="member">UnitComboDelegate::UnitComboDelegate</ref>(QObject<sp/>*parent)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">QWidget<sp/>*UnitComboDelegate::createEditor(QWidget<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="13"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/></highlight><highlight class="comment">//<sp/>TODO,<sp/>remove<sp/>me<sp/>for<sp/>unit<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(index.model()-&gt;data(index,<sp/>Qt::EditRole).toUInt()<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QComboBox*<sp/>editor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QComboBox(parent);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>editor-&gt;addItem(</highlight><highlight class="stringliteral">&quot;Jours&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>editor-&gt;addItem(</highlight><highlight class="stringliteral">&quot;Heures&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>editor;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">QWidget<sp/>*<ref refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a246f92146bdf89200867629b68e3a86a" kindref="member">UnitComboDelegate::createEditor</ref>(QWidget<sp/>*parent,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="15"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/></highlight><highlight class="comment">//<sp/>TODO,<sp/>remove<sp/>me<sp/>for<sp/>unit<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(index.model()-&gt;data(index,<sp/>Qt::EditRole).toUInt()<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QComboBox*<sp/>editor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QComboBox(parent);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>editor-&gt;addItem(</highlight><highlight class="stringliteral">&quot;Jours&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>editor-&gt;addItem(</highlight><highlight class="stringliteral">&quot;Heures&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>editor;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UnitComboDelegate::paint(QPainter<sp/>*painter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="29"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QStyleOptionViewItemV4<sp/>myOption<sp/>=<sp/>option;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>index.model()-&gt;data(index,<sp/>Qt::EditRole).toInt();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>text<sp/>=<sp/>value<sp/>==<sp/>0<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;Jours&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;Heures&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>myOption.text<sp/>=<sp/>text;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QApplication::style()-&gt;drawControl(QStyle::CE_ItemViewItem,<sp/>&amp;myOption,<sp/>painter);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a2efed5aa3b9bde3cd80e9518cde00e60" kindref="member">UnitComboDelegate::paint</ref>(QPainter<sp/>*painter,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="33"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QStyleOptionViewItemV4<sp/>myOption<sp/>=<sp/>option;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>index.model()-&gt;data(index,<sp/>Qt::EditRole).toInt();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>text<sp/>=<sp/>value<sp/>==<sp/>0<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;Jours&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;Heures&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>myOption.text<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QApplication::style()-&gt;drawControl(QStyle::CE_ItemViewItem,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;myOption,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>painter);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.cpp"/>
   </compounddef>

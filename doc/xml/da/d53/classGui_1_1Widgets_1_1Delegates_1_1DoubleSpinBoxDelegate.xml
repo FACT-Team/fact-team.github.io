@@ -3,6 +3,7 @@
   <compounddef id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kind="class" prot="public">
     <compoundname>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QItemDelegate</basecompoundref>
+    <includes refid="dd/d86/doublespinboxdelegate_8h" local="no">doublespinboxdelegate.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -15,12 +16,20 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" kindref="member">DoubleSpinBoxDelegate::DoubleSpinBoxDelegate</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="7" bodyend="10"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="7" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QWidget *</type>
@@ -40,12 +49,35 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" kindref="member">DoubleSpinBoxDelegate::createEditor</ref> Return a ComboBox specified by <emphasis>index</emphasis> item defined by the <emphasis>parent</emphasis> widget and style <emphasis>option</emphasis> which are used to control how the editor widgets appears. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Widget parent </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Option style </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index for editing </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kindref="compound">DoubleSpinBoxDelegate</ref> </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="11" bodyend="18"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="35" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="11" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a60bb2e12c0b0398c74d0e8c95304d7e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -61,12 +93,27 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a60bb2e12c0b0398c74d0e8c95304d7e4" kindref="member">DoubleSpinBoxDelegate::setEditorData</ref> Sets the data to be displayed and edited by the <emphasis>editor</emphasis> from the data model item specified by the model <emphasis>index</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data edited </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the model to edit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="19" bodyend="25"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="46" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="21" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a9c07f33b62b05f64979f52e9fead2553" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -86,12 +133,27 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a60bb2e12c0b0398c74d0e8c95304d7e4" kindref="member">DoubleSpinBoxDelegate::setEditorData</ref> Sets the data to be displayed and edited by the <emphasis>editor</emphasis> from the data model item specified by the model <emphasis>index</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data edited </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the model to edit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="32" bodyend="39"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="38" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6de2edfe709a762d907a47d027fb8ba9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -111,19 +173,53 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6de2edfe709a762d907a47d027fb8ba9" kindref="member">DoubleSpinBoxDelegate::updateEditorGeometry</ref> Update the <emphasis>editor</emphasis> for the item specified by <emphasis>index</emphasis> according to the style <emphasis>option</emphasis> given. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Editor widget to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Style option </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Item index </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="27" bodyend="30"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp" bodystart="30" bodyend="36"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kindref="compound">DoubleSpinBoxDelegate</ref> class. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Florent Berbie </para></simplesect>
+</para>    </detaileddescription>
     <inheritancegraph>
+      <node id="298">
+        <label>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</label>
+        <link refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="299">
+        <label>QItemDelegate</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="300">
         <label>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</label>
         <link refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate"/>
@@ -133,19 +229,8 @@
       <node id="301">
         <label>QItemDelegate</label>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="302">
-        <label>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</label>
-        <link refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate"/>
-        <childnode refid="303" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="303">
-        <label>QItemDelegate</label>
-      </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" bodystart="11" bodyend="26"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h" bodystart="15" bodyend="70"/>
     <listofallmembers>
       <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</scope><name>createEditor</name></member>
       <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</scope><name>DoubleSpinBoxDelegate</name></member>

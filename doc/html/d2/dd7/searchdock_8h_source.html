@@ -80,37 +80,39 @@ $(document).ready(function(){initNavTree('d2/dd7/searchdock_8h_source.html','../
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>Gui {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Docks {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">SearchDock</a> : <span class="keyword">public</span> QDockWidget</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">SearchDock</a>(QWidget *parent=0, Qt::WindowFlags flags = 0);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    ~<a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">SearchDock</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> search(QString text);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;signals:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> textChanged(QString text);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Ui::SearchDock *ui;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif // SEARCHDOCK_H</span></div>
-<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Gui::Docks::SearchDock</a></div><div class="ttdef"><b>Definition:</b> searchdock.h:14</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">SearchDock</a> : <span class="keyword">public</span> QDockWidget</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#adf73556520bdbc579bd7d8da31ee2042">SearchDock</a>(QWidget *parent=0, Qt::WindowFlags flags = 0);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    ~<a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">SearchDock</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#a7360b52fd0bc03e089049b574e509c02">search</a>(QString text);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;signals:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#a9b33dea8adfe26b4d7a5dadffbbb07a7">textChanged</a>(QString text);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    Ui::SearchDock *ui; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif // SEARCHDOCK_H</span></div>
+<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html">Gui::Docks::SearchDock</a></div><div class="ttdoc">The SearchDock class Dock which contains search bar. </div><div class="ttdef"><b>Definition:</b> searchdock.h:16</div></div>
+<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html_a9b33dea8adfe26b4d7a5dadffbbb07a7"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#a9b33dea8adfe26b4d7a5dadffbbb07a7">Gui::Docks::SearchDock::textChanged</a></div><div class="ttdeci">void textChanged(QString text)</div><div class="ttdoc">SearchDock::textChanged Current text changed by text </div></div>
+<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html_adf73556520bdbc579bd7d8da31ee2042"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#adf73556520bdbc579bd7d8da31ee2042">Gui::Docks::SearchDock::SearchDock</a></div><div class="ttdeci">SearchDock(QWidget *parent=0, Qt::WindowFlags flags=0)</div><div class="ttdoc">SearchDock::SearchDock Construct a SearchDock. </div><div class="ttdef"><b>Definition:</b> searchdock.cpp:6</div></div>
+<div class="ttc" id="classGui_1_1Docks_1_1SearchDock_html_a7360b52fd0bc03e089049b574e509c02"><div class="ttname"><a href="../../de/db4/classGui_1_1Docks_1_1SearchDock.html#a7360b52fd0bc03e089049b574e509c02">Gui::Docks::SearchDock::search</a></div><div class="ttdeci">void search(QString text)</div><div class="ttdoc">SearchDock::search Search elements in database which correspond to the text </div><div class="ttdef"><b>Definition:</b> searchdock.cpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_cd8223983cb40692571c161656178ed2.html">docks</a></li><li class="navelem"><b>searchdock.h</b></li>
-    <li class="footer">Generated on Sat Mar 14 2015 17:27:07 for FactDev by
+    <li class="footer">Generated on Sun Mar 15 2015 11:23:11 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
