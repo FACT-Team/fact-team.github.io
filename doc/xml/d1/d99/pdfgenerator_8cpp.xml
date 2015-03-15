@@ -50,15 +50,20 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>process.setWorkingDirectory(inputDir);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>args;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>args<sp/>&lt;&lt;<sp/>filename+</highlight><highlight class="stringliteral">&quot;.tex&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>process.start(_pdflatexPath,<sp/>args);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>process.waitForFinished();</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.aux&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.log&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__APPLE__</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>_pdflatexPath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/usr/texbin/pdflatex&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>process.start(_pdflatexPath,<sp/>args);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>process.waitForFinished();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.aux&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.log&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp"/>
   </compounddef>
