@@ -75,27 +75,24 @@ $(document).ready(function(){initNavTree('de/d42/pdfgenerator_8h_source.html','.
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QFile&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Generator {</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d9/d69/classGenerator_1_1PdfGenerator.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d9/d69/classGenerator_1_1PdfGenerator.html">PdfGenerator</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d9/d69/classGenerator_1_1PdfGenerator.html#a59ca8292d423302478f7f278034f7006">PdfGenerator</a>(QString pdflatexPath=<span class="stringliteral">&quot;pdflatex&quot;</span>);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d69/classGenerator_1_1PdfGenerator.html#a2fcb924e15c201474e0071f81541b0ae">generate</a>(QString inputDir, QString filename);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    QString _pdflatexPath;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // PDFGENERATOR_H</span></div>
-<div class="ttc" id="classGenerator_1_1PdfGenerator_html_a2fcb924e15c201474e0071f81541b0ae"><div class="ttname"><a href="../../d9/d69/classGenerator_1_1PdfGenerator.html#a2fcb924e15c201474e0071f81541b0ae">Generator::PdfGenerator::generate</a></div><div class="ttdeci">void generate(QString inputDir, QString filename)</div><div class="ttdoc">PdfGenerator::generate Generate a PDF of the file named filename into the directory inputDir ...</div><div class="ttdef"><b>Definition:</b> pdfgenerator.cpp:9</div></div>
-<div class="ttc" id="classGenerator_1_1PdfGenerator_html"><div class="ttname"><a href="../../d9/d69/classGenerator_1_1PdfGenerator.html">Generator::PdfGenerator</a></div><div class="ttdoc">The PdfGenerator class Generator of PDF files. </div><div class="ttdef"><b>Definition:</b> pdfgenerator.h:11</div></div>
-<div class="ttc" id="classGenerator_1_1PdfGenerator_html_a59ca8292d423302478f7f278034f7006"><div class="ttname"><a href="../../d9/d69/classGenerator_1_1PdfGenerator.html#a59ca8292d423302478f7f278034f7006">Generator::PdfGenerator::PdfGenerator</a></div><div class="ttdeci">PdfGenerator(QString pdflatexPath=&quot;pdflatex&quot;)</div><div class="ttdoc">PdfGenerator::PdfGenerator Construct a PdfGenerator. </div><div class="ttdef"><b>Definition:</b> pdfgenerator.cpp:4</div></div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d9/d69/classGenerator_1_1PdfGenerator.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d9/d69/classGenerator_1_1PdfGenerator.html">PdfGenerator</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d9/d69/classGenerator_1_1PdfGenerator.html">PdfGenerator</a>(QString pdflatexPath=<span class="stringliteral">&quot;pdflatex&quot;</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">void</span> generate(QString inputDir, QString filename);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    QString _pdflatexPath;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif // PDFGENERATOR_H</span></div>
+<div class="ttc" id="classGenerator_1_1PdfGenerator_html"><div class="ttname"><a href="../../d9/d69/classGenerator_1_1PdfGenerator.html">Generator::PdfGenerator</a></div><div class="ttdef"><b>Definition:</b> pdfgenerator.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_0a7770266c6f72bc89ca6dc1235e7497.html">generator</a></li><li class="navelem"><b>pdfgenerator.h</b></li>
-    <li class="footer">Generated on Sun Mar 15 2015 18:56:16 for FactDev by
+    <li class="footer">Generated on Sun Mar 15 2015 22:49:32 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

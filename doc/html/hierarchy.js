@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Databases::AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html", null ],
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
         [ "CounterContext", "db/da6/classCounterContext.html", null ],
@@ -55,10 +56,6 @@ var hierarchy =
       [ "Mustache::PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", null ]
     ] ],
     [ "Generator::PdfGenerator", "d9/d69/classGenerator_1_1PdfGenerator.html", null ],
-    [ "Models::People", "de/d0a/classModels_1_1People.html", [
-      [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
-      [ "Models::User", "df/d68/classModels_1_1User.html", null ]
-    ] ],
     [ "Utils::pointers", "d4/d7a/classUtils_1_1pointers.html", null ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [

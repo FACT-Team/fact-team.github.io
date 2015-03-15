@@ -2,10 +2,10 @@ var classDatabases_1_1Database =
 [
     [ "~Database", "dd/db0/classDatabases_1_1Database.html#a457a2dac579f1ffc743f452a2dcbbd5c", null ],
     [ "Database", "dd/db0/classDatabases_1_1Database.html#a7d14f43864ce19a5e399ea4ed3ce808f", null ],
+    [ "changeDatabase", "dd/db0/classDatabases_1_1Database.html#ab65cc5f7429f5671f1c8d57aae824a4b", null ],
     [ "cleanDatabase", "dd/db0/classDatabases_1_1Database.html#a52c30975504e35c7c475a52817d66b73", null ],
     [ "close", "dd/db0/classDatabases_1_1Database.html#a56127c397e3c424401d59d64cdb8e8fc", null ],
     [ "closeTransaction", "dd/db0/classDatabases_1_1Database.html#a56faa5446bd58e6b3c3a4c503d9309b1", null ],
-    [ "createDatabase", "dd/db0/classDatabases_1_1Database.html#a50bde8faf6ab4c5dfdec74dc3ba7bbe7", null ],
     [ "executeFile", "dd/db0/classDatabases_1_1Database.html#a21f6c86f95b149ac7dbf0ffc94021a93", null ],
     [ "instance", "dd/db0/classDatabases_1_1Database.html#af75844a67cca710cc2d7edbff95ebe81", null ],
     [ "lastError", "dd/db0/classDatabases_1_1Database.html#a00fcd95238619a41f7a734deaef3ea9f", null ],
@@ -18,6 +18,7 @@ var classDatabases_1_1Database =
     [ "_dbInstance", "dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a", null ],
     [ "_instance", "dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e", null ],
     [ "_instances", "dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8", null ],
+    [ "_isMysql", "dd/db0/classDatabases_1_1Database.html#a25138d7643dddc3b0fd587673fe84e7a", null ],
     [ "_settings", "dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31", null ],
     [ "isOpen", "dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0", null ],
     [ "mDatabase", "dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7", null ]
