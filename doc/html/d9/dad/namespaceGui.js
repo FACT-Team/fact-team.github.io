@@ -3,7 +3,6 @@ var namespaceGui =
     [ "Dialogs", null, [
       [ "AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog" ],
       [ "AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" ],
-      [ "ComputeTurnoverDialog", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog.html", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" ],
       [ "DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" ],
       [ "MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", "d9/d31/classGui_1_1Dialogs_1_1MessageBox" ],
       [ "StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog" ],
