@@ -2,255 +2,469 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d9/d97/computeturnoverdialog_8h" kind="file">
     <compoundname>computeturnoverdialog.h</compoundname>
-    <includes refid="d9/dfd/projectdatabase_8h" local="yes">database/projectdatabase.h</includes>
+    <includes refid="d2/dd1/billingdatabase_8h" local="yes">database/billingdatabase.h</includes>
+    <includes refid="d2/deb/contributorydatabase_8h" local="yes">database/contributorydatabase.h</includes>
+    <includes refid="d5/d8a/ratedatabase_8h" local="yes">database/ratedatabase.h</includes>
     <includes local="no">QDialog</includes>
     <includedby refid="d0/de7/computeturnoverdialog_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.cpp</includedby>
     <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</includedby>
     <incdepgraph>
-      <node id="1253">
+      <node id="1260">
+        <label>QMap</label>
+      </node>
+      <node id="1262">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1254" relation="include">
+        <childnode refid="1263" relation="include">
         </childnode>
       </node>
-      <node id="1235">
+      <node id="1277">
         <label>QSettings</label>
       </node>
-      <node id="1230">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="1245">
-        <label>QMessageBox</label>
-      </node>
-      <node id="1259">
-        <label>QObject</label>
-      </node>
-      <node id="1241">
-        <label>exceptions/dbexception.h</label>
-        <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="1240" relation="include">
-        </childnode>
-        <childnode refid="1242" relation="include">
-        </childnode>
-        <childnode refid="1243" relation="include">
-        </childnode>
-        <childnode refid="1244" relation="include">
-        </childnode>
-        <childnode refid="1245" relation="include">
-        </childnode>
-        <childnode refid="1246" relation="include">
-        </childnode>
-      </node>
-      <node id="1231">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="1250">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-      </node>
-      <node id="1229">
-        <label>database/database.h</label>
-        <link refid="d8/d9c/database_8h_source"/>
-        <childnode refid="1230" relation="include">
-        </childnode>
-        <childnode refid="1231" relation="include">
-        </childnode>
-        <childnode refid="1232" relation="include">
-        </childnode>
-        <childnode refid="1233" relation="include">
-        </childnode>
-        <childnode refid="1234" relation="include">
-        </childnode>
-        <childnode refid="1235" relation="include">
-        </childnode>
-        <childnode refid="1236" relation="include">
-        </childnode>
-        <childnode refid="1237" relation="include">
-        </childnode>
-        <childnode refid="1238" relation="include">
-        </childnode>
-        <childnode refid="1239" relation="include">
-        </childnode>
-        <childnode refid="1240" relation="include">
-        </childnode>
-        <childnode refid="1241" relation="include">
-        </childnode>
-        <childnode refid="1246" relation="include">
-        </childnode>
-        <childnode refid="1250" relation="include">
-        </childnode>
-      </node>
-      <node id="1244">
-        <label>stdexcept</label>
-      </node>
-      <node id="1234">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="1252">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="1246">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="1239" relation="include">
-        </childnode>
-        <childnode refid="1237" relation="include">
-        </childnode>
-        <childnode refid="1238" relation="include">
-        </childnode>
-        <childnode refid="1247" relation="include">
-        </childnode>
-        <childnode refid="1248" relation="include">
-        </childnode>
-        <childnode refid="1235" relation="include">
-        </childnode>
-        <childnode refid="1249" relation="include">
-        </childnode>
-        <childnode refid="1250" relation="include">
-        </childnode>
-      </node>
-      <node id="1227">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
-        <link refid="computeturnoverdialog.h"/>
-        <childnode refid="1228" relation="include">
-        </childnode>
-        <childnode refid="1261" relation="include">
-        </childnode>
-      </node>
-      <node id="1233">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="1236">
-        <label>QStandardItem</label>
-      </node>
-      <node id="1240">
-        <label>exception</label>
-      </node>
       <node id="1256">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-      </node>
-      <node id="1257">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-      </node>
-      <node id="1228">
-        <label>database/projectdatabase.h</label>
-        <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="1229" relation="include">
-        </childnode>
-        <childnode refid="1241" relation="include">
-        </childnode>
-        <childnode refid="1251" relation="include">
-        </childnode>
+        <label>database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
         <childnode refid="1257" relation="include">
         </childnode>
-        <childnode refid="1246" relation="include">
+        <childnode refid="1290" relation="include">
         </childnode>
-        <childnode refid="1258" relation="include">
+        <childnode refid="1272" relation="include">
+        </childnode>
+        <childnode refid="1299" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
         </childnode>
       </node>
-      <node id="1251">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1249" relation="include">
+      <node id="1291">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="1285">
+        <label>QMessageBox</label>
+      </node>
+      <node id="1301">
+        <label>QObject</label>
+      </node>
+      <node id="1271">
+        <label>QStandardPaths</label>
+      </node>
+      <node id="1289">
+        <label>exceptions/dbexception.h</label>
+        <link refid="da/de0/dbexception_8h_source"/>
+        <childnode refid="1281" relation="include">
         </childnode>
-        <childnode refid="1237" relation="include">
+        <childnode refid="1282" relation="include">
         </childnode>
-        <childnode refid="1252" relation="include">
+        <childnode refid="1283" relation="include">
         </childnode>
-        <childnode refid="1253" relation="include">
+        <childnode refid="1284" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1285" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
         </childnode>
       </node>
       <node id="1261">
-        <label>QDialog</label>
+        <label>QList</label>
       </node>
-      <node id="1248">
-        <label>QDebug</label>
+      <node id="1269">
+        <label>models/user.h</label>
+        <link refid="d8/ddb/user_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1270" relation="include">
+        </childnode>
+        <childnode refid="1271" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1266" relation="include">
+        </childnode>
+        <childnode refid="1267" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+        <childnode refid="1279" relation="include">
+        </childnode>
       </node>
-      <node id="1254">
-        <label>QVariantHash</label>
+      <node id="1280">
+        <label>exceptions/fileexception.h</label>
+        <link refid="d4/d79/fileexception_8h_source"/>
+        <childnode refid="1281" relation="include">
+        </childnode>
+        <childnode refid="1282" relation="include">
+        </childnode>
+        <childnode refid="1283" relation="include">
+        </childnode>
+        <childnode refid="1284" relation="include">
+        </childnode>
+        <childnode refid="1285" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
       </node>
-      <node id="1242">
-        <label>sstream</label>
+      <node id="1292">
+        <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="1237">
-        <label>QDate</label>
+      <node id="1278">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
       </node>
-      <node id="1249">
-        <label>QString</label>
+      <node id="1290">
+        <label>database.h</label>
+        <link refid="d8/d9c/database_8h_source"/>
+        <childnode refid="1291" relation="include">
+        </childnode>
+        <childnode refid="1292" relation="include">
+        </childnode>
+        <childnode refid="1293" relation="include">
+        </childnode>
+        <childnode refid="1294" relation="include">
+        </childnode>
+        <childnode refid="1295" relation="include">
+        </childnode>
+        <childnode refid="1277" relation="include">
+        </childnode>
+        <childnode refid="1296" relation="include">
+        </childnode>
+        <childnode refid="1259" relation="include">
+        </childnode>
+        <childnode refid="1274" relation="include">
+        </childnode>
+        <childnode refid="1273" relation="include">
+        </childnode>
+        <childnode refid="1281" relation="include">
+        </childnode>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+        <childnode refid="1278" relation="include">
+        </childnode>
       </node>
-      <node id="1239">
-        <label>QFile</label>
+      <node id="1284">
+        <label>stdexcept</label>
       </node>
-      <node id="1232">
-        <label>QtSql/QSqlError</label>
+      <node id="1295">
+        <label>QStandardItemModel</label>
       </node>
-      <node id="1243">
-        <label>iostream</label>
+      <node id="1265">
+        <label>QSharedPointer</label>
       </node>
-      <node id="1247">
-        <label>QTextStream</label>
+      <node id="1272">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="1273" relation="include">
+        </childnode>
+        <childnode refid="1259" relation="include">
+        </childnode>
+        <childnode refid="1274" relation="include">
+        </childnode>
+        <childnode refid="1275" relation="include">
+        </childnode>
+        <childnode refid="1276" relation="include">
+        </childnode>
+        <childnode refid="1277" relation="include">
+        </childnode>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1278" relation="include">
+        </childnode>
       </node>
       <node id="1255">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-        <childnode refid="1253" relation="include">
-        </childnode>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
+        <link refid="computeturnoverdialog.h"/>
         <childnode refid="1256" relation="include">
         </childnode>
+        <childnode refid="1297" relation="include">
+        </childnode>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1311" relation="include">
+        </childnode>
       </node>
-      <node id="1260">
-        <label>QAbstractTableModel</label>
+      <node id="1286">
+        <label>models/contributorieslist.h</label>
+        <link refid="dd/d0f/contributorieslist_8h_source"/>
+        <childnode refid="1260" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1268" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="1296">
+        <label>QStandardItem</label>
+      </node>
+      <node id="1281">
+        <label>exception</label>
+      </node>
+      <node id="1267">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+      </node>
+      <node id="1310">
+        <label>gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+      </node>
+      <node id="1299">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+      </node>
+      <node id="1268">
+        <label>models/contributory.h</label>
+        <link refid="d8/dee/contributory_8h_source"/>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+      </node>
+      <node id="1298">
+        <label>database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="1290" relation="include">
+        </childnode>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1299" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+      </node>
+      <node id="1307">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="1308">
+        <label>generator/pdfgenerator.h</label>
+        <link refid="de/d42/pdfgenerator_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+        <childnode refid="1273" relation="include">
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1270" relation="include">
+        </childnode>
+        <childnode refid="1280" relation="include">
+        </childnode>
+      </node>
+      <node id="1304">
+        <label>libs/qt-mustache/src/mustache.h</label>
+        <link refid="d9/d77/mustache_8h_source"/>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1306" relation="include">
+        </childnode>
+        <childnode refid="1307" relation="include">
+        </childnode>
+      </node>
+      <node id="1264">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1259" relation="include">
+        </childnode>
+        <childnode refid="1265" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+        <childnode refid="1266" relation="include">
+        </childnode>
+      </node>
+      <node id="1311">
+        <label>QDialog</label>
+      </node>
+      <node id="1276">
+        <label>QDebug</label>
+      </node>
+      <node id="1287">
+        <label>models/rate.h</label>
+        <link refid="d5/d79/rate_8h_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1305">
+        <label>QtCore/QStack</label>
+      </node>
+      <node id="1263">
+        <label>QVariantHash</label>
+      </node>
+      <node id="1282">
+        <label>sstream</label>
+      </node>
+      <node id="1259">
+        <label>QDate</label>
       </node>
       <node id="1258">
-        <label>gui/widgets/widgetsmodels/projectstablemodel.h</label>
-        <link refid="dc/d1a/projectstablemodel_8h_source"/>
+        <label>QString</label>
+      </node>
+      <node id="1297">
+        <label>database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="1290" relation="include">
+        </childnode>
+        <childnode refid="1298" relation="include">
+        </childnode>
+        <childnode refid="1268" relation="include">
+        </childnode>
+        <childnode refid="1286" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+        <childnode refid="1299" relation="include">
+        </childnode>
+      </node>
+      <node id="1273">
+        <label>QFile</label>
+      </node>
+      <node id="1293">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="1303">
+        <label>generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="1257" relation="include">
+        </childnode>
+        <childnode refid="1269" relation="include">
+        </childnode>
+        <childnode refid="1304" relation="include">
+        </childnode>
+      </node>
+      <node id="1283">
+        <label>iostream</label>
+      </node>
+      <node id="1309">
+        <label>QProcess</label>
+      </node>
+      <node id="1306">
+        <label>QtCore/QString</label>
+      </node>
+      <node id="1257">
+        <label>models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
         <childnode refid="1259" relation="include">
         </childnode>
         <childnode refid="1260" relation="include">
         </childnode>
-        <childnode refid="1251" relation="include">
+        <childnode refid="1261" relation="include">
         </childnode>
-        <childnode refid="1246" relation="include">
+        <childnode refid="1262" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1268" relation="include">
+        </childnode>
+        <childnode refid="1269" relation="include">
+        </childnode>
+        <childnode refid="1286" relation="include">
+        </childnode>
+        <childnode refid="1297" relation="include">
+        </childnode>
+        <childnode refid="1303" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
         </childnode>
       </node>
-      <node id="1238">
+      <node id="1270">
+        <label>QDir</label>
+      </node>
+      <node id="1275">
+        <label>QTextStream</label>
+      </node>
+      <node id="1266">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1258" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+        <childnode refid="1267" relation="include">
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>database/ratedatabase.h</label>
+        <link refid="d5/d8a/ratedatabase_8h_source"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1290" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+      </node>
+      <node id="1302">
+        <label>QAbstractTableModel</label>
+      </node>
+      <node id="1300">
+        <label>gui/widgets/widgetsmodels/projectstablemodel.h</label>
+        <link refid="dc/d1a/projectstablemodel_8h_source"/>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1272" relation="include">
+        </childnode>
+      </node>
+      <node id="1274">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1263">
+      <node id="1313">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="1264" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
       </node>
-      <node id="1262">
+      <node id="1312">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
         <link refid="computeturnoverdialog.h"/>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1313" relation="include">
         </childnode>
       </node>
-      <node id="1264">
+      <node id="1314">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1313" relation="include">
         </childnode>
-        <childnode refid="1265" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
       </node>
-      <node id="1265">
+      <node id="1315">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
@@ -267,33 +481,35 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>COMPUTETURNOVERDIALOG_H</highlight></codeline>
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COMPUTETURNOVERDIALOG_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/projectdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ComputeTurnoverDialog;</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
-<codeline lineno="18" refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref>();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog_1ab4d2a48bffed8c09e3d16e2849fd4b0e" kindref="member">computeTurnover</ref>();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::ComputeTurnoverDialog<sp/>*ui;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMPUTETURNOVERDIALOG_H</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/billingdatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/contributorydatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/ratedatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ComputeTurnoverDialog;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
+<codeline lineno="20" refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog" kindref="compound">ComputeTurnoverDialog</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog_1ab4d2a48bffed8c09e3d16e2849fd4b0e" kindref="member">computeTurnover</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::ComputeTurnoverDialog<sp/>*ui;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMPUTETURNOVERDIALOG_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h"/>
   </compounddef>
