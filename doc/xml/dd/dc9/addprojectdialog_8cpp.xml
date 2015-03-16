@@ -783,35 +783,35 @@
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgSearch-&gt;selectCustomer(noRowCustomer);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leNameProject-&gt;setFocus();</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgRate-&gt;hide();</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(idProject<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(idProject);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;wdgSearch-&gt;setIdCustomer(_project.getCustomer()-&gt;getId());</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fillFields();</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setWindowTitle(</highlight><highlight class="stringliteral">&quot;Modifier<sp/>le<sp/>projet<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>_project.getName());</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>();</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>checkFields();</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">AddProjectDialog::~AddProjectDialog()</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" kindref="member">AddProjectDialog::accept</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(ui-&gt;leNameProject-&gt;text());</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(ui-&gt;leDescription-&gt;toPlainText());</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a07dfb00cbec7442197a91bc0795ab14d" kindref="member">setBeginDate</ref>(QDate::currentDate());</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_project.<ref refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kindref="member">getCustomer</ref>()<sp/>==<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSharedPointer&lt;Customer&gt;(</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(ui-&gt;wdgSearch-&gt;getCurrentCustomerId())));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(noRowCustomer<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;wdgSearch-&gt;selectCustomer(noRowCustomer);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leNameProject-&gt;setFocus();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(idProject<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(idProject);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;wdgSearch-&gt;setIdCustomer(_project.getCustomer()-&gt;getId());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fillFields();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setWindowTitle(</highlight><highlight class="stringliteral">&quot;Modifier<sp/>le<sp/>projet<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>_project.getName());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>checkFields();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">AddProjectDialog::~AddProjectDialog()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" kindref="member">AddProjectDialog::accept</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(ui-&gt;leNameProject-&gt;text());</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(ui-&gt;leDescription-&gt;toPlainText());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(ui-&gt;wdgRate-&gt;getDailyRate());</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a07dfb00cbec7442197a91bc0795ab14d" kindref="member">setBeginDate</ref>(QDate::currentDate());</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_project.<ref refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kindref="member">getCustomer</ref>()<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(ui-&gt;wdgSearch-&gt;getCurrentCustomerId())));</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>_project.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>

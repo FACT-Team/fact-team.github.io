@@ -5,54 +5,54 @@
     <includes refid="d3/d2c/dialogaddcustomer_8h" local="yes">gui/dialogs/dialogaddcustomer.h</includes>
     <includes local="yes">ui_dialogaddcustomer.h</includes>
     <incdepgraph>
-      <node id="1189">
+      <node id="1197">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1190" relation="include">
-        </childnode>
-      </node>
-      <node id="1184">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.cpp</label>
-        <link refid="dialogaddcustomer.cpp"/>
-        <childnode refid="1185" relation="include">
-        </childnode>
-        <childnode refid="1192" relation="include">
-        </childnode>
-      </node>
-      <node id="1191">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="1188" relation="include">
-        </childnode>
-      </node>
-      <node id="1185">
-        <label>gui/dialogs/dialogaddcustomer.h</label>
-        <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
-        <childnode refid="1186" relation="include">
-        </childnode>
-        <childnode refid="1187" relation="include">
-        </childnode>
-      </node>
-      <node id="1186">
-        <label>QDialog</label>
-      </node>
-      <node id="1190">
-        <label>QVariantHash</label>
-      </node>
-      <node id="1188">
-        <label>QString</label>
-      </node>
-      <node id="1187">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1188" relation="include">
-        </childnode>
-        <childnode refid="1189" relation="include">
-        </childnode>
-        <childnode refid="1191" relation="include">
+        <childnode refid="1198" relation="include">
         </childnode>
       </node>
       <node id="1192">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.cpp</label>
+        <link refid="dialogaddcustomer.cpp"/>
+        <childnode refid="1193" relation="include">
+        </childnode>
+        <childnode refid="1200" relation="include">
+        </childnode>
+      </node>
+      <node id="1199">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="1196" relation="include">
+        </childnode>
+      </node>
+      <node id="1193">
+        <label>gui/dialogs/dialogaddcustomer.h</label>
+        <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
+        <childnode refid="1194" relation="include">
+        </childnode>
+        <childnode refid="1195" relation="include">
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>QDialog</label>
+      </node>
+      <node id="1198">
+        <label>QVariantHash</label>
+      </node>
+      <node id="1196">
+        <label>QString</label>
+      </node>
+      <node id="1195">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="1196" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
+        </childnode>
+        <childnode refid="1199" relation="include">
+        </childnode>
+      </node>
+      <node id="1200">
         <label>ui_dialogaddcustomer.h</label>
       </node>
     </incdepgraph>
@@ -77,7 +77,7 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>!=<sp/>0)<sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_custom<sp/>=<sp/>QSharedPointer&lt;Models::Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" kindref="member">fillFields</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fillFields();</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setWindowTitle(</highlight><highlight class="stringliteral">&quot;Modifier<sp/>le<sp/>client<sp/>&quot;</highlight><highlight class="normal">+_custom-&gt;getCompany());</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_custom<sp/>=<sp/>QSharedPointer&lt;Models::Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>());</highlight></codeline>
@@ -86,7 +86,7 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>checkFields();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a25d53880ea053c960ee621fec29afb36" kindref="member">DialogAddCustomer::fillFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::fillFields()<sp/>{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leLastNameReferent-&gt;setText(_custom-&gt;getLastname());</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leFirstNameReferent-&gt;setText(_custom-&gt;getFirstname());</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leCompany-&gt;setText(_custom-&gt;getCompany());</highlight></codeline>
@@ -100,7 +100,7 @@
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leFax-&gt;setText(_custom-&gt;getFax());</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab9f488af3fdfbf0ca9851cc59946dd5d" kindref="member">DialogAddCustomer::accept</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::accept()<sp/>{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>_custom-&gt;setLastname(ui-&gt;leLastNameReferent-&gt;text());</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>_custom-&gt;setFirstname(ui-&gt;leFirstNameReferent-&gt;text());</highlight></codeline>
@@ -118,7 +118,7 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::accept();</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" kindref="member">DialogAddCustomer::reject</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::reject()<sp/>{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::reject();</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
@@ -128,7 +128,7 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" kindref="member">DialogAddCustomer::checkFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::checkFields()<sp/>{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePostalCode-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePhone-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leMobilePhone-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>
