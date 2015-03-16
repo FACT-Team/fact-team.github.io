@@ -4,57 +4,57 @@
     <compoundname>log.cpp</compoundname>
     <includes refid="d7/d7f/log_8h" local="yes">log.h</includes>
     <incdepgraph>
-      <node id="4113">
+      <node id="4071">
         <label>QSettings</label>
       </node>
-      <node id="4115">
+      <node id="4073">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="4114" relation="include">
+        <childnode refid="4072" relation="include">
         </childnode>
       </node>
-      <node id="4107">
+      <node id="4065">
         <label>log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="4108" relation="include">
+        <childnode refid="4066" relation="include">
         </childnode>
-        <childnode refid="4109" relation="include">
+        <childnode refid="4067" relation="include">
         </childnode>
-        <childnode refid="4110" relation="include">
+        <childnode refid="4068" relation="include">
         </childnode>
-        <childnode refid="4111" relation="include">
+        <childnode refid="4069" relation="include">
         </childnode>
-        <childnode refid="4112" relation="include">
+        <childnode refid="4070" relation="include">
         </childnode>
-        <childnode refid="4113" relation="include">
+        <childnode refid="4071" relation="include">
         </childnode>
-        <childnode refid="4114" relation="include">
+        <childnode refid="4072" relation="include">
         </childnode>
-        <childnode refid="4115" relation="include">
+        <childnode refid="4073" relation="include">
         </childnode>
       </node>
-      <node id="4106">
+      <node id="4064">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp</label>
         <link refid="log.cpp"/>
-        <childnode refid="4107" relation="include">
+        <childnode refid="4065" relation="include">
         </childnode>
       </node>
-      <node id="4112">
+      <node id="4070">
         <label>QDebug</label>
       </node>
-      <node id="4109">
+      <node id="4067">
         <label>QDate</label>
       </node>
-      <node id="4114">
+      <node id="4072">
         <label>QString</label>
       </node>
-      <node id="4108">
+      <node id="4066">
         <label>QFile</label>
       </node>
-      <node id="4111">
+      <node id="4069">
         <label>QTextStream</label>
       </node>
-      <node id="4110">
+      <node id="4068">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -67,54 +67,57 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal">Log*<sp/>Log::_instance<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal">TypeLog<sp/>Log::_type<sp/>=<sp/>INFO;</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log::Log</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>QSettings<sp/>settings(</highlight><highlight class="stringliteral">&quot;FactDev&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FACT&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>_file<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QFile(</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCoreApplication::applicationDirPath()+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&quot;/message.log&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exists<sp/>=<sp/>_file-&gt;exists();</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>_file-&gt;open(QIODevice::Append<sp/>|<sp/>QIODevice::Text);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!exists)<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>du<sp/>fichier<sp/>de<sp/>log&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">Log&amp;<sp/><ref refid="db/db3/classUtils_1_1Log_1aea616362bc63f99499e3964d5dc759d2" kindref="member">Log::instance</ref>(TypeLog<sp/>type)<sp/>{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_instance<sp/>==<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_instance<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>_type<sp/>=<sp/>type;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*_instance;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a659ea51c0749983cf9bba0274aa10184" kindref="member">Log::~Log</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>_file-&gt;close();</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>_instance;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>Log::typeLog2String(TypeLog<sp/>type)<sp/>{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>list;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>list<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal">&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR&quot;</highlight><highlight class="normal">&lt;&lt;</highlight><highlight class="stringliteral">&quot;WARNING&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>list.at((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)type);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/db3/classUtils_1_1Log_1a9f21042e13648171da95b27830e91c75" kindref="member">Log::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>text)<sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>out(_file);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>ret<sp/>=<sp/>head()<sp/>+<sp/>text<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>ret;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/>ret;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>Log::head()<sp/>{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&quot;</highlight><highlight class="normal">+QDateTime::currentDateTime().toString(</highlight><highlight class="stringliteral">&quot;dd/MM/yyyy<sp/>hh:mm:ss&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+</highlight><highlight class="stringliteral">&quot;<sp/>V&quot;</highlight><highlight class="normal">+QString::number(<ref refid="de/d0a/classParameters_1a279ee24140c761de46178daa8960bdc8" kindref="member">Parameters::VERSION</ref>)</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">+typeLog2String(_type)+</highlight><highlight class="stringliteral">&quot;]<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LOG_QDEBUG_LEVEL<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">Log*<sp/>Log::_instance<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">TypeLog<sp/>Log::_type<sp/>=<sp/>INFO;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log::Log</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QSettings<sp/>settings(</highlight><highlight class="stringliteral">&quot;FactDev&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FACT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_file<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QFile(</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCoreApplication::applicationDirPath()+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&quot;/message.log&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exists<sp/>=<sp/>_file-&gt;exists();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>_file-&gt;open(QIODevice::Append<sp/>|<sp/>QIODevice::Text);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!exists)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>du<sp/>fichier<sp/>de<sp/>log&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">Log&amp;<sp/><ref refid="db/db3/classUtils_1_1Log_1aea616362bc63f99499e3964d5dc759d2" kindref="member">Log::instance</ref>(TypeLog<sp/>type)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_instance<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_instance<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>_type<sp/>=<sp/>type;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*_instance;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a659ea51c0749983cf9bba0274aa10184" kindref="member">Log::~Log</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>_file-&gt;close();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>_instance;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>Log::typeLog2String(TypeLog<sp/>type)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>list;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>list<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal">&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR&quot;</highlight><highlight class="normal">&lt;&lt;</highlight><highlight class="stringliteral">&quot;WARNING&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>list.at((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)type);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/db3/classUtils_1_1Log_1a9f21042e13648171da95b27830e91c75" kindref="member">Log::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>text)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>out(_file);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>ret<sp/>=<sp/>head()<sp/>+<sp/>text<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>ret;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(LOG_QDEBUG_LEVEL<sp/>&lt;<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/>ret;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>Log::head()<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&quot;</highlight><highlight class="normal">+QDateTime::currentDateTime().toString(</highlight><highlight class="stringliteral">&quot;dd/MM/yyyy<sp/>hh:mm:ss&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+</highlight><highlight class="stringliteral">&quot;<sp/>V&quot;</highlight><highlight class="normal">+QString::number(<ref refid="de/d0a/classParameters_1a279ee24140c761de46178daa8960bdc8" kindref="member">Parameters::VERSION</ref>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">+typeLog2String(_type)+</highlight><highlight class="stringliteral">&quot;]<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp"/>
   </compounddef>

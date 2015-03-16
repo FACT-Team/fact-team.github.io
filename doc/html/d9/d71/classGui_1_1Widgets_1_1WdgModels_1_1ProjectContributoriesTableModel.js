@@ -1,7 +1,7 @@
 var classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel =
 [
     [ "ProjectContributoriesTableModel", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#abb9a482809fb18cf5bbc94d3de608e80", null ],
-    [ "allProjectsChosen", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#a2c7223dafc05fff7c0194820fd1e8ef8", null ],
+    [ "allProjectsChose", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#a700d8e8e545e3d048d3d5aa78467e7eb", null ],
     [ "append", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#a7bb1cd1299d72ce4d6a35cc38bff5a70", null ],
     [ "append", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#a1ff13a691bf3609677318d6ad16f81a2", null ],
     [ "columnCount", "d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel.html#a9c4e040dd182d0f3d7a0a3835ca0de2e", null ],

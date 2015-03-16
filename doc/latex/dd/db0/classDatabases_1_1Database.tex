@@ -24,9 +24,6 @@ Q\-String \hyperlink{classDatabases_1_1Database_a00fcd95238619a41f7a734deaef3ea9
 \hypertarget{classDatabases_1_1Database_a5029595698d889af5089428071c6ecda}{void \hyperlink{classDatabases_1_1Database_a5029595698d889af5089428071c6ecda}{test\-Cases} ()}\label{classDatabases_1_1Database_a5029595698d889af5089428071c6ecda}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a5029595698d889af5089428071c6ecda}{Database\-::test\-Cases} Realise a test cases. \end{DoxyCompactList}\item 
-\hypertarget{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}{void \hyperlink{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}{clean\-Database} ()}\label{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}
-
-\begin{DoxyCompactList}\small\item\em Database\-::vider\-Database Clear database. \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1Database_a21f6c86f95b149ac7dbf0ffc94021a93}{execute\-File} (Q\-String p\-Name)
 \begin{DoxyCompactList}\small\item\em Database\-::executer\-Fichier Exeute a specified file named {\itshape p\-Name} \end{DoxyCompactList}\item 
 \hypertarget{classDatabases_1_1Database_a64d55cd9452bbf2a6fd1693df004de59}{void \hyperlink{classDatabases_1_1Database_a64d55cd9452bbf2a6fd1693df004de59}{open\-Transaction} ()}\label{classDatabases_1_1Database_a64d55cd9452bbf2a6fd1693df004de59}
@@ -46,12 +43,14 @@ void \hyperlink{classDatabases_1_1Database_a21f6c86f95b149ac7dbf0ffc94021a93}{ex
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a457a2dac579f1ffc743f452a2dcbbd5c}{Database\-::$\sim$\-Database} Suppression object, and close database access. \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1Database_a88af2050b210c0d829d166f0f6d9e318}{set\-Database} (Q\-Sql\-Database sql)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a88af2050b210c0d829d166f0f6d9e318}{Database\-::set\-Database} Set database. \end{DoxyCompactList}\item 
-\hypertarget{classDatabases_1_1Database_a50bde8faf6ab4c5dfdec74dc3ba7bbe7}{void \hyperlink{classDatabases_1_1Database_a50bde8faf6ab4c5dfdec74dc3ba7bbe7}{create\-Database} ()}\label{classDatabases_1_1Database_a50bde8faf6ab4c5dfdec74dc3ba7bbe7}
-
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a50bde8faf6ab4c5dfdec74dc3ba7bbe7}{Database\-::create\-Database} Create a new database. \end{DoxyCompactList}\item 
 \hypertarget{classDatabases_1_1Database_a17b652086514e0a64d0e452a938ac7a5}{void \hyperlink{classDatabases_1_1Database_a17b652086514e0a64d0e452a938ac7a5}{update\-Billing\-Number} ()}\label{classDatabases_1_1Database_a17b652086514e0a64d0e452a938ac7a5}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a17b652086514e0a64d0e452a938ac7a5}{Database\-::update\-Billing\-Number} Update the billing number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database_a17b652086514e0a64d0e452a938ac7a5}{Database\-::update\-Billing\-Number} Update the billing number. \end{DoxyCompactList}\item 
+\hypertarget{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}{void \hyperlink{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}{clean\-Database} ()}\label{classDatabases_1_1Database_a52c30975504e35c7c475a52817d66b73}
+
+\begin{DoxyCompactList}\small\item\em Database\-::clear\-Database Drop alls tables of \hyperlink{classDatabases_1_1Database}{Database} W\-A\-R\-N\-I\-N\-G\-: We can't restore data after. \end{DoxyCompactList}\item 
+void \hyperlink{classDatabases_1_1Database_ab65cc5f7429f5671f1c8d57aae824a4b}{change\-Database} (Db\-Type db\-Type)
+\begin{DoxyCompactList}\small\item\em change\-Database Change the current database \-: mysql to sqlite or sqlite to mysql \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -88,7 +87,10 @@ Q\-Variant \hyperlink{classDatabases_1_1Database_abac96d2e284c2f13b7fc692994059d
 \begin{DoxyCompactList}\small\item\em an instance of db is open \end{DoxyCompactList}\item 
 \hypertarget{classDatabases_1_1Database_abdde0f6fbef7f4d7353acda867f01ca0}{static bool \hyperlink{classDatabases_1_1Database_abdde0f6fbef7f4d7353acda867f01ca0}{is\-Open} = false}\label{classDatabases_1_1Database_abdde0f6fbef7f4d7353acda867f01ca0}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database}{Database} is open. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1Database}{Database} is open. \end{DoxyCompactList}\item 
+\hypertarget{classDatabases_1_1Database_a25138d7643dddc3b0fd587673fe84e7a}{static bool {\bfseries \-\_\-is\-Mysql} = false}\label{classDatabases_1_1Database_a25138d7643dddc3b0fd587673fe84e7a}
+
+\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -100,6 +102,22 @@ Antoine de Roquemaurel
 
 
 \subsection{Member Function Documentation}
+\hypertarget{classDatabases_1_1Database_ab65cc5f7429f5671f1c8d57aae824a4b}{\index{Databases\-::\-Database@{Databases\-::\-Database}!change\-Database@{change\-Database}}
+\index{change\-Database@{change\-Database}!Databases::Database@{Databases\-::\-Database}}
+\subsubsection[{change\-Database}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-Database\-::change\-Database (
+\begin{DoxyParamCaption}
+\item[{Db\-Type}]{db\-Type}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1Database_ab65cc5f7429f5671f1c8d57aae824a4b}
+
+
+change\-Database Change the current database \-: mysql to sqlite or sqlite to mysql 
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\-Type} & \-: The new database type, Sqlite or Mysql \\
+\hline
+\end{DoxyParams}
 \hypertarget{classDatabases_1_1Database_a21f6c86f95b149ac7dbf0ffc94021a93}{\index{Databases\-::\-Database@{Databases\-::\-Database}!execute\-File@{execute\-File}}
 \index{execute\-File@{execute\-File}!Databases::Database@{Databases\-::\-Database}}
 \subsubsection[{execute\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-Database\-::execute\-File (
