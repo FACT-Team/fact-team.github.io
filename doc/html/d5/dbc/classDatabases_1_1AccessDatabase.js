@@ -2,6 +2,7 @@ var classDatabases_1_1AccessDatabase =
 [
     [ "AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html#a3bf4b4a96cd6b80b7b51aab690a0e49c", null ],
     [ "commit", "d5/dbc/classDatabases_1_1AccessDatabase.html#ac1a811b4c3d017665c95cc23740d90f9", null ],
+    [ "init", "d5/dbc/classDatabases_1_1AccessDatabase.html#a5a3df6b81283bbb9f25bf7a531f470ff", null ],
     [ "_address", "d5/dbc/classDatabases_1_1AccessDatabase.html#a55d2effa9db8712ed59e1c812d0976a5", null ],
     [ "_dbName", "d5/dbc/classDatabases_1_1AccessDatabase.html#a754d01d8f769d85e360f6a06380ff4a9", null ],
     [ "_exists", "d5/dbc/classDatabases_1_1AccessDatabase.html#a4041377d9c32522f62a70d750d34e581", null ],

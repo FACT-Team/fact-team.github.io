@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="df/d31/namespaceDatabases" kind="namespace">
     <compoundname>Databases</compoundname>
+    <innerclass refid="d5/dbc/classDatabases_1_1AccessDatabase" prot="public">Databases::AccessDatabase</innerclass>
     <innerclass refid="df/df8/classDatabases_1_1BillingDatabase" prot="public">Databases::BillingDatabase</innerclass>
     <innerclass refid="dc/da5/classDatabases_1_1ContributoryDatabase" prot="public">Databases::ContributoryDatabase</innerclass>
     <innerclass refid="d8/d7e/classDatabases_1_1CustomerDatabase" prot="public">Databases::CustomerDatabase</innerclass>
@@ -9,10 +10,36 @@
     <innerclass refid="d7/d39/classDatabases_1_1ProjectDatabase" prot="public">Databases::ProjectDatabase</innerclass>
     <innerclass refid="d9/d21/classDatabases_1_1RateDatabase" prot="public">Databases::RateDatabase</innerclass>
     <innerclass refid="d0/d33/classDatabases_1_1UserDatabase" prot="public">Databases::UserDatabase</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="df/d31/namespaceDatabases_1a14c001ecdc0847befdbd6ea2d49730be" prot="public" static="no">
+        <name>DbType</name>
+        <enumvalue id="df/d31/namespaceDatabases_1a14c001ecdc0847befdbd6ea2d49730bea01a961511caa4551116146ec927adffd" prot="public">
+          <name>SQLITE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d31/namespaceDatabases_1a14c001ecdc0847befdbd6ea2d49730bea6a7759bcefa1c9885f3ea31b62d001a4" prot="public">
+          <name>MYSQL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/database.h" line="30" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/database.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
 <para>Class for <ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref>, contains queries. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" line="3" column="1"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.cpp" line="3" column="1"/>
   </compounddef>
 </doxygen>

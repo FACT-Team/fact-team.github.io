@@ -4,29 +4,29 @@
     <compoundname>pdfgenerator.cpp</compoundname>
     <includes refid="de/d42/pdfgenerator_8h" local="yes">pdfgenerator.h</includes>
     <incdepgraph>
-      <node id="700">
+      <node id="739">
         <label>pdfgenerator.h</label>
         <link refid="de/d42/pdfgenerator_8h_source"/>
-        <childnode refid="701" relation="include">
+        <childnode refid="740" relation="include">
         </childnode>
-        <childnode refid="702" relation="include">
+        <childnode refid="741" relation="include">
         </childnode>
-        <childnode refid="703" relation="include">
+        <childnode refid="742" relation="include">
         </childnode>
       </node>
-      <node id="701">
+      <node id="740">
         <label>QString</label>
       </node>
-      <node id="703">
+      <node id="742">
         <label>QFile</label>
       </node>
-      <node id="702">
+      <node id="741">
         <label>QProcess</label>
       </node>
-      <node id="699">
+      <node id="738">
         <label>/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp</label>
         <link refid="pdfgenerator.cpp"/>
-        <childnode refid="700" relation="include">
+        <childnode refid="739" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -39,12 +39,12 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;pdfgenerator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Generator<sp/>{</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a59ca8292d423302478f7f278034f7006" kindref="member">PdfGenerator::PdfGenerator</ref>(QString<sp/>pdflatexPath)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">PdfGenerator::PdfGenerator(QString<sp/>pdflatexPath)</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>_pdflatexPath<sp/>=<sp/>pdflatexPath;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" kindref="member">PdfGenerator::generate</ref>(QString<sp/>inputDir,<sp/>QString<sp/>filename)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PdfGenerator::generate(QString<sp/>inputDir,<sp/>QString<sp/>filename)</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QProcess<sp/>process;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>process.setWorkingDirectory(inputDir);</highlight></codeline>

@@ -9,5 +9,5 @@ var classGui_1_1Widgets_1_1searchWidget =
     [ "search", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#adf91225827fde587bea0d0fc803b0034", null ],
     [ "selectCustomer", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a96ba18927785257377dcd3701d41e8d1", null ],
     [ "selectCustomer", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a9b6248c515bac4b6f58237c2f73d804b", null ],
-    [ "setIdCustomer", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a80edf8bc8de24fb6dc47201ec133d185", null ]
+    [ "setIdCustomer", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#afeea186f9ca8a0bb2ee4f88cd199281e", null ]
 ];

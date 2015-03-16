@@ -8,56 +8,56 @@
     <includedby refid="d9/def/search_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/search.cpp</includedby>
     <includedby refid="d4/df4/searchtest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</includedby>
     <incdepgraph>
-      <node id="3752">
+      <node id="3620">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/search.h</label>
         <link refid="search.h"/>
-        <childnode refid="3753" relation="include">
+        <childnode refid="3621" relation="include">
         </childnode>
       </node>
-      <node id="3753">
+      <node id="3621">
         <label>QString</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3754">
+      <node id="3622">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/search.h</label>
         <link refid="search.h"/>
-        <childnode refid="3755" relation="include">
+        <childnode refid="3623" relation="include">
         </childnode>
-        <childnode refid="3759" relation="include">
+        <childnode refid="3627" relation="include">
         </childnode>
-        <childnode refid="3760" relation="include">
+        <childnode refid="3628" relation="include">
         </childnode>
       </node>
-      <node id="3755">
+      <node id="3623">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h</label>
         <link refid="d2/dd7/searchdock_8h_source"/>
-        <childnode refid="3756" relation="include">
+        <childnode refid="3624" relation="include">
         </childnode>
       </node>
-      <node id="3756">
+      <node id="3624">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="3757" relation="include">
+        <childnode refid="3625" relation="include">
         </childnode>
       </node>
-      <node id="3760">
+      <node id="3628">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</label>
         <link refid="d4/df4/searchtest_8h_source"/>
       </node>
-      <node id="3757">
+      <node id="3625">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3756" relation="include">
+        <childnode refid="3624" relation="include">
         </childnode>
-        <childnode refid="3758" relation="include">
+        <childnode refid="3626" relation="include">
         </childnode>
       </node>
-      <node id="3759">
+      <node id="3627">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
         <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
-      <node id="3758">
+      <node id="3626">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
@@ -99,44 +99,43 @@
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad80f840390720ad3239aa0fc87e483fc" kindref="member">filterOnBillsOrQuotes</ref>(QString<sp/>&amp;filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>list);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af92c03f00f81edeaf5a209d7b830be3a" kindref="member">filterOnCustomersWithoutProject</ref>(</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>&amp;filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>list);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad38428f4aa81ba5951f82e0fcb92779c" kindref="member">getSearchInCompanies</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">setSearchInCompanies</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInCompanies);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1aa415bcd966fef7bcd1cd5bd3373d57f6" kindref="member">getSearchInReferentLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">setSearchInReferentLastname</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInReferentLastname);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a6c8f401bb696db96cc57a635d46910dd" kindref="member">getSearchInProjects</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">setSearchInProjects</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInProjects);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">searchInContributories</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">setSearchInContributories</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInContributories);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1adf4525d5961793999c191e010a58bb56" kindref="member">getSearchInBillsQuotes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">setSearchInBillsQuotes</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInBillsQuotes);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a2f5ee925709a654cedef85732e448438" kindref="member">getGroupFilter</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">setGroupFilter</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>getGroupFilter);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kindref="member">getText</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">setText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getText);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af92c03f00f81edeaf5a209d7b830be3a" kindref="member">filterOnCustomersWithoutProject</ref>(QString<sp/>&amp;filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>list);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad38428f4aa81ba5951f82e0fcb92779c" kindref="member">getSearchInCompanies</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">setSearchInCompanies</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInCompanies);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1aa415bcd966fef7bcd1cd5bd3373d57f6" kindref="member">getSearchInReferentLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">setSearchInReferentLastname</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInReferentLastname);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a6c8f401bb696db96cc57a635d46910dd" kindref="member">getSearchInProjects</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">setSearchInProjects</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInProjects);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">searchInContributories</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">setSearchInContributories</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInContributories);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1adf4525d5961793999c191e010a58bb56" kindref="member">getSearchInBillsQuotes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">setSearchInBillsQuotes</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInBillsQuotes);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a2f5ee925709a654cedef85732e448438" kindref="member">getGroupFilter</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">setGroupFilter</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>getGroupFilter);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kindref="member">getText</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">setText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getText);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInCompanies;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInReferentLastname;<sp/></highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInProjects;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInContributories;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInBillsQuotes;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_groupFilter;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_text;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="198"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SEARCH_H</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInCompanies;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInReferentLastname;<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInProjects;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInContributories;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_searchInBillsQuotes;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_groupFilter;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_text;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SEARCH_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/search.h"/>
   </compounddef>

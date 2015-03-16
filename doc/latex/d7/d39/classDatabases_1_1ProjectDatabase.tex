@@ -36,16 +36,12 @@ int \hyperlink{classDatabases_1_1ProjectDatabase_a9e9a1fb58e4e90fcc568d1c171b863
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1ProjectDatabase}{Project\-Database}\-:get\-Nb\-Projects\-For\-A\-Customer Return the number of projects existing for an identify customer {\itshape p\-Id} \end{DoxyCompactList}\item 
 Q\-Map$<$ int, \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_acf044f95bd4df4e04bff9ef52d326704}{get\-Projects\-Of\-Customer} (Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\-::\-Customer} $>$ c)
 \begin{DoxyCompactList}\small\item\em get\-Projects\-Of\-Customer Return all projects of a customer \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_a75963715e3cae349fe3aa555f7226c56}{get\-Projects} (const int customer\-Id)
-\begin{DoxyCompactList}\small\item\em get\-Projects Return all projects of a customer \end{DoxyCompactList}\item 
 \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel}{Wdg\-Models\-::\-Projects\-Table\-Model} $\ast$ \hyperlink{classDatabases_1_1ProjectDatabase_ac00628f2d8911298dcb0292f6c4cff66}{get\-Projects\-Table} (const int p\-Id)  throw (\-Db\-Exception$\ast$)
 \begin{DoxyCompactList}\small\item\em get\-Projects\-Table Return all projects of a customer in Q\-Standard\-Item\-Model \end{DoxyCompactList}\item 
 Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Project}{Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_ab644aeb47d9666e8191cc9bc6ab93417}{update\-Project} (Q\-Sql\-Query \&q)
 \begin{DoxyCompactList}\small\item\em get\-Project Obtain a project without new query \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ \hyperlink{classDatabases_1_1ProjectDatabase_ac2532676aabcc8f304b2a3ddf4892205}{get\-All\-Projects} ()
-\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects Return the list of projects. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ \hyperlink{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}{get\-All\-Projects\-Between\-Dates} (Q\-Date begin, Q\-Date end)
-\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects\-Between\-Dates Return the list of projects between a {\itshape begin} date and an {\itshape end} date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects Return the list of projects. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -95,28 +91,6 @@ Project\-::get\-All\-Projects Return the list of projects.
 
 \begin{DoxyReturn}{Returns}
 Projects list 
-\end{DoxyReturn}
-\hypertarget{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-All\-Projects\-Between\-Dates@{get\-All\-Projects\-Between\-Dates}}
-\index{get\-All\-Projects\-Between\-Dates@{get\-All\-Projects\-Between\-Dates}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
-\subsubsection[{get\-All\-Projects\-Between\-Dates}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Project} $\ast$ $>$ Databases\-::\-Project\-Database\-::get\-All\-Projects\-Between\-Dates (
-\begin{DoxyParamCaption}
-\item[{Q\-Date}]{begin, }
-\item[{Q\-Date}]{end}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}
-
-
-Project\-::get\-All\-Projects\-Between\-Dates Return the list of projects between a {\itshape begin} date and an {\itshape end} date. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em begin} & the beginning date where projects can start \\
-\hline
-{\em end} & the end date until where the projects can finish \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the list of {\bfseries Project} in the set 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1ProjectDatabase_aa486ad21f156a8ba7d08baef29e0aaea}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Nb\-Projects@{get\-Nb\-Projects}}
 \index{get\-Nb\-Projects@{get\-Nb\-Projects}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
@@ -188,25 +162,6 @@ the project
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 
-\end{DoxyReturn}
-\hypertarget{classDatabases_1_1ProjectDatabase_a75963715e3cae349fe3aa555f7226c56}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Projects@{get\-Projects}}
-\index{get\-Projects@{get\-Projects}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
-\subsubsection[{get\-Projects}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Project} $>$ Databases\-::\-Project\-Database\-::get\-Projects (
-\begin{DoxyParamCaption}
-\item[{const int}]{customer\-Id}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1ProjectDatabase_a75963715e3cae349fe3aa555f7226c56}
-
-
-get\-Projects Return all projects of a customer 
-
-
-\begin{DoxyParams}{Parameters}
-{\em customer\-Id} & The customer id \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-List with all projects of customer 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1ProjectDatabase_acf044f95bd4df4e04bff9ef52d326704}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Projects\-Of\-Customer@{get\-Projects\-Of\-Customer}}
 \index{get\-Projects\-Of\-Customer@{get\-Projects\-Of\-Customer}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}

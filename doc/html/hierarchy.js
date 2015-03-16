@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Databases::AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html", null ],
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
         [ "CounterContext", "db/da6/classCounterContext.html", null ],
@@ -55,10 +56,6 @@ var hierarchy =
       [ "Mustache::PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", null ]
     ] ],
     [ "Generator::PdfGenerator", "d9/d69/classGenerator_1_1PdfGenerator.html", null ],
-    [ "Models::People", "de/d0a/classModels_1_1People.html", [
-      [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
-      [ "Models::User", "df/d68/classModels_1_1User.html", null ]
-    ] ],
     [ "Utils::pointers", "d4/d7a/classUtils_1_1pointers.html", null ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
@@ -71,7 +68,6 @@ var hierarchy =
     [ "QDialog", null, [
       [ "Gui::Dialogs::AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", null ],
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
-      [ "Gui::Dialogs::ComputeTurnoverDialog", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog.html", null ],
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
       [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
@@ -133,8 +129,8 @@ var hierarchy =
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];

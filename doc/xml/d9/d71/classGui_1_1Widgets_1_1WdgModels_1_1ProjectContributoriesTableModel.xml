@@ -3,7 +3,6 @@
   <compounddef id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel" kind="class" prot="public">
     <compoundname>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QAbstractTableModel</basecompoundref>
-    <includes refid="d9/da7/projectcontributoriestablemodel_8h" local="no">projectcontributoriestablemodel.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a6efa6a0c61760acd9e203b9af8bcea99" prot="private" static="no" mutable="no">
         <type>QList&lt; QPair&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *, <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref> &gt; &gt;</type>
@@ -11,12 +10,12 @@
         <argsstring></argsstring>
         <name>_projects</name>
         <briefdescription>
-<para>&lt; List of Projects ant the rate linked to each project </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="132" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="132" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="80" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ada05add246553c03488a6996b5a51c05" prot="private" static="no" mutable="no">
         <type>QList&lt; int &gt;</type>
@@ -24,12 +23,12 @@
         <argsstring></argsstring>
         <name>_selectedProjects</name>
         <briefdescription>
-<para>List of ID Projects selected. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="133" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="133" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="81" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +43,7 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1abb9a482809fb18cf5bbc94d3de608e80" kindref="member">ProjectContributoriesTableModel::ProjectContributoriesTableModel</ref> Construct a <ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel" kindref="compound">ProjectContributoriesTableModel</ref>. </para>        </briefdescription>
+<para><ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">ContributoriesTableModel</ref> Construct a <ref refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kindref="compound">ContributoriesTableModel</ref>. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -57,7 +56,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="7" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a89017ec04ab8bb1669f05a1dc45a6496" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -68,13 +67,13 @@
           <type>const QModelIndex &amp;</type>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a89017ec04ab8bb1669f05a1dc45a6496" kindref="member">ProjectContributoriesTableModel::rowCount</ref> Number of contributories row. </para>        </briefdescription>
+<para>rowCount Number of contributories row </para>        </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>The number of contributories </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="13" bodyend="16"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a9c4e040dd182d0f3d7a0a3835ca0de2e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -85,13 +84,13 @@
           <type>const QModelIndex &amp;</type>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a9c4e040dd182d0f3d7a0a3835ca0de2e" kindref="member">ProjectContributoriesTableModel::columnCount</ref> Number of column of a contributory. </para>        </briefdescription>
+<para>columnCount Number of column of a contributory </para>        </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>The number of column </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="41" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="18" bodyend="21"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a4848c1f82ecaa85f49f410539a8d5a56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QVariant</type>
@@ -107,7 +106,7 @@
           <declname>role</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a4848c1f82ecaa85f49f410539a8d5a56" kindref="member">ProjectContributoriesTableModel::data</ref> Obtains data of a specify cell. </para>        </briefdescription>
+<para>data Obtains data of a specify cell </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -128,7 +127,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="50" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="23" bodyend="36"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="23" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af1d71ae6a06b69264301744beca91ad9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QVariant</type>
@@ -148,7 +147,7 @@
           <declname>role</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af1d71ae6a06b69264301744beca91ad9" kindref="member">ProjectContributoriesTableModel::headerData</ref> Obtains header title of table. </para>        </briefdescription>
+<para>headerData Obtains header title of table </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -176,7 +175,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="60" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="38" bodyend="56"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="51" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="37" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ac71dc1a97c5e62b4b51002ed737dad10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -197,7 +196,7 @@
           <defval>Qt::EditRole</defval>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ac71dc1a97c5e62b4b51002ed737dad10" kindref="member">ProjectContributoriesTableModel::setData</ref> Change data of a cell. </para>        </briefdescription>
+<para>setData Change data of a cell </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -225,7 +224,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="70" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="58" bodyend="83"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="60" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="56" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a75dd68e78aec7823ef07a01e861ff627" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Qt::ItemFlags</type>
@@ -237,7 +236,7 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a75dd68e78aec7823ef07a01e861ff627" kindref="member">ProjectContributoriesTableModel::flags</ref> Differents table flags. </para>        </briefdescription>
+<para>flags Differents table flags </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -251,7 +250,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="79" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="85" bodyend="89"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a7bb1cd1299d72ce4d6a35cc38bff5a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -263,20 +262,12 @@
           <declname>p</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a7bb1cd1299d72ce4d6a35cc38bff5a70" kindref="member">ProjectContributoriesTableModel::append</ref> Add a new rate <emphasis>p</emphasis> to a Project. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>p</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="86" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="99" bodyend="106"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="69" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="92" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a1ff13a691bf3609677318d6ad16f81a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -284,26 +275,25 @@
         <argsstring>()</argsstring>
         <name>append</name>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a7bb1cd1299d72ce4d6a35cc38bff5a70" kindref="member">ProjectContributoriesTableModel::append</ref> Add the current element to the list. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="92" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="91" bodyend="97"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="70" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="85" bodyend="90"/>
       </memberdef>
-      <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a2c7223dafc05fff7c0194820fd1e8ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a700d8e8e545e3d048d3d5aa78467e7eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool Gui::Widgets::WdgModels::ProjectContributoriesTableModel::allProjectsChosen</definition>
+        <definition>bool Gui::Widgets::WdgModels::ProjectContributoriesTableModel::allProjectsChose</definition>
         <argsstring>()</argsstring>
-        <name>allProjectsChosen</name>
+        <name>allProjectsChose</name>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a2c7223dafc05fff7c0194820fd1e8ef8" kindref="member">ProjectContributoriesTableModel::allProjectsChosen</ref> Return TRUE if all projects have been selected else FALSE. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>boolean All projects selected </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="99" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="108" bodyend="116"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="72" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="100" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; int &gt; &amp;</type>
@@ -311,13 +301,12 @@
         <argsstring>()</argsstring>
         <name>getSelectedProjects</name>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">ProjectContributoriesTableModel::getSelectedProjects</ref> Return the list of the Project id which are selected. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>List of ID Project </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="106" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="137" bodyend="140"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="73" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="127" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ae142b64f61cf2337cf3fcb3d6ce291ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -329,20 +318,12 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ae142b64f61cf2337cf3fcb3d6ce291ec" kindref="member">ProjectContributoriesTableModel::remove</ref> Remove the element to the <emphasis>index</emphasis> </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>index</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Index of the element to remove </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="113" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="118" bodyend="123"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="75" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="110" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QPair&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *, <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref> &gt;</type>
@@ -354,21 +335,12 @@
           <declname>row</declname>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" kindref="member">ProjectContributoriesTableModel::getProject</ref> Return the project and it rate linked which correspond to the <emphasis>row</emphasis> </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>row</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Row of the project to get </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>a Project and it rate </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="121" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="126" bodyend="129"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="77" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="117" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1aa1ddb75bda44bc04c723c1198c76f191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; QPair&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *, <ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref> &gt; &gt;</type>
@@ -379,47 +351,45 @@
           <type>void</type>
         </param>
         <briefdescription>
-<para><ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1aa1ddb75bda44bc04c723c1198c76f191" kindref="member">ProjectContributoriesTableModel::getProjects</ref> Return a list of the set of projects and their rates linked. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>List of Projects and Rates linked </para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="128" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="132" bodyend="135"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="78" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.cpp" bodystart="122" bodyend="125"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>The <ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel" kindref="compound">ProjectContributoriesTableModel</ref> class Table model of contributories linked to projets. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
-</para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="390">
+      <node id="382">
         <label>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</label>
         <link refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel"/>
-        <childnode refid="391" relation="public-inheritance">
+        <childnode refid="383" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="391">
+      <node id="383">
         <label>QAbstractTableModel</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="392">
+      <node id="384">
         <label>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</label>
         <link refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel"/>
-        <childnode refid="393" relation="public-inheritance">
+        <childnode refid="385" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="393">
+      <node id="385">
         <label>QAbstractTableModel</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="19" bodyend="135"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h" bodystart="15" bodyend="83"/>
     <listofallmembers>
       <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a6efa6a0c61760acd9e203b9af8bcea99" prot="private" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>_projects</name></member>
       <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ada05add246553c03488a6996b5a51c05" prot="private" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>_selectedProjects</name></member>
-      <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a2c7223dafc05fff7c0194820fd1e8ef8" prot="public" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>allProjectsChosen</name></member>
+      <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a700d8e8e545e3d048d3d5aa78467e7eb" prot="public" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>allProjectsChose</name></member>
       <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a7bb1cd1299d72ce4d6a35cc38bff5a70" prot="public" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>append</name></member>
       <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a1ff13a691bf3609677318d6ad16f81a2" prot="public" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>append</name></member>
       <member refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a9c4e040dd182d0f3d7a0a3835ca0de2e" prot="public" virt="non-virtual"><scope>Gui::Widgets::WdgModels::ProjectContributoriesTableModel</scope><name>columnCount</name></member>
