@@ -2,151 +2,22 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="db/dd7/classModels_1_1Customer" kind="class" prot="public">
     <compoundname>Models::Customer</compoundname>
+    <basecompoundref refid="de/d0a/classModels_1_1People" prot="public" virt="non-virtual">Models::People</basecompoundref>
     <basecompoundref refid="d0/d9c/classModels_1_1IModel" prot="public" virt="non-virtual">Models::IModel</basecompoundref>
     <includes refid="d3/d35/customer_8h" local="no">customer.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a3273f07a9134c95eb5e3894e00fc804d" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_firstnameReferent</definition>
+      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1addd80f9411019f3c8158fadaea90f36b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Models::Customer::_turnover</definition>
         <argsstring></argsstring>
-        <name>_firstnameReferent</name>
+        <name>_turnover</name>
         <briefdescription>
-<para>Firstname of the referent customer. </para>        </briefdescription>
+<para>Turnover/revenue of the customer. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="218" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="218" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a59a510d7fedadc1fc7e874dc23122ffc" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_lastnameReferent</definition>
-        <argsstring></argsstring>
-        <name>_lastnameReferent</name>
-        <briefdescription>
-<para>Lastname of the referent customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="219" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="219" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a10814ea610eb2fd353480d481a498a1a" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_company</definition>
-        <argsstring></argsstring>
-        <name>_company</name>
-        <briefdescription>
-<para>Company name of the customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="220" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="220" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a7b918eb4a0a925b8b79d92757b526b1d" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_address</definition>
-        <argsstring></argsstring>
-        <name>_address</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Company address (Name and number of street) of the CUstomer </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="221" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="221" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1ae5b7b77724bc05c3fcd065ded3a04939" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_postalCode</definition>
-        <argsstring></argsstring>
-        <name>_postalCode</name>
-        <briefdescription>
-<para>Postal code of the company. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="223" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="223" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1ac943077a601dd257fdce4224663dd3d9" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_city</definition>
-        <argsstring></argsstring>
-        <name>_city</name>
-        <briefdescription>
-<para>City of the company. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="224" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="224" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a5f0104af65fd8071caf335aae40cf5a5" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_country</definition>
-        <argsstring></argsstring>
-        <name>_country</name>
-        <briefdescription>
-<para>Country of the company. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="225" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="225" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a16efd0e7353093ec000ff67c41bf91e2" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_email</definition>
-        <argsstring></argsstring>
-        <name>_email</name>
-        <briefdescription>
-<para>Email of the customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="226" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="226" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1ace10249be964048680ba444cf9755af0" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_mobilePhone</definition>
-        <argsstring></argsstring>
-        <name>_mobilePhone</name>
-        <briefdescription>
-<para>Mobile phone number of the customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="227" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="227" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a140c5238a36261884c33148ad79582b2" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_phone</definition>
-        <argsstring></argsstring>
-        <name>_phone</name>
-        <briefdescription>
-<para>Phone number of the customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="228" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="228" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a112af0879e7d66b25995561050c5e68f" prot="private" static="no" mutable="no">
-        <type>QString</type>
-        <definition>QString Models::Customer::_fax</definition>
-        <argsstring></argsstring>
-        <name>_fax</name>
-        <briefdescription>
-<para>Fax number of the customer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="229" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="229" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="101" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -161,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="8" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="11" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a02a1aee507d4ff4f60019070793fe604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -186,7 +57,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="13" bodyend="15"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="17" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -200,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="30" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="17" bodyend="25"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="30" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="21" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -226,7 +97,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="27" bodyend="42"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="31" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -240,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="44" bodyend="47"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QVariantHash</type>
@@ -255,436 +126,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="48" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="49" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a30934fb39c552863e588c40d01725a18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getFirstnameReferent</definition>
-        <argsstring>() const </argsstring>
-        <name>getFirstnameReferent</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a30934fb39c552863e588c40d01725a18" kindref="member">Customer::getFirstnameReferent</ref> Return the firstname of the referent <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>Referent firstname of the customer </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="87" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a40cbc71c349a0d022b21543bbc7a120a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setFirstnameReferent</definition>
-        <argsstring>(const QString &amp;firstnameReferent)</argsstring>
-        <name>setFirstnameReferent</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>firstnameReferent</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a40cbc71c349a0d022b21543bbc7a120a" kindref="member">Customer::setFirstnameReferent</ref> Replace the referent firstname of the customer by <emphasis>firstnameReferent</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>firstnameReferent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New referent firstname of the <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="92" bodyend="95"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a73b93f9ad0718980bbfa2b283b3285ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getLastnameReferent</definition>
-        <argsstring>() const </argsstring>
-        <name>getLastnameReferent</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a73b93f9ad0718980bbfa2b283b3285ba" kindref="member">Customer::getLastnameReferent</ref> Return the lastname of the referent <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>Referent lastname of the customer </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="68" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="96" bodyend="99"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a64ff31bbe0c7aba0b9976d8d253b7b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setLastnameReferent</definition>
-        <argsstring>(const QString &amp;lastnameReferent)</argsstring>
-        <name>setLastnameReferent</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>lastnameReferent</declname>
-        </param>
-        <briefdescription>
-<para>Customer::setLarstnameReferent Replace the referent lastname of the customer by <emphasis>lastnameReferent</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>lastnameReferent</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New referent lastname of the <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="74" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="101" bodyend="104"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a23fb516872c6aebf9b1eb6a7ec86cb7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getCompany</definition>
-        <argsstring>() const </argsstring>
-        <name>getCompany</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a23fb516872c6aebf9b1eb6a7ec86cb7f" kindref="member">Customer::getCompany</ref> Return the name of the company customer. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>name of the company customer </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="80" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="105" bodyend="108"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab4faf3a76242bc4c3ac44bafd628a4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setCompany</definition>
-        <argsstring>(const QString &amp;company)</argsstring>
-        <name>setCompany</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>company</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ab4faf3a76242bc4c3ac44bafd628a4c6" kindref="member">Customer::setCompany</ref> Replace the company name by <emphasis>company</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>company</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New company name </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="85" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="110" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a594e1458ca9f3a449f2628c861bc3a40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getAddress</definition>
-        <argsstring>() const </argsstring>
-        <name>getAddress</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a594e1458ca9f3a449f2628c861bc3a40" kindref="member">Customer::getAddress</ref> Return the address (name and street number) of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>company address </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="92" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="114" bodyend="117"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ae2d41b145d9c468f7e3c40a38882873d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setAddress</definition>
-        <argsstring>(const QString &amp;address)</argsstring>
-        <name>setAddress</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>address</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ae2d41b145d9c468f7e3c40a38882873d" kindref="member">Customer::setAddress</ref> Replace the current company address by the new <emphasis>address</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>address</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New company address </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="98" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="119" bodyend="122"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ad544bdcd4d021f92bd77e5aa24f31f21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getPostalCode</definition>
-        <argsstring>() const </argsstring>
-        <name>getPostalCode</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ad544bdcd4d021f92bd77e5aa24f31f21" kindref="member">Customer::getPostalCode</ref> Return the postal code of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>postal code of the customer company </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="105" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="123" bodyend="126"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a2bd4ac52294de78236e159caaa29412b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setPostalCode</definition>
-        <argsstring>(const QString &amp;postalCode)</argsstring>
-        <name>setPostalCode</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>postalCode</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a2bd4ac52294de78236e159caaa29412b" kindref="member">Customer::setPostalCode</ref> Replace the current postal code of the customer company by the new <emphasis>postalCode</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>postalCode</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New postal code of the customer company </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="111" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="128" bodyend="131"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ace3f86c1e5108ede84a1a09516b37e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getCity</definition>
-        <argsstring>() const </argsstring>
-        <name>getCity</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ace3f86c1e5108ede84a1a09516b37e50" kindref="member">Customer::getCity</ref> Return the city of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>city of the customer company </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="117" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="132" bodyend="135"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a069b40292e037762ec5e5836682c50b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setCity</definition>
-        <argsstring>(const QString &amp;city)</argsstring>
-        <name>setCity</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>city</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a069b40292e037762ec5e5836682c50b0" kindref="member">Customer::setCity</ref> Replace the current city of the customer company by the new <emphasis>city</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>city</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New city of the customer company </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="123" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="137" bodyend="140"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a70ecabd20451f2b7c24d22a931c94cc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getCountry</definition>
-        <argsstring>() const </argsstring>
-        <name>getCountry</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a70ecabd20451f2b7c24d22a931c94cc3" kindref="member">Customer::getCountry</ref> Return the country of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>country of the customer company </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="129" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="195" bodyend="198"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1afd430475dc1bf7f9b1548767265aa821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setCountry</definition>
-        <argsstring>(const QString &amp;country)</argsstring>
-        <name>setCountry</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>country</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1afd430475dc1bf7f9b1548767265aa821" kindref="member">Customer::setCountry</ref> Replace the country of the <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> company by <emphasis>country</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>country</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New country of the customer company </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="135" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="200" bodyend="203"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ac8d55fcc6f53b2269a01efbe43e75133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getEmail</definition>
-        <argsstring>() const </argsstring>
-        <name>getEmail</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ac8d55fcc6f53b2269a01efbe43e75133" kindref="member">Customer::getEmail</ref> Return the email of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>email of the customer company </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="141" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="141" bodyend="144"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab8f728a2e05c5c9c7a6f6522b85a59a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setEmail</definition>
-        <argsstring>(const QString &amp;email)</argsstring>
-        <name>setEmail</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>email</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1ab8f728a2e05c5c9c7a6f6522b85a59a1" kindref="member">Customer::setEmail</ref> Replace the email of the <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> company by <emphasis>email</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>email</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New email of the customer company </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="147" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="146" bodyend="149"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a97211324b1f890b5f7a3fffc447289d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getMobilePhone</definition>
-        <argsstring>() const </argsstring>
-        <name>getMobilePhone</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a97211324b1f890b5f7a3fffc447289d7" kindref="member">Customer::getMobilePhone</ref> Return the number of the mobile phone of the customer company. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>number of mobile phone </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="154" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="150" bodyend="153"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1abefe9de1e3c46501916e461ba6609450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setMobilePhone</definition>
-        <argsstring>(const QString &amp;mobilePhone)</argsstring>
-        <name>setMobilePhone</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>mobilePhone</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1abefe9de1e3c46501916e461ba6609450" kindref="member">Customer::setMobilePhone</ref> Replace the current mobile phone of the customer company by <emphasis>mobilePhone</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>mobilePhone</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New number of mobile phone </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="160" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="155" bodyend="158"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a0438cd11dfe13bb89c0233ffe288cc73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getPhone</definition>
-        <argsstring>() const </argsstring>
-        <name>getPhone</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a0438cd11dfe13bb89c0233ffe288cc73" kindref="member">Customer::getPhone</ref> Return the number of desktop phone. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>number of desktop phone </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="166" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="159" bodyend="162"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1abbc25028b09ae36da632cefbfbbbcce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setPhone</definition>
-        <argsstring>(const QString &amp;phone)</argsstring>
-        <name>setPhone</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>phone</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1abbc25028b09ae36da632cefbfbbbcce6" kindref="member">Customer::setPhone</ref> Replace the current number of desktop phone by <emphasis>phone</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>phone</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>New number of desktop phone </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="172" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="164" bodyend="167"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a08ce4fbbd62f3e3f407faea2bf351f69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>QString</type>
-        <definition>QString Models::Customer::getFax</definition>
-        <argsstring>() const </argsstring>
-        <name>getFax</name>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a08ce4fbbd62f3e3f407faea2bf351f69" kindref="member">Customer::getFax</ref> Return the fax number. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>fax number </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="178" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="168" bodyend="171"/>
-      </memberdef>
-      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a4a6ba86c58db9bca2737bbeb723a0db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Models::Customer::setFax</definition>
-        <argsstring>(const QString &amp;fax)</argsstring>
-        <name>setFax</name>
-        <param>
-          <type>const QString &amp;</type>
-          <declname>fax</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1a4a6ba86c58db9bca2737bbeb723a0db3" kindref="member">Customer::setFax</ref> Replace the current fax number by <emphasis>fax</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>fax</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>new fax number </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="183" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="173" bodyend="176"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="48" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="54" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -698,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="190" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="178" bodyend="185"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="82" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -712,7 +154,46 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="197" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="187" bodyend="192"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="62" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::Customer::getTurnover</definition>
+        <argsstring>() const </argsstring>
+        <name>getTurnover</name>
+        <briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kindref="member">Customer::getTurnover</ref> Return the turnover of the customer money that customer pay, revenue sales. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>turnover </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="69" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1aee29f27497db5cd37bc835e202c24eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Customer::setTurnover</definition>
+        <argsstring>(const double &amp;turnover)</argsstring>
+        <name>setTurnover</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>turnover</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1aee29f27497db5cd37bc835e202c24eac" kindref="member">Customer::setTurnover</ref> Replace the current turnover by <emphasis>turnover</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>turnover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new revenue sales of a customer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="74" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="103" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab379700fa93f5b9eb0f8546b03aff70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -738,7 +219,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="206" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="67" bodyend="80"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="84" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="71" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a07e61dd9ad79b6be765ea1dabccf1e18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -764,7 +245,21 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="214" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="82" bodyend="85"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="92" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1abfc72b1cc4b2f1cdb106e0d50cfcb82f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::Customer::turnoverCompute</definition>
+        <argsstring>()</argsstring>
+        <name>turnoverCompute</name>
+        <briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1abfc72b1cc4b2f1cdb106e0d50cfcb82f" kindref="member">Customer::turnoverCompute</ref> calculates the customer turnover. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double turnover </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="98" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="108" bodyend="116"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -773,21 +268,29 @@
 <para><simplesect kind="author"><para>Antoine de Roquemaurel </para><simplesectsep/><para>Florent Berbie </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="250">
+      <node id="248">
         <label>Models::Customer</label>
         <link refid="db/dd7/classModels_1_1Customer"/>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="251">
+      <node id="250">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
+      <node id="249">
+        <label>Models::People</label>
+        <link refid="de/d0a/classModels_1_1People"/>
+      </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="252">
+      <node id="251">
         <label>Models::Customer</label>
         <link refid="db/dd7/classModels_1_1Customer"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
         <childnode refid="253" relation="public-inheritance">
         </childnode>
       </node>
@@ -795,58 +298,58 @@
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
+      <node id="252">
+        <label>Models::People</label>
+        <link refid="de/d0a/classModels_1_1People"/>
+      </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="13" bodyend="230"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="13" bodyend="102"/>
     <listofallmembers>
-      <member refid="db/dd7/classModels_1_1Customer_1a7b918eb4a0a925b8b79d92757b526b1d" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_address</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ac943077a601dd257fdce4224663dd3d9" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_city</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a10814ea610eb2fd353480d481a498a1a" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_company</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a5f0104af65fd8071caf335aae40cf5a5" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_country</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a16efd0e7353093ec000ff67c41bf91e2" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_email</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a112af0879e7d66b25995561050c5e68f" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_fax</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a3273f07a9134c95eb5e3894e00fc804d" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_firstnameReferent</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" prot="protected" virt="non-virtual"><scope>Models::Customer</scope><name>_id</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a59a510d7fedadc1fc7e874dc23122ffc" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_lastnameReferent</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ace10249be964048680ba444cf9755af0" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_mobilePhone</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a140c5238a36261884c33148ad79582b2" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_phone</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ae5b7b77724bc05c3fcd065ded3a04939" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_postalCode</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a8958f103202a45a8f77b86acebafe69c" prot="protected" virt="non-virtual"><scope>Models::Customer</scope><name>_toRemoved</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1addd80f9411019f3c8158fadaea90f36b" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_turnover</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" prot="public" virt="virtual"><scope>Models::Customer</scope><name>commit</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>Customer</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a02a1aee507d4ff4f60019070793fe604" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>Customer</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a594e1458ca9f3a449f2628c861bc3a40" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getAddress</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ace3f86c1e5108ede84a1a09516b37e50" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCity</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a23fb516872c6aebf9b1eb6a7ec86cb7f" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCompany</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a70ecabd20451f2b7c24d22a931c94cc3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCountry</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a4d327556f59357912c54c14cf940151d" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getAddress</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a478528b88890758e11887f9d48372680" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCity</name></member>
+      <member refid="de/d0a/classModels_1_1People_1af4d0cf50ce941c262717b6f10b9d4b89" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCompany</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a0df66681e0b8fcf099ad0a05863a8e13" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCountry</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" prot="public" virt="virtual"><scope>Models::Customer</scope><name>getDataMap</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ac8d55fcc6f53b2269a01efbe43e75133" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getEmail</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a08ce4fbbd62f3e3f407faea2bf351f69" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFax</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a30934fb39c552863e588c40d01725a18" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFirstnameReferent</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a183e3ac09f44e38b32d7ba72aef85757" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getEmail</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFax</name></member>
+      <member refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getId</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a73b93f9ad0718980bbfa2b283b3285ba" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getLastnameReferent</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a97211324b1f890b5f7a3fffc447289d7" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getMobilePhone</name></member>
+      <member refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getLastname</name></member>
+      <member refid="de/d0a/classModels_1_1People_1aaf8d6ac89ea0ae0a1064503f3b9b6dbb" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getMobilePhone</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getNameFolder</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getPath</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a0438cd11dfe13bb89c0233ffe288cc73" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getPhone</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ad544bdcd4d021f92bd77e5aa24f31f21" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getPostalCode</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a4e30c7e027f2be5c8bc7813e37e12f94" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getPhone</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a30999a844f67ddef254e2c2343df8946" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getPostalCode</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getTurnover</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c" prot="public" virt="virtual"><scope>Models::Customer</scope><name>hydrat</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1adecabe4161742cfc81ddbadc6706d9e9" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>isToRemoved</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a07e61dd9ad79b6be765ea1dabccf1e18" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>operator!=</name></member>
+      <member refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" prot="public" virt="non-virtual" ambiguityscope="Models::People::"><scope>Models::Customer</scope><name>operator!=</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ab379700fa93f5b9eb0f8546b03aff70f" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>operator==</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" prot="public" virt="non-virtual" ambiguityscope="Models::People::"><scope>Models::Customer</scope><name>operator==</name></member>
+      <member refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>People</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1" prot="public" virt="virtual"><scope>Models::Customer</scope><name>remove</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ae2d41b145d9c468f7e3c40a38882873d" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setAddress</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a069b40292e037762ec5e5836682c50b0" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCity</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ab4faf3a76242bc4c3ac44bafd628a4c6" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCompany</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1afd430475dc1bf7f9b1548767265aa821" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCountry</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1ab8f728a2e05c5c9c7a6f6522b85a59a1" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setEmail</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a4a6ba86c58db9bca2737bbeb723a0db3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFax</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a40cbc71c349a0d022b21543bbc7a120a" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFirstnameReferent</name></member>
+      <member refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setAddress</name></member>
+      <member refid="de/d0a/classModels_1_1People_1ab19eae39212a096542ed8c24567f3ca9" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCity</name></member>
+      <member refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCompany</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a3062f5f760ee85553b28b3ef1f15492a" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCountry</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setEmail</name></member>
+      <member refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFax</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setId</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a64ff31bbe0c7aba0b9976d8d253b7b33" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setLastnameReferent</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1abefe9de1e3c46501916e461ba6609450" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setMobilePhone</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1abbc25028b09ae36da632cefbfbbbcce6" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setPhone</name></member>
-      <member refid="db/dd7/classModels_1_1Customer_1a2bd4ac52294de78236e159caaa29412b" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setPostalCode</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setLastname</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setMobilePhone</name></member>
+      <member refid="de/d0a/classModels_1_1People_1adea0f24c3438d7c65a6df522e3253863" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setPhone</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a89ea420d87ce7e32e8fc1b7a83616eaf" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setPostalCode</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setToRemoved</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1aee29f27497db5cd37bc835e202c24eac" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setTurnover</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1abfc72b1cc4b2f1cdb106e0d50cfcb82f" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>turnoverCompute</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab9c12f5b9ae86e00d0f2f7d8d349c4fa" prot="public" virt="virtual"><scope>Models::Customer</scope><name>~IModel</name></member>
     </listofallmembers>
   </compounddef>
