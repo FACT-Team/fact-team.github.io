@@ -5,54 +5,54 @@
     <includes refid="d3/d2c/dialogaddcustomer_8h" local="yes">gui/dialogs/dialogaddcustomer.h</includes>
     <includes local="yes">ui_dialogaddcustomer.h</includes>
     <incdepgraph>
-      <node id="1197">
+      <node id="1271">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1198" relation="include">
+        <childnode refid="1272" relation="include">
         </childnode>
       </node>
-      <node id="1192">
+      <node id="1266">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.cpp</label>
         <link refid="dialogaddcustomer.cpp"/>
-        <childnode refid="1193" relation="include">
+        <childnode refid="1267" relation="include">
         </childnode>
-        <childnode refid="1200" relation="include">
+        <childnode refid="1274" relation="include">
         </childnode>
       </node>
-      <node id="1199">
+      <node id="1273">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="1196" relation="include">
+        <childnode refid="1270" relation="include">
         </childnode>
       </node>
-      <node id="1193">
+      <node id="1267">
         <label>gui/dialogs/dialogaddcustomer.h</label>
         <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
-        <childnode refid="1194" relation="include">
+        <childnode refid="1268" relation="include">
         </childnode>
-        <childnode refid="1195" relation="include">
+        <childnode refid="1269" relation="include">
         </childnode>
       </node>
-      <node id="1194">
+      <node id="1268">
         <label>QDialog</label>
       </node>
-      <node id="1198">
+      <node id="1272">
         <label>QVariantHash</label>
       </node>
-      <node id="1196">
+      <node id="1270">
         <label>QString</label>
       </node>
-      <node id="1195">
+      <node id="1269">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1196" relation="include">
+        <childnode refid="1270" relation="include">
         </childnode>
-        <childnode refid="1197" relation="include">
+        <childnode refid="1271" relation="include">
         </childnode>
-        <childnode refid="1199" relation="include">
+        <childnode refid="1273" relation="include">
         </childnode>
       </node>
-      <node id="1200">
+      <node id="1274">
         <label>ui_dialogaddcustomer.h</label>
       </node>
     </incdepgraph>
@@ -86,7 +86,7 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>checkFields();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::fillFields()<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a25d53880ea053c960ee621fec29afb36" kindref="member">DialogAddCustomer::fillFields</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leLastNameReferent-&gt;setText(_custom-&gt;getLastname());</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leFirstNameReferent-&gt;setText(_custom-&gt;getFirstname());</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leCompany-&gt;setText(_custom-&gt;getCompany());</highlight></codeline>
@@ -100,7 +100,7 @@
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leFax-&gt;setText(_custom-&gt;getFax());</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::accept()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab9f488af3fdfbf0ca9851cc59946dd5d" kindref="member">DialogAddCustomer::accept</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>_custom-&gt;setLastname(ui-&gt;leLastNameReferent-&gt;text());</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>_custom-&gt;setFirstname(ui-&gt;leFirstNameReferent-&gt;text());</highlight></codeline>
@@ -118,7 +118,7 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::accept();</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::reject()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" kindref="member">DialogAddCustomer::reject</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::reject();</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
@@ -128,7 +128,7 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DialogAddCustomer::checkFields()<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" kindref="member">DialogAddCustomer::checkFields</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePostalCode-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePhone-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leMobilePhone-&gt;setCountry(ui-&gt;leCountry-&gt;text());</highlight></codeline>

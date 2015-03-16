@@ -69,9 +69,9 @@ var hierarchy =
       [ "Gui::Widgets::WdgModels::ProjectsTableModel", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html", null ]
     ] ],
     [ "QDialog", null, [
-      [ "ComputeTurnoverDialog", "d5/d7b/classComputeTurnoverDialog.html", null ],
       [ "Gui::Dialogs::AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", null ],
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
+      [ "Gui::Dialogs::ComputeTurnoverDialog", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog.html", null ],
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
       [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
