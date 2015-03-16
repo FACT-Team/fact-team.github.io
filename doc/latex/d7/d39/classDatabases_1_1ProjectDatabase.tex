@@ -43,7 +43,9 @@ Q\-List$<$ \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlin
 Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Project}{Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_ab644aeb47d9666e8191cc9bc6ab93417}{update\-Project} (Q\-Sql\-Query \&q)
 \begin{DoxyCompactList}\small\item\em get\-Project Obtain a project without new query \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ \hyperlink{classDatabases_1_1ProjectDatabase_ac2532676aabcc8f304b2a3ddf4892205}{get\-All\-Projects} ()
-\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects Return the list of projects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects Return the list of projects. \end{DoxyCompactList}\item 
+Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ \hyperlink{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}{get\-All\-Projects\-Between\-Dates} (Q\-Date begin, Q\-Date end)
+\begin{DoxyCompactList}\small\item\em Project\-::get\-All\-Projects\-Between\-Dates Return the list of projects between a {\itshape begin} date and an {\itshape end} date. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -93,6 +95,28 @@ Project\-::get\-All\-Projects Return the list of projects.
 
 \begin{DoxyReturn}{Returns}
 Projects list 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-All\-Projects\-Between\-Dates@{get\-All\-Projects\-Between\-Dates}}
+\index{get\-All\-Projects\-Between\-Dates@{get\-All\-Projects\-Between\-Dates}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
+\subsubsection[{get\-All\-Projects\-Between\-Dates}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Project} $\ast$ $>$ Databases\-::\-Project\-Database\-::get\-All\-Projects\-Between\-Dates (
+\begin{DoxyParamCaption}
+\item[{Q\-Date}]{begin, }
+\item[{Q\-Date}]{end}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1ProjectDatabase_af3e7ce373c57fec37c0437e351a7e1e4}
+
+
+Project\-::get\-All\-Projects\-Between\-Dates Return the list of projects between a {\itshape begin} date and an {\itshape end} date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em begin} & the beginning date where projects can start \\
+\hline
+{\em end} & the end date until where the projects can finish \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the list of {\bfseries Project} in the set 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1ProjectDatabase_aa486ad21f156a8ba7d08baef29e0aaea}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Nb\-Projects@{get\-Nb\-Projects}}
 \index{get\-Nb\-Projects@{get\-Nb\-Projects}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
