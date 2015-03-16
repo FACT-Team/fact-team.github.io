@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d4/d12/classGenerator_1_1TexGenerator" kind="class" prot="public">
     <compoundname>Generator::TexGenerator</compoundname>
+    <includes refid="d6/dc3/texgenerator_8h" local="no">texgenerator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d4/d12/classGenerator_1_1TexGenerator_1a749d2ed1f1238da47b57bf7db9101102" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -9,12 +10,12 @@
         <argsstring></argsstring>
         <name>_tplFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Template to use. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -28,12 +29,20 @@
           <declname>tpl</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d4/d12/classGenerator_1_1TexGenerator_1ade851f7c789f66769bbdace3c4a37eef" kindref="member">TexGenerator::TexGenerator</ref> Construct a <ref refid="d4/d12/classGenerator_1_1TexGenerator" kindref="compound">TexGenerator</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tpl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Template LaTeX to apply </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="13" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="4" bodyend="7"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="4" bodyend="7"/>
       </memberdef>
       <memberdef kind="function" id="d4/d12/classGenerator_1_1TexGenerator_1a07c6502f15deffc5e6372669844dd152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -46,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="9" bodyend="12"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="9" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -62,25 +71,40 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" kindref="member">TexGenerator::generate</ref> Generate a LaTeX file into a file specified by the <emphasis>path</emphasis> and which contains <emphasis>data</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to integrate in the file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the out file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="14" bodyend="37"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="29" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.cpp" bodystart="14" bodyend="37"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="d4/d12/classGenerator_1_1TexGenerator" kindref="compound">TexGenerator</ref> class Generate a LaTeX file. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="464">
+      <node id="468">
         <label>Generator::TexGenerator</label>
         <link refid="d4/d12/classGenerator_1_1TexGenerator"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" bodystart="10" bodyend="20"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h" bodystart="13" bodyend="33"/>
     <listofallmembers>
       <member refid="d4/d12/classGenerator_1_1TexGenerator_1a749d2ed1f1238da47b57bf7db9101102" prot="private" virt="non-virtual"><scope>Generator::TexGenerator</scope><name>_tplFile</name></member>
       <member refid="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" prot="public" virt="non-virtual"><scope>Generator::TexGenerator</scope><name>generate</name></member>

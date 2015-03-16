@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d9/d69/classGenerator_1_1PdfGenerator" kind="class" prot="public">
     <compoundname>Generator::PdfGenerator</compoundname>
+    <includes refid="de/d42/pdfgenerator_8h" local="no">pdfgenerator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d9/d69/classGenerator_1_1PdfGenerator_1a1031ff55baffd50945fa9e55b5fe0c2d" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -29,12 +30,20 @@
           <defval>&quot;pdflatex&quot;</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a59ca8292d423302478f7f278034f7006" kindref="member">PdfGenerator::PdfGenerator</ref> Construct a <ref refid="d9/d69/classGenerator_1_1PdfGenerator" kindref="compound">PdfGenerator</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pdflatexPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the command to generate PDF file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="11" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp" bodystart="4" bodyend="7"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp" bodystart="4" bodyend="7"/>
       </memberdef>
       <memberdef kind="function" id="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -50,16 +59,31 @@
           <declname>filename</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" kindref="member">PdfGenerator::generate</ref> Generate a PDF of the file named <emphasis>filename</emphasis> into the directory <emphasis>inputDir</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Directory where is store the PDF generated </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp" bodystart="9" bodyend="21"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="26" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp" bodystart="9" bodyend="21"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="d9/d69/classGenerator_1_1PdfGenerator" kindref="compound">PdfGenerator</ref> class Generator of PDF files. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
@@ -68,7 +92,7 @@
         <link refid="d9/d69/classGenerator_1_1PdfGenerator"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="9" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" bodystart="8" bodyend="15"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.h" bodystart="11" bodyend="29"/>
     <listofallmembers>
       <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a1031ff55baffd50945fa9e55b5fe0c2d" prot="private" virt="non-virtual"><scope>Generator::PdfGenerator</scope><name>_pdflatexPath</name></member>
       <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" prot="public" virt="non-virtual"><scope>Generator::PdfGenerator</scope><name>generate</name></member>
