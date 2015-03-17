@@ -49,11 +49,7 @@ Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $>
 Q\-Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, \hyperlink{classModels_1_1Billing}{Billing} $\ast$ $>$ \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{get\-All\-Billings\-Of\-Project} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{Billing\-Database\-::get\-All\-Billings\-Of\-Project} Return a map with the project id as key linked to the billing. \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{get\-Billings} (const int project\-Id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{get\-All\-Billings\-Only} (const int id\-Project)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{Billing\-Database\-::get\-All\-Billings\-Only} get all billings which aren't quotes for the project {\itshape p} \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a766bf07563179677656f75beb0efb5ef}{get\-Billings\-Between\-Dates} (Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ bills, Q\-Date begin, Q\-Date end)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a766bf07563179677656f75beb0efb5ef}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -126,25 +122,6 @@ billing id
 \begin{DoxyReturn}{Returns}
 Map with projects and Billing 
 \end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-All\-Billings\-Only@{get\-All\-Billings\-Only}}
-\index{get\-All\-Billings\-Only@{get\-All\-Billings\-Only}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-All\-Billings\-Only}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-All\-Billings\-Only (
-\begin{DoxyParamCaption}
-\item[{const int}]{id\-Project}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{Billing\-Database\-::get\-All\-Billings\-Only} get all billings which aren't quotes for the project {\itshape p} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em p} & \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the list of {\bfseries Billing} 
-\end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billing@{get\-Billing}}
 \index{get\-Billing@{get\-Billing}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
 \subsubsection[{get\-Billing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\-::\-Billing} $\ast$ Databases\-::\-Billing\-Database\-::get\-Billing (
@@ -201,29 +178,6 @@ a billing formed according to Q\-Shared\-Pointer
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 List with bills 
-\end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_a766bf07563179677656f75beb0efb5ef}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings\-Between\-Dates@{get\-Billings\-Between\-Dates}}
-\index{get\-Billings\-Between\-Dates@{get\-Billings\-Between\-Dates}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-Billings\-Between\-Dates}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-Billings\-Between\-Dates (
-\begin{DoxyParamCaption}
-\item[{Q\-List$<$ {\bf Billing} $>$}]{bills, }
-\item[{Q\-Date}]{begin, }
-\item[{Q\-Date}]{end}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_a766bf07563179677656f75beb0efb5ef}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_a766bf07563179677656f75beb0efb5ef}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em begin} & \\
-\hline
-{\em end} & \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the list of {\bfseries Billing} 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings\-Table@{get\-Billings\-Table}}
 \index{get\-Billings\-Table@{get\-Billings\-Table}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
