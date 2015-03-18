@@ -75,36 +75,51 @@ $(document).ready(function(){initNavTree('d5/d79/rate_8h_source.html','../../');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>Models {</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d9/dc5/classModels_1_1Rate.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d9/dc5/classModels_1_1Rate.html">Rate</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html">Rate</a>(<span class="keywordtype">double</span> hourly);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html">Rate</a>(<span class="keywordtype">int</span> idBilling, <span class="keywordtype">int</span> idProject);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html">Rate</a>();</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> setDailyRate(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp;);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">void</span> setHourlyRate(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp;);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">double</span> getDailyRate() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">double</span> getHourlyRate() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">int</span> getNbDailyHours() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">double</span> getLegalRate() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">double</span> _hourly;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">double</span> LEGAL_RATE; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NB_DAILY_HOURS; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // RATE_H</span></div>
-<div class="ttc" id="classModels_1_1Rate_html"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html">Models::Rate</a></div><div class="ttdef"><b>Definition:</b> rate.h:8</div></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d9/dc5/classModels_1_1Rate.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d9/dc5/classModels_1_1Rate.html">Rate</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a609460ae8c48027ed4ac1aaac416f690">Rate</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a609460ae8c48027ed4ac1aaac416f690">Rate</a>(<span class="keywordtype">double</span> hourly);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a609460ae8c48027ed4ac1aaac416f690">Rate</a>(<span class="keywordtype">int</span> idBilling, <span class="keywordtype">int</span> idProject);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a2f07614aa1d1a4957fd8d4de4d3680d5">setDailyRate</a>(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp;);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a75a770086f7ef9e702b961a32fc735b5">setHourlyRate</a>(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp;);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a937b0efecbc5b3561ad08fe712165d0b">getDailyRate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#ac4c3d9c09bed20d639997da7d6c6798b">getHourlyRate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#a08add6d8b4db1b9a37a3f9cc22d0d0df">getNbDailyHours</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d9/dc5/classModels_1_1Rate.html#aa06f56d236743c66b2e6b1bc772b9233">getLegalRate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">double</span> _hourly;                     </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">double</span> LEGAL_RATE;     </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NB_DAILY_HOURS;    </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif // RATE_H</span></div>
+<div class="ttc" id="classModels_1_1Rate_html_a08add6d8b4db1b9a37a3f9cc22d0d0df"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#a08add6d8b4db1b9a37a3f9cc22d0d0df">Models::Rate::getNbDailyHours</a></div><div class="ttdeci">int getNbDailyHours() const </div><div class="ttdoc">Rate::getNbDailyHours Return the number of daily hours. </div><div class="ttdef"><b>Definition:</b> rate.cpp:44</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_ac4c3d9c09bed20d639997da7d6c6798b"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#ac4c3d9c09bed20d639997da7d6c6798b">Models::Rate::getHourlyRate</a></div><div class="ttdeci">double getHourlyRate() const </div><div class="ttdoc">Rate::getHourlyRate Return the hourly rate. </div><div class="ttdef"><b>Definition:</b> rate.cpp:39</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_a75a770086f7ef9e702b961a32fc735b5"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#a75a770086f7ef9e702b961a32fc735b5">Models::Rate::setHourlyRate</a></div><div class="ttdeci">void setHourlyRate(const double &amp;)</div><div class="ttdoc">Rate::setHourlyRate Modify the hourly rate with the new value. </div><div class="ttdef"><b>Definition:</b> rate.cpp:29</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_a2f07614aa1d1a4957fd8d4de4d3680d5"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#a2f07614aa1d1a4957fd8d4de4d3680d5">Models::Rate::setDailyRate</a></div><div class="ttdeci">void setDailyRate(const double &amp;)</div><div class="ttdoc">Rate::setDailyRate Modify the daily rate with the new value. </div><div class="ttdef"><b>Definition:</b> rate.cpp:23</div></div>
+<div class="ttc" id="classModels_1_1Rate_html"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html">Models::Rate</a></div><div class="ttdoc">The Rate class Rate of a prestation. </div><div class="ttdef"><b>Definition:</b> rate.h:12</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_a609460ae8c48027ed4ac1aaac416f690"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#a609460ae8c48027ed4ac1aaac416f690">Models::Rate::Rate</a></div><div class="ttdeci">Rate()</div><div class="ttdoc">Rate::Rate Construct a Rate. </div><div class="ttdef"><b>Definition:</b> rate.cpp:18</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_aa06f56d236743c66b2e6b1bc772b9233"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#aa06f56d236743c66b2e6b1bc772b9233">Models::Rate::getLegalRate</a></div><div class="ttdeci">double getLegalRate() const </div><div class="ttdoc">Rate::getLegalRate Return the legal rate. </div><div class="ttdef"><b>Definition:</b> rate.cpp:49</div></div>
+<div class="ttc" id="classModels_1_1Rate_html_a937b0efecbc5b3561ad08fe712165d0b"><div class="ttname"><a href="../../d9/dc5/classModels_1_1Rate.html#a937b0efecbc5b3561ad08fe712165d0b">Models::Rate::getDailyRate</a></div><div class="ttdeci">double getDailyRate() const </div><div class="ttdoc">Rate::getDailyRate Return the daily rate. </div><div class="ttdef"><b>Definition:</b> rate.cpp:34</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a0fc242344fcc8d14eec4e83d12430b2.html">models</a></li><li class="navelem"><b>rate.h</b></li>
-    <li class="footer">Generated on Wed Mar 18 2015 22:03:48 for FactDev by
+    <li class="footer">Generated on Wed Mar 18 2015 23:53:09 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

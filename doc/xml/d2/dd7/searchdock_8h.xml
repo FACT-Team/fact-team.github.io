@@ -7,49 +7,49 @@
     <includedby refid="da/d54/searchdock_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp</includedby>
     <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</includedby>
     <incdepgraph>
-      <node id="1323">
+      <node id="1345">
         <label>models/search.h</label>
         <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="1324" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
       </node>
-      <node id="1321">
+      <node id="1343">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h</label>
         <link refid="searchdock.h"/>
-        <childnode refid="1322" relation="include">
+        <childnode refid="1344" relation="include">
         </childnode>
-        <childnode refid="1323" relation="include">
+        <childnode refid="1345" relation="include">
         </childnode>
       </node>
-      <node id="1322">
+      <node id="1344">
         <label>QDockWidget</label>
       </node>
-      <node id="1324">
+      <node id="1346">
         <label>QString</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1325">
+      <node id="1347">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h</label>
         <link refid="searchdock.h"/>
-        <childnode refid="1326" relation="include">
+        <childnode refid="1348" relation="include">
         </childnode>
       </node>
-      <node id="1326">
+      <node id="1348">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="1327" relation="include">
+        <childnode refid="1349" relation="include">
         </childnode>
       </node>
-      <node id="1327">
+      <node id="1349">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="1326" relation="include">
+        <childnode refid="1348" relation="include">
         </childnode>
-        <childnode refid="1328" relation="include">
+        <childnode refid="1350" relation="include">
         </childnode>
       </node>
-      <node id="1328">
+      <node id="1350">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
@@ -75,29 +75,28 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Docks<sp/>{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="de/db4/classGui_1_1Docks_1_1SearchDock" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDockWidget</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref>(QWidget<sp/>*parent=0,<sp/>Qt::WindowFlags<sp/>flags<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>search(QString<sp/>text);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">signals:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>textChanged(QString<sp/>text);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::SearchDock<sp/>*ui;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SEARCHDOCK_H</highlight></codeline>
+<codeline lineno="16" refid="de/db4/classGui_1_1Docks_1_1SearchDock" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDockWidget</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kindref="member">SearchDock</ref>(QWidget<sp/>*parent=0,<sp/>Qt::WindowFlags<sp/>flags<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a7360b52fd0bc03e089049b574e509c02" kindref="member">search</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a9b33dea8adfe26b4d7a5dadffbbb07a7" kindref="member">textChanged</ref>(QString<sp/>text);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::SearchDock<sp/>*ui;<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SEARCHDOCK_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h"/>
   </compounddef>
