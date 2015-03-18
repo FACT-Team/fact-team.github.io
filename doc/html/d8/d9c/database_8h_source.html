@@ -88,75 +88,72 @@ $(document).ready(function(){initNavTree('d8/d9c/database_8h_source.html','../..
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;exceptions/dbexception.h&quot;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;utils/log.h&quot;</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;parameters.h&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;database/accessdatabase.h&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">using namespace </span>Exceptions;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">using namespace </span>Utils;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span>Databases {</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a> {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>* instance() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    QString  lastError(<span class="keyword">const</span> QSqlQuery&amp; q) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> testCases();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> executeFile(QString pName);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> openTransaction();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> closeTransaction();</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> close();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> open();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    ~<a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> setDatabase(QSqlDatabase sql);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> updateBillingNumber();</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> cleanDatabase();</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">void</span> changeDatabase(Databases::DbType dbType);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">using namespace </span>Exceptions;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">using namespace </span>Utils;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span>Databases {</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a> {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>* instance() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QString  lastError(<span class="keyword">const</span> QSqlQuery&amp; q) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> testCases();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> cleanDatabase();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> executeFile(QString pName);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> openTransaction();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> closeTransaction();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> close();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> open();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    ~<a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> setDatabase(QSqlDatabase sql);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">void</span> createDatabase();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">void</span> updateBillingNumber();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">  112</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>* <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">_instance</a>; </div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">  113</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">_dbInstance</a>; </div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">  115</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html">Database</a>* <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">_instance</a>; </div>
-<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">  116</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">_dbInstance</a>; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">  118</a></span>&#160;    QSettings* <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">_settings</a>; </div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">  115</a></span>&#160;    QSettings* <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">_settings</a>; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">  117</a></span>&#160;    QSqlDatabase <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">mDatabase</a>; </div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">  118</a></span>&#160;    QList&lt;Database*&gt; <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">_instances</a>; </div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">  120</a></span>&#160;    QSqlDatabase <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">mDatabase</a>; </div>
-<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">  121</a></span>&#160;    QList&lt;Database*&gt; <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">_instances</a>; </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">  123</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">isOpen</a>; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    QVariant value(<span class="keyword">const</span> QSqlQuery&amp; q, <span class="keyword">const</span> QString&amp; champ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> _isMysql;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;};</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;}</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">#endif // Database_H</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">  120</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">isOpen</a>; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    QVariant value(<span class="keyword">const</span> QSqlQuery&amp; q, <span class="keyword">const</span> QString&amp; champ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;};</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#endif // Database_H</span></div>
 <div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:34</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_a3bf8253398401fac46f74be67181877a"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">Databases::Database::_dbInstance</a></div><div class="ttdeci">static bool _dbInstance</div><div class="ttdoc">an instance of db is open </div><div class="ttdef"><b>Definition:</b> database.h:116</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_a091c36a92c87204f4f63e96e7d34b9f7"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">Databases::Database::mDatabase</a></div><div class="ttdeci">QSqlDatabase mDatabase</div><div class="ttdoc">contains Database </div><div class="ttdef"><b>Definition:</b> database.h:120</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_abdde0f6fbef7f4d7353acda867f01ca0"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">Databases::Database::isOpen</a></div><div class="ttdeci">static bool isOpen</div><div class="ttdoc">Database is open. </div><div class="ttdef"><b>Definition:</b> database.h:123</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_aaed4ecc36468c345c56df78ccb5b56c8"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">Databases::Database::_instances</a></div><div class="ttdeci">QList&lt; Database * &gt; _instances</div><div class="ttdoc">List of instances. </div><div class="ttdef"><b>Definition:</b> database.h:121</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_a1254e2d5f196c9b6143da1cd57df5d31"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">Databases::Database::_settings</a></div><div class="ttdeci">QSettings * _settings</div><div class="ttdoc">settings </div><div class="ttdef"><b>Definition:</b> database.h:118</div></div>
-<div class="ttc" id="classDatabases_1_1Database_html_a5f3ca7a29b769615feeac1c8b12f9a7e"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">Databases::Database::_instance</a></div><div class="ttdeci">static Database * _instance</div><div class="ttdoc">Instance. </div><div class="ttdef"><b>Definition:</b> database.h:115</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:33</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_a3bf8253398401fac46f74be67181877a"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a3bf8253398401fac46f74be67181877a">Databases::Database::_dbInstance</a></div><div class="ttdeci">static bool _dbInstance</div><div class="ttdoc">an instance of db is open </div><div class="ttdef"><b>Definition:</b> database.h:113</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_a091c36a92c87204f4f63e96e7d34b9f7"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7">Databases::Database::mDatabase</a></div><div class="ttdeci">QSqlDatabase mDatabase</div><div class="ttdoc">contains Database </div><div class="ttdef"><b>Definition:</b> database.h:117</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_abdde0f6fbef7f4d7353acda867f01ca0"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#abdde0f6fbef7f4d7353acda867f01ca0">Databases::Database::isOpen</a></div><div class="ttdeci">static bool isOpen</div><div class="ttdoc">Database is open. </div><div class="ttdef"><b>Definition:</b> database.h:120</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_aaed4ecc36468c345c56df78ccb5b56c8"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#aaed4ecc36468c345c56df78ccb5b56c8">Databases::Database::_instances</a></div><div class="ttdeci">QList&lt; Database * &gt; _instances</div><div class="ttdoc">List of instances. </div><div class="ttdef"><b>Definition:</b> database.h:118</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_a1254e2d5f196c9b6143da1cd57df5d31"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a1254e2d5f196c9b6143da1cd57df5d31">Databases::Database::_settings</a></div><div class="ttdeci">QSettings * _settings</div><div class="ttdoc">settings </div><div class="ttdef"><b>Definition:</b> database.h:115</div></div>
+<div class="ttc" id="classDatabases_1_1Database_html_a5f3ca7a29b769615feeac1c8b12f9a7e"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html#a5f3ca7a29b769615feeac1c8b12f9a7e">Databases::Database::_instance</a></div><div class="ttdeci">static Database * _instance</div><div class="ttdoc">Instance. </div><div class="ttdef"><b>Definition:</b> database.h:112</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_fb3819ff5273056abe09370430f56163.html">database</a></li><li class="navelem"><b>database.h</b></li>
-    <li class="footer">Generated on Wed Mar 18 2015 20:45:17 for FactDev by
+    <li class="footer">Generated on Wed Mar 18 2015 21:05:16 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

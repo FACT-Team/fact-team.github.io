@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "Databases::AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html", null ],
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
         [ "CounterContext", "db/da6/classCounterContext.html", null ],
