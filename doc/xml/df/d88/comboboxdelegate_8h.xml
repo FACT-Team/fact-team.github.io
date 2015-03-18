@@ -9,74 +9,74 @@
     <includedby refid="d5/dfb/projectcombodelegate_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</includedby>
     <includedby refid="da/d01/unitcombodelegate_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h</includedby>
     <incdepgraph>
-      <node id="2074">
+      <node id="2103">
         <label>QApplication</label>
       </node>
-      <node id="2071">
+      <node id="2100">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h</label>
         <link refid="comboboxdelegate.h"/>
-        <childnode refid="2072" relation="include">
+        <childnode refid="2101" relation="include">
         </childnode>
-        <childnode refid="2073" relation="include">
+        <childnode refid="2102" relation="include">
         </childnode>
-        <childnode refid="2074" relation="include">
+        <childnode refid="2103" relation="include">
         </childnode>
       </node>
-      <node id="2073">
+      <node id="2102">
         <label>QComboBox</label>
       </node>
-      <node id="2072">
+      <node id="2101">
         <label>QItemDelegate</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2079">
+      <node id="2108">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="2080" relation="include">
+        <childnode refid="2109" relation="include">
         </childnode>
       </node>
-      <node id="2077">
+      <node id="2106">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
         <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="2078" relation="include">
+        <childnode refid="2107" relation="include">
         </childnode>
       </node>
-      <node id="2082">
+      <node id="2111">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h</label>
         <link refid="da/d01/unitcombodelegate_8h_source"/>
-        <childnode refid="2077" relation="include">
+        <childnode refid="2106" relation="include">
         </childnode>
       </node>
-      <node id="2080">
+      <node id="2109">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="2079" relation="include">
+        <childnode refid="2108" relation="include">
         </childnode>
-        <childnode refid="2081" relation="include">
+        <childnode refid="2110" relation="include">
         </childnode>
       </node>
-      <node id="2076">
+      <node id="2105">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="d5/dfb/projectcombodelegate_8h_source"/>
-        <childnode refid="2077" relation="include">
+        <childnode refid="2106" relation="include">
         </childnode>
       </node>
-      <node id="2078">
+      <node id="2107">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
         <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="2079" relation="include">
+        <childnode refid="2108" relation="include">
         </childnode>
       </node>
-      <node id="2075">
+      <node id="2104">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h</label>
         <link refid="comboboxdelegate.h"/>
-        <childnode refid="2076" relation="include">
+        <childnode refid="2105" relation="include">
         </childnode>
-        <childnode refid="2082" relation="include">
+        <childnode refid="2111" relation="include">
         </childnode>
       </node>
-      <node id="2081">
+      <node id="2110">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
@@ -100,25 +100,38 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" kindref="compound">ComboBoxDelegate</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QItemDelegate</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" kindref="compound">ComboBoxDelegate</ref>(QObject*<sp/>parent=0);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QWidget<sp/>*createEditor(QWidget<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>paint(QPainter<sp/>*painter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEditorData(QWidget<sp/>*editor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setModelData(QWidget<sp/>*editor,<sp/>QAbstractItemModel<sp/>*model,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateEditorGeometry(QWidget<sp/>*editor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15" refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" kindref="compound">ComboBoxDelegate</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QItemDelegate</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a34105ef48d776c556598b9b15e7abdcc" kindref="member">ComboBoxDelegate</ref>(QObject*<sp/>parent=0);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMBOBOXDELEGATE_H</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QWidget<sp/>*<ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1aa24c5896e30295ad7dbe47c91093b2db" kindref="member">createEditor</ref>(</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QWidget<sp/>*parent,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a0b7f0752890cd3fb257361a7990a74c2" kindref="member">paint</ref>(QPainter<sp/>*painter,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a30d218e265b7656e17fece8a73e53e90" kindref="member">setEditorData</ref>(QWidget<sp/>*editor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a2f2d51e4e44e7f3cdc9baac783bbc1b1" kindref="member">setModelData</ref>(QWidget<sp/>*editor,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QAbstractItemModel<sp/>*model,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1abdf54b72e544b24cc34270154ae6aed3" kindref="member">updateEditorGeometry</ref>(QWidget<sp/>*editor,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStyleOptionViewItem<sp/>&amp;option,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QModelIndex<sp/>&amp;index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMBOBOXDELEGATE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h"/>
   </compounddef>

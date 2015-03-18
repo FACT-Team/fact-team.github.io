@@ -3,6 +3,7 @@
   <compounddef id="de/db4/classGui_1_1Docks_1_1SearchDock" kind="class" prot="public">
     <compoundname>Gui::Docks::SearchDock</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QDockWidget</basecompoundref>
+    <includes refid="d2/dd7/searchdock_8h" local="no">searchdock.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="de/db4/classGui_1_1Docks_1_1SearchDock_1a45a9616bc0f20517e0182d7824ee3189" prot="private" static="no" mutable="no">
         <type>Ui::SearchDock *</type>
@@ -10,12 +11,12 @@
         <argsstring></argsstring>
         <name>ui</name>
         <briefdescription>
-        </briefdescription>
+<para>User interface. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="29" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="45" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -35,12 +36,27 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kindref="member">SearchDock::SearchDock</ref> Construct a <ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Widget Parent </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Window flag </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="6" bodyend="10"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="26" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="6" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="de/db4/classGui_1_1Docks_1_1SearchDock_1a5c03d289e8dc3352e232e4d3bc290080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -53,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="12" bodyend="16"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="12" bodyend="16"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -67,12 +83,20 @@
           <declname>text</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a7360b52fd0bc03e089049b574e509c02" kindref="member">SearchDock::search</ref> Search elements in database which correspond to the <emphasis>text</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element to search </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="18" bodyend="46"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="35" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp" bodystart="18" bodyend="46"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -86,41 +110,49 @@
           <declname>text</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a9b33dea8adfe26b4d7a5dadffbbb07a7" kindref="member">SearchDock::textChanged</ref> Current text changed by <emphasis>text</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="26" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="42" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="de/db4/classGui_1_1Docks_1_1SearchDock" kindref="compound">SearchDock</ref> class Dock which contains search bar. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="427">
+      <node id="433">
         <label>Gui::Docks::SearchDock</label>
         <link refid="de/db4/classGui_1_1Docks_1_1SearchDock"/>
-        <childnode refid="428" relation="public-inheritance">
+        <childnode refid="434" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="428">
+      <node id="434">
         <label>QDockWidget</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="429">
+      <node id="435">
         <label>Gui::Docks::SearchDock</label>
         <link refid="de/db4/classGui_1_1Docks_1_1SearchDock"/>
-        <childnode refid="430" relation="public-inheritance">
+        <childnode refid="436" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="430">
+      <node id="436">
         <label>QDockWidget</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" bodystart="14" bodyend="31"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.h" bodystart="16" bodyend="47"/>
     <listofallmembers>
       <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a7360b52fd0bc03e089049b574e509c02" prot="public" virt="non-virtual"><scope>Gui::Docks::SearchDock</scope><name>search</name></member>
       <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" prot="public" virt="non-virtual"><scope>Gui::Docks::SearchDock</scope><name>SearchDock</name></member>
