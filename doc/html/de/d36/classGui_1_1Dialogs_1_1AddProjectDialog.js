@@ -1,6 +1,7 @@
 var classGui_1_1Dialogs_1_1AddProjectDialog =
 [
-    [ "AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#a73e81dfba4038bfd8d697c012a8a2d97", null ],
+    [ "AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#a1fa86f5366f321233655aaf6923ec892", null ],
+    [ "AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#a7433c07961921a18abb56a6aeb741b1f", null ],
     [ "~AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#a7445d90f4a237ad1588cdd570b6503dd", null ],
     [ "accept", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#abe345ededea4911846a44b984cc04f18", null ],
     [ "checkFields", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#ab30cf2a880e1746cf629a69fb7d9e7f9", null ],

@@ -10,13 +10,12 @@ var classModels_1_1ContributoriesList =
     [ "getCustomer", "d7/d6a/classModels_1_1ContributoriesList.html#a760097b1c0d7822cfd3d4796d553fae9", null ],
     [ "getDataMap", "d7/d6a/classModels_1_1ContributoriesList.html#af063322348b0f02d0c7159bd7413a836", null ],
     [ "getIdBilling", "d7/d6a/classModels_1_1ContributoriesList.html#a3fbbce49ffcdbfa0693f4d21dd0d8c14", null ],
+    [ "getInsert", "d7/d6a/classModels_1_1ContributoriesList.html#ab5b32ef1b153af303852d10b0168a41f", null ],
     [ "getNbProjects", "d7/d6a/classModels_1_1ContributoriesList.html#a026202989560ff9d462d6104b3788657", null ],
     [ "getProjects", "d7/d6a/classModels_1_1ContributoriesList.html#a4d52a35870cd9257ee3b5db75bd8ff25", null ],
     [ "getRate", "d7/d6a/classModels_1_1ContributoriesList.html#a16118d05867f3e2550f44796400253b9", null ],
     [ "getSumQuantity", "d7/d6a/classModels_1_1ContributoriesList.html#af9b3b1b703cebeef552d058999ffcc4c", null ],
     [ "getSumRate", "d7/d6a/classModels_1_1ContributoriesList.html#ae2fd3ad53b082ee8adf3d0249e4f539b", null ],
-    [ "isInsert", "d7/d6a/classModels_1_1ContributoriesList.html#a286c41aee939305541eeadfa64ee17a7", null ],
-    [ "setAllIdContributories", "d7/d6a/classModels_1_1ContributoriesList.html#a313800788580eb469df125fe8d47c6a6", null ],
-    [ "setIdBilling", "d7/d6a/classModels_1_1ContributoriesList.html#ad93d74f1b3e0a4ad83bad859812b3547", null ],
-    [ "setInsert", "d7/d6a/classModels_1_1ContributoriesList.html#a5d34942a45954d98e53112e2523bee9b", null ]
+    [ "setIdBilling", "d7/d6a/classModels_1_1ContributoriesList.html#a759f76db48c3dfe88ab8bd534b835553", null ],
+    [ "setInsert", "d7/d6a/classModels_1_1ContributoriesList.html#a543e4e70e7b10efc05027108247c3958", null ]
 ];

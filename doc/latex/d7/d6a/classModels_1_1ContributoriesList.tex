@@ -1,15 +1,6 @@
 \hypertarget{classModels_1_1ContributoriesList}{\section{Models\-:\-:Contributories\-List Class Reference}
 \label{classModels_1_1ContributoriesList}\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}}
 }
-
-
-The \hyperlink{classModels_1_1ContributoriesList}{Contributories\-List} class List of contributories.  
-
-
-
-
-{\ttfamily \#include $<$contributorieslist.\-h$>$}
-
 Inheritance diagram for Models\-:\-:Contributories\-List\-:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -19,302 +10,54 @@ Inheritance diagram for Models\-:\-:Contributories\-List\-:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classModels_1_1ContributoriesList_a3563e04b5d5b144846679f3ef4fd9387}{\hyperlink{classModels_1_1ContributoriesList_a3563e04b5d5b144846679f3ef4fd9387}{Contributories\-List} ()}\label{classModels_1_1ContributoriesList_a3563e04b5d5b144846679f3ef4fd9387}
-
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a3563e04b5d5b144846679f3ef4fd9387}{Contributories\-List\-::\-Contributories\-List} Construct a \hyperlink{classModels_1_1ContributoriesList}{Contributories\-List}. \end{DoxyCompactList}\item 
 \hypertarget{classModels_1_1ContributoriesList_ad341e0527f4c9057281400f6cf54e54f}{virtual void \hyperlink{classModels_1_1ContributoriesList_ad341e0527f4c9057281400f6cf54e54f}{commit} ()}\label{classModels_1_1ContributoriesList_ad341e0527f4c9057281400f6cf54e54f}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_ad341e0527f4c9057281400f6cf54e54f}{Contributories\-List\-::commit} Update or insert data into the database. \end{DoxyCompactList}\item 
-void \hyperlink{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}{add\-Contributory} (\hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} \&contributory)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}{Contributories\-List\-::add\-Contributory} Add a new {\itshape contributory} \end{DoxyCompactList}\item 
-void \hyperlink{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}{add\-Project} (\hyperlink{classModels_1_1Project}{Project} $\ast$p, \hyperlink{classModels_1_1Rate}{Models\-::\-Rate} rate)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}{Contributories\-List\-::add\-Project} Add a \hyperlink{classModels_1_1Project}{Project} {\itshape p} and it {\itshape rate} \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ \& \hyperlink{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}{get\-Contributories} (\hyperlink{classModels_1_1Project}{Project} $\ast$p)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}{Contributories\-List\-::get\-Contributories} Return a list of Contributories for the \hyperlink{classModels_1_1Project}{Project} {\itshape p} \end{DoxyCompactList}\item 
-int \hyperlink{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}{get\-Id\-Billing} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}{Contributories\-List\-::get\-Id\-Billing} Return the \hyperlink{classModels_1_1Billing}{Billing} I\-D. \end{DoxyCompactList}\item 
-void \hyperlink{classModels_1_1ContributoriesList_ad93d74f1b3e0a4ad83bad859812b3547}{set\-Id\-Billing} (int id\-Billing)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_ad93d74f1b3e0a4ad83bad859812b3547}{Contributories\-List\-::set\-Id\-Billing} Change the \hyperlink{classModels_1_1Billing}{Billing} id by the new {\itshape id\-Billing} \end{DoxyCompactList}\item 
-void \hyperlink{classModels_1_1ContributoriesList_a313800788580eb469df125fe8d47c6a6}{set\-All\-Id\-Contributories} (int id\-Contributory)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a313800788580eb469df125fe8d47c6a6}{Contributories\-List\-::set\-All\-Id\-Contributories} Change all \hyperlink{classModels_1_1Contributory}{Contributory} id with the same id. \end{DoxyCompactList}\item 
-bool \hyperlink{classModels_1_1ContributoriesList_a286c41aee939305541eeadfa64ee17a7}{is\-Insert} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a286c41aee939305541eeadfa64ee17a7}{Contributories\-List\-::is\-Insert} Return T\-R\-U\-E if an element is inserting else F\-A\-L\-S\-E. \end{DoxyCompactList}\item 
-void \hyperlink{classModels_1_1ContributoriesList_a5d34942a45954d98e53112e2523bee9b}{set\-Insert} (bool insert)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a5d34942a45954d98e53112e2523bee9b}{Contributories\-List\-::set\-Insert} Change the state of insertion. \end{DoxyCompactList}\item 
-int \hyperlink{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}{get\-Nb\-Projects} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}{Contributories\-List\-::get\-Nb\-Projects} Return the number of projects. \end{DoxyCompactList}\item 
-double \hyperlink{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}{get\-Sum\-Rate} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}{Contributories\-List\-::get\-Sum\-Rate} Return the sum of the contributories rates. \end{DoxyCompactList}\item 
-double \hyperlink{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}{get\-Sum\-Quantity} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}{Contributories\-List\-::get\-Sum\-Quantity} Return the sum of quantity (number of hours) of the Contributories. \end{DoxyCompactList}\item 
-Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Customer} $>$ \hyperlink{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}{get\-Customer} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}{Contributories\-List\-::get\-Customer} Return the Customers linked to theses contributories. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ \hyperlink{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}{get\-Projects} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}{Contributories\-List\-::get\-Projects} List of Projects. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ $\ast$ \hyperlink{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}{get\-All\-Contributories} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}{Contributories\-List\-::get\-All\-Contributories} List of all contributories (all contributories from all projects) \end{DoxyCompactList}\item 
-\hyperlink{classModels_1_1Rate}{Models\-::\-Rate} \hyperlink{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}{get\-Rate} (\hyperlink{classModels_1_1Project}{Models\-::\-Project} $\ast$project)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}{Contributories\-List\-::get\-Rate}. \end{DoxyCompactList}\item 
-Q\-Variant\-List \hyperlink{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}{get\-Data\-Map} ()
-\begin{DoxyCompactList}\small\item\em \hyperlink{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}{Contributories\-List\-::get\-Data\-Map} Return a list of \hyperlink{classModels_1_1Billing}{Billing} and it value linked which indicates if it is inserting or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em commit Update or insert data into the database \end{DoxyCompactList}\item 
+\hypertarget{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}{void {\bfseries add\-Contributory} (\hyperlink{classModels_1_1Contributory}{Models\-::\-Contributory} \&contributory)}\label{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}{void {\bfseries add\-Project} (\hyperlink{classModels_1_1Project}{Project} $\ast$p, \hyperlink{classModels_1_1Rate}{Models\-::\-Rate} rate)}\label{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}
 
-\subsection{Detailed Description}
-The \hyperlink{classModels_1_1ContributoriesList}{Contributories\-List} class List of contributories. 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}{Q\-List$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ \& {\bfseries get\-Contributories} (\hyperlink{classModels_1_1Project}{Project} $\ast$p)}\label{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}
 
-\begin{DoxyAuthor}{Author}
-Antoine de Roquemaurel 
-\end{DoxyAuthor}
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}{int {\bfseries get\-Id\-Billing} () const }\label{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a759f76db48c3dfe88ab8bd534b835553}{void {\bfseries set\-Id\-Billing} (int get\-Id\-Billing)}\label{classModels_1_1ContributoriesList_a759f76db48c3dfe88ab8bd534b835553}
 
-\subsection{Member Function Documentation}
-\hypertarget{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!add\-Contributory@{add\-Contributory}}
-\index{add\-Contributory@{add\-Contributory}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{add\-Contributory}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Contributories\-List\-::add\-Contributory (
-\begin{DoxyParamCaption}
-\item[{{\bf Models\-::\-Contributory} \&}]{contributory}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}
+\item 
+\hypertarget{classModels_1_1ContributoriesList_ab5b32ef1b153af303852d10b0168a41f}{bool {\bfseries get\-Insert} () const }\label{classModels_1_1ContributoriesList_ab5b32ef1b153af303852d10b0168a41f}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a543e4e70e7b10efc05027108247c3958}{void {\bfseries set\-Insert} (bool get\-Insert)}\label{classModels_1_1ContributoriesList_a543e4e70e7b10efc05027108247c3958}
 
-\hyperlink{classModels_1_1ContributoriesList_a62b01d5292326da5902589ddb9b71234}{Contributories\-List\-::add\-Contributory} Add a new {\itshape contributory} 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}{int {\bfseries get\-Nb\-Projects} ()}\label{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}{double {\bfseries get\-Sum\-Rate} ()}\label{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}
 
-\begin{DoxyParams}{Parameters}
-{\em contributory} & \hyperlink{classModels_1_1Contributory}{Contributory} to add \\
-\hline
-\end{DoxyParams}
-\hypertarget{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!add\-Project@{add\-Project}}
-\index{add\-Project@{add\-Project}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{add\-Project}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Contributories\-List\-::add\-Project (
-\begin{DoxyParamCaption}
-\item[{{\bf Project} $\ast$}]{p, }
-\item[{{\bf Models\-::\-Rate}}]{rate}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}
+\item 
+\hypertarget{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}{double {\bfseries get\-Sum\-Quantity} ()}\label{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}{Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Customer} $>$ {\bfseries get\-Customer} ()}\label{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}
 
-\hyperlink{classModels_1_1ContributoriesList_a4c99c890fc7d7616678d6e5f7ee558f5}{Contributories\-List\-::add\-Project} Add a \hyperlink{classModels_1_1Project}{Project} {\itshape p} and it {\itshape rate} 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}{Q\-List$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$ $>$ {\bfseries get\-Projects} ()}\label{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}{Q\-List$<$ \hyperlink{classModels_1_1Contributory}{Contributory} $>$ $\ast$ {\bfseries get\-All\-Contributories} ()}\label{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}
 
-\begin{DoxyParams}{Parameters}
-{\em p} & \hyperlink{classModels_1_1Project}{Project} to add \\
-\hline
-{\em rate} & \hyperlink{classModels_1_1Rate}{Rate} of the project \\
-\hline
-\end{DoxyParams}
-\hypertarget{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-All\-Contributories@{get\-All\-Contributories}}
-\index{get\-All\-Contributories@{get\-All\-Contributories}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-All\-Contributories}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Contributory} $>$ $\ast$ Models\-::\-Contributories\-List\-::get\-All\-Contributories (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}
+\item 
+\hypertarget{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}{\hyperlink{classModels_1_1Rate}{Models\-::\-Rate} {\bfseries get\-Rate} (\hyperlink{classModels_1_1Project}{Models\-::\-Project} $\ast$project)}\label{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}
 
+\item 
+\hypertarget{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}{Q\-Variant\-List {\bfseries get\-Data\-Map} ()}\label{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}
 
-\hyperlink{classModels_1_1ContributoriesList_a629a25a7958dba28ec37c8a3709cdf2f}{Contributories\-List\-::get\-All\-Contributories} List of all contributories (all contributories from all projects) 
-
-\begin{DoxyReturn}{Returns}
-List of all contributories 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Contributories@{get\-Contributories}}
-\index{get\-Contributories@{get\-Contributories}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Contributories}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Contributory} $>$ \& Models\-::\-Contributories\-List\-::get\-Contributories (
-\begin{DoxyParamCaption}
-\item[{{\bf Project} $\ast$}]{p}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a2549547fd3866d879ebbfd1f38145fc5}{Contributories\-List\-::get\-Contributories} Return a list of Contributories for the \hyperlink{classModels_1_1Project}{Project} {\itshape p} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em p} & \hyperlink{classModels_1_1Project}{Project} \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-List of Contributories for a project 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Customer@{get\-Customer}}
-\index{get\-Customer@{get\-Customer}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Shared\-Pointer$<$ {\bf Customer} $>$ Models\-::\-Contributories\-List\-::get\-Customer (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a760097b1c0d7822cfd3d4796d553fae9}{Contributories\-List\-::get\-Customer} Return the Customers linked to theses contributories. 
-
-\begin{DoxyReturn}{Returns}
-\hyperlink{classModels_1_1Customer}{Customer} 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Data\-Map@{get\-Data\-Map}}
-\index{get\-Data\-Map@{get\-Data\-Map}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Data\-Map}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Variant\-List Models\-::\-Contributories\-List\-::get\-Data\-Map (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}
-
-
-\hyperlink{classModels_1_1ContributoriesList_af063322348b0f02d0c7159bd7413a836}{Contributories\-List\-::get\-Data\-Map} Return a list of \hyperlink{classModels_1_1Billing}{Billing} and it value linked which indicates if it is inserting or not. 
-
-\begin{DoxyReturn}{Returns}
-List of billing and value linked 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Id\-Billing@{get\-Id\-Billing}}
-\index{get\-Id\-Billing@{get\-Id\-Billing}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Id\-Billing}]{\setlength{\rightskip}{0pt plus 5cm}int Models\-::\-Contributories\-List\-::get\-Id\-Billing (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-) const}}\label{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a3fbbce49ffcdbfa0693f4d21dd0d8c14}{Contributories\-List\-::get\-Id\-Billing} Return the \hyperlink{classModels_1_1Billing}{Billing} I\-D. 
-
-\begin{DoxyReturn}{Returns}
-\hyperlink{classModels_1_1Billing}{Billing} id 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Nb\-Projects@{get\-Nb\-Projects}}
-\index{get\-Nb\-Projects@{get\-Nb\-Projects}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Nb\-Projects}]{\setlength{\rightskip}{0pt plus 5cm}int Models\-::\-Contributories\-List\-::get\-Nb\-Projects (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a026202989560ff9d462d6104b3788657}{Contributories\-List\-::get\-Nb\-Projects} Return the number of projects. 
-
-\begin{DoxyReturn}{Returns}
-Count number of project 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Projects@{get\-Projects}}
-\index{get\-Projects@{get\-Projects}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Projects}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Project} $\ast$ $>$ Models\-::\-Contributories\-List\-::get\-Projects (
-\begin{DoxyParamCaption}
-\item[{void}]{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a4d52a35870cd9257ee3b5db75bd8ff25}{Contributories\-List\-::get\-Projects} List of Projects. 
-
-\begin{DoxyReturn}{Returns}
-List of Projects 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Rate@{get\-Rate}}
-\index{get\-Rate@{get\-Rate}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Rate}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\-::\-Rate} Models\-::\-Contributories\-List\-::get\-Rate (
-\begin{DoxyParamCaption}
-\item[{{\bf Models\-::\-Project} $\ast$}]{project}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a16118d05867f3e2550f44796400253b9}{Contributories\-List\-::get\-Rate}. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em project} & \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Sum\-Quantity@{get\-Sum\-Quantity}}
-\index{get\-Sum\-Quantity@{get\-Sum\-Quantity}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Sum\-Quantity}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-Contributories\-List\-::get\-Sum\-Quantity (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}
-
-
-\hyperlink{classModels_1_1ContributoriesList_af9b3b1b703cebeef552d058999ffcc4c}{Contributories\-List\-::get\-Sum\-Quantity} Return the sum of quantity (number of hours) of the Contributories. 
-
-\begin{DoxyReturn}{Returns}
-sum of quantity 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!get\-Sum\-Rate@{get\-Sum\-Rate}}
-\index{get\-Sum\-Rate@{get\-Sum\-Rate}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{get\-Sum\-Rate}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-Contributories\-List\-::get\-Sum\-Rate (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}
-
-
-\hyperlink{classModels_1_1ContributoriesList_ae2fd3ad53b082ee8adf3d0249e4f539b}{Contributories\-List\-::get\-Sum\-Rate} Return the sum of the contributories rates. 
-
-\begin{DoxyReturn}{Returns}
-Sum of contributories rates 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a286c41aee939305541eeadfa64ee17a7}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!is\-Insert@{is\-Insert}}
-\index{is\-Insert@{is\-Insert}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{is\-Insert}]{\setlength{\rightskip}{0pt plus 5cm}bool Models\-::\-Contributories\-List\-::is\-Insert (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-) const}}\label{classModels_1_1ContributoriesList_a286c41aee939305541eeadfa64ee17a7}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a286c41aee939305541eeadfa64ee17a7}{Contributories\-List\-::is\-Insert} Return T\-R\-U\-E if an element is inserting else F\-A\-L\-S\-E. 
-
-\begin{DoxyReturn}{Returns}
-boolean 
-\end{DoxyReturn}
-\hypertarget{classModels_1_1ContributoriesList_a313800788580eb469df125fe8d47c6a6}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!set\-All\-Id\-Contributories@{set\-All\-Id\-Contributories}}
-\index{set\-All\-Id\-Contributories@{set\-All\-Id\-Contributories}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{set\-All\-Id\-Contributories}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Contributories\-List\-::set\-All\-Id\-Contributories (
-\begin{DoxyParamCaption}
-\item[{int}]{id\-Contributory}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a313800788580eb469df125fe8d47c6a6}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a313800788580eb469df125fe8d47c6a6}{Contributories\-List\-::set\-All\-Id\-Contributories} Change all \hyperlink{classModels_1_1Contributory}{Contributory} id with the same id. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Contributory} & the new \hyperlink{classModels_1_1Contributory}{Contributory} id \\
-\hline
-\end{DoxyParams}
-\hypertarget{classModels_1_1ContributoriesList_ad93d74f1b3e0a4ad83bad859812b3547}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!set\-Id\-Billing@{set\-Id\-Billing}}
-\index{set\-Id\-Billing@{set\-Id\-Billing}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{set\-Id\-Billing}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Contributories\-List\-::set\-Id\-Billing (
-\begin{DoxyParamCaption}
-\item[{int}]{id\-Billing}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_ad93d74f1b3e0a4ad83bad859812b3547}
-
-
-\hyperlink{classModels_1_1ContributoriesList_ad93d74f1b3e0a4ad83bad859812b3547}{Contributories\-List\-::set\-Id\-Billing} Change the \hyperlink{classModels_1_1Billing}{Billing} id by the new {\itshape id\-Billing} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Billing} & Billind id \\
-\hline
-\end{DoxyParams}
-\hypertarget{classModels_1_1ContributoriesList_a5d34942a45954d98e53112e2523bee9b}{\index{Models\-::\-Contributories\-List@{Models\-::\-Contributories\-List}!set\-Insert@{set\-Insert}}
-\index{set\-Insert@{set\-Insert}!Models::ContributoriesList@{Models\-::\-Contributories\-List}}
-\subsubsection[{set\-Insert}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-Contributories\-List\-::set\-Insert (
-\begin{DoxyParamCaption}
-\item[{bool}]{insert}
-\end{DoxyParamCaption}
-)}}\label{classModels_1_1ContributoriesList_a5d34942a45954d98e53112e2523bee9b}
-
-
-\hyperlink{classModels_1_1ContributoriesList_a5d34942a45954d98e53112e2523bee9b}{Contributories\-List\-::set\-Insert} Change the state of insertion. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em insert} & Boolean \\
-\hline
-\end{DoxyParams}
+\end{DoxyCompactItemize}
 
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}

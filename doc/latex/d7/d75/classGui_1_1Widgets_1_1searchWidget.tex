@@ -27,9 +27,9 @@ void \hyperlink{classGui_1_1Widgets_1_1searchWidget_adf91225827fde587bea0d0fc803
 \subsection*{Signals}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}{void \hyperlink{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}{select\-Customer} ()}\label{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}{void {\bfseries select\-Customer} ()}\label{classGui_1_1Widgets_1_1searchWidget_a9b6248c515bac4b6f58237c2f73d804b}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{search\-Widget\-::select\-Customer} Signal that the Customer selected has changed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -38,13 +38,10 @@ void \hyperlink{classGui_1_1Widgets_1_1searchWidget_adf91225827fde587bea0d0fc803
 int \hyperlink{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{get\-Current\-Customer\-Id} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a93c6519cc7e0d8f440451d14fb85bd31}{search\-Widget\-::get\-Current\-Customer\-Id} Return the id of the customer selected in the table \end{DoxyCompactList}\item 
 bool \hyperlink{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{is\-Customer\-Selected} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{search\-Widget\-::is\-Customer\-Selected} Return T\-R\-U\-E if a customer is selected, else F\-A\-L\-S\-E \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{select\-Customer} (int id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{search\-Widget\-::select\-Customer} Select the Customer with it {\itshape id} \end{DoxyCompactList}\item 
-int \hyperlink{classGui_1_1Widgets_1_1searchWidget_a20de80dbfa207b4ecc8b12433fcebb4b}{get\-Id\-Customer} () const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a20de80dbfa207b4ecc8b12433fcebb4b}{search\-Widget\-::get\-Id\-Customer} Return the Customer id of the Customer line selected \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1searchWidget_a80edf8bc8de24fb6dc47201ec133d185}{set\-Id\-Customer} (int id\-Customer)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1searchWidget_a80edf8bc8de24fb6dc47201ec133d185}{search\-Widget\-::set\-Id\-Customer} Change the customer id by the new {\itshape id\-Customer} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em is\-Customer\-Selected Return T\-R\-U\-E if a customer is selected, else F\-A\-L\-S\-E \end{DoxyCompactList}\item 
+\hypertarget{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{void {\bfseries select\-Customer} (int id)}\label{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}
+
+\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -89,20 +86,6 @@ Antoine de Roquemaurel
 \begin{DoxyReturn}{Returns}
 id of the current customer 
 \end{DoxyReturn}
-\hypertarget{classGui_1_1Widgets_1_1searchWidget_a20de80dbfa207b4ecc8b12433fcebb4b}{\index{Gui\-::\-Widgets\-::search\-Widget@{Gui\-::\-Widgets\-::search\-Widget}!get\-Id\-Customer@{get\-Id\-Customer}}
-\index{get\-Id\-Customer@{get\-Id\-Customer}!Gui::Widgets::searchWidget@{Gui\-::\-Widgets\-::search\-Widget}}
-\subsubsection[{get\-Id\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}int Gui\-::\-Widgets\-::search\-Widget\-::get\-Id\-Customer (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-) const}}\label{classGui_1_1Widgets_1_1searchWidget_a20de80dbfa207b4ecc8b12433fcebb4b}
-
-
-\hyperlink{classGui_1_1Widgets_1_1searchWidget_a20de80dbfa207b4ecc8b12433fcebb4b}{search\-Widget\-::get\-Id\-Customer} Return the Customer id of the Customer line selected 
-
-\begin{DoxyReturn}{Returns}
-The Customer I\-D 
-\end{DoxyReturn}
 \hypertarget{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{\index{Gui\-::\-Widgets\-::search\-Widget@{Gui\-::\-Widgets\-::search\-Widget}!is\-Customer\-Selected@{is\-Customer\-Selected}}
 \index{is\-Customer\-Selected@{is\-Customer\-Selected}!Gui::Widgets::searchWidget@{Gui\-::\-Widgets\-::search\-Widget}}
 \subsubsection[{is\-Customer\-Selected}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-::\-Widgets\-::search\-Widget\-::is\-Customer\-Selected (
@@ -112,7 +95,7 @@ The Customer I\-D
 ) const}}\label{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}
 
 
-\hyperlink{classGui_1_1Widgets_1_1searchWidget_a3cb27e088874c5b8c548d0346a5d85f2}{search\-Widget\-::is\-Customer\-Selected} Return T\-R\-U\-E if a customer is selected, else F\-A\-L\-S\-E 
+is\-Customer\-Selected Return T\-R\-U\-E if a customer is selected, else F\-A\-L\-S\-E 
 
 \begin{DoxyReturn}{Returns}
 boolean 
@@ -131,38 +114,6 @@ search\-Widget\-::launch a search
 
 \begin{DoxyParams}{Parameters}
 {\em to\-Search} & The value to search \\
-\hline
-\end{DoxyParams}
-\hypertarget{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{\index{Gui\-::\-Widgets\-::search\-Widget@{Gui\-::\-Widgets\-::search\-Widget}!select\-Customer@{select\-Customer}}
-\index{select\-Customer@{select\-Customer}!Gui::Widgets::searchWidget@{Gui\-::\-Widgets\-::search\-Widget}}
-\subsubsection[{select\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::search\-Widget\-::select\-Customer (
-\begin{DoxyParamCaption}
-\item[{int}]{id}
-\end{DoxyParamCaption}
-)}}\label{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}
-
-
-\hyperlink{classGui_1_1Widgets_1_1searchWidget_a96ba18927785257377dcd3701d41e8d1}{search\-Widget\-::select\-Customer} Select the Customer with it {\itshape id} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id} & Customer I\-D \\
-\hline
-\end{DoxyParams}
-\hypertarget{classGui_1_1Widgets_1_1searchWidget_a80edf8bc8de24fb6dc47201ec133d185}{\index{Gui\-::\-Widgets\-::search\-Widget@{Gui\-::\-Widgets\-::search\-Widget}!set\-Id\-Customer@{set\-Id\-Customer}}
-\index{set\-Id\-Customer@{set\-Id\-Customer}!Gui::Widgets::searchWidget@{Gui\-::\-Widgets\-::search\-Widget}}
-\subsubsection[{set\-Id\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::search\-Widget\-::set\-Id\-Customer (
-\begin{DoxyParamCaption}
-\item[{int}]{id\-Customer}
-\end{DoxyParamCaption}
-)}}\label{classGui_1_1Widgets_1_1searchWidget_a80edf8bc8de24fb6dc47201ec133d185}
-
-
-\hyperlink{classGui_1_1Widgets_1_1searchWidget_a80edf8bc8de24fb6dc47201ec133d185}{search\-Widget\-::set\-Id\-Customer} Change the customer id by the new {\itshape id\-Customer} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em id\-Customer} & Customer id \\
 \hline
 \end{DoxyParams}
 

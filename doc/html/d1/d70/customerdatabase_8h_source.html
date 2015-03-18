@@ -89,39 +89,38 @@ $(document).ready(function(){initNavTree('d1/d70/customerdatabase_8h_source.html
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d8/d7e/classDatabases_1_1CustomerDatabase.html">CustomerDatabase</a>* instance()<span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html">WdgModels::CustomersTableModel</a>* getCustomersTable(QString filter=<span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html">WdgModels::CustomersTableModel</a>* getCustomersTable(QString filter=<span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    QStandardItemModel *getTree(QString filter=<span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    QSharedPointer&lt;Models::Customer&gt; getCustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> addCustomer(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a> &amp;);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> updateCustomer(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a> &amp;);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> removeCustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> getNbCustomers();</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    QStandardItem *getItemRoot();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    QStandardItem *getItemCustomer(QSqlQuery q1);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    QStandardItem *getItemProject(QSqlQuery q2);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    QStandardItem *getItemBillQuote(QSqlQuery q3);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    QSharedPointer&lt;Models::Customer&gt; getCustomer(QSqlQuery &amp;q);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">void</span> updateCustomer(QSqlQuery &amp;q, <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;pCustomer);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d8/d7e/classDatabases_1_1CustomerDatabase.html">CustomerDatabase</a>* _instance;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <a class="code" href="../../d8/d7e/classDatabases_1_1CustomerDatabase.html">CustomerDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*) ;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;};</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#endif // BDDCUSTOMER_H</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    QStandardItemModel *getTree(QString filter=<span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    QSharedPointer&lt;Models::Customer&gt; getCustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">int</span> addCustomer(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a>&amp;);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> updateCustomer(<span class="keyword">const</span> <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a>&amp;);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> removeCustomer(<span class="keyword">const</span> <span class="keywordtype">int</span> pId);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">int</span> getNbCustomers();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    QStandardItem *getItemRoot();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    QStandardItem *getItemCustomer(QSqlQuery q1);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    QStandardItem *getItemProject(QSqlQuery q2);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    QStandardItem *getItemBillQuote(QSqlQuery q3);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    QSharedPointer&lt;Models::Customer&gt; getCustomer(QSqlQuery &amp;q);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordtype">void</span> updateCustomer(QSqlQuery &amp;q, <a class="code" href="../../db/dd7/classModels_1_1Customer.html">Customer</a> &amp;pCustomer);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d8/d7e/classDatabases_1_1CustomerDatabase.html">CustomerDatabase</a>* _instance;  </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="../../d8/d7e/classDatabases_1_1CustomerDatabase.html">CustomerDatabase</a>() <span class="keywordflow">throw</span>(<a class="code" href="../../d4/de4/classExceptions_1_1DbException.html">DbException</a>*) ;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;};</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">#endif // BDDCUSTOMER_H</span></div>
 <div class="ttc" id="classExceptions_1_1DbException_html"><div class="ttname"><a href="../../d4/de4/classExceptions_1_1DbException.html">Exceptions::DbException</a></div><div class="ttdoc">The DbException class for database exception : queries, db file, … </div><div class="ttdef"><b>Definition:</b> dbexception.h:18</div></div>
 <div class="ttc" id="classDatabases_1_1Database_html"><div class="ttname"><a href="../../dd/db0/classDatabases_1_1Database.html">Databases::Database</a></div><div class="ttdoc">The Database class Master class for all database access. </div><div class="ttdef"><b>Definition:</b> database.h:33</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel_html"><div class="ttname"><a href="../../d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html">Gui::Widgets::WdgModels::CustomersTableModel</a></div><div class="ttdoc">The CustomersTableModel class for a customer table. </div><div class="ttdef"><b>Definition:</b> customerstablemodel.h:21</div></div>
@@ -133,7 +132,7 @@ $(document).ready(function(){initNavTree('d1/d70/customerdatabase_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_fb3819ff5273056abe09370430f56163.html">database</a></li><li class="navelem"><b>customerdatabase.h</b></li>
-    <li class="footer">Generated on Wed Mar 18 2015 16:30:52 for FactDev by
+    <li class="footer">Generated on Wed Mar 18 2015 17:38:10 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

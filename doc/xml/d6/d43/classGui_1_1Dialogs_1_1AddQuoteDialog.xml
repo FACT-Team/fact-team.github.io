@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="102" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="102" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="54" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a836e68947c67a2117e7da8bfc3ee6b3e" prot="private" static="no" mutable="no">
         <type>Ui::AddQuoteDialog *</type>
@@ -29,40 +29,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="103" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="103" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a81a89e09ba16fe3536a20f2916d9679b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool Gui::Dialogs::AddQuoteDialog::_copy</definition>
-        <argsstring></argsstring>
-        <name>_copy</name>
-        <briefdescription>
-<para>Opening by a Billing/quote copy or not. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="104" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a23ba0adbf08da26efb0819c8c70e6144" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int Gui::Dialogs::AddQuoteDialog::_idCustomer</definition>
-        <argsstring></argsstring>
-        <name>_idCustomer</name>
-        <briefdescription>
-<para>the id of the customer </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="105" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="105" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1acd7cc49da87e4bbe0317dc1e5f3d58cb" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>Gui::Dialogs::AddQuoteDialog::AddQuoteDialog</definition>
-        <argsstring>(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0)</argsstring>
+        <argsstring>(bool isBilling, int idCustomer=0, int id=0, QWidget *parent=0)</argsstring>
         <name>AddQuoteDialog</name>
         <param>
           <type>bool</type>
@@ -79,47 +53,14 @@
           <defval>0</defval>
         </param>
         <param>
-          <type>bool</type>
-          <declname>copy</declname>
-          <defval>false</defval>
-        </param>
-        <param>
           <type>QWidget *</type>
           <declname>parent</declname>
           <defval>0</defval>
         </param>
         <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1acd7cc49da87e4bbe0317dc1e5f3d58cb" kindref="member">AddQuoteDialog::AddQuoteDialog</ref> Construct a windows <ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref>. </para>        </briefdescription>
+<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" kindref="member">AddQuoteDialog::AddQuoteDialog</ref> Construct a windows <ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref>. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>isBilling</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>displaying of a quote or a Billing </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>idCustomer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the id of the Customer </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>id</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the id of the quote or the billing of the Customer&apos;s Project </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>edit</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if it&apos;s an edition or a copy of a quote/Billing </para></parameterdescription>
-</parameteritem>
-<parameteritem>
 <parameternamelist>
 <parametername>parent</parametername>
 </parameternamelist>
@@ -130,7 +71,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="35" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="7" bodyend="47"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="29" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="7" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a785fd0ceb950e0c7951720a28d4f0717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -143,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="49" bodyend="53"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="31" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="39" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="59" bodyend="65"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="36" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="49" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -170,7 +111,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="47" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="55" bodyend="57"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="41" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="45" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -183,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="67" bodyend="84"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="45" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="57" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -196,149 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="56" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="86" bodyend="88"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a343bac79889747e55412d11bd2e27cbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool Gui::Dialogs::AddQuoteDialog::getCopy</definition>
-        <argsstring>() const </argsstring>
-        <name>getCopy</name>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a343bac79889747e55412d11bd2e27cbb" kindref="member">AddQuoteDialog::getCopy</ref> return if <bold><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref></bold> is an add by copy of Billing/quote or if it&apos;s edition or add of Billing/quote. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>if it&apos;s a copy or not </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="62" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="90" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1add29bc442ab7783f062b594a97fc8270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Dialogs::AddQuoteDialog::setCopy</definition>
-        <argsstring>(bool copy)</argsstring>
-        <name>setCopy</name>
-        <param>
-          <type>bool</type>
-          <declname>copy</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1add29bc442ab7783f062b594a97fc8270" kindref="member">AddQuoteDialog::setCopy</ref> Change the <emphasis>_copy</emphasis> value to define if it&apos;s a copy of a Billing/quote or if it&apos;s a new Billing or a Billing edition. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>copy</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="69" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="95" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a66985973f98f553545a138d6abfe148b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int Gui::Dialogs::AddQuoteDialog::getIdCustomer</definition>
-        <argsstring>() const </argsstring>
-        <name>getIdCustomer</name>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a66985973f98f553545a138d6abfe148b" kindref="member">AddQuoteDialog::getIdCustomer</ref> get the id of the customer changing his quote/billing. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>the id of the customer </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="75" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ac4c7b242d3340b1b03d0d5bac12b0100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Dialogs::AddQuoteDialog::fillQuoteBilling</definition>
-        <argsstring>(bool isBilling)</argsstring>
-        <name>fillQuoteBilling</name>
-        <param>
-          <type>bool</type>
-          <declname>isBilling</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ac4c7b242d3340b1b03d0d5bac12b0100" kindref="member">AddQuoteDialog::fillQuoteBilling</ref> fill fields for a Billing or a quote. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>isBilling</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if it&apos;s a quote or a Billing </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="100" bodyend="111"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3fcb23cd52dd2cd9a4b607844c4bd9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Dialogs::AddQuoteDialog::fillQuoteBillingCopy</definition>
-        <argsstring>(bool isBilling)</argsstring>
-        <name>fillQuoteBillingCopy</name>
-        <param>
-          <type>bool</type>
-          <declname>isBilling</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ac4c7b242d3340b1b03d0d5bac12b0100" kindref="member">AddQuoteDialog::fillQuoteBilling</ref> fill fields if it&apos;s a Billing or a quote for a copy. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="87" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="113" bodyend="129"/>
-      </memberdef>
-      <memberdef kind="function" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3dd4483b7fce95ba2f8d0d43a2859cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Dialogs::AddQuoteDialog::setQuoteIdNumber</definition>
-        <argsstring>(int id, int idCustomer, bool isBilling)</argsstring>
-        <name>setQuoteIdNumber</name>
-        <param>
-          <type>int</type>
-          <declname>id</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>idCustomer</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>isBilling</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3dd4483b7fce95ba2f8d0d43a2859cbd" kindref="member">AddQuoteDialog::setQuoteIdNumber</ref> set id and number of the <emphasis>_quote</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>id</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the id of the Billing </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>idCustomer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the id of the customer to set the <emphasis>number</emphasis> </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>isBilling</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if it&apos;s a quote or a Billing </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="96" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="131" bodyend="136"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="49" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="69" bodyend="71"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -356,26 +155,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="99" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="138" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="slot" id="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a43a4371f321d2690e73190354146e174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Dialogs::AddQuoteDialog::changeDocType</definition>
-        <argsstring>()</argsstring>
-        <name>changeDocType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="100" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="144" bodyend="150"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.cpp" bodystart="73" bodyend="77"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>The <ref refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kindref="compound">AddQuoteDialog</ref> class Window to add or modify a Quote. </para>    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para></para></simplesect>
+<para><simplesect kind="author"><para>Cédric Rohaut </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
       <node id="4">
@@ -399,23 +185,14 @@
         <label>QDialog</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="22" bodyend="106"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h" bodystart="20" bodyend="56"/>
     <listofallmembers>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a81a89e09ba16fe3536a20f2916d9679b" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>_copy</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a23ba0adbf08da26efb0819c8c70e6144" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>_idCustomer</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a739ab76068086dcbb35395762a914659" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>_quote</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>accept</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1acd7cc49da87e4bbe0317dc1e5f3d58cb" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>AddQuoteDialog</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a43a4371f321d2690e73190354146e174" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>changeDocType</name></member>
+      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>AddQuoteDialog</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>fillFields</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ac4c7b242d3340b1b03d0d5bac12b0100" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>fillQuoteBilling</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3fcb23cd52dd2cd9a4b607844c4bd9cd" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>fillQuoteBillingCopy</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a343bac79889747e55412d11bd2e27cbb" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>getCopy</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a66985973f98f553545a138d6abfe148b" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>getIdCustomer</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>getNumber</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>reject</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1add29bc442ab7783f062b594a97fc8270" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>setCopy</name></member>
-      <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3dd4483b7fce95ba2f8d0d43a2859cbd" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>setQuoteIdNumber</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a836e68947c67a2117e7da8bfc3ee6b3e" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>ui</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5fa7b833c2a4271cc637e7dd9ec72fff" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>updateBtn</name></member>
       <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a785fd0ceb950e0c7951720a28d4f0717" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddQuoteDialog</scope><name>~AddQuoteDialog</name></member>

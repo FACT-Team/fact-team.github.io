@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="68" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="68" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="76" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a2d8c0daf722db2eb73fae1c68bf418ec" prot="private" static="no" mutable="no">
         <type>Ui::AddProjectDialog *</type>
@@ -29,23 +29,60 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="69" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="69" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="77" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a73e81dfba4038bfd8d697c012a8a2d97" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a1fa86f5366f321233655aaf6923ec892" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>Gui::Dialogs::AddProjectDialog::AddProjectDialog</definition>
-        <argsstring>(int idProject=0, int noRowCustomer=0, QWidget *parent=0)</argsstring>
+        <argsstring>(int id=0, QWidget *parent=0)</argsstring>
         <name>AddProjectDialog</name>
         <param>
           <type>int</type>
-          <declname>idProject</declname>
+          <declname>id</declname>
           <defval>0</defval>
         </param>
         <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a1fa86f5366f321233655aaf6923ec892" kindref="member">AddProjectDialog::AddProjectDialog</ref> Construct a windows <ref refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog" kindref="compound">AddProjectDialog</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Project identity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QWidget of the current windows </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="7" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7433c07961921a18abb56a6aeb741b1f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gui::Dialogs::AddProjectDialog::AddProjectDialog</definition>
+        <argsstring>(int noRowCustomer, int idProject=0, QWidget *parent=0)</argsstring>
+        <name>AddProjectDialog</name>
+        <param>
           <type>int</type>
           <declname>noRowCustomer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idProject</declname>
           <defval>0</defval>
         </param>
         <param>
@@ -81,7 +118,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="35" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="7" bodyend="24"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="22" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7445d90f4a237ad1588cdd570b6503dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -94,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="26" bodyend="29"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="45" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -107,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="44" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="31" bodyend="46"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="43" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a767dcea1ae96d2efc3085f8ade4406ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -120,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="50" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="48" bodyend="51"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="58" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="56" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1af31b6ed23acdd5fb8b71caaeddce34f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -133,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="58" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="53" bodyend="61"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="66" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="61" bodyend="69"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -148,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="64" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="63" bodyend="67"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="72" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.cpp" bodystart="71" bodyend="75"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -179,11 +216,12 @@
         <label>QDialog</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="23" bodyend="70"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h" bodystart="23" bodyend="78"/>
     <listofallmembers>
       <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a5b3fa5d61df1a043b11bc35303e80615" prot="private" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>_project</name></member>
       <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>accept</name></member>
-      <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a73e81dfba4038bfd8d697c012a8a2d97" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>AddProjectDialog</name></member>
+      <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a1fa86f5366f321233655aaf6923ec892" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>AddProjectDialog</name></member>
+      <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7433c07961921a18abb56a6aeb741b1f" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>AddProjectDialog</name></member>
       <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1ab30cf2a880e1746cf629a69fb7d9e7f9" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>checkFields</name></member>
       <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1af31b6ed23acdd5fb8b71caaeddce34f4" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>fillFields</name></member>
       <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a767dcea1ae96d2efc3085f8ade4406ce" prot="public" virt="non-virtual"><scope>Gui::Dialogs::AddProjectDialog</scope><name>reject</name></member>
