@@ -5,366 +5,432 @@
     <includes refid="d6/d6c/generation_8h" local="yes">generation.h</includes>
     <includes refid="d9/d77/mustache_8h" local="yes">libs/qt-mustache/src/mustache.h</includes>
     <includes local="no">QTextStream</includes>
-    <includes refid="d8/df4/generator_8h" local="yes">generator.h</includes>
+    <includes refid="d6/dc3/texgenerator_8h" local="yes">generator/texgenerator.h</includes>
+    <includes refid="de/d42/pdfgenerator_8h" local="yes">generator/pdfgenerator.h</includes>
     <incdepgraph>
-      <node id="3646">
+      <node id="4425">
         <label>list</label>
       </node>
-      <node id="3657">
+      <node id="4436">
         <label>QMap</label>
       </node>
-      <node id="3659">
+      <node id="4438">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3660" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
       </node>
-      <node id="3669">
+      <node id="4450">
         <label>QSettings</label>
       </node>
-      <node id="3680">
+      <node id="4463">
         <label>QtSql/QSql</label>
       </node>
-      <node id="3678">
+      <node id="4457">
         <label>QMessageBox</label>
       </node>
-      <node id="3653">
-        <label>generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="3654" relation="include">
-        </childnode>
-      </node>
-      <node id="3690">
+      <node id="4473">
         <label>QObject</label>
       </node>
-      <node id="3674">
+      <node id="4445">
+        <label>QStandardPaths</label>
+      </node>
+      <node id="4461">
         <label>exceptions/dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="3675" relation="include">
+        <childnode refid="4454" relation="include">
         </childnode>
-        <childnode refid="3676" relation="include">
+        <childnode refid="4455" relation="include">
         </childnode>
-        <childnode refid="3647" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
-        <childnode refid="3677" relation="include">
+        <childnode refid="4456" relation="include">
         </childnode>
-        <childnode refid="3678" relation="include">
+        <childnode refid="4457" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
       </node>
-      <node id="3658">
+      <node id="4437">
         <label>QList</label>
       </node>
-      <node id="3664">
+      <node id="4443">
         <label>models/user.h</label>
         <link refid="d8/ddb/user_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="3659" relation="include">
+        <childnode refid="4444" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4445" relation="include">
+        </childnode>
+        <childnode refid="4438" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4452" relation="include">
         </childnode>
       </node>
-      <node id="3681">
+      <node id="4453">
+        <label>exceptions/fileexception.h</label>
+        <link refid="d4/d79/fileexception_8h_source"/>
+        <childnode refid="4454" relation="include">
+        </childnode>
+        <childnode refid="4455" relation="include">
+        </childnode>
+        <childnode refid="4426" relation="include">
+        </childnode>
+        <childnode refid="4456" relation="include">
+        </childnode>
+        <childnode refid="4457" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+      </node>
+      <node id="4464">
         <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="3670">
+      <node id="4451">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
       </node>
-      <node id="3679">
+      <node id="4462">
         <label>database.h</label>
         <link refid="d8/d9c/database_8h_source"/>
-        <childnode refid="3680" relation="include">
+        <childnode refid="4463" relation="include">
         </childnode>
-        <childnode refid="3681" relation="include">
+        <childnode refid="4464" relation="include">
         </childnode>
-        <childnode refid="3682" relation="include">
+        <childnode refid="4465" relation="include">
         </childnode>
-        <childnode refid="3683" relation="include">
+        <childnode refid="4466" relation="include">
         </childnode>
-        <childnode refid="3684" relation="include">
+        <childnode refid="4467" relation="include">
         </childnode>
-        <childnode refid="3669" relation="include">
+        <childnode refid="4450" relation="include">
         </childnode>
-        <childnode refid="3685" relation="include">
+        <childnode refid="4468" relation="include">
         </childnode>
-        <childnode refid="3656" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="3667" relation="include">
+        <childnode refid="4448" relation="include">
         </childnode>
-        <childnode refid="3666" relation="include">
+        <childnode refid="4447" relation="include">
         </childnode>
-        <childnode refid="3675" relation="include">
+        <childnode refid="4454" relation="include">
         </childnode>
-        <childnode refid="3674" relation="include">
+        <childnode refid="4461" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
-        <childnode refid="3670" relation="include">
+        <childnode refid="4451" relation="include">
         </childnode>
       </node>
-      <node id="3677">
+      <node id="4456">
         <label>stdexcept</label>
       </node>
-      <node id="3684">
+      <node id="4467">
         <label>QStandardItemModel</label>
       </node>
-      <node id="3644">
+      <node id="4423">
         <label>QSharedPointer</label>
       </node>
-      <node id="3665">
+      <node id="4446">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="3666" relation="include">
+        <childnode refid="4447" relation="include">
         </childnode>
-        <childnode refid="3656" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="3667" relation="include">
+        <childnode refid="4448" relation="include">
         </childnode>
-        <childnode refid="3652" relation="include">
+        <childnode refid="4431" relation="include">
         </childnode>
-        <childnode refid="3668" relation="include">
+        <childnode refid="4449" relation="include">
         </childnode>
-        <childnode refid="3669" relation="include">
+        <childnode refid="4450" relation="include">
         </childnode>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="3670" relation="include">
+        <childnode refid="4451" relation="include">
         </childnode>
       </node>
-      <node id="3671">
+      <node id="4458">
         <label>models/contributorieslist.h</label>
         <link refid="dd/d0f/contributorieslist_8h_source"/>
-        <childnode refid="3657" relation="include">
+        <childnode refid="4436" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="3663" relation="include">
+        <childnode refid="4442" relation="include">
         </childnode>
-        <childnode refid="3672" relation="include">
+        <childnode refid="4459" relation="include">
         </childnode>
       </node>
-      <node id="3683">
+      <node id="4466">
         <label>QtSql/QSqlRecord</label>
       </node>
-      <node id="3685">
+      <node id="4468">
         <label>QStandardItem</label>
       </node>
-      <node id="3675">
+      <node id="4454">
         <label>exception</label>
       </node>
-      <node id="3688">
+      <node id="4471">
         <label>utils/string.h</label>
         <link refid="da/d66/string_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
       </node>
-      <node id="3663">
+      <node id="4442">
         <label>models/contributory.h</label>
         <link refid="d8/dee/contributory_8h_source"/>
-        <childnode refid="3661" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="3659" relation="include">
+        <childnode refid="4438" relation="include">
         </childnode>
       </node>
-      <node id="3687">
+      <node id="4470">
         <label>database/projectdatabase.h</label>
         <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="3679" relation="include">
+        <childnode refid="4462" relation="include">
         </childnode>
-        <childnode refid="3674" relation="include">
+        <childnode refid="4461" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="3688" relation="include">
+        <childnode refid="4471" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
-        <childnode refid="3689" relation="include">
+        <childnode refid="4472" relation="include">
         </childnode>
       </node>
-      <node id="3651">
+      <node id="4430">
         <label>QtCore/QVariant</label>
       </node>
-      <node id="3648">
+      <node id="4475">
+        <label>generator/pdfgenerator.h</label>
+        <link refid="de/d42/pdfgenerator_8h_source"/>
+        <childnode refid="4434" relation="include">
+        </childnode>
+        <childnode refid="4476" relation="include">
+        </childnode>
+        <childnode refid="4447" relation="include">
+        </childnode>
+      </node>
+      <node id="4452">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="4434" relation="include">
+        </childnode>
+        <childnode refid="4444" relation="include">
+        </childnode>
+        <childnode refid="4453" relation="include">
+        </childnode>
+      </node>
+      <node id="4427">
         <label>libs/qt-mustache/src/mustache.h</label>
         <link refid="d9/d77/mustache_8h_source"/>
-        <childnode refid="3649" relation="include">
+        <childnode refid="4428" relation="include">
         </childnode>
-        <childnode refid="3650" relation="include">
+        <childnode refid="4429" relation="include">
         </childnode>
-        <childnode refid="3651" relation="include">
+        <childnode refid="4430" relation="include">
         </childnode>
       </node>
-      <node id="3661">
+      <node id="4440">
         <label>models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="3656" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="3644" relation="include">
+        <childnode refid="4423" relation="include">
         </childnode>
-        <childnode refid="3659" relation="include">
+        <childnode refid="4438" relation="include">
         </childnode>
-        <childnode refid="3662" relation="include">
+        <childnode refid="4441" relation="include">
         </childnode>
       </node>
-      <node id="3640">
+      <node id="4419">
         <label>/home/travis/build/FACT-Team/FactDev/tests/generation.cpp</label>
         <link refid="generation.cpp"/>
-        <childnode refid="3641" relation="include">
+        <childnode refid="4420" relation="include">
         </childnode>
-        <childnode refid="3648" relation="include">
+        <childnode refid="4427" relation="include">
         </childnode>
-        <childnode refid="3652" relation="include">
+        <childnode refid="4431" relation="include">
         </childnode>
-        <childnode refid="3653" relation="include">
+        <childnode refid="4432" relation="include">
+        </childnode>
+        <childnode refid="4475" relation="include">
         </childnode>
       </node>
-      <node id="3668">
+      <node id="4449">
         <label>QDebug</label>
       </node>
-      <node id="3672">
+      <node id="4459">
         <label>models/rate.h</label>
         <link refid="d5/d79/rate_8h_source"/>
-        <childnode refid="3673" relation="include">
+        <childnode refid="4460" relation="include">
         </childnode>
       </node>
-      <node id="3649">
+      <node id="4428">
         <label>QtCore/QStack</label>
       </node>
-      <node id="3643">
+      <node id="4422">
         <label>QTest</label>
       </node>
-      <node id="3641">
+      <node id="4420">
         <label>generation.h</label>
         <link refid="d6/d6c/generation_8h_source"/>
-        <childnode refid="3642" relation="include">
+        <childnode refid="4421" relation="include">
         </childnode>
       </node>
-      <node id="3660">
+      <node id="4439">
         <label>QVariantHash</label>
       </node>
-      <node id="3676">
+      <node id="4455">
         <label>sstream</label>
       </node>
-      <node id="3656">
+      <node id="4435">
         <label>QDate</label>
       </node>
-      <node id="3655">
+      <node id="4434">
         <label>QString</label>
       </node>
-      <node id="3686">
+      <node id="4469">
         <label>database/contributorydatabase.h</label>
         <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="3679" relation="include">
+        <childnode refid="4462" relation="include">
         </childnode>
-        <childnode refid="3687" relation="include">
+        <childnode refid="4470" relation="include">
         </childnode>
-        <childnode refid="3663" relation="include">
+        <childnode refid="4442" relation="include">
         </childnode>
-        <childnode refid="3671" relation="include">
+        <childnode refid="4458" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
-        <childnode refid="3688" relation="include">
+        <childnode refid="4471" relation="include">
         </childnode>
       </node>
-      <node id="3666">
+      <node id="4447">
         <label>QFile</label>
       </node>
-      <node id="3682">
+      <node id="4465">
         <label>QtSql/QSqlError</label>
       </node>
-      <node id="3647">
+      <node id="4432">
+        <label>generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="4433" relation="include">
+        </childnode>
+        <childnode refid="4443" relation="include">
+        </childnode>
+        <childnode refid="4427" relation="include">
+        </childnode>
+      </node>
+      <node id="4426">
         <label>iostream</label>
       </node>
-      <node id="3650">
+      <node id="4476">
+        <label>QProcess</label>
+      </node>
+      <node id="4429">
         <label>QtCore/QString</label>
       </node>
-      <node id="3654">
+      <node id="4433">
         <label>models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="3656" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="3657" relation="include">
+        <childnode refid="4436" relation="include">
         </childnode>
-        <childnode refid="3658" relation="include">
+        <childnode refid="4437" relation="include">
         </childnode>
-        <childnode refid="3659" relation="include">
+        <childnode refid="4438" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="3663" relation="include">
+        <childnode refid="4442" relation="include">
         </childnode>
-        <childnode refid="3664" relation="include">
+        <childnode refid="4443" relation="include">
         </childnode>
-        <childnode refid="3671" relation="include">
+        <childnode refid="4458" relation="include">
         </childnode>
-        <childnode refid="3686" relation="include">
+        <childnode refid="4469" relation="include">
         </childnode>
-        <childnode refid="3653" relation="include">
+        <childnode refid="4432" relation="include">
+        </childnode>
+        <childnode refid="4475" relation="include">
         </childnode>
       </node>
-      <node id="3652">
+      <node id="4444">
+        <label>QDir</label>
+      </node>
+      <node id="4431">
         <label>QTextStream</label>
       </node>
-      <node id="3642">
+      <node id="4421">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="3643" relation="include">
+        <childnode refid="4422" relation="include">
         </childnode>
-        <childnode refid="3644" relation="include">
+        <childnode refid="4423" relation="include">
         </childnode>
-        <childnode refid="3645" relation="include">
+        <childnode refid="4424" relation="include">
         </childnode>
-        <childnode refid="3646" relation="include">
+        <childnode refid="4425" relation="include">
         </childnode>
-        <childnode refid="3647" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
       </node>
-      <node id="3662">
+      <node id="4441">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="3655" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="3659" relation="include">
+        <childnode refid="4438" relation="include">
         </childnode>
       </node>
-      <node id="3645">
+      <node id="4424">
         <label>algorithm</label>
       </node>
-      <node id="3673">
+      <node id="4460">
         <label>database/ratedatabase.h</label>
         <link refid="d5/d8a/ratedatabase_8h_source"/>
-        <childnode refid="3674" relation="include">
+        <childnode refid="4461" relation="include">
         </childnode>
-        <childnode refid="3679" relation="include">
+        <childnode refid="4462" relation="include">
+        </childnode>
+        <childnode refid="4459" relation="include">
         </childnode>
       </node>
-      <node id="3691">
+      <node id="4474">
         <label>QAbstractTableModel</label>
       </node>
-      <node id="3689">
+      <node id="4472">
         <label>gui/widgets/widgetsmodels/projectstablemodel.h</label>
         <link refid="dc/d1a/projectstablemodel_8h_source"/>
-        <childnode refid="3690" relation="include">
+        <childnode refid="4473" relation="include">
         </childnode>
-        <childnode refid="3691" relation="include">
+        <childnode refid="4474" relation="include">
         </childnode>
-        <childnode refid="3661" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="3665" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
       </node>
-      <node id="3667">
+      <node id="4448">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -377,62 +443,88 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;libs/qt-mustache/src/mustache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTextStream&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;generator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal">Generation::Generation()</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::testTemplate()</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/>contact;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;John<sp/>Smith&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;john.smith@gmail.com&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>contactTemplate<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;{{name}}&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:{{email}}\&quot;&gt;{{email}}&lt;/a&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;generator/texgenerator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;generator/pdfgenerator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">Generation::Generation()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::testTemplate()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/>contact;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;John<sp/>Smith&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;john.smith@gmail.com&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d58/classMustache_1_1Renderer" kindref="compound">Mustache::Renderer</ref><sp/>renderer;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d8b/classMustache_1_1QtVariantContext" kindref="compound">Mustache::QtVariantContext</ref><sp/>context(contact);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(renderer.<ref refid="dc/d58/classMustache_1_1Renderer_1ab82d90fe802606145d1f7ed9f2a9cf81" kindref="member">render</ref>(contactTemplate,<sp/>&amp;context)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;John<sp/>Smith&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:john.smith@gmail.com\&quot;&gt;john.smith@gmail.com&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>contactTemplate<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;{{name}}&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:{{email}}\&quot;&gt;{{email}}&lt;/a&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d58/classMustache_1_1Renderer" kindref="compound">Mustache::Renderer</ref><sp/>renderer;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d8b/classMustache_1_1QtVariantContext" kindref="compound">Mustache::QtVariantContext</ref><sp/>context(contact);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(renderer.<ref refid="dc/d58/classMustache_1_1Renderer_1ab82d90fe802606145d1f7ed9f2a9cf81" kindref="member">render</ref>(contactTemplate,<sp/>&amp;context)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;John<sp/>Smith&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:john.smith@gmail.com\&quot;&gt;john.smith@gmail.com&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::testFileTemplate()<sp/>{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>file(</highlight><highlight class="stringliteral">&quot;:/tpl/generation&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(file.open(QFile::ReadOnly|QFile::Text));</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>stream(&amp;file);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/>contact;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>contactTemplate<sp/>=<sp/>stream.readAll();</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>contactTemplate.remove(contactTemplate.count()-1,<sp/>contactTemplate.count());<sp/></highlight><highlight class="comment">//<sp/>Remove<sp/>last<sp/>\n</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;John<sp/>Smith&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;john.smith@gmail.com&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d58/classMustache_1_1Renderer" kindref="compound">Mustache::Renderer</ref><sp/>renderer;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d8b/classMustache_1_1QtVariantContext" kindref="compound">Mustache::QtVariantContext</ref><sp/>context(contact);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(renderer.<ref refid="dc/d58/classMustache_1_1Renderer_1ab82d90fe802606145d1f7ed9f2a9cf81" kindref="member">render</ref>(contactTemplate,<sp/>&amp;context)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;John<sp/>Smith&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:john.smith@gmail.com\&quot;&gt;john.smith@gmail.com&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::testFileTemplate()<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>file(</highlight><highlight class="stringliteral">&quot;:/tpl/generation&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(file.open(QFile::ReadOnly|QFile::Text));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>stream(&amp;file);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/>contact;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>contactTemplate<sp/>=<sp/>stream.readAll();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>contactTemplate.remove(contactTemplate.count()-1,<sp/>contactTemplate.count());<sp/></highlight><highlight class="comment">//<sp/>Remove<sp/>last<sp/>\n</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;John<sp/>Smith&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>contact[</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;john.smith@gmail.com&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d58/classMustache_1_1Renderer" kindref="compound">Mustache::Renderer</ref><sp/>renderer;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d8b/classMustache_1_1QtVariantContext" kindref="compound">Mustache::QtVariantContext</ref><sp/>context(contact);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(renderer.<ref refid="dc/d58/classMustache_1_1Renderer_1ab82d90fe802606145d1f7ed9f2a9cf81" kindref="member">render</ref>(contactTemplate,<sp/>&amp;context)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;John<sp/>Smith&lt;/b&gt;<sp/>&lt;a<sp/>href=\&quot;mailto:john.smith@gmail.com\&quot;&gt;john.smith@gmail.com&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationSimpleBilling()<sp/>{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d12/classGenerator" kindref="compound">Generator</ref><sp/>gen(</highlight><highlight class="stringliteral">&quot;:/tpl/billingtpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>gen.generate(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Models::Billing</ref>(1).getDataMap(),<sp/></highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationSimpleBillingWithModel()<sp/>{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>Billing<sp/>b(1);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>b.generateTex();</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
-<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationSimpleBilling()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d12/classGenerator_1_1TexGenerator" kindref="compound">Generator::TexGenerator</ref><sp/>gen(</highlight><highlight class="stringliteral">&quot;:/tpl/billingtpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>gen.generate(<ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Models::Billing</ref>(1).getDataMap(),<sp/></highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationSimpleTexBillingWithModel()<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>Billing<sp/>b(1);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>b.generateTex();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>QVERIFY(QFile(b.getPath()+&quot;.tex&quot;).exists());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationBillingPdf()<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>Billing<sp/>b(1);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>b.generateTex();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.tex&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d69/classGenerator_1_1PdfGenerator" kindref="compound">Generator::PdfGenerator</ref><sp/>gen;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>gen.generate(</highlight><highlight class="stringliteral">&quot;/tmp/&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;test&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.pdf&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(!QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.aux&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(!QFile(</highlight><highlight class="stringliteral">&quot;/tmp/test.log&quot;</highlight><highlight class="normal">).exists());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Generation::GenerationSimplePdfBillingWithModel()<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>QLocale::setDefault(QLocale(QLocale::French));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>Billing<sp/>b(1);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>b.generatePdf();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>QVERIFY(QFile(b.getPath()+&quot;.pdf&quot;).exists());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>QVERIFY(!QFile(b.getPath()+&quot;.log&quot;).exists());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>QVERIFY(!QFile(b.getPath()+&quot;.aux&quot;).exists());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/generation.cpp"/>
   </compounddef>

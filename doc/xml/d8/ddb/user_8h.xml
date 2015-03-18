@@ -3,204 +3,302 @@
   <compounddef id="d8/ddb/user_8h" kind="file">
     <compoundname>user.h</compoundname>
     <includes local="no">QString</includes>
+    <includes local="no">QDir</includes>
+    <includes local="no">QStandardPaths</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
+    <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
+    <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
+    <includes refid="de/ddd/directories_8h" local="yes">utils/directories.h</includes>
     <includedby refid="d2/dbc/userdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
-    <includedby refid="d8/d1b/generator_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/generator.cpp</includedby>
+    <includedby refid="d6/dc3/texgenerator_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</includedby>
+    <includedby refid="db/de2/startedwindowsdialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</includedby>
     <includedby refid="df/d22/userdatadialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</includedby>
     <includedby refid="db/de4/customerdatawidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
     <includedby refid="d9/d36/customer_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp</includedby>
     <includedby refid="d6/d33/user_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.cpp</includedby>
     <includedby refid="da/d15/usermodeltest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</includedby>
     <incdepgraph>
-      <node id="2969">
+      <node id="3603">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="2970" relation="include">
+        <childnode refid="3604" relation="include">
         </childnode>
       </node>
-      <node id="2977">
+      <node id="3614">
         <label>QSettings</label>
       </node>
-      <node id="2967">
+      <node id="3622">
+        <label>QMessageBox</label>
+      </node>
+      <node id="3602">
+        <label>QStandardPaths</label>
+      </node>
+      <node id="3599">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
         <link refid="user.h"/>
-        <childnode refid="2968" relation="include">
+        <childnode refid="3600" relation="include">
         </childnode>
-        <childnode refid="2969" relation="include">
+        <childnode refid="3601" relation="include">
         </childnode>
-        <childnode refid="2971" relation="include">
+        <childnode refid="3602" relation="include">
+        </childnode>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3605" relation="include">
+        </childnode>
+        <childnode refid="3608" relation="include">
+        </childnode>
+        <childnode refid="3609" relation="include">
+        </childnode>
+        <childnode refid="3616" relation="include">
         </childnode>
       </node>
-      <node id="2978">
+      <node id="3617">
+        <label>exceptions/fileexception.h</label>
+        <link refid="d4/d79/fileexception_8h_source"/>
+        <childnode refid="3618" relation="include">
+        </childnode>
+        <childnode refid="3619" relation="include">
+        </childnode>
+        <childnode refid="3620" relation="include">
+        </childnode>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3622" relation="include">
+        </childnode>
+        <childnode refid="3609" relation="include">
+        </childnode>
+      </node>
+      <node id="3615">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="2968" relation="include">
+        <childnode refid="3600" relation="include">
         </childnode>
       </node>
-      <node id="2971">
+      <node id="3621">
+        <label>stdexcept</label>
+      </node>
+      <node id="3607">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3609">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="2972" relation="include">
+        <childnode refid="3610" relation="include">
         </childnode>
-        <childnode refid="2973" relation="include">
+        <childnode refid="3606" relation="include">
         </childnode>
-        <childnode refid="2974" relation="include">
+        <childnode refid="3611" relation="include">
         </childnode>
-        <childnode refid="2975" relation="include">
+        <childnode refid="3612" relation="include">
         </childnode>
-        <childnode refid="2976" relation="include">
+        <childnode refid="3613" relation="include">
         </childnode>
-        <childnode refid="2977" relation="include">
+        <childnode refid="3614" relation="include">
         </childnode>
-        <childnode refid="2968" relation="include">
+        <childnode refid="3600" relation="include">
         </childnode>
-        <childnode refid="2978" relation="include">
+        <childnode refid="3615" relation="include">
         </childnode>
       </node>
-      <node id="2976">
+      <node id="3618">
+        <label>exception</label>
+      </node>
+      <node id="3616">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="3600" relation="include">
+        </childnode>
+        <childnode refid="3601" relation="include">
+        </childnode>
+        <childnode refid="3617" relation="include">
+        </childnode>
+      </node>
+      <node id="3605">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="3600" relation="include">
+        </childnode>
+        <childnode refid="3606" relation="include">
+        </childnode>
+        <childnode refid="3607" relation="include">
+        </childnode>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3608" relation="include">
+        </childnode>
+      </node>
+      <node id="3613">
         <label>QDebug</label>
       </node>
-      <node id="2970">
+      <node id="3604">
         <label>QVariantHash</label>
       </node>
-      <node id="2973">
+      <node id="3619">
+        <label>sstream</label>
+      </node>
+      <node id="3606">
         <label>QDate</label>
       </node>
-      <node id="2968">
+      <node id="3600">
         <label>QString</label>
       </node>
-      <node id="2972">
+      <node id="3610">
         <label>QFile</label>
       </node>
-      <node id="2975">
+      <node id="3620">
+        <label>iostream</label>
+      </node>
+      <node id="3601">
+        <label>QDir</label>
+      </node>
+      <node id="3612">
         <label>QTextStream</label>
       </node>
-      <node id="2974">
+      <node id="3608">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="3600" relation="include">
+        </childnode>
+        <childnode refid="3603" relation="include">
+        </childnode>
+      </node>
+      <node id="3611">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2990">
+      <node id="3635">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3629" relation="include">
         </childnode>
-        <childnode refid="2991" relation="include">
+        <childnode refid="3636" relation="include">
         </childnode>
       </node>
-      <node id="2982">
+      <node id="3627">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
         <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3628" relation="include">
         </childnode>
-        <childnode refid="2986" relation="include">
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3632" relation="include">
         </childnode>
       </node>
-      <node id="2983">
-        <label>/home/travis/build/FACT-Team/FactDev/src/mainwindow.h</label>
+      <node id="3629">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="2984" relation="include">
+        <childnode refid="3630" relation="include">
         </childnode>
       </node>
-      <node id="2987">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator.h</label>
-        <link refid="d8/df4/generator_8h_source"/>
-        <childnode refid="2981" relation="include">
-        </childnode>
-      </node>
-      <node id="2986">
+      <node id="3632">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
-      <node id="2979">
+      <node id="3623">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
         <link refid="user.h"/>
-        <childnode refid="2980" relation="include">
+        <childnode refid="3624" relation="include">
         </childnode>
-        <childnode refid="2981" relation="include">
+        <childnode refid="3625" relation="include">
         </childnode>
-        <childnode refid="2994" relation="include">
+        <childnode refid="3638" relation="include">
         </childnode>
-        <childnode refid="2995" relation="include">
+        <childnode refid="3639" relation="include">
         </childnode>
-        <childnode refid="2996" relation="include">
+        <childnode refid="3640" relation="include">
+        </childnode>
+        <childnode refid="3626" relation="include">
+        </childnode>
+        <childnode refid="3641" relation="include">
         </childnode>
       </node>
-      <node id="2989">
+      <node id="3638">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</label>
+        <link refid="db/de2/startedwindowsdialog_8h_source"/>
+      </node>
+      <node id="3633">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
         <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="2982" relation="include">
+        <childnode refid="3627" relation="include">
         </childnode>
       </node>
-      <node id="2991">
+      <node id="3636">
         <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
         <link refid="d7/d49/itemtypetest_8h_source"/>
       </node>
-      <node id="2984">
+      <node id="3630">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="2985" relation="include">
+        <childnode refid="3629" relation="include">
         </childnode>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3631" relation="include">
         </childnode>
       </node>
-      <node id="2993">
+      <node id="3637">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
         <link refid="d9/d01/billingdatabasetest_8h_source"/>
       </node>
-      <node id="2988">
+      <node id="3628">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
         <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3629" relation="include">
         </childnode>
       </node>
-      <node id="2996">
+      <node id="3625">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="3626" relation="include">
+        </childnode>
+      </node>
+      <node id="3641">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</label>
         <link refid="da/d15/usermodeltest_8h_source"/>
       </node>
-      <node id="2981">
+      <node id="3626">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="2982" relation="include">
+        <childnode refid="3627" relation="include">
         </childnode>
-        <childnode refid="2987" relation="include">
+        <childnode refid="3625" relation="include">
         </childnode>
-        <childnode refid="2988" relation="include">
+        <childnode refid="3628" relation="include">
         </childnode>
-        <childnode refid="2989" relation="include">
+        <childnode refid="3633" relation="include">
         </childnode>
-        <childnode refid="2990" relation="include">
+        <childnode refid="3634" relation="include">
         </childnode>
-        <childnode refid="2992" relation="include">
+        <childnode refid="3635" relation="include">
         </childnode>
-        <childnode refid="2993" relation="include">
+        <childnode refid="3637" relation="include">
         </childnode>
-        <childnode refid="2986" relation="include">
+        <childnode refid="3632" relation="include">
         </childnode>
       </node>
-      <node id="2992">
+      <node id="3634">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
         <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3629" relation="include">
         </childnode>
       </node>
-      <node id="2985">
+      <node id="3631">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="2994">
+      <node id="3639">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</label>
         <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="2983" relation="include">
+        <childnode refid="3629" relation="include">
         </childnode>
       </node>
-      <node id="2995">
+      <node id="3640">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</label>
         <link refid="db/de4/customerdatawidget_8h_source"/>
       </node>
-      <node id="2980">
+      <node id="3624">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
         <link refid="d2/dbc/userdatabase_8h_source"/>
       </node>
@@ -215,86 +313,94 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USER_H</highlight></codeline>
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USER_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDir&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardPaths&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
-<codeline lineno="14" refid="df/d68/classModels_1_1User" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kindref="member">User</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kindref="member">User</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/directories.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
+<codeline lineno="19" refid="df/d68/classModels_1_1User" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kindref="member">User</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kindref="member">User</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=1);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=1);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" kindref="member">getDataMap</ref>();</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" kindref="member">getFirstname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" kindref="member">setFirstname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;firstname);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" kindref="member">getLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a3537478a5fe9e2bcb74cd7e267ca1a5f" kindref="member">setLastname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;lastname);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" kindref="member">getDataMap</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae61c862ac430d25b538601f343f7bf98" kindref="member">updateFolders</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a5c2a1436bfaaf39df26d1ff45196ff43" kindref="member">getCompany</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ab51a6e7ea016ad3c7d18c754582edd53" kindref="member">setCompany</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;company);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" kindref="member">getFirstname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" kindref="member">setFirstname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;firstname);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a56a37a1b1125c28e8e72c9a3551b7da5" kindref="member">getTitle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" kindref="member">setTitle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;title);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1afef76dde9b2e3fdb3c2fef33c2dc0d4d" kindref="member">getAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a2a6098ed13472398a972944b88905ebd" kindref="member">setAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;address);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a4d6dae7e681b0acc7bbd1c4cc7b84062" kindref="member">getPostalCode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a5a75307bb95eae0970efd282519ec5ba" kindref="member">setPostalCode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;postalCode);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a6ee95d68097373de6273bd0386f2dff1" kindref="member">getCity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a98c035e4275b8170bec888bea05b24d9" kindref="member">setCity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;city);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" kindref="member">getLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a3537478a5fe9e2bcb74cd7e267ca1a5f" kindref="member">setLastname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;lastname);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a5c2a1436bfaaf39df26d1ff45196ff43" kindref="member">getCompany</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ab51a6e7ea016ad3c7d18c754582edd53" kindref="member">setCompany</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;company);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a56a37a1b1125c28e8e72c9a3551b7da5" kindref="member">getTitle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" kindref="member">setTitle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1afef76dde9b2e3fdb3c2fef33c2dc0d4d" kindref="member">getAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a2a6098ed13472398a972944b88905ebd" kindref="member">setAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;address);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a90b1f27762a58bbe2e903d8299678b74" kindref="member">getEmail</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a69fc70b244bccf493df300af812a18c3" kindref="member">setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;email);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a4d6dae7e681b0acc7bbd1c4cc7b84062" kindref="member">getPostalCode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a5a75307bb95eae0970efd282519ec5ba" kindref="member">setPostalCode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;postalCode);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1aba9d318cad6935104eff02f6b5659d5c" kindref="member">getMobilePhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1abed6684c24a3ba695a90a69a3a6d7572" kindref="member">setMobilePhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;mobilePhone);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1adc8fbd6d75a41d9ac9ee9473d781d1c1" kindref="member">getPhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1adb132ecafc7cc0afd42fc260f8a2e7b9" kindref="member">setPhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;phone);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a617ee9ede3791842fbf8593f08660d37" kindref="member">getNoSiret</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" kindref="member">setNoSiret</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;noSiret);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1adf4c52429656a4f44c15d879caee5b10" kindref="member">getWorkspaceName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae51aa34e41159fe7e4541a8cfddc50a3" kindref="member">setWorkspaceName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;workspaceName);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1aa9421bda240316f9eebd0145f6dc3eda" kindref="member">getWorkspacePath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae62b6cc7c6c5f5ab80b9f066b67afc95" kindref="member">setWorkspacePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;workspacePath);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a60d18c2d1df053f1abf1215414f0b4b6" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>&amp;u);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>&amp;u);</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_firstname;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_lastname;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_company;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_title;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_address;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_postalCode;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_city;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_email;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_mobilePhone;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_phone;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_noSiret;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_workspaceName;<sp/></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_workspacePath;<sp/></highlight></codeline>
-<codeline lineno="233"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="234"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USER_H</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a6ee95d68097373de6273bd0386f2dff1" kindref="member">getCity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a98c035e4275b8170bec888bea05b24d9" kindref="member">setCity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;city);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a90b1f27762a58bbe2e903d8299678b74" kindref="member">getEmail</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a69fc70b244bccf493df300af812a18c3" kindref="member">setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;email);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1aba9d318cad6935104eff02f6b5659d5c" kindref="member">getMobilePhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1abed6684c24a3ba695a90a69a3a6d7572" kindref="member">setMobilePhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;mobilePhone);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1adc8fbd6d75a41d9ac9ee9473d781d1c1" kindref="member">getPhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1adb132ecafc7cc0afd42fc260f8a2e7b9" kindref="member">setPhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;phone);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1a617ee9ede3791842fbf8593f08660d37" kindref="member">getNoSiret</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" kindref="member">setNoSiret</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;noSiret);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1adf4c52429656a4f44c15d879caee5b10" kindref="member">getWorkspaceName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae51aa34e41159fe7e4541a8cfddc50a3" kindref="member">setWorkspaceName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;workspaceName);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="df/d68/classModels_1_1User_1aa9421bda240316f9eebd0145f6dc3eda" kindref="member">getWorkspacePath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1ae62b6cc7c6c5f5ab80b9f066b67afc95" kindref="member">setWorkspacePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;workspacePath);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1a60d18c2d1df053f1abf1215414f0b4b6" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>&amp;u);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref><sp/>&amp;u);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_firstname;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_lastname;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_company;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_title;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_address;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_postalCode;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_city;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_email;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_mobilePhone;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_phone;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_noSiret;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_workspaceName;<sp/></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_workspacePath;<sp/></highlight></codeline>
+<codeline lineno="255"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USER_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/user.h"/>
   </compounddef>

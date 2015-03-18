@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="117" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="117" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="150" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="152" bodyend="177"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="153" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1aa6869fce7290e50723b5db5e125e9a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158,7 +158,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="68" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="179" bodyend="210"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="68" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="206" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1ab4eb6ce0f1126599012912d4869ad8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,33 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="76" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="107" bodyend="125"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="77" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="107" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Databases::BillingDatabase::isBillingPaid</definition>
+        <argsstring>(const int pId)</argsstring>
+        <name>isBillingPaid</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" kindref="member">BillingDatabase::isBillingPaid</ref> Return TRUE if the id <emphasis>pId</emphasis> correspond to a Billing and not quote (isBilling = 1) and if this billing is paid (isPaid = 1) else return FALSE. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Billing id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if billing is paid </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="87" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="181" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1ad6320bcb8053fc0097939221546f7ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -252,7 +278,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="86" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="127" bodyend="150"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="96" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="127" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -266,7 +292,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="93" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="211" bodyend="225"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="103" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="242" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -280,7 +306,59 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="99" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="227" bodyend="240"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="109" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="258" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getMaxBillingNumberOfCustomer</definition>
+        <argsstring>(const int idCustomer)</argsstring>
+        <name>getMaxBillingNumberOfCustomer</name>
+        <param>
+          <type>const int</type>
+          <declname>idCustomer</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" kindref="member">BillingDatabase::getMaxBillingNumberOfCustomer</ref> Get the last number of a <bold>Customer</bold>&apos;s Billing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idCustomer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Customer id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the last number of the <bold>Customer</bold>&apos;s Billing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="117" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="273" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getMaxQuoteNumberOfCustomer</definition>
+        <argsstring>(const int idCustomer)</argsstring>
+        <name>getMaxQuoteNumberOfCustomer</name>
+        <param>
+          <type>const int</type>
+          <declname>idCustomer</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" kindref="member">BillingDatabase::getMaxQuoteNumberOfCustomer</ref> Get the last number of a <bold>Customer</bold>&apos;s quote. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idCustomer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Customer id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the last number of the <bold>Customer</bold>&apos;s quote </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="125" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="298" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QSharedPointer&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Models::Billing</ref> &gt;</type>
@@ -306,7 +384,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="107" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="242" bodyend="255"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="133" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="322" bodyend="336"/>
       </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QMap&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *, <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> * &gt;</type>
@@ -320,7 +398,33 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="114" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="257" bodyend="277"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="140" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="338" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
+        <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBillings</definition>
+        <argsstring>(const int projectId)</argsstring>
+        <name>getBillings</name>
+        <param>
+          <type>const int</type>
+          <declname>projectId</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kindref="member">BillingDatabase::getBillings</ref> get bills by project. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>projectId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List with bills </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="147" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="360" bodyend="386"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -336,13 +440,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="122" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="5" bodyend="7"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="155" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="5" bodyend="7"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>The <bold><ref refid="df/df8/classDatabases_1_1BillingDatabase" kindref="compound">BillingDatabase</ref></bold> class Billing (or Quote) table database. </para>    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para>Cédric Rohaut  </para></simplesect>
+<para><simplesect kind="author"><para></para></simplesect>
 <simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>Billing/Quote </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
@@ -372,7 +476,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="21" bodyend="123"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="21" bodyend="156"/>
     <listofallmembers>
       <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>_dbInstance</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a1f332c6c766217ecd724a21b817920b3" prot="private" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>_instance</name></member>
@@ -390,10 +494,14 @@
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getAllBillingsOfProject</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a835d4ca35a046fe1d0b336a1b8cf8f85" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillings</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1ade754e6aa116aa75606cf24474631322" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsTable</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumber</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumberOfCustomer</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxQuoteNumber</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxQuoteNumberOfCustomer</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1aee84d7d07ff4a25251c61030019e5abb" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>instance</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>isBillingPaid</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1abdde0f6fbef7f4d7353acda867f01ca0" prot="protected" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>isOpen</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a00fcd95238619a41f7a734deaef3ea9f" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>lastError</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a091c36a92c87204f4f63e96e7d34b9f7" prot="protected" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>mDatabase</name></member>

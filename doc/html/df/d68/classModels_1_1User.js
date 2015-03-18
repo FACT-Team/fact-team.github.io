@@ -33,5 +33,6 @@ var classModels_1_1User =
     [ "setPostalCode", "df/d68/classModels_1_1User.html#a5a75307bb95eae0970efd282519ec5ba", null ],
     [ "setTitle", "df/d68/classModels_1_1User.html#a0fe65ebdee17c2986c874e480e1cb0bd", null ],
     [ "setWorkspaceName", "df/d68/classModels_1_1User.html#ae51aa34e41159fe7e4541a8cfddc50a3", null ],
-    [ "setWorkspacePath", "df/d68/classModels_1_1User.html#ae62b6cc7c6c5f5ab80b9f066b67afc95", null ]
+    [ "setWorkspacePath", "df/d68/classModels_1_1User.html#ae62b6cc7c6c5f5ab80b9f066b67afc95", null ],
+    [ "updateFolders", "df/d68/classModels_1_1User.html#ae61c862ac430d25b538601f343f7bf98", null ]
 ];

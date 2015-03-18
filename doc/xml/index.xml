@@ -3,8 +3,7 @@
   <compound refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog" kind="class"><name>Gui::Dialogs::AddProjectDialog</name>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a5b3fa5d61df1a043b11bc35303e80615" kind="variable"><name>_project</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a2d8c0daf722db2eb73fae1c68bf418ec" kind="variable"><name>ui</name></member>
-    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a1fa86f5366f321233655aaf6923ec892" kind="function"><name>AddProjectDialog</name></member>
-    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7433c07961921a18abb56a6aeb741b1f" kind="function"><name>AddProjectDialog</name></member>
+    <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a73e81dfba4038bfd8d697c012a8a2d97" kind="function"><name>AddProjectDialog</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a7445d90f4a237ad1588cdd570b6503dd" kind="function"><name>~AddProjectDialog</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1abe345ededea4911846a44b984cc04f18" kind="function"><name>accept</name></member>
     <member refid="de/d36/classGui_1_1Dialogs_1_1AddProjectDialog_1a767dcea1ae96d2efc3085f8ade4406ce" kind="function"><name>reject</name></member>
@@ -14,13 +13,22 @@
   <compound refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog" kind="class"><name>Gui::Dialogs::AddQuoteDialog</name>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a739ab76068086dcbb35395762a914659" kind="variable"><name>_quote</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a836e68947c67a2117e7da8bfc3ee6b3e" kind="variable"><name>ui</name></member>
-    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ae6a6d0730d6ec3804ab802821e89ebd5" kind="function"><name>AddQuoteDialog</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a81a89e09ba16fe3536a20f2916d9679b" kind="variable"><name>_copy</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a23ba0adbf08da26efb0819c8c70e6144" kind="variable"><name>_idCustomer</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1acd7cc49da87e4bbe0317dc1e5f3d58cb" kind="function"><name>AddQuoteDialog</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a785fd0ceb950e0c7951720a28d4f0717" kind="function"><name>~AddQuoteDialog</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" kind="function"><name>fillFields</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" kind="function"><name>getNumber</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" kind="function"><name>accept</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" kind="function"><name>reject</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a343bac79889747e55412d11bd2e27cbb" kind="function"><name>getCopy</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1add29bc442ab7783f062b594a97fc8270" kind="function"><name>setCopy</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a66985973f98f553545a138d6abfe148b" kind="function"><name>getIdCustomer</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1ac4c7b242d3340b1b03d0d5bac12b0100" kind="function"><name>fillQuoteBilling</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3fcb23cd52dd2cd9a4b607844c4bd9cd" kind="function"><name>fillQuoteBillingCopy</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a3dd4483b7fce95ba2f8d0d43a2859cbd" kind="function"><name>setQuoteIdNumber</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5fa7b833c2a4271cc637e7dd9ec72fff" kind="slot"><name>updateBtn</name></member>
+    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a43a4371f321d2690e73190354146e174" kind="slot"><name>changeDocType</name></member>
   </compound>
   <compound refid="d4/d5c/classModels_1_1Billing" kind="class"><name>Models::Billing</name>
     <member refid="d4/d5c/classModels_1_1Billing_1ac800b736885e69d93b7827eb143c2ed6" kind="variable"><name>_contributories</name></member>
@@ -29,6 +37,7 @@
     <member refid="d4/d5c/classModels_1_1Billing_1a0f8da64a0a373577c24663fcc0d3d05f" kind="variable"><name>_number</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a06ce886391dcba8a6bdb50e328dbed64" kind="variable"><name>_isBilling</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a4122ac435ae923e95819ccbeaa815db1" kind="variable"><name>_date</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1acce59cb74b416af440792930c8d46a98" kind="variable"><name>_isPaid</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ab6b6e4b21617bacb1e8124b5e1218723" kind="function"><name>Billing</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a2fba091975b0c62f7e65771e335e038b" kind="function"><name>Billing</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a36da0cd70a8f9db9be57bf32f7610e59" kind="function"><name>~Billing</name></member>
@@ -37,6 +46,10 @@
     <member refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3" kind="function"><name>remove</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a2363c0b978434c0a835f894a67eb81e1" kind="function"><name>getDataMap</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a3f835c6f4ea0b66c43bb7fec40c6e075" kind="function"><name>generateTex</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a27e273242564cdb68c14810a4580f8e5" kind="function"><name>generatePdf</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a4110ac32d8d96b9fbd1b0037df39723b" kind="function"><name>getPath</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a2359afe641ba85a37729fb0d951bff7d" kind="function"><name>getFolder</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1ae8700d38ecd8e4975f1ee013144ed455" kind="function"><name>getFilename</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af3d66c06d8c4d855b0efa5ff599a3ceb" kind="function"><name>getContributories</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a3636d785d2cb77d83d21a795e1f91a60" kind="function"><name>addContributory</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ab12d213423acfe0e0b7b1f6b43a92e28" kind="function"><name>getSumRate</name></member>
@@ -51,6 +64,8 @@
     <member refid="d4/d5c/classModels_1_1Billing_1aff8b71426c02bc97f0a724ef762cd42e" kind="function"><name>setIsBilling</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af0d1f0132d0902fb96456d0a9018b701" kind="function"><name>getDate</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ae8db0fe5fe273fad31e2f846b5b891cb" kind="function"><name>setDate</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1ab2f9bd62e920be8c68313e35bbcabd46" kind="function"><name>isPaid</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a99cf8c1b7435fe268b8fa9257cad6c56" kind="function"><name>setIsPaid</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af3d8818a1e00eaa707058567fccf045b" kind="function"><name>operator==</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" kind="function"><name>operator!=</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1acb836caf7aef8e953c432661cb8aa55f" kind="function"><name>setContributories</name></member>
@@ -65,11 +80,15 @@
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a74643c7e242cfe6fc294985984d6a65f" kind="function"><name>updateBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1aa6869fce7290e50723b5db5e125e9a6e" kind="function"><name>removeBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ab4eb6ce0f1126599012912d4869ad8b8" kind="function"><name>addBillingProject</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" kind="function"><name>isBillingPaid</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ad6320bcb8053fc0097939221546f7ecf" kind="function"><name>removeBillingProject</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" kind="function"><name>getMaxBillingNumber</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" kind="function"><name>getMaxQuoteNumber</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" kind="function"><name>getMaxBillingNumberOfCustomer</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" kind="function"><name>getMaxQuoteNumberOfCustomer</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" kind="function"><name>getBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" kind="function"><name>getAllBillingsOfProject</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kind="function"><name>getBillings</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac5350c5f16b6c699da4676b965c564df" kind="function"><name>BillingDatabase</name></member>
   </compound>
   <compound refid="d1/db1/classBillingDatabaseTest" kind="class"><name>BillingDatabaseTest</name>
@@ -85,6 +104,9 @@
     <member refid="d1/db1/classBillingDatabaseTest_1a861ca1a784692619b037e3a2e89bd233" kind="slot"><name>removeBillingProject</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1a6070622cd23e4a4e907ec5add8286f2c" kind="slot"><name>getMaxBillingNumber</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1adf51098da96f9f57dad6a93e910c73c9" kind="slot"><name>getMaxQuoteNumber</name></member>
+    <member refid="d1/db1/classBillingDatabaseTest_1a5d8b74fbf0bb40baefd88d831b0c9cc6" kind="slot"><name>getMaxBillingNumberOfCustomer</name></member>
+    <member refid="d1/db1/classBillingDatabaseTest_1a3f603b27d5c33aacf4fb16f4244beadf" kind="slot"><name>getMaxQuoteNumberOfCustomer</name></member>
+    <member refid="d1/db1/classBillingDatabaseTest_1a71b19b9f388f3a5a8bd8b4206fdd15e9" kind="slot"><name>getBilling</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1ad8e146e0b1164f59f29af887348ce4a3" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="dc/d0c/classBillingModelTest" kind="class"><name>BillingModelTest</name>
@@ -130,6 +152,20 @@
     <member refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters_1a2026c54051fdadca10860d0eaaa4b243" kind="function"><name>CheckFieldsLetters</name></member>
     <member refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters_1a95f6808ecc2cedf22407fc1791827851" kind="function"><name>check</name></member>
   </compound>
+  <compound refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers" kind="class"><name>Gui::Widgets::CheckFields::CheckFieldsNumbers</name>
+    <member refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers_1ab0af4f695b33792c28ce37cf27aea6cf" kind="function"><name>CheckFieldsNumbers</name></member>
+    <member refid="d9/daa/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsNumbers_1ade88f674fc2cbbeb514cdf81c0f63487" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress" kind="class"><name>Gui::Widgets::CheckFields::CheckIpAddress</name>
+    <member refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress_1a0ea8ece5cd108b1ac372e4753a36377e" kind="function"><name>CheckIpAddress</name></member>
+    <member refid="db/d70/classGui_1_1Widgets_1_1CheckFields_1_1CheckIpAddress_1a785f3ccf0fba4db3e83bfaaaea37455e" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin" kind="class"><name>Gui::Widgets::CheckFields::CheckLogin</name>
+    <member refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin_1a6f56a8422d3ec5c6587baba48d7eab3b" kind="variable"><name>_login</name></member>
+    <member refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin_1ae6c94e817b4b079329d6c4c129fd2a4c" kind="function"><name>CheckLogin</name></member>
+    <member refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin_1a66e6d426253b5219a55b7ccada37d9b9" kind="function"><name>check</name></member>
+    <member refid="dd/dfe/classGui_1_1Widgets_1_1CheckFields_1_1CheckLogin_1a2d58496a2b60c529b0c74e930622fcee" kind="slot"><name>passwordPreviousInputed</name></member>
+  </compound>
   <compound refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" kind="class"><name>Gui::Widgets::CheckFields::CheckName</name>
     <member refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName_1a1a75917c490d7b8e948e76a1c1c5210b" kind="function"><name>CheckName</name></member>
   </compound>
@@ -139,6 +175,10 @@
     <member refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1a15e8da6b25e752c6fb816e6655bdb062" kind="function"><name>check</name></member>
     <member refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1ae68d979332fba8523ec69a7e85790ed6" kind="function"><name>getCountry</name></member>
     <member refid="da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone_1ac59318e7efa5616389b9eb3a55daaead" kind="function"><name>setCountry</name></member>
+  </compound>
+  <compound refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber" kind="class"><name>Gui::Widgets::CheckFields::CheckPortNumber</name>
+    <member refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1a587504802ee5cdc0529c411b45d50ee9" kind="function"><name>CheckPortNumber</name></member>
+    <member refid="d5/d41/classGui_1_1Widgets_1_1CheckFields_1_1CheckPortNumber_1aca2bfa31e06451c77a7a38020c2819b7" kind="function"><name>check</name></member>
   </compound>
   <compound refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode" kind="class"><name>Gui::Widgets::CheckFields::CheckPostalCode</name>
     <member refid="df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode_1a8e651009e7aaf676f5b6986e53f67064" kind="variable"><name>_country</name></member>
@@ -219,6 +259,7 @@
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a2549547fd3866d879ebbfd1f38145fc5" kind="function"><name>getContributories</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a3fbbce49ffcdbfa0693f4d21dd0d8c14" kind="function"><name>getIdBilling</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a759f76db48c3dfe88ab8bd534b835553" kind="function"><name>setIdBilling</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a313800788580eb469df125fe8d47c6a6" kind="function"><name>setAllIdContributories</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1ab5b32ef1b153af303852d10b0168a41f" kind="function"><name>getInsert</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a543e4e70e7b10efc05027108247c3958" kind="function"><name>setInsert</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a026202989560ff9d462d6104b3788657" kind="function"><name>getNbProjects</name></member>
@@ -273,6 +314,7 @@
     <member refid="d5/dd1/classModels_1_1Contributory_1ab6149e9de1f6f794f1320a2ca6879a2b" kind="variable"><name>_project</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ab5ba6e0f97268cbf747cbe2544cb64ec" kind="variable"><name>_nbHours</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a6f2e073ba8ae191102e748a9a005a6bb" kind="variable"><name>_description</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1acce814328dbc8ccd7715dd34c0c9a974" kind="variable"><name>_longDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kind="function"><name>Contributory</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1acbece77d876ca9d49d9fec868a74be5f" kind="function"><name>Contributory</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" kind="function"><name>~Contributory</name></member>
@@ -288,16 +330,19 @@
     <member refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kind="function"><name>setDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kind="function"><name>operator==</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kind="function"><name>operator!=</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" kind="function"><name>getLongDescription</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" kind="function"><name>setLongDescription</name></member>
   </compound>
   <compound refid="dc/da5/classDatabases_1_1ContributoryDatabase" kind="class"><name>Databases::ContributoryDatabase</name>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abee994f77d5cdf4e06aa498009acbbe4" kind="variable"><name>_instance</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ae0f4e8192dec79685b26e187d3871c4d" kind="function"><name>instance</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a76b6541c4b770a51b8d1a449631a5ffd" kind="function"><name>getContributory</name></member>
-    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a9d2a5e5322fa50ecd6e4b89f1102cb9b" kind="function"><name>getContributoriesByBilling</name></member>
+    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1afa10024c8a5afe7fd6c09a254357e5c2" kind="function"><name>getContributoriesByBilling</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abd7bf49a62d8e267d898936122b5c2a7" kind="function"><name>addContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a748062c6793dd80115ded9bffba75b6a" kind="function"><name>updateContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a3c99a1730bce8dbf3cab72896d8f17ff" kind="function"><name>removeContributory</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a6fc0f3eca03c49d919e7dbd2f8290555" kind="function"><name>getContributory</name></member>
+    <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1ab1da3fd9479fc39d05da9d52ffc9bea2" kind="function"><name>getContributoriesByBillingAndProject</name></member>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a52479eeb5ab01a9e3c25dfe92344457c" kind="function"><name>ContributoryDatabase</name></member>
   </compound>
   <compound refid="d4/de2/classContributoryListTest" kind="class"><name>ContributoryListTest</name>
@@ -469,9 +514,23 @@
     <member refid="dd/db0/classDatabases_1_1Database_1a7d14f43864ce19a5e399ea4ed3ce808f" kind="function"><name>Database</name></member>
     <member refid="dd/db0/classDatabases_1_1Database_1abac96d2e284c2f13b7fc692994059d74" kind="function"><name>value</name></member>
   </compound>
+  <compound refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget" kind="class"><name>Gui::Widgets::DatabaseSettingsWidget</name>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a2eef5137204157bfcd219ccd19697177" kind="variable"><name>ui</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a723805fcd8e71878c6d66b7296f16d85" kind="function"><name>DatabaseSettingsWidget</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a93d363ed330b4947b3af8bc3204f281b" kind="function"><name>~DatabaseSettingsWidget</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a79e2fb995dbd14f4c4d0b54bdfaf5d5f" kind="function"><name>fillFields</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a5096ca0a98fa130fa49222b554e5dacf" kind="function"><name>getDatabaseName</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1ad84fec6fb4c19610e3de6608be85f8cc" kind="function"><name>getLogin</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1abb8ebee9842d5efc50f4309bb4a650f1" kind="function"><name>getPassword</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1aebcc7341f204c1b8f8ea930154c1a331" kind="function"><name>getDomainNameOrIP</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1ad2f99b62e1ae43f973fbf135ee889908" kind="function"><name>getPort</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a8b7f1184a885ca63edce7957b74751c6" kind="slot"><name>isValid</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a99bb50cd3d4eb68c5b8d9b20a983a605" kind="slot"><name>checkRepeatPassword</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a063c346b830524fb1f96f32984fb5493" kind="slot"><name>userInterfaceChanged</name></member>
+    <member refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a6947626c7bb6807572e0a49ef2f53c70" kind="signal"><name>textfieldChanged</name></member>
+  </compound>
   <compound refid="d4/de4/classExceptions_1_1DbException" kind="class"><name>Exceptions::DbException</name>
     <member refid="d4/de4/classExceptions_1_1DbException_1afc538ba4031e8d09cafbfbc0371f42eb" kind="variable"><name>_userError</name></member>
-    <member refid="d4/de4/classExceptions_1_1DbException_1a8fc1406c37086d53cc17c31e99c8e0a8" kind="variable"><name>_errorCode</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" kind="function"><name>DbException</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1ad82383b348d70958ec498ffb73f816ae" kind="function"><name>~DbException</name></member>
     <member refid="d4/de4/classExceptions_1_1DbException_1a4c04dbebd510cb3206b0263bc57c9f6d" kind="function"><name>popupMessage</name></member>
@@ -486,6 +545,9 @@
     <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1a5f3b96e858dedc8a54ff184baafd6e90" kind="function"><name>reject</name></member>
     <member refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer_1ab1c4fdf53139a3aac7243c42881d2af1" kind="slot"><name>checkFields</name></member>
   </compound>
+  <compound refid="d8/d40/classUtils_1_1Directories" kind="class"><name>Utils::Directories</name>
+    <member refid="d8/d40/classUtils_1_1Directories_1aee35810bcf4ef02b37408f23f2dcdb49" kind="function"><name>makeDirectory</name></member>
+  </compound>
   <compound refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kind="class"><name>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</name>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" kind="function"><name>DoubleSpinBoxDelegate</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" kind="function"><name>createEditor</name></member>
@@ -495,7 +557,6 @@
   </compound>
   <compound refid="d9/d57/classExceptions_1_1FileException" kind="class"><name>Exceptions::FileException</name>
     <member refid="d9/d57/classExceptions_1_1FileException_1aa2e71aeddab0fa63d4ba3c15309ae3fb" kind="variable"><name>_userError</name></member>
-    <member refid="d9/d57/classExceptions_1_1FileException_1a7e0493bfaf65bc7d9adaacac533d3e70" kind="variable"><name>_errorCode</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" kind="function"><name>FileException</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1adcb4568ba9b13534d12347d8f8fb5421" kind="function"><name>~FileException</name></member>
     <member refid="d9/d57/classExceptions_1_1FileException_1aba824967d55e0a9a29c23521d87f05dd" kind="function"><name>popupMessage</name></member>
@@ -505,13 +566,9 @@
     <member refid="d4/df7/classGeneration_1a3d69e14f8b95f5d29220db6606a5a71a" kind="slot"><name>testTemplate</name></member>
     <member refid="d4/df7/classGeneration_1ad0a9f7a63e142f361583af2096113074" kind="slot"><name>testFileTemplate</name></member>
     <member refid="d4/df7/classGeneration_1a6ab18e91152e58c58cf12b52ac150dd0" kind="slot"><name>GenerationSimpleBilling</name></member>
-    <member refid="d4/df7/classGeneration_1a61aa376d15ff2d4494abe44b04d11f05" kind="slot"><name>GenerationSimpleBillingWithModel</name></member>
-  </compound>
-  <compound refid="d9/d12/classGenerator" kind="class"><name>Generator</name>
-    <member refid="d9/d12/classGenerator_1acce77a95ab4d62cb5d9fc40909d58d10" kind="variable"><name>_tplFile</name></member>
-    <member refid="d9/d12/classGenerator_1a1fa8cef2649c6ef99eab0ea320d1a855" kind="function"><name>Generator</name></member>
-    <member refid="d9/d12/classGenerator_1acc85fbe22690003267ba899bacf777d1" kind="function"><name>~Generator</name></member>
-    <member refid="d9/d12/classGenerator_1a37ebd7de69a0535bdb7fdb6f4eda4cb5" kind="function"><name>generate</name></member>
+    <member refid="d4/df7/classGeneration_1a158a47abc39accbed274097dc7c6e55e" kind="slot"><name>GenerationSimpleTexBillingWithModel</name></member>
+    <member refid="d4/df7/classGeneration_1a3b46b4bad08942a16066a414b022faf0" kind="slot"><name>GenerationSimplePdfBillingWithModel</name></member>
+    <member refid="d4/df7/classGeneration_1a62b8f25d2660d61cf807ff03a137cebe" kind="slot"><name>GenerationBillingPdf</name></member>
   </compound>
   <compound refid="d1/de0/classUtils_1_1HierarchicalSystem" kind="class"><name>Utils::HierarchicalSystem</name>
     <member refid="d1/de0/classUtils_1_1HierarchicalSystem_1a0c60320b785bb656153c4a2331bf78ab" kind="variable"><name>_customers</name></member>
@@ -577,7 +634,7 @@
   </compound>
   <compound refid="d5/d2f/classGui_1_1MainWindow" kind="class"><name>Gui::MainWindow</name>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a102b881e11df3d8ae7030e4ddef293d4" kind="variable"><name>ui</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1ab0e1fc92353a6049ebcef3a8debbb107" kind="variable"><name>_hierarchy</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1af52b8cd02ab61164515138bac35a4a60" kind="variable"><name>_searchDock</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5ea8e526d288b96595618942d44154d3" kind="function"><name>MainWindow</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a1e7fb4a2a0d243c35b711554f1fd6d96" kind="function"><name>~MainWindow</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a202cb1e7a7c0e47af15306c2587693ec" kind="function"><name>getCurrentCustomerId</name></member>
@@ -588,16 +645,15 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a382370c8f119d99d409b1b5708a3e846" kind="function"><name>treeLevel</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ad2b58d18473d125b431ee0974c905748" kind="function"><name>rootTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adf04c63032d4014163797ca73041511f" kind="function"><name>addDoc</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1aeb176a1942f2e0e442deef58717b8678" kind="function"><name>demo</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a52d033c14efb98b5b389121b8d60f2fe" kind="slot"><name>addCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6487a725a2b58b89062944778ac59eca" kind="slot"><name>editCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ab86dd052f06fb56dbd77e3ae4c228796" kind="slot"><name>removeCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa7d3f2553b55d74885ad7f19ed403dfd" kind="slot"><name>addQuote</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a4b9d5d9bee4b7a5f7d8cfe04d1222315" kind="slot"><name>addBill</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a149c8e2210fa249c0510e1f607079fde" kind="slot"><name>billingIsPaid</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5dfb182cf52eb48f71e70cd193ef7a8b" kind="slot"><name>editUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af50656b4c43aa53bae1ac4a3d6b4c953" kind="slot"><name>search</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1aed8cb16bd8f1fc5419abc0038f3dc9ef" kind="slot"><name>search</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a8ea6f84e7b61e6f826d8530700f7f780" kind="slot"><name>newProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1acc49a5a35dfc7eb8f835ff425618e2d9" kind="slot"><name>addProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a7e00765c3da7a97ba937bdecb095200b" kind="slot"><name>removeProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adade8f873eb855b2ca0bb851c91cc5a9" kind="slot"><name>editProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6df8072789ea8ec81ca2dd8fa78a4b01" kind="slot"><name>aboutQt</name></member>
@@ -607,7 +663,8 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1ac71b4c99f67e10b31d9855e80a9565b7" kind="slot"><name>updateButtons</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a06bc679c41574cb679c6e5e7b673139c" kind="slot"><name>editDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af86458ad953cb70fb7a88245a6047550" kind="slot"><name>removeDoc</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a0aaba9436d6649908c54bbe7382d5780" kind="slot"><name>generateTex</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1adf1e721c73626d1810dd90c84920dcde" kind="slot"><name>copyDoc</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a6fc6c0f088d3996ad941705a13d7aaae" kind="slot"><name>openPdf</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8f4801de450f56afd74b87faf16da04e" kind="slot"><name>openContextualMenuTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6989ef14c237faef779b9f29b9f98e3e" kind="slot"><name>openContextualMenuTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a3e7084a936f63a4dece48c3e26313bff" kind="slot"><name>changeTree</name></member>
@@ -619,6 +676,8 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1af66a639cd1debdc95c5d7085d82518d0" kind="slot"><name>backToProjectsTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af96061e8285f0c48137d093ab97f8a86" kind="slot"><name>projectsTableToDocsTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a869dced470d03a410cd6512d54f73270" kind="slot"><name>findParent</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a00eab7aab4d62dad1aea8c74f665d5a3" kind="function"><name>setupUi</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1ac7fdd5d88e3eae674d0bfa7878247b3b" kind="function"><name>setupSignalsSlots</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a375857579f744667dae9b656ed01bf88" kind="function"><name>updateUI</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a72836957e4797ae4efa1d92e11a9fbc2" kind="function"><name>updateTableCustomers</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ad9803be89cc7aa0eecbb7dce21862236" kind="function"><name>updateTableProjects</name></member>
@@ -627,8 +686,6 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1afc3dbfd261f3cfcb9457a4e907968d34" kind="function"><name>updateTableBillings</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a96277750854e7e59d94f2722db629bca" kind="function"><name>removeItem</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8872b4afec93e55dd67c02d3146c1037" kind="function"><name>getCurrentTableId</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1aada3ff3f113743c93d008897e0cdf581" kind="function"><name>updateFolders</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1ab6c83785f4144637078becec7e1da90a" kind="function"><name>makeDirectory</name></member>
   </compound>
   <compound refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" kind="class"><name>Gui::Dialogs::MessageBox</name>
     <member refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox_1aec7f5cfdaef903a10ffc0dfc7071d70b" kind="variable"><name>ui</name></member>
@@ -662,6 +719,14 @@
     <member refid="d0/dce/classMustache_1_1PartialResolver_1a52e0e140a4be2278c2d1acb8884d1936" kind="function"><name>~PartialResolver</name></member>
     <member refid="d0/dce/classMustache_1_1PartialResolver_1a81e9c5a8b32a52266cd8ea0580c3d3ac" kind="function"><name>getPartial</name></member>
   </compound>
+  <compound refid="d9/d69/classGenerator_1_1PdfGenerator" kind="class"><name>Generator::PdfGenerator</name>
+    <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a1031ff55baffd50945fa9e55b5fe0c2d" kind="variable"><name>_pdflatexPath</name></member>
+    <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a59ca8292d423302478f7f278034f7006" kind="function"><name>PdfGenerator</name></member>
+    <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="d4/d7a/classUtils_1_1pointers" kind="class"><name>Utils::pointers</name>
+    <member refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kind="function"><name>deleteIfNotNull</name></member>
+  </compound>
   <compound refid="d4/d2f/classGui_1_1Widgets_1_1Popup" kind="class"><name>Gui::Widgets::Popup</name>
     <member refid="d4/d2f/classGui_1_1Widgets_1_1Popup_1ac4a9958b16b454eab84eeb95a1f01fa7" kind="function"><name>toImplement</name></member>
   </compound>
@@ -670,6 +735,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a5382453ff21c02a7c5371115288a7420" kind="variable"><name>_description</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9ff0e5c77d087ee640087b1e29917b85" kind="variable"><name>_beginDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9bce4b467c33d948b1f094e1015f9508" kind="variable"><name>_endDate</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1acf8876aff5f58b1135432ffac127f2b7" kind="variable"><name>_cost</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ade51277c6a3a6184ddd623ed027887c9" kind="variable"><name>_dailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1acb89fc1cf8b21395935dee050970dcbc" kind="variable"><name>_customer</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1acd757cadcbeda1f4f83a2b0cd3c1cec1" kind="function"><name>Project</name></member>
@@ -688,6 +754,8 @@
     <member refid="dd/d3f/classModels_1_1Project_1a07dfb00cbec7442197a91bc0795ab14d" kind="function"><name>setBeginDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kind="function"><name>getEndDate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a89e9603b862d0a282e4eb03e122e8c05" kind="function"><name>setEndDate</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kind="function"><name>getCost</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a840437ed81c595608bd285cac4065082" kind="function"><name>setCost</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a46d74a7452e712d223f1ca444a4cc180" kind="function"><name>getDailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kind="function"><name>setDailyRate</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kind="function"><name>getCustomer</name></member>
@@ -695,6 +763,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a2f322e63f6b42273c24093b9df46c2d6" kind="function"><name>operator==</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a8e7cc264d433c708323faccae7bdd082" kind="function"><name>operator&lt;</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1adf5947680a4eca62cd1cbda58a2a62f0" kind="function"><name>operator!=</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a834fc60160333ebd1bc5e6a2025fe775" kind="function"><name>costCompute</name></member>
   </compound>
   <compound refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kind="class"><name>Gui::Widgets::Delegates::ProjectComboDelegate</name>
     <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" kind="variable"><name>_projects</name></member>
@@ -910,6 +979,13 @@
     <member refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kind="function"><name>getText</name></member>
     <member refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kind="function"><name>setText</name></member>
   </compound>
+  <compound refid="de/db4/classGui_1_1Docks_1_1SearchDock" kind="class"><name>Gui::Docks::SearchDock</name>
+    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a45a9616bc0f20517e0182d7824ee3189" kind="variable"><name>ui</name></member>
+    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kind="function"><name>SearchDock</name></member>
+    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a5c03d289e8dc3352e232e4d3bc290080" kind="function"><name>~SearchDock</name></member>
+    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a7360b52fd0bc03e089049b574e509c02" kind="slot"><name>search</name></member>
+    <member refid="de/db4/classGui_1_1Docks_1_1SearchDock_1a9b33dea8adfe26b4d7a5dadffbbb07a7" kind="signal"><name>textChanged</name></member>
+  </compound>
   <compound refid="d7/d51/classsearchTest" kind="class"><name>searchTest</name>
     <member refid="d7/d51/classsearchTest_1ace24f995afdfd987a2c97c0167ed6e28" kind="variable"><name>_search</name></member>
     <member refid="d7/d51/classsearchTest_1a21b6ae1d7256867c133e98b9140662b4" kind="function"><name>searchTest</name></member>
@@ -926,15 +1002,35 @@
   <compound refid="d7/d75/classGui_1_1Widgets_1_1searchWidget" kind="class"><name>Gui::Widgets::searchWidget</name>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1ae05776f86bd8937372c0098112c8f7e0" kind="variable"><name>ui</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a413bc1f3a77cbaeeef05c48c64df0744" kind="variable"><name>_isCustomerSelected</name></member>
+    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a6e91cead715950e0f701d05a5e8ff949" kind="variable"><name>_idCustomer</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a8d77bcf326543f841d1c05fe9819183f" kind="function"><name>searchWidget</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1aa79135dfe1626fd224fda37ea693b38e" kind="function"><name>~searchWidget</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a93c6519cc7e0d8f440451d14fb85bd31" kind="function"><name>getCurrentCustomerId</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a3cb27e088874c5b8c548d0346a5d85f2" kind="function"><name>isCustomerSelected</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a96ba18927785257377dcd3701d41e8d1" kind="function"><name>selectCustomer</name></member>
+    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a20de80dbfa207b4ecc8b12433fcebb4b" kind="function"><name>getIdCustomer</name></member>
+    <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1afeea186f9ca8a0bb2ee4f88cd199281e" kind="function"><name>setIdCustomer</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1adf91225827fde587bea0d0fc803b0034" kind="slot"><name>search</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1ae9e5a460a5320c8bfad4d6878009ccbc" kind="slot"><name>getCustomerData</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1a9b6248c515bac4b6f58237c2f73d804b" kind="signal"><name>selectCustomer</name></member>
     <member refid="d7/d75/classGui_1_1Widgets_1_1searchWidget_1ae60730a32942f3def9c03a77c5385eb6" kind="function"><name>updateTable</name></member>
+  </compound>
+  <compound refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog" kind="class"><name>Gui::Dialogs::StartedWindowsDialog</name>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a0bb0c7b475fd4bc38a4d304292940e5e" kind="variable"><name>ui</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a965fa8b4d1983300f1fd2b1ab6ac3257" kind="variable"><name>_user</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a978449729fbfc503919f29d1d2c7b4f6" kind="function"><name>StartedWindowsDialog</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1acb0538568495ab2ee4a0edec649b0d8c" kind="function"><name>~StartedWindowsDialog</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a30d97171779c86ecc497ef6990829fca" kind="function"><name>fillFields</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ae3e9ade2f5949d5fb57e06c54106609f" kind="function"><name>getImage</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ad582a62ec4204c2ef5081c5431824491" kind="function"><name>isDatabaseTypeValid</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ac5127ad449080835c6f3bb572fb3e481" kind="function"><name>isDatabaseCentralized</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a9ea73c16c7917ff50c596cd1942dabfa" kind="slot"><name>checkFields</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a690559be1b50a5ae7afc0ab64d0a28b8" kind="slot"><name>backToPage2</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1afd791a73e2d897147b31c829131942af" kind="slot"><name>nextToPage2</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1abac16c4f9fc0a3481565530fa01d8494" kind="slot"><name>nextToPage3</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a2e11f7b179785e86a86294d2d2d5357f" kind="slot"><name>databaseTypeChanged</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aedfea7b7d80e1877e50647fae5bdc052" kind="slot"><name>updateNextButton</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aa5da70f656530017906b5aa974fbc080" kind="slot"><name>accept</name></member>
   </compound>
   <compound refid="dd/df6/classUtils_1_1String" kind="class"><name>Utils::String</name>
     <member refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kind="function"><name>firstLetterToUpper</name></member>
@@ -1004,6 +1100,12 @@
     <member refid="db/d70/classTestRunner_1affb5703febccf285914b08ce39e7396f" kind="function"><name>RegisterTest</name></member>
     <member refid="db/d70/classTestRunner_1a0a247b43d9154ab88b489051d22221e3" kind="function"><name>RunAll</name></member>
   </compound>
+  <compound refid="d4/d12/classGenerator_1_1TexGenerator" kind="class"><name>Generator::TexGenerator</name>
+    <member refid="d4/d12/classGenerator_1_1TexGenerator_1a749d2ed1f1238da47b57bf7db9101102" kind="variable"><name>_tplFile</name></member>
+    <member refid="d4/d12/classGenerator_1_1TexGenerator_1ade851f7c789f66769bbdace3c4a37eef" kind="function"><name>TexGenerator</name></member>
+    <member refid="d4/d12/classGenerator_1_1TexGenerator_1a07c6502f15deffc5e6372669844dd152" kind="function"><name>~TexGenerator</name></member>
+    <member refid="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" kind="function"><name>generate</name></member>
+  </compound>
   <compound refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" kind="class"><name>Gui::Widgets::Delegates::UnitComboDelegate</name>
     <member refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1afd1dc5362c4ed8263354e80337d9958a" kind="function"><name>UnitComboDelegate</name></member>
     <member refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a246f92146bdf89200867629b68e3a86a" kind="function"><name>createEditor</name></member>
@@ -1029,6 +1131,7 @@
     <member refid="df/d68/classModels_1_1User_1ab46c7e1841dca66bc01cd95328b97877" kind="function"><name>hydrat</name></member>
     <member refid="df/d68/classModels_1_1User_1ae0870269116b5bda3b5f1c8527e300be" kind="function"><name>remove</name></member>
     <member refid="df/d68/classModels_1_1User_1abbc8a3a40b527497872240bf39f21314" kind="function"><name>getDataMap</name></member>
+    <member refid="df/d68/classModels_1_1User_1ae61c862ac430d25b538601f343f7bf98" kind="function"><name>updateFolders</name></member>
     <member refid="df/d68/classModels_1_1User_1a409a0a6becdd16b9a34120511526ab4d" kind="function"><name>getFirstname</name></member>
     <member refid="df/d68/classModels_1_1User_1a9fdff0463dc3653dd3c3bb7b60bf6c98" kind="function"><name>setFirstname</name></member>
     <member refid="df/d68/classModels_1_1User_1acd71c39455f4289dac70fe3688b956a6" kind="function"><name>getLastname</name></member>
@@ -1096,9 +1199,13 @@
   </compound>
   <compound refid="d9/dda/namespaceExceptions" kind="namespace"><name>Exceptions</name>
   </compound>
+  <compound refid="da/da6/namespaceGenerator" kind="namespace"><name>Generator</name>
+  </compound>
   <compound refid="d9/dad/namespaceGui" kind="namespace"><name>Gui</name>
   </compound>
   <compound refid="db/df5/namespaceGui_1_1Dialogs" kind="namespace"><name>Gui::Dialogs</name>
+  </compound>
+  <compound refid="d5/d7f/namespaceGui_1_1Docks" kind="namespace"><name>Gui::Docks</name>
   </compound>
   <compound refid="d4/dfe/namespaceGui_1_1Widgets" kind="namespace"><name>Gui::Widgets</name>
   </compound>
@@ -1157,9 +1264,13 @@
   </compound>
   <compound refid="d4/d79/fileexception_8h" kind="file"><name>fileexception.h</name>
   </compound>
-  <compound refid="d8/d1b/generator_8cpp" kind="file"><name>generator.cpp</name>
+  <compound refid="d1/d99/pdfgenerator_8cpp" kind="file"><name>pdfgenerator.cpp</name>
   </compound>
-  <compound refid="d8/df4/generator_8h" kind="file"><name>generator.h</name>
+  <compound refid="de/d42/pdfgenerator_8h" kind="file"><name>pdfgenerator.h</name>
+  </compound>
+  <compound refid="d3/dfb/texgenerator_8cpp" kind="file"><name>texgenerator.cpp</name>
+  </compound>
+  <compound refid="d6/dc3/texgenerator_8h" kind="file"><name>texgenerator.h</name>
   </compound>
   <compound refid="dd/dc9/addprojectdialog_8cpp" kind="file"><name>addprojectdialog.cpp</name>
   </compound>
@@ -1177,9 +1288,21 @@
   </compound>
   <compound refid="d5/d48/messagebox_8h" kind="file"><name>messagebox.h</name>
   </compound>
+  <compound refid="dc/d22/startedwindowsdialog_8cpp" kind="file"><name>startedwindowsdialog.cpp</name>
+  </compound>
+  <compound refid="db/de2/startedwindowsdialog_8h" kind="file"><name>startedwindowsdialog.h</name>
+  </compound>
   <compound refid="dd/da7/userdatadialog_8cpp" kind="file"><name>userdatadialog.cpp</name>
   </compound>
   <compound refid="df/d22/userdatadialog_8h" kind="file"><name>userdatadialog.h</name>
+  </compound>
+  <compound refid="da/d54/searchdock_8cpp" kind="file"><name>searchdock.cpp</name>
+  </compound>
+  <compound refid="d2/dd7/searchdock_8h" kind="file"><name>searchdock.h</name>
+  </compound>
+  <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
   </compound>
   <compound refid="d4/d65/checkcity_8cpp" kind="file"><name>checkcity.cpp</name>
   </compound>
@@ -1197,6 +1320,18 @@
   </compound>
   <compound refid="d6/df4/checkfieldsletters_8h" kind="file"><name>checkfieldsletters.h</name>
   </compound>
+  <compound refid="d9/dd3/checkfieldsnumbers_8cpp" kind="file"><name>checkfieldsnumbers.cpp</name>
+  </compound>
+  <compound refid="db/d12/checkfieldsnumbers_8h" kind="file"><name>checkfieldsnumbers.h</name>
+  </compound>
+  <compound refid="da/d53/checkipaddress_8cpp" kind="file"><name>checkipaddress.cpp</name>
+  </compound>
+  <compound refid="da/da2/checkipaddress_8h" kind="file"><name>checkipaddress.h</name>
+  </compound>
+  <compound refid="dc/dab/checklogin_8cpp" kind="file"><name>checklogin.cpp</name>
+  </compound>
+  <compound refid="d3/d0c/checklogin_8h" kind="file"><name>checklogin.h</name>
+  </compound>
   <compound refid="d4/dcb/checkname_8cpp" kind="file"><name>checkname.cpp</name>
   </compound>
   <compound refid="da/d9e/checkname_8h" kind="file"><name>checkname.h</name>
@@ -1204,6 +1339,10 @@
   <compound refid="d2/d43/checkphone_8cpp" kind="file"><name>checkphone.cpp</name>
   </compound>
   <compound refid="d2/dcf/checkphone_8h" kind="file"><name>checkphone.h</name>
+  </compound>
+  <compound refid="d7/d6a/checkportnumber_8cpp" kind="file"><name>checkportnumber.cpp</name>
+  </compound>
+  <compound refid="dd/d32/checkportnumber_8h" kind="file"><name>checkportnumber.h</name>
   </compound>
   <compound refid="de/d0c/checkpostalcode_8cpp" kind="file"><name>checkpostalcode.cpp</name>
   </compound>
@@ -1242,6 +1381,10 @@
   <compound refid="d6/de9/customerdatawidget_8cpp" kind="file"><name>customerdatawidget.cpp</name>
   </compound>
   <compound refid="db/de4/customerdatawidget_8h" kind="file"><name>customerdatawidget.h</name>
+  </compound>
+  <compound refid="de/df8/databasesettingswidget_8cpp" kind="file"><name>databasesettingswidget.cpp</name>
+  </compound>
+  <compound refid="d5/dd2/databasesettingswidget_8h" kind="file"><name>databasesettingswidget.h</name>
   </compound>
   <compound refid="dd/df7/comboboxdelegate_8cpp" kind="file"><name>comboboxdelegate.cpp</name>
   </compound>
@@ -1324,10 +1467,6 @@
   </compound>
   <compound refid="d0/dc2/main_8dox" kind="file"><name>main.dox</name>
   </compound>
-  <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
-  </compound>
-  <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
-  </compound>
   <compound refid="d0/de7/billing_8cpp" kind="file"><name>billing.cpp</name>
   </compound>
   <compound refid="d4/dfe/billing_8h" kind="file"><name>billing.h</name>
@@ -1366,6 +1505,10 @@
   </compound>
   <compound refid="d6/d3b/parameters_8h" kind="file"><name>parameters.h</name>
   </compound>
+  <compound refid="db/d05/directories_8cpp" kind="file"><name>directories.cpp</name>
+  </compound>
+  <compound refid="de/ddd/directories_8h" kind="file"><name>directories.h</name>
+  </compound>
   <compound refid="d4/d9a/hierarchicalsystem_8cpp" kind="file"><name>hierarchicalsystem.cpp</name>
   </compound>
   <compound refid="de/d21/hierarchicalsystem_8h" kind="file"><name>hierarchicalsystem.h</name>
@@ -1377,6 +1520,10 @@
   <compound refid="d9/db8/log_8cpp" kind="file"><name>log.cpp</name>
   </compound>
   <compound refid="d7/d7f/log_8h" kind="file"><name>log.h</name>
+  </compound>
+  <compound refid="d9/dcd/pointers_8cpp" kind="file"><name>pointers.cpp</name>
+  </compound>
+  <compound refid="d5/d57/pointers_8h" kind="file"><name>pointers.h</name>
   </compound>
   <compound refid="d5/d24/string_8cpp" kind="file"><name>string.cpp</name>
   </compound>
@@ -1478,15 +1625,21 @@
   </compound>
   <compound refid="dir_c11973596eefdbf3e94ab0570adc11d0" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs</name>
   </compound>
+  <compound refid="dir_cd8223983cb40692571c161656178ed2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/docks</name>
+  </compound>
   <compound refid="dir_0a7d3e18ce1707e40fad728c32777277" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/exceptions</name>
   </compound>
   <compound refid="dir_980fe81c3e6521024333b1db5aa179f3" kind="dir"><name>/home/travis/build/FACT-Team</name>
   </compound>
   <compound refid="dir_53fe455de580cb7e3a7b88d6ee07129b" kind="dir"><name>/home/travis/build/FACT-Team/FactDev</name>
   </compound>
+  <compound refid="dir_0a7770266c6f72bc89ca6dc1235e7497" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/generator</name>
+  </compound>
   <compound refid="dir_b290be4b5d02b7b48e72ffae6f8b88d6" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui</name>
   </compound>
   <compound refid="dir_a81148cad0d1c2f777266445256be29e" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs</name>
+  </compound>
+  <compound refid="dir_87c96b12451580b9a6411c53a4bfc1d2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow</name>
   </compound>
   <compound refid="dir_a02b716cee8d027f23c7b369ea6a1703" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/models</name>
   </compound>

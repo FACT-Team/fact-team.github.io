@@ -111,6 +111,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:abbc8a3a40b527497872240bf39f21314"><td class="memItemLeft" align="right" valign="top">QVariantHash&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#abbc8a3a40b527497872240bf39f21314">getDataMap</a> ()</td></tr>
 <tr class="memdesc:abbc8a3a40b527497872240bf39f21314"><td class="mdescLeft">&#160;</td><td class="mdescRight">getDataMap Get all data of model with a HashMap key/value  <a href="#abbc8a3a40b527497872240bf39f21314">More...</a><br/></td></tr>
 <tr class="separator:abbc8a3a40b527497872240bf39f21314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61c862ac430d25b538601f343f7bf98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#ae61c862ac430d25b538601f343f7bf98">updateFolders</a> (void)</td></tr>
+<tr class="memdesc:ae61c862ac430d25b538601f343f7bf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">MainWindow::updateFolders Make directories which contain quotes and billings. Directories are the same than theirs of the Tree organisation (without Projects).  <a href="#ae61c862ac430d25b538601f343f7bf98">More...</a><br/></td></tr>
+<tr class="separator:ae61c862ac430d25b538601f343f7bf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409a0a6becdd16b9a34120511526ab4d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#a409a0a6becdd16b9a34120511526ab4d">getFirstname</a> () const </td></tr>
 <tr class="memdesc:a409a0a6becdd16b9a34120511526ab4d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/d68/classModels_1_1User.html#a409a0a6becdd16b9a34120511526ab4d" title="User::getFirstname Return the user firstname. ">User::getFirstname</a> Return the user firstname.  <a href="#a409a0a6becdd16b9a34120511526ab4d">More...</a><br/></td></tr>
 <tr class="separator:a409a0a6becdd16b9a34120511526ab4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -912,6 +915,38 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 
 </div>
 </div>
+<a class="anchor" id="ae61c862ac430d25b538601f343f7bf98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::User::updateFolders </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MainWindow::updateFolders Make directories which contain quotes and billings. Directories are the same than theirs of the Tree organisation (without Projects). </p>
+<p>Organisation of folders are formed like this:</p>
+<ul>
+<li>COMPANY CustomerLastname CustomerFirstname/<ul>
+<li>Quotes/<ul>
+<li>quote1 ...</li>
+</ul>
+</li>
+<li>Billings/<ul>
+<li>billing1 ... </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/FACT-Team/FactDev/src/models/<a class="el" href="../../d8/ddb/user_8h_source.html">user.h</a></li>
 <li>/home/travis/build/FACT-Team/FactDev/src/models/user.cpp</li>
@@ -922,7 +957,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d20/namespaceModels.html">Models</a></li><li class="navelem"><a class="el" href="../../df/d68/classModels_1_1User.html">User</a></li>
-    <li class="footer">Generated on Wed Mar 18 2015 19:26:05 for FactDev by
+    <li class="footer">Generated on Wed Mar 18 2015 19:46:48 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
