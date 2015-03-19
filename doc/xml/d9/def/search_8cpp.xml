@@ -5,24 +5,24 @@
     <includes refid="d9/d85/search_8h" local="yes">search.h</includes>
     <includes local="no">QDebug</includes>
     <incdepgraph>
-      <node id="3658">
+      <node id="3896">
         <label>search.h</label>
         <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="3659" relation="include">
+        <childnode refid="3897" relation="include">
         </childnode>
       </node>
-      <node id="3660">
+      <node id="3898">
         <label>QDebug</label>
       </node>
-      <node id="3659">
+      <node id="3897">
         <label>QString</label>
       </node>
-      <node id="3657">
+      <node id="3895">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/search.cpp</label>
         <link refid="search.cpp"/>
-        <childnode refid="3658" relation="include">
+        <childnode refid="3896" relation="include">
         </childnode>
-        <childnode refid="3660" relation="include">
+        <childnode refid="3898" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -139,7 +139,7 @@
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;SELECT<sp/>idContributory<sp/>FROM<sp/>Contributory<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;WHERE<sp/>0<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1a63afd22af898b54b405be45a8a1ff843" kindref="member">filterOnVarcharElements</ref>(filter,<sp/>list,<sp/></highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>filter<sp/>+=<sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>filter<sp/>+=<sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;LIMIT<sp/>1)&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad80f840390720ad3239aa0fc87e483fc" kindref="member">Search::filterOnBillsOrQuotes</ref>(QString<sp/>&amp;filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QStringList<sp/>list)</highlight></codeline>

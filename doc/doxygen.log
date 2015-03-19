@@ -9,6 +9,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h:8: warning: Compound ItemTypeTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/projectdatabasetest.h:9: warning: Compound ProjectDatabaseTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h:10: warning: Compound ContributoriesDatabaseTest is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:12: warning: Compound Databases::AccessDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/qt-mustache/test_mustache.cpp:237: warning: Compound CounterContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.cpp:253: warning: Compound CounterContext is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.h:9: warning: Compound StringTest is not documented.
@@ -33,32 +34,55 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/qt-mustache/test_mustache.cpp:241: warning: Member CounterContext(const QVariantHash &map) (function) of class CounterContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:111: warning: Member QtVariantContext(const QVariant &root, PartialResolver *resolver=0) (function) of class Mustache::QtVariantContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.cpp:255: warning: Member counter (variable) of class CounterContext is not documented.
+/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h:12: warning: Member setup() (function) of class CustomerModelTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testadder.cpp:13: warning: Member TestAdder(const QString &name) (function) of class TestAdder is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:25: warning: Member RegisterTest(QString name) (function) of class TestRunner is not documented.
-/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:35: warning: Member RunAll(int argc, char *argv[]) (function) of class TestRunner is not documented.
+/home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:35: warning: Member RunAll() (function) of class TestRunner is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testrunner.h:23: warning: Member Instance() (function) of class TestRunner is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:9: warning: Member DbType (enumeration) of namespace Databases is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:15: warning: Member init() (function) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:16: warning: Member commit() (function) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:18: warning: Member _address (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:19: warning: Member _port (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:20: warning: Member _userDb (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:21: warning: Member _password (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:22: warning: Member _dbName (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:23: warning: Member _dbType (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:25: warning: Member _exists (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:16: warning: Found unknown command `\Oxynos'
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: argument 'p' of command @param is not found in the argument list of Databases::BillingDatabase::getAllBillingsOnly(const int idProject)
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: The following parameters of Databases::BillingDatabase::getAllBillingsOnly(const int idProject) are not documented:
+  parameter 'idProject'
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:158: warning: The following parameters of Databases::BillingDatabase::getBillingsBetweenDates(QList< Billing > bills, QDate begin, QDate end) are not documented:
+  parameter 'bills'
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: argument 'pId' of command @param is not found in the argument list of Databases::BillingDatabase::getBillingsTable(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: The following parameters of Databases::BillingDatabase::getBillingsTable(const int idProject) are not documented:
   parameter 'idProject'
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:45: warning: argument 'idBilling' of command @param is not found in the argument list of Databases::ContributoryDatabase::getContributoriesByBilling(const int billingId)
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:45: warning: The following parameters of Databases::ContributoryDatabase::getContributoriesByBilling(const int billingId) are not documented:
   parameter 'billingId'
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:20: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:130: warning: The following parameters of Databases::CustomerDatabase::updateCustomer(QSqlQuery &q, Customer &pCustomer) are not documented:
   parameter 'pCustomer'
-/home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
-/home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
   parameter 'pName'
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
   parameter 'pId'
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: argument 'userError' of command @param is not found in the argument list of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode)
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: The following parameters of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode) are not documented:
   parameter 'fct'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:104: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:104: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:107: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:107: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
   parameter 'isBilling'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:99: warning: Member updateBtn(void) (slot) of class Gui::Dialogs::AddQuoteDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:100: warning: Member changeDocType() (slot) of class Gui::Dialogs::AddQuoteDialog is not documented.
@@ -66,6 +90,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: argument 'edit' of command @param is not found in the argument list of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0)
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: The following parameters of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0) are not documented:
   parameter 'copy'
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h:25: warning: Member ComputeTurnoverDialog(QWidget *parent=0) (function) of class Gui::Dialogs::ComputeTurnoverDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h:17: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b)
@@ -176,6 +201,11 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: argument 'pId' of command @param is not found in the argument list of Databases::BillingDatabase::getBillingsTable(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: The following parameters of Databases::BillingDatabase::getBillingsTable(const int idProject) are not documented:
   parameter 'idProject'
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: argument 'p' of command @param is not found in the argument list of Databases::BillingDatabase::getAllBillingsOnly(const int idProject)
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: The following parameters of Databases::BillingDatabase::getAllBillingsOnly(const int idProject) are not documented:
+  parameter 'idProject'
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:158: warning: The following parameters of Databases::BillingDatabase::getBillingsBetweenDates(QList< Billing > bills, QDate begin, QDate end) are not documented:
+  parameter 'bills'
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:16: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h:26: warning: argument 'parent' of command @param is not found in the argument list of Gui::Widgets::WdgModels::BillingsTableModel::BillingsTableModel()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h:74: warning: argument 'Billing' of command @param is not found in the argument list of Gui::Widgets::WdgModels::BillingsTableModel::append(const Billing &billing)
@@ -225,8 +255,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h:75: warning: argument 'Customer' of command @param is not found in the argument list of Gui::Widgets::WdgModels::CustomersTableModel::append(const Customer &customer)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h:75: warning: The following parameters of Gui::Widgets::WdgModels::CustomersTableModel::append(const Customer &customer) are not documented:
   parameter 'customer'
-/home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
-/home/travis/build/FACT-Team/FactDev/src/database/database.h:60: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
+/home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
   parameter 'pName'
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: argument 'userError' of command @param is not found in the argument list of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode)
 /home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.h:22: warning: The following parameters of Exceptions::DbException::DbException(const QString fct, const QString fctName, const QString logError, float errorCode) are not documented:
@@ -238,17 +268,17 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'model'
 /home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h:59: warning: found </em> tag without matching <em>
 /home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h:59: warning: found </em> tag without matching <em>
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:104: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:104: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:107: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:107: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
   parameter 'isBilling'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:230: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTable(const QPoint point)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:230: warning: The following parameters of Gui::MainWindow::openContextualMenuTable(const QPoint point) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:239: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTable(const QPoint point)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:239: warning: The following parameters of Gui::MainWindow::openContextualMenuTable(const QPoint point) are not documented:
   parameter 'point'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:236: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTree(const QPoint point)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:236: warning: The following parameters of Gui::MainWindow::openContextualMenuTree(const QPoint point) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:245: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTree(const QPoint point)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:245: warning: The following parameters of Gui::MainWindow::openContextualMenuTree(const QPoint point) are not documented:
   parameter 'point'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:311: warning: argument 'filter' of command @param is not found in the argument list of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:311: warning: The following parameters of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:320: warning: argument 'filter' of command @param is not found in the argument list of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:320: warning: The following parameters of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1) are not documented:
   parameter 'pId'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:150: warning: Unsupported xml/html tag <name> found
 /home/travis/build/FACT-Team/FactDev/src/models/project.h:153: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)

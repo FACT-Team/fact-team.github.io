@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Databases::AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html", null ],
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
         [ "CounterContext", "db/da6/classCounterContext.html", null ],
@@ -71,6 +72,7 @@ var hierarchy =
     [ "QDialog", null, [
       [ "Gui::Dialogs::AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", null ],
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
+      [ "Gui::Dialogs::ComputeTurnoverDialog", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog.html", null ],
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
       [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
@@ -132,8 +134,8 @@ var hierarchy =
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];
