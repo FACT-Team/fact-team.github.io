@@ -452,15 +452,11 @@
         </inbodydescription>
         <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="155" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="403" bodyend="432"/>
       </memberdef>
-      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a766bf07563179677656f75beb0efb5ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
         <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBillingsBetweenDates</definition>
-        <argsstring>(QList&lt; Billing &gt; bills, QDate begin, QDate end)</argsstring>
+        <argsstring>(QDate begin, QDate end)</argsstring>
         <name>getBillingsBetweenDates</name>
-        <param>
-          <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
-          <declname>bills</declname>
-        </param>
         <param>
           <type>QDate</type>
           <declname>begin</declname>
@@ -470,7 +466,7 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a766bf07563179677656f75beb0efb5ef" kindref="member">BillingDatabase::getBillingsBetweenDates</ref> get billings in the list between <emphasis>begin</emphasis> and <emphasis>end</emphasis> dates. </para>        </briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" kindref="member">BillingDatabase::getBillingsBetweenDates</ref> get billings in the list between <emphasis>begin</emphasis> and <emphasis>end</emphasis> dates. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -491,7 +487,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="164" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="434" bodyend="443"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="164" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="434" bodyend="464"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -564,7 +560,7 @@
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a835d4ca35a046fe1d0b336a1b8cf8f85" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillings</name></member>
-      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a766bf07563179677656f75beb0efb5ef" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsBetweenDates</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsBetweenDates</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1ade754e6aa116aa75606cf24474631322" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsTable</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumber</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumberOfCustomer</name></member>

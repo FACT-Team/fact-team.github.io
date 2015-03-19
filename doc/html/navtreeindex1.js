@@ -136,9 +136,9 @@ var NAVTREEINDEX1 =
 "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html#ac68af68b991afa792798f7b72c5c7664":[4,0,3,2,2,2,8],
 "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html#ae4da3dcd831bf45366304cd1c6b7df74":[4,0,3,2,2,2,1],
 "d7/d15/searchwidget_8h_source.html":[5,0,0,0,0,0,0,3,3,11],
-"d7/d26/classtestadder.html":[4,0,23],
-"d7/d26/classtestadder.html#a6c03fa78ee26c134f465ede23a82ee10":[4,0,23,0],
-"d7/d26/classtestadder.html#aa221c2d193ae74f3e15062d61dc2b782":[4,0,23,1],
+"d7/d26/classtestadder.html":[4,0,24],
+"d7/d26/classtestadder.html#a6c03fa78ee26c134f465ede23a82ee10":[4,0,24,0],
+"d7/d26/classtestadder.html#aa221c2d193ae74f3e15062d61dc2b782":[4,0,24,1],
 "d7/d34/classMustache_1_1Context.html":[4,0,5,0],
 "d7/d34/classMustache_1_1Context.html#a0a3453e4a263cc9a1d061485c621f74e":[4,0,5,0,0],
 "d7/d34/classMustache_1_1Context.html#a27d9b726c1554653f1783d0eb693662a":[4,0,5,0,2],
@@ -210,6 +210,7 @@ var NAVTREEINDEX1 =
 "d7/db9/src_2libs_2qt-mustache_2tests_2test__mustache_8h_source.html":[5,0,0,0,0,0,0,4,0,1,0],
 "d7/dc1/classUserDatabaseTest.html":[4,0,27],
 "d7/dc1/classUserDatabaseTest.html#a75df17ec5c64f6a9dbdfb1ba68666ea4":[4,0,27,0],
+"d7/dc5/statistics_8h_source.html":[5,0,0,0,0,0,0,5,9],
 "d8/d0b/addprojectdialog_8h_source.html":[5,0,0,0,0,0,0,3,0,0],
 "d8/d40/classUtils_1_1Directories.html":[4,0,6,0],
 "d8/d40/classUtils_1_1Directories.html#aee35810bcf4ef02b37408f23f2dcdb49":[4,0,6,0,0],
@@ -233,7 +234,7 @@ var NAVTREEINDEX1 =
 "d8/d7e/classDatabases_1_1CustomerDatabase.html#af35f43c0329b37e88cb4f24783066968":[4,0,0,3,7],
 "d8/d8f/checkemail_8h_source.html":[5,0,0,0,0,0,0,3,3,0,2],
 "d8/d9c/database_8h_source.html":[5,0,0,0,0,0,0,0,4],
-"d8/ddb/user_8h_source.html":[5,0,0,0,0,0,0,5,9],
+"d8/ddb/user_8h_source.html":[5,0,0,0,0,0,0,5,10],
 "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html":[4,0,3,2,5],
 "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#a6814dcf744752f9026c85a9640cf23ef":[4,0,3,2,5,1],
 "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#ab8fc199bd6adf21f7dd5e881e0a73b16":[4,0,3,2,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27":[4,0,0,6,0],
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html":[4,0,3,0,4],
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a0b92573a4e1ff4d44e8259d86b5b8275":[4,0,3,0,4,3],
-"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a196094a26db9cff58e70801186b73453":[4,0,3,0,4,4],
-"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a47336d411c5d28325612e6cf7ac2b271":[4,0,3,0,4,1]
+"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a196094a26db9cff58e70801186b73453":[4,0,3,0,4,4]
 };

@@ -9,5 +9,6 @@ var dir_a0fc242344fcc8d14eec4e83d12430b2 =
     [ "project.h", "dc/d8d/project_8h_source.html", null ],
     [ "rate.h", "d5/d79/rate_8h_source.html", null ],
     [ "search.h", "d9/d85/search_8h_source.html", null ],
+    [ "statistics.h", "d7/dc5/statistics_8h_source.html", null ],
     [ "user.h", "d8/ddb/user_8h_source.html", null ]
 ];

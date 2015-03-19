@@ -9,5 +9,6 @@ var namespaceModels =
     [ "Project", "dd/d3f/classModels_1_1Project.html", "dd/d3f/classModels_1_1Project" ],
     [ "Rate", "d9/dc5/classModels_1_1Rate.html", "d9/dc5/classModels_1_1Rate" ],
     [ "Search", "d6/d44/classModels_1_1Search.html", "d6/d44/classModels_1_1Search" ],
+    [ "Statistics", "db/d92/classModels_1_1Statistics.html", "db/d92/classModels_1_1Statistics" ],
     [ "User", "df/d68/classModels_1_1User.html", "df/d68/classModels_1_1User" ]
 ];

@@ -132,10 +132,11 @@ var hierarchy =
     [ "Models::Rate", "d9/dc5/classModels_1_1Rate.html", null ],
     [ "Mustache::Renderer", "dc/d58/classMustache_1_1Renderer.html", null ],
     [ "Models::Search", "d6/d44/classModels_1_1Search.html", null ],
+    [ "Models::Statistics", "db/d92/classModels_1_1Statistics.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];

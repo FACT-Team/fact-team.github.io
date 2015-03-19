@@ -21,6 +21,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/utils/directories.h:9: warning: Compound Utils::Directories is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/generation.h:7: warning: Compound Generation is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h:10: warning: Compound BillingModelTest is not documented.
+/home/travis/build/FACT-Team/FactDev/src/models/statistics.h:16: warning: Compound Models::Statistics is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/ratemodeltest.h:9: warning: Compound RateModelTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h:10: warning: Compound UserDatabaseTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/qt-mustache/test_mustache.h:23: warning: Compound TestMustache is not documented.
@@ -54,8 +55,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: argument 'p' of command @param is not found in the argument list of Databases::BillingDatabase::getAllBillingsOnly(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: The following parameters of Databases::BillingDatabase::getAllBillingsOnly(const int idProject) are not documented:
   parameter 'idProject'
-/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:158: warning: The following parameters of Databases::BillingDatabase::getBillingsBetweenDates(QList< Billing > bills, QDate begin, QDate end) are not documented:
-  parameter 'bills'
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: argument 'pId' of command @param is not found in the argument list of Databases::BillingDatabase::getBillingsTable(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:41: warning: The following parameters of Databases::BillingDatabase::getBillingsTable(const int idProject) are not documented:
   parameter 'idProject'
@@ -90,7 +89,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: argument 'edit' of command @param is not found in the argument list of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0)
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: The following parameters of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0) are not documented:
   parameter 'copy'
-/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h:25: warning: Member ComputeTurnoverDialog(QWidget *parent=0) (function) of class Gui::Dialogs::ComputeTurnoverDialog is not documented.
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h:29: warning: Member ComputeTurnoverDialog(QWidget *parent=0) (function) of class Gui::Dialogs::ComputeTurnoverDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h:17: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b)
@@ -204,8 +203,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: argument 'p' of command @param is not found in the argument list of Databases::BillingDatabase::getAllBillingsOnly(const int idProject)
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: The following parameters of Databases::BillingDatabase::getAllBillingsOnly(const int idProject) are not documented:
   parameter 'idProject'
-/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:158: warning: The following parameters of Databases::BillingDatabase::getBillingsBetweenDates(QList< Billing > bills, QDate begin, QDate end) are not documented:
-  parameter 'bills'
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:16: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h:26: warning: argument 'parent' of command @param is not found in the argument list of Gui::Widgets::WdgModels::BillingsTableModel::BillingsTableModel()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h:74: warning: argument 'Billing' of command @param is not found in the argument list of Gui::Widgets::WdgModels::BillingsTableModel::append(const Billing &billing)

@@ -102,7 +102,7 @@
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" kind="function"><name>getAllBillingsOfProject</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kind="function"><name>getBillings</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac42335646086c24b2adb6afc2829e07c" kind="function"><name>getAllBillingsOnly</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a766bf07563179677656f75beb0efb5ef" kind="function"><name>getBillingsBetweenDates</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" kind="function"><name>getBillingsBetweenDates</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac5350c5f16b6c699da4676b965c564df" kind="function"><name>BillingDatabase</name></member>
   </compound>
   <compound refid="d1/db1/classBillingDatabaseTest" kind="class"><name>BillingDatabaseTest</name>
@@ -409,8 +409,6 @@
     <member refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" kind="function"><name>getPath</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" kind="function"><name>getNameFolder</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kind="function"><name>getTurnover</name></member>
-    <member refid="db/dd7/classModels_1_1Customer_1aee29f27497db5cd37bc835e202c24eac" kind="function"><name>setTurnover</name></member>
-    <member refid="db/dd7/classModels_1_1Customer_1abfc72b1cc4b2f1cdb106e0d50cfcb82f" kind="function"><name>turnoverCompute</name></member>
   </compound>
   <compound refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" kind="class"><name>Gui::Widgets::CustomerContextualMenu</name>
     <member refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu_1ac6e022cc92ba1897186acc678f54a819" kind="variable"><name>_removeAction</name></member>
@@ -471,7 +469,7 @@
     <member refid="d5/dcd/classCustomerModelTest_1ada95b6790e20dff3f407b7f02caa56f0" kind="slot"><name>remove</name></member>
     <member refid="d5/dcd/classCustomerModelTest_1a084842b4f4c4fbb84a59e1cd2e580893" kind="slot"><name>getPath</name></member>
     <member refid="d5/dcd/classCustomerModelTest_1a0dd6b581b529dd3bfd2c3d421a3a287f" kind="slot"><name>getNameFolder</name></member>
-    <member refid="d5/dcd/classCustomerModelTest_1aeca5549d06c2c3c7a37e1eef9af0c461" kind="slot"><name>getTurnover</name></member>
+    <member refid="d5/dcd/classCustomerModelTest_1ae6dace5017c1d4f703661057de8348f2" kind="slot"><name>turnoverComputeTest</name></member>
   </compound>
   <compound refid="d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel" kind="class"><name>Gui::Widgets::WdgModels::CustomersTableModel</name>
     <member refid="d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel_1a121eb7745ff6faadacf76db9b55ae9b6" kind="variable"><name>_customers</name></member>
@@ -805,7 +803,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a2f322e63f6b42273c24093b9df46c2d6" kind="function"><name>operator==</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a8e7cc264d433c708323faccae7bdd082" kind="function"><name>operator&lt;</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1adf5947680a4eca62cd1cbda58a2a62f0" kind="function"><name>operator!=</name></member>
-    <member refid="dd/d3f/classModels_1_1Project_1a834fc60160333ebd1bc5e6a2025fe775" kind="function"><name>costCompute</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1abadcaa9256589f11535114a2ab3464d6" kind="function"><name>getCost</name></member>
   </compound>
   <compound refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kind="class"><name>Gui::Widgets::Delegates::ProjectComboDelegate</name>
     <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" kind="variable"><name>_projects</name></member>
@@ -879,6 +877,7 @@
     <member refid="dd/d54/classProjectModelTest_1a13648cc5941c0a4dd986d5dbc574e267" kind="slot"><name>hydrat</name></member>
     <member refid="dd/d54/classProjectModelTest_1aa4eea915bedc7d0752cbbfa0a90541ab" kind="slot"><name>remove</name></member>
     <member refid="dd/d54/classProjectModelTest_1ac6a7bd7bad5b416fe29ed332852cb633" kind="slot"><name>getProjectsTable</name></member>
+    <member refid="dd/d54/classProjectModelTest_1a7766c91ecd29bf7c72251f9f5c0516d1" kind="slot"><name>turnoverComputeTest</name></member>
   </compound>
   <compound refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kind="class"><name>Gui::Widgets::WdgModels::ProjectsTableModel</name>
     <member refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel_1a647f9ed1e3be2458321b6e1e08623a60" kind="variable"><name>_projects</name></member>
@@ -1076,6 +1075,10 @@
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aedfea7b7d80e1877e50647fae5bdc052" kind="slot"><name>updateNextButton</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aa5da70f656530017906b5aa974fbc080" kind="slot"><name>accept</name></member>
   </compound>
+  <compound refid="db/d92/classModels_1_1Statistics" kind="class"><name>Models::Statistics</name>
+    <member refid="db/d92/classModels_1_1Statistics_1a60ddd90a571ed4c3ce8c0f6317a36d63" kind="function"><name>Statistics</name></member>
+    <member refid="db/d92/classModels_1_1Statistics_1a2004bf1a547fa92d0f88216897a10a15" kind="function"><name>getTurnoverBetweenDates</name></member>
+  </compound>
   <compound refid="dd/df6/classUtils_1_1String" kind="class"><name>Utils::String</name>
     <member refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kind="function"><name>firstLetterToUpper</name></member>
   </compound>
@@ -1104,12 +1107,12 @@
     <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" kind="variable"><name>escapeMode</name></member>
     <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" kind="function"><name>Tag</name></member>
   </compound>
+  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
+    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
+  </compound>
   <compound refid="d7/d26/classtestadder" kind="class"><name>testadder</name>
     <member refid="d7/d26/classtestadder_1a6c03fa78ee26c134f465ede23a82ee10" kind="function"><name>testadder</name></member>
     <member refid="d7/d26/classtestadder_1aa221c2d193ae74f3e15062d61dc2b782" kind="function"><name>~testadder</name></member>
-  </compound>
-  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
-    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
   </compound>
   <compound refid="de/d63/classTestMustache" kind="class"><name>TestMustache</name>
     <member refid="de/d63/classTestMustache_1a7d76f43b7da47c82c0ba6d6044bccf4a" kind="slot"><name>testContextLookup</name></member>
@@ -1530,6 +1533,10 @@
   <compound refid="d9/def/search_8cpp" kind="file"><name>search.cpp</name>
   </compound>
   <compound refid="d9/d85/search_8h" kind="file"><name>search.h</name>
+  </compound>
+  <compound refid="d1/d45/statistics_8cpp" kind="file"><name>statistics.cpp</name>
+  </compound>
+  <compound refid="d7/dc5/statistics_8h" kind="file"><name>statistics.h</name>
   </compound>
   <compound refid="d6/d33/user_8cpp" kind="file"><name>user.cpp</name>
   </compound>

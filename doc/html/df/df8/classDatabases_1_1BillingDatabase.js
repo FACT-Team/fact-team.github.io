@@ -7,7 +7,7 @@ var classDatabases_1_1BillingDatabase =
     [ "getBilling", "df/df8/classDatabases_1_1BillingDatabase.html#a835d4ca35a046fe1d0b336a1b8cf8f85", null ],
     [ "getBilling", "df/df8/classDatabases_1_1BillingDatabase.html#a2e6c6cd8b3b040eeb7fc6ae727e85013", null ],
     [ "getBillings", "df/df8/classDatabases_1_1BillingDatabase.html#a0eb72e4dfee0ff38f2f4b795a16007c8", null ],
-    [ "getBillingsBetweenDates", "df/df8/classDatabases_1_1BillingDatabase.html#a766bf07563179677656f75beb0efb5ef", null ],
+    [ "getBillingsBetweenDates", "df/df8/classDatabases_1_1BillingDatabase.html#a062336da6fc0e3c7af4396fccd4025ee", null ],
     [ "getBillingsTable", "df/df8/classDatabases_1_1BillingDatabase.html#ade754e6aa116aa75606cf24474631322", null ],
     [ "getMaxBillingNumber", "df/df8/classDatabases_1_1BillingDatabase.html#a57e4b68cac145ba400d408698312599b", null ],
     [ "getMaxBillingNumberOfCustomer", "df/df8/classDatabases_1_1BillingDatabase.html#a78cf9a2e6d059fcf20136aa4b0b9d7ba", null ],
