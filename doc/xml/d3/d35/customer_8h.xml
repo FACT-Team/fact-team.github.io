@@ -3,6 +3,7 @@
   <compounddef id="d3/d35/customer_8h" kind="file">
     <compoundname>customer.h</compoundname>
     <includes local="no">QString</includes>
+    <includes local="no">QStandardItem</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
     <includes refid="d2/d90/people_8h" local="yes">models/people.h</includes>
     <includedby refid="d1/d70/customerdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</includedby>
@@ -19,394 +20,403 @@
     <includedby refid="d7/d4e/customermodeltest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h</includedby>
     <includedby refid="db/d1e/searchtest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.cpp</includedby>
     <incdepgraph>
-      <node id="3592">
+      <node id="3804">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3593" relation="include">
+        <childnode refid="3805" relation="include">
         </childnode>
       </node>
-      <node id="3594">
+      <node id="3803">
+        <label>QStandardItem</label>
+      </node>
+      <node id="3806">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="3591" relation="include">
+        <childnode refid="3802" relation="include">
         </childnode>
       </node>
-      <node id="3593">
+      <node id="3805">
         <label>QVariantHash</label>
       </node>
-      <node id="3591">
+      <node id="3802">
         <label>QString</label>
       </node>
-      <node id="3590">
+      <node id="3801">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/customer.h</label>
         <link refid="customer.h"/>
-        <childnode refid="3591" relation="include">
+        <childnode refid="3802" relation="include">
         </childnode>
-        <childnode refid="3592" relation="include">
+        <childnode refid="3803" relation="include">
         </childnode>
-        <childnode refid="3594" relation="include">
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3806" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3637">
+      <node id="3849">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/projectdatabasetest.h</label>
         <link refid="db/d8d/projectdatabasetest_8h_source"/>
       </node>
-      <node id="3618">
+      <node id="3830">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
-        <childnode refid="3619" relation="include">
+        <childnode refid="3831" relation="include">
         </childnode>
       </node>
-      <node id="3611">
+      <node id="3823">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
         <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="3612" relation="include">
+        <childnode refid="3808" relation="include">
         </childnode>
-        <childnode refid="3609" relation="include">
+        <childnode refid="3824" relation="include">
         </childnode>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3821" relation="include">
         </childnode>
-        <childnode refid="3613" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
-        <childnode refid="3614" relation="include">
+        <childnode refid="3825" relation="include">
+        </childnode>
+        <childnode refid="3826" relation="include">
         </childnode>
       </node>
-      <node id="3641">
+      <node id="3853">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h</label>
         <link refid="d7/d4e/customermodeltest_8h_source"/>
       </node>
-      <node id="3598">
+      <node id="3810">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="3597" relation="include">
+        <childnode refid="3809" relation="include">
         </childnode>
       </node>
-      <node id="3614">
+      <node id="3826">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
-      <node id="3640">
+      <node id="3852">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h</label>
         <link refid="df/d55/customerdatabasetest_8h_source"/>
       </node>
-      <node id="3632">
+      <node id="3844">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
         <link refid="d8/ddb/user_8h_source"/>
-        <childnode refid="3633" relation="include">
+        <childnode refid="3845" relation="include">
         </childnode>
-        <childnode refid="3615" relation="include">
+        <childnode refid="3827" relation="include">
         </childnode>
-        <childnode refid="3634" relation="include">
+        <childnode refid="3846" relation="include">
         </childnode>
-        <childnode refid="3635" relation="include">
+        <childnode refid="3847" relation="include">
         </childnode>
-        <childnode refid="3603" relation="include">
+        <childnode refid="3815" relation="include">
         </childnode>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
-        <childnode refid="3636" relation="include">
+        <childnode refid="3848" relation="include">
         </childnode>
       </node>
-      <node id="3605">
+      <node id="3817">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</label>
         <link refid="d4/df4/searchtest_8h_source"/>
       </node>
-      <node id="3629">
+      <node id="3841">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
         <link refid="d0/d03/contributoriestablemodel_8h_source"/>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3834" relation="include">
         </childnode>
       </node>
-      <node id="3609">
+      <node id="3821">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
         <link refid="d9/d97/computeturnoverdialog_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
       </node>
-      <node id="3626">
+      <node id="3838">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</label>
         <link refid="dd/d0f/contributorieslist_8h_source"/>
-        <childnode refid="3608" relation="include">
+        <childnode refid="3820" relation="include">
         </childnode>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3834" relation="include">
         </childnode>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
-        <childnode refid="3627" relation="include">
+        <childnode refid="3839" relation="include">
         </childnode>
       </node>
-      <node id="3622">
+      <node id="3834">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
         <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="3612" relation="include">
+        <childnode refid="3824" relation="include">
         </childnode>
       </node>
-      <node id="3638">
+      <node id="3850">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h</label>
         <link refid="d6/d26/userdatabasetest_8h_source"/>
       </node>
-      <node id="3634">
+      <node id="3846">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</label>
         <link refid="db/de2/startedwindowsdialog_8h_source"/>
       </node>
-      <node id="3616">
+      <node id="3828">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
         <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="3611" relation="include">
+        <childnode refid="3823" relation="include">
         </childnode>
       </node>
-      <node id="3628">
+      <node id="3840">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
         <link refid="d8/dee/contributory_8h_source"/>
-        <childnode refid="3608" relation="include">
+        <childnode refid="3820" relation="include">
         </childnode>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3834" relation="include">
         </childnode>
-        <childnode refid="3629" relation="include">
+        <childnode refid="3841" relation="include">
         </childnode>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
-        <childnode refid="3626" relation="include">
+        <childnode refid="3838" relation="include">
         </childnode>
-        <childnode refid="3630" relation="include">
+        <childnode refid="3842" relation="include">
         </childnode>
-        <childnode refid="3631" relation="include">
+        <childnode refid="3843" relation="include">
         </childnode>
       </node>
-      <node id="3630">
+      <node id="3842">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</label>
         <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
       </node>
-      <node id="3607">
+      <node id="3819">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h</label>
         <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="3608" relation="include">
+        <childnode refid="3820" relation="include">
         </childnode>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
-        <childnode refid="3613" relation="include">
+        <childnode refid="3825" relation="include">
         </childnode>
       </node>
-      <node id="3602">
+      <node id="3814">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h</label>
         <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
       </node>
-      <node id="3619">
+      <node id="3831">
         <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
         <link refid="d7/d49/itemtypetest_8h_source"/>
       </node>
-      <node id="3597">
+      <node id="3809">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
-        <childnode refid="3599" relation="include">
+        <childnode refid="3811" relation="include">
         </childnode>
       </node>
-      <node id="3621">
+      <node id="3833">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="d5/dfb/projectcombodelegate_8h_source"/>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3834" relation="include">
         </childnode>
       </node>
-      <node id="3596">
+      <node id="3808">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
         <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="3597" relation="include">
+        <childnode refid="3809" relation="include">
         </childnode>
-        <childnode refid="3600" relation="include">
+        <childnode refid="3812" relation="include">
         </childnode>
-        <childnode refid="3601" relation="include">
+        <childnode refid="3813" relation="include">
         </childnode>
       </node>
-      <node id="3631">
+      <node id="3843">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</label>
         <link refid="d0/d31/contributorymodeltest_8h_source"/>
       </node>
-      <node id="3606">
+      <node id="3818">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="3607" relation="include">
+        <childnode refid="3819" relation="include">
         </childnode>
-        <childnode refid="3597" relation="include">
+        <childnode refid="3809" relation="include">
         </childnode>
-        <childnode refid="3621" relation="include">
+        <childnode refid="3833" relation="include">
         </childnode>
-        <childnode refid="3623" relation="include">
+        <childnode refid="3835" relation="include">
         </childnode>
-        <childnode refid="3624" relation="include">
+        <childnode refid="3836" relation="include">
         </childnode>
-        <childnode refid="3625" relation="include">
+        <childnode refid="3837" relation="include">
         </childnode>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
-        <childnode refid="3626" relation="include">
+        <childnode refid="3838" relation="include">
         </childnode>
-        <childnode refid="3628" relation="include">
+        <childnode refid="3840" relation="include">
         </childnode>
-        <childnode refid="3613" relation="include">
+        <childnode refid="3825" relation="include">
         </childnode>
-        <childnode refid="3632" relation="include">
+        <childnode refid="3844" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
+        <childnode refid="3829" relation="include">
         </childnode>
-        <childnode refid="3618" relation="include">
+        <childnode refid="3830" relation="include">
         </childnode>
-        <childnode refid="3637" relation="include">
+        <childnode refid="3849" relation="include">
         </childnode>
-        <childnode refid="3638" relation="include">
+        <childnode refid="3850" relation="include">
         </childnode>
-        <childnode refid="3639" relation="include">
+        <childnode refid="3851" relation="include">
         </childnode>
       </node>
-      <node id="3604">
+      <node id="3816">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h</label>
         <link refid="da/d77/customerstablemodel_8h_source"/>
-        <childnode refid="3596" relation="include">
+        <childnode refid="3808" relation="include">
         </childnode>
-        <childnode refid="3605" relation="include">
+        <childnode refid="3817" relation="include">
         </childnode>
       </node>
-      <node id="3620">
+      <node id="3832">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
         <link refid="d9/d01/billingdatabasetest_8h_source"/>
       </node>
-      <node id="3627">
+      <node id="3839">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h</label>
         <link refid="dd/df0/contributorylisttest_8h_source"/>
       </node>
-      <node id="3624">
+      <node id="3836">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h</label>
         <link refid="d9/da7/projectcontributoriestablemodel_8h_source"/>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3834" relation="include">
         </childnode>
       </node>
-      <node id="3612">
+      <node id="3824">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
         <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
       </node>
-      <node id="3600">
+      <node id="3812">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
         <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
       </node>
-      <node id="3608">
+      <node id="3820">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
         <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="3609" relation="include">
+        <childnode refid="3821" relation="include">
         </childnode>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
       </node>
-      <node id="3615">
+      <node id="3827">
         <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
         <link refid="d6/dc3/texgenerator_8h_source"/>
-        <childnode refid="3610" relation="include">
+        <childnode refid="3822" relation="include">
         </childnode>
       </node>
-      <node id="3636">
+      <node id="3848">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</label>
         <link refid="da/d15/usermodeltest_8h_source"/>
       </node>
-      <node id="3601">
+      <node id="3813">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
         <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
-      <node id="3610">
+      <node id="3822">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="3611" relation="include">
+        <childnode refid="3823" relation="include">
         </childnode>
-        <childnode refid="3615" relation="include">
+        <childnode refid="3808" relation="include">
         </childnode>
-        <childnode refid="3612" relation="include">
+        <childnode refid="3827" relation="include">
         </childnode>
-        <childnode refid="3616" relation="include">
+        <childnode refid="3824" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
+        <childnode refid="3828" relation="include">
         </childnode>
-        <childnode refid="3618" relation="include">
+        <childnode refid="3829" relation="include">
         </childnode>
-        <childnode refid="3620" relation="include">
+        <childnode refid="3830" relation="include">
         </childnode>
-        <childnode refid="3614" relation="include">
+        <childnode refid="3832" relation="include">
+        </childnode>
+        <childnode refid="3826" relation="include">
         </childnode>
       </node>
-      <node id="3617">
+      <node id="3829">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
         <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
       </node>
-      <node id="3623">
+      <node id="3835">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h</label>
         <link refid="d1/dfa/ratewidget_8h_source"/>
       </node>
-      <node id="3595">
+      <node id="3807">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/customer.h</label>
         <link refid="customer.h"/>
-        <childnode refid="3596" relation="include">
+        <childnode refid="3808" relation="include">
         </childnode>
-        <childnode refid="3597" relation="include">
+        <childnode refid="3809" relation="include">
         </childnode>
-        <childnode refid="3602" relation="include">
+        <childnode refid="3814" relation="include">
         </childnode>
-        <childnode refid="3603" relation="include">
+        <childnode refid="3815" relation="include">
         </childnode>
-        <childnode refid="3604" relation="include">
+        <childnode refid="3816" relation="include">
         </childnode>
-        <childnode refid="3606" relation="include">
+        <childnode refid="3818" relation="include">
         </childnode>
-        <childnode refid="3632" relation="include">
+        <childnode refid="3844" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
+        <childnode refid="3829" relation="include">
         </childnode>
-        <childnode refid="3618" relation="include">
+        <childnode refid="3830" relation="include">
         </childnode>
-        <childnode refid="3640" relation="include">
+        <childnode refid="3852" relation="include">
         </childnode>
-        <childnode refid="3641" relation="include">
+        <childnode refid="3853" relation="include">
         </childnode>
       </node>
-      <node id="3599">
+      <node id="3811">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="3635">
+      <node id="3847">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</label>
         <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="3598" relation="include">
+        <childnode refid="3810" relation="include">
         </childnode>
       </node>
-      <node id="3603">
+      <node id="3815">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</label>
         <link refid="db/de4/customerdatawidget_8h_source"/>
       </node>
-      <node id="3625">
+      <node id="3837">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
         <link refid="dc/d1a/projectstablemodel_8h_source"/>
-        <childnode refid="3607" relation="include">
+        <childnode refid="3819" relation="include">
         </childnode>
       </node>
-      <node id="3639">
+      <node id="3851">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.h</label>
         <link refid="d1/d63/projectmodeltest_8h_source"/>
       </node>
-      <node id="3633">
+      <node id="3845">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
         <link refid="d2/dbc/userdatabase_8h_source"/>
       </node>
-      <node id="3613">
+      <node id="3825">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/statistics.h</label>
         <link refid="d7/dc5/statistics_8h_source"/>
-        <childnode refid="3609" relation="include">
+        <childnode refid="3821" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -420,35 +430,36 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMER_H</highlight></codeline>
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMER_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/people.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
-<codeline lineno="13" refid="db/dd7/classModels_1_1Customer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kindref="member">Customer</ref>();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kindref="member">Customer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" kindref="member">getDataMap</ref>();</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" kindref="member">getPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" kindref="member">getNameFolder</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kindref="member">getTurnover</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/>_turnover;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMER_H</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardItem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/people.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
+<codeline lineno="15" refid="db/dd7/classModels_1_1Customer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kindref="member">Customer</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kindref="member">Customer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" kindref="member">getDataMap</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" kindref="member">getPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" kindref="member">getNameFolder</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kindref="member">getTurnover</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/>_turnover;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMER_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h"/>
   </compounddef>

@@ -82,6 +82,7 @@
     <member refid="d4/d5c/classModels_1_1Billing_1ae6ff88e05384718d57be1be38f250a52" kind="function"><name>operator!=</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1acb836caf7aef8e953c432661cb8aa55f" kind="function"><name>setContributories</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a6d3f5da2e9a0b7de217dc51220c4c7b7" kind="function"><name>operator&lt;</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1ad45495eafb4f67434b69af916e343ac6" kind="function"><name>getItem</name></member>
   </compound>
   <compound refid="df/df8/classDatabases_1_1BillingDatabase" kind="class"><name>Databases::BillingDatabase</name>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a1f332c6c766217ecd724a21b817920b3" kind="variable"><name>_instance</name></member>
@@ -123,6 +124,7 @@
     <member refid="d1/db1/classBillingDatabaseTest_1a71b19b9f388f3a5a8bd8b4206fdd15e9" kind="slot"><name>getBilling</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1a3fd9b3542257723148b5eb1a42d0f2c6" kind="slot"><name>getAllBillingsOnly</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1a068303638c19c443e6cba4aefc5f1da5" kind="slot"><name>getBillingsBetweenDates</name></member>
+    <member refid="d1/db1/classBillingDatabaseTest_1a05d7e5418a3775ea6acce551e2f603aa" kind="slot"><name>getAllBillingsOfProjectTest</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1ad8e146e0b1164f59f29af887348ce4a3" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="dc/d0c/classBillingModelTest" kind="class"><name>BillingModelTest</name>
@@ -137,6 +139,7 @@
     <member refid="dc/d0c/classBillingModelTest_1ae9afeb811a8f490deab44396d3288cf3" kind="slot"><name>hydrat</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a017bc0f4e5a8a21e8cc04231921d9c13" kind="slot"><name>hydratWithContributories</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a1a3c31dc7011434626d54817e19c457c" kind="slot"><name>commitRemove</name></member>
+    <member refid="dc/d0c/classBillingModelTest_1ac9aa0e7a43dbbc7aed9df8433e652119" kind="slot"><name>testGetItem</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a7047b26d6d870612fcfb72e66bc48233" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel" kind="class"><name>Gui::Widgets::WdgModels::BillingsTableModel</name>
@@ -424,13 +427,12 @@
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ac611950b0502fbfe129ee1d1b495def4" kind="function"><name>getTree</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab0544439382fb6891cd7d27f67cb120c" kind="function"><name>getCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a0f45861747bcb0eef12f432dfe9be30e" kind="function"><name>addCustomer</name></member>
-    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a2ef9838798500e7ad4a09a3ed401fc8b" kind="function"><name>updateCustomer</name></member>
+    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a83493698214a2e8e68024d007e715f35" kind="function"><name>updateCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1acd2d887546a773f4c526796ac384ad53" kind="function"><name>removeCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab02a6a2999f6b92d38a3b6d71b940f82" kind="function"><name>getNbCustomers</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1af35f43c0329b37e88cb4f24783066968" kind="function"><name>getItemRoot</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1abad5bf2b61181f9896404850c4acfb84" kind="function"><name>getItemCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" kind="function"><name>getItemProject</name></member>
-    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ab9311e006dc1e58486d6e682064912b5" kind="function"><name>getItemBillQuote</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a23017b6db7808fa1d03e55e063418670" kind="function"><name>getCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aedb0c575bd9141547e4e084fd260beb7" kind="function"><name>updateCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a4c7a82b1a53fc5fa7e6d6aaa3562342e" kind="function"><name>CustomerDatabase</name></member>
@@ -445,6 +447,8 @@
     <member refid="d2/d63/classCustomerDatabaseTest_1af000022a62551faca4499bd932ab2dc9" kind="slot"><name>selectCustomerNotFound</name></member>
     <member refid="d2/d63/classCustomerDatabaseTest_1a4d0f26ec2744e753781ab3fa20d43315" kind="slot"><name>selectCustomerFound</name></member>
     <member refid="d2/d63/classCustomerDatabaseTest_1a8a97286d6c9125edc7fff99c4e6fb389" kind="slot"><name>getCustomerTableException</name></member>
+    <member refid="d2/d63/classCustomerDatabaseTest_1ab7b3b6d4627bfd5c4e0f503711566f2f" kind="slot"><name>getCustomerTreeException</name></member>
+    <member refid="d2/d63/classCustomerDatabaseTest_1a429b849c7a1f32a86200aafad82eea78" kind="slot"><name>getNbCustomersTest</name></member>
   </compound>
   <compound refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget" kind="class"><name>Gui::Widgets::CustomerDataWidget</name>
     <member refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget_1a77e82f7c57ffed17d4cd269a8110105b" kind="variable"><name>ui</name></member>

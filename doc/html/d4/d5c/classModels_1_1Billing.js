@@ -13,6 +13,7 @@ var classModels_1_1Billing =
     [ "getDescription", "d4/d5c/classModels_1_1Billing.html#a5802215da8f4407457b8aeb7be525c65", null ],
     [ "getFilename", "d4/d5c/classModels_1_1Billing.html#ae8700d38ecd8e4975f1ee013144ed455", null ],
     [ "getFolder", "d4/d5c/classModels_1_1Billing.html#a2359afe641ba85a37729fb0d951bff7d", null ],
+    [ "getItem", "d4/d5c/classModels_1_1Billing.html#ad45495eafb4f67434b69af916e343ac6", null ],
     [ "getNumber", "d4/d5c/classModels_1_1Billing.html#a48c6e28a4aec13f8ed6b3ebbab837f0b", null ],
     [ "getPath", "d4/d5c/classModels_1_1Billing.html#a4110ac32d8d96b9fbd1b0037df39723b", null ],
     [ "getSumQuantity", "d4/d5c/classModels_1_1Billing.html#a360006189d4867e3281009b0c465bc53", null ],

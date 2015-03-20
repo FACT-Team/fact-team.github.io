@@ -29,7 +29,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"d5/d8b/classMustache_1_1QtVariantContext.html#a0602be333afa1d4fa89c2c5820311bf1",
+"d5/d8b/classMustache_1_1QtVariantContext.html",
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a47336d411c5d28325612e6cf7ac2b271",
 "dd/db0/classDatabases_1_1Database.html#a21f6c86f95b149ac7dbf0ffc94021a93"
 ];

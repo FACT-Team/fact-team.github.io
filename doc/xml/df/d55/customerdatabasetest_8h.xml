@@ -7,74 +7,79 @@
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.cpp</includedby>
     <incdepgraph>
-      <node id="4848">
+      <node id="5100">
         <label>list</label>
       </node>
-      <node id="4852">
+      <node id="5105">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="4853" relation="include">
+        <childnode refid="5106" relation="include">
         </childnode>
       </node>
-      <node id="4842">
+      <node id="5094">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h</label>
         <link refid="customerdatabasetest.h"/>
-        <childnode refid="4843" relation="include">
+        <childnode refid="5095" relation="include">
         </childnode>
-        <childnode refid="4844" relation="include">
+        <childnode refid="5096" relation="include">
         </childnode>
-        <childnode refid="4850" relation="include">
+        <childnode refid="5102" relation="include">
         </childnode>
       </node>
-      <node id="4846">
+      <node id="5098">
         <label>QSharedPointer</label>
       </node>
-      <node id="4854">
+      <node id="5104">
+        <label>QStandardItem</label>
+      </node>
+      <node id="5107">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="4851" relation="include">
+        <childnode refid="5103" relation="include">
         </childnode>
       </node>
-      <node id="4845">
+      <node id="5097">
         <label>QTest</label>
       </node>
-      <node id="4853">
+      <node id="5106">
         <label>QVariantHash</label>
       </node>
-      <node id="4851">
+      <node id="5103">
         <label>QString</label>
       </node>
-      <node id="4849">
+      <node id="5101">
         <label>iostream</label>
       </node>
-      <node id="4844">
+      <node id="5096">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="4845" relation="include">
+        <childnode refid="5097" relation="include">
         </childnode>
-        <childnode refid="4846" relation="include">
+        <childnode refid="5098" relation="include">
         </childnode>
-        <childnode refid="4847" relation="include">
+        <childnode refid="5099" relation="include">
         </childnode>
-        <childnode refid="4848" relation="include">
+        <childnode refid="5100" relation="include">
         </childnode>
-        <childnode refid="4849" relation="include">
+        <childnode refid="5101" relation="include">
         </childnode>
       </node>
-      <node id="4850">
+      <node id="5102">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="4851" relation="include">
+        <childnode refid="5103" relation="include">
         </childnode>
-        <childnode refid="4852" relation="include">
+        <childnode refid="5104" relation="include">
         </childnode>
-        <childnode refid="4854" relation="include">
+        <childnode refid="5105" relation="include">
+        </childnode>
+        <childnode refid="5107" relation="include">
         </childnode>
       </node>
-      <node id="4847">
+      <node id="5099">
         <label>algorithm</label>
       </node>
-      <node id="4843">
+      <node id="5095">
         <label>QtTest/QtTest</label>
       </node>
     </incdepgraph>
@@ -104,15 +109,16 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>selectCustomerNotFound();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>selectCustomerFound();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getCustomerTableException();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>void<sp/>getCustomerTreeException();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c1;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_lastInsert;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">DECLARE_TEST(<ref refid="d2/d63/classCustomerDatabaseTest" kindref="compound">CustomerDatabaseTest</ref>)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERDATABASETEST_H</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getCustomerTreeException();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getNbCustomersTest();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>c1;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_lastInsert;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">DECLARE_TEST(<ref refid="d2/d63/classCustomerDatabaseTest" kindref="compound">CustomerDatabaseTest</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERDATABASETEST_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h"/>
   </compounddef>
