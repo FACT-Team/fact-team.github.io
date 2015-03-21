@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/df7/addiconwidget_8cpp" kind="file">
+    <compoundname>addiconwidget.cpp</compoundname>
+    <includes refid="dd/d56/addiconwidget_8h" local="yes">addiconwidget.h</includes>
+    <includes local="yes">ui_addiconwidget.h</includes>
+    <incdepgraph>
+      <node id="1844">
+        <label>addiconwidget.h</label>
+        <link refid="dd/d56/addiconwidget_8h_source"/>
+        <childnode refid="1845" relation="include">
+        </childnode>
+      </node>
+      <node id="1845">
+        <label>QDialog</label>
+      </node>
+      <node id="1843">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/addiconwidget.cpp</label>
+        <link refid="addiconwidget.cpp"/>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+      </node>
+      <node id="1846">
+        <label>ui_addiconwidget.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;addiconwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_addiconwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">AddIconWidget::AddIconWidget(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/>Ui::<ref refid="db/d15/classAddIconWidget" kindref="compound">AddIconWidget</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">AddIconWidget::~AddIconWidget()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/addiconwidget.cpp"/>
+  </compounddef>
+</doxygen>

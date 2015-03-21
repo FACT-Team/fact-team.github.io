@@ -70,6 +70,7 @@ var hierarchy =
       [ "Gui::Widgets::WdgModels::ProjectsTableModel", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html", null ]
     ] ],
     [ "QDialog", null, [
+      [ "AddIconWidget", "db/d15/classAddIconWidget.html", null ],
       [ "Gui::Dialogs::AddProjectDialog", "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html", null ],
       [ "Gui::Dialogs::AddQuoteDialog", "d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog.html", null ],
       [ "Gui::Dialogs::ComputeTurnoverDialog", "d1/d0e/classGui_1_1Dialogs_1_1ComputeTurnoverDialog.html", null ],
