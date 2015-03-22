@@ -635,14 +635,14 @@
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CustomerDatabaseTest::getCustomerTreeException()</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>try<sp/>{</highlight></codeline>
-<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Databases::CustomerDatabase::instance()-&gt;getTree(&quot;FROM<sp/>Billing&quot;);</highlight></codeline>
-<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(&quot;Exception<sp/>not<sp/>thrown&quot;);</highlight></codeline>
-<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/>}<sp/>catch(DbException*)<sp/>{</highlight></codeline>
-<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(true);</highlight></codeline>
-<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118"><highlight class="comment"></highlight></codeline>
-<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/>try<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" kindref="member">Databases::CustomerDatabase::instance</ref>()-&gt;<ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1ac611950b0502fbfe129ee1d1b495def4" kindref="member">getTree</ref>(</highlight><highlight class="stringliteral">&quot;FROM<sp/>Billing&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(</highlight><highlight class="stringliteral">&quot;Exception<sp/>not<sp/>thrown&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*try<sp/>{</highlight></codeline>
 <codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Databases::CustomerDatabase::instance()-&gt;getTree(&quot;&quot;);</highlight></codeline>
 <codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(true);</highlight></codeline>
 <codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/>}<sp/>catch(DbException*)<sp/>{</highlight></codeline>
