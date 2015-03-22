@@ -28,7 +28,6 @@ var annotated =
       [ "pointers", "d4/d7a/classUtils_1_1pointers.html", "d4/d7a/classUtils_1_1pointers" ],
       [ "String", "dd/df6/classUtils_1_1String.html", "dd/df6/classUtils_1_1String" ]
     ] ],
-    [ "AddIconWidget", "db/d15/classAddIconWidget.html", "db/d15/classAddIconWidget" ],
     [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", "d1/db1/classBillingDatabaseTest" ],
     [ "BillingModelTest", "dc/d0c/classBillingModelTest.html", "dc/d0c/classBillingModelTest" ],
     [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", "d8/df7/classContributoriesDatabaseTest" ],
