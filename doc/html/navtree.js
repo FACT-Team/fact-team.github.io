@@ -30,8 +30,9 @@ var NAVTREEINDEX =
 [
 ".html",
 "d5/d8b/classMustache_1_1QtVariantContext.html",
-"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a0b92573a4e1ff4d44e8259d86b5b8275",
-"dd/db0/classDatabases_1_1Database.html#a17b652086514e0a64d0e452a938ac7a5"
+"d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a196094a26db9cff58e70801186b73453",
+"dd/db0/classDatabases_1_1Database.html#a2014dda2689bcdf325e8bce020a4b73c",
+"pages.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
