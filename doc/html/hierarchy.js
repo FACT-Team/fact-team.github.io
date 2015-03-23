@@ -86,8 +86,7 @@ var hierarchy =
         [ "Gui::Widgets::Delegates::ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", null ],
         [ "Gui::Widgets::Delegates::UnitComboDelegate", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate.html", null ]
       ] ],
-      [ "Gui::Widgets::Delegates::DoubleSpinBoxDelegate", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html", null ],
-      [ "Gui::Widgets::Delegates::TextareaDelegate", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html", null ]
+      [ "Gui::Widgets::Delegates::DoubleSpinBoxDelegate", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html", null ]
     ] ],
     [ "QLineEdit", null, [
       [ "Gui::Widgets::CheckFields::CheckQLineEdit", "d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit.html", null ]
@@ -111,6 +110,7 @@ var hierarchy =
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
       [ "Generation", "d4/df7/classGeneration.html", null ],
       [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
+      [ "PointersTest", "d8/d62/classPointersTest.html", null ],
       [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", null ],
       [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", null ],
       [ "RateModelTest", "d2/dcd/classRateModelTest.html", null ],

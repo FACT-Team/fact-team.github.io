@@ -39,6 +39,7 @@ var annotated =
     [ "Generation", "d4/df7/classGeneration.html", "d4/df7/classGeneration" ],
     [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
     [ "Parameters", "de/d0a/classParameters.html", "de/d0a/classParameters" ],
+    [ "PointersTest", "d8/d62/classPointersTest.html", null ],
     [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", "df/d3e/classProjectDatabaseTest" ],
     [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", "dd/d54/classProjectModelTest" ],
     [ "RateModelTest", "d2/dcd/classRateModelTest.html", "d2/dcd/classRateModelTest" ],
