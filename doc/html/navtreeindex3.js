@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"dd/db0/classDatabases_1_1Database.html#a17b652086514e0a64d0e452a938ac7a5":[4,0,0,4,13],
 "dd/db0/classDatabases_1_1Database.html#a2014dda2689bcdf325e8bce020a4b73c":[4,0,0,4,1],
 "dd/db0/classDatabases_1_1Database.html#a21f6c86f95b149ac7dbf0ffc94021a93":[4,0,0,4,6],
 "dd/db0/classDatabases_1_1Database.html#a25138d7643dddc3b0fd587673fe84e7a":[4,0,0,4,18],
@@ -63,8 +62,8 @@ var NAVTREEINDEX3 =
 "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#ab30cf2a880e1746cf629a69fb7d9e7f9":[4,0,3,0,0,3],
 "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#abe345ededea4911846a44b984cc04f18":[4,0,3,0,0,2],
 "de/d36/classGui_1_1Dialogs_1_1AddProjectDialog.html#af31b6ed23acdd5fb8b71caaeddce34f4":[4,0,3,0,0,4],
-"de/d37/classUserModelTest.html":[4,0,29],
-"de/d37/classUserModelTest.html#aa3bc18ec0a2c74a9afd3a4b8b12077bf":[4,0,29,0],
+"de/d37/classUserModelTest.html":[4,0,28],
+"de/d37/classUserModelTest.html#aa3bc18ec0a2c74a9afd3a4b8b12077bf":[4,0,28,0],
 "de/d42/pdfgenerator_8h_source.html":[5,0,0,0,0,0,0,2,0],
 "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html":[4,0,3,2,7],
 "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html#a063c346b830524fb1f96f32984fb5493":[4,0,3,2,7,11],
@@ -79,7 +78,7 @@ var NAVTREEINDEX3 =
 "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html#ad2f99b62e1ae43f973fbf135ee889908":[4,0,3,2,7,8],
 "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html#ad84fec6fb4c19610e3de6608be85f8cc":[4,0,3,2,7,6],
 "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html#aebcc7341f204c1b8f8ea930154c1a331":[4,0,3,2,7,5],
-"de/d63/classTestMustache.html":[4,0,26],
+"de/d63/classTestMustache.html":[4,0,25],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html":[4,0,3,1,0],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html#a5c03d289e8dc3352e232e4d3bc290080":[4,0,3,1,0,1],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html#a7360b52fd0bc03e089049b574e509c02":[4,0,3,1,0,2],
@@ -110,8 +109,8 @@ var NAVTREEINDEX3 =
 "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#af57970124c6e10b516794f90f2b9f0be":[4,0,3,2,0,10,3],
 "df/d31/namespaceDatabases.html":[4,0,0],
 "df/d31/namespaceDatabases.html":[3,0,0],
-"df/d3e/classProjectDatabaseTest.html":[4,0,19],
-"df/d3e/classProjectDatabaseTest.html#a248e2bfcc11bf553a5e004b2e1ce9e33":[4,0,19,0],
+"df/d3e/classProjectDatabaseTest.html":[4,0,18],
+"df/d3e/classProjectDatabaseTest.html#a248e2bfcc11bf553a5e004b2e1ce9e33":[4,0,18,0],
 "df/d55/customerdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,2],
 "df/d68/classModels_1_1User.html":[4,0,4,10],
 "df/d68/classModels_1_1User.html#a0fe65ebdee17c2986c874e480e1cb0bd":[4,0,4,10,13],
@@ -133,6 +132,12 @@ var NAVTREEINDEX3 =
 "df/d68/classModels_1_1User.html#ae751ee06859dffce0cad08005c42c933":[4,0,4,10,12],
 "df/d78/imodel_8h_source.html":[5,0,0,0,0,0,0,5,4],
 "df/d88/comboboxdelegate_8h_source.html":[5,0,0,0,0,0,0,3,3,1,0],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html":[4,0,3,2,1,3],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#a2dfb77334f4a12a031bed33ac5df9f5c":[4,0,3,2,1,3,0],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#a5db7a3dfd9c60ae3b6dda3e94f1ea16d":[4,0,3,2,1,3,2],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#a67f7736e4cc6a6f9e2841584b4f48b25":[4,0,3,2,1,3,3],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#ac206e0bf0a439e5fa781282aea864cd7":[4,0,3,2,1,3,1],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#aca8f707d0638a3c0f1b6c200729b62c4":[4,0,3,2,1,3,4],
 "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html":[4,0,3,2,0,3],
 "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html#a2026c54051fdadca10860d0eaaa4b243":[4,0,3,2,0,3,0],
 "df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters.html#a95f6808ecc2cedf22407fc1791827851":[4,0,3,2,0,3,1],
@@ -244,6 +249,5 @@ var NAVTREEINDEX3 =
 "hierarchy.html":[4,1],
 "index.html":[0],
 "index.html":[],
-"namespaces.html":[3,0],
-"pages.html":[]
+"namespaces.html":[3,0]
 };

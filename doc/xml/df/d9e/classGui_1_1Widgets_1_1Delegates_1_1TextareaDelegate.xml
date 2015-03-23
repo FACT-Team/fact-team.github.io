@@ -3,6 +3,7 @@
   <compounddef id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" kind="class" prot="public">
     <compoundname>Gui::Widgets::Delegates::TextareaDelegate</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QItemDelegate</basecompoundref>
+    <includes refid="d6/da9/textareadelegate_8h" local="no">textareadelegate.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a2dfb77334f4a12a031bed33ac5df9f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -15,12 +16,20 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a2dfb77334f4a12a031bed33ac5df9f5c" kindref="member">TextareaDelegate::TextareaDelegate</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="7" bodyend="10"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="7" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a67f7736e4cc6a6f9e2841584b4f48b25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -40,12 +49,27 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a67f7736e4cc6a6f9e2841584b4f48b25" kindref="member">TextareaDelegate::setModelData</ref> Sets the data model from content in editor. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data edited </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the model to edit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="37" bodyend="45"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="37" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1aca8f707d0638a3c0f1b6c200729b62c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -64,12 +88,34 @@
           <type>const QModelIndex &amp;</type>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1aca8f707d0638a3c0f1b6c200729b62c4" kindref="member">TextareaDelegate::updateEditorGeometry</ref> Update the <emphasis>editor</emphasis> for the item specified by <emphasis>index</emphasis> according to the style <emphasis>option</emphasis> given. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Editor widget to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Style option </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Item index </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="29" bodyend="35"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="29" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1ac206e0bf0a439e5fa781282aea864cd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QWidget *</type>
@@ -87,12 +133,35 @@
           <type>const QModelIndex &amp;</type>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1ac206e0bf0a439e5fa781282aea864cd7" kindref="member">TextareaDelegate::createEditor</ref> Return a QTextEdit specified by <emphasis>index</emphasis> item defined by the <emphasis>parent</emphasis> widget and style <emphasis>option</emphasis> which are used to control how the editor widgets appears. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Widget parent </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Option style </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index for editing </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" kindref="compound">TextareaDelegate</ref> </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="12" bodyend="18"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="53" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="12" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a5db7a3dfd9c60ae3b6dda3e94f1ea16d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -108,18 +177,34 @@
           <declname>index</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a5db7a3dfd9c60ae3b6dda3e94f1ea16d" kindref="member">TextareaDelegate::setEditorData</ref> Sets the data to be displayed and edited by the <emphasis>editor</emphasis> from the data model item specified by the model <emphasis>index</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>editor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data edited </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the model to edit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="20" bodyend="27"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="62" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.cpp" bodystart="20" bodyend="27"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" kindref="compound">TextareaDelegate</ref> class. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
+</para>    </detaileddescription>
     <inheritancegraph>
       <node id="478">
         <label>QItemDelegate</label>
@@ -142,7 +227,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" bodystart="11" bodyend="21"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h" bodystart="16" bodyend="63"/>
     <listofallmembers>
       <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1ac206e0bf0a439e5fa781282aea864cd7" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::TextareaDelegate</scope><name>createEditor</name></member>
       <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a5db7a3dfd9c60ae3b6dda3e94f1ea16d" prot="public" virt="non-virtual"><scope>Gui::Widgets::Delegates::TextareaDelegate</scope><name>setEditorData</name></member>
