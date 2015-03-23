@@ -111,6 +111,7 @@ var hierarchy =
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
       [ "Generation", "d4/df7/classGeneration.html", null ],
       [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
+      [ "PointersTest", "d8/d62/classPointersTest.html", null ],
       [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", null ],
       [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", null ],
       [ "RateModelTest", "d2/dcd/classRateModelTest.html", null ],
@@ -136,8 +137,8 @@ var hierarchy =
     [ "Models::Statistics", "db/d92/classModels_1_1Statistics.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];
