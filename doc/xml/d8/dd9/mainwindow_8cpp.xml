@@ -1580,12 +1580,12 @@
 <codeline lineno="715"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>ui-&gt;stackedWidget-&gt;currentIndex()<sp/>==<sp/>2)</highlight></codeline>
 <codeline lineno="716"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblProjects-&gt;currentIndex().row()<sp/>&gt;<sp/>-1</highlight></codeline>
 <codeline lineno="717"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblProjects-&gt;selectionModel()-&gt;hasSelection();</highlight></codeline>
-<codeline lineno="718"><highlight class="normal"></highlight></codeline>
-<codeline lineno="719"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>billingIsSelected<sp/>=<sp/>ui-&gt;stackedWidget-&gt;currentIndex()<sp/>==<sp/>2</highlight></codeline>
-<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblQuotes-&gt;currentIndex().row()<sp/>&gt;<sp/>-1</highlight></codeline>
-<codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblQuotes-&gt;selectionModel()-&gt;hasSelection();</highlight></codeline>
-<codeline lineno="722"><highlight class="normal"></highlight></codeline>
-<codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isBillingPaid<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="718"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>billingIsSelected<sp/>=<sp/>ui-&gt;stackedWidget-&gt;currentIndex()<sp/>==<sp/>2</highlight></codeline>
+<codeline lineno="719"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblQuotes-&gt;currentIndex().row()<sp/>&gt;<sp/>-1</highlight></codeline>
+<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblQuotes-&gt;selectionModel()-&gt;hasSelection();</highlight></codeline>
+<codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isBillingPaid<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="722"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>customerSelected<sp/>=<sp/>ui-&gt;tblCustomers-&gt;currentIndex().row()<sp/>&gt;<sp/>-1</highlight></codeline>
+<codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;tblCustomers-&gt;selectionModel()-&gt;hasSelection();</highlight></codeline>
 <codeline lineno="724"><highlight class="normal"></highlight></codeline>
 <codeline lineno="725"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnEdit-&gt;setEnabled(canModify);</highlight></codeline>
 <codeline lineno="726"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnDelCustomer-&gt;setEnabled(canModify);</highlight></codeline>
@@ -1597,50 +1597,51 @@
 <codeline lineno="732"><highlight class="normal"></highlight></codeline>
 <codeline lineno="733"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;actionNewQuote-&gt;setEnabled(canAdd);</highlight></codeline>
 <codeline lineno="734"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;actionNewBill-&gt;setEnabled(canAdd);</highlight></codeline>
-<codeline lineno="735"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgTblProjectsToolBar-&gt;updateBtn(canAdd);</highlight></codeline>
-<codeline lineno="736"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
-<codeline lineno="737"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
-<codeline lineno="738"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnPdf-&gt;setEnabled(billingIsSelected);</highlight></codeline>
-<codeline lineno="739"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
-<codeline lineno="740"><highlight class="normal"></highlight></codeline>
-<codeline lineno="741"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(billingIsSelected)<sp/>{</highlight></codeline>
-<codeline lineno="742"><highlight class="normal"></highlight></codeline>
-<codeline lineno="743"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref><sp/>b(getCurrentQuoteId());</highlight></codeline>
-<codeline lineno="744"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>textButton<sp/>=<sp/>b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;la<sp/>facture&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;le<sp/>devis&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="745"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>iconButton<sp/>=<sp/>b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;bill&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;quote&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="746"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isBillingPaid<sp/>=<sp/>b.isBilling()<sp/>&amp;&amp;<sp/>b.isPaid();</highlight></codeline>
-<codeline lineno="747"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Éditer<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
-<codeline lineno="748"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/img/add_&quot;</highlight><highlight class="normal">+iconButton));</highlight></codeline>
-<codeline lineno="749"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Supprimer<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
-<codeline lineno="750"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/img/remove_&quot;</highlight><highlight class="normal">+iconButton));</highlight></codeline>
-<codeline lineno="751"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Copier<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
-<codeline lineno="752"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setIcon(QIcon(b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;:icons/img/copy_bill.png&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="753"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;:icons/img/copy_quote&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="754"><highlight class="normal"></highlight></codeline>
-<codeline lineno="755"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isBillingPaid<sp/>||<sp/>!b.isBilling())<sp/>{</highlight></codeline>
-<codeline lineno="756"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnBillingIsPaid-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="757"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isBillingPaid)<sp/>{</highlight></codeline>
-<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="760"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="761"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="762"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnBillingIsPaid-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="763"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Éditer<sp/>le<sp/>document&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="766"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/edit&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="767"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Supprimer<sp/>le<sp/>document&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/edit&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="769"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="770"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="771"><highlight class="normal"></highlight></codeline>
-<codeline lineno="772"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::updateUser()</highlight></codeline>
-<codeline lineno="773"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgUserData-&gt;printUserData();</highlight></codeline>
-<codeline lineno="775"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="777"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="778"><highlight class="normal"></highlight></codeline>
+<codeline lineno="735"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;actCustomerStatistics-&gt;setEnabled(customerSelected);</highlight></codeline>
+<codeline lineno="736"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgTblProjectsToolBar-&gt;updateBtn(canAdd);</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
+<codeline lineno="738"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
+<codeline lineno="739"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnPdf-&gt;setEnabled(billingIsSelected);</highlight></codeline>
+<codeline lineno="740"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setEnabled(billingIsSelected);</highlight></codeline>
+<codeline lineno="741"><highlight class="normal"></highlight></codeline>
+<codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(billingIsSelected)<sp/>{</highlight></codeline>
+<codeline lineno="743"><highlight class="normal"></highlight></codeline>
+<codeline lineno="744"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref><sp/>b(getCurrentQuoteId());</highlight></codeline>
+<codeline lineno="745"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>textButton<sp/>=<sp/>b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;la<sp/>facture&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;le<sp/>devis&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="746"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>iconButton<sp/>=<sp/>b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;bill&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;quote&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="747"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isBillingPaid<sp/>=<sp/>b.isBilling()<sp/>&amp;&amp;<sp/>b.isPaid();</highlight></codeline>
+<codeline lineno="748"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Éditer<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
+<codeline lineno="749"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/img/add_&quot;</highlight><highlight class="normal">+iconButton));</highlight></codeline>
+<codeline lineno="750"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Supprimer<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
+<codeline lineno="751"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/img/remove_&quot;</highlight><highlight class="normal">+iconButton));</highlight></codeline>
+<codeline lineno="752"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Copier<sp/>&quot;</highlight><highlight class="normal">+textButton);</highlight></codeline>
+<codeline lineno="753"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCopyDoc-&gt;setIcon(QIcon(b.isBilling()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;:icons/img/copy_bill.png&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="754"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;:icons/img/copy_quote&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="755"><highlight class="normal"></highlight></codeline>
+<codeline lineno="756"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isBillingPaid<sp/>||<sp/>!b.isBilling())<sp/>{</highlight></codeline>
+<codeline lineno="757"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnBillingIsPaid-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isBillingPaid)<sp/>{</highlight></codeline>
+<codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="760"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="761"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="762"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="763"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnBillingIsPaid-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="766"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Éditer<sp/>le<sp/>document&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="767"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnEditDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/edit&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setText(</highlight><highlight class="stringliteral">&quot;Supprimer<sp/>le<sp/>document&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="769"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveDoc-&gt;setIcon(QIcon(</highlight><highlight class="stringliteral">&quot;:icons/edit&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="771"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="772"><highlight class="normal"></highlight></codeline>
+<codeline lineno="773"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::updateUser()</highlight></codeline>
+<codeline lineno="774"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;wdgUserData-&gt;printUserData();</highlight></codeline>
+<codeline lineno="776"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="777"><highlight class="normal"></highlight></codeline>
+<codeline lineno="778"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.cpp"/>
   </compounddef>
