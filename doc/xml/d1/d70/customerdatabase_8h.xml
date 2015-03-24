@@ -15,6 +15,7 @@
     <includedby refid="d6/d5b/comboboxmodelwidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</includedby>
     <includedby refid="d7/d15/searchwidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</includedby>
     <includedby refid="d9/d36/customer_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp</includedby>
+    <includedby refid="d1/d45/statistics_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/statistics.cpp</includedby>
     <includedby refid="d7/d10/customerdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.cpp</includedby>
     <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.cpp</includedby>
     <includedby refid="db/d1e/searchtest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.cpp</includedby>
@@ -582,13 +583,15 @@
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateCustomer(QSqlQuery<sp/>&amp;q,<sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref><sp/>&amp;pCustomer);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>_instance;</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
-<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BDDCUSTOMER_H</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Customer&gt;<sp/>getCustomers();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>*<sp/>_instance;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase" kindref="compound">CustomerDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BDDCUSTOMER_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h"/>
   </compounddef>

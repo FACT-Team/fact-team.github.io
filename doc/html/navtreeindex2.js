@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d8/df7/classContributoriesDatabaseTest.html#af60d060da60369046eb7237e68b20053":[4,0,9,0],
 "d9/d01/billingdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,0],
 "d9/d21/classDatabases_1_1RateDatabase.html":[4,0,0,6],
 "d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13":[4,0,0,6,1],
@@ -103,7 +104,8 @@ var NAVTREEINDEX2 =
 "db/d70/popup_8h_source.html":[5,0,0,0,0,0,0,3,3,8],
 "db/d8d/projectdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,3],
 "db/d92/classModels_1_1Statistics.html":[4,0,4,9],
-"db/d92/classModels_1_1Statistics.html#a2004bf1a547fa92d0f88216897a10a15":[4,0,4,9,1],
+"db/d92/classModels_1_1Statistics.html#a2004bf1a547fa92d0f88216897a10a15":[4,0,4,9,2],
+"db/d92/classModels_1_1Statistics.html#a5ae9c6694d97e6fd4711ca0ce1fcdb2f":[4,0,4,9,1],
 "db/d92/classModels_1_1Statistics.html#a60ddd90a571ed4c3ce8c0f6317a36d63":[4,0,4,9,0],
 "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html":[4,0,3,2,0,12],
 "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html#a084cf5bf5f0630ef0a92a4bb2be8646e":[4,0,3,2,0,12,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "dd/d3f/classModels_1_1Project.html#ad15f442a24c9d42144b73f27a7afaa35":[4,0,4,6,8],
 "dd/d3f/classModels_1_1Project.html#adf5947680a4eca62cd1cbda58a2a62f0":[4,0,4,6,15],
 "dd/d3f/classModels_1_1Project.html#afc167f2b5bf9c354826117c5057628ae":[4,0,4,6,4],
-"dd/d54/classProjectModelTest.html":[4,0,20],
-"dd/d54/classProjectModelTest.html#a47ab0c912d847778f0a45dad4587e8b3":[4,0,20,0],
-"dd/d86/doublespinboxdelegate_8h_source.html":[5,0,0,0,0,0,0,3,3,1,1]
+"dd/d54/classProjectModelTest.html":[4,0,20]
 };

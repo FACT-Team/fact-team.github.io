@@ -75,7 +75,7 @@ var NAVTREEINDEX0 =
 "d1/db1/classBillingDatabaseTest.html":[4,0,7],
 "d1/db1/classBillingDatabaseTest.html#ac3d58468da7b15d9472c6e9e1f6191b1":[4,0,7,0],
 "d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html":[4,0,3,0,6],
-"d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#ac2a84b4fcf193327c1e2ef1403cc46ac":[4,0,3,0,6,0],
+"d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a6fe5b8b662958e2740f7a5905168bca9":[4,0,3,0,6,0],
 "d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#ae7411c706f1339823203c69908f3e22a":[4,0,3,0,6,1],
 "d1/de0/classUtils_1_1HierarchicalSystem.html":[4,0,6,1],
 "d1/de0/classUtils_1_1HierarchicalSystem.html#a26f07f62ebb50520bc11665e26cedadc":[4,0,6,1,2],

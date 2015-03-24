@@ -30,7 +30,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h:10: warning: Compound ContributoryListTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h:12: warning: Compound Databases::RateDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.h:10: warning: Compound ProjectModelTest is not documented.
-/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:14: warning: Compound Gui::Dialogs::StatisticsDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:174: warning: explicit link request to 'section' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/README.md:11: warning: explicit link request to 'include' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.cpp:257: warning: Member CounterContext(const QVariantHash &map) (function) of class CounterContext is not documented.
@@ -52,6 +51,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:22: warning: Member _dbName (variable) of class Databases::AccessDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:23: warning: Member _dbType (variable) of class Databases::AccessDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/accessdatabase.h:25: warning: Member _exists (variable) of class Databases::AccessDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:166: warning: Member getNbBills() (function) of class Databases::BillingDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:167: warning: Member getNbBillsPaid() (function) of class Databases::BillingDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:168: warning: Member getNbQuotes() (function) of class Databases::BillingDatabase is not documented.
+/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:169: warning: Member getNbDocs() (function) of class Databases::BillingDatabase is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:16: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h:150: warning: argument 'p' of command @param is not found in the argument list of Databases::BillingDatabase::getAllBillingsOnly(const int idProject)
@@ -93,7 +96,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'copy'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h:29: warning: Member ComputeTurnoverDialog(QWidget *parent=0) (function) of class Gui::Dialogs::ComputeTurnoverDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h:17: warning: Found unknown command `\Oxynos'
-/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:18: warning: Member StatisticsDialog(QWidget *parent=0) (function) of class Gui::Dialogs::StatisticsDialog is not documented.
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:23: warning: The following parameters of Gui::Dialogs::StatisticsDialog::StatisticsDialog(bool global=true, int idCustomer=0, QWidget *parent=0) are not documented:
+  parameter 'parent'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b) are not documented:
@@ -313,6 +317,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/models/search.h:107: warning: argument 'getSearchInCompanies' of command @param is not found in the argument list of Models::Search::setSearchInCompanies(bool searchInCompanies)
 /home/travis/build/FACT-Team/FactDev/src/models/search.h:107: warning: The following parameters of Models::Search::setSearchInCompanies(bool searchInCompanies) are not documented:
   parameter 'searchInCompanies'
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:23: warning: The following parameters of Gui::Dialogs::StatisticsDialog::StatisticsDialog(bool global=true, int idCustomer=0, QWidget *parent=0) are not documented:
+  parameter 'parent'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:174: warning: explicit link request to 'section' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h:28: warning: The following parameters of Gui::Widgets::Delegates::TextareaDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const are not documented:
   parameter 'model'

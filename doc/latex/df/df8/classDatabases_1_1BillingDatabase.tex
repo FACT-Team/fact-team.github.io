@@ -20,7 +20,7 @@ Inheritance diagram for Databases\-:\-:Billing\-Database\-:\begin{figure}[H]
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $\ast$ \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{get\-Billing} (const int p\-Id)
-\begin{DoxyCompactList}\small\item\em Billing\-Database\-::get\-Customer get informations about the billing identified by {\itshape p\-Id} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} get informations about the billing identified by {\itshape p\-Id} \end{DoxyCompactList}\item 
 \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel}{Wdg\-Models\-::\-Billings\-Table\-Model} $\ast$ \hyperlink{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{get\-Billings\-Table} (const int id\-Project)  throw (\-Db\-Exception$\ast$)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{Billing\-Database\-::get\-Billings\-Table} Return an item model of billings for Q\-Table\-View. \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1BillingDatabase_a656c622366884194a6823b679d7d2f63}{add\-Billing} (const \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} \&)
@@ -53,7 +53,19 @@ Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatab
 Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{get\-All\-Billings\-Only} (const int id\-Project)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{Billing\-Database\-::get\-All\-Billings\-Only} get all billings which aren't quotes for the project {\itshape p} \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{get\-Billings\-Between\-Dates} (Q\-Date begin, Q\-Date end)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. \end{DoxyCompactList}\item 
+\hypertarget{classDatabases_1_1BillingDatabase_a7f42adcec4edbf3564ca96ffafd96713}{int {\bfseries get\-Nb\-Bills} ()}\label{classDatabases_1_1BillingDatabase_a7f42adcec4edbf3564ca96ffafd96713}
+
+\item 
+\hypertarget{classDatabases_1_1BillingDatabase_a6b1456f8922699788c63c149b42df8b3}{int {\bfseries get\-Nb\-Bills\-Paid} ()}\label{classDatabases_1_1BillingDatabase_a6b1456f8922699788c63c149b42df8b3}
+
+\item 
+\hypertarget{classDatabases_1_1BillingDatabase_a97704db7926e24a945850175a2de2df7}{int {\bfseries get\-Nb\-Quotes} ()}\label{classDatabases_1_1BillingDatabase_a97704db7926e24a945850175a2de2df7}
+
+\item 
+\hypertarget{classDatabases_1_1BillingDatabase_aef978f46939cfd1d6b8136e1fe437ef1}{int {\bfseries get\-Nb\-Docs} ()}\label{classDatabases_1_1BillingDatabase_aef978f46939cfd1d6b8136e1fe437ef1}
+
+\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -154,7 +166,7 @@ the list of {\bfseries Billing}
 )}}\label{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}
 
 
-Billing\-Database\-::get\-Customer get informations about the billing identified by {\itshape p\-Id} 
+\hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} get informations about the billing identified by {\itshape p\-Id} 
 
 
 \begin{DoxyParams}{Parameters}

@@ -3,6 +3,7 @@ var classDatabases_1_1CustomerDatabase =
     [ "addCustomer", "d8/d7e/classDatabases_1_1CustomerDatabase.html#a0f45861747bcb0eef12f432dfe9be30e", null ],
     [ "getCustomer", "d8/d7e/classDatabases_1_1CustomerDatabase.html#ab0544439382fb6891cd7d27f67cb120c", null ],
     [ "getCustomer", "d8/d7e/classDatabases_1_1CustomerDatabase.html#a23017b6db7808fa1d03e55e063418670", null ],
+    [ "getCustomers", "d8/d7e/classDatabases_1_1CustomerDatabase.html#aecb30e5fc92b73a43fc99c799e8ba964", null ],
     [ "getCustomersTable", "d8/d7e/classDatabases_1_1CustomerDatabase.html#a9c7ab43d4e219710604e030eb8ab44d8", null ],
     [ "getItemCustomer", "d8/d7e/classDatabases_1_1CustomerDatabase.html#abad5bf2b61181f9896404850c4acfb84", null ],
     [ "getItemProject", "d8/d7e/classDatabases_1_1CustomerDatabase.html#a641001509d0385000b5b831c134c78c4", null ],
