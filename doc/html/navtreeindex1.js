@@ -1,5 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"d5/d7c/classUtils_1_1ItemType.html#a80b89017d22b33c1ac1c84055592b7f7":[4,0,6,2,5],
+"d5/d7c/classUtils_1_1ItemType.html#a83266bf1a7fecbc0e747c5dc2b079ff5":[4,0,6,2,3],
+"d5/d7c/classUtils_1_1ItemType.html#aa3f6eae0de61e9c259dae988c1e13846":[4,0,6,2,8],
+"d5/d7c/classUtils_1_1ItemType.html#aa993c315def3988851fc3af5f826c384":[4,0,6,2,4],
+"d5/d7c/classUtils_1_1ItemType.html#aff3b98516a4ee741cf926d9cd7cbd131":[4,0,6,2,1],
+"d5/d8a/ratedatabase_8h_source.html":[5,0,0,0,0,0,0,0,6],
 "d5/d8b/classMustache_1_1QtVariantContext.html":[4,0,5,1],
 "d5/d8b/classMustache_1_1QtVariantContext.html#a0602be333afa1d4fa89c2c5820311bf1":[4,0,5,1,3],
 "d5/d8b/classMustache_1_1QtVariantContext.html#a2671990a3c9d8d4d7b626fa85b841ab2":[4,0,5,1,2],
@@ -138,9 +144,9 @@ var NAVTREEINDEX1 =
 "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html#ac68af68b991afa792798f7b72c5c7664":[4,0,3,2,2,2,8],
 "d7/d12/classGui_1_1Widgets_1_1WdgModels_1_1CustomersTableModel.html#ae4da3dcd831bf45366304cd1c6b7df74":[4,0,3,2,2,2,1],
 "d7/d15/searchwidget_8h_source.html":[5,0,0,0,0,0,0,3,3,11],
-"d7/d26/classtestadder.html":[4,0,25],
-"d7/d26/classtestadder.html#a6c03fa78ee26c134f465ede23a82ee10":[4,0,25,0],
-"d7/d26/classtestadder.html#aa221c2d193ae74f3e15062d61dc2b782":[4,0,25,1],
+"d7/d26/classtestadder.html":[4,0,24],
+"d7/d26/classtestadder.html#a6c03fa78ee26c134f465ede23a82ee10":[4,0,24,0],
+"d7/d26/classtestadder.html#aa221c2d193ae74f3e15062d61dc2b782":[4,0,24,1],
 "d7/d34/classMustache_1_1Context.html":[4,0,5,0],
 "d7/d34/classMustache_1_1Context.html#a0a3453e4a263cc9a1d061485c621f74e":[4,0,5,0,0],
 "d7/d34/classMustache_1_1Context.html#a27d9b726c1554653f1783d0eb693662a":[4,0,5,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html#ab8fc199bd6adf21f7dd5e881e0a73b16":[4,0,3,2,5,0],
 "d8/dee/contributory_8h_source.html":[5,0,0,0,0,0,0,5,2],
 "d8/df7/classContributoriesDatabaseTest.html":[4,0,9],
-"d8/df7/classContributoriesDatabaseTest.html#af60d060da60369046eb7237e68b20053":[4,0,9,0],
-"d9/d01/billingdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,0],
-"d9/d21/classDatabases_1_1RateDatabase.html":[4,0,0,6],
-"d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13":[4,0,0,6,1],
-"d9/d21/classDatabases_1_1RateDatabase.html#a48019f4138b2a3bc3cbd144b1dec6abc":[4,0,0,6,3],
-"d9/d21/classDatabases_1_1RateDatabase.html#a9fd72575a2eb189565a0d9eba14121ec":[4,0,0,6,2],
-"d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27":[4,0,0,6,0]
+"d8/df7/classContributoriesDatabaseTest.html#af60d060da60369046eb7237e68b20053":[4,0,9,0]
 };

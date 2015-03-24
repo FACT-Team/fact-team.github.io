@@ -658,18 +658,20 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5dfb182cf52eb48f71e70cd193ef7a8b" kind="slot"><name>editUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af50656b4c43aa53bae1ac4a3d6b4c953" kind="slot"><name>search</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1acc49a5a35dfc7eb8f835ff425618e2d9" kind="slot"><name>addProject</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a7e00765c3da7a97ba937bdecb095200b" kind="slot"><name>removeProject</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1adade8f873eb855b2ca0bb851c91cc5a9" kind="slot"><name>editProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1aff6f88facb002c942273170d3543bb54" kind="slot"><name>removeProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a80af8e18d89a51a3368a65fb22e02040" kind="slot"><name>editProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6df8072789ea8ec81ca2dd8fa78a4b01" kind="slot"><name>aboutQt</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a26726203b873f41f607d78c5d5619c7d" kind="slot"><name>aboutFact</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a39fe49fec47b6cbe4c8664d97bc47e0f" kind="slot"><name>aboutFactDev</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a56db09003bd79c8635488d0edc57cdb3" kind="slot"><name>aboutIcons</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1ac71b4c99f67e10b31d9855e80a9565b7" kind="slot"><name>updateButtons</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1aef4e1621cfa50a15b85921215c7171b8" kind="slot"><name>updateButtons</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a06bc679c41574cb679c6e5e7b673139c" kind="slot"><name>editDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af86458ad953cb70fb7a88245a6047550" kind="slot"><name>removeDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adf1e721c73626d1810dd90c84920dcde" kind="slot"><name>copyDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6fc6c0f088d3996ad941705a13d7aaae" kind="slot"><name>openPdf</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa4cfc2b980835fe1ccd5b869a237c05f" kind="slot"><name>computeTurnover</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a41e44415a270150b6630efcb87768d7f" kind="slot"><name>globalStatistics</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a078b2546e65d2b91d3b2b546db619adb" kind="slot"><name>customerStatistics</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8f4801de450f56afd74b87faf16da04e" kind="slot"><name>openContextualMenuTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6989ef14c237faef779b9f29b9f98e3e" kind="slot"><name>openContextualMenuTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a3e7084a936f63a4dece48c3e26313bff" kind="slot"><name>changeTree</name></member>
@@ -1089,6 +1091,11 @@
     <member refid="db/d92/classModels_1_1Statistics_1a60ddd90a571ed4c3ce8c0f6317a36d63" kind="function"><name>Statistics</name></member>
     <member refid="db/d92/classModels_1_1Statistics_1a2004bf1a547fa92d0f88216897a10a15" kind="function"><name>getTurnoverBetweenDates</name></member>
   </compound>
+  <compound refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog" kind="class"><name>Gui::Dialogs::StatisticsDialog</name>
+    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ad0ff722f6461496adfc2bc4d4a42c838" kind="variable"><name>ui</name></member>
+    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ac2a84b4fcf193327c1e2ef1403cc46ac" kind="function"><name>StatisticsDialog</name></member>
+    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ae7411c706f1339823203c69908f3e22a" kind="function"><name>~StatisticsDialog</name></member>
+  </compound>
   <compound refid="dd/df6/classUtils_1_1String" kind="class"><name>Utils::String</name>
     <member refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kind="function"><name>firstLetterToUpper</name></member>
   </compound>
@@ -1117,12 +1124,12 @@
     <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" kind="variable"><name>escapeMode</name></member>
     <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" kind="function"><name>Tag</name></member>
   </compound>
-  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
-    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
-  </compound>
   <compound refid="d7/d26/classtestadder" kind="class"><name>testadder</name>
     <member refid="d7/d26/classtestadder_1a6c03fa78ee26c134f465ede23a82ee10" kind="function"><name>testadder</name></member>
     <member refid="d7/d26/classtestadder_1aa221c2d193ae74f3e15062d61dc2b782" kind="function"><name>~testadder</name></member>
+  </compound>
+  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
+    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
   </compound>
   <compound refid="de/d63/classTestMustache" kind="class"><name>TestMustache</name>
     <member refid="de/d63/classTestMustache_1a7d76f43b7da47c82c0ba6d6044bccf4a" kind="slot"><name>testContextLookup</name></member>
@@ -1341,6 +1348,10 @@
   <compound refid="dc/d22/startedwindowsdialog_8cpp" kind="file"><name>startedwindowsdialog.cpp</name>
   </compound>
   <compound refid="db/de2/startedwindowsdialog_8h" kind="file"><name>startedwindowsdialog.h</name>
+  </compound>
+  <compound refid="dc/dd3/statisticsdialog_8cpp" kind="file"><name>statisticsdialog.cpp</name>
+  </compound>
+  <compound refid="d1/d46/statisticsdialog_8h" kind="file"><name>statisticsdialog.h</name>
   </compound>
   <compound refid="dd/da7/userdatadialog_8cpp" kind="file"><name>userdatadialog.cpp</name>
   </compound>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"d9/d01/billingdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,0],
+"d9/d21/classDatabases_1_1RateDatabase.html":[4,0,0,6],
+"d9/d21/classDatabases_1_1RateDatabase.html#a2d3e0e20c108d335903b17d291fe1a13":[4,0,0,6,1],
+"d9/d21/classDatabases_1_1RateDatabase.html#a48019f4138b2a3bc3cbd144b1dec6abc":[4,0,0,6,3],
+"d9/d21/classDatabases_1_1RateDatabase.html#a9fd72575a2eb189565a0d9eba14121ec":[4,0,0,6,2],
+"d9/d21/classDatabases_1_1RateDatabase.html#aee32610b164a56b9aaa0a3acddfd8c27":[4,0,0,6,0],
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html":[4,0,3,0,4],
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a0b92573a4e1ff4d44e8259d86b5b8275":[4,0,3,0,4,3],
 "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html#a196094a26db9cff58e70801186b73453":[4,0,3,0,4,4],
@@ -110,8 +116,8 @@ var NAVTREEINDEX2 =
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,3],
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,2],
 "db/da6/classCounterContext.html#ac4ad706a0ad4e81fed489f97c5049e03":[4,0,12,8],
-"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,6],
 "db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,7],
+"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,6],
 "db/db3/classUtils_1_1Log.html":[4,0,6,3],
 "db/db3/classUtils_1_1Log.html#a0191645e4f86af331290c7062c79d7b7":[4,0,6,3,1],
 "db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc":[4,0,6,3,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "dd/d3f/classModels_1_1Project.html#afc167f2b5bf9c354826117c5057628ae":[4,0,4,6,4],
 "dd/d54/classProjectModelTest.html":[4,0,20],
 "dd/d54/classProjectModelTest.html#a47ab0c912d847778f0a45dad4587e8b3":[4,0,20,0],
-"dd/d86/doublespinboxdelegate_8h_source.html":[5,0,0,0,0,0,0,3,3,1,1],
-"dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity.html":[4,0,3,2,0,0],
-"dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity.html#a880266cfcc69ab006f907748ec35a101":[4,0,3,2,0,0,0],
-"dd/da8/testrunner_8h_source.html":[5,0,0,0,0,0,1,3,1],
-"dd/db0/classDatabases_1_1Database.html":[4,0,0,4],
-"dd/db0/classDatabases_1_1Database.html#a00fcd95238619a41f7a734deaef3ea9f":[4,0,0,4,8],
-"dd/db0/classDatabases_1_1Database.html#a091c36a92c87204f4f63e96e7d34b9f7":[4,0,0,4,21]
+"dd/d86/doublespinboxdelegate_8h_source.html":[5,0,0,0,0,0,0,3,3,1,1]
 };
