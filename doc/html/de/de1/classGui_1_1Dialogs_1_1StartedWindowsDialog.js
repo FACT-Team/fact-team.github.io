@@ -6,7 +6,6 @@ var classGui_1_1Dialogs_1_1StartedWindowsDialog =
     [ "backToPage2", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a690559be1b50a5ae7afc0ab64d0a28b8", null ],
     [ "checkFields", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a9ea73c16c7917ff50c596cd1942dabfa", null ],
     [ "databaseTypeChanged", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a2e11f7b179785e86a86294d2d2d5357f", null ],
-    [ "databaseTypeChanged", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a16430b61886e3139fa275419ec3024b6", null ],
     [ "fillFields", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#a30d97171779c86ecc497ef6990829fca", null ],
     [ "getImage", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ae3e9ade2f5949d5fb57e06c54106609f", null ],
     [ "isDatabaseCentralized", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ac5127ad449080835c6f3bb572fb3e481", null ],

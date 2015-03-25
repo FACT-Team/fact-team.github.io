@@ -25,11 +25,6 @@ var namespaceGui_1_1Widgets =
       [ "TextareaDelegate", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" ],
       [ "UnitComboDelegate", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate.html", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" ]
     ] ],
-    [ "Path", null, [
-      [ "ChoseDirectoryWidget", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget.html", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget" ],
-      [ "ChoseFileWidget", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget.html", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" ],
-      [ "ChosePathWidget", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget" ]
-    ] ],
     [ "WdgModels", null, [
       [ "BillingsTableModel", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel" ],
       [ "ContributoriesTableModel", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel.html", "dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" ],
