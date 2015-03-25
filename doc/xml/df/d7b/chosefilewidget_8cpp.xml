@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d7b/chosefilewidget_8cpp" kind="file">
+    <compoundname>chosefilewidget.cpp</compoundname>
+    <includes refid="d0/d78/chosefilewidget_8h" local="yes">chosefilewidget.h</includes>
+    <includes local="yes">ui_chosepathwidget.h</includes>
+    <incdepgraph>
+      <node id="2629">
+        <label>ui_chosepathwidget.h</label>
+      </node>
+      <node id="2624">
+        <label>chosefilewidget.h</label>
+        <link refid="d0/d78/chosefilewidget_8h_source"/>
+        <childnode refid="2625" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+      </node>
+      <node id="2623">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp</label>
+        <link refid="chosefilewidget.cpp"/>
+        <childnode refid="2624" relation="include">
+        </childnode>
+        <childnode refid="2629" relation="include">
+        </childnode>
+      </node>
+      <node id="2625">
+        <label>QFileDialog</label>
+      </node>
+      <node id="2627">
+        <label>QWidget</label>
+      </node>
+      <node id="2626">
+        <label>chosepathwidget.h</label>
+        <link refid="df/d7a/chosepathwidget_8h_source"/>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+      </node>
+      <node id="2628">
+        <label>QDir</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
+    <innernamespace refid="d4/dfe/namespaceGui_1_1Widgets">Gui::Widgets</innernamespace>
+    <innernamespace refid="d4/d56/namespaceGui_1_1Widgets_1_1Path">Gui::Widgets::Path</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;chosefilewidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_chosepathwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Path<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">ChoseFileWidget::ChoseFileWidget(QWidget*<sp/>parent)<sp/>:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ChosePathWidget(parent)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_typeFiles<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ChoseFileWidget::fillField()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;url-&gt;setText(QFileDialog::getOpenFileName(</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="stringliteral">&quot;Choisir<sp/>une<sp/>image<sp/>de<sp/>votre<sp/>signature&quot;</highlight><highlight class="normal">),<sp/>getDefaultLocation(),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_typeFiles));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>ChosePathWidget::fillField();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">QString<sp/>ChoseFileWidget::getypeFiles()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="21"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_typeFiles;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ChoseFileWidget::setTypeFiles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;typeFiles)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>can<sp/>be<sp/>&quot;Images<sp/>files<sp/>(*.png<sp/>*.jpg<sp/>*.gif)&quot;<sp/>for<sp/>images<sp/>in<sp/>example.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>_typeFiles<sp/>=<sp/>typeFiles;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp"/>
+  </compounddef>
+</doxygen>

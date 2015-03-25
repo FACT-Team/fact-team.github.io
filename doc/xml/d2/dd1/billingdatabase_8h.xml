@@ -11,7 +11,6 @@
     <includedby refid="d1/d70/customerdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</includedby>
     <includedby refid="de/dbc/addquotedialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</includedby>
     <includedby refid="d9/d97/computeturnoverdialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</includedby>
-    <includedby refid="dc/dd3/statisticsdialog_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp</includedby>
     <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</includedby>
     <includedby refid="d0/de7/billing_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.cpp</includedby>
     <includedby refid="d9/d01/contributorieslist_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp</includedby>
@@ -600,18 +599,13 @@
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
 <codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Billing&gt;<sp/>getBillingsBetweenDates(QDate<sp/>begin,<sp/>QDate<sp/>end);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbBills();</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbBillsPaid();</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbQuotes();</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getNbDocs();</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase" kindref="compound">BillingDatabase</ref>*<sp/>_instance;</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase" kindref="compound">BillingDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
-<codeline lineno="178"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BILLINGDATABASE_H</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase" kindref="compound">BillingDatabase</ref>*<sp/>_instance;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase" kindref="compound">BillingDatabase</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BILLINGDATABASE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h"/>
   </compounddef>
