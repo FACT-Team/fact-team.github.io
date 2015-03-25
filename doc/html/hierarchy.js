@@ -127,6 +127,10 @@ var hierarchy =
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
       [ "Gui::Widgets::DatabaseSettingsWidget", "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html", null ],
+      [ "Gui::Widgets::Path::ChosePathWidget", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html", [
+        [ "Gui::Widgets::Path::ChoseDirectoryWidget", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget.html", null ],
+        [ "Gui::Widgets::Path::ChoseFileWidget", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget.html", null ]
+      ] ],
       [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
       [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]

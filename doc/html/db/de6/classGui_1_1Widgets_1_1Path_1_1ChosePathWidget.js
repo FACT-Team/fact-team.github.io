@@ -6,8 +6,6 @@ var classGui_1_1Widgets_1_1Path_1_1ChosePathWidget =
     [ "getDefaultLocation", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#aa597dbc1297f0e85605a1859b64a799e", null ],
     [ "getField", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#ab36def0231e202c317914e19e023b244", null ],
     [ "setField", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#adc6f1687854a9ace6fa82a3200b49f84", null ],
-    [ "setText", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#accd4de906d989693423ac533f7a47566", null ],
     [ "textChanged", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#aab68756973032c2130967efdcc5f2973", null ],
-    [ "updateBtn", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#aabd7f232ed413f7308a0ce84641ab42e", null ],
     [ "ui", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html#a7d72a7018a2641bdfd2056b4b2431ef4", null ]
 ];

@@ -3,6 +3,7 @@
   <compounddef id="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kind="class" prot="public">
     <compoundname>Gui::Widgets::Path::ChoseFileWidget</compoundname>
     <basecompoundref refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget" prot="public" virt="non-virtual">Gui::Widgets::Path::ChosePathWidget</basecompoundref>
+    <includes refid="d0/d78/chosefilewidget_8h" local="no">chosefilewidget.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1aff32e42eb06001c506ef6c1bb6b32c48" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -10,12 +11,12 @@
         <argsstring></argsstring>
         <name>_typeFiles</name>
         <briefdescription>
-        </briefdescription>
+<para>The files types who appear in qfiledialog, default it&apos;s *. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -30,12 +31,20 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kindref="compound">ChoseFileWidget</ref> Construct a choseFileWidget. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parent widget </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="7" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="7" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a69fb84fdf1c4db5c544d6cc88a7e55bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -43,12 +52,13 @@
         <argsstring>() const </argsstring>
         <name>getypeFiles</name>
         <briefdescription>
-        </briefdescription>
+<para>getypeFiles Return the types of files, by default it&apos;s * </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>The type of files </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="20" bodyend="23"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="20" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a668dfb8a8197a0d82632d85010ae5748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -60,12 +70,20 @@
           <declname>getypeFiles</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>setTypeFiles Change the files types. By default it&apos;s * </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getypeFiles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new files types. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="25" bodyend="30"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="25" bodyend="30"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -75,16 +93,16 @@
         <argsstring>()</argsstring>
         <name>fillField</name>
         <briefdescription>
-        </briefdescription>
+<para>fillField Fill the textfield with path information </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="13" bodyend="19"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="40" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp" bodystart="13" bodyend="19"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kindref="compound">ChoseFileWidget</ref> class Chose a File in computer. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
@@ -121,7 +139,7 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" bodystart="11" bodyend="25"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.h" bodystart="14" bodyend="44"/>
     <listofallmembers>
       <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1aff32e42eb06001c506ef6c1bb6b32c48" prot="private" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>_typeFiles</name></member>
       <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a6d1c9a76bc56c345c6702feb9d5c668e" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>ChoseFileWidget</name></member>
@@ -131,11 +149,9 @@
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1ab36def0231e202c317914e19e023b244" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>getField</name></member>
       <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a69fb84fdf1c4db5c544d6cc88a7e55bf" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>getypeFiles</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1adc6f1687854a9ace6fa82a3200b49f84" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>setField</name></member>
-      <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1accd4de906d989693423ac533f7a47566" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>setText</name></member>
       <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a668dfb8a8197a0d82632d85010ae5748" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>setTypeFiles</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aab68756973032c2130967efdcc5f2973" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>textChanged</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a7d72a7018a2641bdfd2056b4b2431ef4" prot="protected" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>ui</name></member>
-      <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aabd7f232ed413f7308a0ce84641ab42e" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>updateBtn</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a85468a42af3a962b03be1a88f0b13d8b" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChoseFileWidget</scope><name>~ChosePathWidget</name></member>
     </listofallmembers>
   </compounddef>

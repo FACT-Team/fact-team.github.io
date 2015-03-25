@@ -56,25 +56,25 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Path<sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal">ChoseFileWidget::ChoseFileWidget(QWidget*<sp/>parent)<sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a6d1c9a76bc56c345c6702feb9d5c668e" kindref="member">ChoseFileWidget::ChoseFileWidget</ref>(QWidget*<sp/>parent)<sp/>:</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ChosePathWidget(parent)</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_typeFiles<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ChoseFileWidget::fillField()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1af3ec8425f422362a1f4699b0cd554113" kindref="member">ChoseFileWidget::fillField</ref>()</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;url-&gt;setText(QFileDialog::getOpenFileName(</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="stringliteral">&quot;Choisir<sp/>une<sp/>image<sp/>de<sp/>votre<sp/>signature&quot;</highlight><highlight class="normal">),<sp/>getDefaultLocation(),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="stringliteral">&quot;Choisir<sp/>une<sp/>image<sp/>de<sp/>votre<sp/>signature&quot;</highlight><highlight class="normal">),<sp/><ref refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aa597dbc1297f0e85605a1859b64a799e" kindref="member">getDefaultLocation</ref>(),</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_typeFiles));</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>ChosePathWidget::fillField();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aea561fda3f9be03e9454f7af62683da7" kindref="member">ChosePathWidget::fillField</ref>();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">QString<sp/>ChoseFileWidget::getypeFiles()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">QString<sp/><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a69fb84fdf1c4db5c544d6cc88a7e55bf" kindref="member">ChoseFileWidget::getypeFiles</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="21"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_typeFiles;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ChoseFileWidget::setTypeFiles(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;typeFiles)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a668dfb8a8197a0d82632d85010ae5748" kindref="member">ChoseFileWidget::setTypeFiles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;typeFiles)</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>can<sp/>be<sp/>&quot;Images<sp/>files<sp/>(*.png<sp/>*.jpg<sp/>*.gif)&quot;<sp/>for<sp/>images<sp/>in<sp/>example.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>*</highlight><highlight class="normal"></highlight></codeline>

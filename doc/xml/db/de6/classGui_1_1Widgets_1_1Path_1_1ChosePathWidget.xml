@@ -5,6 +5,7 @@
     <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
     <derivedcompoundref refid="dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget" prot="public" virt="non-virtual">Gui::Widgets::Path::ChoseDirectoryWidget</derivedcompoundref>
     <derivedcompoundref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" prot="public" virt="non-virtual">Gui::Widgets::Path::ChoseFileWidget</derivedcompoundref>
+    <includes refid="df/d7a/chosepathwidget_8h" local="no">chosepathwidget.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a7d72a7018a2641bdfd2056b4b2431ef4" prot="protected" static="no" mutable="no">
         <type>Ui::ChosePathWidget *</type>
@@ -17,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -32,12 +33,20 @@
           <defval>0</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kindref="compound">ChoseFileWidget</ref> Construct a choseFileWidget. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parent widget </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="6" bodyend="11"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="6" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a85468a42af3a962b03be1a88f0b13d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -50,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="13" bodyend="16"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1adc6f1687854a9ace6fa82a3200b49f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -62,12 +71,20 @@
           <declname>text</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>setField Change the path in textfield </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="23" bodyend="26"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="19" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1ab36def0231e202c317914e19e023b244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -75,38 +92,13 @@
         <argsstring>()</argsstring>
         <name>getField</name>
         <briefdescription>
-        </briefdescription>
+<para>getField The text in field </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>The path text </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="28" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1accd4de906d989693423ac533f7a47566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Widgets::Path::ChosePathWidget::setText</definition>
-        <argsstring>(QString, QString, QString, QString s4)</argsstring>
-        <name>setText</name>
-        <param>
-          <type>QString</type>
-        </param>
-        <param>
-          <type>QString</type>
-        </param>
-        <param>
-          <type>QString</type>
-        </param>
-        <param>
-          <type>QString</type>
-          <declname>s4</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="25" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="40" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="24" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aa597dbc1297f0e85605a1859b64a799e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QString</type>
@@ -114,12 +106,13 @@
         <argsstring>()</argsstring>
         <name>getDefaultLocation</name>
         <briefdescription>
-        </briefdescription>
+<para>getDefaultLocation The default location when we open popup. In default case, it&apos;s ~/Documents </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>The default location </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="32" bodyend="35"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="46" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -129,25 +122,12 @@
         <argsstring>()</argsstring>
         <name>fillField</name>
         <briefdescription>
-        </briefdescription>
+<para>fillField Fill the textfield with path information </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="30" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="37" bodyend="40"/>
-      </memberdef>
-      <memberdef kind="slot" id="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aabd7f232ed413f7308a0ce84641ab42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Widgets::Path::ChosePathWidget::updateBtn</definition>
-        <argsstring>()</argsstring>
-        <name>updateBtn</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="31" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="18" bodyend="21"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -157,16 +137,16 @@
         <argsstring>()</argsstring>
         <name>textChanged</name>
         <briefdescription>
-        </briefdescription>
+<para>textChanged Signal is send when path changed. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="34" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="58" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The <ref refid="dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget" kindref="compound">ChoseDirectoryWidget</ref> class Open a QFileDialog.and display path in textfield. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
@@ -203,17 +183,15 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" bodystart="15" bodyend="38"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.h" bodystart="18" bodyend="62"/>
     <listofallmembers>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a978d2251c213ff092767e83912924649" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>ChosePathWidget</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aea561fda3f9be03e9454f7af62683da7" prot="public" virt="virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>fillField</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aa597dbc1297f0e85605a1859b64a799e" prot="public" virt="virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>getDefaultLocation</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1ab36def0231e202c317914e19e023b244" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>getField</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1adc6f1687854a9ace6fa82a3200b49f84" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>setField</name></member>
-      <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1accd4de906d989693423ac533f7a47566" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>setText</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aab68756973032c2130967efdcc5f2973" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>textChanged</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a7d72a7018a2641bdfd2056b4b2431ef4" prot="protected" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>ui</name></member>
-      <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aabd7f232ed413f7308a0ce84641ab42e" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>updateBtn</name></member>
       <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a85468a42af3a962b03be1a88f0b13d8b" prot="public" virt="non-virtual"><scope>Gui::Widgets::Path::ChosePathWidget</scope><name>~ChosePathWidget</name></member>
     </listofallmembers>
   </compounddef>
