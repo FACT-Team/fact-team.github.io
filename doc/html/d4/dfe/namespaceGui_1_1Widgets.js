@@ -16,7 +16,6 @@ var namespaceGui_1_1Widgets =
       [ "CheckSiretNumber", "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html", "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" ],
       [ "CheckUntilField", "d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField.html", "d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" ],
       [ "CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" ],
-      [ "CheckWebsite", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite.html", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite" ],
       [ "ICheckField", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField.html", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField" ]
     ] ],
     [ "Delegates", null, [
@@ -25,6 +24,11 @@ var namespaceGui_1_1Widgets =
       [ "ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" ],
       [ "TextareaDelegate", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" ],
       [ "UnitComboDelegate", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate.html", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" ]
+    ] ],
+    [ "Path", null, [
+      [ "ChoseDirectoryWidget", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget.html", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget" ],
+      [ "ChoseFileWidget", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget.html", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" ],
+      [ "ChosePathWidget", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget" ]
     ] ],
     [ "WdgModels", null, [
       [ "BillingsTableModel", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html", "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel" ],

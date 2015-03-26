@@ -4,57 +4,52 @@
     <compoundname>log.cpp</compoundname>
     <includes refid="d7/d7f/log_8h" local="yes">log.h</includes>
     <incdepgraph>
-      <node id="4840">
-        <label>QSettings</label>
-      </node>
-      <node id="4842">
+      <node id="4835">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="4841" relation="include">
-        </childnode>
-      </node>
-      <node id="4834">
-        <label>log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="4835" relation="include">
-        </childnode>
-        <childnode refid="4836" relation="include">
-        </childnode>
-        <childnode refid="4837" relation="include">
-        </childnode>
-        <childnode refid="4838" relation="include">
-        </childnode>
-        <childnode refid="4839" relation="include">
-        </childnode>
-        <childnode refid="4840" relation="include">
-        </childnode>
-        <childnode refid="4841" relation="include">
-        </childnode>
-        <childnode refid="4842" relation="include">
-        </childnode>
-      </node>
-      <node id="4833">
-        <label>/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp</label>
-        <link refid="log.cpp"/>
         <childnode refid="4834" relation="include">
         </childnode>
       </node>
-      <node id="4839">
+      <node id="4828">
+        <label>log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="4829" relation="include">
+        </childnode>
+        <childnode refid="4830" relation="include">
+        </childnode>
+        <childnode refid="4831" relation="include">
+        </childnode>
+        <childnode refid="4832" relation="include">
+        </childnode>
+        <childnode refid="4833" relation="include">
+        </childnode>
+        <childnode refid="4834" relation="include">
+        </childnode>
+        <childnode refid="4835" relation="include">
+        </childnode>
+      </node>
+      <node id="4827">
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp</label>
+        <link refid="log.cpp"/>
+        <childnode refid="4828" relation="include">
+        </childnode>
+      </node>
+      <node id="4833">
         <label>QDebug</label>
       </node>
-      <node id="4836">
+      <node id="4830">
         <label>QDate</label>
       </node>
-      <node id="4841">
+      <node id="4834">
         <label>QString</label>
       </node>
-      <node id="4835">
+      <node id="4829">
         <label>QFile</label>
       </node>
-      <node id="4838">
+      <node id="4832">
         <label>QTextStream</label>
       </node>
-      <node id="4837">
+      <node id="4831">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -72,7 +67,7 @@
 <codeline lineno="6"><highlight class="normal">TypeLog<sp/>Log::_type<sp/>=<sp/>INFO;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log::Log</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QSettings<sp/>settings(</highlight><highlight class="stringliteral">&quot;FactDev&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FACT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_file<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QFile(</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCoreApplication::applicationDirPath()+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&quot;/message.log&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exists<sp/>=<sp/>_file-&gt;exists();</highlight></codeline>
