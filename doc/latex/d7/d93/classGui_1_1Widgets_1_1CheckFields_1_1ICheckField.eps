@@ -5,7 +5,7 @@
 %%For: 
 %Magnification: 1.00
 %%Orientation: Portrait
-%%BoundingBox: 0 0 500 49.091802
+%%BoundingBox: 0 0 500 42.955326
 %%Pages: 0
 %%BeginSetup
 %%EndSetup
@@ -19,13 +19,13 @@
 /marginwidth 10 def
 /distx 20 def
 /disty 40 def
-/boundaspect 10.185000 def  % aspect ratio of the BoundingBox (width/height)
+/boundaspect 11.640000 def  % aspect ratio of the BoundingBox (width/height)
 /boundx 500 def
 /boundy boundx boundaspect div def
 /xspacing 0 def
 /yspacing 0 def
 /rows 5 def
-/cols 7 def
+/cols 8 def
 /scalefactor 0 def
 /boxfont /Times-Roman findfont fontheight scalefont def
 
@@ -186,6 +186,7 @@ boxfont setfont
 (Gui::Widgets::CheckFields::CheckLogin) cw
 (Gui::Widgets::CheckFields::CheckPhone) cw
 (Gui::Widgets::CheckFields::CheckPostalCode) cw
+(Gui::Widgets::CheckFields::CheckWebsite) cw
 (Gui::Widgets::CheckFields::CheckCity) cw
 (Gui::Widgets::CheckFields::CheckCountry) cw
 (Gui::Widgets::CheckFields::CheckName) cw
@@ -206,13 +207,14 @@ boundx scalefactor div boundy scalefactor div scale
  (Gui::Widgets::CheckFields::CheckPortNumber) 1.000000 2.000000 box
  (Gui::Widgets::CheckFields::CheckSiretNumber) 2.000000 2.000000 box
  (Gui::Widgets::CheckFields::CheckUntilField) 3.500000 2.000000 box
- (Gui::Widgets::CheckFields::CheckValidField) 4.500000 2.000000 box
+ (Gui::Widgets::CheckFields::CheckValidField) 7.000000 2.000000 box
  (Gui::Widgets::CheckFields::CheckFieldsLetters) 1.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckFieldsNumbers) 2.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckIpAddress) 3.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckLogin) 4.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckPhone) 5.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckPostalCode) 6.000000 1.000000 box
+ (Gui::Widgets::CheckFields::CheckWebsite) 7.000000 1.000000 box
  (Gui::Widgets::CheckFields::CheckCity) 0.000000 0.000000 box
  (Gui::Widgets::CheckFields::CheckCountry) 1.000000 0.000000 box
  (Gui::Widgets::CheckFields::CheckName) 2.000000 0.000000 box
@@ -226,7 +228,7 @@ solid
 solid
 1 2.000000 2.250000 out
 solid
-0.000000 4.500000 3.000000 conn
+0.000000 7.000000 3.000000 conn
 solid
 0 0.000000 2.750000 in
 solid
@@ -240,7 +242,9 @@ solid
 solid
 1.000000 6.000000 2.000000 conn
 solid
-0 4.500000 2.750000 in
+0 7.000000 2.750000 in
+solid
+1 7.000000 1.250000 out
 solid
 0 1.000000 1.750000 in
 solid
@@ -257,6 +261,8 @@ solid
 0 5.000000 1.750000 in
 solid
 0 6.000000 1.750000 in
+solid
+0 7.000000 1.750000 in
 solid
 0 0.000000 0.750000 in
 solid

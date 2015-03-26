@@ -4,19 +4,19 @@
     <compoundname>people.cpp</compoundname>
     <includes refid="d2/d90/people_8h" local="yes">models/people.h</includes>
     <incdepgraph>
-      <node id="4005">
+      <node id="3994">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="4006" relation="include">
+        <childnode refid="3995" relation="include">
         </childnode>
       </node>
-      <node id="4006">
+      <node id="3995">
         <label>QString</label>
       </node>
-      <node id="4004">
+      <node id="3993">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/people.cpp</label>
         <link refid="people.cpp"/>
-        <childnode refid="4005" relation="include">
+        <childnode refid="3994" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -164,8 +164,28 @@
 <codeline lineno="136"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>u);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">QString<sp/><ref refid="de/d0a/classModels_1_1People_1ac57d89dcc2a06aabdfb37694183d68f0" kindref="member">People::getAddressComplement</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="140"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_addressComplement;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kindref="member">People::setAddressComplement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;complementAddress)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>_addressComplement<sp/>=<sp/>complementAddress;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">QString<sp/><ref refid="de/d0a/classModels_1_1People_1a898d32c40d89376bd7e8373e2f07a056" kindref="member">People::getWebsite</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="149"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_website;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" kindref="member">People::setWebsite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;website)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>_website<sp/>=<sp/>website;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/people.cpp"/>
   </compounddef>
