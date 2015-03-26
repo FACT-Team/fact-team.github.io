@@ -4,52 +4,57 @@
     <compoundname>log.cpp</compoundname>
     <includes refid="d7/d7f/log_8h" local="yes">log.h</includes>
     <incdepgraph>
-      <node id="4835">
+      <node id="4851">
+        <label>QSettings</label>
+      </node>
+      <node id="4853">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="4834" relation="include">
+        <childnode refid="4852" relation="include">
         </childnode>
       </node>
-      <node id="4828">
+      <node id="4845">
         <label>log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="4829" relation="include">
+        <childnode refid="4846" relation="include">
         </childnode>
-        <childnode refid="4830" relation="include">
+        <childnode refid="4847" relation="include">
         </childnode>
-        <childnode refid="4831" relation="include">
+        <childnode refid="4848" relation="include">
         </childnode>
-        <childnode refid="4832" relation="include">
+        <childnode refid="4849" relation="include">
         </childnode>
-        <childnode refid="4833" relation="include">
+        <childnode refid="4850" relation="include">
         </childnode>
-        <childnode refid="4834" relation="include">
+        <childnode refid="4851" relation="include">
         </childnode>
-        <childnode refid="4835" relation="include">
+        <childnode refid="4852" relation="include">
+        </childnode>
+        <childnode refid="4853" relation="include">
         </childnode>
       </node>
-      <node id="4827">
+      <node id="4844">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/log.cpp</label>
         <link refid="log.cpp"/>
-        <childnode refid="4828" relation="include">
+        <childnode refid="4845" relation="include">
         </childnode>
       </node>
-      <node id="4833">
+      <node id="4850">
         <label>QDebug</label>
       </node>
-      <node id="4830">
+      <node id="4847">
         <label>QDate</label>
       </node>
-      <node id="4834">
+      <node id="4852">
         <label>QString</label>
       </node>
-      <node id="4829">
+      <node id="4846">
         <label>QFile</label>
       </node>
-      <node id="4832">
+      <node id="4849">
         <label>QTextStream</label>
       </node>
-      <node id="4831">
+      <node id="4848">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -67,7 +72,7 @@
 <codeline lineno="6"><highlight class="normal">TypeLog<sp/>Log::_type<sp/>=<sp/>INFO;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><ref refid="db/db3/classUtils_1_1Log_1a0191645e4f86af331290c7062c79d7b7" kindref="member">Log::Log</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QSettings<sp/>settings(</highlight><highlight class="stringliteral">&quot;FactDev&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FACT&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>_file<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QFile(</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCoreApplication::applicationDirPath()+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&quot;/message.log&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exists<sp/>=<sp/>_file-&gt;exists();</highlight></codeline>
