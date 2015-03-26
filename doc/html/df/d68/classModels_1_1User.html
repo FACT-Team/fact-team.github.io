@@ -145,6 +145,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:aa1cdb1f752173aedd5f0c43edcb0b10b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#aa1cdb1f752173aedd5f0c43edcb0b10b">operator!=</a> (const <a class="el" href="../../df/d68/classModels_1_1User.html">User</a> &amp;u)</td></tr>
 <tr class="memdesc:aa1cdb1f752173aedd5f0c43edcb0b10b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../df/d68/classModels_1_1User.html#a60d18c2d1df053f1abf1215414f0b4b6" title="User::operator == Re-define the operator &quot;==&quot; to compare if the current User is the same to the other...">User::operator ==</a> Re-define the operator "!=" to compare if the current <a class="el" href="../../df/d68/classModels_1_1User.html" title="The User class User of it application. ">User</a> is differnt to the other <b><a class="el" href="../../df/d68/classModels_1_1User.html" title="The User class User of it application. ">User</a></b> <em>c</em> Return TRUE if both Users are different, else FALSE.  <a href="#aa1cdb1f752173aedd5f0c43edcb0b10b">More...</a><br/></td></tr>
 <tr class="separator:aa1cdb1f752173aedd5f0c43edcb0b10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a894050c3e9266518707f6e5cd1c2f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#ae8a894050c3e9266518707f6e5cd1c2f">getPdflatexPath</a> () const </td></tr>
+<tr class="memdesc:ae8a894050c3e9266518707f6e5cd1c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">getPdflatexPath The path of pdflatex  <a href="#ae8a894050c3e9266518707f6e5cd1c2f">More...</a><br/></td></tr>
+<tr class="separator:ae8a894050c3e9266518707f6e5cd1c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65a44513c34f7e67888062d8bee3e54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d68/classModels_1_1User.html#ac65a44513c34f7e67888062d8bee3e54">setPdflatexPath</a> (const QString &amp;<a class="el" href="../../df/d68/classModels_1_1User.html#ae8a894050c3e9266518707f6e5cd1c2f">getPdflatexPath</a>)</td></tr>
+<tr class="memdesc:ac65a44513c34f7e67888062d8bee3e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">setPdflatexPath Change the pdflatex command path.  <a href="#ac65a44513c34f7e67888062d8bee3e54">More...</a><br/></td></tr>
+<tr class="separator:ac65a44513c34f7e67888062d8bee3e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classModels_1_1People"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classModels_1_1People')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d0a/classModels_1_1People.html">Models::People</a></td></tr>
 <tr class="memitem:acdd7ec9d2f9815aeb230ca450cbcdbe3 inherit pub_methods_classModels_1_1People"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdd7ec9d2f9815aeb230ca450cbcdbe3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0a/classModels_1_1People.html#acdd7ec9d2f9815aeb230ca450cbcdbe3">People</a> ()</td></tr>
@@ -327,6 +333,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 
 </div>
 </div>
+<a class="anchor" id="ae8a894050c3e9266518707f6e5cd1c2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Models::User::getPdflatexPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getPdflatexPath The path of pdflatex </p>
+<dl class="section return"><dt>Returns</dt><dd>The pdflatex path </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a56a37a1b1125c28e8e72c9a3551b7da5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -489,6 +513,30 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 
 </div>
 </div>
+<a class="anchor" id="ac65a44513c34f7e67888062d8bee3e54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Models::User::setPdflatexPath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>getPdflatexPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setPdflatexPath Change the pdflatex command path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">getPdflatexPath</td><td>The new command </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a0fe65ebdee17c2986c874e480e1cb0bd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -603,7 +651,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d20/namespaceModels.html">Models</a></li><li class="navelem"><a class="el" href="../../df/d68/classModels_1_1User.html">User</a></li>
-    <li class="footer">Generated on Thu Mar 26 2015 09:52:37 for FactDev by
+    <li class="footer">Generated on Thu Mar 26 2015 09:59:52 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
