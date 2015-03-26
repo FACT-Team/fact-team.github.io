@@ -36,7 +36,6 @@ var annotated =
     [ "CounterContext", "db/da6/classCounterContext.html", "db/da6/classCounterContext" ],
     [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", "d2/d63/classCustomerDatabaseTest" ],
     [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", "d5/dcd/classCustomerModelTest" ],
-    [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", "d4/d92/classFileChoseWidget" ],
     [ "Generation", "d4/df7/classGeneration.html", "d4/df7/classGeneration" ],
     [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
     [ "Parameters", "de/d0a/classParameters.html", "de/d0a/classParameters" ],

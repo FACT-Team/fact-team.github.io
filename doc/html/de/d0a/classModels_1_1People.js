@@ -2,7 +2,6 @@ var classModels_1_1People =
 [
     [ "People", "de/d0a/classModels_1_1People.html#acdd7ec9d2f9815aeb230ca450cbcdbe3", null ],
     [ "getAddress", "de/d0a/classModels_1_1People.html#a4d327556f59357912c54c14cf940151d", null ],
-    [ "getAddressComplement", "de/d0a/classModels_1_1People.html#ac57d89dcc2a06aabdfb37694183d68f0", null ],
     [ "getCity", "de/d0a/classModels_1_1People.html#a478528b88890758e11887f9d48372680", null ],
     [ "getCompany", "de/d0a/classModels_1_1People.html#af4d0cf50ce941c262717b6f10b9d4b89", null ],
     [ "getCountry", "de/d0a/classModels_1_1People.html#a0df66681e0b8fcf099ad0a05863a8e13", null ],
@@ -13,11 +12,9 @@ var classModels_1_1People =
     [ "getMobilePhone", "de/d0a/classModels_1_1People.html#aaf8d6ac89ea0ae0a1064503f3b9b6dbb", null ],
     [ "getPhone", "de/d0a/classModels_1_1People.html#a4e30c7e027f2be5c8bc7813e37e12f94", null ],
     [ "getPostalCode", "de/d0a/classModels_1_1People.html#a30999a844f67ddef254e2c2343df8946", null ],
-    [ "getWebsite", "de/d0a/classModels_1_1People.html#a898d32c40d89376bd7e8373e2f07a056", null ],
     [ "operator!=", "de/d0a/classModels_1_1People.html#afcc4f66db1e1b1deefb849fffe82d616", null ],
     [ "operator==", "de/d0a/classModels_1_1People.html#a1c875989cffc3119ff1f263c7898bbdb", null ],
     [ "setAddress", "de/d0a/classModels_1_1People.html#ab4e49bbc2de9ed31276e50e768c9bdee", null ],
-    [ "setAddressComplement", "de/d0a/classModels_1_1People.html#ad8dd15780dad1af2ab2a436bab8c4b58", null ],
     [ "setCity", "de/d0a/classModels_1_1People.html#ab19eae39212a096542ed8c24567f3ca9", null ],
     [ "setCompany", "de/d0a/classModels_1_1People.html#aded3f48b5afb01c78379c9a63c35d5c3", null ],
     [ "setCountry", "de/d0a/classModels_1_1People.html#a3062f5f760ee85553b28b3ef1f15492a", null ],
@@ -27,6 +24,5 @@ var classModels_1_1People =
     [ "setLastname", "de/d0a/classModels_1_1People.html#a550545199147a9947e5c66f9c154bf52", null ],
     [ "setMobilePhone", "de/d0a/classModels_1_1People.html#a38e71d8991c2ef70f4f3f4b864913a58", null ],
     [ "setPhone", "de/d0a/classModels_1_1People.html#adea0f24c3438d7c65a6df522e3253863", null ],
-    [ "setPostalCode", "de/d0a/classModels_1_1People.html#a89ea420d87ce7e32e8fc1b7a83616eaf", null ],
-    [ "setWebsite", "de/d0a/classModels_1_1People.html#acd66787d72c4b69a04d0ce228260b784", null ]
+    [ "setPostalCode", "de/d0a/classModels_1_1People.html#a89ea420d87ce7e32e8fc1b7a83616eaf", null ]
 ];

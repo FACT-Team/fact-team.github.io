@@ -38,9 +38,7 @@ var hierarchy =
           [ "Gui::Widgets::CheckFields::CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", null ]
         ] ],
-        [ "Gui::Widgets::CheckFields::CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", [
-          [ "Gui::Widgets::CheckFields::CheckWebsite", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite.html", null ]
-        ] ]
+        [ "Gui::Widgets::CheckFields::CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", null ]
       ] ]
     ] ],
     [ "Models::IModel", "d0/d9c/classModels_1_1IModel.html", [
@@ -125,7 +123,6 @@ var hierarchy =
       [ "UserModelTest", "de/d37/classUserModelTest.html", null ]
     ] ],
     [ "QWidget", null, [
-      [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", null ],
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],

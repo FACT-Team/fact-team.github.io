@@ -16,7 +16,6 @@ var namespaceGui_1_1Widgets =
       [ "CheckSiretNumber", "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber.html", "db/d94/classGui_1_1Widgets_1_1CheckFields_1_1CheckSiretNumber" ],
       [ "CheckUntilField", "d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField.html", "d4/d37/classGui_1_1Widgets_1_1CheckFields_1_1CheckUntilField" ],
       [ "CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" ],
-      [ "CheckWebsite", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite.html", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite" ],
       [ "ICheckField", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField.html", "d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField" ]
     ] ],
     [ "Delegates", null, [
