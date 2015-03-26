@@ -3,6 +3,7 @@
   <compounddef id="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField" kind="class" prot="public">
     <compoundname>Gui::Widgets::CheckFields::CheckValidField</compoundname>
     <basecompoundref refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckQLineEdit</basecompoundref>
+    <derivedcompoundref refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite" prot="public" virt="non-virtual">Gui::Widgets::CheckFields::CheckWebsite</derivedcompoundref>
     <includes refid="d0/d48/checkvalidfield_8h" local="no">checkvalidfield.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a17f7b1d7ce52fb9112a0f60fa0d4f572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -42,6 +43,7 @@
         <argsstring>(QString text)</argsstring>
         <name>check</name>
         <reimplements refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144">check</reimplements>
+        <reimplementedby refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite_1ad2f5e53b88ca8740fd248dcaab0439bd">check</reimplementedby>
         <param>
           <type>QString</type>
           <declname>text</declname>
@@ -69,48 +71,54 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="191">
+      <node id="192">
         <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
         <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
-        <childnode refid="192" relation="public-inheritance">
-        </childnode>
         <childnode refid="193" relation="public-inheritance">
         </childnode>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
       </node>
-      <node id="193">
+      <node id="194">
         <label>Gui::Widgets::CheckFields::ICheckField</label>
         <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
       </node>
-      <node id="192">
+      <node id="193">
         <label>QLineEdit</label>
       </node>
-      <node id="190">
+      <node id="195">
+        <label>Gui::Widgets::CheckFields::CheckWebsite</label>
+        <link refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
         <label>Gui::Widgets::CheckFields::CheckValidField</label>
         <link refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField"/>
-        <childnode refid="191" relation="public-inheritance">
+        <childnode refid="192" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="195">
+      <node id="197">
         <label>Gui::Widgets::CheckFields::CheckQLineEdit</label>
         <link refid="d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit"/>
-        <childnode refid="196" relation="public-inheritance">
+        <childnode refid="198" relation="public-inheritance">
         </childnode>
-        <childnode refid="197" relation="public-inheritance">
+        <childnode refid="199" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="197">
+      <node id="199">
         <label>Gui::Widgets::CheckFields::ICheckField</label>
         <link refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField"/>
       </node>
-      <node id="196">
+      <node id="198">
         <label>QLineEdit</label>
       </node>
-      <node id="194">
+      <node id="196">
         <label>Gui::Widgets::CheckFields::CheckValidField</label>
         <link refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField"/>
-        <childnode refid="195" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
