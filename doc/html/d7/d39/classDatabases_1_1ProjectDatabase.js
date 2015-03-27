@@ -4,7 +4,7 @@ var classDatabases_1_1ProjectDatabase =
     [ "getAllProjects", "d7/d39/classDatabases_1_1ProjectDatabase.html#ac2532676aabcc8f304b2a3ddf4892205", null ],
     [ "getCostProjects", "d7/d39/classDatabases_1_1ProjectDatabase.html#a5629637e3611002aa024c4a275239cae", null ],
     [ "getNbProjects", "d7/d39/classDatabases_1_1ProjectDatabase.html#aa486ad21f156a8ba7d08baef29e0aaea", null ],
-    [ "getNbProjectsForACustomer", "d7/d39/classDatabases_1_1ProjectDatabase.html#a9e9a1fb58e4e90fcc568d1c171b863ff", null ],
+    [ "getNbProjects", "d7/d39/classDatabases_1_1ProjectDatabase.html#a62db108febd50cdc2dc2b686cf954da6", null ],
     [ "getProject", "d7/d39/classDatabases_1_1ProjectDatabase.html#a1bf482f645ba7bea80ed6c52bc013a4d", null ],
     [ "getProject", "d7/d39/classDatabases_1_1ProjectDatabase.html#a165ec8686b565792e01fb79c550e6d4d", null ],
     [ "getProjects", "d7/d39/classDatabases_1_1ProjectDatabase.html#a75963715e3cae349fe3aa555f7226c56", null ],

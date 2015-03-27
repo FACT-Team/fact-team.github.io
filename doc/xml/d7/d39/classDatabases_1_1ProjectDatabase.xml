@@ -164,31 +164,31 @@
         </inbodydescription>
         <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="74" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="188" bodyend="203"/>
       </memberdef>
-      <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a9e9a1fb58e4e90fcc568d1c171b863ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition>int Databases::ProjectDatabase::getNbProjectsForACustomer</definition>
-        <argsstring>(const int pId)</argsstring>
-        <name>getNbProjectsForACustomer</name>
+        <definition>int Databases::ProjectDatabase::getNbProjects</definition>
+        <argsstring>(const int customerId)</argsstring>
+        <name>getNbProjects</name>
         <param>
           <type>const int</type>
-          <declname>pId</declname>
+          <declname>customerId</declname>
         </param>
         <briefdescription>
-<para><ref refid="d7/d39/classDatabases_1_1ProjectDatabase" kindref="compound">ProjectDatabase</ref>:getNbProjectsForACustomer Return the number of projects existing for an identify customer <emphasis>pId</emphasis> </para>        </briefdescription>
+<para>Get the number of projects. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>pId</parametername>
+<parametername>customerId</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Project id </para></parameterdescription>
+<para>If customerId isn&apos;t specified if it&apos;s not valid, get all projects else get the specified customer projects </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>number of projects </para></simplesect>
+<simplesect kind="return"><para>Number of projects in the database for all or for a customer </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="205" bodyend="220"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="205" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QMap&lt; int, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
@@ -214,7 +214,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="89" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="222" bodyend="246"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="89" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="224" bodyend="248"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
@@ -240,7 +240,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="97" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="248" bodyend="280"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="97" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="250" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref> *</type>
@@ -267,7 +267,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="282" bodyend="310"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="284" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1ab644aeb47d9666e8191cc9bc6ab93417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QSharedPointer&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> &gt;</type>
@@ -359,28 +359,28 @@
 <simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>Project </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="418">
+      <node id="400">
         <label>Databases::ProjectDatabase</label>
         <link refid="d7/d39/classDatabases_1_1ProjectDatabase"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="401" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="419">
+      <node id="401">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="420">
+      <node id="402">
         <label>Databases::ProjectDatabase</label>
         <link refid="d7/d39/classDatabases_1_1ProjectDatabase"/>
-        <childnode refid="421" relation="public-inheritance">
+        <childnode refid="403" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="421">
+      <node id="403">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
-        <childnode refid="421" relation="usage">
+        <childnode refid="403" relation="usage">
           <edgelabel>#_instance</edgelabel>
         </childnode>
       </node>
@@ -402,7 +402,7 @@
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac2532676aabcc8f304b2a3ddf4892205" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getAllProjects</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a5629637e3611002aa024c4a275239cae" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getCostProjects</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa486ad21f156a8ba7d08baef29e0aaea" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getNbProjects</name></member>
-      <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a9e9a1fb58e4e90fcc568d1c171b863ff" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getNbProjectsForACustomer</name></member>
+      <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getNbProjects</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProject</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a165ec8686b565792e01fb79c550e6d4d" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProject</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProjects</name></member>

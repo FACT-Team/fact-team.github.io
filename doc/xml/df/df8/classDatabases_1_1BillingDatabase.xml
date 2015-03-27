@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="167" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="167" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="198" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -49,7 +49,7 @@
           <declname>pId</declname>
         </param>
         <briefdescription>
-<para>BillingDatabase::getCustomer get informations about the billing identified by <emphasis>pId</emphasis> </para>        </briefdescription>
+<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a835d4ca35a046fe1d0b336a1b8cf8f85" kindref="member">BillingDatabase::getBilling</ref> get informations about the billing identified by <emphasis>pId</emphasis> </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -400,58 +400,6 @@
         </inbodydescription>
         <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="140" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="353" bodyend="373"/>
       </memberdef>
-      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
-        <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBillings</definition>
-        <argsstring>(const int projectId)</argsstring>
-        <name>getBillings</name>
-        <param>
-          <type>const int</type>
-          <declname>projectId</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kindref="member">BillingDatabase::getBillings</ref> get bills by project. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>projectId</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>List with bills </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="147" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="375" bodyend="401"/>
-      </memberdef>
-      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1ac42335646086c24b2adb6afc2829e07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
-        <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getAllBillingsOnly</definition>
-        <argsstring>(const int idProject)</argsstring>
-        <name>getAllBillingsOnly</name>
-        <param>
-          <type>const int</type>
-          <declname>idProject</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="df/df8/classDatabases_1_1BillingDatabase_1ac42335646086c24b2adb6afc2829e07c" kindref="member">BillingDatabase::getAllBillingsOnly</ref> get all billings which aren&apos;t quotes for the project <emphasis>p</emphasis> </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>p</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>the list of <bold>Billing</bold> </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="155" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="403" bodyend="432"/>
-      </memberdef>
       <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
         <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBillingsBetweenDates</definition>
@@ -487,7 +435,169 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="164" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="434" bodyend="464"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="149" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="375" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1af94468bf6fef5f076bad1d6df4fae887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
+        <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBills</definition>
+        <argsstring>(const int projectId=0)</argsstring>
+        <name>getBills</name>
+        <param>
+          <type>const int</type>
+          <declname>projectId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the bills. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>projectId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Get the specified project bills </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The list of bills </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="156" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="407" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a86491627f6a9d610e62832fd6cbdc0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="d4/d5c/classModels_1_1Billing" kindref="compound">Billing</ref> &gt;</type>
+        <definition>QList&lt; Billing &gt; Databases::BillingDatabase::getBillsPaid</definition>
+        <argsstring>(const int projectId=0)</argsstring>
+        <name>getBillsPaid</name>
+        <param>
+          <type>const int</type>
+          <declname>projectId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the bills paid. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>projectId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Get the specified project bills paid </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The list of bills paid </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="163" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="434" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1af173470dd295561e6b1e667cfbba31a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getNbBills</definition>
+        <argsstring>(const int customerId=0)</argsstring>
+        <name>getNbBills</name>
+        <param>
+          <type>const int</type>
+          <declname>customerId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the number of bills. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If customerId isn&apos;t specified or if it&apos;s not valid, get all bills else get the specified customer bills </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of bills in the database for all or for a customer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="171" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="461" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a5a0b207606dd48fcc31d5b503146bbfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getNbBillsPaid</definition>
+        <argsstring>(const int customerId=0)</argsstring>
+        <name>getNbBillsPaid</name>
+        <param>
+          <type>const int</type>
+          <declname>customerId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the number of bills paid. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If customerId isn&apos;t specified if it&apos;s not valid, get all bills paid else get the specified customer bills paid </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of bills paid in the database for all or for a customer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="179" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="488" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a68ba76c50066be61efbe71e0be24677c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getNbQuotes</definition>
+        <argsstring>(const int customerId=0)</argsstring>
+        <name>getNbQuotes</name>
+        <param>
+          <type>const int</type>
+          <declname>customerId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the number of quotes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If customerId isn&apos;t specified or if it&apos;s not valid, get all quotes else get the specified customer quotes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of quotes in the database for all or for a customer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="187" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="515" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df8/classDatabases_1_1BillingDatabase_1a61b223cf1f0bef5421e6c39fd4bbe827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Databases::BillingDatabase::getNbDocs</definition>
+        <argsstring>(const int customerId=0)</argsstring>
+        <name>getNbDocs</name>
+        <param>
+          <type>const int</type>
+          <declname>customerId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Get the number of documents. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If customerId isn&apos;t specified or if if it&apos;s not valid, get all documents else get the specified customer documents </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of quotes in the database for all or for a customer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="195" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="542" bodyend="567"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -503,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="172" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="5" bodyend="7"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="203" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.cpp" bodystart="5" bodyend="7"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -539,7 +649,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="21" bodyend="173"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h" bodystart="21" bodyend="204"/>
     <listofallmembers>
       <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>_dbInstance</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a1f332c6c766217ecd724a21b817920b3" prot="private" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>_instance</name></member>
@@ -556,16 +666,20 @@
       <member refid="dd/db0/classDatabases_1_1Database_1a2014dda2689bcdf325e8bce020a4b73c" prot="protected" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>Database</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a21f6c86f95b149ac7dbf0ffc94021a93" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>executeFile</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getAllBillingsOfProject</name></member>
-      <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac42335646086c24b2adb6afc2829e07c" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getAllBillingsOnly</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a835d4ca35a046fe1d0b336a1b8cf8f85" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBilling</name></member>
-      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillings</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsBetweenDates</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1ade754e6aa116aa75606cf24474631322" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillingsTable</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1af94468bf6fef5f076bad1d6df4fae887" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBills</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a86491627f6a9d610e62832fd6cbdc0bb" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getBillsPaid</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a57e4b68cac145ba400d408698312599b" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumber</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a78cf9a2e6d059fcf20136aa4b0b9d7ba" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxBillingNumberOfCustomer</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a91704d31741279aacf9a9903b7ebcbf5" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxQuoteNumber</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getMaxQuoteNumberOfCustomer</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1af173470dd295561e6b1e667cfbba31a6" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getNbBills</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a5a0b207606dd48fcc31d5b503146bbfa" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getNbBillsPaid</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a61b223cf1f0bef5421e6c39fd4bbe827" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getNbDocs</name></member>
+      <member refid="df/df8/classDatabases_1_1BillingDatabase_1a68ba76c50066be61efbe71e0be24677c" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>getNbQuotes</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1aee84d7d07ff4a25251c61030019e5abb" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>instance</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a3cf57f0af08ad3f4d588d59eafcadb56" prot="public" virt="non-virtual" ambiguityscope="Databases::Database::"><scope>Databases::BillingDatabase</scope><name>instance</name></member>
       <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0e1651d61ecec830edf4da0413cda325" prot="public" virt="non-virtual"><scope>Databases::BillingDatabase</scope><name>isBillingPaid</name></member>

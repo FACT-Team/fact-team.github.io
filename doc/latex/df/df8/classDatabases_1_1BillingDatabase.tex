@@ -20,7 +20,7 @@ Inheritance diagram for Databases\-:\-:Billing\-Database\-:\begin{figure}[H]
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $\ast$ \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{get\-Billing} (const int p\-Id)
-\begin{DoxyCompactList}\small\item\em Billing\-Database\-::get\-Customer get informations about the billing identified by {\itshape p\-Id} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} get informations about the billing identified by {\itshape p\-Id} \end{DoxyCompactList}\item 
 \hyperlink{classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel}{Wdg\-Models\-::\-Billings\-Table\-Model} $\ast$ \hyperlink{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{get\-Billings\-Table} (const int id\-Project)  throw (\-Db\-Exception$\ast$)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ade754e6aa116aa75606cf24474631322}{Billing\-Database\-::get\-Billings\-Table} Return an item model of billings for Q\-Table\-View. \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1BillingDatabase_a656c622366884194a6823b679d7d2f63}{add\-Billing} (const \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} \&)
@@ -48,12 +48,20 @@ Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Billing}{Models\-::\-Billing} $>
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} Add the element of the {\itshape q} request and return their. \end{DoxyCompactList}\item 
 Q\-Map$<$ \hyperlink{classModels_1_1Project}{Project} $\ast$, \hyperlink{classModels_1_1Billing}{Billing} $\ast$ $>$ \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{get\-All\-Billings\-Of\-Project} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a44c3e09fbb7d540579f4cceae4d6901f}{Billing\-Database\-::get\-All\-Billings\-Of\-Project} Return a map with the project id as key linked to the billing. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{get\-Billings} (const int project\-Id)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. \end{DoxyCompactList}\item 
-Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{get\-All\-Billings\-Only} (const int id\-Project)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{Billing\-Database\-::get\-All\-Billings\-Only} get all billings which aren't quotes for the project {\itshape p} \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{get\-Billings\-Between\-Dates} (Q\-Date begin, Q\-Date end)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{Billing\-Database\-::get\-Billings\-Between\-Dates} get billings in the list between {\itshape begin} and {\itshape end} dates. \end{DoxyCompactList}\item 
+Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_af94468bf6fef5f076bad1d6df4fae887}{get\-Bills} (const int project\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the bills. \end{DoxyCompactList}\item 
+Q\-List$<$ \hyperlink{classModels_1_1Billing}{Billing} $>$ \hyperlink{classDatabases_1_1BillingDatabase_a86491627f6a9d610e62832fd6cbdc0bb}{get\-Bills\-Paid} (const int project\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the bills paid. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabases_1_1BillingDatabase_af173470dd295561e6b1e667cfbba31a6}{get\-Nb\-Bills} (const int customer\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the number of bills. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabases_1_1BillingDatabase_a5a0b207606dd48fcc31d5b503146bbfa}{get\-Nb\-Bills\-Paid} (const int customer\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the number of bills paid. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabases_1_1BillingDatabase_a68ba76c50066be61efbe71e0be24677c}{get\-Nb\-Quotes} (const int customer\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the number of quotes. \end{DoxyCompactList}\item 
+int \hyperlink{classDatabases_1_1BillingDatabase_a61b223cf1f0bef5421e6c39fd4bbe827}{get\-Nb\-Docs} (const int customer\-Id=0)
+\begin{DoxyCompactList}\small\item\em Get the number of documents. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -126,25 +134,6 @@ billing id
 \begin{DoxyReturn}{Returns}
 Map with projects and Billing 
 \end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-All\-Billings\-Only@{get\-All\-Billings\-Only}}
-\index{get\-All\-Billings\-Only@{get\-All\-Billings\-Only}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-All\-Billings\-Only}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-All\-Billings\-Only (
-\begin{DoxyParamCaption}
-\item[{const int}]{id\-Project}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_ac42335646086c24b2adb6afc2829e07c}{Billing\-Database\-::get\-All\-Billings\-Only} get all billings which aren't quotes for the project {\itshape p} 
-
-
-\begin{DoxyParams}{Parameters}
-{\em p} & \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-the list of {\bfseries Billing} 
-\end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billing@{get\-Billing}}
 \index{get\-Billing@{get\-Billing}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
 \subsubsection[{get\-Billing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Models\-::\-Billing} $\ast$ Databases\-::\-Billing\-Database\-::get\-Billing (
@@ -154,7 +143,7 @@ the list of {\bfseries Billing}
 )}}\label{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}
 
 
-Billing\-Database\-::get\-Customer get informations about the billing identified by {\itshape p\-Id} 
+\hyperlink{classDatabases_1_1BillingDatabase_a835d4ca35a046fe1d0b336a1b8cf8f85}{Billing\-Database\-::get\-Billing} get informations about the billing identified by {\itshape p\-Id} 
 
 
 \begin{DoxyParams}{Parameters}
@@ -182,25 +171,6 @@ the Billing
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 a billing formed according to Q\-Shared\-Pointer 
-\end{DoxyReturn}
-\hypertarget{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings@{get\-Billings}}
-\index{get\-Billings@{get\-Billings}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
-\subsubsection[{get\-Billings}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-Billings (
-\begin{DoxyParamCaption}
-\item[{const int}]{project\-Id}
-\end{DoxyParamCaption}
-)}}\label{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}
-
-
-\hyperlink{classDatabases_1_1BillingDatabase_a0eb72e4dfee0ff38f2f4b795a16007c8}{Billing\-Database\-::get\-Billings} get bills by project. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em project\-Id} & \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-List with bills 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_a062336da6fc0e3c7af4396fccd4025ee}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Billings\-Between\-Dates@{get\-Billings\-Between\-Dates}}
 \index{get\-Billings\-Between\-Dates@{get\-Billings\-Between\-Dates}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
@@ -247,6 +217,44 @@ the list of {\bfseries Billing}
 \end{DoxyExceptions}
 \begin{DoxyReturn}{Returns}
 Q\-Standard\-Item\-Model an item model for Q\-Table\-View 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_af94468bf6fef5f076bad1d6df4fae887}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Bills@{get\-Bills}}
+\index{get\-Bills@{get\-Bills}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Bills}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-Bills (
+\begin{DoxyParamCaption}
+\item[{const int}]{project\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_af94468bf6fef5f076bad1d6df4fae887}
+
+
+Get the bills. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project\-Id} & Get the specified project bills \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of bills 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a86491627f6a9d610e62832fd6cbdc0bb}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Bills\-Paid@{get\-Bills\-Paid}}
+\index{get\-Bills\-Paid@{get\-Bills\-Paid}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Bills\-Paid}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Billing} $>$ Databases\-::\-Billing\-Database\-::get\-Bills\-Paid (
+\begin{DoxyParamCaption}
+\item[{const int}]{project\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a86491627f6a9d610e62832fd6cbdc0bb}
+
+
+Get the bills paid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project\-Id} & Get the specified project bills paid \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of bills paid 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_a57e4b68cac145ba400d408698312599b}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Max\-Billing\-Number@{get\-Max\-Billing\-Number}}
 \index{get\-Max\-Billing\-Number@{get\-Max\-Billing\-Number}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
@@ -313,6 +321,82 @@ The last number
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 the last number of the {\bfseries Customer}'s quote 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_af173470dd295561e6b1e667cfbba31a6}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Nb\-Bills@{get\-Nb\-Bills}}
+\index{get\-Nb\-Bills@{get\-Nb\-Bills}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Nb\-Bills}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Nb\-Bills (
+\begin{DoxyParamCaption}
+\item[{const int}]{customer\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_af173470dd295561e6b1e667cfbba31a6}
+
+
+Get the number of bills. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\-Id} & If customer\-Id isn't specified or if it's not valid, get all bills else get the specified customer bills \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of bills in the database for all or for a customer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a5a0b207606dd48fcc31d5b503146bbfa}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Nb\-Bills\-Paid@{get\-Nb\-Bills\-Paid}}
+\index{get\-Nb\-Bills\-Paid@{get\-Nb\-Bills\-Paid}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Nb\-Bills\-Paid}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Nb\-Bills\-Paid (
+\begin{DoxyParamCaption}
+\item[{const int}]{customer\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a5a0b207606dd48fcc31d5b503146bbfa}
+
+
+Get the number of bills paid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\-Id} & If customer\-Id isn't specified if it's not valid, get all bills paid else get the specified customer bills paid \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of bills paid in the database for all or for a customer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a61b223cf1f0bef5421e6c39fd4bbe827}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Nb\-Docs@{get\-Nb\-Docs}}
+\index{get\-Nb\-Docs@{get\-Nb\-Docs}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Nb\-Docs}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Nb\-Docs (
+\begin{DoxyParamCaption}
+\item[{const int}]{customer\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a61b223cf1f0bef5421e6c39fd4bbe827}
+
+
+Get the number of documents. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\-Id} & If customer\-Id isn't specified or if if it's not valid, get all documents else get the specified customer documents \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of quotes in the database for all or for a customer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1BillingDatabase_a68ba76c50066be61efbe71e0be24677c}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!get\-Nb\-Quotes@{get\-Nb\-Quotes}}
+\index{get\-Nb\-Quotes@{get\-Nb\-Quotes}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
+\subsubsection[{get\-Nb\-Quotes}]{\setlength{\rightskip}{0pt plus 5cm}int Databases\-::\-Billing\-Database\-::get\-Nb\-Quotes (
+\begin{DoxyParamCaption}
+\item[{const int}]{customer\-Id = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1BillingDatabase_a68ba76c50066be61efbe71e0be24677c}
+
+
+Get the number of quotes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\-Id} & If customer\-Id isn't specified or if it's not valid, get all quotes else get the specified customer quotes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of quotes in the database for all or for a customer 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1BillingDatabase_aee84d7d07ff4a25251c61030019e5abb}{\index{Databases\-::\-Billing\-Database@{Databases\-::\-Billing\-Database}!instance@{instance}}
 \index{instance@{instance}!Databases::BillingDatabase@{Databases\-::\-Billing\-Database}}
