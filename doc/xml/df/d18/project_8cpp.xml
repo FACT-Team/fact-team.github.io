@@ -521,7 +521,7 @@
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>_endDate<sp/>=<sp/>p-&gt;<ref refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kindref="member">getEndDate</ref>();</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>_dailyRate<sp/>=<sp/>p-&gt;<ref refid="dd/d3f/classModels_1_1Project_1a46d74a7452e712d223f1ca444a4cc180" kindref="member">getDailyRate</ref>();</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>_customer<sp/>=<sp/>p-&gt;<ref refid="dd/d3f/classModels_1_1Project_1ad15f442a24c9d42144b73f27a7afaa35" kindref="member">getCustomer</ref>();</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>_cost<sp/>=<sp/>getCost();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>_cost<sp/>=<sp/>computeProjectCost();</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Project::remove()</highlight></codeline>
@@ -619,7 +619,7 @@
 <codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>p);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Project::getCost()</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Project::computeProjectCost()</highlight></codeline>
 <codeline lineno="158"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ret(0.0);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;Billing&gt;<sp/>bills<sp/>=</highlight></codeline>
