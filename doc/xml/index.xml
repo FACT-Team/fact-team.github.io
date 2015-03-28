@@ -101,13 +101,9 @@
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0cbeb663b7246adb4209b2da2e691429" kind="function"><name>getMaxQuoteNumberOfCustomer</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a2e6c6cd8b3b040eeb7fc6ae727e85013" kind="function"><name>getBilling</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1a44c3e09fbb7d540579f4cceae4d6901f" kind="function"><name>getAllBillingsOfProject</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1ae4300e4e8f5587facf0fd370b4178a79" kind="function"><name>getBillsBetweenDates</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1af94468bf6fef5f076bad1d6df4fae887" kind="function"><name>getBills</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a86491627f6a9d610e62832fd6cbdc0bb" kind="function"><name>getBillsPaid</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1af173470dd295561e6b1e667cfbba31a6" kind="function"><name>getNbBills</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a5a0b207606dd48fcc31d5b503146bbfa" kind="function"><name>getNbBillsPaid</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a68ba76c50066be61efbe71e0be24677c" kind="function"><name>getNbQuotes</name></member>
-    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a61b223cf1f0bef5421e6c39fd4bbe827" kind="function"><name>getNbDocs</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a0eb72e4dfee0ff38f2f4b795a16007c8" kind="function"><name>getBillings</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac42335646086c24b2adb6afc2829e07c" kind="function"><name>getAllBillingsOnly</name></member>
+    <member refid="df/df8/classDatabases_1_1BillingDatabase_1a062336da6fc0e3c7af4396fccd4025ee" kind="function"><name>getBillingsBetweenDates</name></member>
     <member refid="df/df8/classDatabases_1_1BillingDatabase_1ac5350c5f16b6c699da4676b965c564df" kind="function"><name>BillingDatabase</name></member>
   </compound>
   <compound refid="d1/db1/classBillingDatabaseTest" kind="class"><name>BillingDatabaseTest</name>
@@ -129,7 +125,6 @@
     <member refid="d1/db1/classBillingDatabaseTest_1a3fd9b3542257723148b5eb1a42d0f2c6" kind="slot"><name>getAllBillingsOnly</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1a068303638c19c443e6cba4aefc5f1da5" kind="slot"><name>getBillingsBetweenDates</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1a05d7e5418a3775ea6acce551e2f603aa" kind="slot"><name>getAllBillingsOfProjectTest</name></member>
-    <member refid="d1/db1/classBillingDatabaseTest_1a6dbddfb016f475226ac613da66ee6f95" kind="slot"><name>getNb</name></member>
     <member refid="d1/db1/classBillingDatabaseTest_1ad8e146e0b1164f59f29af887348ce4a3" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="dc/d0c/classBillingModelTest" kind="class"><name>BillingModelTest</name>
@@ -408,6 +403,7 @@
   </compound>
   <compound refid="db/dd7/classModels_1_1Customer" kind="class"><name>Models::Customer</name>
     <member refid="db/dd7/classModels_1_1Customer_1addd80f9411019f3c8158fadaea90f36b" kind="variable"><name>_turnover</name></member>
+    <member refid="db/dd7/classModels_1_1Customer_1a007511f2c6a5bf2dac84f960de8122c2" kind="variable"><name>_isArchived</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kind="function"><name>Customer</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a02a1aee507d4ff4f60019070793fe604" kind="function"><name>Customer</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" kind="function"><name>commit</name></member>
@@ -417,6 +413,8 @@
     <member refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" kind="function"><name>getPath</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" kind="function"><name>getNameFolder</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kind="function"><name>getTurnover</name></member>
+    <member refid="db/dd7/classModels_1_1Customer_1a1dfb958b33d0fcc9892fe902487be43d" kind="function"><name>isArchived</name></member>
+    <member refid="db/dd7/classModels_1_1Customer_1a15ec2603da3dd66c9355a9604b5abded" kind="function"><name>setIsArchived</name></member>
   </compound>
   <compound refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" kind="class"><name>Gui::Widgets::CustomerContextualMenu</name>
     <member refid="d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu_1ac6e022cc92ba1897186acc678f54a819" kind="variable"><name>_removeAction</name></member>
@@ -440,7 +438,6 @@
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" kind="function"><name>getItemProject</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a23017b6db7808fa1d03e55e063418670" kind="function"><name>getCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aedb0c575bd9141547e4e084fd260beb7" kind="function"><name>updateCustomer</name></member>
-    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aecb30e5fc92b73a43fc99c799e8ba964" kind="function"><name>getCustomers</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a4c7a82b1a53fc5fa7e6d6aaa3562342e" kind="function"><name>CustomerDatabase</name></member>
   </compound>
   <compound refid="d2/d63/classCustomerDatabaseTest" kind="class"><name>CustomerDatabaseTest</name>
@@ -455,7 +452,6 @@
     <member refid="d2/d63/classCustomerDatabaseTest_1a8a97286d6c9125edc7fff99c4e6fb389" kind="slot"><name>getCustomerTableException</name></member>
     <member refid="d2/d63/classCustomerDatabaseTest_1ab7b3b6d4627bfd5c4e0f503711566f2f" kind="slot"><name>getCustomerTreeException</name></member>
     <member refid="d2/d63/classCustomerDatabaseTest_1a429b849c7a1f32a86200aafad82eea78" kind="slot"><name>getNbCustomersTest</name></member>
-    <member refid="d2/d63/classCustomerDatabaseTest_1a9d41f1ba02edfb37ee89fbffe75d2031" kind="slot"><name>getCustomers</name></member>
   </compound>
   <compound refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget" kind="class"><name>Gui::Widgets::CustomerDataWidget</name>
     <member refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget_1a77e82f7c57ffed17d4cd269a8110105b" kind="variable"><name>ui</name></member>
@@ -659,26 +655,25 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a52d033c14efb98b5b389121b8d60f2fe" kind="slot"><name>addCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6487a725a2b58b89062944778ac59eca" kind="slot"><name>editCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ab86dd052f06fb56dbd77e3ae4c228796" kind="slot"><name>removeCustomer</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a8fb7964262a931657329a4c13afb2dad" kind="slot"><name>archiveCustomer</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa7d3f2553b55d74885ad7f19ed403dfd" kind="slot"><name>addQuote</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a4b9d5d9bee4b7a5f7d8cfe04d1222315" kind="slot"><name>addBill</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a149c8e2210fa249c0510e1f607079fde" kind="slot"><name>billingIsPaid</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a5dfb182cf52eb48f71e70cd193ef7a8b" kind="slot"><name>editUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af50656b4c43aa53bae1ac4a3d6b4c953" kind="slot"><name>search</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1acc49a5a35dfc7eb8f835ff425618e2d9" kind="slot"><name>addProject</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1aff6f88facb002c942273170d3543bb54" kind="slot"><name>removeProject</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a80af8e18d89a51a3368a65fb22e02040" kind="slot"><name>editProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a7e00765c3da7a97ba937bdecb095200b" kind="slot"><name>removeProject</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1adade8f873eb855b2ca0bb851c91cc5a9" kind="slot"><name>editProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6df8072789ea8ec81ca2dd8fa78a4b01" kind="slot"><name>aboutQt</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a26726203b873f41f607d78c5d5619c7d" kind="slot"><name>aboutFact</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a39fe49fec47b6cbe4c8664d97bc47e0f" kind="slot"><name>aboutFactDev</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a56db09003bd79c8635488d0edc57cdb3" kind="slot"><name>aboutIcons</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1aef4e1621cfa50a15b85921215c7171b8" kind="slot"><name>updateButtons</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1ac71b4c99f67e10b31d9855e80a9565b7" kind="slot"><name>updateButtons</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a06bc679c41574cb679c6e5e7b673139c" kind="slot"><name>editDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af86458ad953cb70fb7a88245a6047550" kind="slot"><name>removeDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1adf1e721c73626d1810dd90c84920dcde" kind="slot"><name>copyDoc</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6fc6c0f088d3996ad941705a13d7aaae" kind="slot"><name>openPdf</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa4cfc2b980835fe1ccd5b869a237c05f" kind="slot"><name>computeTurnover</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a41e44415a270150b6630efcb87768d7f" kind="slot"><name>globalStatistics</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a078b2546e65d2b91d3b2b546db619adb" kind="slot"><name>customerStatistics</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8f4801de450f56afd74b87faf16da04e" kind="slot"><name>openContextualMenuTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6989ef14c237faef779b9f29b9f98e3e" kind="slot"><name>openContextualMenuTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a3e7084a936f63a4dece48c3e26313bff" kind="slot"><name>changeTree</name></member>
@@ -693,9 +688,9 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1a00eab7aab4d62dad1aea8c74f665d5a3" kind="function"><name>setupUi</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ac7fdd5d88e3eae674d0bfa7878247b3b" kind="function"><name>setupSignalsSlots</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a375857579f744667dae9b656ed01bf88" kind="function"><name>updateUI</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a72836957e4797ae4efa1d92e11a9fbc2" kind="function"><name>updateTableCustomers</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1ab3903279996f568a6f816535853e180a" kind="function"><name>updateTableCustomers</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1ad9803be89cc7aa0eecbb7dce21862236" kind="function"><name>updateTableProjects</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a7b49d87570dfcaf609c8765edee022d1" kind="function"><name>updateTree</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a218f896cce99c215fe9e5be3dd93036e" kind="function"><name>updateTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1af09c9b5dd4ad5eab54e73406eb1e54e9" kind="function"><name>updateUser</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1afc3dbfd261f3cfcb9457a4e907968d34" kind="function"><name>updateTableBillings</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a621004695255f247a73416966a514696" kind="function"><name>updateCostAndTurnover</name></member>
@@ -819,7 +814,7 @@
     <member refid="dd/d3f/classModels_1_1Project_1a2f322e63f6b42273c24093b9df46c2d6" kind="function"><name>operator==</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a8e7cc264d433c708323faccae7bdd082" kind="function"><name>operator&lt;</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1adf5947680a4eca62cd1cbda58a2a62f0" kind="function"><name>operator!=</name></member>
-    <member refid="dd/d3f/classModels_1_1Project_1ad03d0e009482299641f198935826e7c5" kind="function"><name>computeProjectCost</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1abadcaa9256589f11535114a2ab3464d6" kind="function"><name>getCost</name></member>
   </compound>
   <compound refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" kind="class"><name>Gui::Widgets::Delegates::ProjectComboDelegate</name>
     <member refid="d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_1abddfb5447d1698357a97b98a9e549a92" kind="variable"><name>_projects</name></member>
@@ -860,7 +855,7 @@
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a0816c768932243906e37045d4640cc8a" kind="function"><name>updateProject</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1abdd5fcb1913c2d2f375a658f6656c522" kind="function"><name>removeProject</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa486ad21f156a8ba7d08baef29e0aaea" kind="function"><name>getNbProjects</name></member>
-    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" kind="function"><name>getNbProjects</name></member>
+    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a9e9a1fb58e4e90fcc568d1c171b863ff" kind="function"><name>getNbProjectsForACustomer</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" kind="function"><name>getProjectsOfCustomer</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" kind="function"><name>getProjects</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" kind="function"><name>getProjectsTable</name></member>
@@ -1094,23 +1089,9 @@
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aedfea7b7d80e1877e50647fae5bdc052" kind="slot"><name>updateNextButton</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aa5da70f656530017906b5aa974fbc080" kind="slot"><name>accept</name></member>
   </compound>
-  <compound refid="db/df5/classStatisticModelTest" kind="class"><name>StatisticModelTest</name>
-    <member refid="db/df5/classStatisticModelTest_1a2da1251304fcb4598ca3fc6966fb2aa4" kind="variable"><name>s1</name></member>
-    <member refid="db/df5/classStatisticModelTest_1a640a67993525840f9c5fdab235667898" kind="variable"><name>s2</name></member>
-    <member refid="db/df5/classStatisticModelTest_1a1423af1f722f2c589d00072d4339815c" kind="function"><name>StatisticModelTest</name></member>
-    <member refid="db/df5/classStatisticModelTest_1a1fead1f65ed6b1380d5d698e28d3ccbf" kind="slot"><name>getTurnoverBeetweenDates</name></member>
-    <member refid="db/df5/classStatisticModelTest_1a93e14bf2f4265a60bc7875c0917061b8" kind="slot"><name>getGlobalTurnover</name></member>
-  </compound>
   <compound refid="db/d92/classModels_1_1Statistics" kind="class"><name>Models::Statistics</name>
     <member refid="db/d92/classModels_1_1Statistics_1a60ddd90a571ed4c3ce8c0f6317a36d63" kind="function"><name>Statistics</name></member>
     <member refid="db/d92/classModels_1_1Statistics_1a2004bf1a547fa92d0f88216897a10a15" kind="function"><name>getTurnoverBetweenDates</name></member>
-    <member refid="db/d92/classModels_1_1Statistics_1a5ae9c6694d97e6fd4711ca0ce1fcdb2f" kind="function"><name>getGlobalTurnover</name></member>
-  </compound>
-  <compound refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog" kind="class"><name>Gui::Dialogs::StatisticsDialog</name>
-    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ad0ff722f6461496adfc2bc4d4a42c838" kind="variable"><name>ui</name></member>
-    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a6fe5b8b662958e2740f7a5905168bca9" kind="function"><name>StatisticsDialog</name></member>
-    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ae7411c706f1339823203c69908f3e22a" kind="function"><name>~StatisticsDialog</name></member>
-    <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a8284c2ac0cc4c953d928ef9552a83096" kind="function"><name>singularPlural</name></member>
   </compound>
   <compound refid="dd/df6/classUtils_1_1String" kind="class"><name>Utils::String</name>
     <member refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kind="function"><name>firstLetterToUpper</name></member>
@@ -1140,12 +1121,12 @@
     <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" kind="variable"><name>escapeMode</name></member>
     <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" kind="function"><name>Tag</name></member>
   </compound>
+  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
+    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
+  </compound>
   <compound refid="d7/d26/classtestadder" kind="class"><name>testadder</name>
     <member refid="d7/d26/classtestadder_1a6c03fa78ee26c134f465ede23a82ee10" kind="function"><name>testadder</name></member>
     <member refid="d7/d26/classtestadder_1aa221c2d193ae74f3e15062d61dc2b782" kind="function"><name>~testadder</name></member>
-  </compound>
-  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
-    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
   </compound>
   <compound refid="de/d63/classTestMustache" kind="class"><name>TestMustache</name>
     <member refid="de/d63/classTestMustache_1a7d76f43b7da47c82c0ba6d6044bccf4a" kind="slot"><name>testContextLookup</name></member>
@@ -1364,10 +1345,6 @@
   <compound refid="dc/d22/startedwindowsdialog_8cpp" kind="file"><name>startedwindowsdialog.cpp</name>
   </compound>
   <compound refid="db/de2/startedwindowsdialog_8h" kind="file"><name>startedwindowsdialog.h</name>
-  </compound>
-  <compound refid="dc/dd3/statisticsdialog_8cpp" kind="file"><name>statisticsdialog.cpp</name>
-  </compound>
-  <compound refid="d1/d46/statisticsdialog_8h" kind="file"><name>statisticsdialog.h</name>
   </compound>
   <compound refid="dd/da7/userdatadialog_8cpp" kind="file"><name>userdatadialog.cpp</name>
   </compound>
@@ -1677,10 +1654,6 @@
   <compound refid="db/d1e/searchtest_8cpp" kind="file"><name>searchtest.cpp</name>
   </compound>
   <compound refid="d4/df4/searchtest_8h" kind="file"><name>searchtest.h</name>
-  </compound>
-  <compound refid="dc/dee/statisticmodeltest_8cpp" kind="file"><name>statisticmodeltest.cpp</name>
-  </compound>
-  <compound refid="d3/d8f/statisticmodeltest_8h" kind="file"><name>statisticmodeltest.h</name>
   </compound>
   <compound refid="da/de3/usermodeltest_8cpp" kind="file"><name>usermodeltest.cpp</name>
   </compound>
