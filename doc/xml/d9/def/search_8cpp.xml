@@ -5,24 +5,24 @@
     <includes refid="d9/d85/search_8h" local="yes">search.h</includes>
     <includes local="no">QDebug</includes>
     <incdepgraph>
-      <node id="4207">
+      <node id="4304">
         <label>search.h</label>
         <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="4208" relation="include">
+        <childnode refid="4305" relation="include">
         </childnode>
       </node>
-      <node id="4209">
+      <node id="4306">
         <label>QDebug</label>
       </node>
-      <node id="4208">
+      <node id="4305">
         <label>QString</label>
       </node>
-      <node id="4206">
+      <node id="4303">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/search.cpp</label>
         <link refid="search.cpp"/>
-        <childnode refid="4207" relation="include">
+        <childnode refid="4304" relation="include">
         </childnode>
-        <childnode refid="4209" relation="include">
+        <childnode refid="4306" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -164,95 +164,94 @@
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.company<sp/>as<sp/>ccompany,<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.address<sp/>as<sp/>caddress,<sp/>c.postalCode<sp/>as<sp/>cpostalcode,<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.city<sp/>as<sp/>ccity,<sp/>c.country<sp/>as<sp/>ccountry,<sp/>c.email<sp/>as<sp/>cemail,<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.phone<sp/>as<sp/>cphone,<sp/>c.mobilephone<sp/>as<sp/>cmobilephone,<sp/>c.fax<sp/>as<sp/>cfax,&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.isArchived<sp/>as<sp/>cisArchived<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;FROM<sp/>Customer<sp/>c<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;WHERE<sp/>1<sp/>AND<sp/>(0<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_groupFilter)<sp/>{</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_searchInCompanies<sp/>||<sp/>!_groupFilter)<sp/>{</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1af5e7f802c53a735915193fd596d45f07" kindref="member">filterOnCompany</ref>(filter,<sp/>list);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_searchInReferentLastname<sp/>||<sp/>!_groupFilter)<sp/>{</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1a27536d8a999a32164e1ac90bf9d24906" kindref="member">filterOnReferentLastname</ref>(filter,<sp/>list);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1af5e7f802c53a735915193fd596d45f07" kindref="member">filterOnCompany</ref>(filter,<sp/>list);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1a27536d8a999a32164e1ac90bf9d24906" kindref="member">filterOnReferentLastname</ref>(filter,<sp/>list);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>filter<sp/>+=<sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;)<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad38428f4aa81ba5951f82e0fcb92779c" kindref="member">Search::getSearchInCompanies</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="154"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInCompanies;</highlight></codeline>
-<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">Search::setSearchInCompanies</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInCompanies)</highlight></codeline>
-<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInCompanies<sp/>=<sp/>searchInCompanies;</highlight></codeline>
-<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1aa415bcd966fef7bcd1cd5bd3373d57f6" kindref="member">Search::getSearchInReferentLastname</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="163"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInReferentLastname;</highlight></codeline>
-<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">Search::setSearchInReferentLastname</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInReferentLastname)</highlight></codeline>
-<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInReferentLastname<sp/>=<sp/>searchInReferentLastname;</highlight></codeline>
-<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a2f5ee925709a654cedef85732e448438" kindref="member">Search::getGroupFilter</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="172"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_groupFilter;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">Search::setGroupFilter</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>groupFilter)</highlight></codeline>
-<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>_groupFilter<sp/>=<sp/>groupFilter;</highlight></codeline>
-<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal">QString<sp/><ref refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kindref="member">Search::getText</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="182"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_text;</highlight></codeline>
-<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">Search::setText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;text)</highlight></codeline>
-<codeline lineno="187"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>_text<sp/>=<sp/>text;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>_text.replace(</highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&apos;&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1adf4525d5961793999c191e010a58bb56" kindref="member">Search::getSearchInBillsQuotes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="192"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInBillsQuotes;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">Search::setSearchInBillsQuotes</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInBillsQuotes)</highlight></codeline>
-<codeline lineno="197"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInBillsQuotes<sp/>=<sp/>searchInBillsQuotes;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a6c8f401bb696db96cc57a635d46910dd" kindref="member">Search::getSearchInProjects</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="202"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInProjects;</highlight></codeline>
-<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">Search::setSearchInProjects</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInProjects)</highlight></codeline>
-<codeline lineno="207"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInProjects<sp/>=<sp/>searchInProjects;</highlight></codeline>
-<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">Search::searchInContributories</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="211"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInContributories;</highlight></codeline>
-<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">Search::setSearchInContributories</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInContributories)</highlight></codeline>
-<codeline lineno="216"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInContributories<sp/>=<sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">searchInContributories</ref>;</highlight></codeline>
-<codeline lineno="218"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;c.phone<sp/>as<sp/>cphone,<sp/>c.mobilephone<sp/>as<sp/>cmobilephone,<sp/>c.fax<sp/>as<sp/>cfax<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;FROM<sp/>Customer<sp/>c<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;WHERE<sp/>1<sp/>AND<sp/>(0<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_groupFilter)<sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_searchInCompanies<sp/>||<sp/>!_groupFilter)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1af5e7f802c53a735915193fd596d45f07" kindref="member">filterOnCompany</ref>(filter,<sp/>list);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_searchInReferentLastname<sp/>||<sp/>!_groupFilter)<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1a27536d8a999a32164e1ac90bf9d24906" kindref="member">filterOnReferentLastname</ref>(filter,<sp/>list);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1af5e7f802c53a735915193fd596d45f07" kindref="member">filterOnCompany</ref>(filter,<sp/>list);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search_1a27536d8a999a32164e1ac90bf9d24906" kindref="member">filterOnReferentLastname</ref>(filter,<sp/>list);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>filter<sp/>+=<sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;)<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ad38428f4aa81ba5951f82e0fcb92779c" kindref="member">Search::getSearchInCompanies</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="153"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInCompanies;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">Search::setSearchInCompanies</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInCompanies)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInCompanies<sp/>=<sp/>searchInCompanies;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1aa415bcd966fef7bcd1cd5bd3373d57f6" kindref="member">Search::getSearchInReferentLastname</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="162"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInReferentLastname;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">Search::setSearchInReferentLastname</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInReferentLastname)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInReferentLastname<sp/>=<sp/>searchInReferentLastname;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a2f5ee925709a654cedef85732e448438" kindref="member">Search::getGroupFilter</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="171"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_groupFilter;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">Search::setGroupFilter</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>groupFilter)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>_groupFilter<sp/>=<sp/>groupFilter;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">QString<sp/><ref refid="d6/d44/classModels_1_1Search_1a30d4355f72278e6e466dc64208947f8b" kindref="member">Search::getText</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="181"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_text;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">Search::setText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;text)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>_text<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>_text.replace(</highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&apos;&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1adf4525d5961793999c191e010a58bb56" kindref="member">Search::getSearchInBillsQuotes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="191"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInBillsQuotes;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">Search::setSearchInBillsQuotes</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInBillsQuotes)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInBillsQuotes<sp/>=<sp/>searchInBillsQuotes;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1a6c8f401bb696db96cc57a635d46910dd" kindref="member">Search::getSearchInProjects</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="201"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInProjects;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">Search::setSearchInProjects</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInProjects)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInProjects<sp/>=<sp/>searchInProjects;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">Search::searchInContributories</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="210"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_searchInContributories;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">Search::setSearchInContributories</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>searchInContributories)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchInContributories<sp/>=<sp/><ref refid="d6/d44/classModels_1_1Search_1ab799572f484cc01a515b36ea3723ee06" kindref="member">searchInContributories</ref>;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/search.cpp"/>
   </compounddef>

@@ -76,6 +76,7 @@ var hierarchy =
       [ "Gui::Dialogs::DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", null ],
       [ "Gui::Dialogs::MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", null ],
       [ "Gui::Dialogs::StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", null ],
+      [ "Gui::Dialogs::StatisticsDialog", "d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html", null ],
       [ "Gui::Dialogs::UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
@@ -116,6 +117,7 @@ var hierarchy =
       [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", null ],
       [ "RateModelTest", "d2/dcd/classRateModelTest.html", null ],
       [ "searchTest", "d7/d51/classsearchTest.html", null ],
+      [ "StatisticModelTest", "db/df5/classStatisticModelTest.html", null ],
       [ "StringTest", "d1/d6b/classStringTest.html", null ],
       [ "TestMustache", "de/d63/classTestMustache.html", null ],
       [ "TestMustache", "de/d63/classTestMustache.html", null ],
@@ -137,8 +139,8 @@ var hierarchy =
     [ "Models::Statistics", "db/d92/classModels_1_1Statistics.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
 ];

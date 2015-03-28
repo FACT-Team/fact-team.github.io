@@ -7,6 +7,7 @@ var namespaceGui =
       [ "DialogAddCustomer", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer.html", "d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" ],
       [ "MessageBox", "d9/d31/classGui_1_1Dialogs_1_1MessageBox.html", "d9/d31/classGui_1_1Dialogs_1_1MessageBox" ],
       [ "StartedWindowsDialog", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html", "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog" ],
+      [ "StatisticsDialog", "d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html", "d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog" ],
       [ "UserDataDialog", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog.html", "d3/d81/classGui_1_1Dialogs_1_1UserDataDialog" ]
     ] ],
     [ "Docks", null, [
