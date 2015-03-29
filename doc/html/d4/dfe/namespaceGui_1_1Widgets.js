@@ -22,7 +22,6 @@ var namespaceGui_1_1Widgets =
       [ "ComboBoxDelegate", "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate.html", "d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" ],
       [ "DoubleSpinBoxDelegate", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" ],
       [ "ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate" ],
-      [ "TextareaDelegate", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" ],
       [ "UnitComboDelegate", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate.html", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" ]
     ] ],
     [ "WdgModels", null, [
