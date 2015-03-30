@@ -1,16 +1,34 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d2/dbc/userdatabase_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/dbc/userdatabase_8h" kind="file">
     <compoundname>userdatabase.h</compoundname>
     <includes refid="d8/d9c/database_8h" local="yes">database/database.h</includes>
     <includes refid="da/de0/dbexception_8h" local="yes">exceptions/dbexception.h</includes>
     <includes refid="d8/ddb/user_8h" local="yes">models/user.h</includes>
-    <includedby refid="dd/da0/userdatabase_8cpp" local="yes">src/database/userdatabase.cpp</includedby>
-    <includedby refid="d6/d33/user_8cpp" local="yes">src/models/user.cpp</includedby>
-    <includedby refid="de/de2/userdatabasetest_8cpp" local="yes">tests/database/userdatabasetest.cpp</includedby>
-    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">tests/models/customermodeltest.cpp</includedby>
-    <includedby refid="da/de3/usermodeltest_8cpp" local="yes">tests/models/usermodeltest.cpp</includedby>
+    <includedby refid="dd/da0/userdatabase_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp</includedby>
+    <includedby refid="d6/d33/user_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.cpp</includedby>
+    <includedby refid="de/de2/userdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.cpp</includedby>
+    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.cpp</includedby>
+    <includedby refid="da/de3/usermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.cpp</includedby>
     <incdepgraph>
+      <node id="735">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="736" relation="include">
+        </childnode>
+      </node>
+      <node id="715">
+        <label>QSettings</label>
+      </node>
+      <node id="710">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="725">
+        <label>QMessageBox</label>
+      </node>
+      <node id="734">
+        <label>QStandardPaths</label>
+      </node>
       <node id="721">
         <label>exceptions/dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
@@ -26,24 +44,6 @@
         </childnode>
         <childnode refid="726" relation="include">
         </childnode>
-      </node>
-      <node id="715">
-        <label>QSettings</label>
-      </node>
-      <node id="710">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="725">
-        <label>QMessageBox</label>
-      </node>
-      <node id="740">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="729" relation="include">
-        </childnode>
-      </node>
-      <node id="734">
-        <label>QStandardPaths</label>
       </node>
       <node id="732">
         <label>models/user.h</label>
@@ -67,69 +67,6 @@
         <childnode refid="741" relation="include">
         </childnode>
       </node>
-      <node id="711">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="735">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="736" relation="include">
-        </childnode>
-      </node>
-      <node id="724">
-        <label>stdexcept</label>
-      </node>
-      <node id="731">
-        <label>database/accessdatabase.h</label>
-        <link refid="df/dd6/accessdatabase_8h_source"/>
-        <childnode refid="729" relation="include">
-        </childnode>
-        <childnode refid="715" relation="include">
-        </childnode>
-        <childnode refid="728" relation="include">
-        </childnode>
-      </node>
-      <node id="714">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="738">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="713">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="716">
-        <label>QStandardItem</label>
-      </node>
-      <node id="720">
-        <label>exception</label>
-      </node>
-      <node id="739">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="729" relation="include">
-        </childnode>
-        <childnode refid="716" relation="include">
-        </childnode>
-        <childnode refid="735" relation="include">
-        </childnode>
-        <childnode refid="740" relation="include">
-        </childnode>
-      </node>
-      <node id="737">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="729" relation="include">
-        </childnode>
-        <childnode refid="717" relation="include">
-        </childnode>
-        <childnode refid="738" relation="include">
-        </childnode>
-        <childnode refid="735" relation="include">
-        </childnode>
-        <childnode refid="739" relation="include">
-        </childnode>
-      </node>
       <node id="742">
         <label>exceptions/fileexception.h</label>
         <link refid="d4/d79/fileexception_8h_source"/>
@@ -146,78 +83,13 @@
         <childnode refid="726" relation="include">
         </childnode>
       </node>
-      <node id="728">
-        <label>QDebug</label>
-      </node>
-      <node id="736">
-        <label>QVariantHash</label>
-      </node>
-      <node id="722">
-        <label>sstream</label>
-      </node>
-      <node id="717">
-        <label>QDate</label>
-      </node>
-      <node id="729">
-        <label>QString</label>
-      </node>
-      <node id="719">
-        <label>QFile</label>
-      </node>
-      <node id="726">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="719" relation="include">
-        </childnode>
-        <childnode refid="717" relation="include">
-        </childnode>
-        <childnode refid="718" relation="include">
-        </childnode>
-        <childnode refid="727" relation="include">
-        </childnode>
-        <childnode refid="728" relation="include">
-        </childnode>
-        <childnode refid="729" relation="include">
-        </childnode>
-        <childnode refid="730" relation="include">
-        </childnode>
-      </node>
-      <node id="712">
-        <label>QtSql/QSqlError</label>
-      </node>
-      <node id="741">
-        <label>utils/directories.h</label>
-        <link refid="de/ddd/directories_8h_source"/>
-        <childnode refid="729" relation="include">
-        </childnode>
-        <childnode refid="733" relation="include">
-        </childnode>
-        <childnode refid="742" relation="include">
-        </childnode>
-      </node>
-      <node id="723">
-        <label>iostream</label>
-      </node>
-      <node id="733">
-        <label>QDir</label>
-      </node>
-      <node id="727">
-        <label>QTextStream</label>
+      <node id="711">
+        <label>QtSql/QSqlQuery</label>
       </node>
       <node id="730">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
         <childnode refid="729" relation="include">
-        </childnode>
-      </node>
-      <node id="708">
-        <label>src/database/userdatabase.h</label>
-        <link refid="userdatabase.h"/>
-        <childnode refid="709" relation="include">
-        </childnode>
-        <childnode refid="721" relation="include">
-        </childnode>
-        <childnode refid="732" relation="include">
         </childnode>
       </node>
       <node id="709">
@@ -254,6 +126,134 @@
         <childnode refid="731" relation="include">
         </childnode>
       </node>
+      <node id="724">
+        <label>stdexcept</label>
+      </node>
+      <node id="714">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="738">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="726">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="719" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="727" relation="include">
+        </childnode>
+        <childnode refid="728" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="730" relation="include">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="716">
+        <label>QStandardItem</label>
+      </node>
+      <node id="720">
+        <label>exception</label>
+      </node>
+      <node id="740">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="731">
+        <label>database/accessdatabase.h</label>
+        <link refid="df/dd6/accessdatabase_8h_source"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="728" relation="include">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="733" relation="include">
+        </childnode>
+        <childnode refid="742" relation="include">
+        </childnode>
+      </node>
+      <node id="737">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+        <childnode refid="735" relation="include">
+        </childnode>
+        <childnode refid="739" relation="include">
+        </childnode>
+      </node>
+      <node id="728">
+        <label>QDebug</label>
+      </node>
+      <node id="736">
+        <label>QVariantHash</label>
+      </node>
+      <node id="722">
+        <label>sstream</label>
+      </node>
+      <node id="717">
+        <label>QDate</label>
+      </node>
+      <node id="729">
+        <label>QString</label>
+      </node>
+      <node id="719">
+        <label>QFile</label>
+      </node>
+      <node id="712">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="723">
+        <label>iostream</label>
+      </node>
+      <node id="733">
+        <label>QDir</label>
+      </node>
+      <node id="727">
+        <label>QTextStream</label>
+      </node>
+      <node id="739">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="735" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+      </node>
+      <node id="708">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
+        <link refid="userdatabase.h"/>
+        <childnode refid="709" relation="include">
+        </childnode>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="732" relation="include">
+        </childnode>
+      </node>
       <node id="718">
         <label>QCoreApplication</label>
       </node>
@@ -265,14 +265,14 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERDATABASE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USERDATABASE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERDATABASE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USERDATABASE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/user.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/d31/namespaceDatabases" kindref="compound">Databases</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Databases<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="d0/d33/classDatabases_1_1UserDatabase" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d33/classDatabases_1_1UserDatabase" kindref="compound">UserDatabase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
@@ -292,6 +292,6 @@
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USERDATABASE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/userdatabase.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h"/>
   </compounddef>
 </doxygen>

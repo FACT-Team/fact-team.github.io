@@ -1,34 +1,43 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d3/d2c/dialogaddcustomer_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d2c/dialogaddcustomer_8h" kind="file">
     <compoundname>dialogaddcustomer.h</compoundname>
     <includes local="no">QDialog</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
-    <includedby refid="df/d17/dialogaddcustomer_8cpp" local="yes">src/gui/dialogs/dialogaddcustomer.cpp</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">src/gui/mainwindow/mainwindow.h</includedby>
+    <includedby refid="df/d17/dialogaddcustomer_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.cpp</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</includedby>
     <incdepgraph>
-      <node id="1559">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="1555" relation="include">
-        </childnode>
-      </node>
       <node id="1557">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
         <childnode refid="1558" relation="include">
         </childnode>
       </node>
+      <node id="1556">
+        <label>QStandardItem</label>
+      </node>
+      <node id="1559">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="1555" relation="include">
+        </childnode>
+      </node>
       <node id="1552">
-        <label>src/gui/dialogs/dialogaddcustomer.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h</label>
         <link refid="dialogaddcustomer.h"/>
         <childnode refid="1553" relation="include">
         </childnode>
         <childnode refid="1554" relation="include">
         </childnode>
       </node>
-      <node id="1556">
-        <label>QStandardItem</label>
+      <node id="1553">
+        <label>QDialog</label>
+      </node>
+      <node id="1558">
+        <label>QVariantHash</label>
+      </node>
+      <node id="1555">
+        <label>QString</label>
       </node>
       <node id="1554">
         <label>models/customer.h</label>
@@ -42,40 +51,31 @@
         <childnode refid="1559" relation="include">
         </childnode>
       </node>
-      <node id="1553">
-        <label>QDialog</label>
-      </node>
-      <node id="1558">
-        <label>QVariantHash</label>
-      </node>
-      <node id="1555">
-        <label>QString</label>
-      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1563">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
-      <node id="1560">
-        <label>src/gui/dialogs/dialogaddcustomer.h</label>
-        <link refid="dialogaddcustomer.h"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-      </node>
       <node id="1561">
-        <label>src/gui/mainwindow/mainwindow.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="1562" relation="include">
         </childnode>
       </node>
+      <node id="1560">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h</label>
+        <link refid="dialogaddcustomer.h"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
       <node id="1562">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1563" relation="include">
         </childnode>
+      </node>
+      <node id="1563">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" prot="public">Gui::Dialogs::DialogAddCustomer</innerclass>
@@ -87,19 +87,19 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DIALOGADDCUSTOMER_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DIALOGADDCUSTOMER_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DIALOGADDCUSTOMER_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DIALOGADDCUSTOMER_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DialogAddCustomer;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d50/classGui_1_1Dialogs_1_1DialogAddCustomer" kindref="compound">DialogAddCustomer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
@@ -126,6 +126,6 @@
 <codeline lineno="62"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>DIALOGADDCUSTOMER_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/dialogaddcustomer.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h"/>
   </compounddef>
 </doxygen>

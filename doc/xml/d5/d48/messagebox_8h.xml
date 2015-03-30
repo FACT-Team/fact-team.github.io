@@ -1,45 +1,45 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d5/d48/messagebox_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d48/messagebox_8h" kind="file">
     <compoundname>messagebox.h</compoundname>
     <includes local="no">QDialog</includes>
-    <includedby refid="d3/dc9/messagebox_8cpp" local="yes">src/gui/dialogs/messagebox.cpp</includedby>
-    <includedby refid="d9/d53/mainwindow_8h" local="yes">src/gui/mainwindow/mainwindow.h</includedby>
+    <includedby refid="d3/dc9/messagebox_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.cpp</includedby>
+    <includedby refid="d9/d53/mainwindow_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</includedby>
     <incdepgraph>
-      <node id="1570">
-        <label>QDialog</label>
-      </node>
       <node id="1569">
-        <label>src/gui/dialogs/messagebox.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.h</label>
         <link refid="messagebox.h"/>
         <childnode refid="1570" relation="include">
         </childnode>
       </node>
+      <node id="1570">
+        <label>QDialog</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1574">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
       <node id="1572">
-        <label>src/gui/mainwindow/mainwindow.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="1573" relation="include">
         </childnode>
       </node>
+      <node id="1571">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.h</label>
+        <link refid="messagebox.h"/>
+        <childnode refid="1572" relation="include">
+        </childnode>
+      </node>
       <node id="1573">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
         <childnode refid="1572" relation="include">
         </childnode>
         <childnode refid="1574" relation="include">
         </childnode>
       </node>
-      <node id="1571">
-        <label>src/gui/dialogs/messagebox.h</label>
-        <link refid="messagebox.h"/>
-        <childnode refid="1572" relation="include">
-        </childnode>
+      <node id="1574">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" prot="public">Gui::Dialogs::MessageBox</innerclass>
@@ -51,15 +51,15 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MESSAGEBOX_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MESSAGEBOX_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MESSAGEBOX_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MESSAGEBOX_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MessageBox;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
 <codeline lineno="15" refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d31/classGui_1_1Dialogs_1_1MessageBox" kindref="compound">MessageBox</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QDialog</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
@@ -92,6 +92,6 @@
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MESSAGEBOX_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/messagebox.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/messagebox.h"/>
   </compounddef>
 </doxygen>

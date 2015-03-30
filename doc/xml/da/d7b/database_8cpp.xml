@@ -1,9 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="da/d7b/database_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d7b/database_8cpp" kind="file">
     <compoundname>database.cpp</compoundname>
     <includes refid="d8/d9c/database_8h" local="yes">database/database.h</includes>
     <incdepgraph>
+      <node id="431">
+        <label>QSettings</label>
+      </node>
+      <node id="426">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="441">
+        <label>QMessageBox</label>
+      </node>
       <node id="437">
         <label>exceptions/dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
@@ -20,90 +29,8 @@
         <childnode refid="442" relation="include">
         </childnode>
       </node>
-      <node id="431">
-        <label>QSettings</label>
-      </node>
-      <node id="426">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="441">
-        <label>QMessageBox</label>
-      </node>
-      <node id="424">
-        <label>src/database/database.cpp</label>
-        <link refid="database.cpp"/>
-        <childnode refid="425" relation="include">
-        </childnode>
-      </node>
       <node id="427">
         <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="440">
-        <label>stdexcept</label>
-      </node>
-      <node id="447">
-        <label>database/accessdatabase.h</label>
-        <link refid="df/dd6/accessdatabase_8h_source"/>
-        <childnode refid="445" relation="include">
-        </childnode>
-        <childnode refid="431" relation="include">
-        </childnode>
-        <childnode refid="444" relation="include">
-        </childnode>
-      </node>
-      <node id="430">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="429">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="432">
-        <label>QStandardItem</label>
-      </node>
-      <node id="436">
-        <label>exception</label>
-      </node>
-      <node id="444">
-        <label>QDebug</label>
-      </node>
-      <node id="438">
-        <label>sstream</label>
-      </node>
-      <node id="433">
-        <label>QDate</label>
-      </node>
-      <node id="445">
-        <label>QString</label>
-      </node>
-      <node id="435">
-        <label>QFile</label>
-      </node>
-      <node id="442">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="435" relation="include">
-        </childnode>
-        <childnode refid="433" relation="include">
-        </childnode>
-        <childnode refid="434" relation="include">
-        </childnode>
-        <childnode refid="443" relation="include">
-        </childnode>
-        <childnode refid="444" relation="include">
-        </childnode>
-        <childnode refid="445" relation="include">
-        </childnode>
-        <childnode refid="446" relation="include">
-        </childnode>
-      </node>
-      <node id="428">
-        <label>QtSql/QSqlError</label>
-      </node>
-      <node id="439">
-        <label>iostream</label>
-      </node>
-      <node id="443">
-        <label>QTextStream</label>
       </node>
       <node id="446">
         <label>parameters.h</label>
@@ -145,6 +72,79 @@
         <childnode refid="447" relation="include">
         </childnode>
       </node>
+      <node id="440">
+        <label>stdexcept</label>
+      </node>
+      <node id="430">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="442">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="435" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="432">
+        <label>QStandardItem</label>
+      </node>
+      <node id="436">
+        <label>exception</label>
+      </node>
+      <node id="447">
+        <label>database/accessdatabase.h</label>
+        <link refid="df/dd6/accessdatabase_8h_source"/>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>QDebug</label>
+      </node>
+      <node id="438">
+        <label>sstream</label>
+      </node>
+      <node id="433">
+        <label>QDate</label>
+      </node>
+      <node id="445">
+        <label>QString</label>
+      </node>
+      <node id="435">
+        <label>QFile</label>
+      </node>
+      <node id="428">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="439">
+        <label>iostream</label>
+      </node>
+      <node id="424">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/database.cpp</label>
+        <link refid="database.cpp"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>QTextStream</label>
+      </node>
       <node id="434">
         <label>QCoreApplication</label>
       </node>
@@ -157,7 +157,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;database/database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/d31/namespaceDatabases" kindref="compound">Databases</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Databases<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SINGLETON</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">Database*<sp/><ref refid="dd/db0/classDatabases_1_1Database_1a5f3ca7a29b769615feeac1c8b12f9a7e" kindref="member">Database::_instance</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" kindref="member">Database::_dbInstance</ref><sp/>=<sp/>0;</highlight></codeline>
@@ -231,12 +231,12 @@
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>creerStructure<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>environment;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>QT_NO_DEBUG</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>environment<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;release&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>environment<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;debug&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>QT_NO_DEBUG</highlight></codeline>
+<codeline lineno="78"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>environment<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;release&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="80"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>environment<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;debug&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="82"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!AccessDatabase::_exists<sp/>||<sp/>AccessDatabase::_dbType<sp/>==<sp/>SQLITE)</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/db0/classDatabases_1_1Database_1a1254e2d5f196c9b6143da1cd57df5d31" kindref="member">_settings</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSettings(</highlight><highlight class="stringliteral">&quot;FACT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;FactDev-&quot;</highlight><highlight class="normal">+environment);</highlight></codeline>
@@ -301,10 +301,10 @@
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(creerStructure)<sp/>{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_DEBUG</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" kindref="member">testCases</ref>();</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_DEBUG</highlight></codeline>
+<codeline lineno="148"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" kindref="member">testCases</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="150"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/db0/classDatabases_1_1Database_1a17b652086514e0a64d0e452a938ac7a5" kindref="member">Database::updateBillingNumber</ref>()</highlight></codeline>
@@ -404,6 +404,6 @@
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
 <codeline lineno="248"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/database.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/database.cpp"/>
   </compounddef>
 </doxygen>

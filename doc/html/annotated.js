@@ -13,12 +13,12 @@ var annotated =
     [ "Models", "dd/d20/namespaceModels.html", "dd/d20/namespaceModels" ],
     [ "Mustache", null, [
       [ "Context", "d7/d34/classMustache_1_1Context.html", "d7/d34/classMustache_1_1Context" ],
-      [ "PartialFileLoader", "da/d31/classMustache_1_1PartialFileLoader.html", "da/d31/classMustache_1_1PartialFileLoader" ],
-      [ "PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", "dc/d1a/classMustache_1_1PartialMap" ],
-      [ "PartialResolver", "d0/dce/classMustache_1_1PartialResolver.html", "d0/dce/classMustache_1_1PartialResolver" ],
       [ "QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", "d5/d8b/classMustache_1_1QtVariantContext" ],
-      [ "Renderer", "dc/d58/classMustache_1_1Renderer.html", "dc/d58/classMustache_1_1Renderer" ],
-      [ "Tag", "d5/dc2/structMustache_1_1Tag.html", "d5/dc2/structMustache_1_1Tag" ]
+      [ "PartialResolver", "d0/dce/classMustache_1_1PartialResolver.html", "d0/dce/classMustache_1_1PartialResolver" ],
+      [ "PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", "dc/d1a/classMustache_1_1PartialMap" ],
+      [ "PartialFileLoader", "da/d31/classMustache_1_1PartialFileLoader.html", "da/d31/classMustache_1_1PartialFileLoader" ],
+      [ "Tag", "d5/dc2/structMustache_1_1Tag.html", "d5/dc2/structMustache_1_1Tag" ],
+      [ "Renderer", "dc/d58/classMustache_1_1Renderer.html", "dc/d58/classMustache_1_1Renderer" ]
     ] ],
     [ "Utils", null, [
       [ "Directories", "d8/d40/classUtils_1_1Directories.html", "d8/d40/classUtils_1_1Directories" ],

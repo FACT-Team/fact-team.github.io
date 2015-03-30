@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="de/df8/databasesettingswidget_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/df8/databasesettingswidget_8cpp" kind="file">
     <compoundname>databasesettingswidget.cpp</compoundname>
     <includes refid="d5/dd2/databasesettingswidget_8h" local="yes">databasesettingswidget.h</includes>
     <includes local="yes">ui_databasesettingswidget.h</includes>
@@ -8,21 +8,21 @@
       <node id="2574">
         <label>ui_databasesettingswidget.h</label>
       </node>
-      <node id="2571">
-        <label>src/gui/widgets/databasesettingswidget.cpp</label>
-        <link refid="databasesettingswidget.cpp"/>
-        <childnode refid="2572" relation="include">
-        </childnode>
-        <childnode refid="2574" relation="include">
+      <node id="2572">
+        <label>databasesettingswidget.h</label>
+        <link refid="d5/dd2/databasesettingswidget_8h_source"/>
+        <childnode refid="2573" relation="include">
         </childnode>
       </node>
       <node id="2573">
         <label>QWidget</label>
       </node>
-      <node id="2572">
-        <label>databasesettingswidget.h</label>
-        <link refid="d5/dd2/databasesettingswidget_8h_source"/>
-        <childnode refid="2573" relation="include">
+      <node id="2571">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/databasesettingswidget.cpp</label>
+        <link refid="databasesettingswidget.cpp"/>
+        <childnode refid="2572" relation="include">
+        </childnode>
+        <childnode refid="2574" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -36,13 +36,13 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;databasesettingswidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_databasesettingswidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><ref refid="de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget_1a723805fcd8e71878c6d66b7296f16d85" kindref="member">DatabaseSettingsWidget::DatabaseSettingsWidget</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref>::DatabaseSettingsWidget)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/>Ui::DatabaseSettingsWidget)</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>fillFields();</highlight></codeline>
@@ -120,6 +120,6 @@
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/databasesettingswidget.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/databasesettingswidget.cpp"/>
   </compounddef>
 </doxygen>

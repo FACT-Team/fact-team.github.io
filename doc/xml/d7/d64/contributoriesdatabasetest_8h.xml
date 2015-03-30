@@ -1,27 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d7/d64/contributoriesdatabasetest_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d64/contributoriesdatabasetest_8h" kind="file">
     <compoundname>contributoriesdatabasetest.h</compoundname>
     <includes local="no">QtTest/QtTest</includes>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="d8/dee/contributory_8h" local="yes">models/contributory.h</includes>
-    <includedby refid="dc/d31/contributoriesdatabasetest_8cpp" local="yes">tests/database/contributoriesdatabasetest.cpp</includedby>
+    <includedby refid="dc/d31/contributoriesdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.cpp</includedby>
     <incdepgraph>
       <node id="5430">
         <label>list</label>
-      </node>
-      <node id="5442">
-        <label>models/calculable.h</label>
-        <link refid="de/dfa/calculable_8h_source"/>
-      </node>
-      <node id="5443">
-        <label>utils/double.h</label>
-      </node>
-      <node id="5440">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="5434" relation="include">
-        </childnode>
       </node>
       <node id="5436">
         <label>models/imodel.h</label>
@@ -29,22 +16,20 @@
         <childnode refid="5437" relation="include">
         </childnode>
       </node>
-      <node id="5426">
-        <label>QTestRunner/testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="5427" relation="include">
-        </childnode>
-        <childnode refid="5428" relation="include">
-        </childnode>
-        <childnode refid="5429" relation="include">
-        </childnode>
-        <childnode refid="5430" relation="include">
-        </childnode>
-        <childnode refid="5431" relation="include">
-        </childnode>
+      <node id="5443">
+        <label>utils/double.h</label>
       </node>
       <node id="5428">
         <label>QSharedPointer</label>
+      </node>
+      <node id="5439">
+        <label>QStandardItem</label>
+      </node>
+      <node id="5440">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="5434" relation="include">
+        </childnode>
       </node>
       <node id="5432">
         <label>models/contributory.h</label>
@@ -60,17 +45,8 @@
         <childnode refid="5443" relation="include">
         </childnode>
       </node>
-      <node id="5439">
-        <label>QStandardItem</label>
-      </node>
-      <node id="5441">
-        <label>models/unit.h</label>
-        <link refid="d1/da2/unit_8h_source"/>
-        <childnode refid="5434" relation="include">
-        </childnode>
-      </node>
       <node id="5424">
-        <label>tests/database/contributoriesdatabasetest.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</label>
         <link refid="contributoriesdatabasetest.h"/>
         <childnode refid="5425" relation="include">
         </childnode>
@@ -79,17 +55,9 @@
         <childnode refid="5432" relation="include">
         </childnode>
       </node>
-      <node id="5438">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="5434" relation="include">
-        </childnode>
-        <childnode refid="5439" relation="include">
-        </childnode>
-        <childnode refid="5436" relation="include">
-        </childnode>
-        <childnode refid="5440" relation="include">
-        </childnode>
+      <node id="5442">
+        <label>models/calculable.h</label>
+        <link refid="de/dfa/calculable_8h_source"/>
       </node>
       <node id="5433">
         <label>models/project.h</label>
@@ -120,6 +88,38 @@
       <node id="5431">
         <label>iostream</label>
       </node>
+      <node id="5441">
+        <label>models/unit.h</label>
+        <link refid="d1/da2/unit_8h_source"/>
+        <childnode refid="5434" relation="include">
+        </childnode>
+      </node>
+      <node id="5426">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="5427" relation="include">
+        </childnode>
+        <childnode refid="5428" relation="include">
+        </childnode>
+        <childnode refid="5429" relation="include">
+        </childnode>
+        <childnode refid="5430" relation="include">
+        </childnode>
+        <childnode refid="5431" relation="include">
+        </childnode>
+      </node>
+      <node id="5438">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="5434" relation="include">
+        </childnode>
+        <childnode refid="5439" relation="include">
+        </childnode>
+        <childnode refid="5436" relation="include">
+        </childnode>
+        <childnode refid="5440" relation="include">
+        </childnode>
+      </node>
       <node id="5429">
         <label>algorithm</label>
       </node>
@@ -133,14 +133,14 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORIESDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORIESDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtTest/QtTest&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORIESDATABASETEST_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORIESDATABASETEST_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtTest/QtTest&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/contributory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="9" refid="d8/df7/classContributoriesDatabaseTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/df7/classContributoriesDatabaseTest" kindref="compound">ContributoriesDatabaseTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
@@ -164,6 +164,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORIESDATABASETEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/database/contributoriesdatabasetest.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h"/>
   </compounddef>
 </doxygen>

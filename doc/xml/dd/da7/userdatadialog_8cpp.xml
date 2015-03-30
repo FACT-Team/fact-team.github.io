@@ -1,23 +1,26 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="dd/da7/userdatadialog_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/da7/userdatadialog_8cpp" kind="file">
     <compoundname>userdatadialog.cpp</compoundname>
     <includes local="no">QFileDialog</includes>
     <includes local="no">QStandardPaths</includes>
     <includes refid="df/d22/userdatadialog_8h" local="yes">userdatadialog.h</includes>
     <includes local="yes">ui_userdatadialog.h</includes>
     <incdepgraph>
+      <node id="1645">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="1646" relation="include">
+        </childnode>
+      </node>
       <node id="1665">
         <label>QMessageBox</label>
       </node>
-      <node id="1652">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="1643" relation="include">
-        </childnode>
-      </node>
       <node id="1639">
         <label>QStandardPaths</label>
+      </node>
+      <node id="1666">
+        <label>ui_userdatadialog.h</label>
       </node>
       <node id="1642">
         <label>models/user.h</label>
@@ -41,76 +44,6 @@
         <childnode refid="1659" relation="include">
         </childnode>
       </node>
-      <node id="1666">
-        <label>ui_userdatadialog.h</label>
-      </node>
-      <node id="1640">
-        <label>userdatadialog.h</label>
-        <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="1641" relation="include">
-        </childnode>
-        <childnode refid="1642" relation="include">
-        </childnode>
-      </node>
-      <node id="1645">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="1646" relation="include">
-        </childnode>
-      </node>
-      <node id="1664">
-        <label>stdexcept</label>
-      </node>
-      <node id="1637">
-        <label>src/gui/dialogs/userdatadialog.cpp</label>
-        <link refid="userdatadialog.cpp"/>
-        <childnode refid="1638" relation="include">
-        </childnode>
-        <childnode refid="1639" relation="include">
-        </childnode>
-        <childnode refid="1640" relation="include">
-        </childnode>
-        <childnode refid="1666" relation="include">
-        </childnode>
-      </node>
-      <node id="1649">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="1651">
-        <label>QStandardItem</label>
-      </node>
-      <node id="1661">
-        <label>exception</label>
-      </node>
-      <node id="1650">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="1643" relation="include">
-        </childnode>
-        <childnode refid="1651" relation="include">
-        </childnode>
-        <childnode refid="1645" relation="include">
-        </childnode>
-        <childnode refid="1652" relation="include">
-        </childnode>
-      </node>
-      <node id="1638">
-        <label>QFileDialog</label>
-      </node>
-      <node id="1647">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="1643" relation="include">
-        </childnode>
-        <childnode refid="1648" relation="include">
-        </childnode>
-        <childnode refid="1649" relation="include">
-        </childnode>
-        <childnode refid="1645" relation="include">
-        </childnode>
-        <childnode refid="1650" relation="include">
-        </childnode>
-      </node>
       <node id="1660">
         <label>exceptions/fileexception.h</label>
         <link refid="d4/d79/fileexception_8h_source"/>
@@ -125,6 +58,87 @@
         <childnode refid="1665" relation="include">
         </childnode>
         <childnode refid="1653" relation="include">
+        </childnode>
+      </node>
+      <node id="1658">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+      </node>
+      <node id="1664">
+        <label>stdexcept</label>
+      </node>
+      <node id="1649">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="1653">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1648" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1656" relation="include">
+        </childnode>
+        <childnode refid="1657" relation="include">
+        </childnode>
+        <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
+        </childnode>
+      </node>
+      <node id="1651">
+        <label>QStandardItem</label>
+      </node>
+      <node id="1661">
+        <label>exception</label>
+      </node>
+      <node id="1652">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+      </node>
+      <node id="1637">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.cpp</label>
+        <link refid="userdatadialog.cpp"/>
+        <childnode refid="1638" relation="include">
+        </childnode>
+        <childnode refid="1639" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+        <childnode refid="1666" relation="include">
+        </childnode>
+      </node>
+      <node id="1638">
+        <label>QFileDialog</label>
+      </node>
+      <node id="1659">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1644" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+      </node>
+      <node id="1647">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1648" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
+        </childnode>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1650" relation="include">
         </childnode>
       </node>
       <node id="1641">
@@ -148,34 +162,6 @@
       <node id="1654">
         <label>QFile</label>
       </node>
-      <node id="1653">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="1654" relation="include">
-        </childnode>
-        <childnode refid="1648" relation="include">
-        </childnode>
-        <childnode refid="1655" relation="include">
-        </childnode>
-        <childnode refid="1656" relation="include">
-        </childnode>
-        <childnode refid="1657" relation="include">
-        </childnode>
-        <childnode refid="1643" relation="include">
-        </childnode>
-        <childnode refid="1658" relation="include">
-        </childnode>
-      </node>
-      <node id="1659">
-        <label>utils/directories.h</label>
-        <link refid="de/ddd/directories_8h_source"/>
-        <childnode refid="1643" relation="include">
-        </childnode>
-        <childnode refid="1644" relation="include">
-        </childnode>
-        <childnode refid="1660" relation="include">
-        </childnode>
-      </node>
       <node id="1663">
         <label>iostream</label>
       </node>
@@ -185,10 +171,24 @@
       <node id="1656">
         <label>QTextStream</label>
       </node>
-      <node id="1658">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
+      <node id="1650">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
         <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1651" relation="include">
+        </childnode>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1652" relation="include">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>userdatadialog.h</label>
+        <link refid="df/d22/userdatadialog_8h_source"/>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1642" relation="include">
         </childnode>
       </node>
       <node id="1655">
@@ -207,12 +207,12 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;userdatadialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_userdatadialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Dialogs<sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><ref refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a3cafa419d49d124e72511a3b91f8ee76" kindref="member">UserDataDialog::UserDataDialog</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref>::UserDataDialog)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/>Ui::UserDataDialog)</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>_user<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref>(1);</highlight></codeline>
@@ -320,6 +320,6 @@
 <codeline lineno="116"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/userdatadialog.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,23 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d8/d42/fileexception_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d42/fileexception_8cpp" kind="file">
     <compoundname>fileexception.cpp</compoundname>
     <includes refid="d4/d79/fileexception_8h" local="yes">fileexception.h</includes>
     <incdepgraph>
       <node id="811">
         <label>QMessageBox</label>
-      </node>
-      <node id="805">
-        <label>src/exceptions/fileexception.cpp</label>
-        <link refid="fileexception.cpp"/>
-        <childnode refid="806" relation="include">
-        </childnode>
-      </node>
-      <node id="810">
-        <label>stdexcept</label>
-      </node>
-      <node id="807">
-        <label>exception</label>
       </node>
       <node id="806">
         <label>fileexception.h</label>
@@ -35,20 +23,14 @@
         <childnode refid="812" relation="include">
         </childnode>
       </node>
-      <node id="817">
-        <label>QDebug</label>
+      <node id="819">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="818" relation="include">
+        </childnode>
       </node>
-      <node id="808">
-        <label>sstream</label>
-      </node>
-      <node id="814">
-        <label>QDate</label>
-      </node>
-      <node id="818">
-        <label>QString</label>
-      </node>
-      <node id="813">
-        <label>QFile</label>
+      <node id="810">
+        <label>stdexcept</label>
       </node>
       <node id="812">
         <label>utils/log.h</label>
@@ -68,17 +50,35 @@
         <childnode refid="819" relation="include">
         </childnode>
       </node>
+      <node id="807">
+        <label>exception</label>
+      </node>
+      <node id="817">
+        <label>QDebug</label>
+      </node>
+      <node id="805">
+        <label>/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.cpp</label>
+        <link refid="fileexception.cpp"/>
+        <childnode refid="806" relation="include">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>sstream</label>
+      </node>
+      <node id="814">
+        <label>QDate</label>
+      </node>
+      <node id="818">
+        <label>QString</label>
+      </node>
+      <node id="813">
+        <label>QFile</label>
+      </node>
       <node id="809">
         <label>iostream</label>
       </node>
       <node id="816">
         <label>QTextStream</label>
-      </node>
-      <node id="819">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="818" relation="include">
-        </childnode>
       </node>
       <node id="815">
         <label>QCoreApplication</label>
@@ -91,7 +91,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;fileexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dda/namespaceExceptions" kindref="compound">Exceptions</ref><sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Exceptions<sp/>{</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><ref refid="d9/d57/classExceptions_1_1FileException_1a30618a934ca08b2f37066be0b63b5a0e" kindref="member">FileException::FileException</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>userError,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>fctName,</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>logError,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>errorCode)</highlight></codeline>
@@ -122,6 +122,6 @@
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/fileexception.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/exceptions/fileexception.cpp"/>
   </compounddef>
 </doxygen>

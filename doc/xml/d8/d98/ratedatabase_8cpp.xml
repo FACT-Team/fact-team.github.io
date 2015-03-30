@@ -1,9 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d8/d98/ratedatabase_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d98/ratedatabase_8cpp" kind="file">
     <compoundname>ratedatabase.cpp</compoundname>
     <includes refid="d5/d8a/ratedatabase_8h" local="yes">ratedatabase.h</includes>
     <incdepgraph>
+      <node id="614">
+        <label>QSettings</label>
+      </node>
+      <node id="609">
+        <label>QtSql/QSql</label>
+      </node>
+      <node id="599">
+        <label>QMessageBox</label>
+      </node>
       <node id="594">
         <label>exceptions/dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
@@ -20,106 +29,8 @@
         <childnode refid="600" relation="include">
         </childnode>
       </node>
-      <node id="614">
-        <label>QSettings</label>
-      </node>
-      <node id="609">
-        <label>QtSql/QSql</label>
-      </node>
-      <node id="599">
-        <label>QMessageBox</label>
-      </node>
-      <node id="617">
-        <label>models/rate.h</label>
-        <link refid="d5/d79/rate_8h_source"/>
-        <childnode refid="593" relation="include">
-        </childnode>
-      </node>
       <node id="610">
         <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="598">
-        <label>stdexcept</label>
-      </node>
-      <node id="616">
-        <label>database/accessdatabase.h</label>
-        <link refid="df/dd6/accessdatabase_8h_source"/>
-        <childnode refid="606" relation="include">
-        </childnode>
-        <childnode refid="614" relation="include">
-        </childnode>
-        <childnode refid="605" relation="include">
-        </childnode>
-      </node>
-      <node id="613">
-        <label>QStandardItemModel</label>
-      </node>
-      <node id="612">
-        <label>QtSql/QSqlRecord</label>
-      </node>
-      <node id="615">
-        <label>QStandardItem</label>
-      </node>
-      <node id="595">
-        <label>exception</label>
-      </node>
-      <node id="592">
-        <label>src/database/ratedatabase.cpp</label>
-        <link refid="ratedatabase.cpp"/>
-        <childnode refid="593" relation="include">
-        </childnode>
-      </node>
-      <node id="605">
-        <label>QDebug</label>
-      </node>
-      <node id="593">
-        <label>ratedatabase.h</label>
-        <link refid="d5/d8a/ratedatabase_8h_source"/>
-        <childnode refid="594" relation="include">
-        </childnode>
-        <childnode refid="608" relation="include">
-        </childnode>
-        <childnode refid="617" relation="include">
-        </childnode>
-      </node>
-      <node id="596">
-        <label>sstream</label>
-      </node>
-      <node id="602">
-        <label>QDate</label>
-      </node>
-      <node id="606">
-        <label>QString</label>
-      </node>
-      <node id="601">
-        <label>QFile</label>
-      </node>
-      <node id="600">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="601" relation="include">
-        </childnode>
-        <childnode refid="602" relation="include">
-        </childnode>
-        <childnode refid="603" relation="include">
-        </childnode>
-        <childnode refid="604" relation="include">
-        </childnode>
-        <childnode refid="605" relation="include">
-        </childnode>
-        <childnode refid="606" relation="include">
-        </childnode>
-        <childnode refid="607" relation="include">
-        </childnode>
-      </node>
-      <node id="611">
-        <label>QtSql/QSqlError</label>
-      </node>
-      <node id="597">
-        <label>iostream</label>
-      </node>
-      <node id="604">
-        <label>QTextStream</label>
       </node>
       <node id="607">
         <label>parameters.h</label>
@@ -161,6 +72,95 @@
         <childnode refid="616" relation="include">
         </childnode>
       </node>
+      <node id="598">
+        <label>stdexcept</label>
+      </node>
+      <node id="613">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="600">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>QtSql/QSqlRecord</label>
+      </node>
+      <node id="615">
+        <label>QStandardItem</label>
+      </node>
+      <node id="595">
+        <label>exception</label>
+      </node>
+      <node id="616">
+        <label>database/accessdatabase.h</label>
+        <link refid="df/dd6/accessdatabase_8h_source"/>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="614" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+      </node>
+      <node id="605">
+        <label>QDebug</label>
+      </node>
+      <node id="617">
+        <label>models/rate.h</label>
+        <link refid="d5/d79/rate_8h_source"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>sstream</label>
+      </node>
+      <node id="602">
+        <label>QDate</label>
+      </node>
+      <node id="606">
+        <label>QString</label>
+      </node>
+      <node id="601">
+        <label>QFile</label>
+      </node>
+      <node id="611">
+        <label>QtSql/QSqlError</label>
+      </node>
+      <node id="597">
+        <label>iostream</label>
+      </node>
+      <node id="592">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp</label>
+        <link refid="ratedatabase.cpp"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+      </node>
+      <node id="604">
+        <label>QTextStream</label>
+      </node>
+      <node id="593">
+        <label>ratedatabase.h</label>
+        <link refid="d5/d8a/ratedatabase_8h_source"/>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+        <childnode refid="617" relation="include">
+        </childnode>
+      </node>
       <node id="603">
         <label>QCoreApplication</label>
       </node>
@@ -173,7 +173,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;ratedatabase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/d31/namespaceDatabases" kindref="compound">Databases</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Databases<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">RateDatabase::RateDatabase()<sp/>throw(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*)<sp/>:<sp/>Database()<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/db0/classDatabases_1_1Database_1aaed4ecc36468c345c56df78ccb5b56c8" kindref="member">_instances</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
@@ -257,6 +257,6 @@
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/database/ratedatabase.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.cpp"/>
   </compounddef>
 </doxygen>

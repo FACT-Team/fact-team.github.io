@@ -1,27 +1,35 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d8/dee/contributory_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dee/contributory_8h" kind="file">
     <compoundname>contributory.h</compoundname>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
     <includes refid="d1/da2/unit_8h" local="yes">models/unit.h</includes>
     <includes refid="de/dfa/calculable_8h" local="yes">models/calculable.h</includes>
     <includes local="yes">utils/double.h</includes>
-    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">src/database/contributorydatabase.h</includedby>
-    <includedby refid="db/d57/contributorieswidget_8h" local="yes">src/gui/widgets/contributorieswidget.h</includedby>
-    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">src/models/billing.h</includedby>
-    <includedby refid="dd/d0f/contributorieslist_8h" local="yes">src/models/contributorieslist.h</includedby>
-    <includedby refid="d9/dec/contributory_8cpp" local="yes">src/models/contributory.cpp</includedby>
-    <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">tests/database/contributoriesdatabasetest.h</includedby>
-    <includedby refid="d0/d31/contributorymodeltest_8h" local="yes">tests/models/contributorymodeltest.h</includedby>
+    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</includedby>
+    <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
+    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
+    <includedby refid="dd/d0f/contributorieslist_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</includedby>
+    <includedby refid="d9/dec/contributory_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp</includedby>
+    <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</includedby>
+    <includedby refid="d0/d31/contributorymodeltest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</includedby>
     <incdepgraph>
-      <node id="3994">
-        <label>models/calculable.h</label>
-        <link refid="de/dfa/calculable_8h_source"/>
+      <node id="3988">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="3989" relation="include">
+        </childnode>
       </node>
       <node id="3995">
         <label>utils/double.h</label>
+      </node>
+      <node id="3987">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3991">
+        <label>QStandardItem</label>
       </node>
       <node id="3992">
         <label>models/people.h</label>
@@ -29,17 +37,8 @@
         <childnode refid="3985" relation="include">
         </childnode>
       </node>
-      <node id="3988">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3989" relation="include">
-        </childnode>
-      </node>
-      <node id="3987">
-        <label>QSharedPointer</label>
-      </node>
       <node id="3983">
-        <label>src/models/contributory.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
         <link refid="contributory.h"/>
         <childnode refid="3984" relation="include">
         </childnode>
@@ -52,26 +51,9 @@
         <childnode refid="3995" relation="include">
         </childnode>
       </node>
-      <node id="3991">
-        <label>QStandardItem</label>
-      </node>
-      <node id="3993">
-        <label>models/unit.h</label>
-        <link refid="d1/da2/unit_8h_source"/>
-        <childnode refid="3985" relation="include">
-        </childnode>
-      </node>
-      <node id="3990">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="3985" relation="include">
-        </childnode>
-        <childnode refid="3991" relation="include">
-        </childnode>
-        <childnode refid="3988" relation="include">
-        </childnode>
-        <childnode refid="3992" relation="include">
-        </childnode>
+      <node id="3994">
+        <label>models/calculable.h</label>
+        <link refid="de/dfa/calculable_8h_source"/>
       </node>
       <node id="3984">
         <label>models/project.h</label>
@@ -96,42 +78,98 @@
       <node id="3985">
         <label>QString</label>
       </node>
+      <node id="3993">
+        <label>models/unit.h</label>
+        <link refid="d1/da2/unit_8h_source"/>
+        <childnode refid="3985" relation="include">
+        </childnode>
+      </node>
+      <node id="3990">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="3985" relation="include">
+        </childnode>
+        <childnode refid="3991" relation="include">
+        </childnode>
+        <childnode refid="3988" relation="include">
+        </childnode>
+        <childnode refid="3992" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4004">
-        <label>src/database/customerdatabase.h</label>
-        <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="4000" relation="include">
-        </childnode>
-        <childnode refid="4005" relation="include">
-        </childnode>
-        <childnode refid="4006" relation="include">
-        </childnode>
-      </node>
-      <node id="4001">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
       <node id="4013">
-        <label>src/utils/itemtype.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
         <childnode refid="3999" relation="include">
         </childnode>
         <childnode refid="4014" relation="include">
         </childnode>
       </node>
-      <node id="4019">
-        <label>tests/models/contributorylisttest.h</label>
-        <link refid="dd/df0/contributorylisttest_8h_source"/>
+      <node id="4003">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="4004" relation="include">
+        </childnode>
+        <childnode refid="4007" relation="include">
+        </childnode>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="3999" relation="include">
+        </childnode>
+        <childnode refid="4008" relation="include">
+        </childnode>
+        <childnode refid="4009" relation="include">
+        </childnode>
+      </node>
+      <node id="3999">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="4000" relation="include">
+        </childnode>
+      </node>
+      <node id="4009">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
       <node id="4017">
-        <label>src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
         <link refid="d0/d03/contributoriestablemodel_8h_source"/>
         <childnode refid="4016" relation="include">
         </childnode>
       </node>
+      <node id="3998">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
+        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+      </node>
+      <node id="4018">
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</label>
+        <link refid="dd/d0f/contributorieslist_8h_source"/>
+        <childnode refid="3997" relation="include">
+        </childnode>
+        <childnode refid="4016" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+        <childnode refid="4019" relation="include">
+        </childnode>
+      </node>
+      <node id="4016">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="4007" relation="include">
+        </childnode>
+      </node>
+      <node id="4011">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="4003" relation="include">
+        </childnode>
+      </node>
       <node id="3996">
-        <label>src/models/contributory.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
         <link refid="contributory.h"/>
         <childnode refid="3997" relation="include">
         </childnode>
@@ -148,16 +186,74 @@
         <childnode refid="4021" relation="include">
         </childnode>
       </node>
-      <node id="4009">
-        <label>tests/models/billingmodeltest.h</label>
-        <link refid="da/d5e/billingmodeltest_8h_source"/>
-      </node>
       <node id="4020">
-        <label>tests/database/contributoriesdatabasetest.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</label>
         <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
       </node>
+      <node id="4014">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
+        <link refid="d7/d49/itemtypetest_8h_source"/>
+      </node>
+      <node id="4000">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+        <childnode refid="4001" relation="include">
+        </childnode>
+      </node>
+      <node id="4004">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
+        <link refid="d1/d70/customerdatabase_8h_source"/>
+        <childnode refid="4000" relation="include">
+        </childnode>
+        <childnode refid="4005" relation="include">
+        </childnode>
+        <childnode refid="4006" relation="include">
+        </childnode>
+      </node>
+      <node id="4021">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</label>
+        <link refid="d0/d31/contributorymodeltest_8h_source"/>
+      </node>
+      <node id="4015">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
+        <link refid="d9/d01/billingdatabasetest_8h_source"/>
+      </node>
+      <node id="4019">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h</label>
+        <link refid="dd/df0/contributorylisttest_8h_source"/>
+      </node>
+      <node id="4007">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+      </node>
+      <node id="4005">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
+        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
+      </node>
+      <node id="3997">
+        <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+      </node>
+      <node id="4010">
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="4002" relation="include">
+        </childnode>
+      </node>
+      <node id="4006">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
+        <link refid="d7/d15/searchwidget_8h_source"/>
+      </node>
       <node id="4002">
-        <label>src/models/billing.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
         <childnode refid="4003" relation="include">
         </childnode>
@@ -178,117 +274,21 @@
         <childnode refid="4009" relation="include">
         </childnode>
       </node>
-      <node id="4018">
-        <label>src/models/contributorieslist.h</label>
-        <link refid="dd/d0f/contributorieslist_8h_source"/>
-        <childnode refid="3997" relation="include">
-        </childnode>
-        <childnode refid="4016" relation="include">
-        </childnode>
-        <childnode refid="4002" relation="include">
-        </childnode>
-        <childnode refid="4019" relation="include">
-        </childnode>
-      </node>
-      <node id="4016">
-        <label>src/gui/widgets/contributorieswidget.h</label>
-        <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="4007" relation="include">
-        </childnode>
-      </node>
-      <node id="4014">
-        <label>tests/utils/itemtypetest.h</label>
-        <link refid="d7/d49/itemtypetest_8h_source"/>
-      </node>
       <node id="4012">
-        <label>src/utils/hierarchicalsystem.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
         <link refid="de/d21/hierarchicalsystem_8h_source"/>
         <childnode refid="3999" relation="include">
         </childnode>
       </node>
+      <node id="4001">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
       <node id="4008">
-        <label>src/models/statistics.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/statistics.h</label>
         <link refid="d7/dc5/statistics_8h_source"/>
         <childnode refid="3998" relation="include">
         </childnode>
-      </node>
-      <node id="4003">
-        <label>src/database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="4004" relation="include">
-        </childnode>
-        <childnode refid="4007" relation="include">
-        </childnode>
-        <childnode refid="3998" relation="include">
-        </childnode>
-        <childnode refid="3999" relation="include">
-        </childnode>
-        <childnode refid="4008" relation="include">
-        </childnode>
-        <childnode refid="4009" relation="include">
-        </childnode>
-      </node>
-      <node id="4015">
-        <label>tests/database/billingdatabasetest.h</label>
-        <link refid="d9/d01/billingdatabasetest_8h_source"/>
-      </node>
-      <node id="4021">
-        <label>tests/models/contributorymodeltest.h</label>
-        <link refid="d0/d31/contributorymodeltest_8h_source"/>
-      </node>
-      <node id="4007">
-        <label>src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="3999" relation="include">
-        </childnode>
-      </node>
-      <node id="3997">
-        <label>src/database/contributorydatabase.h</label>
-        <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="3998" relation="include">
-        </childnode>
-        <childnode refid="4002" relation="include">
-        </childnode>
-      </node>
-      <node id="3999">
-        <label>src/gui/mainwindow/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="4000" relation="include">
-        </childnode>
-      </node>
-      <node id="4000">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3999" relation="include">
-        </childnode>
-        <childnode refid="4001" relation="include">
-        </childnode>
-      </node>
-      <node id="4005">
-        <label>src/gui/widgets/comboboxmodelwidget.h</label>
-        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
-      </node>
-      <node id="4011">
-        <label>src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
-        <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="4003" relation="include">
-        </childnode>
-      </node>
-      <node id="4010">
-        <label>src/generator/texgenerator.h</label>
-        <link refid="d6/dc3/texgenerator_8h_source"/>
-        <childnode refid="4002" relation="include">
-        </childnode>
-      </node>
-      <node id="3998">
-        <label>src/gui/dialogs/computeturnoverdialog.h</label>
-        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
-        <childnode refid="3999" relation="include">
-        </childnode>
-      </node>
-      <node id="4006">
-        <label>src/gui/widgets/searchwidget.h</label>
-        <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d5/dd1/classModels_1_1Contributory" prot="public">Models::Contributory</innerclass>
@@ -298,15 +298,15 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/unit.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/calculable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
 <codeline lineno="18" refid="d5/dd1/classModels_1_1Contributory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d99/classModels_1_1Calculable" kindref="compound">Calculable</ref></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
@@ -367,6 +367,6 @@
 <codeline lineno="175"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h"/>
   </compounddef>
 </doxygen>

@@ -1,15 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d1/d99/pdfgenerator_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d99/pdfgenerator_8cpp" kind="file">
     <compoundname>pdfgenerator.cpp</compoundname>
     <includes refid="de/d42/pdfgenerator_8h" local="yes">pdfgenerator.h</includes>
     <incdepgraph>
-      <node id="867">
-        <label>QString</label>
-      </node>
-      <node id="869">
-        <label>QFile</label>
-      </node>
       <node id="866">
         <label>pdfgenerator.h</label>
         <link refid="de/d42/pdfgenerator_8h_source"/>
@@ -20,11 +14,17 @@
         <childnode refid="869" relation="include">
         </childnode>
       </node>
+      <node id="867">
+        <label>QString</label>
+      </node>
+      <node id="869">
+        <label>QFile</label>
+      </node>
       <node id="868">
         <label>QProcess</label>
       </node>
       <node id="865">
-        <label>src/generator/pdfgenerator.cpp</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp</label>
         <link refid="pdfgenerator.cpp"/>
         <childnode refid="866" relation="include">
         </childnode>
@@ -38,7 +38,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;pdfgenerator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="da/da6/namespaceGenerator" kindref="compound">Generator</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Generator<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a59ca8292d423302478f7f278034f7006" kindref="member">PdfGenerator::PdfGenerator</ref>(QString<sp/>pdflatexPath)</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>_pdflatexPath<sp/>=<sp/>pdflatexPath;</highlight></codeline>
@@ -61,6 +61,6 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/generator/pdfgenerator.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp"/>
   </compounddef>
 </doxygen>

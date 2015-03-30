@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="db/de4/customerdatawidget_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/de4/customerdatawidget_8h" kind="file">
     <compoundname>customerdatawidget.h</compoundname>
     <includes local="no">QWidget</includes>
     <includes local="no">QLabel</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includes refid="d8/ddb/user_8h" local="yes">models/user.h</includes>
-    <includedby refid="d6/de9/customerdatawidget_8cpp" local="yes">src/gui/widgets/customerdatawidget.cpp</includedby>
+    <includedby refid="d6/de9/customerdatawidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.cpp</includedby>
     <incdepgraph>
+      <node id="2548">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="2549" relation="include">
+        </childnode>
+      </node>
       <node id="2569">
         <label>QMessageBox</label>
-      </node>
-      <node id="2550">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="2546" relation="include">
-        </childnode>
       </node>
       <node id="2553">
         <label>QStandardPaths</label>
@@ -42,62 +42,6 @@
         <childnode refid="2563" relation="include">
         </childnode>
       </node>
-      <node id="2548">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="2549" relation="include">
-        </childnode>
-      </node>
-      <node id="2568">
-        <label>stdexcept</label>
-      </node>
-      <node id="2556">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="2547">
-        <label>QStandardItem</label>
-      </node>
-      <node id="2565">
-        <label>exception</label>
-      </node>
-      <node id="2542">
-        <label>src/gui/widgets/customerdatawidget.h</label>
-        <link refid="customerdatawidget.h"/>
-        <childnode refid="2543" relation="include">
-        </childnode>
-        <childnode refid="2544" relation="include">
-        </childnode>
-        <childnode refid="2545" relation="include">
-        </childnode>
-        <childnode refid="2551" relation="include">
-        </childnode>
-      </node>
-      <node id="2545">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="2546" relation="include">
-        </childnode>
-        <childnode refid="2547" relation="include">
-        </childnode>
-        <childnode refid="2548" relation="include">
-        </childnode>
-        <childnode refid="2550" relation="include">
-        </childnode>
-      </node>
-      <node id="2554">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="2546" relation="include">
-        </childnode>
-        <childnode refid="2555" relation="include">
-        </childnode>
-        <childnode refid="2556" relation="include">
-        </childnode>
-        <childnode refid="2548" relation="include">
-        </childnode>
-        <childnode refid="2545" relation="include">
-        </childnode>
-      </node>
       <node id="2564">
         <label>exceptions/fileexception.h</label>
         <link refid="d4/d79/fileexception_8h_source"/>
@@ -112,6 +56,72 @@
         <childnode refid="2569" relation="include">
         </childnode>
         <childnode refid="2557" relation="include">
+        </childnode>
+      </node>
+      <node id="2562">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="2546" relation="include">
+        </childnode>
+      </node>
+      <node id="2568">
+        <label>stdexcept</label>
+      </node>
+      <node id="2556">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="2557">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2555" relation="include">
+        </childnode>
+        <childnode refid="2559" relation="include">
+        </childnode>
+        <childnode refid="2560" relation="include">
+        </childnode>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2546" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+      </node>
+      <node id="2547">
+        <label>QStandardItem</label>
+      </node>
+      <node id="2565">
+        <label>exception</label>
+      </node>
+      <node id="2550">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="2546" relation="include">
+        </childnode>
+      </node>
+      <node id="2563">
+        <label>utils/directories.h</label>
+        <link refid="de/ddd/directories_8h_source"/>
+        <childnode refid="2546" relation="include">
+        </childnode>
+        <childnode refid="2552" relation="include">
+        </childnode>
+        <childnode refid="2564" relation="include">
+        </childnode>
+      </node>
+      <node id="2554">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="2546" relation="include">
+        </childnode>
+        <childnode refid="2555" relation="include">
+        </childnode>
+        <childnode refid="2556" relation="include">
+        </childnode>
+        <childnode refid="2548" relation="include">
+        </childnode>
+        <childnode refid="2545" relation="include">
         </childnode>
       </node>
       <node id="2561">
@@ -135,36 +145,8 @@
       <node id="2558">
         <label>QFile</label>
       </node>
-      <node id="2557">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="2558" relation="include">
-        </childnode>
-        <childnode refid="2555" relation="include">
-        </childnode>
-        <childnode refid="2559" relation="include">
-        </childnode>
-        <childnode refid="2560" relation="include">
-        </childnode>
-        <childnode refid="2561" relation="include">
-        </childnode>
-        <childnode refid="2546" relation="include">
-        </childnode>
-        <childnode refid="2562" relation="include">
-        </childnode>
-      </node>
       <node id="2544">
         <label>QLabel</label>
-      </node>
-      <node id="2563">
-        <label>utils/directories.h</label>
-        <link refid="de/ddd/directories_8h_source"/>
-        <childnode refid="2546" relation="include">
-        </childnode>
-        <childnode refid="2552" relation="include">
-        </childnode>
-        <childnode refid="2564" relation="include">
-        </childnode>
       </node>
       <node id="2567">
         <label>iostream</label>
@@ -175,10 +157,28 @@
       <node id="2560">
         <label>QTextStream</label>
       </node>
-      <node id="2562">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
+      <node id="2545">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
         <childnode refid="2546" relation="include">
+        </childnode>
+        <childnode refid="2547" relation="include">
+        </childnode>
+        <childnode refid="2548" relation="include">
+        </childnode>
+        <childnode refid="2550" relation="include">
+        </childnode>
+      </node>
+      <node id="2542">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</label>
+        <link refid="customerdatawidget.h"/>
+        <childnode refid="2543" relation="include">
+        </childnode>
+        <childnode refid="2544" relation="include">
+        </childnode>
+        <childnode refid="2545" relation="include">
+        </childnode>
+        <childnode refid="2551" relation="include">
         </childnode>
       </node>
       <node id="2559">
@@ -194,22 +194,22 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERDATAWIDGET_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERDATAWIDGET_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERDATAWIDGET_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERDATAWIDGET_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QLabel&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/user.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CustomerDataWidget;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="22" refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/deb/classGui_1_1Widgets_1_1CustomerDataWidget" kindref="compound">CustomerDataWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
@@ -232,6 +232,6 @@
 <codeline lineno="59"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERDATAWIDGET_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/customerdatawidget.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h"/>
   </compounddef>
 </doxygen>

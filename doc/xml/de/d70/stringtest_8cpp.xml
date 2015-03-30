@@ -1,11 +1,23 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="de/d70/stringtest_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d70/stringtest_8cpp" kind="file">
     <compoundname>stringtest.cpp</compoundname>
     <includes refid="db/d1a/stringtest_8h" local="yes">stringtest.h</includes>
     <incdepgraph>
       <node id="6674">
         <label>list</label>
+      </node>
+      <node id="6669">
+        <label>QObject</label>
+      </node>
+      <node id="6672">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="6676">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="6677" relation="include">
+        </childnode>
       </node>
       <node id="6668">
         <label>stringtest.h</label>
@@ -17,8 +29,20 @@
         <childnode refid="6676" relation="include">
         </childnode>
       </node>
-      <node id="6669">
-        <label>QObject</label>
+      <node id="6671">
+        <label>QTest</label>
+      </node>
+      <node id="6677">
+        <label>QString</label>
+      </node>
+      <node id="6675">
+        <label>iostream</label>
+      </node>
+      <node id="6667">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</label>
+        <link refid="stringtest.cpp"/>
+        <childnode refid="6668" relation="include">
+        </childnode>
       </node>
       <node id="6670">
         <label>QTestRunner/testrunner.h</label>
@@ -32,30 +56,6 @@
         <childnode refid="6674" relation="include">
         </childnode>
         <childnode refid="6675" relation="include">
-        </childnode>
-      </node>
-      <node id="6672">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="6667">
-        <label>tests/utils/stringtest.cpp</label>
-        <link refid="stringtest.cpp"/>
-        <childnode refid="6668" relation="include">
-        </childnode>
-      </node>
-      <node id="6671">
-        <label>QTest</label>
-      </node>
-      <node id="6677">
-        <label>QString</label>
-      </node>
-      <node id="6675">
-        <label>iostream</label>
-      </node>
-      <node id="6676">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
-        <childnode refid="6677" relation="include">
         </childnode>
       </node>
       <node id="6673">
@@ -81,6 +81,6 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">Utils::String::firstLetterToUpper</ref>(</highlight><highlight class="stringliteral">&quot;machin&quot;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;Machin&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/utils/stringtest.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp"/>
   </compounddef>
 </doxygen>

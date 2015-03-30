@@ -1,23 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d7/d4e/customermodeltest_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d4e/customermodeltest_8h" kind="file">
     <compoundname>customermodeltest.h</compoundname>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="d3/d35/customer_8h" local="yes">models/customer.h</includes>
     <includes local="yes">utils/double.h</includes>
-    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">tests/models/customermodeltest.cpp</includedby>
+    <includedby refid="d9/d79/customermodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.cpp</includedby>
     <incdepgraph>
       <node id="6170">
         <label>list</label>
-      </node>
-      <node id="6178">
-        <label>utils/double.h</label>
-      </node>
-      <node id="6177">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="6173" relation="include">
-        </childnode>
       </node>
       <node id="6175">
         <label>models/imodel.h</label>
@@ -25,8 +16,11 @@
         <childnode refid="6176" relation="include">
         </childnode>
       </node>
+      <node id="6178">
+        <label>utils/double.h</label>
+      </node>
       <node id="6165">
-        <label>tests/models/customermodeltest.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h</label>
         <link refid="customermodeltest.h"/>
         <childnode refid="6166" relation="include">
         </childnode>
@@ -34,6 +28,30 @@
         </childnode>
         <childnode refid="6178" relation="include">
         </childnode>
+      </node>
+      <node id="6168">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="6174">
+        <label>QStandardItem</label>
+      </node>
+      <node id="6177">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="6173" relation="include">
+        </childnode>
+      </node>
+      <node id="6167">
+        <label>QTest</label>
+      </node>
+      <node id="6176">
+        <label>QVariantHash</label>
+      </node>
+      <node id="6173">
+        <label>QString</label>
+      </node>
+      <node id="6171">
+        <label>iostream</label>
       </node>
       <node id="6166">
         <label>QTestRunner/testrunner.h</label>
@@ -49,12 +67,6 @@
         <childnode refid="6171" relation="include">
         </childnode>
       </node>
-      <node id="6168">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="6174">
-        <label>QStandardItem</label>
-      </node>
       <node id="6172">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
@@ -67,18 +79,6 @@
         <childnode refid="6177" relation="include">
         </childnode>
       </node>
-      <node id="6167">
-        <label>QTest</label>
-      </node>
-      <node id="6176">
-        <label>QVariantHash</label>
-      </node>
-      <node id="6173">
-        <label>QString</label>
-      </node>
-      <node id="6171">
-        <label>iostream</label>
-      </node>
       <node id="6169">
         <label>algorithm</label>
       </node>
@@ -89,13 +89,13 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERMODELTEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERMODELTEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CUSTOMERMODELTEST_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CUSTOMERMODELTEST_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/customer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="8" refid="d5/dcd/classCustomerModelTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dcd/classCustomerModelTest" kindref="compound">CustomerModelTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
@@ -123,6 +123,6 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CUSTOMERMODELTEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/models/customermodeltest.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h"/>
   </compounddef>
 </doxygen>

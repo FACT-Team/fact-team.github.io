@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="df/d88/comboboxdelegate_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d88/comboboxdelegate_8h" kind="file">
     <compoundname>comboboxdelegate.h</compoundname>
     <includes local="no">QItemDelegate</includes>
     <includes local="no">QComboBox</includes>
     <includes local="no">QApplication</includes>
-    <includedby refid="dd/df7/comboboxdelegate_8cpp" local="yes">src/gui/widgets/delegates/comboboxdelegate.cpp</includedby>
-    <includedby refid="d5/dfb/projectcombodelegate_8h" local="yes">src/gui/widgets/delegates/projectcombodelegate.h</includedby>
-    <includedby refid="da/d01/unitcombodelegate_8h" local="yes">src/gui/widgets/delegates/unitcombodelegate.h</includedby>
+    <includedby refid="dd/df7/comboboxdelegate_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp</includedby>
+    <includedby refid="d5/dfb/projectcombodelegate_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</includedby>
+    <includedby refid="da/d01/unitcombodelegate_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h</includedby>
     <incdepgraph>
+      <node id="2588">
+        <label>QApplication</label>
+      </node>
       <node id="2585">
-        <label>src/gui/widgets/delegates/comboboxdelegate.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h</label>
         <link refid="comboboxdelegate.h"/>
         <childnode refid="2586" relation="include">
         </childnode>
@@ -18,9 +21,6 @@
         </childnode>
         <childnode refid="2588" relation="include">
         </childnode>
-      </node>
-      <node id="2588">
-        <label>QApplication</label>
       </node>
       <node id="2587">
         <label>QComboBox</label>
@@ -30,44 +30,26 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2595">
-        <label>src/gui/widgets/projectswidget.h</label>
-        <link refid="da/d5e/projectswidget_8h_source"/>
-      </node>
-      <node id="2596">
-        <label>src/gui/widgets/delegates/unitcombodelegate.h</label>
-        <link refid="da/d01/unitcombodelegate_8h_source"/>
-        <childnode refid="2591" relation="include">
-        </childnode>
-      </node>
-      <node id="2589">
-        <label>src/gui/widgets/delegates/comboboxdelegate.h</label>
-        <link refid="comboboxdelegate.h"/>
-        <childnode refid="2590" relation="include">
-        </childnode>
-        <childnode refid="2596" relation="include">
-        </childnode>
-      </node>
-      <node id="2591">
-        <label>src/gui/widgets/contributorieswidget.h</label>
-        <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="2592" relation="include">
-        </childnode>
-      </node>
-      <node id="2592">
-        <label>src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="2593" relation="include">
-        </childnode>
-      </node>
       <node id="2593">
-        <label>src/gui/mainwindow/mainwindow.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
         <childnode refid="2594" relation="include">
         </childnode>
       </node>
+      <node id="2591">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="2592" relation="include">
+        </childnode>
+      </node>
+      <node id="2596">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h</label>
+        <link refid="da/d01/unitcombodelegate_8h_source"/>
+        <childnode refid="2591" relation="include">
+        </childnode>
+      </node>
       <node id="2594">
-        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
         <childnode refid="2593" relation="include">
         </childnode>
@@ -75,10 +57,28 @@
         </childnode>
       </node>
       <node id="2590">
-        <label>src/gui/widgets/delegates/projectcombodelegate.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="d5/dfb/projectcombodelegate_8h_source"/>
         <childnode refid="2591" relation="include">
         </childnode>
+      </node>
+      <node id="2592">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="2593" relation="include">
+        </childnode>
+      </node>
+      <node id="2589">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h</label>
+        <link refid="comboboxdelegate.h"/>
+        <childnode refid="2590" relation="include">
+        </childnode>
+        <childnode refid="2596" relation="include">
+        </childnode>
+      </node>
+      <node id="2595">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" prot="public">Gui::Widgets::Delegates::ComboBoxDelegate</innerclass>
@@ -90,13 +90,13 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>COMBOBOXDELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COMBOBOXDELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>COMBOBOXDELEGATE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COMBOBOXDELEGATE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QComboBox&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
@@ -133,6 +133,6 @@
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMBOBOXDELEGATE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/delegates/comboboxdelegate.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.h"/>
   </compounddef>
 </doxygen>

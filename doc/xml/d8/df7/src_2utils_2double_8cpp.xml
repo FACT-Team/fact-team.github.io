@@ -1,11 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d8/df7/src_2utils_2double_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/df7/src_2utils_2double_8cpp" kind="file">
     <compoundname>double.cpp</compoundname>
     <includes refid="d8/d00/src_2utils_2double_8h" local="yes">double.h</includes>
     <incdepgraph>
+      <node id="4840">
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/double.cpp</label>
+        <link refid="src/utils/double.cpp"/>
+        <childnode refid="4841" relation="include">
+        </childnode>
+      </node>
       <node id="4843">
         <label>cmath</label>
+      </node>
+      <node id="4842">
+        <label>math.h</label>
       </node>
       <node id="4841">
         <label>double.h</label>
@@ -15,15 +24,6 @@
         <childnode refid="4843" relation="include">
         </childnode>
       </node>
-      <node id="4840">
-        <label>src/utils/double.cpp</label>
-        <link refid="src/utils/double.cpp"/>
-        <childnode refid="4841" relation="include">
-        </childnode>
-      </node>
-      <node id="4842">
-        <label>math.h</label>
-      </node>
     </incdepgraph>
     <innernamespace refid="d4/d3d/namespaceUtils">Utils</innernamespace>
     <briefdescription>
@@ -32,7 +32,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref><sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Double::round</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d)</highlight></codeline>
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::floor(n<sp/>*<sp/>pow(10,<sp/>d)+<sp/>0.5)/pow(10,<sp/>d);</highlight></codeline>
@@ -40,6 +40,6 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/utils/double.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/utils/double.cpp"/>
   </compounddef>
 </doxygen>

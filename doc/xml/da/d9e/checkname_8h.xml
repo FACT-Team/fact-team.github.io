@@ -1,10 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="da/d9e/checkname_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d9e/checkname_8h" kind="file">
     <compoundname>checkname.h</compoundname>
     <includes refid="d6/df4/checkfieldsletters_8h" local="yes">checkfieldsletters.h</includes>
-    <includedby refid="d4/dcb/checkname_8cpp" local="yes">src/gui/widgets/checkfields/checkname.cpp</includedby>
+    <includedby refid="d4/dcb/checkname_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkname.cpp</includedby>
     <incdepgraph>
+      <node id="2063">
+        <label>checkqlineedit.h</label>
+        <link refid="de/dc9/checkqlineedit_8h_source"/>
+        <childnode refid="2064" relation="include">
+        </childnode>
+        <childnode refid="2065" relation="include">
+        </childnode>
+        <childnode refid="2066" relation="include">
+        </childnode>
+      </node>
       <node id="2061">
         <label>checkfieldsletters.h</label>
         <link refid="d6/df4/checkfieldsletters_8h_source"/>
@@ -17,8 +27,11 @@
         <childnode refid="2063" relation="include">
         </childnode>
       </node>
-      <node id="2064">
-        <label>QLineEdit</label>
+      <node id="2060">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkname.h</label>
+        <link refid="checkname.h"/>
+        <childnode refid="2061" relation="include">
+        </childnode>
       </node>
       <node id="2066">
         <label>icheckfield.h</label>
@@ -26,27 +39,14 @@
         <childnode refid="2067" relation="include">
         </childnode>
       </node>
+      <node id="2064">
+        <label>QLineEdit</label>
+      </node>
       <node id="2067">
         <label>QString</label>
       </node>
       <node id="2065">
         <label>QPushButton</label>
-      </node>
-      <node id="2060">
-        <label>src/gui/widgets/checkfields/checkname.h</label>
-        <link refid="checkname.h"/>
-        <childnode refid="2061" relation="include">
-        </childnode>
-      </node>
-      <node id="2063">
-        <label>checkqlineedit.h</label>
-        <link refid="de/dc9/checkqlineedit_8h_source"/>
-        <childnode refid="2064" relation="include">
-        </childnode>
-        <childnode refid="2065" relation="include">
-        </childnode>
-        <childnode refid="2066" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" prot="public">Gui::Widgets::CheckFields::CheckName</innerclass>
@@ -58,12 +58,12 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CHECKNAME_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHECKNAME_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CHECKNAME_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CHECKNAME_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkfieldsletters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
 <codeline lineno="12" refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d67/classGui_1_1Widgets_1_1CheckFields_1_1CheckName" kindref="compound">CheckName</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dba/classGui_1_1Widgets_1_1CheckFields_1_1CheckFieldsLetters" kindref="compound">CheckFieldsLetters</ref></highlight></codeline>
@@ -78,6 +78,6 @@
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKNAME_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkname.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkname.h"/>
   </compounddef>
 </doxygen>

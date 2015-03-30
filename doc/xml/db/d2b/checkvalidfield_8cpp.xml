@@ -1,36 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="db/d2b/checkvalidfield_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d2b/checkvalidfield_8cpp" kind="file">
     <compoundname>checkvalidfield.cpp</compoundname>
     <includes refid="d0/d48/checkvalidfield_8h" local="yes">checkvalidfield.h</includes>
     <incdepgraph>
-      <node id="2187">
-        <label>checkvalidfield.h</label>
-        <link refid="d0/d48/checkvalidfield_8h_source"/>
-        <childnode refid="2188" relation="include">
-        </childnode>
-      </node>
-      <node id="2186">
-        <label>src/gui/widgets/checkfields/checkvalidfield.cpp</label>
-        <link refid="checkvalidfield.cpp"/>
-        <childnode refid="2187" relation="include">
-        </childnode>
-      </node>
-      <node id="2189">
-        <label>QLineEdit</label>
-      </node>
-      <node id="2191">
-        <label>icheckfield.h</label>
-        <link refid="db/d07/icheckfield_8h_source"/>
-        <childnode refid="2192" relation="include">
-        </childnode>
-      </node>
-      <node id="2192">
-        <label>QString</label>
-      </node>
-      <node id="2190">
-        <label>QPushButton</label>
-      </node>
       <node id="2188">
         <label>checkqlineedit.h</label>
         <link refid="de/dc9/checkqlineedit_8h_source"/>
@@ -40,6 +13,33 @@
         </childnode>
         <childnode refid="2191" relation="include">
         </childnode>
+      </node>
+      <node id="2187">
+        <label>checkvalidfield.h</label>
+        <link refid="d0/d48/checkvalidfield_8h_source"/>
+        <childnode refid="2188" relation="include">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>icheckfield.h</label>
+        <link refid="db/d07/icheckfield_8h_source"/>
+        <childnode refid="2192" relation="include">
+        </childnode>
+      </node>
+      <node id="2186">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp</label>
+        <link refid="checkvalidfield.cpp"/>
+        <childnode refid="2187" relation="include">
+        </childnode>
+      </node>
+      <node id="2189">
+        <label>QLineEdit</label>
+      </node>
+      <node id="2192">
+        <label>QString</label>
+      </node>
+      <node id="2190">
+        <label>QPushButton</label>
       </node>
     </incdepgraph>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
@@ -52,7 +52,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;checkvalidfield.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CheckFields<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><ref refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a17f7b1d7ce52fb9112a0f60fa0d4f572" kindref="member">CheckValidField::CheckValidField</ref>(QWidget*<sp/>w,<sp/>QPushButton<sp/>*btn)<sp/>:<sp/>CheckQLineEdit(w,<sp/>btn)<sp/>{</highlight></codeline>
@@ -67,6 +67,6 @@
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkvalidfield.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d7/da6/chosepathwidget_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/da6/chosepathwidget_8cpp" kind="file">
     <compoundname>chosepathwidget.cpp</compoundname>
     <includes refid="df/d7a/chosepathwidget_8h" local="yes">chosepathwidget.h</includes>
     <includes local="yes">ui_chosepathwidget.h</includes>
@@ -8,13 +8,8 @@
       <node id="2746">
         <label>ui_chosepathwidget.h</label>
       </node>
-      <node id="2742">
-        <label>src/gui/widgets/path/chosepathwidget.cpp</label>
-        <link refid="chosepathwidget.cpp"/>
-        <childnode refid="2743" relation="include">
-        </childnode>
-        <childnode refid="2746" relation="include">
-        </childnode>
+      <node id="2744">
+        <label>QWidget</label>
       </node>
       <node id="2743">
         <label>chosepathwidget.h</label>
@@ -24,11 +19,16 @@
         <childnode refid="2745" relation="include">
         </childnode>
       </node>
-      <node id="2744">
-        <label>QWidget</label>
-      </node>
       <node id="2745">
         <label>QDir</label>
+      </node>
+      <node id="2742">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp</label>
+        <link refid="chosepathwidget.cpp"/>
+        <childnode refid="2743" relation="include">
+        </childnode>
+        <childnode refid="2746" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
@@ -41,12 +41,12 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;chosepathwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_chosepathwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Path<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><ref refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a978d2251c213ff092767e83912924649" kindref="member">ChosePathWidget::ChosePathWidget</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref>::ChosePathWidget)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/>Ui::ChosePathWidget)</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
@@ -80,6 +80,6 @@
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/path/chosepathwidget.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosepathwidget.cpp"/>
   </compounddef>
 </doxygen>

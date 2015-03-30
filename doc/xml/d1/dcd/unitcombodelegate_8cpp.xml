@@ -1,15 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d1/dcd/unitcombodelegate_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dcd/unitcombodelegate_8cpp" kind="file">
     <compoundname>unitcombodelegate.cpp</compoundname>
     <includes refid="da/d01/unitcombodelegate_8h" local="yes">unitcombodelegate.h</includes>
     <incdepgraph>
-      <node id="2686">
-        <label>src/gui/widgets/delegates/unitcombodelegate.cpp</label>
-        <link refid="unitcombodelegate.cpp"/>
-        <childnode refid="2687" relation="include">
-        </childnode>
-      </node>
       <node id="2687">
         <label>unitcombodelegate.h</label>
         <link refid="da/d01/unitcombodelegate_8h_source"/>
@@ -19,6 +13,12 @@
         </childnode>
         <childnode refid="2690" relation="include">
         </childnode>
+      </node>
+      <node id="2692">
+        <label>QApplication</label>
+      </node>
+      <node id="2688">
+        <label>QWidget</label>
       </node>
       <node id="2690">
         <label>gui/widgets/delegates/comboboxdelegate.h</label>
@@ -30,11 +30,11 @@
         <childnode refid="2692" relation="include">
         </childnode>
       </node>
-      <node id="2692">
-        <label>QApplication</label>
-      </node>
-      <node id="2688">
-        <label>QWidget</label>
+      <node id="2686">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.cpp</label>
+        <link refid="unitcombodelegate.cpp"/>
+        <childnode refid="2687" relation="include">
+        </childnode>
       </node>
       <node id="2689">
         <label>QComboBox</label>
@@ -53,7 +53,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;unitcombodelegate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -96,6 +96,6 @@
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/delegates/unitcombodelegate.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.cpp"/>
   </compounddef>
 </doxygen>

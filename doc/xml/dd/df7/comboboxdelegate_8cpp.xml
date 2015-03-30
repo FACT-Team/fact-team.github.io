@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="dd/df7/comboboxdelegate_8cpp" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/df7/comboboxdelegate_8cpp" kind="file">
     <compoundname>comboboxdelegate.cpp</compoundname>
     <includes refid="df/d88/comboboxdelegate_8h" local="yes">comboboxdelegate.h</includes>
     <incdepgraph>
+      <node id="2583">
+        <label>QApplication</label>
+      </node>
       <node id="2580">
         <label>comboboxdelegate.h</label>
         <link refid="df/d88/comboboxdelegate_8h_source"/>
@@ -14,20 +17,17 @@
         <childnode refid="2583" relation="include">
         </childnode>
       </node>
-      <node id="2579">
-        <label>src/gui/widgets/delegates/comboboxdelegate.cpp</label>
-        <link refid="comboboxdelegate.cpp"/>
-        <childnode refid="2580" relation="include">
-        </childnode>
-      </node>
-      <node id="2583">
-        <label>QApplication</label>
-      </node>
       <node id="2582">
         <label>QComboBox</label>
       </node>
       <node id="2581">
         <label>QItemDelegate</label>
+      </node>
+      <node id="2579">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp</label>
+        <link refid="comboboxdelegate.cpp"/>
+        <childnode refid="2580" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
@@ -40,7 +40,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;comboboxdelegate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -84,6 +84,6 @@
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/comboboxdelegate.cpp"/>
   </compounddef>
 </doxygen>

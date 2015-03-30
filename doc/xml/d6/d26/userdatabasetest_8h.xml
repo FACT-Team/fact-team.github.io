@@ -1,24 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d6/d26/userdatabasetest_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d26/userdatabasetest_8h" kind="file">
     <compoundname>userdatabasetest.h</compoundname>
     <includes local="no">QObject</includes>
     <includes local="no">QtTest/QtTest</includes>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
-    <includedby refid="de/de2/userdatabasetest_8cpp" local="yes">tests/database/userdatabasetest.cpp</includedby>
+    <includedby refid="de/de2/userdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.cpp</includedby>
     <incdepgraph>
       <node id="5641">
         <label>list</label>
-      </node>
-      <node id="5635">
-        <label>QObject</label>
-      </node>
-      <node id="5650">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="5644" relation="include">
-        </childnode>
       </node>
       <node id="5646">
         <label>models/imodel.h</label>
@@ -26,8 +17,17 @@
         <childnode refid="5647" relation="include">
         </childnode>
       </node>
+      <node id="5635">
+        <label>QObject</label>
+      </node>
+      <node id="5639">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="5649">
+        <label>QStandardItem</label>
+      </node>
       <node id="5634">
-        <label>tests/database/userdatabasetest.h</label>
+        <label>/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h</label>
         <link refid="userdatabasetest.h"/>
         <childnode refid="5635" relation="include">
         </childnode>
@@ -38,36 +38,10 @@
         <childnode refid="5643" relation="include">
         </childnode>
       </node>
-      <node id="5637">
-        <label>QTestRunner/testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="5638" relation="include">
-        </childnode>
-        <childnode refid="5639" relation="include">
-        </childnode>
-        <childnode refid="5640" relation="include">
-        </childnode>
-        <childnode refid="5641" relation="include">
-        </childnode>
-        <childnode refid="5642" relation="include">
-        </childnode>
-      </node>
-      <node id="5639">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="5649">
-        <label>QStandardItem</label>
-      </node>
-      <node id="5648">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
+      <node id="5650">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
         <childnode refid="5644" relation="include">
-        </childnode>
-        <childnode refid="5649" relation="include">
-        </childnode>
-        <childnode refid="5646" relation="include">
-        </childnode>
-        <childnode refid="5650" relation="include">
         </childnode>
       </node>
       <node id="5643">
@@ -99,6 +73,32 @@
       <node id="5642">
         <label>iostream</label>
       </node>
+      <node id="5637">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="5638" relation="include">
+        </childnode>
+        <childnode refid="5639" relation="include">
+        </childnode>
+        <childnode refid="5640" relation="include">
+        </childnode>
+        <childnode refid="5641" relation="include">
+        </childnode>
+        <childnode refid="5642" relation="include">
+        </childnode>
+      </node>
+      <node id="5648">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="5644" relation="include">
+        </childnode>
+        <childnode refid="5649" relation="include">
+        </childnode>
+        <childnode refid="5646" relation="include">
+        </childnode>
+        <childnode refid="5650" relation="include">
+        </childnode>
+      </node>
       <node id="5640">
         <label>algorithm</label>
       </node>
@@ -112,9 +112,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USERDATABASETEST_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERDATABASETEST_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USERDATABASETEST_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtTest/QtTest&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -136,6 +136,6 @@
 <codeline lineno="22"><highlight class="normal">DECLARE_TEST(<ref refid="d7/dc1/classUserDatabaseTest" kindref="compound">UserDatabaseTest</ref>)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USERDATABASETEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/database/userdatabasetest.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h"/>
   </compounddef>
 </doxygen>

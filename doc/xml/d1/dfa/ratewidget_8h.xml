@@ -1,17 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
-  <compounddef id="d1/dfa/ratewidget_8h" kind="file" language="C++">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dfa/ratewidget_8h" kind="file">
     <compoundname>ratewidget.h</compoundname>
     <includes local="no">QWidget</includes>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
-    <includedby refid="d2/dcd/ratewidget_8cpp" local="yes">src/gui/widgets/ratewidget.cpp</includedby>
+    <includedby refid="d2/dcd/ratewidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.cpp</includedby>
     <incdepgraph>
-      <node id="3016">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="3009" relation="include">
-        </childnode>
-      </node>
       <node id="3012">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
@@ -24,24 +18,10 @@
       <node id="3015">
         <label>QStandardItem</label>
       </node>
-      <node id="3006">
-        <label>src/gui/widgets/ratewidget.h</label>
-        <link refid="ratewidget.h"/>
-        <childnode refid="3007" relation="include">
-        </childnode>
-        <childnode refid="3008" relation="include">
-        </childnode>
-      </node>
-      <node id="3014">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
+      <node id="3016">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
         <childnode refid="3009" relation="include">
-        </childnode>
-        <childnode refid="3015" relation="include">
-        </childnode>
-        <childnode refid="3012" relation="include">
-        </childnode>
-        <childnode refid="3016" relation="include">
         </childnode>
       </node>
       <node id="3008">
@@ -70,6 +50,26 @@
       <node id="3009">
         <label>QString</label>
       </node>
+      <node id="3006">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h</label>
+        <link refid="ratewidget.h"/>
+        <childnode refid="3007" relation="include">
+        </childnode>
+        <childnode refid="3008" relation="include">
+        </childnode>
+      </node>
+      <node id="3014">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="3009" relation="include">
+        </childnode>
+        <childnode refid="3015" relation="include">
+        </childnode>
+        <childnode refid="3012" relation="include">
+        </childnode>
+        <childnode refid="3016" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <innerclass refid="d0/de2/classGui_1_1Widgets_1_1RateWidget" prot="public">Gui::Widgets::RateWidget</innerclass>
     <innernamespace refid="db/d3c/namespaceUi">Ui</innernamespace>
@@ -80,20 +80,20 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RATEWIDGET_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RATEWIDGET_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RATEWIDGET_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RATEWIDGET_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/d3c/namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RateWidget;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="20" refid="d0/de2/classGui_1_1Widgets_1_1RateWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/de2/classGui_1_1Widgets_1_1RateWidget" kindref="compound">RateWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
@@ -128,6 +128,6 @@
 <codeline lineno="87"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RATEWIDGET_H</highlight></codeline>
     </programlisting>
-    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/ratewidget.h"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h"/>
   </compounddef>
 </doxygen>
