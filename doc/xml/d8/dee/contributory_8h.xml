@@ -1,272 +1,294 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d8/dee/contributory_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d8/dee/contributory_8h" kind="file" language="C++">
     <compoundname>contributory.h</compoundname>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
-    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</includedby>
-    <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
-    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
-    <includedby refid="d4/dfe/billing_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/billing.h</includedby>
-    <includedby refid="dd/d0f/contributorieslist_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</includedby>
-    <includedby refid="d9/dec/contributory_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp</includedby>
-    <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</includedby>
-    <includedby refid="d0/d31/contributorymodeltest_8h" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</includedby>
+    <includes refid="d1/da2/unit_8h" local="yes">models/unit.h</includes>
+    <includes refid="de/dfa/calculable_8h" local="yes">models/calculable.h</includes>
+    <includes local="yes">utils/double.h</includes>
+    <includedby refid="d2/deb/contributorydatabase_8h" local="yes">src/database/contributorydatabase.h</includedby>
+    <includedby refid="db/d57/contributorieswidget_8h" local="yes">src/gui/widgets/contributorieswidget.h</includedby>
+    <includedby refid="d0/d03/contributoriestablemodel_8h" local="yes">src/gui/widgets/widgetsmodels/contributoriestablemodel.h</includedby>
+    <includedby refid="d4/dfe/billing_8h" local="yes">src/models/billing.h</includedby>
+    <includedby refid="dd/d0f/contributorieslist_8h" local="yes">src/models/contributorieslist.h</includedby>
+    <includedby refid="d9/dec/contributory_8cpp" local="yes">src/models/contributory.cpp</includedby>
+    <includedby refid="d7/d64/contributoriesdatabasetest_8h" local="yes">tests/database/contributoriesdatabasetest.h</includedby>
+    <includedby refid="d0/d31/contributorymodeltest_8h" local="yes">tests/models/contributorymodeltest.h</includedby>
     <incdepgraph>
-      <node id="3710">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3711" relation="include">
-        </childnode>
+      <node id="3994">
+        <label>models/calculable.h</label>
+        <link refid="de/dfa/calculable_8h_source"/>
       </node>
-      <node id="3709">
-        <label>QSharedPointer</label>
+      <node id="3995">
+        <label>utils/double.h</label>
       </node>
-      <node id="3713">
-        <label>QStandardItem</label>
-      </node>
-      <node id="3714">
+      <node id="3992">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="3707" relation="include">
+        <childnode refid="3985" relation="include">
         </childnode>
       </node>
-      <node id="3705">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
+      <node id="3988">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="3989" relation="include">
+        </childnode>
+      </node>
+      <node id="3987">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="3983">
+        <label>src/models/contributory.h</label>
         <link refid="contributory.h"/>
-        <childnode refid="3706" relation="include">
+        <childnode refid="3984" relation="include">
         </childnode>
-        <childnode refid="3710" relation="include">
+        <childnode refid="3988" relation="include">
         </childnode>
-      </node>
-      <node id="3706">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="3707" relation="include">
+        <childnode refid="3993" relation="include">
         </childnode>
-        <childnode refid="3708" relation="include">
+        <childnode refid="3994" relation="include">
         </childnode>
-        <childnode refid="3709" relation="include">
-        </childnode>
-        <childnode refid="3710" relation="include">
-        </childnode>
-        <childnode refid="3712" relation="include">
+        <childnode refid="3995" relation="include">
         </childnode>
       </node>
-      <node id="3711">
-        <label>QVariantHash</label>
+      <node id="3991">
+        <label>QStandardItem</label>
       </node>
-      <node id="3708">
-        <label>QDate</label>
+      <node id="3993">
+        <label>models/unit.h</label>
+        <link refid="d1/da2/unit_8h_source"/>
+        <childnode refid="3985" relation="include">
+        </childnode>
       </node>
-      <node id="3707">
-        <label>QString</label>
-      </node>
-      <node id="3712">
+      <node id="3990">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="3707" relation="include">
+        <childnode refid="3985" relation="include">
         </childnode>
-        <childnode refid="3713" relation="include">
+        <childnode refid="3991" relation="include">
         </childnode>
-        <childnode refid="3710" relation="include">
+        <childnode refid="3988" relation="include">
         </childnode>
-        <childnode refid="3714" relation="include">
+        <childnode refid="3992" relation="include">
         </childnode>
+      </node>
+      <node id="3984">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="3985" relation="include">
+        </childnode>
+        <childnode refid="3986" relation="include">
+        </childnode>
+        <childnode refid="3987" relation="include">
+        </childnode>
+        <childnode refid="3988" relation="include">
+        </childnode>
+        <childnode refid="3990" relation="include">
+        </childnode>
+      </node>
+      <node id="3989">
+        <label>QVariantHash</label>
+      </node>
+      <node id="3986">
+        <label>QDate</label>
+      </node>
+      <node id="3985">
+        <label>QString</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3732">
-        <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
-        <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="3718" relation="include">
-        </childnode>
-        <childnode refid="3733" relation="include">
-        </childnode>
-      </node>
-      <node id="3722">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="3723" relation="include">
-        </childnode>
-        <childnode refid="3726" relation="include">
-        </childnode>
-        <childnode refid="3717" relation="include">
-        </childnode>
-        <childnode refid="3718" relation="include">
-        </childnode>
-        <childnode refid="3727" relation="include">
-        </childnode>
-        <childnode refid="3728" relation="include">
-        </childnode>
-      </node>
-      <node id="3718">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="3719" relation="include">
-        </childnode>
-      </node>
-      <node id="3728">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
-        <link refid="da/d5e/billingmodeltest_8h_source"/>
-      </node>
-      <node id="3736">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
-        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
-        <childnode refid="3735" relation="include">
-        </childnode>
-      </node>
-      <node id="3717">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
-        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
-        <childnode refid="3718" relation="include">
-        </childnode>
-      </node>
-      <node id="3737">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</label>
-        <link refid="dd/d0f/contributorieslist_8h_source"/>
-        <childnode refid="3716" relation="include">
-        </childnode>
-        <childnode refid="3735" relation="include">
-        </childnode>
-        <childnode refid="3721" relation="include">
-        </childnode>
-        <childnode refid="3738" relation="include">
-        </childnode>
-      </node>
-      <node id="3735">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
-        <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="3726" relation="include">
-        </childnode>
-      </node>
-      <node id="3730">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
-        <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="3722" relation="include">
-        </childnode>
-      </node>
-      <node id="3715">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
-        <link refid="contributory.h"/>
-        <childnode refid="3716" relation="include">
-        </childnode>
-        <childnode refid="3735" relation="include">
-        </childnode>
-        <childnode refid="3736" relation="include">
-        </childnode>
-        <childnode refid="3721" relation="include">
-        </childnode>
-        <childnode refid="3737" relation="include">
-        </childnode>
-        <childnode refid="3739" relation="include">
-        </childnode>
-        <childnode refid="3740" relation="include">
-        </childnode>
-      </node>
-      <node id="3739">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</label>
-        <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
-      </node>
-      <node id="3733">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
-        <link refid="d7/d49/itemtypetest_8h_source"/>
-      </node>
-      <node id="3719">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3718" relation="include">
-        </childnode>
-        <childnode refid="3720" relation="include">
-        </childnode>
-      </node>
-      <node id="3723">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
+      <node id="4004">
+        <label>src/database/customerdatabase.h</label>
         <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="3719" relation="include">
+        <childnode refid="4000" relation="include">
         </childnode>
-        <childnode refid="3724" relation="include">
+        <childnode refid="4005" relation="include">
         </childnode>
-        <childnode refid="3725" relation="include">
-        </childnode>
-      </node>
-      <node id="3740">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</label>
-        <link refid="d0/d31/contributorymodeltest_8h_source"/>
-      </node>
-      <node id="3734">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
-        <link refid="d9/d01/billingdatabasetest_8h_source"/>
-      </node>
-      <node id="3738">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h</label>
-        <link refid="dd/df0/contributorylisttest_8h_source"/>
-      </node>
-      <node id="3726">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="3718" relation="include">
+        <childnode refid="4006" relation="include">
         </childnode>
       </node>
-      <node id="3724">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
-        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
-      </node>
-      <node id="3716">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
-        <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="3717" relation="include">
-        </childnode>
-        <childnode refid="3721" relation="include">
-        </childnode>
-      </node>
-      <node id="3729">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
-        <link refid="d6/dc3/texgenerator_8h_source"/>
-        <childnode refid="3721" relation="include">
-        </childnode>
-      </node>
-      <node id="3725">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
-        <link refid="d7/d15/searchwidget_8h_source"/>
-      </node>
-      <node id="3721">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
-        <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="3722" relation="include">
-        </childnode>
-        <childnode refid="3723" relation="include">
-        </childnode>
-        <childnode refid="3729" relation="include">
-        </childnode>
-        <childnode refid="3726" relation="include">
-        </childnode>
-        <childnode refid="3730" relation="include">
-        </childnode>
-        <childnode refid="3731" relation="include">
-        </childnode>
-        <childnode refid="3732" relation="include">
-        </childnode>
-        <childnode refid="3734" relation="include">
-        </childnode>
-        <childnode refid="3728" relation="include">
-        </childnode>
-      </node>
-      <node id="3731">
-        <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
-        <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="3718" relation="include">
-        </childnode>
-      </node>
-      <node id="3720">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+      <node id="4001">
+        <label>src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="3727">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/statistics.h</label>
-        <link refid="d7/dc5/statistics_8h_source"/>
-        <childnode refid="3717" relation="include">
+      <node id="4013">
+        <label>src/utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="3999" relation="include">
         </childnode>
+        <childnode refid="4014" relation="include">
+        </childnode>
+      </node>
+      <node id="4019">
+        <label>tests/models/contributorylisttest.h</label>
+        <link refid="dd/df0/contributorylisttest_8h_source"/>
+      </node>
+      <node id="4017">
+        <label>src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
+        <link refid="d0/d03/contributoriestablemodel_8h_source"/>
+        <childnode refid="4016" relation="include">
+        </childnode>
+      </node>
+      <node id="3996">
+        <label>src/models/contributory.h</label>
+        <link refid="contributory.h"/>
+        <childnode refid="3997" relation="include">
+        </childnode>
+        <childnode refid="4016" relation="include">
+        </childnode>
+        <childnode refid="4017" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+        <childnode refid="4018" relation="include">
+        </childnode>
+        <childnode refid="4020" relation="include">
+        </childnode>
+        <childnode refid="4021" relation="include">
+        </childnode>
+      </node>
+      <node id="4009">
+        <label>tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
+      </node>
+      <node id="4020">
+        <label>tests/database/contributoriesdatabasetest.h</label>
+        <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
+      </node>
+      <node id="4002">
+        <label>src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="4003" relation="include">
+        </childnode>
+        <childnode refid="4004" relation="include">
+        </childnode>
+        <childnode refid="4010" relation="include">
+        </childnode>
+        <childnode refid="4007" relation="include">
+        </childnode>
+        <childnode refid="4011" relation="include">
+        </childnode>
+        <childnode refid="4012" relation="include">
+        </childnode>
+        <childnode refid="4013" relation="include">
+        </childnode>
+        <childnode refid="4015" relation="include">
+        </childnode>
+        <childnode refid="4009" relation="include">
+        </childnode>
+      </node>
+      <node id="4018">
+        <label>src/models/contributorieslist.h</label>
+        <link refid="dd/d0f/contributorieslist_8h_source"/>
+        <childnode refid="3997" relation="include">
+        </childnode>
+        <childnode refid="4016" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+        <childnode refid="4019" relation="include">
+        </childnode>
+      </node>
+      <node id="4016">
+        <label>src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="4007" relation="include">
+        </childnode>
+      </node>
+      <node id="4014">
+        <label>tests/utils/itemtypetest.h</label>
+        <link refid="d7/d49/itemtypetest_8h_source"/>
+      </node>
+      <node id="4012">
+        <label>src/utils/hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+      </node>
+      <node id="4008">
+        <label>src/models/statistics.h</label>
+        <link refid="d7/dc5/statistics_8h_source"/>
+        <childnode refid="3998" relation="include">
+        </childnode>
+      </node>
+      <node id="4003">
+        <label>src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="4004" relation="include">
+        </childnode>
+        <childnode refid="4007" relation="include">
+        </childnode>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="3999" relation="include">
+        </childnode>
+        <childnode refid="4008" relation="include">
+        </childnode>
+        <childnode refid="4009" relation="include">
+        </childnode>
+      </node>
+      <node id="4015">
+        <label>tests/database/billingdatabasetest.h</label>
+        <link refid="d9/d01/billingdatabasetest_8h_source"/>
+      </node>
+      <node id="4021">
+        <label>tests/models/contributorymodeltest.h</label>
+        <link refid="d0/d31/contributorymodeltest_8h_source"/>
+      </node>
+      <node id="4007">
+        <label>src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+      </node>
+      <node id="3997">
+        <label>src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+      </node>
+      <node id="3999">
+        <label>src/gui/mainwindow/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="4000" relation="include">
+        </childnode>
+      </node>
+      <node id="4000">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+        <childnode refid="4001" relation="include">
+        </childnode>
+      </node>
+      <node id="4005">
+        <label>src/gui/widgets/comboboxmodelwidget.h</label>
+        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
+      </node>
+      <node id="4011">
+        <label>src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="4003" relation="include">
+        </childnode>
+      </node>
+      <node id="4010">
+        <label>src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="4002" relation="include">
+        </childnode>
+      </node>
+      <node id="3998">
+        <label>src/gui/dialogs/computeturnoverdialog.h</label>
+        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
+        <childnode refid="3999" relation="include">
+        </childnode>
+      </node>
+      <node id="4006">
+        <label>src/gui/widgets/searchwidget.h</label>
+        <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d5/dd1/classModels_1_1Contributory" prot="public">Models::Contributory</innerclass>
@@ -276,57 +298,75 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
-<codeline lineno="11" refid="d5/dd1/classModels_1_1Contributory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kindref="member">Contributory</ref>();</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kindref="member">Contributory</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/unit.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/calculable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="d5/dd1/classModels_1_1Contributory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d99/classModels_1_1Calculable" kindref="compound">Calculable</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kindref="member">Contributory</ref>();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" kindref="member">~Contributory</ref>();</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kindref="member">Contributory</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" kindref="member">~Contributory</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kindref="member">commit</ref>();</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" kindref="member">getDataMap</ref>();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06" kindref="member">hydrat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ac8eb5c2589dd05bba5b51ac190ecd778" kindref="member">getPrice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>paied=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1aa6f3e9018846a83d192b8fb427fe0481" kindref="member">getSumQuantity</ref>();</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" kindref="member">getNbHours</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" kindref="member">getDataMap</ref>();</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" kindref="member">setNbHours</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" kindref="member">getDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kindref="member">setDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getDescription);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>getLongDescription()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setLongDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getLongDescription);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_nbHours;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_longDescription;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="119"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kindref="member">getProject</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a7c5fdd6e53641ae441054ebe7393f59d" kindref="member">getQuantity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" kindref="member">getDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kindref="member">setDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getDescription);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" kindref="member">getLongDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" kindref="member">setLongDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;getLongDescription);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref><sp/>&amp;value);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1aa6e1d43e7ca2e5e09bf6f1b65f577a0b" kindref="member">getHourlyRate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dd1/classModels_1_1Contributory_1a08adb4281ec3a57c839290d01b1f41e5" kindref="member">setHourlyRate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>_project;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_quantity;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_hourlyRate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref><sp/>_unit;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_description;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_longDescription;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORY_H</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h"/>
   </compounddef>
 </doxygen>

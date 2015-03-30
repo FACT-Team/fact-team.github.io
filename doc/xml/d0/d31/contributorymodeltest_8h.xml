@@ -1,104 +1,126 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d0/d31/contributorymodeltest_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d0/d31/contributorymodeltest_8h" kind="file" language="C++">
     <compoundname>contributorymodeltest.h</compoundname>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="d8/dee/contributory_8h" local="yes">models/contributory.h</includes>
-    <includedby refid="d8/d4c/contributorymodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.cpp</includedby>
+    <includes local="yes">utils/double.h</includes>
+    <includedby refid="d8/d4c/contributorymodeltest_8cpp" local="yes">tests/models/contributorymodeltest.cpp</includedby>
     <incdepgraph>
-      <node id="5623">
+      <node id="6080">
         <label>list</label>
       </node>
-      <node id="5629">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="5630" relation="include">
-        </childnode>
+      <node id="6092">
+        <label>models/calculable.h</label>
+        <link refid="de/dfa/calculable_8h_source"/>
       </node>
-      <node id="5621">
-        <label>QSharedPointer</label>
+      <node id="6093">
+        <label>utils/double.h</label>
       </node>
-      <node id="5632">
-        <label>QStandardItem</label>
-      </node>
-      <node id="5633">
+      <node id="6090">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="5627" relation="include">
+        <childnode refid="6084" relation="include">
         </childnode>
       </node>
-      <node id="5625">
-        <label>models/contributory.h</label>
-        <link refid="d8/dee/contributory_8h_source"/>
-        <childnode refid="5626" relation="include">
-        </childnode>
-        <childnode refid="5629" relation="include">
+      <node id="6086">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="6087" relation="include">
         </childnode>
       </node>
-      <node id="5618">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</label>
-        <link refid="contributorymodeltest.h"/>
-        <childnode refid="5619" relation="include">
-        </childnode>
-        <childnode refid="5625" relation="include">
-        </childnode>
-      </node>
-      <node id="5626">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="5627" relation="include">
-        </childnode>
-        <childnode refid="5628" relation="include">
-        </childnode>
-        <childnode refid="5621" relation="include">
-        </childnode>
-        <childnode refid="5629" relation="include">
-        </childnode>
-        <childnode refid="5631" relation="include">
-        </childnode>
-      </node>
-      <node id="5620">
-        <label>QTest</label>
-      </node>
-      <node id="5630">
-        <label>QVariantHash</label>
-      </node>
-      <node id="5628">
-        <label>QDate</label>
-      </node>
-      <node id="5627">
-        <label>QString</label>
-      </node>
-      <node id="5624">
-        <label>iostream</label>
-      </node>
-      <node id="5619">
+      <node id="6076">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="5620" relation="include">
+        <childnode refid="6077" relation="include">
         </childnode>
-        <childnode refid="5621" relation="include">
+        <childnode refid="6078" relation="include">
         </childnode>
-        <childnode refid="5622" relation="include">
+        <childnode refid="6079" relation="include">
         </childnode>
-        <childnode refid="5623" relation="include">
+        <childnode refid="6080" relation="include">
         </childnode>
-        <childnode refid="5624" relation="include">
+        <childnode refid="6081" relation="include">
         </childnode>
       </node>
-      <node id="5631">
+      <node id="6078">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="6082">
+        <label>models/contributory.h</label>
+        <link refid="d8/dee/contributory_8h_source"/>
+        <childnode refid="6083" relation="include">
+        </childnode>
+        <childnode refid="6086" relation="include">
+        </childnode>
+        <childnode refid="6091" relation="include">
+        </childnode>
+        <childnode refid="6092" relation="include">
+        </childnode>
+        <childnode refid="6093" relation="include">
+        </childnode>
+      </node>
+      <node id="6089">
+        <label>QStandardItem</label>
+      </node>
+      <node id="6091">
+        <label>models/unit.h</label>
+        <link refid="d1/da2/unit_8h_source"/>
+        <childnode refid="6084" relation="include">
+        </childnode>
+      </node>
+      <node id="6088">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="5627" relation="include">
+        <childnode refid="6084" relation="include">
         </childnode>
-        <childnode refid="5632" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
-        <childnode refid="5629" relation="include">
+        <childnode refid="6086" relation="include">
         </childnode>
-        <childnode refid="5633" relation="include">
+        <childnode refid="6090" relation="include">
         </childnode>
       </node>
-      <node id="5622">
+      <node id="6083">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="6084" relation="include">
+        </childnode>
+        <childnode refid="6085" relation="include">
+        </childnode>
+        <childnode refid="6078" relation="include">
+        </childnode>
+        <childnode refid="6086" relation="include">
+        </childnode>
+        <childnode refid="6088" relation="include">
+        </childnode>
+      </node>
+      <node id="6077">
+        <label>QTest</label>
+      </node>
+      <node id="6087">
+        <label>QVariantHash</label>
+      </node>
+      <node id="6085">
+        <label>QDate</label>
+      </node>
+      <node id="6084">
+        <label>QString</label>
+      </node>
+      <node id="6081">
+        <label>iostream</label>
+      </node>
+      <node id="6075">
+        <label>tests/models/contributorymodeltest.h</label>
+        <link refid="contributorymodeltest.h"/>
+        <childnode refid="6076" relation="include">
+        </childnode>
+        <childnode refid="6082" relation="include">
+        </childnode>
+        <childnode refid="6093" relation="include">
+        </childnode>
+      </node>
+      <node id="6079">
         <label>algorithm</label>
       </node>
     </incdepgraph>
@@ -108,41 +130,44 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORYMODELTEST_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORYMODELTEST_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CONTRIBUTORYMODELTEST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTRIBUTORYMODELTEST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/contributory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="d5/d97/classContributoryModelTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref>();</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals1();</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals2();</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>notEquals();</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitUpdate();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitInsert();</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hydrat();</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitRemove();</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setup(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c1;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c2;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d5/d97/classContributoryModelTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals1();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equals2();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>notEquals();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitUpdate();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitInsert();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hydrat();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>commitRemove();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getRateTest();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getQuantityTest();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setup(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">DECLARE_TEST(<ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c1;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c2;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORYMODELTEST_H</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">DECLARE_TEST(<ref refid="d5/d97/classContributoryModelTest" kindref="compound">ContributoryModelTest</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONTRIBUTORYMODELTEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/models/contributorymodeltest.h"/>
   </compounddef>
 </doxygen>

@@ -1,282 +1,277 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="dc/d1a/projectstablemodel_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dc/d1a/projectstablemodel_8h" kind="file" language="C++">
     <compoundname>projectstablemodel.h</compoundname>
     <includes local="no">QObject</includes>
     <includes local="no">QAbstractTableModel</includes>
     <includes refid="dc/d8d/project_8h" local="yes">models/project.h</includes>
     <includes refid="d7/d7f/log_8h" local="yes">utils/log.h</includes>
-    <includedby refid="d9/dfd/projectdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h</includedby>
-    <includedby refid="d1/d1b/projectstablemodel_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.cpp</includedby>
-    <includedby refid="d9/d19/projectmodeltest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.cpp</includedby>
+    <includedby refid="d9/dfd/projectdatabase_8h" local="yes">src/database/projectdatabase.h</includedby>
+    <includedby refid="d1/d1b/projectstablemodel_8cpp" local="yes">src/gui/widgets/widgetsmodels/projectstablemodel.cpp</includedby>
+    <includedby refid="d9/d19/projectmodeltest_8cpp" local="yes">tests/models/projectmodeltest.cpp</includedby>
     <incdepgraph>
-      <node id="3295">
-        <label>models/imodel.h</label>
-        <link refid="df/d78/imodel_8h_source"/>
-        <childnode refid="3296" relation="include">
-        </childnode>
-      </node>
-      <node id="3305">
-        <label>QSettings</label>
-      </node>
-      <node id="3289">
+      <node id="3509">
         <label>QObject</label>
       </node>
-      <node id="3306">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="3292" relation="include">
-        </childnode>
-      </node>
-      <node id="3294">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="3300">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="3301" relation="include">
-        </childnode>
-        <childnode refid="3293" relation="include">
-        </childnode>
-        <childnode refid="3302" relation="include">
-        </childnode>
-        <childnode refid="3303" relation="include">
-        </childnode>
-        <childnode refid="3304" relation="include">
-        </childnode>
-        <childnode refid="3305" relation="include">
-        </childnode>
-        <childnode refid="3292" relation="include">
-        </childnode>
-        <childnode refid="3306" relation="include">
-        </childnode>
-      </node>
-      <node id="3298">
-        <label>QStandardItem</label>
-      </node>
-      <node id="3299">
+      <node id="3519">
         <label>models/people.h</label>
         <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3512" relation="include">
         </childnode>
       </node>
-      <node id="3291">
-        <label>models/project.h</label>
-        <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="3292" relation="include">
-        </childnode>
-        <childnode refid="3293" relation="include">
-        </childnode>
-        <childnode refid="3294" relation="include">
-        </childnode>
-        <childnode refid="3295" relation="include">
-        </childnode>
-        <childnode refid="3297" relation="include">
+      <node id="3515">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="3516" relation="include">
         </childnode>
       </node>
-      <node id="3304">
-        <label>QDebug</label>
+      <node id="3514">
+        <label>QSharedPointer</label>
       </node>
-      <node id="3296">
-        <label>QVariantHash</label>
+      <node id="3518">
+        <label>QStandardItem</label>
       </node>
-      <node id="3293">
-        <label>QDate</label>
-      </node>
-      <node id="3292">
-        <label>QString</label>
-      </node>
-      <node id="3301">
-        <label>QFile</label>
-      </node>
-      <node id="3303">
-        <label>QTextStream</label>
-      </node>
-      <node id="3297">
+      <node id="3517">
         <label>models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="3292" relation="include">
+        <childnode refid="3512" relation="include">
         </childnode>
-        <childnode refid="3298" relation="include">
+        <childnode refid="3518" relation="include">
         </childnode>
-        <childnode refid="3295" relation="include">
+        <childnode refid="3515" relation="include">
         </childnode>
-        <childnode refid="3299" relation="include">
+        <childnode refid="3519" relation="include">
         </childnode>
       </node>
-      <node id="3290">
+      <node id="3511">
+        <label>models/project.h</label>
+        <link refid="dc/d8d/project_8h_source"/>
+        <childnode refid="3512" relation="include">
+        </childnode>
+        <childnode refid="3513" relation="include">
+        </childnode>
+        <childnode refid="3514" relation="include">
+        </childnode>
+        <childnode refid="3515" relation="include">
+        </childnode>
+        <childnode refid="3517" relation="include">
+        </childnode>
+      </node>
+      <node id="3524">
+        <label>QDebug</label>
+      </node>
+      <node id="3516">
+        <label>QVariantHash</label>
+      </node>
+      <node id="3513">
+        <label>QDate</label>
+      </node>
+      <node id="3512">
+        <label>QString</label>
+      </node>
+      <node id="3521">
+        <label>QFile</label>
+      </node>
+      <node id="3520">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="3521" relation="include">
+        </childnode>
+        <childnode refid="3513" relation="include">
+        </childnode>
+        <childnode refid="3522" relation="include">
+        </childnode>
+        <childnode refid="3523" relation="include">
+        </childnode>
+        <childnode refid="3524" relation="include">
+        </childnode>
+        <childnode refid="3512" relation="include">
+        </childnode>
+        <childnode refid="3525" relation="include">
+        </childnode>
+      </node>
+      <node id="3508">
+        <label>src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
+        <link refid="projectstablemodel.h"/>
+        <childnode refid="3509" relation="include">
+        </childnode>
+        <childnode refid="3510" relation="include">
+        </childnode>
+        <childnode refid="3511" relation="include">
+        </childnode>
+        <childnode refid="3520" relation="include">
+        </childnode>
+      </node>
+      <node id="3523">
+        <label>QTextStream</label>
+      </node>
+      <node id="3525">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="3512" relation="include">
+        </childnode>
+      </node>
+      <node id="3510">
         <label>QAbstractTableModel</label>
       </node>
-      <node id="3288">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
-        <link refid="projectstablemodel.h"/>
-        <childnode refid="3289" relation="include">
-        </childnode>
-        <childnode refid="3290" relation="include">
-        </childnode>
-        <childnode refid="3291" relation="include">
-        </childnode>
-        <childnode refid="3300" relation="include">
-        </childnode>
-      </node>
-      <node id="3302">
+      <node id="3522">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3325">
-        <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
-        <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="3311" relation="include">
-        </childnode>
-        <childnode refid="3326" relation="include">
-        </childnode>
-      </node>
-      <node id="3315">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
-        <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="3316" relation="include">
-        </childnode>
-        <childnode refid="3319" relation="include">
-        </childnode>
-        <childnode refid="3310" relation="include">
-        </childnode>
-        <childnode refid="3311" relation="include">
-        </childnode>
-        <childnode refid="3320" relation="include">
-        </childnode>
-        <childnode refid="3321" relation="include">
-        </childnode>
-      </node>
-      <node id="3311">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="3312" relation="include">
-        </childnode>
-      </node>
-      <node id="3321">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
-        <link refid="da/d5e/billingmodeltest_8h_source"/>
-      </node>
-      <node id="3310">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
-        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
-        <childnode refid="3311" relation="include">
-        </childnode>
-      </node>
-      <node id="3323">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
-        <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="3315" relation="include">
-        </childnode>
-      </node>
-      <node id="3308">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h</label>
-        <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="3309" relation="include">
-        </childnode>
-        <childnode refid="3311" relation="include">
-        </childnode>
-        <childnode refid="3320" relation="include">
-        </childnode>
-      </node>
-      <node id="3326">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
-        <link refid="d7/d49/itemtypetest_8h_source"/>
-      </node>
-      <node id="3312">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="3311" relation="include">
-        </childnode>
-        <childnode refid="3313" relation="include">
-        </childnode>
-      </node>
-      <node id="3316">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
+      <node id="3535">
+        <label>src/database/customerdatabase.h</label>
         <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="3312" relation="include">
+        <childnode refid="3531" relation="include">
         </childnode>
-        <childnode refid="3317" relation="include">
+        <childnode refid="3536" relation="include">
         </childnode>
-        <childnode refid="3318" relation="include">
-        </childnode>
-      </node>
-      <node id="3327">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
-        <link refid="d9/d01/billingdatabasetest_8h_source"/>
-      </node>
-      <node id="3319">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="3311" relation="include">
+        <childnode refid="3537" relation="include">
         </childnode>
       </node>
-      <node id="3317">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
-        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
-      </node>
-      <node id="3309">
-        <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
-        <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="3310" relation="include">
-        </childnode>
-        <childnode refid="3314" relation="include">
-        </childnode>
-      </node>
-      <node id="3322">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
-        <link refid="d6/dc3/texgenerator_8h_source"/>
-        <childnode refid="3314" relation="include">
-        </childnode>
-      </node>
-      <node id="3318">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
-        <link refid="d7/d15/searchwidget_8h_source"/>
-      </node>
-      <node id="3314">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
-        <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="3315" relation="include">
-        </childnode>
-        <childnode refid="3316" relation="include">
-        </childnode>
-        <childnode refid="3322" relation="include">
-        </childnode>
-        <childnode refid="3319" relation="include">
-        </childnode>
-        <childnode refid="3323" relation="include">
-        </childnode>
-        <childnode refid="3324" relation="include">
-        </childnode>
-        <childnode refid="3325" relation="include">
-        </childnode>
-        <childnode refid="3327" relation="include">
-        </childnode>
-        <childnode refid="3321" relation="include">
-        </childnode>
-      </node>
-      <node id="3324">
-        <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
-        <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="3311" relation="include">
-        </childnode>
-      </node>
-      <node id="3313">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+      <node id="3532">
+        <label>src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="3307">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
-        <link refid="projectstablemodel.h"/>
-        <childnode refid="3308" relation="include">
+      <node id="3544">
+        <label>src/utils/itemtype.h</label>
+        <link refid="db/d31/itemtype_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3545" relation="include">
         </childnode>
       </node>
-      <node id="3320">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/statistics.h</label>
-        <link refid="d7/dc5/statistics_8h_source"/>
-        <childnode refid="3310" relation="include">
+      <node id="3540">
+        <label>tests/models/billingmodeltest.h</label>
+        <link refid="da/d5e/billingmodeltest_8h_source"/>
+      </node>
+      <node id="3533">
+        <label>src/models/billing.h</label>
+        <link refid="d4/dfe/billing_8h_source"/>
+        <childnode refid="3534" relation="include">
         </childnode>
+        <childnode refid="3535" relation="include">
+        </childnode>
+        <childnode refid="3541" relation="include">
+        </childnode>
+        <childnode refid="3538" relation="include">
+        </childnode>
+        <childnode refid="3542" relation="include">
+        </childnode>
+        <childnode refid="3543" relation="include">
+        </childnode>
+        <childnode refid="3544" relation="include">
+        </childnode>
+        <childnode refid="3546" relation="include">
+        </childnode>
+        <childnode refid="3540" relation="include">
+        </childnode>
+      </node>
+      <node id="3545">
+        <label>tests/utils/itemtypetest.h</label>
+        <link refid="d7/d49/itemtypetest_8h_source"/>
+      </node>
+      <node id="3543">
+        <label>src/utils/hierarchicalsystem.h</label>
+        <link refid="de/d21/hierarchicalsystem_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+      </node>
+      <node id="3539">
+        <label>src/models/statistics.h</label>
+        <link refid="d7/dc5/statistics_8h_source"/>
+        <childnode refid="3529" relation="include">
+        </childnode>
+      </node>
+      <node id="3534">
+        <label>src/database/billingdatabase.h</label>
+        <link refid="d2/dd1/billingdatabase_8h_source"/>
+        <childnode refid="3535" relation="include">
+        </childnode>
+        <childnode refid="3538" relation="include">
+        </childnode>
+        <childnode refid="3529" relation="include">
+        </childnode>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3539" relation="include">
+        </childnode>
+        <childnode refid="3540" relation="include">
+        </childnode>
+      </node>
+      <node id="3546">
+        <label>tests/database/billingdatabasetest.h</label>
+        <link refid="d9/d01/billingdatabasetest_8h_source"/>
+      </node>
+      <node id="3527">
+        <label>src/database/projectdatabase.h</label>
+        <link refid="d9/dfd/projectdatabase_8h_source"/>
+        <childnode refid="3528" relation="include">
+        </childnode>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3539" relation="include">
+        </childnode>
+      </node>
+      <node id="3526">
+        <label>src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
+        <link refid="projectstablemodel.h"/>
+        <childnode refid="3527" relation="include">
+        </childnode>
+      </node>
+      <node id="3538">
+        <label>src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+      </node>
+      <node id="3528">
+        <label>src/database/contributorydatabase.h</label>
+        <link refid="d2/deb/contributorydatabase_8h_source"/>
+        <childnode refid="3529" relation="include">
+        </childnode>
+        <childnode refid="3533" relation="include">
+        </childnode>
+      </node>
+      <node id="3530">
+        <label>src/gui/mainwindow/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="3531" relation="include">
+        </childnode>
+      </node>
+      <node id="3531">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3532" relation="include">
+        </childnode>
+      </node>
+      <node id="3536">
+        <label>src/gui/widgets/comboboxmodelwidget.h</label>
+        <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
+      </node>
+      <node id="3542">
+        <label>src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
+        <link refid="da/dfc/billingstablemodel_8h_source"/>
+        <childnode refid="3534" relation="include">
+        </childnode>
+      </node>
+      <node id="3541">
+        <label>src/generator/texgenerator.h</label>
+        <link refid="d6/dc3/texgenerator_8h_source"/>
+        <childnode refid="3533" relation="include">
+        </childnode>
+      </node>
+      <node id="3529">
+        <label>src/gui/dialogs/computeturnoverdialog.h</label>
+        <link refid="d9/d97/computeturnoverdialog_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+      </node>
+      <node id="3537">
+        <label>src/gui/widgets/searchwidget.h</label>
+        <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" prot="public">Gui::Widgets::WdgModels::ProjectsTableModel</innerclass>
@@ -288,19 +283,19 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PROJECTSTABLEMODEL_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PROJECTSTABLEMODEL_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PROJECTSTABLEMODEL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROJECTSTABLEMODEL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QAbstractTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Models;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Utils;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref>;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">WdgModels<sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
@@ -340,6 +335,6 @@
 <codeline lineno="109"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PROJECTSTABLEMODEL_H</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h"/>
   </compounddef>
 </doxygen>

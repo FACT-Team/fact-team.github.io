@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d1/d38/tests_2utils_2double_8cpp" kind="file" language="C++">
+    <compoundname>double.cpp</compoundname>
+    <includes refid="d0/df7/tests_2utils_2double_8h" local="yes">double.h</includes>
+    <incdepgraph>
+      <node id="4845">
+        <label>tests/utils/double.cpp</label>
+        <link refid="tests/utils/double.cpp"/>
+        <childnode refid="4846" relation="include">
+        </childnode>
+      </node>
+      <node id="4847">
+        <label>math.h</label>
+      </node>
+      <node id="4846">
+        <label>double.h</label>
+        <link refid="d0/df7/tests_2utils_2double_8h_source"/>
+        <childnode refid="4847" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d4/d3d/namespaceUtils">Utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;double.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d4/d3d/namespaceUtils" kindref="compound">Utils</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Double::round</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>floor(n<sp/>*<sp/>pow(10.,<sp/>d)<sp/>+<sp/>.5)<sp/>/<sp/>pow(10.,<sp/>d);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/utils/double.cpp"/>
+  </compounddef>
+</doxygen>

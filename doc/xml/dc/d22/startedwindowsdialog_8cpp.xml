@@ -318,4 +318,62 @@
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>Databases::AccessDatabase::_dbType<sp/>=<sp/>(Databases::DbType)ui-&gt;cbDbType-&gt;currentIndex();</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>Databases::AccessDatabase::commit();</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>_user<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>_user<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d68/classModels_1_1User" kindref="compound">User</ref>(1);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" kindref="member">setFirstname</ref>(ui-&gt;leFirstname-&gt;text());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" kindref="member">setLastname</ref>(ui-&gt;leLastname-&gt;text());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" kindref="member">setCompany</ref>(ui-&gt;leCompany-&gt;text());</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" kindref="member">setTitle</ref>(ui-&gt;leTitle-&gt;text());</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" kindref="member">setAddress</ref>(ui-&gt;leAddress-&gt;text());</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1ab19eae39212a096542ed8c24567f3ca9" kindref="member">setCity</ref>(ui-&gt;leCity-&gt;text());</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1a89ea420d87ce7e32e8fc1b7a83616eaf" kindref="member">setPostalCode</ref>(ui-&gt;lePostalCode-&gt;text());</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" kindref="member">setEmail</ref>(ui-&gt;leEmail-&gt;text());</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1adea0f24c3438d7c65a6df522e3253863" kindref="member">setPhone</ref>(ui-&gt;lePhone-&gt;text());</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" kindref="member">setMobilePhone</ref>(ui-&gt;leMobile-&gt;text());</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" kindref="member">setNoSiret</ref>(ui-&gt;leNoSiret-&gt;text());</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="df/d68/classModels_1_1User_1ac65a44513c34f7e67888062d8bee3e54" kindref="member">setPdflatexPath</ref>(ui-&gt;wdgPdflatex-&gt;getField());</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" kindref="member">setWebsite</ref>(ui-&gt;leWebsite-&gt;text());</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kindref="member">setAddressComplement</ref>(ui-&gt;leComplement-&gt;text());</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>_user-&gt;<ref refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog::accept();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">QPixmap<sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ae3e9ade2f5949d5fb57e06c54106609f" kindref="member">StartedWindowsDialog::getImage</ref>(QString<sp/>path,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>img(path);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>img.scaled(width,height,Qt::KeepAspectRatio);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>img;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a9ea73c16c7917ff50c596cd1942dabfa" kindref="member">StartedWindowsDialog::checkFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePostalCode-&gt;setCountry(</highlight><highlight class="stringliteral">&quot;FRANCE&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lePhone-&gt;setCountry(</highlight><highlight class="stringliteral">&quot;FRANCE&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leMobile-&gt;setCountry(</highlight><highlight class="stringliteral">&quot;FRANCE&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnValidate-&gt;setEnabled(</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;leFirstname-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leLastname-&gt;isValid()</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leCompany-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leTitle-&gt;isValid()</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leAddress-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leCity-&gt;isValid()</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;lePostalCode-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leEmail-&gt;isValid()</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>((ui-&gt;lePhone-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leMobile-&gt;isValid())</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(ui-&gt;lePhone-&gt;text().isEmpty()<sp/>&amp;&amp;<sp/>ui-&gt;leMobile-&gt;isValid())</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>(ui-&gt;lePhone-&gt;isValid()<sp/>&amp;&amp;<sp/>ui-&gt;leMobile-&gt;text().isEmpty())<sp/>)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leNoSiret-&gt;isValid()<sp/>&amp;&amp;<sp/>!ui-&gt;wdgPdflatex-&gt;getField().isEmpty()</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ad582a62ec4204c2ef5081c5431824491" kindref="member">isDatabaseTypeValid</ref>()</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>ui-&gt;leNoSiret-&gt;isValid()</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1ad582a62ec4204c2ef5081c5431824491" kindref="member">isDatabaseTypeValid</ref>()<sp/>&amp;&amp;<sp/>ui-&gt;leWebsite-&gt;isValid()</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a690559be1b50a5ae7afc0ab64d0a28b8" kindref="member">StartedWindowsDialog::backToPage2</ref>()</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1afd791a73e2d897147b31c829131942af" kindref="member">nextToPage2</ref>();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/dialogs/startedwindowsdialog.cpp"/>
+  </compounddef>
+</doxygen>

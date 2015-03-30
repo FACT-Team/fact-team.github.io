@@ -1,63 +1,63 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="dd/d86/doublespinboxdelegate_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dd/d86/doublespinboxdelegate_8h" kind="file" language="C++">
     <compoundname>doublespinboxdelegate.h</compoundname>
     <includes local="no">QItemDelegate</includes>
     <includes local="no">QDoubleSpinBox</includes>
-    <includedby refid="db/d57/contributorieswidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</includedby>
-    <includedby refid="dd/d71/doublespinboxdelegate_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.cpp</includedby>
+    <includedby refid="db/d57/contributorieswidget_8h" local="yes">src/gui/widgets/contributorieswidget.h</includedby>
+    <includedby refid="dd/d71/doublespinboxdelegate_8cpp" local="yes">src/gui/widgets/delegates/doublespinboxdelegate.cpp</includedby>
     <incdepgraph>
-      <node id="2473">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h</label>
+      <node id="2602">
+        <label>src/gui/widgets/delegates/doublespinboxdelegate.h</label>
         <link refid="doublespinboxdelegate.h"/>
-        <childnode refid="2474" relation="include">
+        <childnode refid="2603" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2604" relation="include">
         </childnode>
       </node>
-      <node id="2475">
+      <node id="2604">
         <label>QDoubleSpinBox</label>
       </node>
-      <node id="2474">
+      <node id="2603">
         <label>QItemDelegate</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2479">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
-        <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="2480" relation="include">
-        </childnode>
-      </node>
-      <node id="2476">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h</label>
+      <node id="2605">
+        <label>src/gui/widgets/delegates/doublespinboxdelegate.h</label>
         <link refid="doublespinboxdelegate.h"/>
-        <childnode refid="2477" relation="include">
+        <childnode refid="2606" relation="include">
         </childnode>
       </node>
-      <node id="2477">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
-        <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="2478" relation="include">
-        </childnode>
-      </node>
-      <node id="2480">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
-        <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="2479" relation="include">
-        </childnode>
-        <childnode refid="2481" relation="include">
-        </childnode>
-      </node>
-      <node id="2478">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
-        <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="2479" relation="include">
-        </childnode>
-      </node>
-      <node id="2481">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+      <node id="2610">
+        <label>src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+      <node id="2606">
+        <label>src/gui/widgets/contributorieswidget.h</label>
+        <link refid="db/d57/contributorieswidget_8h_source"/>
+        <childnode refid="2607" relation="include">
+        </childnode>
+      </node>
+      <node id="2607">
+        <label>src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="2608" relation="include">
+        </childnode>
+      </node>
+      <node id="2608">
+        <label>src/gui/mainwindow/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="2609" relation="include">
+        </childnode>
+      </node>
+      <node id="2609">
+        <label>src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="2608" relation="include">
+        </childnode>
+        <childnode refid="2610" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" prot="public">Gui::Widgets::Delegates::DoubleSpinBoxDelegate</innerclass>
@@ -69,13 +69,13 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SPINBOXDELEGATE_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPINBOXDELEGATE_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SPINBOXDELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPINBOXDELEGATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QItemDelegate&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDoubleSpinBox&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dad/namespaceGui" kindref="compound">Gui</ref><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Delegates<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
@@ -106,6 +106,6 @@
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPINBOXDELEGATE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/gui/widgets/delegates/doublespinboxdelegate.h"/>
   </compounddef>
 </doxygen>

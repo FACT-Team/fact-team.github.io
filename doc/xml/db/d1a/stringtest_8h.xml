@@ -1,61 +1,61 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="db/d1a/stringtest_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="db/d1a/stringtest_8h" kind="file" language="C++">
     <compoundname>stringtest.h</compoundname>
     <includes local="no">QObject</includes>
     <includes refid="dd/da8/testrunner_8h" local="yes">QTestRunner/testrunner.h</includes>
     <includes refid="da/d66/string_8h" local="yes">utils/string.h</includes>
-    <includedby refid="de/d70/stringtest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</includedby>
+    <includedby refid="de/d70/stringtest_8cpp" local="yes">tests/utils/stringtest.cpp</includedby>
     <incdepgraph>
-      <node id="6186">
+      <node id="6685">
         <label>list</label>
       </node>
-      <node id="6181">
+      <node id="6679">
+        <label>tests/utils/stringtest.h</label>
+        <link refid="stringtest.h"/>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6687" relation="include">
+        </childnode>
+      </node>
+      <node id="6680">
         <label>QObject</label>
       </node>
-      <node id="6184">
-        <label>QSharedPointer</label>
-      </node>
-      <node id="6188">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
-        <childnode refid="6189" relation="include">
-        </childnode>
-      </node>
-      <node id="6180">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.h</label>
-        <link refid="stringtest.h"/>
-        <childnode refid="6181" relation="include">
-        </childnode>
-        <childnode refid="6182" relation="include">
-        </childnode>
-        <childnode refid="6188" relation="include">
-        </childnode>
-      </node>
-      <node id="6183">
-        <label>QTest</label>
-      </node>
-      <node id="6189">
-        <label>QString</label>
-      </node>
-      <node id="6187">
-        <label>iostream</label>
-      </node>
-      <node id="6182">
+      <node id="6681">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="6183" relation="include">
+        <childnode refid="6682" relation="include">
         </childnode>
-        <childnode refid="6184" relation="include">
+        <childnode refid="6683" relation="include">
         </childnode>
-        <childnode refid="6185" relation="include">
+        <childnode refid="6684" relation="include">
         </childnode>
-        <childnode refid="6186" relation="include">
+        <childnode refid="6685" relation="include">
         </childnode>
-        <childnode refid="6187" relation="include">
+        <childnode refid="6686" relation="include">
         </childnode>
       </node>
-      <node id="6185">
+      <node id="6683">
+        <label>QSharedPointer</label>
+      </node>
+      <node id="6682">
+        <label>QTest</label>
+      </node>
+      <node id="6688">
+        <label>QString</label>
+      </node>
+      <node id="6686">
+        <label>iostream</label>
+      </node>
+      <node id="6687">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="6688" relation="include">
+        </childnode>
+      </node>
+      <node id="6684">
         <label>algorithm</label>
       </node>
     </incdepgraph>
@@ -65,9 +65,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STRINGTEST_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>STRINGTEST_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STRINGTEST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGTEST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QTestRunner/testrunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -85,6 +85,6 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>STRINGTEST_H</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.h"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/tests/utils/stringtest.h"/>
   </compounddef>
 </doxygen>
