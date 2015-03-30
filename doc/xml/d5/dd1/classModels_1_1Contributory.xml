@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d5/dd1/classModels_1_1Contributory" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d5/dd1/classModels_1_1Contributory" kind="class" language="C++" prot="public">
     <compoundname>Models::Contributory</compoundname>
     <basecompoundref refid="d0/d9c/classModels_1_1IModel" prot="public" virt="non-virtual">Models::IModel</basecompoundref>
+    <basecompoundref refid="dc/d99/classModels_1_1Calculable" prot="public" virt="non-virtual">Models::Calculable</basecompoundref>
     <includes refid="d8/dee/contributory_8h" local="no">contributory.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1ab6149e9de1f6f794f1320a2ca6879a2b" prot="private" static="no" mutable="no">
@@ -16,20 +17,46 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="115" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" bodystart="115" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="168" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="168" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1ab5ba6e0f97268cbf747cbe2544cb64ec" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1a9518939e01256e45e7340674ac581adc" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double Models::Contributory::_nbHours</definition>
+        <definition>double Models::Contributory::_quantity</definition>
         <argsstring></argsstring>
-        <name>_nbHours</name>
+        <name>_quantity</name>
         <briefdescription>
-<para>Number of work hours of this contribution. </para>        </briefdescription>
+<para>Quantity of work of this contributory. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="116" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" bodystart="116" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="169" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1aca7347aa093c6b4945688b4b577ed9eb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Models::Contributory::_hourlyRate</definition>
+        <argsstring></argsstring>
+        <name>_hourlyRate</name>
+        <briefdescription>
+<para>Hourly rate for this contributory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="170" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1ac7493b847b68f41e4dd9975458298c88" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref></type>
+        <definition>Unit Models::Contributory::_unit</definition>
+        <argsstring></argsstring>
+        <name>_unit</name>
+        <briefdescription>
+<para><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref> of work of this contributory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="171" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1a6f2e073ba8ae191102e748a9a005a6bb" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -42,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="117" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" bodystart="117" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="172" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dd1/classModels_1_1Contributory_1acce814328dbc8ccd7715dd34c0c9a974" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -55,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="118" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" bodystart="118" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="173" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -70,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="17" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="7" bodyend="14"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="24" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="7" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1acbece77d876ca9d49d9fec868a74be5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -95,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="16" bodyend="20"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="31" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="17" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -108,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="29" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="22" bodyend="26"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="36" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="24" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -122,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="35" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="28" bodyend="37"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="42" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="30" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -148,7 +175,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="39" bodyend="46"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="49" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="41" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -162,7 +189,42 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="47" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="49" bodyend="52"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="54" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1ac8eb5c2589dd05bba5b51ac190ecd778" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Models::Contributory::getPrice</definition>
+        <argsstring>(const bool paied=false)</argsstring>
+        <name>getPrice</name>
+        <reimplements refid="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc">getPrice</reimplements>
+        <param>
+          <type>const bool</type>
+          <declname>paied</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>getPrice Return the price of a contributory </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The price </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="60" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="57" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1aa6f3e9018846a83d192b8fb427fe0481" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Models::Contributory::getSumQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getSumQuantity</name>
+        <reimplements refid="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1">getSumQuantity</reimplements>
+        <briefdescription>
+<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">ContributoriesList::getSumQuantity</ref> Return the sum of quantity (number of hours) of the Contributories. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>sum of quantity in hours </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="67" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="75" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QVariantHash</type>
@@ -177,7 +239,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="53" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="54" bodyend="63"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="73" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="93" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> *</type>
@@ -191,7 +253,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="60" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="65" bodyend="68"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="80" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="106" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -216,13 +278,13 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="70" bodyend="73"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="87" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="111" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a7c5fdd6e53641ae441054ebe7393f59d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
-        <definition>double Models::Contributory::getNbHours</definition>
+        <definition>double Models::Contributory::getQuantity</definition>
         <argsstring>() const </argsstring>
-        <name>getNbHours</name>
+        <name>getQuantity</name>
         <briefdescription>
 <para>getNbHours Number of work hour of a contributory </para>        </briefdescription>
         <detaileddescription>
@@ -230,13 +292,13 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="73" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="74" bodyend="77"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="93" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="115" bodyend="118"/>
       </memberdef>
-      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Models::Contributory::setNbHours</definition>
+        <definition>void Models::Contributory::setQuantity</definition>
         <argsstring>(double value)</argsstring>
-        <name>setNbHours</name>
+        <name>setQuantity</name>
         <param>
           <type>double</type>
           <declname>value</declname>
@@ -255,7 +317,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="79" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="79" bodyend="82"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="99" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -269,7 +331,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="85" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="83" bodyend="86"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="105" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -294,7 +356,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="91" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="88" bodyend="91"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="111" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="129" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -320,7 +382,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="100" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="93" bodyend="97"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="120" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="134" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -346,7 +408,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="109" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="99" bodyend="102"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="129" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="140" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -354,12 +416,13 @@
         <argsstring>() const </argsstring>
         <name>getLongDescription</name>
         <briefdescription>
-        </briefdescription>
+<para>getLongDescription A contributory has a long description : display in tex appendix </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>The long description </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="111" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="103" bodyend="106"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="135" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="144" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -371,71 +434,177 @@
           <declname>getLongDescription</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>setLongDescription Change the long description </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>getLongDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="112" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.cpp" bodystart="108" bodyend="111"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="141" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref></type>
+        <definition>Unit Models::Contributory::getUnit</definition>
+        <argsstring>() const </argsstring>
+        <name>getUnit</name>
+        <briefdescription>
+<para>getUnit Return the unit (hour or day) of contributory </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The unit </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="147" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Contributory::setUnit</definition>
+        <argsstring>(const Unit &amp;value)</argsstring>
+        <name>setUnit</name>
+        <param>
+          <type>const <ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setUnit Change the unit </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new unit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="153" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1aa6e1d43e7ca2e5e09bf6f1b65f577a0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::Contributory::getHourlyRate</definition>
+        <argsstring>() const </argsstring>
+        <name>getHourlyRate</name>
+        <briefdescription>
+<para>getHourlyRate Hourly rate for this contributory </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The hourly rate </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="159" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd1/classModels_1_1Contributory_1a08adb4281ec3a57c839290d01b1f41e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Models::Contributory::setHourlyRate</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setHourlyRate</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>setHourlyRate Change the hourly rate for this contributory </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The hourly rate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="165" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.cpp" bodystart="167" bodyend="170"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>The <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> class. </para>    </briefdescription>
+<para>The <ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref> enum Unity of work : hour or day. </para>    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para></para></simplesect>
+<para><simplesect kind="author"><para>The <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> class </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="232">
+      <node id="271">
         <label>Models::Contributory</label>
         <link refid="d5/dd1/classModels_1_1Contributory"/>
-        <childnode refid="233" relation="public-inheritance">
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="273" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="233">
+      <node id="273">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+      <node id="272">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="234">
+      <node id="274">
         <label>Models::Contributory</label>
         <link refid="d5/dd1/classModels_1_1Contributory"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="235">
+      <node id="276">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+      <node id="275">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" line="12" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributory.h" bodystart="11" bodyend="119"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" line="19" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributory.h" bodystart="18" bodyend="174"/>
     <listofallmembers>
       <member refid="d5/dd1/classModels_1_1Contributory_1a6f2e073ba8ae191102e748a9a005a6bb" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_description</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1aca7347aa093c6b4945688b4b577ed9eb" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_hourlyRate</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" prot="protected" virt="non-virtual"><scope>Models::Contributory</scope><name>_id</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1acce814328dbc8ccd7715dd34c0c9a974" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_longDescription</name></member>
-      <member refid="d5/dd1/classModels_1_1Contributory_1ab5ba6e0f97268cbf747cbe2544cb64ec" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_nbHours</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1ab6149e9de1f6f794f1320a2ca6879a2b" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_project</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1a9518939e01256e45e7340674ac581adc" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_quantity</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a8958f103202a45a8f77b86acebafe69c" prot="protected" virt="non-virtual"><scope>Models::Contributory</scope><name>_toRemoved</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1ac7493b847b68f41e4dd9975458298c88" prot="private" virt="non-virtual"><scope>Models::Contributory</scope><name>_unit</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>commit</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>Contributory</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1acbece77d876ca9d49d9fec868a74be5f" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>Contributory</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>getDataMap</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getDescription</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1aa6e1d43e7ca2e5e09bf6f1b65f577a0b" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getHourlyRate</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getId</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getLongDescription</name></member>
-      <member refid="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getNbHours</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1ac8eb5c2589dd05bba5b51ac190ecd778" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>getPrice</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getProject</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1a7c5fdd6e53641ae441054ebe7393f59d" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getQuantity</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1aa6f3e9018846a83d192b8fb427fe0481" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>getSumQuantity</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>getUnit</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>hydrat</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1adecabe4161742cfc81ddbadc6706d9e9" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>isToRemoved</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>operator!=</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>operator==</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>remove</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setDescription</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1a08adb4281ec3a57c839290d01b1f41e5" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setHourlyRate</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setId</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setLongDescription</name></member>
-      <member refid="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setNbHours</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setProject</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setQuantity</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setToRemoved</name></member>
+      <member refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>setUnit</name></member>
       <member refid="d5/dd1/classModels_1_1Contributory_1a27d9ade910eab64b0e1135bb25ce0308" prot="public" virt="non-virtual"><scope>Models::Contributory</scope><name>~Contributory</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab9c12f5b9ae86e00d0f2f7d8d349c4fa" prot="public" virt="virtual"><scope>Models::Contributory</scope><name>~IModel</name></member>
     </listofallmembers>

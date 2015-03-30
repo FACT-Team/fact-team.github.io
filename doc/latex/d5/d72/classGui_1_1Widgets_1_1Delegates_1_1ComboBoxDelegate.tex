@@ -1,16 +1,15 @@
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{\section{Gui\-:\-:Widgets\-:\-:Delegates\-:\-:Combo\-Box\-Delegate Class Reference}
-\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-}
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{}\section{Gui\+:\+:Widgets\+:\+:Delegates\+:\+:Combo\+Box\+Delegate Class Reference}
+\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
 
 
-The \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\-Box\-Delegate} class.  
+The \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\+Box\+Delegate} class.  
 
 
 
 
-{\ttfamily \#include $<$comboboxdelegate.\-h$>$}
+{\ttfamily \#include $<$comboboxdelegate.\+h$>$}
 
-Inheritance diagram for Gui\-:\-:Widgets\-:\-:Delegates\-:\-:Combo\-Box\-Delegate\-:\begin{figure}[H]
+Inheritance diagram for Gui\+:\+:Widgets\+:\+:Delegates\+:\+:Combo\+Box\+Delegate\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=2.937063cm]{d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}
@@ -19,22 +18,22 @@ Inheritance diagram for Gui\-:\-:Widgets\-:\-:Delegates\-:\-:Combo\-Box\-Delegat
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\-Box\-Delegate} (Q\-Object $\ast$parent=0)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\-Box\-Delegate\-::\-Combo\-Box\-Delegate} Construct a \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\-Box\-Delegate}. \end{DoxyCompactList}\item 
-virtual Q\-Widget $\ast$ \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{create\-Editor} (Q\-Widget $\ast$parent, const Q\-Style\-Option\-View\-Item \&option, const Q\-Model\-Index \&index) const =0
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{Combo\-Box\-Delegate\-::create\-Editor} Return a Combo\-Box specified by {\itshape index} item defined by the {\itshape parent} widget and style {\itshape option} which are used to control how the editor widgets appears. \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{paint} (Q\-Painter $\ast$painter, const Q\-Style\-Option\-View\-Item \&option, const Q\-Model\-Index \&index) const =0
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{Combo\-Box\-Delegate\-::paint} Renders the delegate using the given {\itshape painter} and style {\itshape option} for the item specified by {\itshape index} \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{set\-Editor\-Data} (Q\-Widget $\ast$editor, const Q\-Model\-Index \&index) const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{Combo\-Box\-Delegate\-::set\-Editor\-Data} Sets the data to be displayed and edited by the {\itshape editor} from the data model item specified by the model {\itshape index} \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{set\-Model\-Data} (Q\-Widget $\ast$editor, Q\-Abstract\-Item\-Model $\ast$model, const Q\-Model\-Index \&index) const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{Combo\-Box\-Delegate\-::set\-Model\-Data} Gets data from the {\itshape editor} widget and stores it in the specified {\itshape model} at the item {\itshape index} \end{DoxyCompactList}\item 
-void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{update\-Editor\-Geometry} (Q\-Widget $\ast$editor, const Q\-Style\-Option\-View\-Item \&option, const Q\-Model\-Index \&index) const 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{Combo\-Box\-Delegate\-::update\-Editor\-Geometry} Update the {\itshape editor} for the item specified by {\itshape index} according to the style {\itshape option} given. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\+Box\+Delegate} (Q\+Object $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\+Box\+Delegate\+::\+Combo\+Box\+Delegate} Construct a \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\+Box\+Delegate}. \end{DoxyCompactList}\item 
+virtual Q\+Widget $\ast$ \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{create\+Editor} (Q\+Widget $\ast$parent, const Q\+Style\+Option\+View\+Item \&option, const Q\+Model\+Index \&index) const =0
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{Combo\+Box\+Delegate\+::create\+Editor} Return a Combo\+Box specified by {\itshape index} item defined by the {\itshape parent} widget and style {\itshape option} which are used to control how the editor widgets appears. \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{paint} (Q\+Painter $\ast$painter, const Q\+Style\+Option\+View\+Item \&option, const Q\+Model\+Index \&index) const =0
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{Combo\+Box\+Delegate\+::paint} Renders the delegate using the given {\itshape painter} and style {\itshape option} for the item specified by {\itshape index} \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{set\+Editor\+Data} (Q\+Widget $\ast$editor, const Q\+Model\+Index \&index) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{Combo\+Box\+Delegate\+::set\+Editor\+Data} Sets the data to be displayed and edited by the {\itshape editor} from the data model item specified by the model {\itshape index} \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{set\+Model\+Data} (Q\+Widget $\ast$editor, Q\+Abstract\+Item\+Model $\ast$model, const Q\+Model\+Index \&index) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{Combo\+Box\+Delegate\+::set\+Model\+Data} Gets data from the {\itshape editor} widget and stores it in the specified {\itshape model} at the item {\itshape index} \end{DoxyCompactList}\item 
+void \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{update\+Editor\+Geometry} (Q\+Widget $\ast$editor, const Q\+Style\+Option\+View\+Item \&option, const Q\+Model\+Index \&index) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{Combo\+Box\+Delegate\+::update\+Editor\+Geometry} Update the {\itshape editor} for the item specified by {\itshape index} according to the style {\itshape option} given. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-The \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\-Box\-Delegate} class. 
+The \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\+Box\+Delegate} class. 
 
 \begin{DoxyAuthor}{Author}
 Antoine de Roquemaurel 
@@ -42,16 +41,16 @@ Antoine de Roquemaurel
 
 
 \subsection{Constructor \& Destructor Documentation}
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!Combo\-Box\-Delegate@{Combo\-Box\-Delegate}}
-\index{Combo\-Box\-Delegate@{Combo\-Box\-Delegate}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{Combo\-Box\-Delegate}]{\setlength{\rightskip}{0pt plus 5cm}Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::\-Combo\-Box\-Delegate (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!Combo\+Box\+Delegate@{Combo\+Box\+Delegate}}
+\index{Combo\+Box\+Delegate@{Combo\+Box\+Delegate}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{Combo\+Box\+Delegate}]{\setlength{\rightskip}{0pt plus 5cm}Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::\+Combo\+Box\+Delegate (
 \begin{DoxyParamCaption}
-\item[{Q\-Object $\ast$}]{parent = {\ttfamily 0}}
+\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0}}
 \end{DoxyParamCaption}
-)}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}
+)}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\-Box\-Delegate\-::\-Combo\-Box\-Delegate} Construct a \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\-Box\-Delegate}. 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a34105ef48d776c556598b9b15e7abdcc}{Combo\+Box\+Delegate\+::\+Combo\+Box\+Delegate} Construct a \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate}{Combo\+Box\+Delegate}. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -61,18 +60,18 @@ Antoine de Roquemaurel
 
 
 \subsection{Member Function Documentation}
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!create\-Editor@{create\-Editor}}
-\index{create\-Editor@{create\-Editor}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{create\-Editor}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-Widget$\ast$ Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::create\-Editor (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!create\+Editor@{create\+Editor}}
+\index{create\+Editor@{create\+Editor}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{create\+Editor}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\+Widget$\ast$ Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::create\+Editor (
 \begin{DoxyParamCaption}
-\item[{Q\-Widget $\ast$}]{parent, }
-\item[{const Q\-Style\-Option\-View\-Item \&}]{option, }
-\item[{const Q\-Model\-Index \&}]{index}
+\item[{Q\+Widget $\ast$}]{parent, }
+\item[{const Q\+Style\+Option\+View\+Item \&}]{option, }
+\item[{const Q\+Model\+Index \&}]{index}
 \end{DoxyParamCaption}
-) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{Combo\-Box\-Delegate\-::create\-Editor} Return a Combo\-Box specified by {\itshape index} item defined by the {\itshape parent} widget and style {\itshape option} which are used to control how the editor widgets appears. 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_aa24c5896e30295ad7dbe47c91093b2db}{Combo\+Box\+Delegate\+::create\+Editor} Return a Combo\+Box specified by {\itshape index} item defined by the {\itshape parent} widget and style {\itshape option} which are used to control how the editor widgets appears. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -84,24 +83,24 @@ Antoine de Roquemaurel
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-Combo\-Box 
+Combo\+Box 
 \end{DoxyReturn}
 
 
-Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_a246f92146bdf89200867629b68e3a86a}{Gui\-::\-Widgets\-::\-Delegates\-::\-Unit\-Combo\-Delegate}, and \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_adbfc28a3e6de34dc63d7290ae5b5c053}{Gui\-::\-Widgets\-::\-Delegates\-::\-Project\-Combo\-Delegate}.
+Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_a246f92146bdf89200867629b68e3a86a}{Gui\+::\+Widgets\+::\+Delegates\+::\+Unit\+Combo\+Delegate}, and \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_adbfc28a3e6de34dc63d7290ae5b5c053}{Gui\+::\+Widgets\+::\+Delegates\+::\+Project\+Combo\+Delegate}.
 
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!paint@{paint}}
-\index{paint@{paint}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::paint (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!paint@{paint}}
+\index{paint@{paint}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{paint}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::paint (
 \begin{DoxyParamCaption}
-\item[{Q\-Painter $\ast$}]{painter, }
-\item[{const Q\-Style\-Option\-View\-Item \&}]{option, }
-\item[{const Q\-Model\-Index \&}]{index}
+\item[{Q\+Painter $\ast$}]{painter, }
+\item[{const Q\+Style\+Option\+View\+Item \&}]{option, }
+\item[{const Q\+Model\+Index \&}]{index}
 \end{DoxyParamCaption}
-) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{Combo\-Box\-Delegate\-::paint} Renders the delegate using the given {\itshape painter} and style {\itshape option} for the item specified by {\itshape index} 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a0b7f0752890cd3fb257361a7990a74c2}{Combo\+Box\+Delegate\+::paint} Renders the delegate using the given {\itshape painter} and style {\itshape option} for the item specified by {\itshape index} 
 
 
 \begin{DoxyParams}{Parameters}
@@ -114,19 +113,19 @@ Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_
 \end{DoxyParams}
 
 
-Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_a2efed5aa3b9bde3cd80e9518cde00e60}{Gui\-::\-Widgets\-::\-Delegates\-::\-Unit\-Combo\-Delegate}, and \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_a20cbc84d26b83083fdf7efecae3407cf}{Gui\-::\-Widgets\-::\-Delegates\-::\-Project\-Combo\-Delegate}.
+Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_a2efed5aa3b9bde3cd80e9518cde00e60}{Gui\+::\+Widgets\+::\+Delegates\+::\+Unit\+Combo\+Delegate}, and \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate_a20cbc84d26b83083fdf7efecae3407cf}{Gui\+::\+Widgets\+::\+Delegates\+::\+Project\+Combo\+Delegate}.
 
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!set\-Editor\-Data@{set\-Editor\-Data}}
-\index{set\-Editor\-Data@{set\-Editor\-Data}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{set\-Editor\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::set\-Editor\-Data (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!set\+Editor\+Data@{set\+Editor\+Data}}
+\index{set\+Editor\+Data@{set\+Editor\+Data}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{set\+Editor\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::set\+Editor\+Data (
 \begin{DoxyParamCaption}
-\item[{Q\-Widget $\ast$}]{editor, }
-\item[{const Q\-Model\-Index \&}]{index}
+\item[{Q\+Widget $\ast$}]{editor, }
+\item[{const Q\+Model\+Index \&}]{index}
 \end{DoxyParamCaption}
-) const}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}
+) const}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{Combo\-Box\-Delegate\-::set\-Editor\-Data} Sets the data to be displayed and edited by the {\itshape editor} from the data model item specified by the model {\itshape index} 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a30d218e265b7656e17fece8a73e53e90}{Combo\+Box\+Delegate\+::set\+Editor\+Data} Sets the data to be displayed and edited by the {\itshape editor} from the data model item specified by the model {\itshape index} 
 
 
 \begin{DoxyParams}{Parameters}
@@ -135,18 +134,18 @@ Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_
 {\em index} & Index of the model to edit \\
 \hline
 \end{DoxyParams}
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!set\-Model\-Data@{set\-Model\-Data}}
-\index{set\-Model\-Data@{set\-Model\-Data}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{set\-Model\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::set\-Model\-Data (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!set\+Model\+Data@{set\+Model\+Data}}
+\index{set\+Model\+Data@{set\+Model\+Data}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{set\+Model\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::set\+Model\+Data (
 \begin{DoxyParamCaption}
-\item[{Q\-Widget $\ast$}]{editor, }
-\item[{Q\-Abstract\-Item\-Model $\ast$}]{model, }
-\item[{const Q\-Model\-Index \&}]{index}
+\item[{Q\+Widget $\ast$}]{editor, }
+\item[{Q\+Abstract\+Item\+Model $\ast$}]{model, }
+\item[{const Q\+Model\+Index \&}]{index}
 \end{DoxyParamCaption}
-) const}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}
+) const}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{Combo\-Box\-Delegate\-::set\-Model\-Data} Gets data from the {\itshape editor} widget and stores it in the specified {\itshape model} at the item {\itshape index} 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_a2f2d51e4e44e7f3cdc9baac783bbc1b1}{Combo\+Box\+Delegate\+::set\+Model\+Data} Gets data from the {\itshape editor} widget and stores it in the specified {\itshape model} at the item {\itshape index} 
 
 
 \begin{DoxyParams}{Parameters}
@@ -157,18 +156,18 @@ Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_
 {\em index} & Item index \\
 \hline
 \end{DoxyParams}
-\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{\index{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}!update\-Editor\-Geometry@{update\-Editor\-Geometry}}
-\index{update\-Editor\-Geometry@{update\-Editor\-Geometry}!Gui::Widgets::Delegates::ComboBoxDelegate@{Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate}}
-\subsubsection[{update\-Editor\-Geometry}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-::\-Widgets\-::\-Delegates\-::\-Combo\-Box\-Delegate\-::update\-Editor\-Geometry (
+\hypertarget{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{}\index{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}!update\+Editor\+Geometry@{update\+Editor\+Geometry}}
+\index{update\+Editor\+Geometry@{update\+Editor\+Geometry}!Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate@{Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate}}
+\subsubsection[{update\+Editor\+Geometry}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\+::\+Widgets\+::\+Delegates\+::\+Combo\+Box\+Delegate\+::update\+Editor\+Geometry (
 \begin{DoxyParamCaption}
-\item[{Q\-Widget $\ast$}]{editor, }
-\item[{const Q\-Style\-Option\-View\-Item \&}]{option, }
-\item[{const Q\-Model\-Index \&}]{index}
+\item[{Q\+Widget $\ast$}]{editor, }
+\item[{const Q\+Style\+Option\+View\+Item \&}]{option, }
+\item[{const Q\+Model\+Index \&}]{index}
 \end{DoxyParamCaption}
-) const}}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}
+) const}\label{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}
 
 
-\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{Combo\-Box\-Delegate\-::update\-Editor\-Geometry} Update the {\itshape editor} for the item specified by {\itshape index} according to the style {\itshape option} given. 
+\hyperlink{classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_abdf54b72e544b24cc34270154ae6aed3}{Combo\+Box\+Delegate\+::update\+Editor\+Geometry} Update the {\itshape editor} for the item specified by {\itshape index} according to the style {\itshape option} given. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -181,7 +180,7 @@ Implemented in \hyperlink{classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_
 \end{DoxyParams}
 
 
-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/gui/widgets/delegates/comboboxdelegate.\-h\item 
-/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/gui/widgets/delegates/comboboxdelegate.\-cpp\end{DoxyCompactItemize}
+src/gui/widgets/delegates/comboboxdelegate.\+h\item 
+src/gui/widgets/delegates/comboboxdelegate.\+cpp\end{DoxyCompactItemize}

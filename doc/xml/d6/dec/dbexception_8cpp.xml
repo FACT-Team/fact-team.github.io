@@ -1,91 +1,86 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d6/dec/dbexception_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d6/dec/dbexception_8cpp" kind="file" language="C++">
     <compoundname>dbexception.cpp</compoundname>
     <includes refid="da/de0/dbexception_8h" local="yes">dbexception.h</includes>
     <incdepgraph>
-      <node id="725">
-        <label>QSettings</label>
-      </node>
-      <node id="718">
-        <label>QMessageBox</label>
-      </node>
-      <node id="713">
+      <node id="745">
         <label>dbexception.h</label>
         <link refid="da/de0/dbexception_8h_source"/>
-        <childnode refid="714" relation="include">
+        <childnode refid="746" relation="include">
         </childnode>
-        <childnode refid="715" relation="include">
+        <childnode refid="747" relation="include">
         </childnode>
-        <childnode refid="716" relation="include">
+        <childnode refid="748" relation="include">
         </childnode>
-        <childnode refid="717" relation="include">
+        <childnode refid="749" relation="include">
         </childnode>
-        <childnode refid="718" relation="include">
+        <childnode refid="750" relation="include">
         </childnode>
-        <childnode refid="719" relation="include">
-        </childnode>
-      </node>
-      <node id="727">
-        <label>parameters.h</label>
-        <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="726" relation="include">
+        <childnode refid="751" relation="include">
         </childnode>
       </node>
-      <node id="717">
+      <node id="750">
+        <label>QMessageBox</label>
+      </node>
+      <node id="749">
         <label>stdexcept</label>
       </node>
-      <node id="719">
-        <label>utils/log.h</label>
-        <link refid="d7/d7f/log_8h_source"/>
-        <childnode refid="720" relation="include">
-        </childnode>
-        <childnode refid="721" relation="include">
-        </childnode>
-        <childnode refid="722" relation="include">
-        </childnode>
-        <childnode refid="723" relation="include">
-        </childnode>
-        <childnode refid="724" relation="include">
-        </childnode>
-        <childnode refid="725" relation="include">
-        </childnode>
-        <childnode refid="726" relation="include">
-        </childnode>
-        <childnode refid="727" relation="include">
-        </childnode>
-      </node>
-      <node id="714">
+      <node id="746">
         <label>exception</label>
       </node>
-      <node id="724">
+      <node id="756">
         <label>QDebug</label>
       </node>
-      <node id="715">
+      <node id="747">
         <label>sstream</label>
       </node>
-      <node id="721">
+      <node id="753">
         <label>QDate</label>
       </node>
-      <node id="726">
+      <node id="757">
         <label>QString</label>
       </node>
-      <node id="720">
+      <node id="752">
         <label>QFile</label>
       </node>
-      <node id="712">
-        <label>/home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.cpp</label>
-        <link refid="dbexception.cpp"/>
-        <childnode refid="713" relation="include">
+      <node id="751">
+        <label>utils/log.h</label>
+        <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
         </childnode>
       </node>
-      <node id="716">
+      <node id="748">
         <label>iostream</label>
       </node>
-      <node id="723">
+      <node id="744">
+        <label>src/exceptions/dbexception.cpp</label>
+        <link refid="dbexception.cpp"/>
+        <childnode refid="745" relation="include">
+        </childnode>
+      </node>
+      <node id="755">
         <label>QTextStream</label>
       </node>
-      <node id="722">
+      <node id="758">
+        <label>parameters.h</label>
+        <link refid="d6/d3b/parameters_8h_source"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="754">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
@@ -97,7 +92,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Exceptions<sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dda/namespaceExceptions" kindref="compound">Exceptions</ref><sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><ref refid="d4/de4/classExceptions_1_1DbException_1a1e5736082ac86ff18556f66e86f92f58" kindref="member">DbException::DbException</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>userError,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>fctName,</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>logError,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>errorCode)</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
@@ -121,6 +116,6 @@
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/exceptions/dbexception.cpp"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/exceptions/dbexception.cpp"/>
   </compounddef>
 </doxygen>

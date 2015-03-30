@@ -1,6 +1,11 @@
 var hierarchy =
 [
     [ "Databases::AccessDatabase", "d5/dbc/classDatabases_1_1AccessDatabase.html", null ],
+    [ "Models::Calculable", "dc/d99/classModels_1_1Calculable.html", [
+      [ "Models::Billing", "d4/d5c/classModels_1_1Billing.html", null ],
+      [ "Models::ContributoriesList", "d7/d6a/classModels_1_1ContributoriesList.html", null ],
+      [ "Models::Contributory", "d5/dd1/classModels_1_1Contributory.html", null ]
+    ] ],
     [ "Mustache::Context", "d7/d34/classMustache_1_1Context.html", [
       [ "Mustache::QtVariantContext", "d5/d8b/classMustache_1_1QtVariantContext.html", [
         [ "CounterContext", "db/da6/classCounterContext.html", null ],
@@ -16,6 +21,7 @@ var hierarchy =
       [ "Databases::UserDatabase", "d0/d33/classDatabases_1_1UserDatabase.html", null ]
     ] ],
     [ "Utils::Directories", "d8/d40/classUtils_1_1Directories.html", null ],
+    [ "Utils::Double", "dd/d31/classUtils_1_1Double.html", null ],
     [ "exception", null, [
       [ "Exceptions::DbException", "d4/de4/classExceptions_1_1DbException.html", null ]
     ] ],
@@ -38,7 +44,9 @@ var hierarchy =
           [ "Gui::Widgets::CheckFields::CheckPhone", "da/dc0/classGui_1_1Widgets_1_1CheckFields_1_1CheckPhone.html", null ],
           [ "Gui::Widgets::CheckFields::CheckPostalCode", "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html", null ]
         ] ],
-        [ "Gui::Widgets::CheckFields::CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", null ]
+        [ "Gui::Widgets::CheckFields::CheckValidField", "d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField.html", [
+          [ "Gui::Widgets::CheckFields::CheckWebsite", "dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "Models::IModel", "d0/d9c/classModels_1_1IModel.html", [
@@ -86,7 +94,8 @@ var hierarchy =
         [ "Gui::Widgets::Delegates::ProjectComboDelegate", "d6/d93/classGui_1_1Widgets_1_1Delegates_1_1ProjectComboDelegate.html", null ],
         [ "Gui::Widgets::Delegates::UnitComboDelegate", "db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate.html", null ]
       ] ],
-      [ "Gui::Widgets::Delegates::DoubleSpinBoxDelegate", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html", null ]
+      [ "Gui::Widgets::Delegates::DoubleSpinBoxDelegate", "da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate.html", null ],
+      [ "Gui::Widgets::Delegates::TextareaDelegate", "df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html", null ]
     ] ],
     [ "QLineEdit", null, [
       [ "Gui::Widgets::CheckFields::CheckQLineEdit", "d0/d68/classGui_1_1Widgets_1_1CheckFields_1_1CheckQLineEdit.html", null ]
@@ -110,6 +119,7 @@ var hierarchy =
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
       [ "Generation", "d4/df7/classGeneration.html", null ],
       [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
+      [ "PointersTest", "d8/d62/classPointersTest.html", null ],
       [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", null ],
       [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", null ],
       [ "RateModelTest", "d2/dcd/classRateModelTest.html", null ],
@@ -121,10 +131,15 @@ var hierarchy =
       [ "UserModelTest", "de/d37/classUserModelTest.html", null ]
     ] ],
     [ "QWidget", null, [
+      [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", null ],
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
       [ "Gui::Widgets::DatabaseSettingsWidget", "de/d51/classGui_1_1Widgets_1_1DatabaseSettingsWidget.html", null ],
+      [ "Gui::Widgets::Path::ChosePathWidget", "db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget.html", [
+        [ "Gui::Widgets::Path::ChoseDirectoryWidget", "dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget.html", null ],
+        [ "Gui::Widgets::Path::ChoseFileWidget", "da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget.html", null ]
+      ] ],
       [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
       [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
@@ -138,5 +153,6 @@ var hierarchy =
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
-    [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ]
+    [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ],
+    [ "Models::Unit", "dc/d11/classModels_1_1Unit.html", null ]
 ];

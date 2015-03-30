@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dc/d99/classModels_1_1Calculable" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Models::Calculable</compoundname>
+    <derivedcompoundref refid="d4/d5c/classModels_1_1Billing" prot="public" virt="non-virtual">Models::Billing</derivedcompoundref>
+    <derivedcompoundref refid="d7/d6a/classModels_1_1ContributoriesList" prot="public" virt="non-virtual">Models::ContributoriesList</derivedcompoundref>
+    <derivedcompoundref refid="d5/dd1/classModels_1_1Contributory" prot="public" virt="non-virtual">Models::Contributory</derivedcompoundref>
+    <includes refid="de/dfa/calculable_8h" local="no">calculable.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double Models::Calculable::getPrice</definition>
+        <argsstring>(bool paied=false)=0</argsstring>
+        <name>getPrice</name>
+        <reimplementedby refid="d7/d6a/classModels_1_1ContributoriesList_1a29712a353353a14f06a44314fffbe61c">getPrice</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1ac8eb5c2589dd05bba5b51ac190ecd778">getPrice</reimplementedby>
+        <reimplementedby refid="d4/d5c/classModels_1_1Billing_1a866e81394fa11dce7dc4ab7bfc53ed79">getPrice</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>paied</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>getPrice Return the price of a calculable object </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The price </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/calculable.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double Models::Calculable::getSumQuantity</definition>
+        <argsstring>()=0</argsstring>
+        <name>getSumQuantity</name>
+        <reimplementedby refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c">getSumQuantity</reimplementedby>
+        <reimplementedby refid="d5/dd1/classModels_1_1Contributory_1aa6f3e9018846a83d192b8fb427fe0481">getSumQuantity</reimplementedby>
+        <reimplementedby refid="d4/d5c/classModels_1_1Billing_1a360006189d4867e3281009b0c465bc53">getSumQuantity</reimplementedby>
+        <briefdescription>
+<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">ContributoriesList::getSumQuantity</ref> Return the sum of quantity (number of days) of the Contributories. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>sum of quantity in days </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/calculable.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="dc/d99/classModels_1_1Calculable" kindref="compound">Calculable</ref> interface <ref refid="dd/d20/namespaceModels" kindref="compound">Models</ref> who are calculable. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>Models::Billing</label>
+        <link refid="d4/d5c/classModels_1_1Billing"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Models::Contributory</label>
+        <link refid="d5/dd1/classModels_1_1Contributory"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+      <node id="34">
+        <label>Models::ContributoriesList</label>
+        <link refid="d7/d6a/classModels_1_1ContributoriesList"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/calculable.h" line="10" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/calculable.h" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc" prot="public" virt="pure-virtual"><scope>Models::Calculable</scope><name>getPrice</name></member>
+      <member refid="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1" prot="public" virt="pure-virtual"><scope>Models::Calculable</scope><name>getSumQuantity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

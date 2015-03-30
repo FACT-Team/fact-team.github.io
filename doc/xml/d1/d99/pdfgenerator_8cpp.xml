@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d1/d99/pdfgenerator_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d1/d99/pdfgenerator_8cpp" kind="file" language="C++">
     <compoundname>pdfgenerator.cpp</compoundname>
     <includes refid="de/d42/pdfgenerator_8h" local="yes">pdfgenerator.h</includes>
     <incdepgraph>
-      <node id="834">
-        <label>pdfgenerator.h</label>
-        <link refid="de/d42/pdfgenerator_8h_source"/>
-        <childnode refid="835" relation="include">
-        </childnode>
-        <childnode refid="836" relation="include">
-        </childnode>
-        <childnode refid="837" relation="include">
-        </childnode>
-      </node>
-      <node id="835">
+      <node id="867">
         <label>QString</label>
       </node>
-      <node id="837">
+      <node id="869">
         <label>QFile</label>
       </node>
-      <node id="836">
+      <node id="866">
+        <label>pdfgenerator.h</label>
+        <link refid="de/d42/pdfgenerator_8h_source"/>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="869" relation="include">
+        </childnode>
+      </node>
+      <node id="868">
         <label>QProcess</label>
       </node>
-      <node id="833">
-        <label>/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp</label>
+      <node id="865">
+        <label>src/generator/pdfgenerator.cpp</label>
         <link refid="pdfgenerator.cpp"/>
-        <childnode refid="834" relation="include">
+        <childnode refid="866" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -38,7 +38,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;pdfgenerator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Generator<sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="da/da6/namespaceGenerator" kindref="compound">Generator</ref><sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><ref refid="d9/d69/classGenerator_1_1PdfGenerator_1a59ca8292d423302478f7f278034f7006" kindref="member">PdfGenerator::PdfGenerator</ref>(QString<sp/>pdflatexPath)</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>_pdflatexPath<sp/>=<sp/>pdflatexPath;</highlight></codeline>
@@ -52,14 +52,15 @@
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>args<sp/>&lt;&lt;<sp/>filename+</highlight><highlight class="stringliteral">&quot;.tex&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>process.start(_pdflatexPath,<sp/>args);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>process.waitForFinished();</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.aux&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.log&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>process.start(_pdflatexPath,<sp/>args);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>process.waitForFinished();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.aux&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile(inputDir+</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">+filename+</highlight><highlight class="stringliteral">&quot;.log&quot;</highlight><highlight class="normal">).remove();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/generator/pdfgenerator.cpp"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/generator/pdfgenerator.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="d7/d6a/classModels_1_1ContributoriesList" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="d7/d6a/classModels_1_1ContributoriesList" kind="class" language="C++" prot="public">
     <compoundname>Models::ContributoriesList</compoundname>
     <basecompoundref prot="private" virt="non-virtual">QMap&lt; QPair&lt; Project *, Models::Rate &gt; *, QList&lt; Contributory &gt; &gt;</basecompoundref>
+    <basecompoundref refid="dc/d99/classModels_1_1Calculable" prot="public" virt="non-virtual">Models::Calculable</basecompoundref>
     <includes refid="dd/d0f/contributorieslist_8h" local="no">contributorieslist.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d7/d6a/classModels_1_1ContributoriesList_1add6d82ab184abf08598931e008db46f7" prot="private" static="no" mutable="no">
@@ -16,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="140" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" bodystart="140" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="173" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d6a/classModels_1_1ContributoriesList_1a16155abf946e7d1d2ddfa51174b8eb03" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="141" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" bodystart="141" bodyend="-1"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="174" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="22" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="9" bodyend="12"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="27" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="9" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1ab1e56df0cb050f6775468a3fdf722299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -57,7 +58,120 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="14" bodyend="17"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="28" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a29712a353353a14f06a44314fffbe61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getPrice</definition>
+        <argsstring>(bool isPaied=false)</argsstring>
+        <name>getPrice</name>
+        <reimplements refid="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc">getPrice</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isPaied</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>getPrice Return the price of a contributories list </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The price </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="34" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1ad5ffb2920d2c818f1283a3f26b14a058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getPrice</definition>
+        <argsstring>(Models::Project *project)</argsstring>
+        <name>getPrice</name>
+        <param>
+          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
+          <declname>project</declname>
+        </param>
+        <briefdescription>
+<para>getPrice Return price of project </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>project</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The project </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The price </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="41" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getSumQuantity</definition>
+        <argsstring>()</argsstring>
+        <name>getSumQuantity</name>
+        <reimplements refid="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1">getSumQuantity</reimplements>
+        <briefdescription>
+<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">ContributoriesList::getSumQuantity</ref> Return the sum of quantity (number of hours) of the Contributories. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>sum of quantity in days </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="48" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a7b3cbc06dace77fcc1d00fd8f25fa87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getSumQuantity</definition>
+        <argsstring>(Models::Project *project)</argsstring>
+        <name>getSumQuantity</name>
+        <param>
+          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
+          <declname>project</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">ContributoriesList::getSumQuantity</ref> Return the sum of quantity (number of hours) of the Contributories of project. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>project</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The project </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>sum of quantity in days </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="56" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="216" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref></type>
+        <definition>Models::Rate Models::ContributoriesList::getRate</definition>
+        <argsstring>(Models::Project *project)</argsstring>
+        <name>getRate</name>
+        <param>
+          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
+          <declname>project</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" kindref="member">ContributoriesList::getRate</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>project</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="63" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="61" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1ad341e0527f4c9057281400f6cf54e54f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -70,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="19" bodyend="44"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="68" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="71" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a62b01d5292326da5902589ddb9b71234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -95,7 +209,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="46" bodyend="66"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="74" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="98" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a4c99c890fc7d7616678d6e5f7ee558f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -131,7 +245,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="42" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="68" bodyend="72"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="82" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="120" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a2549547fd3866d879ebbfd1f38145fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; &amp;</type>
@@ -157,7 +271,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="50" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="74" bodyend="85"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="90" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="126" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a3fbbce49ffcdbfa0693f4d21dd0d8c14" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -171,7 +285,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="56" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="174" bodyend="177"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="96" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="233" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1ad93d74f1b3e0a4ad83bad859812b3547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -196,7 +310,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="63" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="179" bodyend="182"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="103" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="238" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a313800788580eb469df125fe8d47c6a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -221,7 +335,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="70" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="184" bodyend="190"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="110" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="243" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a286c41aee939305541eeadfa64ee17a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -235,7 +349,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="77" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="192" bodyend="195"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="117" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="251" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a5d34942a45954d98e53112e2523bee9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -260,7 +374,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="83" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="197" bodyend="200"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="123" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="256" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a026202989560ff9d462d6104b3788657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -274,35 +388,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="89" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="141" bodyend="144"/>
-      </memberdef>
-      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1ae2fd3ad53b082ee8adf3d0249e4f539b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>double</type>
-        <definition>double Models::ContributoriesList::getSumRate</definition>
-        <argsstring>()</argsstring>
-        <name>getSumRate</name>
-        <briefdescription>
-<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1ae2fd3ad53b082ee8adf3d0249e4f539b" kindref="member">ContributoriesList::getSumRate</ref> Return the sum of the contributories rates. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>Sum of contributories rates </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="96" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="146" bodyend="157"/>
-      </memberdef>
-      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>double</type>
-        <definition>double Models::ContributoriesList::getSumQuantity</definition>
-        <argsstring>()</argsstring>
-        <name>getSumQuantity</name>
-        <briefdescription>
-<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">ContributoriesList::getSumQuantity</ref> Return the sum of quantity (number of hours) of the Contributories. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>sum of quantity </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="103" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="159" bodyend="167"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="129" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="206" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a760097b1c0d7822cfd3d4796d553fae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> &gt;</type>
@@ -316,7 +402,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="110" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="169" bodyend="172"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="136" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="228" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a4d52a35870cd9257ee3b5db75bd8ff25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> * &gt;</type>
@@ -330,7 +416,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="116" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="96" bodyend="104"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="142" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="148" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a629a25a7958dba28ec37c8a3709cdf2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; *</type>
@@ -344,33 +430,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="123" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="87" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref></type>
-        <definition>Models::Rate Models::ContributoriesList::getRate</definition>
-        <argsstring>(Models::Project *project)</argsstring>
-        <name>getRate</name>
-        <param>
-          <type><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> *</type>
-          <declname>project</declname>
-        </param>
-        <briefdescription>
-<para><ref refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" kindref="member">ContributoriesList::getRate</ref>. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>project</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="130" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="106" bodyend="114"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="149" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="139" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1af063322348b0f02d0c7159bd7413a836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QVariantList</type>
@@ -384,7 +444,72 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="137" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.cpp" bodystart="116" bodyend="139"/>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="156" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="158" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a1ab917a570420fafddace704c754e545" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getPrice</definition>
+        <argsstring>(const QList&lt; Contributory &gt; &amp;contributories, Models::Rate r)</argsstring>
+        <name>getPrice</name>
+        <param>
+          <type>const QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; &amp;</type>
+          <declname>contributories</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/dc5/classModels_1_1Rate" kindref="compound">Models::Rate</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>getPrice Get price of list of contributories </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contributories</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The contributories </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rate of contributories </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The price of contributories </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="164" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="18" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d6a/classModels_1_1ContributoriesList_1a44fb9fbeff51a4ce1f307e56aa69f024" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Models::ContributoriesList::getSumQuantity</definition>
+        <argsstring>(const QList&lt; Contributory &gt; &amp;contributories)</argsstring>
+        <name>getSumQuantity</name>
+        <param>
+          <type>const QList&lt; <ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref> &gt; &amp;</type>
+          <declname>contributories</declname>
+        </param>
+        <briefdescription>
+<para>getQuantity Get quantity of a contributories list </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contributories</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>THe contributories </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>THe quantity (in days) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="171" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.cpp" bodystart="28" bodyend="35"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -393,28 +518,40 @@
 <para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="221">
+      <node id="258">
         <label>QMap&lt; QPair&lt; Project *, Models::Rate &gt; *, QList&lt; Contributory &gt; &gt;</label>
       </node>
-      <node id="220">
+      <node id="259">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+      <node id="257">
         <label>Models::ContributoriesList</label>
         <link refid="d7/d6a/classModels_1_1ContributoriesList"/>
-        <childnode refid="221" relation="private-inheritance">
+        <childnode refid="258" relation="private-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="223">
+      <node id="261">
         <label>QMap&lt; QPair&lt; Project *, Models::Rate &gt; *, QList&lt; Contributory &gt; &gt;</label>
       </node>
-      <node id="222">
+      <node id="262">
+        <label>Models::Calculable</label>
+        <link refid="dc/d99/classModels_1_1Calculable"/>
+      </node>
+      <node id="260">
         <label>Models::ContributoriesList</label>
         <link refid="d7/d6a/classModels_1_1ContributoriesList"/>
-        <childnode refid="223" relation="private-inheritance">
+        <childnode refid="261" relation="private-inheritance">
+        </childnode>
+        <childnode refid="262" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h" bodystart="14" bodyend="142"/>
+    <location file="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" line="21" column="1" bodyfile="/home/aroquemaurel/projets/qt/Fact/FactDev/src/models/contributorieslist.h" bodystart="19" bodyend="176"/>
     <listofallmembers>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1add6d82ab184abf08598931e008db46f7" prot="private" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>_idBilling</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a16155abf946e7d1d2ddfa51174b8eb03" prot="private" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>_insert</name></member>
@@ -428,10 +565,14 @@
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1af063322348b0f02d0c7159bd7413a836" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getDataMap</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a3fbbce49ffcdbfa0693f4d21dd0d8c14" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getIdBilling</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a026202989560ff9d462d6104b3788657" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getNbProjects</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1a29712a353353a14f06a44314fffbe61c" prot="public" virt="virtual"><scope>Models::ContributoriesList</scope><name>getPrice</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1ad5ffb2920d2c818f1283a3f26b14a058" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getPrice</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1a1ab917a570420fafddace704c754e545" prot="private" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getPrice</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a4d52a35870cd9257ee3b5db75bd8ff25" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getProjects</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getRate</name></member>
-      <member refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getSumQuantity</name></member>
-      <member refid="d7/d6a/classModels_1_1ContributoriesList_1ae2fd3ad53b082ee8adf3d0249e4f539b" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getSumRate</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" prot="public" virt="virtual"><scope>Models::ContributoriesList</scope><name>getSumQuantity</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1a7b3cbc06dace77fcc1d00fd8f25fa87a" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getSumQuantity</name></member>
+      <member refid="d7/d6a/classModels_1_1ContributoriesList_1a44fb9fbeff51a4ce1f307e56aa69f024" prot="private" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>getSumQuantity</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a286c41aee939305541eeadfa64ee17a7" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>isInsert</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1a313800788580eb469df125fe8d47c6a6" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>setAllIdContributories</name></member>
       <member refid="d7/d6a/classModels_1_1ContributoriesList_1ad93d74f1b3e0a4ad83bad859812b3547" prot="public" virt="non-virtual"><scope>Models::ContributoriesList</scope><name>setIdBilling</name></member>

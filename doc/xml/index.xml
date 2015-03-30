@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
   <compound refid="d5/dbc/classDatabases_1_1AccessDatabase" kind="class"><name>Databases::AccessDatabase</name>
     <member refid="d5/dbc/classDatabases_1_1AccessDatabase_1a55d2effa9db8712ed59e1c812d0976a5" kind="variable"><name>_address</name></member>
     <member refid="d5/dbc/classDatabases_1_1AccessDatabase_1a3a0d5ea34848774e22513478bc8f2438" kind="variable"><name>_port</name></member>
@@ -32,7 +32,6 @@
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a5dd0cca14b1172a7e1dd9019d8fa8ff3" kind="function"><name>fillFields</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a68b6b01e0818cb6615b2335d486aac09" kind="function"><name>getNumber</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1abcc6fc79a513dd1765a4494d9499586b" kind="function"><name>accept</name></member>
-    <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a1ae935c40fb54142aad3a610a137bd36" kind="function"><name>reject</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a343bac79889747e55412d11bd2e27cbb" kind="function"><name>getCopy</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1add29bc442ab7783f062b594a97fc8270" kind="function"><name>setCopy</name></member>
     <member refid="d6/d43/classGui_1_1Dialogs_1_1AddQuoteDialog_1a66985973f98f553545a138d6abfe148b" kind="function"><name>getIdCustomer</name></member>
@@ -57,6 +56,8 @@
     <member refid="d4/d5c/classModels_1_1Billing_1a689643008955fdcd5833631a6202c0dc" kind="function"><name>hydrat</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ada8a7c127a80fa7349fbd6a7d30ca4a3" kind="function"><name>remove</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a2363c0b978434c0a835f894a67eb81e1" kind="function"><name>getDataMap</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a866e81394fa11dce7dc4ab7bfc53ed79" kind="function"><name>getPrice</name></member>
+    <member refid="d4/d5c/classModels_1_1Billing_1a360006189d4867e3281009b0c465bc53" kind="function"><name>getSumQuantity</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a3f835c6f4ea0b66c43bb7fec40c6e075" kind="function"><name>generateTex</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a27e273242564cdb68c14810a4580f8e5" kind="function"><name>generatePdf</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a4110ac32d8d96b9fbd1b0037df39723b" kind="function"><name>getPath</name></member>
@@ -64,8 +65,6 @@
     <member refid="d4/d5c/classModels_1_1Billing_1ae8700d38ecd8e4975f1ee013144ed455" kind="function"><name>getFilename</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1af3d66c06d8c4d855b0efa5ff599a3ceb" kind="function"><name>getContributories</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a3636d785d2cb77d83d21a795e1f91a60" kind="function"><name>addContributory</name></member>
-    <member refid="d4/d5c/classModels_1_1Billing_1ab12d213423acfe0e0b7b1f6b43a92e28" kind="function"><name>getSumRate</name></member>
-    <member refid="d4/d5c/classModels_1_1Billing_1a360006189d4867e3281009b0c465bc53" kind="function"><name>getSumQuantity</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a15cd358ce3cab05668c62c0771afdb85" kind="function"><name>getTitle</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1ae20cea169abdffa5daaa368547425928" kind="function"><name>setTitle</name></member>
     <member refid="d4/d5c/classModels_1_1Billing_1a5802215da8f4407457b8aeb7be525c65" kind="function"><name>getDescription</name></member>
@@ -139,7 +138,8 @@
     <member refid="dc/d0c/classBillingModelTest_1ae9afeb811a8f490deab44396d3288cf3" kind="slot"><name>hydrat</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a017bc0f4e5a8a21e8cc04231921d9c13" kind="slot"><name>hydratWithContributories</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a1a3c31dc7011434626d54817e19c457c" kind="slot"><name>commitRemove</name></member>
-    <member refid="dc/d0c/classBillingModelTest_1ac9aa0e7a43dbbc7aed9df8433e652119" kind="slot"><name>testGetItem</name></member>
+    <member refid="dc/d0c/classBillingModelTest_1a061988a8d22f7338de13c92c0a9849e5" kind="slot"><name>sumQuantityTest</name></member>
+    <member refid="dc/d0c/classBillingModelTest_1a770f51ce0401617d4c86a3db7e743d24" kind="slot"><name>getPriceTest</name></member>
     <member refid="dc/d0c/classBillingModelTest_1a7047b26d6d870612fcfb72e66bc48233" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel" kind="class"><name>Gui::Widgets::WdgModels::BillingsTableModel</name>
@@ -156,6 +156,10 @@
     <member refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel_1ab130d7853a7db8df5d57efc9a2854a4d" kind="function"><name>flags</name></member>
     <member refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel_1accfaef7c494d5c7f8be6b3248160d4b7" kind="function"><name>count</name></member>
     <member refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel_1a9fd40a3339be5a1efbe621f6a1bb89aa" kind="function"><name>getBillings</name></member>
+  </compound>
+  <compound refid="dc/d99/classModels_1_1Calculable" kind="class"><name>Models::Calculable</name>
+    <member refid="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc" kind="function"><name>getPrice</name></member>
+    <member refid="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1" kind="function"><name>getSumQuantity</name></member>
   </compound>
   <compound refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity" kind="class"><name>Gui::Widgets::CheckFields::CheckCity</name>
     <member refid="dd/da5/classGui_1_1Widgets_1_1CheckFields_1_1CheckCity_1a880266cfcc69ab006f907748ec35a101" kind="function"><name>CheckCity</name></member>
@@ -228,6 +232,31 @@
     <member refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a17f7b1d7ce52fb9112a0f60fa0d4f572" kind="function"><name>CheckValidField</name></member>
     <member refid="d8/d6d/classGui_1_1Widgets_1_1CheckFields_1_1CheckValidField_1a871d7b28becd80aac9fc75a2057bb15d" kind="function"><name>check</name></member>
   </compound>
+  <compound refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite" kind="class"><name>Gui::Widgets::CheckFields::CheckWebsite</name>
+    <member refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite_1a9b4c5bef960d5e3d3972d6dc9c10f7cc" kind="function"><name>CheckWebsite</name></member>
+    <member refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite_1ad2f5e53b88ca8740fd248dcaab0439bd" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget" kind="class"><name>Gui::Widgets::Path::ChoseDirectoryWidget</name>
+    <member refid="dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget_1aac9ce6a6c6c8322085f42528d99ac830" kind="function"><name>ChoseDirectoryWidget</name></member>
+    <member refid="dd/d67/classGui_1_1Widgets_1_1Path_1_1ChoseDirectoryWidget_1ab20017ce0bf79bb3961b1328ecab6d9e" kind="slot"><name>fillField</name></member>
+  </compound>
+  <compound refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kind="class"><name>Gui::Widgets::Path::ChoseFileWidget</name>
+    <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1aff32e42eb06001c506ef6c1bb6b32c48" kind="variable"><name>_typeFiles</name></member>
+    <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a6d1c9a76bc56c345c6702feb9d5c668e" kind="function"><name>ChoseFileWidget</name></member>
+    <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a69fb84fdf1c4db5c544d6cc88a7e55bf" kind="function"><name>getypeFiles</name></member>
+    <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1a668dfb8a8197a0d82632d85010ae5748" kind="function"><name>setTypeFiles</name></member>
+    <member refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget_1af3ec8425f422362a1f4699b0cd554113" kind="slot"><name>fillField</name></member>
+  </compound>
+  <compound refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget" kind="class"><name>Gui::Widgets::Path::ChosePathWidget</name>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a7d72a7018a2641bdfd2056b4b2431ef4" kind="variable"><name>ui</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a978d2251c213ff092767e83912924649" kind="function"><name>ChosePathWidget</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1a85468a42af3a962b03be1a88f0b13d8b" kind="function"><name>~ChosePathWidget</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1adc6f1687854a9ace6fa82a3200b49f84" kind="function"><name>setField</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1ab36def0231e202c317914e19e023b244" kind="function"><name>getField</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aa597dbc1297f0e85605a1859b64a799e" kind="function"><name>getDefaultLocation</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aea561fda3f9be03e9454f7af62683da7" kind="slot"><name>fillField</name></member>
+    <member refid="db/de6/classGui_1_1Widgets_1_1Path_1_1ChosePathWidget_1aab68756973032c2130967efdcc5f2973" kind="signal"><name>textChanged</name></member>
+  </compound>
   <compound refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate" kind="class"><name>Gui::Widgets::Delegates::ComboBoxDelegate</name>
     <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1a34105ef48d776c556598b9b15e7abdcc" kind="function"><name>ComboBoxDelegate</name></member>
     <member refid="d5/d72/classGui_1_1Widgets_1_1Delegates_1_1ComboBoxDelegate_1aa24c5896e30295ad7dbe47c91093b2db" kind="function"><name>createEditor</name></member>
@@ -281,6 +310,11 @@
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a16155abf946e7d1d2ddfa51174b8eb03" kind="variable"><name>_insert</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a3563e04b5d5b144846679f3ef4fd9387" kind="function"><name>ContributoriesList</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1ab1e56df0cb050f6775468a3fdf722299" kind="function"><name>~ContributoriesList</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a29712a353353a14f06a44314fffbe61c" kind="function"><name>getPrice</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1ad5ffb2920d2c818f1283a3f26b14a058" kind="function"><name>getPrice</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kind="function"><name>getSumQuantity</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a7b3cbc06dace77fcc1d00fd8f25fa87a" kind="function"><name>getSumQuantity</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" kind="function"><name>getRate</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1ad341e0527f4c9057281400f6cf54e54f" kind="function"><name>commit</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a62b01d5292326da5902589ddb9b71234" kind="function"><name>addContributory</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a4c99c890fc7d7616678d6e5f7ee558f5" kind="function"><name>addProject</name></member>
@@ -291,13 +325,12 @@
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a286c41aee939305541eeadfa64ee17a7" kind="function"><name>isInsert</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a5d34942a45954d98e53112e2523bee9b" kind="function"><name>setInsert</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a026202989560ff9d462d6104b3788657" kind="function"><name>getNbProjects</name></member>
-    <member refid="d7/d6a/classModels_1_1ContributoriesList_1ae2fd3ad53b082ee8adf3d0249e4f539b" kind="function"><name>getSumRate</name></member>
-    <member refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kind="function"><name>getSumQuantity</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a760097b1c0d7822cfd3d4796d553fae9" kind="function"><name>getCustomer</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a4d52a35870cd9257ee3b5db75bd8ff25" kind="function"><name>getProjects</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1a629a25a7958dba28ec37c8a3709cdf2f" kind="function"><name>getAllContributories</name></member>
-    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a16118d05867f3e2550f44796400253b9" kind="function"><name>getRate</name></member>
     <member refid="d7/d6a/classModels_1_1ContributoriesList_1af063322348b0f02d0c7159bd7413a836" kind="function"><name>getDataMap</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a1ab917a570420fafddace704c754e545" kind="function"><name>getPrice</name></member>
+    <member refid="d7/d6a/classModels_1_1ContributoriesList_1a44fb9fbeff51a4ce1f307e56aa69f024" kind="function"><name>getSumQuantity</name></member>
   </compound>
   <compound refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel" kind="class"><name>Gui::Widgets::WdgModels::ContributoriesTableModel</name>
     <member refid="dc/db9/classGui_1_1Widgets_1_1WdgModels_1_1ContributoriesTableModel_1ad97cfe81d5ef27c03a851e957268bc33" kind="variable"><name>_contributories</name></member>
@@ -340,7 +373,9 @@
   </compound>
   <compound refid="d5/dd1/classModels_1_1Contributory" kind="class"><name>Models::Contributory</name>
     <member refid="d5/dd1/classModels_1_1Contributory_1ab6149e9de1f6f794f1320a2ca6879a2b" kind="variable"><name>_project</name></member>
-    <member refid="d5/dd1/classModels_1_1Contributory_1ab5ba6e0f97268cbf747cbe2544cb64ec" kind="variable"><name>_nbHours</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a9518939e01256e45e7340674ac581adc" kind="variable"><name>_quantity</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1aca7347aa093c6b4945688b4b577ed9eb" kind="variable"><name>_hourlyRate</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1ac7493b847b68f41e4dd9975458298c88" kind="variable"><name>_unit</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a6f2e073ba8ae191102e748a9a005a6bb" kind="variable"><name>_description</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1acce814328dbc8ccd7715dd34c0c9a974" kind="variable"><name>_longDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a82c2a30e60a256099f25c424337d5aa0" kind="function"><name>Contributory</name></member>
@@ -349,17 +384,23 @@
     <member refid="d5/dd1/classModels_1_1Contributory_1a2d89036a02bd2828ff76d047338f61ba" kind="function"><name>commit</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a40248b5853045eb46412396513f36b06" kind="function"><name>hydrat</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ab9971d7867516b488095e63e1179eac8" kind="function"><name>remove</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1ac8eb5c2589dd05bba5b51ac190ecd778" kind="function"><name>getPrice</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1aa6f3e9018846a83d192b8fb427fe0481" kind="function"><name>getSumQuantity</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a692f563f0428866441ea8bc2b9e772ca" kind="function"><name>getDataMap</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a49379aeb4de2376d5a2aaf10f54daf05" kind="function"><name>getProject</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kind="function"><name>setProject</name></member>
-    <member refid="d5/dd1/classModels_1_1Contributory_1ae85caa255441140fc1a3a0e91531bfc0" kind="function"><name>getNbHours</name></member>
-    <member refid="d5/dd1/classModels_1_1Contributory_1a1c7d65ee311232d3fd00cf8e4777f1c7" kind="function"><name>setNbHours</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a7c5fdd6e53641ae441054ebe7393f59d" kind="function"><name>getQuantity</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kind="function"><name>setQuantity</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ae2b936f2fb1ccad2009eae9b5d12fc02" kind="function"><name>getDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a12d4199fa7175c0b43f62eddf7c3d69e" kind="function"><name>setDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1ad49c8b9cdf7254069e07f2238b42c8f3" kind="function"><name>operator==</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a0808e6453b222f62d3288361dcb56d16" kind="function"><name>operator!=</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1abcd8dce3a913d558b73f17f16d5beb7a" kind="function"><name>getLongDescription</name></member>
     <member refid="d5/dd1/classModels_1_1Contributory_1a40023cef80233eaa814d7bb41d668322" kind="function"><name>setLongDescription</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kind="function"><name>getUnit</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kind="function"><name>setUnit</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1aa6e1d43e7ca2e5e09bf6f1b65f577a0b" kind="function"><name>getHourlyRate</name></member>
+    <member refid="d5/dd1/classModels_1_1Contributory_1a08adb4281ec3a57c839290d01b1f41e5" kind="function"><name>setHourlyRate</name></member>
   </compound>
   <compound refid="dc/da5/classDatabases_1_1ContributoryDatabase" kind="class"><name>Databases::ContributoryDatabase</name>
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1abee994f77d5cdf4e06aa498009acbbe4" kind="variable"><name>_instance</name></member>
@@ -374,8 +415,22 @@
     <member refid="dc/da5/classDatabases_1_1ContributoryDatabase_1a52479eeb5ab01a9e3c25dfe92344457c" kind="function"><name>ContributoryDatabase</name></member>
   </compound>
   <compound refid="d4/de2/classContributoryListTest" kind="class"><name>ContributoryListTest</name>
+    <member refid="d4/de2/classContributoryListTest_1a6d9084972d6ecc0896e9bd4945d50f69" kind="variable"><name>p1</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a2bb370d1b0fc5baf411e3e03bd875d1d" kind="variable"><name>p2</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a91defa6636c5b688ed54c09051a359ad" kind="variable"><name>p3</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a1aeb572a89ea4e98a02a598993c764b6" kind="variable"><name>c1</name></member>
+    <member refid="d4/de2/classContributoryListTest_1acc010a18bc2d7db88874102116429be3" kind="variable"><name>c2</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a862a610f1e3a37b3a2b1a2372db9a905" kind="variable"><name>c3</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a6fb19e641c3fa79549313d736f491ed4" kind="variable"><name>c4</name></member>
+    <member refid="d4/de2/classContributoryListTest_1aae5ccb0ea6b4bbc0eda5d937fe43c427" kind="variable"><name>c5</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a6f003390246d13f442179daa0ee2abae" kind="variable"><name>c6</name></member>
     <member refid="d4/de2/classContributoryListTest_1a57d538cd3d5e28f04efc5980ecf7d862" kind="function"><name>ContributoryListTest</name></member>
     <member refid="d4/de2/classContributoryListTest_1a1ecdadf12da466f8ae2da468fc1b91ab" kind="slot"><name>addProject</name></member>
+    <member refid="d4/de2/classContributoryListTest_1aa2b2b4df803871616a272881d37b1978" kind="slot"><name>getPriceTest</name></member>
+    <member refid="d4/de2/classContributoryListTest_1ac52a3231840e78e46ffbfe2b77a9bb35" kind="slot"><name>getPriceOfProject</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a515c25c1f2d42baf4206ddfe3ea469d3" kind="slot"><name>getQuantityTest</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a8e81404d3a9518f2d802875a0ca70b75" kind="slot"><name>getQuantityOfProjectTest</name></member>
+    <member refid="d4/de2/classContributoryListTest_1a9d1959a21de19459763497e82ba282b9" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="d5/d97/classContributoryModelTest" kind="class"><name>ContributoryModelTest</name>
     <member refid="d5/d97/classContributoryModelTest_1a6e9389b52e9a01166b6e3c8f0fbbbec2" kind="variable"><name>c1</name></member>
@@ -388,6 +443,8 @@
     <member refid="d5/d97/classContributoryModelTest_1a902b3c4a4bcd34194d10a9e5f5504e63" kind="slot"><name>commitInsert</name></member>
     <member refid="d5/d97/classContributoryModelTest_1a870d3e10542b665c97ab8f2a65ea47be" kind="slot"><name>hydrat</name></member>
     <member refid="d5/d97/classContributoryModelTest_1a826a88a23bd9b798cd95e99d86812ad3" kind="slot"><name>commitRemove</name></member>
+    <member refid="d5/d97/classContributoryModelTest_1a25b55b484890252c3fe68c481387ceea" kind="slot"><name>getRateTest</name></member>
+    <member refid="d5/d97/classContributoryModelTest_1a96ac3751670ddff4b1bedc4a69ad12fe" kind="slot"><name>getQuantityTest</name></member>
     <member refid="d5/d97/classContributoryModelTest_1ae32274a8774aff9172797c231dfd0055" kind="function"><name>setup</name></member>
   </compound>
   <compound refid="db/da6/classCounterContext" kind="class"><name>CounterContext</name>
@@ -548,12 +605,21 @@
   <compound refid="d8/d40/classUtils_1_1Directories" kind="class"><name>Utils::Directories</name>
     <member refid="d8/d40/classUtils_1_1Directories_1aee35810bcf4ef02b37408f23f2dcdb49" kind="function"><name>makeDirectory</name></member>
   </compound>
+  <compound refid="dd/d31/classUtils_1_1Double" kind="class"><name>Utils::Double</name>
+    <member refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kind="function"><name>round</name></member>
+    <member refid="dd/d31/classUtils_1_1Double_1a5646d09a59ed756b735ada6dd2b2d438" kind="function"><name>round</name></member>
+  </compound>
   <compound refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate" kind="class"><name>Gui::Widgets::Delegates::DoubleSpinBoxDelegate</name>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6d7df575ca17247028df99296fd2cf88" kind="function"><name>DoubleSpinBoxDelegate</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a681be1ef9cc0db4e315bc2cb8f7690be" kind="function"><name>createEditor</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a60bb2e12c0b0398c74d0e8c95304d7e4" kind="function"><name>setEditorData</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a9c07f33b62b05f64979f52e9fead2553" kind="function"><name>setModelData</name></member>
     <member refid="da/d53/classGui_1_1Widgets_1_1Delegates_1_1DoubleSpinBoxDelegate_1a6de2edfe709a762d907a47d027fb8ba9" kind="function"><name>updateEditorGeometry</name></member>
+  </compound>
+  <compound refid="d4/d92/classFileChoseWidget" kind="class"><name>FileChoseWidget</name>
+    <member refid="d4/d92/classFileChoseWidget_1a3b57ffee3705a6bb7a81414eef96da50" kind="variable"><name>ui</name></member>
+    <member refid="d4/d92/classFileChoseWidget_1a4da526f6e1bc5ad021d948665838a9c9" kind="function"><name>FileChoseWidget</name></member>
+    <member refid="d4/d92/classFileChoseWidget_1aed28727826a46bb7b2c29f233dc0b6b1" kind="function"><name>~FileChoseWidget</name></member>
   </compound>
   <compound refid="d9/d57/classExceptions_1_1FileException" kind="class"><name>Exceptions::FileException</name>
     <member refid="d9/d57/classExceptions_1_1FileException_1aa2e71aeddab0fa63d4ba3c15309ae3fb" kind="variable"><name>_userError</name></member>
@@ -735,6 +801,7 @@
     <member refid="de/d0a/classModels_1_1People_1a3669ff43631be1d15e50ffb3022a5832" kind="variable"><name>_lastname</name></member>
     <member refid="de/d0a/classModels_1_1People_1a9b3f54a70cead36527f62689c2f8aab1" kind="variable"><name>_company</name></member>
     <member refid="de/d0a/classModels_1_1People_1add08ed9c2754852b014f51ffb699fe16" kind="variable"><name>_address</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a3813d07ef5b6f477e93e4d42765a774b" kind="variable"><name>_addressComplement</name></member>
     <member refid="de/d0a/classModels_1_1People_1a327bae0d1fef72af1fdbb949bd5c3af1" kind="variable"><name>_postalCode</name></member>
     <member refid="de/d0a/classModels_1_1People_1a363c3d9570cdb33f7fcdf757619a3877" kind="variable"><name>_city</name></member>
     <member refid="de/d0a/classModels_1_1People_1a90b919f98187a6923367531aad359791" kind="variable"><name>_country</name></member>
@@ -742,6 +809,7 @@
     <member refid="de/d0a/classModels_1_1People_1aa4abe2e00562a86043e08df87719e7cf" kind="variable"><name>_phone</name></member>
     <member refid="de/d0a/classModels_1_1People_1aed33f14dca3c2af18144280d44fed736" kind="variable"><name>_mobilePhone</name></member>
     <member refid="de/d0a/classModels_1_1People_1a189cf308450bf98ddd44d19e2938018f" kind="variable"><name>_fax</name></member>
+    <member refid="de/d0a/classModels_1_1People_1ae5b6b4f6d6abe6b6cdab4c73c2215fb5" kind="variable"><name>_website</name></member>
     <member refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" kind="function"><name>People</name></member>
     <member refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" kind="function"><name>getFirstname</name></member>
     <member refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" kind="function"><name>setFirstname</name></member>
@@ -765,11 +833,18 @@
     <member refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" kind="function"><name>setMobilePhone</name></member>
     <member refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" kind="function"><name>getFax</name></member>
     <member refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" kind="function"><name>setFax</name></member>
+    <member refid="de/d0a/classModels_1_1People_1ac57d89dcc2a06aabdfb37694183d68f0" kind="function"><name>getAddressComplement</name></member>
+    <member refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kind="function"><name>setAddressComplement</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a898d32c40d89376bd7e8373e2f07a056" kind="function"><name>getWebsite</name></member>
+    <member refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" kind="function"><name>setWebsite</name></member>
     <member refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" kind="function"><name>operator==</name></member>
     <member refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" kind="function"><name>operator!=</name></member>
   </compound>
   <compound refid="d4/d7a/classUtils_1_1pointers" kind="class"><name>Utils::pointers</name>
     <member refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kind="function"><name>deleteIfNotNull</name></member>
+  </compound>
+  <compound refid="d8/d62/classPointersTest" kind="class"><name>PointersTest</name>
+    <member refid="d8/d62/classPointersTest_1a15eea8d92ba2f6f1bdcda778685b39f2" kind="slot"><name>deleteIfNotNullTest</name></member>
   </compound>
   <compound refid="d4/d2f/classGui_1_1Widgets_1_1Popup" kind="class"><name>Gui::Widgets::Popup</name>
     <member refid="d4/d2f/classGui_1_1Widgets_1_1Popup_1ac4a9958b16b454eab84eeb95a1f01fa7" kind="function"><name>toImplement</name></member>
@@ -868,6 +943,9 @@
     <member refid="df/d3e/classProjectDatabaseTest_1aa06f1bd5675da384fd98880521ba09df" kind="slot"><name>selectCustomerFound</name></member>
     <member refid="df/d3e/classProjectDatabaseTest_1af66c32b944df658ec7dc5d7f53af71ab" kind="slot"><name>getNbProjects</name></member>
     <member refid="df/d3e/classProjectDatabaseTest_1a8fb9c8af9ddb3854c5884e3627dde685" kind="slot"><name>getNbProjectsForACustomer</name></member>
+    <member refid="df/d3e/classProjectDatabaseTest_1ab7e15d43e04d895472e619df267d1784" kind="slot"><name>getAllProjectsTest</name></member>
+    <member refid="df/d3e/classProjectDatabaseTest_1ae6a09652f40708b97f439c13d09279cf" kind="slot"><name>getCostProjectTest</name></member>
+    <member refid="df/d3e/classProjectDatabaseTest_1a1476e763c1ace0954cf17ea5467a96f0" kind="slot"><name>getProjectOfCustomer</name></member>
   </compound>
   <compound refid="dd/d54/classProjectModelTest" kind="class"><name>ProjectModelTest</name>
     <member refid="dd/d54/classProjectModelTest_1a9c962c139ad3f811dcbf6cdca2c22410" kind="variable"><name>p1</name></member>
@@ -911,7 +989,7 @@
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kind="signal"><name>removeProject</name></member>
   </compound>
   <compound refid="d5/d8b/classMustache_1_1QtVariantContext" kind="class"><name>Mustache::QtVariantContext</name>
-    <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a3b258bcbe77d882a01c53abd1a9425d0" kind="typedef"><name>fn_t</name></member>
+    <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a7cbe08798c8b9516223c380087f82e7b" kind="typedef"><name>fn_t</name></member>
     <member refid="d5/d8b/classMustache_1_1QtVariantContext_1abb1d796277a22326e440d80513b43628" kind="variable"><name>m_contextStack</name></member>
     <member refid="d5/d8b/classMustache_1_1QtVariantContext_1ac9eff9d97c00dbcad6b38670327050ee" kind="function"><name>QtVariantContext</name></member>
     <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a55b19269efa6924edf21118ab0b49e08" kind="function"><name>stringValue</name></member>
@@ -1076,6 +1154,7 @@
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1afd791a73e2d897147b31c829131942af" kind="slot"><name>nextToPage2</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1abac16c4f9fc0a3481565530fa01d8494" kind="slot"><name>nextToPage3</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a2e11f7b179785e86a86294d2d2d5357f" kind="slot"><name>databaseTypeChanged</name></member>
+    <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1a16430b61886e3139fa275419ec3024b6" kind="slot"><name>databaseTypeChanged</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aedfea7b7d80e1877e50647fae5bdc052" kind="slot"><name>updateNextButton</name></member>
     <member refid="de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog_1aa5da70f656530017906b5aa974fbc080" kind="slot"><name>accept</name></member>
   </compound>
@@ -1157,6 +1236,23 @@
     <member refid="d4/d12/classGenerator_1_1TexGenerator_1a07c6502f15deffc5e6372669844dd152" kind="function"><name>~TexGenerator</name></member>
     <member refid="d4/d12/classGenerator_1_1TexGenerator_1a5862fde82e703176d1cdaa33d3ac3db5" kind="function"><name>generate</name></member>
   </compound>
+  <compound refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate" kind="class"><name>Gui::Widgets::Delegates::TextareaDelegate</name>
+    <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a2dfb77334f4a12a031bed33ac5df9f5c" kind="function"><name>TextareaDelegate</name></member>
+    <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a67f7736e4cc6a6f9e2841584b4f48b25" kind="function"><name>setModelData</name></member>
+    <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1aca8f707d0638a3c0f1b6c200729b62c4" kind="function"><name>updateEditorGeometry</name></member>
+    <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1ac206e0bf0a439e5fa781282aea864cd7" kind="function"><name>createEditor</name></member>
+    <member refid="df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate_1a5db7a3dfd9c60ae3b6dda3e94f1ea16d" kind="function"><name>setEditorData</name></member>
+  </compound>
+  <compound refid="dc/d11/classModels_1_1Unit" kind="class"><name>Models::Unit</name>
+    <member refid="dc/d11/classModels_1_1Unit_1abaa83b2739aeb131d3919e5001791a3c" kind="variable"><name>_type</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1ab6dc4f5dd689927604f3ac168f3c1552" kind="function"><name>Unit</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1a34e1eddc3b72967266106fa506fb583c" kind="function"><name>Unit</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1a0eeeb628ada11c3809e82634ea24e2a7" kind="function"><name>toString</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1aa7aa58c11b9464c99595ccc755fcf7c6" kind="function"><name>getype</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1ad7e3209d943fb8ee06b5d132173710c5" kind="function"><name>setType</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1a4554ce9d88e0ded72688e8085f5feb3f" kind="function"><name>operator==</name></member>
+    <member refid="dc/d11/classModels_1_1Unit_1a3fda8038ee8876979b40895c6de7fc49" kind="function"><name>operator!=</name></member>
+  </compound>
   <compound refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate" kind="class"><name>Gui::Widgets::Delegates::UnitComboDelegate</name>
     <member refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1afd1dc5362c4ed8263354e80337d9958a" kind="function"><name>UnitComboDelegate</name></member>
     <member refid="db/def/classGui_1_1Widgets_1_1Delegates_1_1UnitComboDelegate_1a246f92146bdf89200867629b68e3a86a" kind="function"><name>createEditor</name></member>
@@ -1167,6 +1263,7 @@
     <member refid="df/d68/classModels_1_1User_1af650999e2e711d32314e50faaf0a767b" kind="variable"><name>_noSiret</name></member>
     <member refid="df/d68/classModels_1_1User_1a47952911ed24738caa351b71ab278ade" kind="variable"><name>_workspaceName</name></member>
     <member refid="df/d68/classModels_1_1User_1ade60fdf921120c32b29e737012d9ef77" kind="variable"><name>_workspacePath</name></member>
+    <member refid="df/d68/classModels_1_1User_1a695bb15c2080a71ae2c6ac1a0b2e783b" kind="variable"><name>_pdflatexPath</name></member>
     <member refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kind="function"><name>User</name></member>
     <member refid="df/d68/classModels_1_1User_1a8eb50ce05c34b28cf39ff980066f3113" kind="function"><name>User</name></member>
     <member refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" kind="function"><name>commit</name></member>
@@ -1184,6 +1281,10 @@
     <member refid="df/d68/classModels_1_1User_1ae62b6cc7c6c5f5ab80b9f066b67afc95" kind="function"><name>setWorkspacePath</name></member>
     <member refid="df/d68/classModels_1_1User_1a60d18c2d1df053f1abf1215414f0b4b6" kind="function"><name>operator==</name></member>
     <member refid="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" kind="function"><name>operator!=</name></member>
+    <member refid="df/d68/classModels_1_1User_1ae8a894050c3e9266518707f6e5cd1c2f" kind="function"><name>getPdflatexPath</name></member>
+    <member refid="df/d68/classModels_1_1User_1ac65a44513c34f7e67888062d8bee3e54" kind="function"><name>setPdflatexPath</name></member>
+    <member refid="df/d68/classModels_1_1User_1acb46d721cae3c0a9059de32da0c33eaa" kind="function"><name>getNbHoursPerDays</name></member>
+    <member refid="df/d68/classModels_1_1User_1a1ec672f16a5dbb248e05f2e957094c4d" kind="function"><name>getNbDaysPerMonths</name></member>
   </compound>
   <compound refid="d0/d33/classDatabases_1_1UserDatabase" kind="class"><name>Databases::UserDatabase</name>
     <member refid="d0/d33/classDatabases_1_1UserDatabase_1a9ad55fbf8df887332232e0e6adf0cfc7" kind="variable"><name>_instance</name></member>
@@ -1207,7 +1308,6 @@
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a2d3841c471d0ddfd58610d3667d8521a" kind="function"><name>accept</name></member>
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a919f59546670019bb4e72fcd0c7ea841" kind="function"><name>reject</name></member>
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a9ab536a7485460c905a8f17be8939f38" kind="slot"><name>checkFields</name></member>
-    <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a7516a1eb19fa88dc405c085cefa6a3b6" kind="slot"><name>browseWorkspacePath</name></member>
   </compound>
   <compound refid="de/d37/classUserModelTest" kind="class"><name>UserModelTest</name>
     <member refid="de/d37/classUserModelTest_1a1f6705f28e4e1e9e17d9ba5b7caa214f" kind="variable"><name>u1</name></member>
@@ -1241,9 +1341,15 @@
   </compound>
   <compound refid="d2/da4/namespaceGui_1_1Widgets_1_1Delegates" kind="namespace"><name>Gui::Widgets::Delegates</name>
   </compound>
+  <compound refid="d4/d56/namespaceGui_1_1Widgets_1_1Path" kind="namespace"><name>Gui::Widgets::Path</name>
+  </compound>
   <compound refid="d0/d5f/namespaceGui_1_1Widgets_1_1WdgModels" kind="namespace"><name>Gui::Widgets::WdgModels</name>
   </compound>
   <compound refid="dd/d20/namespaceModels" kind="namespace"><name>Models</name>
+    <member refid="dd/d20/namespaceModels_1a999532b323a4b63ff54013326c83f040" kind="enum"><name>TypeUnit</name></member>
+    <member refid="dd/d20/namespaceModels_1a999532b323a4b63ff54013326c83f040a1085e8bba7632a1a638feb7419b6e53f" kind="enumvalue"><name>HOUR</name></member>
+    <member refid="dd/d20/namespaceModels_1a999532b323a4b63ff54013326c83f040a5a4f340285bc056103da9ac78568c52d" kind="enumvalue"><name>DAY</name></member>
+    <member refid="dd/d20/namespaceModels_1a999532b323a4b63ff54013326c83f040a1c75033452956c014ddcb1bcd92370a4" kind="enumvalue"><name>MONTH</name></member>
   </compound>
   <compound refid="d7/d99/namespaceMustache" kind="namespace"><name>Mustache</name>
     <member refid="d7/d99/namespaceMustache_1a7b66cd07f0fdcb1b0584309bdb88856f" kind="function"><name>renderTemplate</name></member>
@@ -1326,396 +1432,3 @@
   <compound refid="d5/d48/messagebox_8h" kind="file"><name>messagebox.h</name>
   </compound>
   <compound refid="dc/d22/startedwindowsdialog_8cpp" kind="file"><name>startedwindowsdialog.cpp</name>
-  </compound>
-  <compound refid="db/de2/startedwindowsdialog_8h" kind="file"><name>startedwindowsdialog.h</name>
-  </compound>
-  <compound refid="dd/da7/userdatadialog_8cpp" kind="file"><name>userdatadialog.cpp</name>
-  </compound>
-  <compound refid="df/d22/userdatadialog_8h" kind="file"><name>userdatadialog.h</name>
-  </compound>
-  <compound refid="da/d54/searchdock_8cpp" kind="file"><name>searchdock.cpp</name>
-  </compound>
-  <compound refid="d2/dd7/searchdock_8h" kind="file"><name>searchdock.h</name>
-  </compound>
-  <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
-  </compound>
-  <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
-  </compound>
-  <compound refid="d4/d65/checkcity_8cpp" kind="file"><name>checkcity.cpp</name>
-  </compound>
-  <compound refid="d0/d30/checkcity_8h" kind="file"><name>checkcity.h</name>
-  </compound>
-  <compound refid="d9/d3c/checkcountry_8cpp" kind="file"><name>checkcountry.cpp</name>
-  </compound>
-  <compound refid="d4/d72/checkcountry_8h" kind="file"><name>checkcountry.h</name>
-  </compound>
-  <compound refid="df/d46/checkemail_8cpp" kind="file"><name>checkemail.cpp</name>
-  </compound>
-  <compound refid="d8/d8f/checkemail_8h" kind="file"><name>checkemail.h</name>
-  </compound>
-  <compound refid="d8/dd1/checkfieldsletters_8cpp" kind="file"><name>checkfieldsletters.cpp</name>
-  </compound>
-  <compound refid="d6/df4/checkfieldsletters_8h" kind="file"><name>checkfieldsletters.h</name>
-  </compound>
-  <compound refid="d9/dd3/checkfieldsnumbers_8cpp" kind="file"><name>checkfieldsnumbers.cpp</name>
-  </compound>
-  <compound refid="db/d12/checkfieldsnumbers_8h" kind="file"><name>checkfieldsnumbers.h</name>
-  </compound>
-  <compound refid="da/d53/checkipaddress_8cpp" kind="file"><name>checkipaddress.cpp</name>
-  </compound>
-  <compound refid="da/da2/checkipaddress_8h" kind="file"><name>checkipaddress.h</name>
-  </compound>
-  <compound refid="dc/dab/checklogin_8cpp" kind="file"><name>checklogin.cpp</name>
-  </compound>
-  <compound refid="d3/d0c/checklogin_8h" kind="file"><name>checklogin.h</name>
-  </compound>
-  <compound refid="d4/dcb/checkname_8cpp" kind="file"><name>checkname.cpp</name>
-  </compound>
-  <compound refid="da/d9e/checkname_8h" kind="file"><name>checkname.h</name>
-  </compound>
-  <compound refid="d2/d43/checkphone_8cpp" kind="file"><name>checkphone.cpp</name>
-  </compound>
-  <compound refid="d2/dcf/checkphone_8h" kind="file"><name>checkphone.h</name>
-  </compound>
-  <compound refid="d7/d6a/checkportnumber_8cpp" kind="file"><name>checkportnumber.cpp</name>
-  </compound>
-  <compound refid="dd/d32/checkportnumber_8h" kind="file"><name>checkportnumber.h</name>
-  </compound>
-  <compound refid="de/d0c/checkpostalcode_8cpp" kind="file"><name>checkpostalcode.cpp</name>
-  </compound>
-  <compound refid="d5/d31/checkpostalcode_8h" kind="file"><name>checkpostalcode.h</name>
-  </compound>
-  <compound refid="d0/dd5/checkqlineedit_8cpp" kind="file"><name>checkqlineedit.cpp</name>
-  </compound>
-  <compound refid="de/dc9/checkqlineedit_8h" kind="file"><name>checkqlineedit.h</name>
-  </compound>
-  <compound refid="dd/dc1/checksiretnumber_8cpp" kind="file"><name>checksiretnumber.cpp</name>
-  </compound>
-  <compound refid="d9/db8/checksiretnumber_8h" kind="file"><name>checksiretnumber.h</name>
-  </compound>
-  <compound refid="d7/d15/checkuntilfield_8cpp" kind="file"><name>checkuntilfield.cpp</name>
-  </compound>
-  <compound refid="d7/d52/checkuntilfield_8h" kind="file"><name>checkuntilfield.h</name>
-  </compound>
-  <compound refid="db/d2b/checkvalidfield_8cpp" kind="file"><name>checkvalidfield.cpp</name>
-  </compound>
-  <compound refid="d0/d48/checkvalidfield_8h" kind="file"><name>checkvalidfield.h</name>
-  </compound>
-  <compound refid="db/d07/icheckfield_8h" kind="file"><name>icheckfield.h</name>
-  </compound>
-  <compound refid="d7/d24/comboboxmodelwidget_8cpp" kind="file"><name>comboboxmodelwidget.cpp</name>
-  </compound>
-  <compound refid="d6/d5b/comboboxmodelwidget_8h" kind="file"><name>comboboxmodelwidget.h</name>
-  </compound>
-  <compound refid="dc/d77/contributorieswidget_8cpp" kind="file"><name>contributorieswidget.cpp</name>
-  </compound>
-  <compound refid="db/d57/contributorieswidget_8h" kind="file"><name>contributorieswidget.h</name>
-  </compound>
-  <compound refid="d1/def/customercontextualmenu_8cpp" kind="file"><name>customercontextualmenu.cpp</name>
-  </compound>
-  <compound refid="d6/df9/customercontextualmenu_8h" kind="file"><name>customercontextualmenu.h</name>
-  </compound>
-  <compound refid="d6/de9/customerdatawidget_8cpp" kind="file"><name>customerdatawidget.cpp</name>
-  </compound>
-  <compound refid="db/de4/customerdatawidget_8h" kind="file"><name>customerdatawidget.h</name>
-  </compound>
-  <compound refid="de/df8/databasesettingswidget_8cpp" kind="file"><name>databasesettingswidget.cpp</name>
-  </compound>
-  <compound refid="d5/dd2/databasesettingswidget_8h" kind="file"><name>databasesettingswidget.h</name>
-  </compound>
-  <compound refid="dd/df7/comboboxdelegate_8cpp" kind="file"><name>comboboxdelegate.cpp</name>
-  </compound>
-  <compound refid="df/d88/comboboxdelegate_8h" kind="file"><name>comboboxdelegate.h</name>
-  </compound>
-  <compound refid="dd/d71/doublespinboxdelegate_8cpp" kind="file"><name>doublespinboxdelegate.cpp</name>
-  </compound>
-  <compound refid="dd/d86/doublespinboxdelegate_8h" kind="file"><name>doublespinboxdelegate.h</name>
-  </compound>
-  <compound refid="d7/d39/projectcombodelegate_8cpp" kind="file"><name>projectcombodelegate.cpp</name>
-  </compound>
-  <compound refid="d5/dfb/projectcombodelegate_8h" kind="file"><name>projectcombodelegate.h</name>
-  </compound>
-  <compound refid="d1/dcd/unitcombodelegate_8cpp" kind="file"><name>unitcombodelegate.cpp</name>
-  </compound>
-  <compound refid="da/d01/unitcombodelegate_8h" kind="file"><name>unitcombodelegate.h</name>
-  </compound>
-  <compound refid="d5/d80/popup_8cpp" kind="file"><name>popup.cpp</name>
-  </compound>
-  <compound refid="db/d70/popup_8h" kind="file"><name>popup.h</name>
-  </compound>
-  <compound refid="dc/d0f/projectswidget_8cpp" kind="file"><name>projectswidget.cpp</name>
-  </compound>
-  <compound refid="da/d5e/projectswidget_8h" kind="file"><name>projectswidget.h</name>
-  </compound>
-  <compound refid="d2/dcd/ratewidget_8cpp" kind="file"><name>ratewidget.cpp</name>
-  </compound>
-  <compound refid="d1/dfa/ratewidget_8h" kind="file"><name>ratewidget.h</name>
-  </compound>
-  <compound refid="dc/d30/searchwidget_8cpp" kind="file"><name>searchwidget.cpp</name>
-  </compound>
-  <compound refid="d7/d15/searchwidget_8h" kind="file"><name>searchwidget.h</name>
-  </compound>
-  <compound refid="dd/de6/billingstablemodel_8cpp" kind="file"><name>billingstablemodel.cpp</name>
-  </compound>
-  <compound refid="da/dfc/billingstablemodel_8h" kind="file"><name>billingstablemodel.h</name>
-  </compound>
-  <compound refid="d1/d6b/contributoriestablemodel_8cpp" kind="file"><name>contributoriestablemodel.cpp</name>
-  </compound>
-  <compound refid="d0/d03/contributoriestablemodel_8h" kind="file"><name>contributoriestablemodel.h</name>
-  </compound>
-  <compound refid="d6/d31/customerstablemodel_8cpp" kind="file"><name>customerstablemodel.cpp</name>
-  </compound>
-  <compound refid="da/d77/customerstablemodel_8h" kind="file"><name>customerstablemodel.h</name>
-  </compound>
-  <compound refid="dc/d08/projectcontributoriestablemodel_8cpp" kind="file"><name>projectcontributoriestablemodel.cpp</name>
-  </compound>
-  <compound refid="d9/da7/projectcontributoriestablemodel_8h" kind="file"><name>projectcontributoriestablemodel.h</name>
-  </compound>
-  <compound refid="d1/d1b/projectstablemodel_8cpp" kind="file"><name>projectstablemodel.cpp</name>
-  </compound>
-  <compound refid="dc/d1a/projectstablemodel_8h" kind="file"><name>projectstablemodel.h</name>
-  </compound>
-  <compound refid="de/d95/src_2libs_2qt-mustache_2README_8md" kind="file"><name>README.md</name>
-  </compound>
-  <compound refid="de/ddf/tests_2QTestRunner_2README_8md" kind="file"><name>README.md</name>
-  </compound>
-  <compound refid="d4/d84/mustache_8cpp" kind="file"><name>mustache.cpp</name>
-    <member refid="d4/d84/mustache_8cpp_1ab2dbddf8157b0a9f57d61d0c39127f95" kind="function"><name>escapeHtml</name></member>
-    <member refid="d4/d84/mustache_8cpp_1a40e661f178bbb8a8b190feae29842629" kind="function"><name>unescapeHtml</name></member>
-    <member refid="d4/d84/mustache_8cpp_1a61c18c478b2ca875d2fc9b9c2d15030b" kind="function"><name>variantMapValue</name></member>
-    <member refid="d4/d84/mustache_8cpp_1a71f049ba35a1e125e11b24d226157f14" kind="function"><name>variantMapValueForKeyPath</name></member>
-  </compound>
-  <compound refid="d9/d77/mustache_8h" kind="file"><name>mustache.h</name>
-  </compound>
-  <compound refid="d7/da1/src_2libs_2qt-mustache_2tests_2test__mustache_8cpp" kind="file"><name>test_mustache.cpp</name>
-    <member refid="d7/da1/src_2libs_2qt-mustache_2tests_2test__mustache_8cpp_1acc7f4db3ecea7d46615d5287b755ec87" kind="typedef"><name>PartialsHash</name></member>
-    <member refid="d7/da1/src_2libs_2qt-mustache_2tests_2test__mustache_8cpp_1aca830aadb4d0bded9a9baafcb20d4b70" kind="function"><name>contactInfo</name></member>
-    <member refid="d7/da1/src_2libs_2qt-mustache_2tests_2test__mustache_8cpp_1a5f12272ec9775b0053f4e6b2a6876907" kind="function"><name>decorate</name></member>
-    <member refid="d7/da1/src_2libs_2qt-mustache_2tests_2test__mustache_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="d3/de8/tests_2qt-mustache_2test__mustache_8cpp" kind="file"><name>test_mustache.cpp</name>
-    <member refid="d3/de8/tests_2qt-mustache_2test__mustache_8cpp_1acc7f4db3ecea7d46615d5287b755ec87" kind="typedef"><name>PartialsHash</name></member>
-    <member refid="d3/de8/tests_2qt-mustache_2test__mustache_8cpp_1aca830aadb4d0bded9a9baafcb20d4b70" kind="function"><name>contactInfo</name></member>
-    <member refid="d3/de8/tests_2qt-mustache_2test__mustache_8cpp_1a5f12272ec9775b0053f4e6b2a6876907" kind="function"><name>decorate</name></member>
-  </compound>
-  <compound refid="d7/db9/src_2libs_2qt-mustache_2tests_2test__mustache_8h" kind="file"><name>test_mustache.h</name>
-  </compound>
-  <compound refid="d5/db7/tests_2qt-mustache_2test__mustache_8h" kind="file"><name>test_mustache.h</name>
-  </compound>
-  <compound refid="d0/dc2/main_8dox" kind="file"><name>main.dox</name>
-  </compound>
-  <compound refid="d0/de7/billing_8cpp" kind="file"><name>billing.cpp</name>
-  </compound>
-  <compound refid="d4/dfe/billing_8h" kind="file"><name>billing.h</name>
-  </compound>
-  <compound refid="d9/d01/contributorieslist_8cpp" kind="file"><name>contributorieslist.cpp</name>
-  </compound>
-  <compound refid="dd/d0f/contributorieslist_8h" kind="file"><name>contributorieslist.h</name>
-  </compound>
-  <compound refid="d9/dec/contributory_8cpp" kind="file"><name>contributory.cpp</name>
-  </compound>
-  <compound refid="d8/dee/contributory_8h" kind="file"><name>contributory.h</name>
-  </compound>
-  <compound refid="d9/d36/customer_8cpp" kind="file"><name>customer.cpp</name>
-  </compound>
-  <compound refid="d3/d35/customer_8h" kind="file"><name>customer.h</name>
-  </compound>
-  <compound refid="df/d78/imodel_8h" kind="file"><name>imodel.h</name>
-  </compound>
-  <compound refid="d0/def/people_8cpp" kind="file"><name>people.cpp</name>
-  </compound>
-  <compound refid="d2/d90/people_8h" kind="file"><name>people.h</name>
-  </compound>
-  <compound refid="df/d18/project_8cpp" kind="file"><name>project.cpp</name>
-  </compound>
-  <compound refid="dc/d8d/project_8h" kind="file"><name>project.h</name>
-  </compound>
-  <compound refid="d3/d78/rate_8cpp" kind="file"><name>rate.cpp</name>
-  </compound>
-  <compound refid="d5/d79/rate_8h" kind="file"><name>rate.h</name>
-  </compound>
-  <compound refid="d9/def/search_8cpp" kind="file"><name>search.cpp</name>
-  </compound>
-  <compound refid="d9/d85/search_8h" kind="file"><name>search.h</name>
-  </compound>
-  <compound refid="d1/d45/statistics_8cpp" kind="file"><name>statistics.cpp</name>
-  </compound>
-  <compound refid="d7/dc5/statistics_8h" kind="file"><name>statistics.h</name>
-  </compound>
-  <compound refid="d6/d33/user_8cpp" kind="file"><name>user.cpp</name>
-  </compound>
-  <compound refid="d8/ddb/user_8h" kind="file"><name>user.h</name>
-  </compound>
-  <compound refid="d5/d10/parameters_8cpp" kind="file"><name>parameters.cpp</name>
-  </compound>
-  <compound refid="d6/d3b/parameters_8h" kind="file"><name>parameters.h</name>
-  </compound>
-  <compound refid="db/d05/directories_8cpp" kind="file"><name>directories.cpp</name>
-  </compound>
-  <compound refid="de/ddd/directories_8h" kind="file"><name>directories.h</name>
-  </compound>
-  <compound refid="d4/d9a/hierarchicalsystem_8cpp" kind="file"><name>hierarchicalsystem.cpp</name>
-  </compound>
-  <compound refid="de/d21/hierarchicalsystem_8h" kind="file"><name>hierarchicalsystem.h</name>
-  </compound>
-  <compound refid="da/d15/itemtype_8cpp" kind="file"><name>itemtype.cpp</name>
-  </compound>
-  <compound refid="db/d31/itemtype_8h" kind="file"><name>itemtype.h</name>
-  </compound>
-  <compound refid="d9/db8/log_8cpp" kind="file"><name>log.cpp</name>
-  </compound>
-  <compound refid="d7/d7f/log_8h" kind="file"><name>log.h</name>
-  </compound>
-  <compound refid="d9/dcd/pointers_8cpp" kind="file"><name>pointers.cpp</name>
-  </compound>
-  <compound refid="d5/d57/pointers_8h" kind="file"><name>pointers.h</name>
-  </compound>
-  <compound refid="d5/d24/string_8cpp" kind="file"><name>string.cpp</name>
-  </compound>
-  <compound refid="da/d66/string_8h" kind="file"><name>string.h</name>
-  </compound>
-  <compound refid="d9/df4/billingdatabasetest_8cpp" kind="file"><name>billingdatabasetest.cpp</name>
-  </compound>
-  <compound refid="d9/d01/billingdatabasetest_8h" kind="file"><name>billingdatabasetest.h</name>
-  </compound>
-  <compound refid="dc/d31/contributoriesdatabasetest_8cpp" kind="file"><name>contributoriesdatabasetest.cpp</name>
-  </compound>
-  <compound refid="d7/d64/contributoriesdatabasetest_8h" kind="file"><name>contributoriesdatabasetest.h</name>
-  </compound>
-  <compound refid="d7/d10/customerdatabasetest_8cpp" kind="file"><name>customerdatabasetest.cpp</name>
-  </compound>
-  <compound refid="df/d55/customerdatabasetest_8h" kind="file"><name>customerdatabasetest.h</name>
-  </compound>
-  <compound refid="d0/d7b/projectdatabasetest_8cpp" kind="file"><name>projectdatabasetest.cpp</name>
-  </compound>
-  <compound refid="db/d8d/projectdatabasetest_8h" kind="file"><name>projectdatabasetest.h</name>
-  </compound>
-  <compound refid="de/de2/userdatabasetest_8cpp" kind="file"><name>userdatabasetest.cpp</name>
-  </compound>
-  <compound refid="d6/d26/userdatabasetest_8h" kind="file"><name>userdatabasetest.h</name>
-  </compound>
-  <compound refid="d3/d13/generation_8cpp" kind="file"><name>generation.cpp</name>
-  </compound>
-  <compound refid="d6/d6c/generation_8h" kind="file"><name>generation.h</name>
-  </compound>
-  <compound refid="df/d0a/main_8cpp" kind="file"><name>main.cpp</name>
-    <member refid="df/d0a/main_8cpp_1a6ed3f3dbff00a609dc5d53c90e91fd68" kind="function"><name>mysqlExecution</name></member>
-    <member refid="df/d0a/main_8cpp_1a207a338c3486f57dd3d4f156a24fd421" kind="function"><name>sqliteExecution</name></member>
-    <member refid="df/d0a/main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="d7/dc1/QTestRunner_2main_8cpp" kind="file"><name>main.cpp</name>
-    <member refid="d7/dc1/QTestRunner_2main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="db/d40/billingmodeltest_8cpp" kind="file"><name>billingmodeltest.cpp</name>
-  </compound>
-  <compound refid="da/d5e/billingmodeltest_8h" kind="file"><name>billingmodeltest.h</name>
-  </compound>
-  <compound refid="dc/d8f/contributorylisttest_8cpp" kind="file"><name>contributorylisttest.cpp</name>
-  </compound>
-  <compound refid="dd/df0/contributorylisttest_8h" kind="file"><name>contributorylisttest.h</name>
-  </compound>
-  <compound refid="d8/d4c/contributorymodeltest_8cpp" kind="file"><name>contributorymodeltest.cpp</name>
-  </compound>
-  <compound refid="d0/d31/contributorymodeltest_8h" kind="file"><name>contributorymodeltest.h</name>
-  </compound>
-  <compound refid="d9/d79/customermodeltest_8cpp" kind="file"><name>customermodeltest.cpp</name>
-  </compound>
-  <compound refid="d7/d4e/customermodeltest_8h" kind="file"><name>customermodeltest.h</name>
-  </compound>
-  <compound refid="d9/d19/projectmodeltest_8cpp" kind="file"><name>projectmodeltest.cpp</name>
-  </compound>
-  <compound refid="d1/d63/projectmodeltest_8h" kind="file"><name>projectmodeltest.h</name>
-  </compound>
-  <compound refid="d2/d09/ratemodeltest_8cpp" kind="file"><name>ratemodeltest.cpp</name>
-  </compound>
-  <compound refid="d3/d44/ratemodeltest_8h" kind="file"><name>ratemodeltest.h</name>
-  </compound>
-  <compound refid="db/d1e/searchtest_8cpp" kind="file"><name>searchtest.cpp</name>
-  </compound>
-  <compound refid="d4/df4/searchtest_8h" kind="file"><name>searchtest.h</name>
-  </compound>
-  <compound refid="da/de3/usermodeltest_8cpp" kind="file"><name>usermodeltest.cpp</name>
-  </compound>
-  <compound refid="da/d15/usermodeltest_8h" kind="file"><name>usermodeltest.h</name>
-  </compound>
-  <compound refid="d7/d95/testadder_8cpp" kind="file"><name>testadder.cpp</name>
-  </compound>
-  <compound refid="d0/dd1/testadder_8h" kind="file"><name>testadder.h</name>
-  </compound>
-  <compound refid="d3/db9/testrunner_8cpp" kind="file"><name>testrunner.cpp</name>
-  </compound>
-  <compound refid="dd/da8/testrunner_8h" kind="file"><name>testrunner.h</name>
-    <member refid="dd/da8/testrunner_8h_1a5247b55353f049080615de0a60b8133e" kind="define"><name>DECLARE_TEST</name></member>
-    <member refid="dd/da8/testrunner_8h_1a9db43be25b176aa9a5391298e5a3718f" kind="define"><name>RUN_ALL_TESTS</name></member>
-  </compound>
-  <compound refid="de/db8/itemtypetest_8cpp" kind="file"><name>itemtypetest.cpp</name>
-  </compound>
-  <compound refid="d7/d49/itemtypetest_8h" kind="file"><name>itemtypetest.h</name>
-  </compound>
-  <compound refid="de/d70/stringtest_8cpp" kind="file"><name>stringtest.cpp</name>
-  </compound>
-  <compound refid="db/d1a/stringtest_8h" kind="file"><name>stringtest.h</name>
-  </compound>
-  <compound refid="da/d07/md__home_travis_build_FACT-Team_FactDev_src_libs_qt-mustache_README" kind="page"><name>md__home_travis_build_FACT-Team_FactDev_src_libs_qt-mustache_README</name>
-  </compound>
-  <compound refid="d7/d95/md__home_travis_build_FACT-Team_FactDev_tests_QTestRunner_README" kind="page"><name>md__home_travis_build_FACT-Team_FactDev_tests_QTestRunner_README</name>
-  </compound>
-  <compound refid="dir_9da5c968de586c136c62b60970cbb10e" kind="dir"><name>/home/travis/build</name>
-  </compound>
-  <compound refid="dir_5612d4083169620a978afed5dfdfce80" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields</name>
-  </compound>
-  <compound refid="dir_f60069d92d35c7265f071b2cbab7037b" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/database</name>
-  </compound>
-  <compound refid="dir_fb3819ff5273056abe09370430f56163" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/database</name>
-  </compound>
-  <compound refid="dir_af4d103a181eeb5b1fd9a3345fff3451" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates</name>
-  </compound>
-  <compound refid="dir_c11973596eefdbf3e94ab0570adc11d0" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs</name>
-  </compound>
-  <compound refid="dir_cd8223983cb40692571c161656178ed2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/docks</name>
-  </compound>
-  <compound refid="dir_0a7d3e18ce1707e40fad728c32777277" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/exceptions</name>
-  </compound>
-  <compound refid="dir_980fe81c3e6521024333b1db5aa179f3" kind="dir"><name>/home/travis/build/FACT-Team</name>
-  </compound>
-  <compound refid="dir_53fe455de580cb7e3a7b88d6ee07129b" kind="dir"><name>/home/travis/build/FACT-Team/FactDev</name>
-  </compound>
-  <compound refid="dir_0a7770266c6f72bc89ca6dc1235e7497" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/generator</name>
-  </compound>
-  <compound refid="dir_b290be4b5d02b7b48e72ffae6f8b88d6" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui</name>
-  </compound>
-  <compound refid="dir_a81148cad0d1c2f777266445256be29e" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs</name>
-  </compound>
-  <compound refid="dir_87c96b12451580b9a6411c53a4bfc1d2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow</name>
-  </compound>
-  <compound refid="dir_a02b716cee8d027f23c7b369ea6a1703" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/models</name>
-  </compound>
-  <compound refid="dir_a0fc242344fcc8d14eec4e83d12430b2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/models</name>
-  </compound>
-  <compound refid="dir_8857397841df6c1e2863c817a57f07f1" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/qt-mustache</name>
-  </compound>
-  <compound refid="dir_45ea74f0e9ecc62ebc87fa696d42ea82" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache</name>
-  </compound>
-  <compound refid="dir_a91c5cedc7d1aa3114da97a226b203f8" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/QTestRunner</name>
-  </compound>
-  <compound refid="dir_536a694ab2b0af9daa8aa496f8527a05" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src</name>
-  </compound>
-  <compound refid="dir_3df89c12cabbd458a6e664b4b188b77a" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src</name>
-  </compound>
-  <compound refid="dir_89939a4ebe0aea3d8b10874724bc3e27" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests</name>
-  </compound>
-  <compound refid="dir_4e85453908692b5f7c7551c6e0bdc9f2" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests</name>
-  </compound>
-  <compound refid="dir_06296ad887369d0fe6ed319688dcbec9" kind="dir"><name>/home/travis</name>
-  </compound>
-  <compound refid="dir_95ec1ab2f6a4b42183f6595829511583" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/tests/utils</name>
-  </compound>
-  <compound refid="dir_57ce03667ca34656f0a97254cdb34d82" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/utils</name>
-  </compound>
-  <compound refid="dir_381b413982d478049d22ff06f0a5ecf9" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/widgets</name>
-  </compound>
-  <compound refid="dir_6b0e5f72d58861195a9b9f880997bf35" kind="dir"><name>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels</name>
-  </compound>
-  <compound refid="indexpage" kind="page"><name>index</name>
-  </compound>
-</doxygenindex>

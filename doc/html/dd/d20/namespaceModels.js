@@ -1,6 +1,7 @@
 var namespaceModels =
 [
     [ "Billing", "d4/d5c/classModels_1_1Billing.html", "d4/d5c/classModels_1_1Billing" ],
+    [ "Calculable", "dc/d99/classModels_1_1Calculable.html", "dc/d99/classModels_1_1Calculable" ],
     [ "ContributoriesList", "d7/d6a/classModels_1_1ContributoriesList.html", "d7/d6a/classModels_1_1ContributoriesList" ],
     [ "Contributory", "d5/dd1/classModels_1_1Contributory.html", "d5/dd1/classModels_1_1Contributory" ],
     [ "Customer", "db/dd7/classModels_1_1Customer.html", "db/dd7/classModels_1_1Customer" ],
@@ -10,5 +11,6 @@ var namespaceModels =
     [ "Rate", "d9/dc5/classModels_1_1Rate.html", "d9/dc5/classModels_1_1Rate" ],
     [ "Search", "d6/d44/classModels_1_1Search.html", "d6/d44/classModels_1_1Search" ],
     [ "Statistics", "db/d92/classModels_1_1Statistics.html", "db/d92/classModels_1_1Statistics" ],
+    [ "Unit", "dc/d11/classModels_1_1Unit.html", "dc/d11/classModels_1_1Unit" ],
     [ "User", "df/d68/classModels_1_1User.html", "df/d68/classModels_1_1User" ]
 ];
