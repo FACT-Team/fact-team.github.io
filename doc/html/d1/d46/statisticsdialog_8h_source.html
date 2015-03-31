@@ -88,26 +88,34 @@ $(document).ready(function(){initNavTree('d1/d46/statisticsdialog_8h_source.html
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a6fe5b8b662958e2740f7a5905168bca9">StatisticsDialog</a>(<span class="keywordtype">bool</span> global = <span class="keyword">true</span>, <span class="keywordtype">int</span> idCustomer = 0, QWidget *parent = 0);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    ~<a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html">StatisticsDialog</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    QString <a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8284c2ac0cc4c953d928ef9552a83096">singularPlural</a>(<span class="keywordtype">int</span> nb);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    Ui::StatisticsDialog *ui;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif // STATISTICSDIALOG_H</span></div>
-<div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html_a8284c2ac0cc4c953d928ef9552a83096"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8284c2ac0cc4c953d928ef9552a83096">Gui::Dialogs::StatisticsDialog::singularPlural</a></div><div class="ttdeci">QString singularPlural(int nb)</div><div class="ttdoc">Get the correct terminaison. </div><div class="ttdef"><b>Definition:</b> statisticsdialog.cpp:48</div></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8b453ddc439c0f828eca1417fbc74003">updateUi</a>(<span class="keywordtype">int</span> nbBills, <span class="keywordtype">int</span> nbBillsPaid, <span class="keywordtype">int</span> nbQuotes, <span class="keywordtype">int</span> nbProjects);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#ad4a1943006ec0126e0eaf0f30d5d40ef">changeMainTitle</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    QString <a class="code" href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8284c2ac0cc4c953d928ef9552a83096">singularPlural</a>(<span class="keywordtype">int</span> nb);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    Ui::StatisticsDialog *ui;   </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> isGlobal;              </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> customerId;             </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif // STATISTICSDIALOG_H</span></div>
+<div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html_a8284c2ac0cc4c953d928ef9552a83096"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8284c2ac0cc4c953d928ef9552a83096">Gui::Dialogs::StatisticsDialog::singularPlural</a></div><div class="ttdeci">QString singularPlural(int nb)</div><div class="ttdoc">Get the correct terminaison. </div><div class="ttdef"><b>Definition:</b> statisticsdialog.cpp:64</div></div>
 <div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html_a6fe5b8b662958e2740f7a5905168bca9"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a6fe5b8b662958e2740f7a5905168bca9">Gui::Dialogs::StatisticsDialog::StatisticsDialog</a></div><div class="ttdeci">StatisticsDialog(bool global=true, int idCustomer=0, QWidget *parent=0)</div><div class="ttdoc">Construct a windows StatisticsDialog. </div><div class="ttdef"><b>Definition:</b> statisticsdialog.cpp:12</div></div>
+<div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html_a8b453ddc439c0f828eca1417fbc74003"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#a8b453ddc439c0f828eca1417fbc74003">Gui::Dialogs::StatisticsDialog::updateUi</a></div><div class="ttdeci">void updateUi(int nbBills, int nbBillsPaid, int nbQuotes, int nbProjects)</div><div class="ttdoc">Update interface (text) </div><div class="ttdef"><b>Definition:</b> statisticsdialog.cpp:28</div></div>
 <div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html">Gui::Dialogs::StatisticsDialog</a></div><div class="ttdoc">The StatisticsDialog class window to have global informations or about a customer. </div><div class="ttdef"><b>Definition:</b> statisticsdialog.h:17</div></div>
+<div class="ttc" id="classGui_1_1Dialogs_1_1StatisticsDialog_html_ad4a1943006ec0126e0eaf0f30d5d40ef"><div class="ttname"><a href="../../d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog.html#ad4a1943006ec0126e0eaf0f30d5d40ef">Gui::Dialogs::StatisticsDialog::changeMainTitle</a></div><div class="ttdeci">void changeMainTitle()</div><div class="ttdoc">Change the title of the windows if it&#39;s global stats or customer stats. </div><div class="ttdef"><b>Definition:</b> statisticsdialog.cpp:55</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_c11973596eefdbf3e94ab0570adc11d0.html">dialogs</a></li><li class="navelem"><b>statisticsdialog.h</b></li>
-    <li class="footer">Generated on Sat Mar 28 2015 15:37:54 for FactDev by
+    <li class="footer">Generated on Tue Mar 31 2015 08:50:49 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

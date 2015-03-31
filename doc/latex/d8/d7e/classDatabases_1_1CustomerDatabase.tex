@@ -43,7 +43,9 @@ Q\-Standard\-Item $\ast$ \hyperlink{classDatabases_1_1CustomerDatabase_a64100150
 Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\-::\-Customer} $>$ \hyperlink{classDatabases_1_1CustomerDatabase_a23017b6db7808fa1d03e55e063418670}{get\-Customer} (Q\-Sql\-Query \&q)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_ab0544439382fb6891cd7d27f67cb120c}{Customer\-Database\-::get\-Customer} Add the element of the {\itshape q} request and return their. \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1CustomerDatabase_aedb0c575bd9141547e4e084fd260beb7}{update\-Customer} (Q\-Sql\-Query \&q, \hyperlink{classModels_1_1Customer}{Customer} \&p\-Customer)
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_a83493698214a2e8e68024d007e715f35}{Customer\-Database\-::update\-Customer} Update customer data according to the request {\itshape q} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_a83493698214a2e8e68024d007e715f35}{Customer\-Database\-::update\-Customer} Update customer data according to the request {\itshape q} \end{DoxyCompactList}\item 
+Q\-List$<$ \hyperlink{classModels_1_1Customer}{Customer} $>$ \hyperlink{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{get\-Customers} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{Customer\-Database\-::get\-Customers} Return all the customers. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -123,6 +125,20 @@ the Customer
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 a customer formed according to Q\-Shared\-Pointer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!get\-Customers@{get\-Customers}}
+\index{get\-Customers@{get\-Customers}!Databases::CustomerDatabase@{Databases\-::\-Customer\-Database}}
+\subsubsection[{get\-Customers}]{\setlength{\rightskip}{0pt plus 5cm}Q\-List$<$ {\bf Customer} $>$ Databases\-::\-Customer\-Database\-::get\-Customers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}
+
+
+\hyperlink{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{Customer\-Database\-::get\-Customers} Return all the customers. 
+
+\begin{DoxyReturn}{Returns}
+Q\-List of customers 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1CustomerDatabase_a9c7ab43d4e219710604e030eb8ab44d8}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!get\-Customers\-Table@{get\-Customers\-Table}}
 \index{get\-Customers\-Table@{get\-Customers\-Table}!Databases::CustomerDatabase@{Databases\-::\-Customer\-Database}}

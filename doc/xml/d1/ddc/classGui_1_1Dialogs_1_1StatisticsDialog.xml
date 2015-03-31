@@ -11,12 +11,38 @@
         <argsstring></argsstring>
         <name>ui</name>
         <briefdescription>
-        </briefdescription>
+<para>User Interface. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a499fee00b18ae30a538d75af6082ab2e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Gui::Dialogs::StatisticsDialog::isGlobal</definition>
+        <argsstring></argsstring>
+        <name>isGlobal</name>
+        <briefdescription>
+<para>Global stats or customer stats. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="53" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a15f9ffeda51bdd5ab56b05289785435e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Gui::Dialogs::StatisticsDialog::customerId</definition>
+        <argsstring></argsstring>
+        <name>customerId</name>
+        <briefdescription>
+<para>Customer id. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="54" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -61,7 +87,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="12" bodyend="46"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="12" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ae7411c706f1339823203c69908f3e22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -74,7 +100,78 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="54" bodyend="57"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="28" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a8b453ddc439c0f828eca1417fbc74003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::StatisticsDialog::updateUi</definition>
+        <argsstring>(int nbBills, int nbBillsPaid, int nbQuotes, int nbProjects)</argsstring>
+        <name>updateUi</name>
+        <param>
+          <type>int</type>
+          <declname>nbBills</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbBillsPaid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbQuotes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbProjects</declname>
+        </param>
+        <briefdescription>
+<para>Update interface (text) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbBills</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbBillsPaid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbQuotes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbProjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="37" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="28" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ad4a1943006ec0126e0eaf0f30d5d40ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gui::Dialogs::StatisticsDialog::changeMainTitle</definition>
+        <argsstring>()</argsstring>
+        <name>changeMainTitle</name>
+        <briefdescription>
+<para>Change the title of the windows if it&apos;s global stats or customer stats. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="55" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a8284c2ac0cc4c953d928ef9552a83096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -99,7 +196,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="48" bodyend="52"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="49" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.cpp" bodystart="64" bodyend="68"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -107,32 +204,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="466">
+      <node id="514">
         <label>QDialog</label>
       </node>
-      <node id="465">
+      <node id="513">
         <label>Gui::Dialogs::StatisticsDialog</label>
         <link refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog"/>
-        <childnode refid="466" relation="public-inheritance">
+        <childnode refid="514" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="468">
+      <node id="516">
         <label>QDialog</label>
       </node>
-      <node id="467">
+      <node id="515">
         <label>Gui::Dialogs::StatisticsDialog</label>
         <link refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog"/>
-        <childnode refid="468" relation="public-inheritance">
+        <childnode refid="516" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="17" bodyend="38"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h" bodystart="17" bodyend="55"/>
     <listofallmembers>
+      <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ad4a1943006ec0126e0eaf0f30d5d40ef" prot="public" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>changeMainTitle</name></member>
+      <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a15f9ffeda51bdd5ab56b05289785435e" prot="private" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>customerId</name></member>
+      <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a499fee00b18ae30a538d75af6082ab2e" prot="private" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>isGlobal</name></member>
       <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a8284c2ac0cc4c953d928ef9552a83096" prot="public" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>singularPlural</name></member>
       <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a6fe5b8b662958e2740f7a5905168bca9" prot="public" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>StatisticsDialog</name></member>
       <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ad0ff722f6461496adfc2bc4d4a42c838" prot="private" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>ui</name></member>
+      <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1a8b453ddc439c0f828eca1417fbc74003" prot="public" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>updateUi</name></member>
       <member refid="d1/ddc/classGui_1_1Dialogs_1_1StatisticsDialog_1ae7411c706f1339823203c69908f3e22a" prot="public" virt="non-virtual"><scope>Gui::Dialogs::StatisticsDialog</scope><name>~StatisticsDialog</name></member>
     </listofallmembers>
   </compounddef>

@@ -46,6 +46,7 @@ var annotated =
     [ "ProjectModelTest", "dd/d54/classProjectModelTest.html", "dd/d54/classProjectModelTest" ],
     [ "RateModelTest", "d2/dcd/classRateModelTest.html", "d2/dcd/classRateModelTest" ],
     [ "searchTest", "d7/d51/classsearchTest.html", "d7/d51/classsearchTest" ],
+    [ "StatisticModelTest", "db/df5/classStatisticModelTest.html", "db/df5/classStatisticModelTest" ],
     [ "StringTest", "d1/d6b/classStringTest.html", "d1/d6b/classStringTest" ],
     [ "TestAdder", "d0/d9b/classTestAdder.html", "d0/d9b/classTestAdder" ],
     [ "testadder", "d7/d26/classtestadder.html", "d7/d26/classtestadder" ],
