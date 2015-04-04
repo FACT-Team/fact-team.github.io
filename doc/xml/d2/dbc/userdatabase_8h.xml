@@ -5,7 +5,7 @@
     <includes refid="d8/d9c/database_8h" local="yes">database/database.h</includes>
     <includes refid="da/de0/dbexception_8h" local="yes">exceptions/dbexception.h</includes>
     <includes refid="d8/ddb/user_8h" local="yes">models/user.h</includes>
-    <includes refid="d5/db2/image_8h" local="yes">utils/image.h</includes>
+    <includes refid="d5/db2/image_8h" local="yes">gui/utils/image.h</includes>
     <includedby refid="dd/da0/userdatabase_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp</includedby>
     <includedby refid="d6/d33/user_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.cpp</includedby>
     <includedby refid="de/de2/userdatabasetest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.cpp</includedby>
@@ -186,14 +186,6 @@
         <childnode refid="749" relation="include">
         </childnode>
       </node>
-      <node id="765">
-        <label>utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="761" relation="include">
-        </childnode>
-        <childnode refid="766" relation="include">
-        </childnode>
-      </node>
       <node id="763">
         <label>utils/directories.h</label>
         <link refid="de/ddd/directories_8h_source"/>
@@ -235,6 +227,14 @@
       </node>
       <node id="740">
         <label>QFile</label>
+      </node>
+      <node id="765">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="766" relation="include">
+        </childnode>
       </node>
       <node id="733">
         <label>QtSql/QSqlError</label>
@@ -292,7 +292,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database/database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/dbexception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/user.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/image.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/utils/image.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Databases<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>

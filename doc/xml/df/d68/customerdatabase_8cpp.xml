@@ -281,14 +281,6 @@
         <label>models/calculable.h</label>
         <link refid="de/dfa/calculable_8h_source"/>
       </node>
-      <node id="363">
-        <label>utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="301" relation="include">
-        </childnode>
-        <childnode refid="302" relation="include">
-        </childnode>
-      </node>
       <node id="360">
         <label>generator/pdfgenerator.h</label>
         <link refid="de/d42/pdfgenerator_8h_source"/>
@@ -413,6 +405,14 @@
       </node>
       <node id="313">
         <label>QFile</label>
+      </node>
+      <node id="363">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
       </node>
       <node id="306">
         <label>QtSql/QSqlError</label>
@@ -765,7 +765,7 @@
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(q.exec())<sp/>{</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q.next();</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(q.first())<sp/>{</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>img<sp/>=<sp/><sp/><ref refid="df/d81/classUtils_1_1Image_1ad0726573f77f6af54d89908810feba4d" kindref="member">Utils::Image::bytesToPixmap</ref>(q.value(</highlight><highlight class="stringliteral">&quot;image&quot;</highlight><highlight class="normal">).toByteArray());</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>img<sp/>=<sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1a891cce6ddd74add919c2c68c90e46960" kindref="member">Gui::Utils::Image::bytesToPixmap</ref>(q.value(</highlight><highlight class="stringliteral">&quot;image&quot;</highlight><highlight class="normal">).toByteArray());</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -779,7 +779,7 @@
 <codeline lineno="237"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aa06b3a548c5ac7fba9f21e1f21a3e6e2" kindref="member">CustomerDatabase::setCustomerImage</ref>(<ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref><sp/>&amp;pCustomer)<sp/>{</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>q;</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/>pCustomer.<ref refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" kindref="member">getLastname</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>-<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>pCustomer.<ref refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" kindref="member">getImage</ref>()-&gt;size();</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>byteArray<sp/>=<sp/><ref refid="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" kindref="member">Utils::Image::pixmapToBytes</ref>(</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>byteArray<sp/>=<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1a6bf05a411daec780f12a690d0ce7a046" kindref="member">Gui::Utils::Image::pixmapToBytes</ref>(</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pCustomer.<ref refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" kindref="member">getImage</ref>(),</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pCustomer.<ref refid="de/d0a/classModels_1_1People_1af5400c0b192a41310f6e7d641dbd253c" kindref="member">getExtensionImage</ref>());</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>

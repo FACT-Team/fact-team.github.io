@@ -4,7 +4,7 @@
     <compoundname>dialogaddcustomer.cpp</compoundname>
     <includes refid="d3/d2c/dialogaddcustomer_8h" local="yes">gui/dialogs/dialogaddcustomer.h</includes>
     <includes local="yes">ui_dialogaddcustomer.h</includes>
-    <includes refid="d4/d33/windowsettings_8h" local="yes">utils/windowsettings.h</includes>
+    <includes refid="d4/d33/windowsettings_8h" local="yes">gui/utils/windowsettings.h</includes>
     <includes local="no">QDebug</includes>
     <incdepgraph>
       <node id="1590">
@@ -55,17 +55,17 @@
       <node id="1595">
         <label>QDebug</label>
       </node>
+      <node id="1593">
+        <label>gui/utils/windowsettings.h</label>
+        <link refid="d4/d33/windowsettings_8h_source"/>
+        <childnode refid="1594" relation="include">
+        </childnode>
+      </node>
       <node id="1591">
         <label>QVariantHash</label>
       </node>
       <node id="1586">
         <label>QString</label>
-      </node>
-      <node id="1593">
-        <label>utils/windowsettings.h</label>
-        <link refid="d4/d33/windowsettings_8h_source"/>
-        <childnode refid="1594" relation="include">
-        </childnode>
       </node>
       <node id="1588">
         <label>QPixmap</label>
@@ -95,7 +95,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/dialogaddcustomer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_dialogaddcustomer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/windowsettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/utils/windowsettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -108,7 +108,7 @@
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/>Ui::DialogAddCustomer)</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2d/classWindowSettings_1a30daec5f15eb722511dfb28333fdcef1" kindref="member">WindowSettings::setPositionToCenter</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dff/classGui_1_1Utils_1_1WindowSettings_1a672a669c93a49565f4bbe06c7ad876c4" kindref="member">Utils::WindowSettings::setPositionToCenter</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>!=<sp/>0)<sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_custom<sp/>=<sp/>QSharedPointer&lt;Models::Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">));</highlight></codeline>

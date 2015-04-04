@@ -7,7 +7,7 @@
     <includes refid="d9/d53/mainwindow_8h" local="yes">mainwindow.h</includes>
     <includes local="yes">ui_mainwindow.h</includes>
     <includes refid="db/de2/startedwindowsdialog_8h" local="yes">gui/dialogs/startedwindowsdialog.h</includes>
-    <includes refid="d4/d33/windowsettings_8h" local="yes">utils/windowsettings.h</includes>
+    <includes refid="d4/d33/windowsettings_8h" local="yes">gui/utils/windowsettings.h</includes>
     <incdepgraph>
       <node id="1855">
         <label>QMap</label>
@@ -527,14 +527,6 @@
         <childnode refid="1869" relation="include">
         </childnode>
       </node>
-      <node id="1920">
-        <label>utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="1862" relation="include">
-        </childnode>
-        <childnode refid="1919" relation="include">
-        </childnode>
-      </node>
       <node id="1916">
         <label>gui/dialogs/dialogaddcustomer.h</label>
         <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
@@ -676,6 +668,12 @@
       <node id="1927">
         <label>QSet</label>
       </node>
+      <node id="1948">
+        <label>gui/utils/windowsettings.h</label>
+        <link refid="d4/d33/windowsettings_8h_source"/>
+        <childnode refid="1839" relation="include">
+        </childnode>
+      </node>
       <node id="1910">
         <label>QWidget</label>
       </node>
@@ -745,6 +743,14 @@
       <node id="1870">
         <label>QFile</label>
       </node>
+      <node id="1920">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="1862" relation="include">
+        </childnode>
+        <childnode refid="1919" relation="include">
+        </childnode>
+      </node>
       <node id="1888">
         <label>QtSql/QSqlError</label>
       </node>
@@ -766,12 +772,6 @@
         <childnode refid="1868" relation="include">
         </childnode>
         <childnode refid="1900" relation="include">
-        </childnode>
-      </node>
-      <node id="1948">
-        <label>utils/windowsettings.h</label>
-        <link refid="d4/d33/windowsettings_8h_source"/>
-        <childnode refid="1839" relation="include">
         </childnode>
       </node>
       <node id="1932">
@@ -937,7 +937,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mainwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_mainwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/dialogs/startedwindowsdialog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/windowsettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/utils/windowsettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Utils;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
@@ -973,7 +973,7 @@
 <codeline lineno="40"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2d/classWindowSettings_1a4985100cde7abffff80d6675be2a6fd7" kindref="member">WindowSettings::setMaximumSize</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dff/classGui_1_1Utils_1_1WindowSettings_1a87db449398662e73bd6798efadabeb34" kindref="member">Utils::WindowSettings::setMaximumSize</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>_searchDock<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Docks::SearchDock();</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>addDockWidget(Qt::LeftDockWidgetArea,<sp/>_searchDock);</highlight></codeline>
@@ -1641,7 +1641,7 @@
 <codeline lineno="708"><highlight class="normal"></highlight></codeline>
 <codeline lineno="709"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::updateTableBillings(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idProject,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row)</highlight></codeline>
 <codeline lineno="710"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">Utils::pointers::deleteIfNotNull</ref>(ui-&gt;tblQuotes-&gt;model());</highlight></codeline>
+<codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">::Utils::pointers::deleteIfNotNull</ref>(ui-&gt;tblQuotes-&gt;model());</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;tblQuotes-&gt;setModel(</highlight></codeline>
 <codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/df8/classDatabases_1_1BillingDatabase_1aee84d7d07ff4a25251c61030019e5abb" kindref="member">Databases::BillingDatabase::instance</ref>()-&gt;getBillingsTable(idProject));</highlight></codeline>
 <codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lblDocs-&gt;setText(</highlight><highlight class="stringliteral">&quot;Factures<sp/>et<sp/>Devis<sp/>du<sp/>projet<sp/>&lt;b&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>

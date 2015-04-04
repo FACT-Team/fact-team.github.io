@@ -13,6 +13,10 @@ var namespaceGui =
     [ "Docks", null, [
       [ "SearchDock", "de/db4/classGui_1_1Docks_1_1SearchDock.html", "de/db4/classGui_1_1Docks_1_1SearchDock" ]
     ] ],
+    [ "Utils", null, [
+      [ "Image", "d7/dcc/classGui_1_1Utils_1_1Image.html", "d7/dcc/classGui_1_1Utils_1_1Image" ],
+      [ "WindowSettings", "da/dff/classGui_1_1Utils_1_1WindowSettings.html", "da/dff/classGui_1_1Utils_1_1WindowSettings" ]
+    ] ],
     [ "Widgets", "d4/dfe/namespaceGui_1_1Widgets.html", "d4/dfe/namespaceGui_1_1Widgets" ],
     [ "MainWindow", "d5/d2f/classGui_1_1MainWindow.html", "d5/d2f/classGui_1_1MainWindow" ]
 ];

@@ -24,7 +24,6 @@ var annotated =
       [ "Directories", "d8/d40/classUtils_1_1Directories.html", "d8/d40/classUtils_1_1Directories" ],
       [ "Double", "dd/d31/classUtils_1_1Double.html", "dd/d31/classUtils_1_1Double" ],
       [ "HierarchicalSystem", "d1/de0/classUtils_1_1HierarchicalSystem.html", "d1/de0/classUtils_1_1HierarchicalSystem" ],
-      [ "Image", "df/d81/classUtils_1_1Image.html", "df/d81/classUtils_1_1Image" ],
       [ "ItemType", "d5/d7c/classUtils_1_1ItemType.html", "d5/d7c/classUtils_1_1ItemType" ],
       [ "Log", "db/db3/classUtils_1_1Log.html", "db/db3/classUtils_1_1Log" ],
       [ "pointers", "d4/d7a/classUtils_1_1pointers.html", "d4/d7a/classUtils_1_1pointers" ],
@@ -54,6 +53,5 @@ var annotated =
     [ "TestMustache", "de/d63/classTestMustache.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", "db/d70/classTestRunner" ],
     [ "UserDatabaseTest", "d7/dc1/classUserDatabaseTest.html", "d7/dc1/classUserDatabaseTest" ],
-    [ "UserModelTest", "de/d37/classUserModelTest.html", "de/d37/classUserModelTest" ],
-    [ "WindowSettings", "dd/d2d/classWindowSettings.html", "dd/d2d/classWindowSettings" ]
+    [ "UserModelTest", "de/d37/classUserModelTest.html", "de/d37/classUserModelTest" ]
 ];

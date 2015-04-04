@@ -179,14 +179,6 @@
         <childnode refid="710" relation="include">
         </childnode>
       </node>
-      <node id="726">
-        <label>utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="722" relation="include">
-        </childnode>
-        <childnode refid="727" relation="include">
-        </childnode>
-      </node>
       <node id="724">
         <label>utils/directories.h</label>
         <link refid="de/ddd/directories_8h_source"/>
@@ -236,6 +228,14 @@
       </node>
       <node id="701">
         <label>QFile</label>
+      </node>
+      <node id="726">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="722" relation="include">
+        </childnode>
+        <childnode refid="727" relation="include">
+        </childnode>
       </node>
       <node id="694">
         <label>QtSql/QSqlError</label>
@@ -400,7 +400,7 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(q.exec())<sp/>{</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q.next();</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(q.first())<sp/>{</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>img<sp/>=<sp/><ref refid="df/d81/classUtils_1_1Image_1ad0726573f77f6af54d89908810feba4d" kindref="member">Utils::Image::bytesToPixmap</ref>(q.value(</highlight><highlight class="stringliteral">&quot;image&quot;</highlight><highlight class="normal">).toByteArray());</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>img<sp/>=<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1a891cce6ddd74add919c2c68c90e46960" kindref="member">Gui::Utils::Image::bytesToPixmap</ref>(q.value(</highlight><highlight class="stringliteral">&quot;image&quot;</highlight><highlight class="normal">).toByteArray());</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(img.size().isEmpty())<sp/>{</highlight></codeline>
@@ -414,7 +414,7 @@
 <codeline lineno="126"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>q;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>byteArray<sp/>=<sp/><ref refid="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" kindref="member">Utils::Image::pixmapToBytes</ref>(</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>byteArray<sp/>=<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1a6bf05a411daec780f12a690d0ce7a046" kindref="member">Gui::Utils::Image::pixmapToBytes</ref>(</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pUser.<ref refid="df/d68/classModels_1_1User_1a5cfe4bf41255daf93ac3a2488a858e00" kindref="member">getImage</ref>(),</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pUser.<ref refid="de/d0a/classModels_1_1People_1af5400c0b192a41310f6e7d641dbd253c" kindref="member">getExtensionImage</ref>());</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>

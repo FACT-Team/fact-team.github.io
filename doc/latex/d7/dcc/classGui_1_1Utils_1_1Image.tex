@@ -1,0 +1,122 @@
+\hypertarget{classGui_1_1Utils_1_1Image}{\section{Gui\-:\-:Utils\-:\-:Image Class Reference}
+\label{classGui_1_1Utils_1_1Image}\index{Gui\-::\-Utils\-::\-Image@{Gui\-::\-Utils\-::\-Image}}
+}
+
+
+The \hyperlink{classGui_1_1Utils_1_1Image}{Image} class Contains generic methods on image formats.  
+
+
+
+
+{\ttfamily \#include $<$image.\-h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Q\-Byte\-Array \hyperlink{classGui_1_1Utils_1_1Image_aad7d91d84d4d6f51080eee06419aee80}{image\-To\-Bytes} (Q\-Image image, const Q\-String ext=\char`\"{}P\-N\-G\char`\"{})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Utils_1_1Image_aad7d91d84d4d6f51080eee06419aee80}{Image\-::image\-To\-Bytes} Return a Q\-Byte\-Array of the Q\-Image {\itshape image} \end{DoxyCompactList}\item 
+static Q\-Byte\-Array \hyperlink{classGui_1_1Utils_1_1Image_a6bf05a411daec780f12a690d0ce7a046}{pixmap\-To\-Bytes} (const Q\-Pixmap pix, const Q\-String ext=\char`\"{}P\-N\-G\char`\"{})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Utils_1_1Image_a6bf05a411daec780f12a690d0ce7a046}{Image\-::pixmap\-To\-Bytes} Return a Q\-Byte\-Array of the Q\-Pixmap {\itshape image} \end{DoxyCompactList}\item 
+static Q\-Image \hyperlink{classGui_1_1Utils_1_1Image_abd2651b6ee762ee438231288887235df}{pixmap\-To\-Image} (const Q\-Pixmap pix)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGui_1_1Utils_1_1Image_abd2651b6ee762ee438231288887235df}{Image\-::pixmap\-To\-Image} Return a Q\-Image of Q\-Pixmap {\itshape image} \end{DoxyCompactList}\item 
+static Q\-Pixmap \hyperlink{classGui_1_1Utils_1_1Image_a891cce6ddd74add919c2c68c90e46960}{bytes\-To\-Pixmap} (const Q\-Byte\-Array bytes)
+\begin{DoxyCompactList}\small\item\em Image\-::\-Bytes\-To\-Pixmap Return Q\-Pixmap from an array of bytes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classGui_1_1Utils_1_1Image}{Image} class Contains generic methods on image formats. 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGui_1_1Utils_1_1Image_a891cce6ddd74add919c2c68c90e46960}{\index{Gui\-::\-Utils\-::\-Image@{Gui\-::\-Utils\-::\-Image}!bytes\-To\-Pixmap@{bytes\-To\-Pixmap}}
+\index{bytes\-To\-Pixmap@{bytes\-To\-Pixmap}!Gui::Utils::Image@{Gui\-::\-Utils\-::\-Image}}
+\subsubsection[{bytes\-To\-Pixmap}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Gui\-::\-Utils\-::\-Image\-::bytes\-To\-Pixmap (
+\begin{DoxyParamCaption}
+\item[{const Q\-Byte\-Array}]{bytes}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classGui_1_1Utils_1_1Image_a891cce6ddd74add919c2c68c90e46960}
+
+
+Image\-::\-Bytes\-To\-Pixmap Return Q\-Pixmap from an array of bytes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bytes} & Array of bytes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\-Pixmap from bytes 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Utils_1_1Image_aad7d91d84d4d6f51080eee06419aee80}{\index{Gui\-::\-Utils\-::\-Image@{Gui\-::\-Utils\-::\-Image}!image\-To\-Bytes@{image\-To\-Bytes}}
+\index{image\-To\-Bytes@{image\-To\-Bytes}!Gui::Utils::Image@{Gui\-::\-Utils\-::\-Image}}
+\subsubsection[{image\-To\-Bytes}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Byte\-Array Gui\-::\-Utils\-::\-Image\-::image\-To\-Bytes (
+\begin{DoxyParamCaption}
+\item[{Q\-Image}]{image, }
+\item[{const Q\-String}]{ext = {\ttfamily \char`\"{}PNG\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classGui_1_1Utils_1_1Image_aad7d91d84d4d6f51080eee06419aee80}
+
+
+\hyperlink{classGui_1_1Utils_1_1Image_aad7d91d84d4d6f51080eee06419aee80}{Image\-::image\-To\-Bytes} Return a Q\-Byte\-Array of the Q\-Image {\itshape image} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & An image \\
+\hline
+{\em ext} & Extension file of the image (P\-N\-G as default value) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array of bytes from an {\bfseries Q\-Image} image 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Utils_1_1Image_a6bf05a411daec780f12a690d0ce7a046}{\index{Gui\-::\-Utils\-::\-Image@{Gui\-::\-Utils\-::\-Image}!pixmap\-To\-Bytes@{pixmap\-To\-Bytes}}
+\index{pixmap\-To\-Bytes@{pixmap\-To\-Bytes}!Gui::Utils::Image@{Gui\-::\-Utils\-::\-Image}}
+\subsubsection[{pixmap\-To\-Bytes}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Byte\-Array Gui\-::\-Utils\-::\-Image\-::pixmap\-To\-Bytes (
+\begin{DoxyParamCaption}
+\item[{const Q\-Pixmap}]{pix, }
+\item[{const Q\-String}]{ext = {\ttfamily \char`\"{}PNG\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classGui_1_1Utils_1_1Image_a6bf05a411daec780f12a690d0ce7a046}
+
+
+\hyperlink{classGui_1_1Utils_1_1Image_a6bf05a411daec780f12a690d0ce7a046}{Image\-::pixmap\-To\-Bytes} Return a Q\-Byte\-Array of the Q\-Pixmap {\itshape image} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pix} & An image \\
+\hline
+{\em ext} & Extension file of the image (P\-N\-G as default value) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array of bytes from an {\bfseries Q\-Pixmap} image 
+\end{DoxyReturn}
+\hypertarget{classGui_1_1Utils_1_1Image_abd2651b6ee762ee438231288887235df}{\index{Gui\-::\-Utils\-::\-Image@{Gui\-::\-Utils\-::\-Image}!pixmap\-To\-Image@{pixmap\-To\-Image}}
+\index{pixmap\-To\-Image@{pixmap\-To\-Image}!Gui::Utils::Image@{Gui\-::\-Utils\-::\-Image}}
+\subsubsection[{pixmap\-To\-Image}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Image Gui\-::\-Utils\-::\-Image\-::pixmap\-To\-Image (
+\begin{DoxyParamCaption}
+\item[{const Q\-Pixmap}]{pix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classGui_1_1Utils_1_1Image_abd2651b6ee762ee438231288887235df}
+
+
+\hyperlink{classGui_1_1Utils_1_1Image_abd2651b6ee762ee438231288887235df}{Image\-::pixmap\-To\-Image} Return a Q\-Image of Q\-Pixmap {\itshape image} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pix} & An image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\-Image of pix 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/gui/utils/image.\-h\item 
+/home/travis/build/\-F\-A\-C\-T-\/\-Team/\-Fact\-Dev/src/gui/utils/image.\-cpp\end{DoxyCompactItemize}

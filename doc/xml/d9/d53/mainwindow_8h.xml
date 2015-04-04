@@ -522,14 +522,6 @@
         <childnode refid="1979" relation="include">
         </childnode>
       </node>
-      <node id="2030">
-        <label>utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="1971" relation="include">
-        </childnode>
-        <childnode refid="2029" relation="include">
-        </childnode>
-      </node>
       <node id="2026">
         <label>gui/dialogs/dialogaddcustomer.h</label>
         <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
@@ -733,6 +725,14 @@
       </node>
       <node id="1980">
         <label>QFile</label>
+      </node>
+      <node id="2030">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="1971" relation="include">
+        </childnode>
+        <childnode refid="2029" relation="include">
+        </childnode>
       </node>
       <node id="1998">
         <label>QtSql/QSqlError</label>
@@ -1071,7 +1071,7 @@
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
 <codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateCostAndTurnover();</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeItem(QTableView*<sp/>tbl,<sp/><ref refid="d5/d7c/classUtils_1_1ItemType" kindref="compound">Utils::ItemType</ref><sp/>item);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeItem(QTableView*<sp/>tbl,<sp/>::<ref refid="d5/d7c/classUtils_1_1ItemType" kindref="compound">Utils::ItemType</ref><sp/>item);</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
 <codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getCurrentTableId(QTableView<sp/>*tbl);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>

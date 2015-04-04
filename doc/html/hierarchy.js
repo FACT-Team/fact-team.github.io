@@ -49,7 +49,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "Utils::Image", "df/d81/classUtils_1_1Image.html", null ],
+    [ "Gui::Utils::Image", "d7/dcc/classGui_1_1Utils_1_1Image.html", null ],
     [ "Models::IModel", "d0/d9c/classModels_1_1IModel.html", [
       [ "Models::Billing", "d4/d5c/classModels_1_1Billing.html", null ],
       [ "Models::Contributory", "d5/dd1/classModels_1_1Contributory.html", null ],
@@ -157,5 +157,5 @@ var hierarchy =
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ],
     [ "Models::Unit", "dc/d11/classModels_1_1Unit.html", null ],
-    [ "WindowSettings", "dd/d2d/classWindowSettings.html", null ]
+    [ "Gui::Utils::WindowSettings", "da/dff/classGui_1_1Utils_1_1WindowSettings.html", null ]
 ];
