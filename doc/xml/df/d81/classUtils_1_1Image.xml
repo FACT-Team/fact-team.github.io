@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d81/classUtils_1_1Image" kind="class" prot="public">
+    <compoundname>Utils::Image</compoundname>
+    <includes refid="d5/db2/image_8h" local="no">image.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d81/classUtils_1_1Image_1a9ce15d09b2071343d714c17aa31aa587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Image::Image</definition>
+        <argsstring>()</argsstring>
+        <name>Image</name>
+        <briefdescription>
+<para><ref refid="df/d81/classUtils_1_1Image_1a9ce15d09b2071343d714c17aa31aa587" kindref="member">Image::Image</ref> Construct an <ref refid="df/d81/classUtils_1_1Image" kindref="compound">Image</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d81/classUtils_1_1Image_1abbc5e8f3834a045d47e161e4ec366e6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Utils::Image::imageToBytes</definition>
+        <argsstring>(QImage image, const QString ext=&quot;PNG&quot;)</argsstring>
+        <name>imageToBytes</name>
+        <param>
+          <type>QImage</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>ext</declname>
+          <defval>&quot;PNG&quot;</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d81/classUtils_1_1Image_1abbc5e8f3834a045d47e161e4ec366e6b" kindref="member">Image::imageToBytes</ref> Return a QByteArray of the QImage <emphasis>image</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Extension file of the image (PNG as default value) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of bytes from an <bold>QImage</bold> image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.cpp" bodystart="25" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray Utils::Image::pixmapToBytes</definition>
+        <argsstring>(const QPixmap pix, const QString ext=&quot;PNG&quot;)</argsstring>
+        <name>pixmapToBytes</name>
+        <param>
+          <type>const QPixmap</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>ext</declname>
+          <defval>&quot;PNG&quot;</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" kindref="member">Image::pixmapToBytes</ref> Return a QByteArray of the QPixmap <emphasis>image</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Extension file of the image (PNG as default value) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of bytes from an <bold>QPixmap</bold> image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="36" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d81/classUtils_1_1Image_1a46e214e9d7fabf71ecd7ff9c041c198a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage Utils::Image::pixmapToImage</definition>
+        <argsstring>(const QPixmap pix)</argsstring>
+        <name>pixmapToImage</name>
+        <param>
+          <type>const QPixmap</type>
+          <declname>pix</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="df/d81/classUtils_1_1Image_1a46e214e9d7fabf71ecd7ff9c041c198a" kindref="member">Image::pixmapToImage</ref> Return a QImage of QPixmap <emphasis>image</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An image </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QImage of pix </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="43" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d81/classUtils_1_1Image_1ad0726573f77f6af54d89908810feba4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap</type>
+        <definition>QPixmap Utils::Image::bytesToPixmap</definition>
+        <argsstring>(const QByteArray bytes)</argsstring>
+        <name>bytesToPixmap</name>
+        <param>
+          <type>const QByteArray</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>Image::BytesToPixmap Return QPixmap from an array of bytes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of bytes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>QPixmap from bytes </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="50" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="df/d81/classUtils_1_1Image" kindref="compound">Image</ref> class Contains generic methods on image formats. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para></para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="388">
+        <label>Utils::Image</label>
+        <link refid="df/d81/classUtils_1_1Image"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" line="14" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/utils/image.h" bodystart="13" bodyend="51"/>
+    <listofallmembers>
+      <member refid="df/d81/classUtils_1_1Image_1ad0726573f77f6af54d89908810feba4d" prot="public" virt="non-virtual"><scope>Utils::Image</scope><name>bytesToPixmap</name></member>
+      <member refid="df/d81/classUtils_1_1Image_1a9ce15d09b2071343d714c17aa31aa587" prot="public" virt="non-virtual"><scope>Utils::Image</scope><name>Image</name></member>
+      <member refid="df/d81/classUtils_1_1Image_1abbc5e8f3834a045d47e161e4ec366e6b" prot="public" virt="non-virtual"><scope>Utils::Image</scope><name>imageToBytes</name></member>
+      <member refid="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" prot="public" virt="non-virtual"><scope>Utils::Image</scope><name>pixmapToBytes</name></member>
+      <member refid="df/d81/classUtils_1_1Image_1a46e214e9d7fabf71ecd7ff9c041c198a" prot="public" virt="non-virtual"><scope>Utils::Image</scope><name>pixmapToImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -3,7 +3,6 @@
   <compounddef id="db/dd7/classModels_1_1Customer" kind="class" prot="public">
     <compoundname>Models::Customer</compoundname>
     <basecompoundref refid="de/d0a/classModels_1_1People" prot="public" virt="non-virtual">Models::People</basecompoundref>
-    <basecompoundref refid="d0/d9c/classModels_1_1IModel" prot="public" virt="non-virtual">Models::IModel</basecompoundref>
     <includes refid="d3/d35/customer_8h" local="no">customer.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1addd80f9411019f3c8158fadaea90f36b" prot="private" static="no" mutable="no">
@@ -17,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="83" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="83" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="100" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dd7/classModels_1_1Customer_1a007511f2c6a5bf2dac84f960de8122c2" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="84" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="84" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="101" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -45,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="11" bodyend="14"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="11" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a02a1aee507d4ff4f60019070793fe604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -70,7 +69,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="16" bodyend="18"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="27" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -79,12 +78,20 @@
         <name>commit</name>
         <reimplements refid="d0/d9c/classModels_1_1IModel_1ab4bc529739a8d243222212590888be45">commit</reimplements>
         <briefdescription>
-<para><ref refid="db/dd7/classModels_1_1Customer_1af5c0f2b6d80ad9e6bcbfe39b697d65c4" kindref="member">Customer::commit</ref> Update customer data on the database. </para>        </briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1a28e8ade7d9ccc39707f823ba8d45f7d0" kindref="member">Customer::Customer</ref> Constuct a <ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref> who is specidied by <emphasis>id</emphasis> </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref> identify </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="20" bodyend="28"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="34" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="20" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1afe3ed7fb893d61ea6f4d14e73779382c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -110,7 +117,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="39" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="30" bodyend="50"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="41" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="30" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -124,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="44" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="52" bodyend="55"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="46" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="53" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QVariantHash</type>
@@ -139,7 +146,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="50" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="57" bodyend="80"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="58" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -153,7 +160,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="57" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="82" bodyend="89"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="59" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="83" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -167,7 +174,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="64" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="91" bodyend="96"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="66" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="92" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -181,7 +188,47 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="71" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="98" bodyend="106"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="73" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="99" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap *</type>
+        <definition>QPixmap * Models::Customer::getImage</definition>
+        <argsstring>()</argsstring>
+        <name>getImage</name>
+        <briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" kindref="member">Customer::getImage</ref> Return the compagny image. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>compagny image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="79" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1ac164f9bd8221da51ce16a95e9a3890f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Models::Customer::setImage</definition>
+        <argsstring>(QPixmap *image)</argsstring>
+        <name>setImage</name>
+        <reimplements refid="de/d0a/classModels_1_1People_1a020ff3cb4cd47b7a34359fb681afe530">setImage</reimplements>
+        <param>
+          <type>QPixmap *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="db/dd7/classModels_1_1Customer_1ac164f9bd8221da51ce16a95e9a3890f0" kindref="member">Customer::setImage</ref> Change the current image by the new <emphasis>image</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New image </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="86" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="119" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a1dfb958b33d0fcc9892fe902487be43d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -195,7 +242,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="76" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="108" bodyend="111"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="92" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="126" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="db/dd7/classModels_1_1Customer_1a15ec2603da3dd66c9355a9604b5abded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -220,7 +267,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="81" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="113" bodyend="116"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="97" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.cpp" bodystart="131" bodyend="134"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -229,44 +276,45 @@
 <para><simplesect kind="author"><para>Antoine de Roquemaurel </para><simplesectsep/><para>Florent Berbie </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="295">
+      <node id="299">
         <label>Models::Customer</label>
         <link refid="db/dd7/classModels_1_1Customer"/>
-        <childnode refid="296" relation="public-inheritance">
-        </childnode>
-        <childnode refid="297" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="297">
-        <label>Models::IModel</label>
-        <link refid="d0/d9c/classModels_1_1IModel"/>
-      </node>
-      <node id="296">
-        <label>Models::People</label>
-        <link refid="de/d0a/classModels_1_1People"/>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="298">
-        <label>Models::Customer</label>
-        <link refid="db/dd7/classModels_1_1Customer"/>
-        <childnode refid="299" relation="public-inheritance">
-        </childnode>
         <childnode refid="300" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="300">
+      <node id="301">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
-      <node id="299">
+      <node id="300">
         <label>Models::People</label>
         <link refid="de/d0a/classModels_1_1People"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="302">
+        <label>Models::Customer</label>
+        <link refid="db/dd7/classModels_1_1Customer"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>Models::IModel</label>
+        <link refid="d0/d9c/classModels_1_1IModel"/>
+      </node>
+      <node id="303">
+        <label>Models::People</label>
+        <link refid="de/d0a/classModels_1_1People"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="15" bodyend="85"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" line="16" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/models/customer.h" bodystart="15" bodyend="102"/>
     <listofallmembers>
       <member refid="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" prot="protected" virt="non-virtual"><scope>Models::Customer</scope><name>_id</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a8638e8e2640a02e1e75c383ddb5e49eb" prot="protected" virt="non-virtual"><scope>Models::Customer</scope><name>_image</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a007511f2c6a5bf2dac84f960de8122c2" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_isArchived</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a8958f103202a45a8f77b86acebafe69c" prot="protected" virt="non-virtual"><scope>Models::Customer</scope><name>_toRemoved</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1addd80f9411019f3c8158fadaea90f36b" prot="private" virt="non-virtual"><scope>Models::Customer</scope><name>_turnover</name></member>
@@ -280,9 +328,12 @@
       <member refid="de/d0a/classModels_1_1People_1a0df66681e0b8fcf099ad0a05863a8e13" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getCountry</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ae72b05319056dc482f3f525ef40b8d40" prot="public" virt="virtual"><scope>Models::Customer</scope><name>getDataMap</name></member>
       <member refid="de/d0a/classModels_1_1People_1a183e3ac09f44e38b32d7ba72aef85757" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getEmail</name></member>
+      <member refid="de/d0a/classModels_1_1People_1af5400c0b192a41310f6e7d641dbd253c" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getExtensionImage</name></member>
       <member refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFax</name></member>
       <member refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getId</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getImage</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a4bed6596966747975ba9a41b856cc1dc" prot="public" virt="virtual" ambiguityscope="Models::People::"><scope>Models::Customer</scope><name>getImage</name></member>
       <member refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getLastname</name></member>
       <member refid="de/d0a/classModels_1_1People_1aaf8d6ac89ea0ae0a1064503f3b9b6dbb" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getMobilePhone</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>getNameFolder</name></member>
@@ -297,6 +348,7 @@
       <member refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>operator!=</name></member>
       <member refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>operator==</name></member>
       <member refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>People</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a0b260c5c0d9b0305fb6da820974a7aa8" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>People</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a0f5dba0d90af0adf5d0aca26195d21b1" prot="public" virt="virtual"><scope>Models::Customer</scope><name>remove</name></member>
       <member refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setAddress</name></member>
       <member refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setAddressComplement</name></member>
@@ -304,9 +356,11 @@
       <member refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCompany</name></member>
       <member refid="de/d0a/classModels_1_1People_1a3062f5f760ee85553b28b3ef1f15492a" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setCountry</name></member>
       <member refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setEmail</name></member>
+      <member refid="de/d0a/classModels_1_1People_1af410d9694818bc89bf1e63cd1bb57753" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setExtensionImage</name></member>
       <member refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFax</name></member>
       <member refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setFirstname</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setId</name></member>
+      <member refid="db/dd7/classModels_1_1Customer_1ac164f9bd8221da51ce16a95e9a3890f0" prot="public" virt="virtual"><scope>Models::Customer</scope><name>setImage</name></member>
       <member refid="db/dd7/classModels_1_1Customer_1a15ec2603da3dd66c9355a9604b5abded" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setIsArchived</name></member>
       <member refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setLastname</name></member>
       <member refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setMobilePhone</name></member>
@@ -315,6 +369,7 @@
       <member refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setToRemoved</name></member>
       <member refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>setWebsite</name></member>
       <member refid="d0/d9c/classModels_1_1IModel_1ab9c12f5b9ae86e00d0f2f7d8d349c4fa" prot="public" virt="virtual"><scope>Models::Customer</scope><name>~IModel</name></member>
+      <member refid="de/d0a/classModels_1_1People_1a7366f26d851a54946dc28ff48c1ae384" prot="public" virt="non-virtual"><scope>Models::Customer</scope><name>~People</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

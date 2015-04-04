@@ -44,6 +44,10 @@ Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\-::\-Customer} 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_ab0544439382fb6891cd7d27f67cb120c}{Customer\-Database\-::get\-Customer} Add the element of the {\itshape q} request and return their. \end{DoxyCompactList}\item 
 void \hyperlink{classDatabases_1_1CustomerDatabase_aedb0c575bd9141547e4e084fd260beb7}{update\-Customer} (Q\-Sql\-Query \&q, \hyperlink{classModels_1_1Customer}{Customer} \&p\-Customer)
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_a83493698214a2e8e68024d007e715f35}{Customer\-Database\-::update\-Customer} Update customer data according to the request {\itshape q} \end{DoxyCompactList}\item 
+Q\-Pixmap \hyperlink{classDatabases_1_1CustomerDatabase_a72bdc84a12118a12030c3e3770a2ebf9}{get\-Customer\-Image} (const int p\-Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_a72bdc84a12118a12030c3e3770a2ebf9}{Customer\-Database\-::get\-Customer\-Image} Return a Customer image. \end{DoxyCompactList}\item 
+void \hyperlink{classDatabases_1_1CustomerDatabase_aa06b3a548c5ac7fba9f21e1f21a3e6e2}{set\-Customer\-Image} (\hyperlink{classModels_1_1Customer}{Customer} \&p\-Customer)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_aa06b3a548c5ac7fba9f21e1f21a3e6e2}{Customer\-Database\-::set\-Customer\-Image} Change the image of the customer {\itshape p\-Customer} \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Customer}{Customer} $>$ \hyperlink{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{get\-Customers} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{Customer\-Database\-::get\-Customers} Return all the customers. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
@@ -125,6 +129,25 @@ the Customer
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 a customer formed according to Q\-Shared\-Pointer 
+\end{DoxyReturn}
+\hypertarget{classDatabases_1_1CustomerDatabase_a72bdc84a12118a12030c3e3770a2ebf9}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!get\-Customer\-Image@{get\-Customer\-Image}}
+\index{get\-Customer\-Image@{get\-Customer\-Image}!Databases::CustomerDatabase@{Databases\-::\-Customer\-Database}}
+\subsubsection[{get\-Customer\-Image}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Databases\-::\-Customer\-Database\-::get\-Customer\-Image (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\-Id}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1CustomerDatabase_a72bdc84a12118a12030c3e3770a2ebf9}
+
+
+\hyperlink{classDatabases_1_1CustomerDatabase_a72bdc84a12118a12030c3e3770a2ebf9}{Customer\-Database\-::get\-Customer\-Image} Return a Customer image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Id} & Customer id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Customer image 
 \end{DoxyReturn}
 \hypertarget{classDatabases_1_1CustomerDatabase_aecb30e5fc92b73a43fc99c799e8ba964}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!get\-Customers@{get\-Customers}}
 \index{get\-Customers@{get\-Customers}!Databases::CustomerDatabase@{Databases\-::\-Customer\-Database}}
@@ -285,6 +308,22 @@ Instance of \hyperlink{classDatabases_1_1CustomerDatabase}{Customer\-Database}
 
 \begin{DoxyParams}{Parameters}
 {\em p\-Id} & customer id \\
+\hline
+\end{DoxyParams}
+\hypertarget{classDatabases_1_1CustomerDatabase_aa06b3a548c5ac7fba9f21e1f21a3e6e2}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!set\-Customer\-Image@{set\-Customer\-Image}}
+\index{set\-Customer\-Image@{set\-Customer\-Image}!Databases::CustomerDatabase@{Databases\-::\-Customer\-Database}}
+\subsubsection[{set\-Customer\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-Customer\-Database\-::set\-Customer\-Image (
+\begin{DoxyParamCaption}
+\item[{{\bf Models\-::\-Customer} \&}]{p\-Customer}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1CustomerDatabase_aa06b3a548c5ac7fba9f21e1f21a3e6e2}
+
+
+\hyperlink{classDatabases_1_1CustomerDatabase_aa06b3a548c5ac7fba9f21e1f21a3e6e2}{Customer\-Database\-::set\-Customer\-Image} Change the image of the customer {\itshape p\-Customer} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Customer} & Customer \\
 \hline
 \end{DoxyParams}
 \hypertarget{classDatabases_1_1CustomerDatabase_aedb0c575bd9141547e4e084fd260beb7}{\index{Databases\-::\-Customer\-Database@{Databases\-::\-Customer\-Database}!update\-Customer@{update\-Customer}}

@@ -3,399 +3,417 @@
   <compounddef id="d2/d90/people_8h" kind="file">
     <compoundname>people.h</compoundname>
     <includes local="no">QString</includes>
+    <includes local="no">QPixmap</includes>
+    <includes refid="df/d78/imodel_8h" local="yes">models/imodel.h</includes>
     <includedby refid="d3/d35/customer_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/customer.h</includedby>
     <includedby refid="d0/def/people_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/people.cpp</includedby>
     <includedby refid="d8/ddb/user_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/models/user.h</includedby>
     <incdepgraph>
-      <node id="4291">
-        <label>/home/travis/build/FACT-Team/FactDev/src/models/people.h</label>
-        <link refid="people.h"/>
-        <childnode refid="4292" relation="include">
+      <node id="4408">
+        <label>models/imodel.h</label>
+        <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="4409" relation="include">
         </childnode>
       </node>
-      <node id="4292">
+      <node id="4405">
+        <label>/home/travis/build/FACT-Team/FactDev/src/models/people.h</label>
+        <link refid="people.h"/>
+        <childnode refid="4406" relation="include">
+        </childnode>
+        <childnode refid="4407" relation="include">
+        </childnode>
+        <childnode refid="4408" relation="include">
+        </childnode>
+      </node>
+      <node id="4409">
+        <label>QVariantHash</label>
+      </node>
+      <node id="4406">
         <label>QString</label>
+      </node>
+      <node id="4407">
+        <label>QPixmap</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4337">
+      <node id="4454">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/projectdatabasetest.h</label>
         <link refid="db/d8d/projectdatabasetest_8h_source"/>
       </node>
-      <node id="4318">
+      <node id="4435">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/itemtype.h</label>
         <link refid="db/d31/itemtype_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
-        <childnode refid="4319" relation="include">
+        <childnode refid="4436" relation="include">
         </childnode>
       </node>
-      <node id="4310">
+      <node id="4427">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/billingdatabase.h</label>
         <link refid="d2/dd1/billingdatabase_8h_source"/>
-        <childnode refid="4295" relation="include">
+        <childnode refid="4412" relation="include">
         </childnode>
-        <childnode refid="4311" relation="include">
+        <childnode refid="4428" relation="include">
         </childnode>
-        <childnode refid="4308" relation="include">
+        <childnode refid="4425" relation="include">
         </childnode>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
-        <childnode refid="4312" relation="include">
+        <childnode refid="4429" relation="include">
         </childnode>
-        <childnode refid="4314" relation="include">
+        <childnode refid="4431" relation="include">
         </childnode>
       </node>
-      <node id="4313">
+      <node id="4430">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/statisticmodeltest.h</label>
         <link refid="d3/d8f/statisticmodeltest_8h_source"/>
       </node>
-      <node id="4341">
+      <node id="4458">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h</label>
         <link refid="d7/d4e/customermodeltest_8h_source"/>
       </node>
-      <node id="4297">
+      <node id="4414">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="4296" relation="include">
+        <childnode refid="4413" relation="include">
         </childnode>
       </node>
-      <node id="4314">
+      <node id="4431">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/billingmodeltest.h</label>
         <link refid="da/d5e/billingmodeltest_8h_source"/>
       </node>
-      <node id="4340">
+      <node id="4457">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h</label>
         <link refid="df/d55/customerdatabasetest_8h_source"/>
       </node>
-      <node id="4332">
+      <node id="4449">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/user.h</label>
         <link refid="d8/ddb/user_8h_source"/>
-        <childnode refid="4333" relation="include">
+        <childnode refid="4450" relation="include">
         </childnode>
-        <childnode refid="4315" relation="include">
+        <childnode refid="4432" relation="include">
         </childnode>
-        <childnode refid="4334" relation="include">
+        <childnode refid="4451" relation="include">
         </childnode>
-        <childnode refid="4335" relation="include">
+        <childnode refid="4452" relation="include">
         </childnode>
-        <childnode refid="4302" relation="include">
+        <childnode refid="4419" relation="include">
         </childnode>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
-        <childnode refid="4326" relation="include">
+        <childnode refid="4443" relation="include">
         </childnode>
-        <childnode refid="4336" relation="include">
+        <childnode refid="4453" relation="include">
         </childnode>
       </node>
-      <node id="4304">
+      <node id="4421">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</label>
         <link refid="d4/df4/searchtest_8h_source"/>
       </node>
-      <node id="4329">
+      <node id="4446">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/contributoriestablemodel.h</label>
         <link refid="d0/d03/contributoriestablemodel_8h_source"/>
-        <childnode refid="4322" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
       </node>
-      <node id="4308">
+      <node id="4425">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/computeturnoverdialog.h</label>
         <link refid="d9/d97/computeturnoverdialog_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
       </node>
-      <node id="4326">
+      <node id="4443">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/contributorieslist.h</label>
         <link refid="dd/d0f/contributorieslist_8h_source"/>
-        <childnode refid="4307" relation="include">
+        <childnode refid="4424" relation="include">
         </childnode>
-        <childnode refid="4322" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
-        <childnode refid="4327" relation="include">
+        <childnode refid="4444" relation="include">
         </childnode>
       </node>
-      <node id="4322">
+      <node id="4439">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.h</label>
         <link refid="db/d57/contributorieswidget_8h_source"/>
-        <childnode refid="4311" relation="include">
+        <childnode refid="4428" relation="include">
         </childnode>
       </node>
-      <node id="4338">
+      <node id="4455">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/userdatabasetest.h</label>
         <link refid="d6/d26/userdatabasetest_8h_source"/>
       </node>
-      <node id="4334">
+      <node id="4451">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</label>
         <link refid="db/de2/startedwindowsdialog_8h_source"/>
       </node>
-      <node id="4293">
+      <node id="4410">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/people.h</label>
         <link refid="people.h"/>
-        <childnode refid="4294" relation="include">
+        <childnode refid="4411" relation="include">
         </childnode>
-        <childnode refid="4332" relation="include">
+        <childnode refid="4449" relation="include">
         </childnode>
       </node>
-      <node id="4316">
+      <node id="4433">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/billingstablemodel.h</label>
         <link refid="da/dfc/billingstablemodel_8h_source"/>
-        <childnode refid="4310" relation="include">
+        <childnode refid="4427" relation="include">
         </childnode>
       </node>
-      <node id="4328">
+      <node id="4445">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/contributory.h</label>
         <link refid="d8/dee/contributory_8h_source"/>
-        <childnode refid="4307" relation="include">
+        <childnode refid="4424" relation="include">
         </childnode>
-        <childnode refid="4322" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
-        <childnode refid="4329" relation="include">
+        <childnode refid="4446" relation="include">
         </childnode>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
-        <childnode refid="4326" relation="include">
+        <childnode refid="4443" relation="include">
         </childnode>
-        <childnode refid="4330" relation="include">
+        <childnode refid="4447" relation="include">
         </childnode>
-        <childnode refid="4331" relation="include">
+        <childnode refid="4448" relation="include">
         </childnode>
       </node>
-      <node id="4330">
+      <node id="4447">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/contributoriesdatabasetest.h</label>
         <link refid="d7/d64/contributoriesdatabasetest_8h_source"/>
       </node>
-      <node id="4306">
+      <node id="4423">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h</label>
         <link refid="d9/dfd/projectdatabase_8h_source"/>
-        <childnode refid="4307" relation="include">
+        <childnode refid="4424" relation="include">
         </childnode>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
-        <childnode refid="4312" relation="include">
+        <childnode refid="4429" relation="include">
         </childnode>
       </node>
-      <node id="4301">
+      <node id="4418">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h</label>
         <link refid="d3/d2c/dialogaddcustomer_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
       </node>
-      <node id="4319">
+      <node id="4436">
         <label>/home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h</label>
         <link refid="d7/d49/itemtypetest_8h_source"/>
       </node>
-      <node id="4296">
+      <node id="4413">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
-        <childnode refid="4298" relation="include">
+        <childnode refid="4415" relation="include">
         </childnode>
       </node>
-      <node id="4321">
+      <node id="4438">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h</label>
         <link refid="d5/dfb/projectcombodelegate_8h_source"/>
-        <childnode refid="4322" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
       </node>
-      <node id="4295">
+      <node id="4412">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
         <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="4296" relation="include">
+        <childnode refid="4413" relation="include">
         </childnode>
-        <childnode refid="4299" relation="include">
+        <childnode refid="4416" relation="include">
         </childnode>
-        <childnode refid="4300" relation="include">
+        <childnode refid="4417" relation="include">
         </childnode>
       </node>
-      <node id="4331">
+      <node id="4448">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorymodeltest.h</label>
         <link refid="d0/d31/contributorymodeltest_8h_source"/>
       </node>
-      <node id="4305">
+      <node id="4422">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/project.h</label>
         <link refid="dc/d8d/project_8h_source"/>
-        <childnode refid="4306" relation="include">
+        <childnode refid="4423" relation="include">
         </childnode>
-        <childnode refid="4296" relation="include">
+        <childnode refid="4413" relation="include">
         </childnode>
-        <childnode refid="4321" relation="include">
+        <childnode refid="4438" relation="include">
         </childnode>
-        <childnode refid="4323" relation="include">
+        <childnode refid="4440" relation="include">
         </childnode>
-        <childnode refid="4324" relation="include">
+        <childnode refid="4441" relation="include">
         </childnode>
-        <childnode refid="4325" relation="include">
+        <childnode refid="4442" relation="include">
         </childnode>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
-        <childnode refid="4326" relation="include">
+        <childnode refid="4443" relation="include">
         </childnode>
-        <childnode refid="4328" relation="include">
+        <childnode refid="4445" relation="include">
         </childnode>
-        <childnode refid="4312" relation="include">
+        <childnode refid="4429" relation="include">
         </childnode>
-        <childnode refid="4332" relation="include">
+        <childnode refid="4449" relation="include">
         </childnode>
-        <childnode refid="4317" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="4318" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="4337" relation="include">
+        <childnode refid="4454" relation="include">
         </childnode>
-        <childnode refid="4338" relation="include">
+        <childnode refid="4455" relation="include">
         </childnode>
-        <childnode refid="4339" relation="include">
+        <childnode refid="4456" relation="include">
         </childnode>
       </node>
-      <node id="4303">
+      <node id="4420">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h</label>
         <link refid="da/d77/customerstablemodel_8h_source"/>
-        <childnode refid="4295" relation="include">
+        <childnode refid="4412" relation="include">
         </childnode>
-        <childnode refid="4304" relation="include">
+        <childnode refid="4421" relation="include">
         </childnode>
       </node>
-      <node id="4320">
+      <node id="4437">
         <label>/home/travis/build/FACT-Team/FactDev/tests/database/billingdatabasetest.h</label>
         <link refid="d9/d01/billingdatabasetest_8h_source"/>
       </node>
-      <node id="4327">
+      <node id="4444">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h</label>
         <link refid="dd/df0/contributorylisttest_8h_source"/>
       </node>
-      <node id="4324">
+      <node id="4441">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectcontributoriestablemodel.h</label>
         <link refid="d9/da7/projectcontributoriestablemodel_8h_source"/>
-        <childnode refid="4322" relation="include">
+        <childnode refid="4439" relation="include">
         </childnode>
       </node>
-      <node id="4311">
+      <node id="4428">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
         <link refid="de/dbc/addquotedialog_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
       </node>
-      <node id="4299">
+      <node id="4416">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
         <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
       </node>
-      <node id="4307">
+      <node id="4424">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h</label>
         <link refid="d2/deb/contributorydatabase_8h_source"/>
-        <childnode refid="4308" relation="include">
+        <childnode refid="4425" relation="include">
         </childnode>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
       </node>
-      <node id="4315">
+      <node id="4432">
         <label>/home/travis/build/FACT-Team/FactDev/src/generator/texgenerator.h</label>
         <link refid="d6/dc3/texgenerator_8h_source"/>
-        <childnode refid="4309" relation="include">
+        <childnode refid="4426" relation="include">
         </childnode>
       </node>
-      <node id="4336">
+      <node id="4453">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/usermodeltest.h</label>
         <link refid="da/d15/usermodeltest_8h_source"/>
       </node>
-      <node id="4300">
+      <node id="4417">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
         <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
-      <node id="4309">
+      <node id="4426">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/billing.h</label>
         <link refid="d4/dfe/billing_8h_source"/>
-        <childnode refid="4310" relation="include">
+        <childnode refid="4427" relation="include">
         </childnode>
-        <childnode refid="4295" relation="include">
+        <childnode refid="4412" relation="include">
         </childnode>
-        <childnode refid="4315" relation="include">
+        <childnode refid="4432" relation="include">
         </childnode>
-        <childnode refid="4311" relation="include">
+        <childnode refid="4428" relation="include">
         </childnode>
-        <childnode refid="4316" relation="include">
+        <childnode refid="4433" relation="include">
         </childnode>
-        <childnode refid="4317" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="4318" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="4320" relation="include">
+        <childnode refid="4437" relation="include">
         </childnode>
-        <childnode refid="4314" relation="include">
+        <childnode refid="4431" relation="include">
         </childnode>
       </node>
-      <node id="4317">
+      <node id="4434">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h</label>
         <link refid="de/d21/hierarchicalsystem_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
       </node>
-      <node id="4323">
+      <node id="4440">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h</label>
         <link refid="d1/dfa/ratewidget_8h_source"/>
       </node>
-      <node id="4294">
+      <node id="4411">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/customer.h</label>
         <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="4295" relation="include">
+        <childnode refid="4412" relation="include">
         </childnode>
-        <childnode refid="4296" relation="include">
+        <childnode refid="4413" relation="include">
         </childnode>
-        <childnode refid="4301" relation="include">
+        <childnode refid="4418" relation="include">
         </childnode>
-        <childnode refid="4302" relation="include">
+        <childnode refid="4419" relation="include">
         </childnode>
-        <childnode refid="4303" relation="include">
+        <childnode refid="4420" relation="include">
         </childnode>
-        <childnode refid="4305" relation="include">
+        <childnode refid="4422" relation="include">
         </childnode>
-        <childnode refid="4332" relation="include">
+        <childnode refid="4449" relation="include">
         </childnode>
-        <childnode refid="4317" relation="include">
+        <childnode refid="4434" relation="include">
         </childnode>
-        <childnode refid="4318" relation="include">
+        <childnode refid="4435" relation="include">
         </childnode>
-        <childnode refid="4340" relation="include">
+        <childnode refid="4457" relation="include">
         </childnode>
-        <childnode refid="4341" relation="include">
+        <childnode refid="4458" relation="include">
         </childnode>
       </node>
-      <node id="4298">
+      <node id="4415">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="4335">
+      <node id="4452">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h</label>
         <link refid="df/d22/userdatadialog_8h_source"/>
-        <childnode refid="4297" relation="include">
+        <childnode refid="4414" relation="include">
         </childnode>
       </node>
-      <node id="4302">
+      <node id="4419">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h</label>
         <link refid="db/de4/customerdatawidget_8h_source"/>
       </node>
-      <node id="4325">
+      <node id="4442">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h</label>
         <link refid="dc/d1a/projectstablemodel_8h_source"/>
-        <childnode refid="4306" relation="include">
+        <childnode refid="4423" relation="include">
         </childnode>
       </node>
-      <node id="4339">
+      <node id="4456">
         <label>/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.h</label>
         <link refid="d1/d63/projectmodeltest_8h_source"/>
       </node>
-      <node id="4333">
+      <node id="4450">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
         <link refid="d2/dbc/userdatabase_8h_source"/>
       </node>
-      <node id="4312">
+      <node id="4429">
         <label>/home/travis/build/FACT-Team/FactDev/src/models/statistics.h</label>
         <link refid="d7/dc5/statistics_8h_source"/>
-        <childnode refid="4308" relation="include">
+        <childnode refid="4425" relation="include">
         </childnode>
-        <childnode refid="4313" relation="include">
+        <childnode refid="4430" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -409,76 +427,92 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PEOPLE_H</highlight></codeline>
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PEOPLE_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
-<codeline lineno="9" refid="de/d0a/classModels_1_1People" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" kindref="member">People</ref>();</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" kindref="member">getFirstname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" kindref="member">setFirstname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;firstname);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" kindref="member">getLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" kindref="member">setLastname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;lastname);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1af4d0cf50ce941c262717b6f10b9d4b89" kindref="member">getCompany</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" kindref="member">setCompany</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;company);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a4d327556f59357912c54c14cf940151d" kindref="member">getAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" kindref="member">setAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;address);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a30999a844f67ddef254e2c2343df8946" kindref="member">getPostalCode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a89ea420d87ce7e32e8fc1b7a83616eaf" kindref="member">setPostalCode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;postalCode);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a478528b88890758e11887f9d48372680" kindref="member">getCity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ab19eae39212a096542ed8c24567f3ca9" kindref="member">setCity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;city);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a0df66681e0b8fcf099ad0a05863a8e13" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a3062f5f760ee85553b28b3ef1f15492a" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a183e3ac09f44e38b32d7ba72aef85757" kindref="member">getEmail</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" kindref="member">setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;email);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a4e30c7e027f2be5c8bc7813e37e12f94" kindref="member">getPhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1adea0f24c3438d7c65a6df522e3253863" kindref="member">setPhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;phone);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1aaf8d6ac89ea0ae0a1064503f3b9b6dbb" kindref="member">getMobilePhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" kindref="member">setMobilePhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;mobilePhone);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" kindref="member">getFax</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" kindref="member">setFax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;fax);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ac57d89dcc2a06aabdfb37694183d68f0" kindref="member">getAddressComplement</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kindref="member">setAddressComplement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;addressComplement);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a898d32c40d89376bd7e8373e2f07a056" kindref="member">getWebsite</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" kindref="member">setWebsite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;website);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref><sp/>&amp;c);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref><sp/>&amp;c);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_firstname;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_lastname;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_company;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_address;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_addressComplement;<sp/></highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_postalCode;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_city;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_email;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_phone;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_mobilePhone;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_fax;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_website;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPixmap&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/imodel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Models<sp/>{</highlight></codeline>
+<codeline lineno="12" refid="de/d0a/classModels_1_1People" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d9c/classModels_1_1IModel" kindref="compound">IModel</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" kindref="member">People</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" kindref="member">People</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" kindref="member">getFirstname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" kindref="member">setFirstname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;firstname);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" kindref="member">getLastname</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a550545199147a9947e5c66f9c154bf52" kindref="member">setLastname</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;lastname);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1af4d0cf50ce941c262717b6f10b9d4b89" kindref="member">getCompany</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1aded3f48b5afb01c78379c9a63c35d5c3" kindref="member">setCompany</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;company);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a4d327556f59357912c54c14cf940151d" kindref="member">getAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ab4e49bbc2de9ed31276e50e768c9bdee" kindref="member">setAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;address);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a30999a844f67ddef254e2c2343df8946" kindref="member">getPostalCode</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a89ea420d87ce7e32e8fc1b7a83616eaf" kindref="member">setPostalCode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;postalCode);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a478528b88890758e11887f9d48372680" kindref="member">getCity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ab19eae39212a096542ed8c24567f3ca9" kindref="member">setCity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;city);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a0df66681e0b8fcf099ad0a05863a8e13" kindref="member">getCountry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a3062f5f760ee85553b28b3ef1f15492a" kindref="member">setCountry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;country);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a183e3ac09f44e38b32d7ba72aef85757" kindref="member">getEmail</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a731376949fa1d08e87c7c6ab53f792ab" kindref="member">setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;email);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a4e30c7e027f2be5c8bc7813e37e12f94" kindref="member">getPhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1adea0f24c3438d7c65a6df522e3253863" kindref="member">setPhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;phone);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1aaf8d6ac89ea0ae0a1064503f3b9b6dbb" kindref="member">getMobilePhone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" kindref="member">setMobilePhone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;mobilePhone);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" kindref="member">getFax</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" kindref="member">setFax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;fax);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="de/d0a/classModels_1_1People_1a4bed6596966747975ba9a41b856cc1dc" kindref="member">getImage</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a020ff3cb4cd47b7a34359fb681afe530" kindref="member">setImage</ref>(QPixmap<sp/>*image);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1af5400c0b192a41310f6e7d641dbd253c" kindref="member">getExtensionImage</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1af410d9694818bc89bf1e63cd1bb57753" kindref="member">setExtensionImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;ext);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1ac57d89dcc2a06aabdfb37694183d68f0" kindref="member">getAddressComplement</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kindref="member">setAddressComplement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;addressComplement);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="de/d0a/classModels_1_1People_1a898d32c40d89376bd7e8373e2f07a056" kindref="member">getWebsite</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1acd66787d72c4b69a04d0ce228260b784" kindref="member">setWebsite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;website);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PEOPLE_H</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1a1c875989cffc3119ff1f263c7898bbdb" kindref="member">operator ==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People_1afcc4f66db1e1b1deefb849fffe82d616" kindref="member">operator !=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d0a/classModels_1_1People" kindref="compound">People</ref><sp/>&amp;c);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="215" refid="de/d0a/classModels_1_1People_1a8638e8e2640a02e1e75c383ddb5e49eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap*<sp/><ref refid="de/d0a/classModels_1_1People_1a8638e8e2640a02e1e75c383ddb5e49eb" kindref="member">_image</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_firstname;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_lastname;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_company;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_address;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_addressComplement;<sp/></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_postalCode;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_city;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_country;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_email;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_phone;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_mobilePhone;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_fax;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_extensionImage;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>_website;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PEOPLE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/models/people.h"/>
   </compounddef>

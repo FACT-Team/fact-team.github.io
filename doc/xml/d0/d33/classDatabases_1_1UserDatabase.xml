@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="20" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="21" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="24" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="5" bodyend="7"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="25" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="6" bodyend="8"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -50,7 +50,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="31" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="12" bodyend="18"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="32" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="13" bodyend="19"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="39" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="20" bodyend="60"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="40" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="21" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="d0/d33/classDatabases_1_1UserDatabase_1a79cd7ce66a5dc13f91a59eb106edd871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -96,7 +96,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="44" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="62" bodyend="100"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="45" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="65" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d33/classDatabases_1_1UserDatabase_1aed012bfd2499e0cb005d37ff6f432303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap</type>
+        <definition>QPixmap Databases::UserDatabase::getUserImage</definition>
+        <argsstring>(const int pId=1)</argsstring>
+        <name>getUserImage</name>
+        <param>
+          <type>const int</type>
+          <declname>pId</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d0/d33/classDatabases_1_1UserDatabase_1aed012bfd2499e0cb005d37ff6f432303" kindref="member">UserDatabase::getUserImage</ref> Return a User image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Customer id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>User image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="105" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d33/classDatabases_1_1UserDatabase_1a52db9bc3b67c0c70f162cc593d6985c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Databases::UserDatabase::setUserImage</definition>
+        <argsstring>(Models::User &amp;pUser)</argsstring>
+        <name>setUserImage</name>
+        <param>
+          <type><ref refid="df/d68/classModels_1_1User" kindref="compound">Models::User</ref> &amp;</type>
+          <declname>pUser</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="d0/d33/classDatabases_1_1UserDatabase_1a52db9bc3b67c0c70f162cc593d6985c2" kindref="member">UserDatabase::setUserImage</ref> Change the image of the customer <emphasis>pCustomer</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="59" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.cpp" bodystart="125" bodyend="145"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -106,33 +158,33 @@
 <simplesect kind="see"><para><ref refid="dd/db0/classDatabases_1_1Database" kindref="compound">Database</ref> </para><simplesectsep/><para>User </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="556">
+      <node id="565">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
       </node>
-      <node id="555">
+      <node id="564">
         <label>Databases::UserDatabase</label>
         <link refid="d0/d33/classDatabases_1_1UserDatabase"/>
-        <childnode refid="556" relation="public-inheritance">
+        <childnode refid="565" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="558">
+      <node id="567">
         <label>Databases::Database</label>
         <link refid="dd/db0/classDatabases_1_1Database"/>
-        <childnode refid="558" relation="usage">
+        <childnode refid="567" relation="usage">
           <edgelabel>#_instance</edgelabel>
         </childnode>
       </node>
-      <node id="557">
+      <node id="566">
         <label>Databases::UserDatabase</label>
         <link refid="d0/d33/classDatabases_1_1UserDatabase"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="567" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="18" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" bodystart="17" bodyend="46"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h" bodystart="18" bodyend="61"/>
     <listofallmembers>
       <member refid="dd/db0/classDatabases_1_1Database_1a3bf8253398401fac46f74be67181877a" prot="protected" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>_dbInstance</name></member>
       <member refid="d0/d33/classDatabases_1_1UserDatabase_1a9ad55fbf8df887332232e0e6adf0cfc7" prot="private" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>_instance</name></member>
@@ -146,6 +198,7 @@
       <member refid="dd/db0/classDatabases_1_1Database_1a2014dda2689bcdf325e8bce020a4b73c" prot="protected" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>Database</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a21f6c86f95b149ac7dbf0ffc94021a93" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>executeFile</name></member>
       <member refid="d0/d33/classDatabases_1_1UserDatabase_1a476a2b649cc61870a59d6f8df0b376e4" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>getUser</name></member>
+      <member refid="d0/d33/classDatabases_1_1UserDatabase_1aed012bfd2499e0cb005d37ff6f432303" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>getUserImage</name></member>
       <member refid="d0/d33/classDatabases_1_1UserDatabase_1ab845a9e43bb6b5c4c169e37185f0ae45" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>instance</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a3cf57f0af08ad3f4d588d59eafcadb56" prot="public" virt="non-virtual" ambiguityscope="Databases::Database::"><scope>Databases::UserDatabase</scope><name>instance</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1abdde0f6fbef7f4d7353acda867f01ca0" prot="protected" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>isOpen</name></member>
@@ -154,6 +207,7 @@
       <member refid="dd/db0/classDatabases_1_1Database_1a53c4c277c2fbd3532d2bcaa1d47aed40" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>open</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a64d55cd9452bbf2a6fd1693df004de59" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>openTransaction</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a88af2050b210c0d829d166f0f6d9e318" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>setDatabase</name></member>
+      <member refid="d0/d33/classDatabases_1_1UserDatabase_1a52db9bc3b67c0c70f162cc593d6985c2" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>setUserImage</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a5029595698d889af5089428071c6ecda" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>testCases</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a17b652086514e0a64d0e452a938ac7a5" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>updateBillingNumber</name></member>
       <member refid="d0/d33/classDatabases_1_1UserDatabase_1a79cd7ce66a5dc13f91a59eb106edd871" prot="public" virt="non-virtual"><scope>Databases::UserDatabase</scope><name>updateUser</name></member>

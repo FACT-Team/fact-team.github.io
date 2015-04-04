@@ -4,7 +4,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/tests/QTestRunner/testadder.cpp:11: warning: Compound TestAdder is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/customermodeltest.h:9: warning: Compound CustomerModelTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h:11: warning: Compound searchTest is not documented.
-/home/travis/build/FACT-Team/FactDev/src/utils/pointers.h:8: warning: Compound Utils::pointers is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.h:10: warning: Compound CustomerDatabaseTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/utils/itemtypetest.h:8: warning: Compound ItemTypeTest is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/database/projectdatabasetest.h:9: warning: Compound ProjectDatabaseTest is not documented.
@@ -65,8 +64,8 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:45: warning: The following parameters of Databases::ContributoryDatabase::getContributoriesByBilling(const int billingId) are not documented:
   parameter 'billingId'
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
-/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:22: warning: Found unknown command `\Oxynos'
-/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:125: warning: The following parameters of Databases::CustomerDatabase::updateCustomer(QSqlQuery &q, Customer &pCustomer) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:25: warning: Found unknown command `\Oxynos'
+/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:128: warning: The following parameters of Databases::CustomerDatabase::updateCustomer(QSqlQuery &q, Customer &pCustomer) are not documented:
   parameter 'pCustomer'
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: argument 'pNom' of command @param is not found in the argument list of Databases::Database::executeFile(QString pName)
@@ -94,6 +93,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.h:17: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:23: warning: The following parameters of Gui::Dialogs::StatisticsDialog::StatisticsDialog(bool global=true, int idCustomer=0, QWidget *parent=0) are not documented:
   parameter 'parent'
+/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h:50: warning: Member browseWorkspacePath() (function) of class Gui::Dialogs::UserDataDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b) are not documented:
@@ -167,6 +167,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/models/billing.h:36: warning: The following parameters of Models::Billing::Billing(int id) are not documented:
   parameter 'id'
 /home/travis/build/FACT-Team/FactDev/src/models/billing.h:119: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
+/home/travis/build/FACT-Team/FactDev/src/models/customer.h:30: warning: argument 'id' of command @param is not found in the argument list of Models::Customer::commit()
 /home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
 /home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
   parameter 'p'
@@ -206,7 +207,9 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h:61: warning: found </em> tag without matching <em>
 /home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h:59: warning: found </em> tag without matching <em>
 /home/travis/build/FACT-Team/FactDev/src/utils/hierarchicalsystem.h:59: warning: found </em> tag without matching <em>
-/home/travis/build/FACT-Team/FactDev/src/utils/pointers.h:10: warning: Member deleteIfNotNull(QObject *p) (function) of class Utils::pointers is not documented.
+/home/travis/build/FACT-Team/FactDev/src/utils/string.h:23: warning: argument 'file' of command @param is not found in the argument list of Utils::String::getExtensionFile(QString fileName)
+/home/travis/build/FACT-Team/FactDev/src/utils/string.h:23: warning: The following parameters of Utils::String::getExtensionFile(QString fileName) are not documented:
+  parameter 'fileName'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: argument 'edit' of command @param is not found in the argument list of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0)
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h:28: warning: The following parameters of Gui::Dialogs::AddQuoteDialog::AddQuoteDialog(bool isBilling, int idCustomer=0, int id=0, bool copy=false, QWidget *parent=0) are not documented:
   parameter 'copy'
@@ -262,9 +265,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:45: warning: The following parameters of Databases::ContributoryDatabase::getContributoriesByBilling(const int billingId) are not documented:
   parameter 'billingId'
 /home/travis/build/FACT-Team/FactDev/src/database/contributorydatabase.h:19: warning: Found unknown command `\Oxynos'
-/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:125: warning: The following parameters of Databases::CustomerDatabase::updateCustomer(QSqlQuery &q, Customer &pCustomer) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/customer.h:30: warning: argument 'id' of command @param is not found in the argument list of Models::Customer::commit()
+/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:128: warning: The following parameters of Databases::CustomerDatabase::updateCustomer(QSqlQuery &q, Customer &pCustomer) are not documented:
   parameter 'pCustomer'
-/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:22: warning: Found unknown command `\Oxynos'
+/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h:25: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h:75: warning: argument 'Customer' of command @param is not found in the argument list of Gui::Widgets::WdgModels::CustomersTableModel::append(const Customer &customer)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/customerstablemodel.h:75: warning: The following parameters of Gui::Widgets::WdgModels::CustomersTableModel::append(const Customer &customer) are not documented:
@@ -324,6 +328,9 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'searchInCompanies'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/statisticsdialog.h:23: warning: The following parameters of Gui::Dialogs::StatisticsDialog::StatisticsDialog(bool global=true, int idCustomer=0, QWidget *parent=0) are not documented:
   parameter 'parent'
+/home/travis/build/FACT-Team/FactDev/src/utils/string.h:23: warning: argument 'file' of command @param is not found in the argument list of Utils::String::getExtensionFile(QString fileName)
+/home/travis/build/FACT-Team/FactDev/src/utils/string.h:23: warning: The following parameters of Utils::String::getExtensionFile(QString fileName) are not documented:
+  parameter 'fileName'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:174: warning: explicit link request to 'section' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/textareadelegate.h:28: warning: The following parameters of Gui::Widgets::Delegates::TextareaDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const are not documented:
   parameter 'model'

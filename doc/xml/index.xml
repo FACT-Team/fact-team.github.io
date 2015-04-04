@@ -162,6 +162,18 @@
     <member refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel_1accfaef7c494d5c7f8be6b3248160d4b7" kind="function"><name>count</name></member>
     <member refid="dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel_1a9fd40a3339be5a1efbe621f6a1bb89aa" kind="function"><name>getBillings</name></member>
   </compound>
+  <compound refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget" kind="class"><name>Gui::Widgets::BrowseImageWidget</name>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a10a01ac8b50cd5e567b7c48e82581843" kind="variable"><name>ui</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3bb8f5b4fae9d3c900722ce3889e8199" kind="variable"><name>_img</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a1ee99765798bb877233ec6b8bef5cfef" kind="variable"><name>_extension</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a711ade1d937039ec0ec5de12245752e3" kind="function"><name>BrowseImageWidget</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1aeb3ded9b352c20c9841f7b97e0b6c291" kind="function"><name>~BrowseImageWidget</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3e7dcfb78974b9ef017f1ba7284648c6" kind="function"><name>setImageScaled</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a0c640aaf8c290b24098824339665045f" kind="function"><name>getImage</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a77255d36f24a1c41840f6cd0f99ed950" kind="function"><name>setImage</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1ab126e24395c6a273fd73ded05aa204a5" kind="function"><name>getExtension</name></member>
+    <member refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a5bde0525741081465b73c31b53c0cddf" kind="slot"><name>browseImagePath</name></member>
+  </compound>
   <compound refid="dc/d99/classModels_1_1Calculable" kind="class"><name>Models::Calculable</name>
     <member refid="dc/d99/classModels_1_1Calculable_1a5267ee09fc9284063a9fc874b4cc68dc" kind="function"><name>getPrice</name></member>
     <member refid="dc/d99/classModels_1_1Calculable_1a4f9d590b39bd1f0d9e026ac86f1fada1" kind="function"><name>getSumQuantity</name></member>
@@ -475,6 +487,8 @@
     <member refid="db/dd7/classModels_1_1Customer_1ac1aec0fb9058333e1a2496b1c29049af" kind="function"><name>getPath</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1ab7c63946125a6b8d876f0f4e2b50c97e" kind="function"><name>getNameFolder</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a193fb1920b53048d8a5f7c8e08581e69" kind="function"><name>getTurnover</name></member>
+    <member refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" kind="function"><name>getImage</name></member>
+    <member refid="db/dd7/classModels_1_1Customer_1ac164f9bd8221da51ce16a95e9a3890f0" kind="function"><name>setImage</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a1dfb958b33d0fcc9892fe902487be43d" kind="function"><name>isArchived</name></member>
     <member refid="db/dd7/classModels_1_1Customer_1a15ec2603da3dd66c9355a9604b5abded" kind="function"><name>setIsArchived</name></member>
   </compound>
@@ -500,6 +514,8 @@
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a641001509d0385000b5b831c134c78c4" kind="function"><name>getItemProject</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a23017b6db7808fa1d03e55e063418670" kind="function"><name>getCustomer</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aedb0c575bd9141547e4e084fd260beb7" kind="function"><name>updateCustomer</name></member>
+    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a72bdc84a12118a12030c3e3770a2ebf9" kind="function"><name>getCustomerImage</name></member>
+    <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aa06b3a548c5ac7fba9f21e1f21a3e6e2" kind="function"><name>setCustomerImage</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aecb30e5fc92b73a43fc99c799e8ba964" kind="function"><name>getCustomers</name></member>
     <member refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a4c7a82b1a53fc5fa7e6d6aaa3562342e" kind="function"><name>CustomerDatabase</name></member>
   </compound>
@@ -660,6 +676,13 @@
   <compound refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField" kind="class"><name>Gui::Widgets::CheckFields::ICheckField</name>
     <member refid="d7/d93/classGui_1_1Widgets_1_1CheckFields_1_1ICheckField_1a818700a4a8c95eacfc39b85c74e71144" kind="function"><name>check</name></member>
   </compound>
+  <compound refid="df/d81/classUtils_1_1Image" kind="class"><name>Utils::Image</name>
+    <member refid="df/d81/classUtils_1_1Image_1a9ce15d09b2071343d714c17aa31aa587" kind="function"><name>Image</name></member>
+    <member refid="df/d81/classUtils_1_1Image_1abbc5e8f3834a045d47e161e4ec366e6b" kind="function"><name>imageToBytes</name></member>
+    <member refid="df/d81/classUtils_1_1Image_1a2e182d6808450398f1c1bc6f6ed6e6a1" kind="function"><name>pixmapToBytes</name></member>
+    <member refid="df/d81/classUtils_1_1Image_1a46e214e9d7fabf71ecd7ff9c041c198a" kind="function"><name>pixmapToImage</name></member>
+    <member refid="df/d81/classUtils_1_1Image_1ad0726573f77f6af54d89908810feba4d" kind="function"><name>bytesToPixmap</name></member>
+  </compound>
   <compound refid="d0/d9c/classModels_1_1IModel" kind="class"><name>Models::IModel</name>
     <member refid="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" kind="variable"><name>_id</name></member>
     <member refid="d0/d9c/classModels_1_1IModel_1a8958f103202a45a8f77b86acebafe69c" kind="variable"><name>_toRemoved</name></member>
@@ -809,6 +832,7 @@
     <member refid="d9/d69/classGenerator_1_1PdfGenerator_1a2fcb924e15c201474e0071f81541b0ae" kind="function"><name>generate</name></member>
   </compound>
   <compound refid="de/d0a/classModels_1_1People" kind="class"><name>Models::People</name>
+    <member refid="de/d0a/classModels_1_1People_1a8638e8e2640a02e1e75c383ddb5e49eb" kind="variable"><name>_image</name></member>
     <member refid="de/d0a/classModels_1_1People_1a1d8f684ab3483f9deeec0a84e7597790" kind="variable"><name>_firstname</name></member>
     <member refid="de/d0a/classModels_1_1People_1a3669ff43631be1d15e50ffb3022a5832" kind="variable"><name>_lastname</name></member>
     <member refid="de/d0a/classModels_1_1People_1a9b3f54a70cead36527f62689c2f8aab1" kind="variable"><name>_company</name></member>
@@ -821,8 +845,11 @@
     <member refid="de/d0a/classModels_1_1People_1aa4abe2e00562a86043e08df87719e7cf" kind="variable"><name>_phone</name></member>
     <member refid="de/d0a/classModels_1_1People_1aed33f14dca3c2af18144280d44fed736" kind="variable"><name>_mobilePhone</name></member>
     <member refid="de/d0a/classModels_1_1People_1a189cf308450bf98ddd44d19e2938018f" kind="variable"><name>_fax</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a088ba3185deb0454e323d019ecdab5ee" kind="variable"><name>_extensionImage</name></member>
     <member refid="de/d0a/classModels_1_1People_1ae5b6b4f6d6abe6b6cdab4c73c2215fb5" kind="variable"><name>_website</name></member>
     <member refid="de/d0a/classModels_1_1People_1acdd7ec9d2f9815aeb230ca450cbcdbe3" kind="function"><name>People</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a7366f26d851a54946dc28ff48c1ae384" kind="function"><name>~People</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a0b260c5c0d9b0305fb6da820974a7aa8" kind="function"><name>People</name></member>
     <member refid="de/d0a/classModels_1_1People_1ae7f110985bb461d8be359a135ec3bc48" kind="function"><name>getFirstname</name></member>
     <member refid="de/d0a/classModels_1_1People_1a0bc1380b8c4bb29f59b09300edd1f354" kind="function"><name>setFirstname</name></member>
     <member refid="de/d0a/classModels_1_1People_1ae3e0992f5711b054a10bc50d8965be3c" kind="function"><name>getLastname</name></member>
@@ -845,6 +872,10 @@
     <member refid="de/d0a/classModels_1_1People_1a38e71d8991c2ef70f4f3f4b864913a58" kind="function"><name>setMobilePhone</name></member>
     <member refid="de/d0a/classModels_1_1People_1a30b8378d221c9f20a66797a526973be9" kind="function"><name>getFax</name></member>
     <member refid="de/d0a/classModels_1_1People_1adaa1a83318fd0a251cbcc4a93dc01096" kind="function"><name>setFax</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a4bed6596966747975ba9a41b856cc1dc" kind="function"><name>getImage</name></member>
+    <member refid="de/d0a/classModels_1_1People_1a020ff3cb4cd47b7a34359fb681afe530" kind="function"><name>setImage</name></member>
+    <member refid="de/d0a/classModels_1_1People_1af5400c0b192a41310f6e7d641dbd253c" kind="function"><name>getExtensionImage</name></member>
+    <member refid="de/d0a/classModels_1_1People_1af410d9694818bc89bf1e63cd1bb57753" kind="function"><name>setExtensionImage</name></member>
     <member refid="de/d0a/classModels_1_1People_1ac57d89dcc2a06aabdfb37694183d68f0" kind="function"><name>getAddressComplement</name></member>
     <member refid="de/d0a/classModels_1_1People_1ad8dd15780dad1af2ab2a436bab8c4b58" kind="function"><name>setAddressComplement</name></member>
     <member refid="de/d0a/classModels_1_1People_1a898d32c40d89376bd7e8373e2f07a056" kind="function"><name>getWebsite</name></member>
@@ -1192,6 +1223,7 @@
   </compound>
   <compound refid="dd/df6/classUtils_1_1String" kind="class"><name>Utils::String</name>
     <member refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kind="function"><name>firstLetterToUpper</name></member>
+    <member refid="dd/df6/classUtils_1_1String_1a6e5477352fbd3a4a0caed50bb14c0062" kind="function"><name>getExtensionFile</name></member>
   </compound>
   <compound refid="d1/d6b/classStringTest" kind="class"><name>StringTest</name>
     <member refid="d1/d6b/classStringTest_1ab129b71988ff2d1d23e45b99f9af949a" kind="function"><name>StringTest</name></member>
@@ -1218,12 +1250,12 @@
     <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" kind="variable"><name>escapeMode</name></member>
     <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" kind="function"><name>Tag</name></member>
   </compound>
-  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
-    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
-  </compound>
   <compound refid="d7/d26/classtestadder" kind="class"><name>testadder</name>
     <member refid="d7/d26/classtestadder_1a6c03fa78ee26c134f465ede23a82ee10" kind="function"><name>testadder</name></member>
     <member refid="d7/d26/classtestadder_1aa221c2d193ae74f3e15062d61dc2b782" kind="function"><name>~testadder</name></member>
+  </compound>
+  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
+    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
   </compound>
   <compound refid="de/d63/classTestMustache" kind="class"><name>TestMustache</name>
     <member refid="de/d63/classTestMustache_1a7d76f43b7da47c82c0ba6d6044bccf4a" kind="slot"><name>testContextLookup</name></member>
@@ -1303,6 +1335,8 @@
     <member refid="df/d68/classModels_1_1User_1a0fe65ebdee17c2986c874e480e1cb0bd" kind="function"><name>setTitle</name></member>
     <member refid="df/d68/classModels_1_1User_1a617ee9ede3791842fbf8593f08660d37" kind="function"><name>getNoSiret</name></member>
     <member refid="df/d68/classModels_1_1User_1ae751ee06859dffce0cad08005c42c933" kind="function"><name>setNoSiret</name></member>
+    <member refid="df/d68/classModels_1_1User_1a5cfe4bf41255daf93ac3a2488a858e00" kind="function"><name>getImage</name></member>
+    <member refid="df/d68/classModels_1_1User_1a3f717735993a5a73b5eeb84d64e0bc88" kind="function"><name>setImage</name></member>
     <member refid="df/d68/classModels_1_1User_1adf4c52429656a4f44c15d879caee5b10" kind="function"><name>getWorkspaceName</name></member>
     <member refid="df/d68/classModels_1_1User_1ae51aa34e41159fe7e4541a8cfddc50a3" kind="function"><name>setWorkspaceName</name></member>
     <member refid="df/d68/classModels_1_1User_1aa9421bda240316f9eebd0145f6dc3eda" kind="function"><name>getWorkspacePath</name></member>
@@ -1320,6 +1354,8 @@
     <member refid="d0/d33/classDatabases_1_1UserDatabase_1ab845a9e43bb6b5c4c169e37185f0ae45" kind="function"><name>instance</name></member>
     <member refid="d0/d33/classDatabases_1_1UserDatabase_1a476a2b649cc61870a59d6f8df0b376e4" kind="function"><name>getUser</name></member>
     <member refid="d0/d33/classDatabases_1_1UserDatabase_1a79cd7ce66a5dc13f91a59eb106edd871" kind="function"><name>updateUser</name></member>
+    <member refid="d0/d33/classDatabases_1_1UserDatabase_1aed012bfd2499e0cb005d37ff6f432303" kind="function"><name>getUserImage</name></member>
+    <member refid="d0/d33/classDatabases_1_1UserDatabase_1a52db9bc3b67c0c70f162cc593d6985c2" kind="function"><name>setUserImage</name></member>
   </compound>
   <compound refid="d7/dc1/classUserDatabaseTest" kind="class"><name>UserDatabaseTest</name>
     <member refid="d7/dc1/classUserDatabaseTest_1a75df17ec5c64f6a9dbdfb1ba68666ea4" kind="function"><name>UserDatabaseTest</name></member>
@@ -1335,6 +1371,7 @@
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1ae1a17e6547a30b03ba2c837ba0b28455" kind="function"><name>fillFields</name></member>
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a2d3841c471d0ddfd58610d3667d8521a" kind="function"><name>accept</name></member>
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a919f59546670019bb4e72fcd0c7ea841" kind="function"><name>reject</name></member>
+    <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a7516a1eb19fa88dc405c085cefa6a3b6" kind="function"><name>browseWorkspacePath</name></member>
     <member refid="d3/d81/classGui_1_1Dialogs_1_1UserDataDialog_1a9ab536a7485460c905a8f17be8939f38" kind="slot"><name>checkFields</name></member>
   </compound>
   <compound refid="de/d37/classUserModelTest" kind="class"><name>UserModelTest</name>
@@ -1347,6 +1384,12 @@
     <member refid="de/d37/classUserModelTest_1ad0869610fca9936d02e98d2c9617c4cd" kind="slot"><name>commitUpdate</name></member>
     <member refid="de/d37/classUserModelTest_1a73aa5e94adb1f17266e50b73c8f0d9aa" kind="slot"><name>hydrat</name></member>
     <member refid="de/d37/classUserModelTest_1a82c4e0439a877d42fa9c9824dec2f2ec" kind="slot"><name>commitRemove</name></member>
+  </compound>
+  <compound refid="dd/d2d/classWindowSettings" kind="class"><name>WindowSettings</name>
+    <member refid="dd/d2d/classWindowSettings_1a0e207ef630ccd1400f7066920b156fdf" kind="function"><name>WindowSettings</name></member>
+    <member refid="dd/d2d/classWindowSettings_1a554483497afe339732be8262d8a8ebb9" kind="function"><name>~WindowSettings</name></member>
+    <member refid="dd/d2d/classWindowSettings_1a4985100cde7abffff80d6675be2a6fd7" kind="function"><name>setMaximumSize</name></member>
+    <member refid="dd/d2d/classWindowSettings_1a30daec5f15eb722511dfb28333fdcef1" kind="function"><name>setPositionToCenter</name></member>
   </compound>
   <compound refid="df/d31/namespaceDatabases" kind="namespace"><name>Databases</name>
     <member refid="df/d31/namespaceDatabases_1a14c001ecdc0847befdbd6ea2d49730be" kind="enum"><name>DbType</name></member>
@@ -1478,6 +1521,10 @@
   <compound refid="d8/dd9/mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
   </compound>
   <compound refid="d9/d53/mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="d0/d7a/browseimagewidget_8cpp" kind="file"><name>browseimagewidget.cpp</name>
+  </compound>
+  <compound refid="df/d76/browseimagewidget_8h" kind="file"><name>browseimagewidget.h</name>
   </compound>
   <compound refid="d4/d65/checkcity_8cpp" kind="file"><name>checkcity.cpp</name>
   </compound>
@@ -1736,6 +1783,10 @@
   </compound>
   <compound refid="de/d21/hierarchicalsystem_8h" kind="file"><name>hierarchicalsystem.h</name>
   </compound>
+  <compound refid="db/d11/image_8cpp" kind="file"><name>image.cpp</name>
+  </compound>
+  <compound refid="d5/db2/image_8h" kind="file"><name>image.h</name>
+  </compound>
   <compound refid="da/d15/itemtype_8cpp" kind="file"><name>itemtype.cpp</name>
   </compound>
   <compound refid="db/d31/itemtype_8h" kind="file"><name>itemtype.h</name>
@@ -1751,6 +1802,10 @@
   <compound refid="d5/d24/string_8cpp" kind="file"><name>string.cpp</name>
   </compound>
   <compound refid="da/d66/string_8h" kind="file"><name>string.h</name>
+  </compound>
+  <compound refid="d2/d78/windowsettings_8cpp" kind="file"><name>windowsettings.cpp</name>
+  </compound>
+  <compound refid="d4/d33/windowsettings_8h" kind="file"><name>windowsettings.h</name>
   </compound>
   <compound refid="d9/df4/billingdatabasetest_8cpp" kind="file"><name>billingdatabasetest.cpp</name>
   </compound>

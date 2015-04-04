@@ -4,9 +4,8 @@
     <compoundname>Models::IModel</compoundname>
     <derivedcompoundref refid="d4/d5c/classModels_1_1Billing" prot="public" virt="non-virtual">Models::Billing</derivedcompoundref>
     <derivedcompoundref refid="d5/dd1/classModels_1_1Contributory" prot="public" virt="non-virtual">Models::Contributory</derivedcompoundref>
-    <derivedcompoundref refid="db/dd7/classModels_1_1Customer" prot="public" virt="non-virtual">Models::Customer</derivedcompoundref>
+    <derivedcompoundref refid="de/d0a/classModels_1_1People" prot="public" virt="non-virtual">Models::People</derivedcompoundref>
     <derivedcompoundref refid="dd/d3f/classModels_1_1Project" prot="public" virt="non-virtual">Models::Project</derivedcompoundref>
-    <derivedcompoundref refid="df/d68/classModels_1_1User" prot="public" virt="non-virtual">Models::User</derivedcompoundref>
     <includes refid="df/d78/imodel_8h" local="no">imodel.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="d0/d9c/classModels_1_1IModel_1ab4fc86e436edeb4875580c4cd9feeb25" prot="protected" static="no" mutable="no">
@@ -220,43 +219,49 @@
 <para><simplesect kind="author"><para>Antoine de Roquemaurel </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="384">
+      <node id="390">
         <label>Models::Billing</label>
         <link refid="d4/d5c/classModels_1_1Billing"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="388">
+      <node id="394">
         <label>Models::User</label>
         <link refid="df/d68/classModels_1_1User"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="392" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="385">
+      <node id="391">
         <label>Models::Contributory</label>
         <link refid="d5/dd1/classModels_1_1Contributory"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="386">
+      <node id="393">
         <label>Models::Customer</label>
         <link refid="db/dd7/classModels_1_1Customer"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="392" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="387">
+      <node id="395">
         <label>Models::Project</label>
         <link refid="dd/d3f/classModels_1_1Project"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="383">
+      <node id="389">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>
+      <node id="392">
+        <label>Models::People</label>
+        <link refid="de/d0a/classModels_1_1People"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+      </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="389">
+      <node id="396">
         <label>Models::IModel</label>
         <link refid="d0/d9c/classModels_1_1IModel"/>
       </node>

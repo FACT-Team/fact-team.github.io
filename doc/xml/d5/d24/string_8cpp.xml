@@ -3,20 +3,26 @@
   <compounddef id="d5/d24/string_8cpp" kind="file">
     <compoundname>string.cpp</compoundname>
     <includes refid="da/d66/string_8h" local="yes">string.h</includes>
+    <includes local="no">QDebug</includes>
     <incdepgraph>
-      <node id="5318">
+      <node id="5465">
         <label>string.h</label>
         <link refid="da/d66/string_8h_source"/>
-        <childnode refid="5319" relation="include">
+        <childnode refid="5466" relation="include">
         </childnode>
       </node>
-      <node id="5317">
+      <node id="5464">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/string.cpp</label>
         <link refid="string.cpp"/>
-        <childnode refid="5318" relation="include">
+        <childnode refid="5465" relation="include">
+        </childnode>
+        <childnode refid="5467" relation="include">
         </childnode>
       </node>
-      <node id="5319">
+      <node id="5467">
+        <label>QDebug</label>
+      </node>
+      <node id="5466">
         <label>QString</label>
       </node>
     </incdepgraph>
@@ -27,13 +33,19 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal">QString<sp/><ref refid="dd/df6/classUtils_1_1String_1a9ccf44a6e09a1391001304570ba615a3" kindref="member">String::firstLetterToUpper</ref>(QString<sp/>s)</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s.replace(0,<sp/>1,<sp/>s[0].toUpper());</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">QString<sp/><ref refid="dd/df6/classUtils_1_1String_1a6e5477352fbd3a4a0caed50bb14c0062" kindref="member">String::getExtensionFile</ref>(QString<sp/>fileName)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>list<sp/>=<sp/>fileName.split(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>list.at(list.size()-1);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/utils/string.cpp"/>
   </compounddef>

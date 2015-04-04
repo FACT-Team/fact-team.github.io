@@ -23,7 +23,11 @@ Inheritance diagram for Databases\-:\-:User\-Database\-:\begin{figure}[H]
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1UserDatabase_a476a2b649cc61870a59d6f8df0b376e4}{User\-Database\-::get\-User} Get informations about the user (identified by 'p\-Id') \end{DoxyCompactList}\item 
 \hypertarget{classDatabases_1_1UserDatabase_a79cd7ce66a5dc13f91a59eb106edd871}{void \hyperlink{classDatabases_1_1UserDatabase_a79cd7ce66a5dc13f91a59eb106edd871}{update\-User} (const \hyperlink{classModels_1_1User}{Models\-::\-User} \&)}\label{classDatabases_1_1UserDatabase_a79cd7ce66a5dc13f91a59eb106edd871}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1UserDatabase_a79cd7ce66a5dc13f91a59eb106edd871}{User\-Database\-::update\-User} Update informations about the user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1UserDatabase_a79cd7ce66a5dc13f91a59eb106edd871}{User\-Database\-::update\-User} Update informations about the user. \end{DoxyCompactList}\item 
+Q\-Pixmap \hyperlink{classDatabases_1_1UserDatabase_aed012bfd2499e0cb005d37ff6f432303}{get\-User\-Image} (const int p\-Id=1)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1UserDatabase_aed012bfd2499e0cb005d37ff6f432303}{User\-Database\-::get\-User\-Image} Return a User image. \end{DoxyCompactList}\item 
+void \hyperlink{classDatabases_1_1UserDatabase_a52db9bc3b67c0c70f162cc593d6985c2}{set\-User\-Image} (\hyperlink{classModels_1_1User}{Models\-::\-User} \&p\-User)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1UserDatabase_a52db9bc3b67c0c70f162cc593d6985c2}{User\-Database\-::set\-User\-Image} Change the image of the customer {\itshape p\-Customer} \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -65,6 +69,25 @@ User
 \begin{DoxyReturn}{Returns}
 the user 
 \end{DoxyReturn}
+\hypertarget{classDatabases_1_1UserDatabase_aed012bfd2499e0cb005d37ff6f432303}{\index{Databases\-::\-User\-Database@{Databases\-::\-User\-Database}!get\-User\-Image@{get\-User\-Image}}
+\index{get\-User\-Image@{get\-User\-Image}!Databases::UserDatabase@{Databases\-::\-User\-Database}}
+\subsubsection[{get\-User\-Image}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Databases\-::\-User\-Database\-::get\-User\-Image (
+\begin{DoxyParamCaption}
+\item[{const int}]{p\-Id = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1UserDatabase_aed012bfd2499e0cb005d37ff6f432303}
+
+
+\hyperlink{classDatabases_1_1UserDatabase_aed012bfd2499e0cb005d37ff6f432303}{User\-Database\-::get\-User\-Image} Return a User image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Id} & Customer id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User image 
+\end{DoxyReturn}
 \hypertarget{classDatabases_1_1UserDatabase_ab845a9e43bb6b5c4c169e37185f0ae45}{\index{Databases\-::\-User\-Database@{Databases\-::\-User\-Database}!instance@{instance}}
 \index{instance@{instance}!Databases::UserDatabase@{Databases\-::\-User\-Database}}
 \subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf User\-Database} $\ast$ Databases\-::\-User\-Database\-::instance (
@@ -79,6 +102,22 @@ User\-Database\-::get\-Instance Return an instance of \hyperlink{classDatabases_
 \begin{DoxyReturn}{Returns}
 Instance of \hyperlink{classDatabases_1_1UserDatabase}{User\-Database} 
 \end{DoxyReturn}
+\hypertarget{classDatabases_1_1UserDatabase_a52db9bc3b67c0c70f162cc593d6985c2}{\index{Databases\-::\-User\-Database@{Databases\-::\-User\-Database}!set\-User\-Image@{set\-User\-Image}}
+\index{set\-User\-Image@{set\-User\-Image}!Databases::UserDatabase@{Databases\-::\-User\-Database}}
+\subsubsection[{set\-User\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void Databases\-::\-User\-Database\-::set\-User\-Image (
+\begin{DoxyParamCaption}
+\item[{{\bf Models\-::\-User} \&}]{p\-User}
+\end{DoxyParamCaption}
+)}}\label{classDatabases_1_1UserDatabase_a52db9bc3b67c0c70f162cc593d6985c2}
+
+
+\hyperlink{classDatabases_1_1UserDatabase_a52db9bc3b67c0c70f162cc593d6985c2}{User\-Database\-::set\-User\-Image} Change the image of the customer {\itshape p\-Customer} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-User} & User \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}

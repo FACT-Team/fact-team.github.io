@@ -4,58 +4,58 @@
     <compoundname>pointerstest.cpp</compoundname>
     <includes refid="d7/d84/pointerstest_8h" local="yes">pointerstest.h</includes>
     <incdepgraph>
-      <node id="6902">
+      <node id="7097">
         <label>list</label>
       </node>
-      <node id="6897">
+      <node id="7092">
         <label>QObject</label>
       </node>
-      <node id="6900">
+      <node id="7095">
         <label>QSharedPointer</label>
       </node>
-      <node id="6896">
+      <node id="7091">
         <label>pointerstest.h</label>
         <link refid="d7/d84/pointerstest_8h_source"/>
-        <childnode refid="6897" relation="include">
+        <childnode refid="7092" relation="include">
         </childnode>
-        <childnode refid="6898" relation="include">
+        <childnode refid="7093" relation="include">
         </childnode>
-        <childnode refid="6904" relation="include">
+        <childnode refid="7099" relation="include">
         </childnode>
       </node>
-      <node id="6895">
+      <node id="7090">
         <label>/home/travis/build/FACT-Team/FactDev/tests/utils/pointerstest.cpp</label>
         <link refid="pointerstest.cpp"/>
-        <childnode refid="6896" relation="include">
+        <childnode refid="7091" relation="include">
         </childnode>
       </node>
-      <node id="6904">
+      <node id="7099">
         <label>utils/pointers.h</label>
         <link refid="d5/d57/pointers_8h_source"/>
-        <childnode refid="6897" relation="include">
+        <childnode refid="7092" relation="include">
         </childnode>
       </node>
-      <node id="6899">
+      <node id="7094">
         <label>QTest</label>
       </node>
-      <node id="6903">
+      <node id="7098">
         <label>iostream</label>
       </node>
-      <node id="6898">
+      <node id="7093">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="6899" relation="include">
+        <childnode refid="7094" relation="include">
         </childnode>
-        <childnode refid="6900" relation="include">
+        <childnode refid="7095" relation="include">
         </childnode>
-        <childnode refid="6901" relation="include">
+        <childnode refid="7096" relation="include">
         </childnode>
-        <childnode refid="6902" relation="include">
+        <childnode refid="7097" relation="include">
         </childnode>
-        <childnode refid="6903" relation="include">
+        <childnode refid="7098" relation="include">
         </childnode>
       </node>
-      <node id="6901">
+      <node id="7096">
         <label>algorithm</label>
       </node>
     </incdepgraph>
@@ -68,11 +68,11 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PointersTest::deleteIfNotNullTest()<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>QObject*<sp/>test<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QObject;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>Utils::pointers::deleteIfNotNull(test);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">Utils::pointers::deleteIfNotNull</ref>(test);</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>test<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>Utils::pointers::deleteIfNotNull(test);</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>Utils::pointers::deleteIfNotNull(test);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>Utils::pointers::deleteIfNotNull(test);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">Utils::pointers::deleteIfNotNull</ref>(test);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">Utils::pointers::deleteIfNotNull</ref>(test);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">Utils::pointers::deleteIfNotNull</ref>(test);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/utils/pointerstest.cpp"/>

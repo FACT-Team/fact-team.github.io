@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d78/windowsettings_8cpp" kind="file">
+    <compoundname>windowsettings.cpp</compoundname>
+    <includes refid="d4/d33/windowsettings_8h" local="yes">windowsettings.h</includes>
+    <incdepgraph>
+      <node id="5495">
+        <label>/home/travis/build/FACT-Team/FactDev/src/utils/windowsettings.cpp</label>
+        <link refid="windowsettings.cpp"/>
+        <childnode refid="5496" relation="include">
+        </childnode>
+      </node>
+      <node id="5497">
+        <label>QDesktopWidget</label>
+      </node>
+      <node id="5496">
+        <label>windowsettings.h</label>
+        <link refid="d4/d33/windowsettings_8h_source"/>
+        <childnode refid="5497" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;windowsettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="dd/d2d/classWindowSettings_1a0e207ef630ccd1400f7066920b156fdf" kindref="member">WindowSettings::WindowSettings</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">WindowSettings::~WindowSettings()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d2d/classWindowSettings_1a4985100cde7abffff80d6675be2a6fd7" kindref="member">WindowSettings::setMaximumSize</ref>(QWidget<sp/>&amp;w)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QDesktopWidget<sp/>screen;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>w.setMaximumSize(screen.width(),<sp/>screen.height());</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d2d/classWindowSettings_1a30daec5f15eb722511dfb28333fdcef1" kindref="member">WindowSettings::setPositionToCenter</ref>(QWidget<sp/>&amp;w)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QDesktopWidget<sp/>desktopScreen;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>QRect<sp/>surface<sp/>=<sp/>desktopScreen.screenGeometry();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>surface.width()/2<sp/>-<sp/>w.width()/2;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>surface.height()/2<sp/>-<sp/>w.height()/2;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>w.move(x,y);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/utils/windowsettings.cpp"/>
+  </compounddef>
+</doxygen>

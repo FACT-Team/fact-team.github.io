@@ -4,19 +4,19 @@
     <compoundname>pointers.cpp</compoundname>
     <includes refid="d5/d57/pointers_8h" local="yes">pointers.h</includes>
     <incdepgraph>
-      <node id="5308">
+      <node id="5455">
         <label>QObject</label>
       </node>
-      <node id="5306">
+      <node id="5453">
         <label>/home/travis/build/FACT-Team/FactDev/src/utils/pointers.cpp</label>
         <link refid="pointers.cpp"/>
-        <childnode refid="5307" relation="include">
+        <childnode refid="5454" relation="include">
         </childnode>
       </node>
-      <node id="5307">
+      <node id="5454">
         <label>pointers.h</label>
         <link refid="d5/d57/pointers_8h_source"/>
-        <childnode refid="5308" relation="include">
+        <childnode refid="5455" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -30,7 +30,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Utils<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>pointers::deleteIfNotNull(QObject<sp/>*p)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d7a/classUtils_1_1pointers_1ad9a69267f8f8fff8a092fcee8a3d49ac" kindref="member">pointers::deleteIfNotNull</ref>(QObject<sp/>*p)</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(p<sp/>!=<sp/>NULL)<sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>p;</highlight></codeline>

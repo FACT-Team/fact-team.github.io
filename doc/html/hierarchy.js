@@ -49,12 +49,15 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "Utils::Image", "df/d81/classUtils_1_1Image.html", null ],
     [ "Models::IModel", "d0/d9c/classModels_1_1IModel.html", [
       [ "Models::Billing", "d4/d5c/classModels_1_1Billing.html", null ],
       [ "Models::Contributory", "d5/dd1/classModels_1_1Contributory.html", null ],
-      [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
-      [ "Models::Project", "dd/d3f/classModels_1_1Project.html", null ],
-      [ "Models::User", "df/d68/classModels_1_1User.html", null ]
+      [ "Models::People", "de/d0a/classModels_1_1People.html", [
+        [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
+        [ "Models::User", "df/d68/classModels_1_1User.html", null ]
+      ] ],
+      [ "Models::Project", "dd/d3f/classModels_1_1Project.html", null ]
     ] ],
     [ "Utils::ItemType", "d5/d7c/classUtils_1_1ItemType.html", null ],
     [ "Utils::Log", "db/db3/classUtils_1_1Log.html", null ],
@@ -64,10 +67,6 @@ var hierarchy =
       [ "Mustache::PartialMap", "dc/d1a/classMustache_1_1PartialMap.html", null ]
     ] ],
     [ "Generator::PdfGenerator", "d9/d69/classGenerator_1_1PdfGenerator.html", null ],
-    [ "Models::People", "de/d0a/classModels_1_1People.html", [
-      [ "Models::Customer", "db/dd7/classModels_1_1Customer.html", null ],
-      [ "Models::User", "df/d68/classModels_1_1User.html", null ]
-    ] ],
     [ "Utils::pointers", "d4/d7a/classUtils_1_1pointers.html", null ],
     [ "Gui::Widgets::Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", null ],
     [ "QAbstractTableModel", null, [
@@ -134,6 +133,7 @@ var hierarchy =
     ] ],
     [ "QWidget", null, [
       [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", null ],
+      [ "Gui::Widgets::BrowseImageWidget", "d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget.html", null ],
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
@@ -152,9 +152,10 @@ var hierarchy =
     [ "Models::Statistics", "db/d92/classModels_1_1Statistics.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "testadder", "d7/d26/classtestadder.html", null ],
+    [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ],
-    [ "Models::Unit", "dc/d11/classModels_1_1Unit.html", null ]
+    [ "Models::Unit", "dc/d11/classModels_1_1Unit.html", null ],
+    [ "WindowSettings", "dd/d2d/classWindowSettings.html", null ]
 ];
