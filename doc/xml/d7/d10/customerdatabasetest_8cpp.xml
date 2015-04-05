@@ -721,6 +721,16 @@
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CustomerDatabaseTest::imageTest()<sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;:/icons/FactDev&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="db/dd7/classModels_1_1Customer_1ac164f9bd8221da51ce16a95e9a3890f0" kindref="member">setImage</ref>(p);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>c1.<ref refid="de/d0a/classModels_1_1People_1af410d9694818bc89bf1e63cd1bb57753" kindref="member">setExtensionImage</ref>(</highlight><highlight class="stringliteral">&quot;PNG&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" kindref="member">Databases::CustomerDatabase::instance</ref>()-&gt;getCustomerImage(c1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>()).toImage()<sp/>==<sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;:/icons/customer&quot;</highlight><highlight class="normal">).toImage());</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" kindref="member">Databases::CustomerDatabase::instance</ref>()-&gt;<ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1aa06b3a548c5ac7fba9f21e1f21a3e6e2" kindref="member">setCustomerImage</ref>(c1);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c1.<ref refid="db/dd7/classModels_1_1Customer_1ab7a4630fa60070dafb42031873c47251" kindref="member">getImage</ref>()-&gt;toImage()<sp/>==<sp/>p-&gt;toImage());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="d8/d7e/classDatabases_1_1CustomerDatabase_1a564b9978741e84e75d7e20003f7bf515" kindref="member">Databases::CustomerDatabase::instance</ref>()-&gt;getCustomerImage(c1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>()).toImage()<sp/>==<sp/>p-&gt;toImage());</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/database/customerdatabasetest.cpp"/>
   </compounddef>
