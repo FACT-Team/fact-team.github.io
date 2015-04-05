@@ -6,37 +6,59 @@
     <includes local="no">QFileDialog</includes>
     <includes local="no">QStandardPaths</includes>
     <includes refid="da/d66/string_8h" local="yes">utils/string.h</includes>
+    <includes refid="d0/d78/chosefilewidget_8h" local="yes">gui/widgets/path/chosefilewidget.h</includes>
     <includedby refid="d0/d7a/browseimagewidget_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/browseimagewidget.cpp</includedby>
     <incdepgraph>
-      <node id="2095">
+      <node id="2098">
         <label>QStandardPaths</label>
       </node>
-      <node id="2092">
+      <node id="2095">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/browseimagewidget.h</label>
         <link refid="browseimagewidget.h"/>
-        <childnode refid="2093" relation="include">
-        </childnode>
-        <childnode refid="2094" relation="include">
-        </childnode>
-        <childnode refid="2095" relation="include">
-        </childnode>
         <childnode refid="2096" relation="include">
         </childnode>
-      </node>
-      <node id="2096">
-        <label>utils/string.h</label>
-        <link refid="da/d66/string_8h_source"/>
         <childnode refid="2097" relation="include">
         </childnode>
+        <childnode refid="2098" relation="include">
+        </childnode>
+        <childnode refid="2099" relation="include">
+        </childnode>
+        <childnode refid="2101" relation="include">
+        </childnode>
       </node>
-      <node id="2094">
-        <label>QFileDialog</label>
+      <node id="2101">
+        <label>gui/widgets/path/chosefilewidget.h</label>
+        <link refid="d0/d78/chosefilewidget_8h_source"/>
+        <childnode refid="2097" relation="include">
+        </childnode>
+        <childnode refid="2102" relation="include">
+        </childnode>
       </node>
-      <node id="2093">
-        <label>QWidget</label>
+      <node id="2099">
+        <label>utils/string.h</label>
+        <link refid="da/d66/string_8h_source"/>
+        <childnode refid="2100" relation="include">
+        </childnode>
       </node>
       <node id="2097">
+        <label>QFileDialog</label>
+      </node>
+      <node id="2096">
+        <label>QWidget</label>
+      </node>
+      <node id="2100">
         <label>QString</label>
+      </node>
+      <node id="2102">
+        <label>chosepathwidget.h</label>
+        <link refid="df/d7a/chosepathwidget_8h_source"/>
+        <childnode refid="2096" relation="include">
+        </childnode>
+        <childnode refid="2103" relation="include">
+        </childnode>
+      </node>
+      <node id="2103">
+        <label>QDir</label>
       </node>
     </incdepgraph>
     <innerclass refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget" prot="public">Gui::Widgets::BrowseImageWidget</innerclass>
@@ -55,7 +77,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFileDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardPaths&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gui/widgets/path/chosefilewidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Ui<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BrowseImageWidget;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>

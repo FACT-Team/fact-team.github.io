@@ -20,6 +20,16 @@
         </childnode>
         <childnode refid="2087" relation="include">
         </childnode>
+        <childnode refid="2089" relation="include">
+        </childnode>
+      </node>
+      <node id="2089">
+        <label>gui/widgets/path/chosefilewidget.h</label>
+        <link refid="d0/d78/chosefilewidget_8h_source"/>
+        <childnode refid="2085" relation="include">
+        </childnode>
+        <childnode refid="2090" relation="include">
+        </childnode>
       </node>
       <node id="2087">
         <label>utils/string.h</label>
@@ -32,15 +42,15 @@
         <link refid="browseimagewidget.cpp"/>
         <childnode refid="2083" relation="include">
         </childnode>
-        <childnode refid="2089" relation="include">
+        <childnode refid="2092" relation="include">
         </childnode>
-        <childnode refid="2090" relation="include">
+        <childnode refid="2093" relation="include">
         </childnode>
       </node>
       <node id="2085">
         <label>QFileDialog</label>
       </node>
-      <node id="2090">
+      <node id="2093">
         <label>QDebug</label>
       </node>
       <node id="2084">
@@ -49,8 +59,19 @@
       <node id="2088">
         <label>QString</label>
       </node>
-      <node id="2089">
+      <node id="2092">
         <label>ui_browseimagewidget.h</label>
+      </node>
+      <node id="2090">
+        <label>chosepathwidget.h</label>
+        <link refid="df/d7a/chosepathwidget_8h_source"/>
+        <childnode refid="2084" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+      </node>
+      <node id="2091">
+        <label>QDir</label>
       </node>
     </incdepgraph>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
@@ -72,50 +93,46 @@
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">BrowseImageWidget::~BrowseImageWidget()</highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3e7dcfb78974b9ef017f1ba7284648c6" kindref="member">BrowseImageWidget::setImageScaled</ref>(QString<sp/>path,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>_img-&gt;load(path);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>_img-&gt;scaled(width,height,Qt::KeepAspectRatio);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">QPixmap*<sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a0c640aaf8c290b24098824339665045f" kindref="member">BrowseImageWidget::getImage</ref>()</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_img;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a77255d36f24a1c41840f6cd0f99ed950" kindref="member">BrowseImageWidget::setImage</ref>(QPixmap<sp/>*img)</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>_img<sp/>=<sp/>img;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbIcon-&gt;setPixmap(*_img);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>((<ref refid="da/d61/classGui_1_1Widgets_1_1Path_1_1ChoseFileWidget" kindref="compound">Gui::Widgets::Path::ChoseFileWidget</ref>*)ui-&gt;widget)-&gt;setTypeFiles(</highlight><highlight class="stringliteral">&quot;Images<sp/>(*.png<sp/>*.xpm<sp/>*.jpg)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">BrowseImageWidget::~BrowseImageWidget()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3e7dcfb78974b9ef017f1ba7284648c6" kindref="member">BrowseImageWidget::setImageScaled</ref>(QString<sp/>path,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>_img-&gt;load(path);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>_img-&gt;scaled(width,height,Qt::KeepAspectRatio);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QPixmap*<sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a0c640aaf8c290b24098824339665045f" kindref="member">BrowseImageWidget::getImage</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_img;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a77255d36f24a1c41840f6cd0f99ed950" kindref="member">BrowseImageWidget::setImage</ref>(QPixmap<sp/>*img)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>_img<sp/>=<sp/>img;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbIcon-&gt;setPixmap(*_img);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a5bde0525741081465b73c31b53c0cddf" kindref="member">BrowseImageWidget::browseImagePath</ref>()</highlight></codeline>
-<codeline lineno="39"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>file<sp/>=<sp/>QFileDialog::getOpenFileName(</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr(</highlight><highlight class="stringliteral">&quot;Ouvrir<sp/>une<sp/>image&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr(</highlight><highlight class="stringliteral">&quot;Images<sp/>(*.png<sp/>*.xpm<sp/>*.jpg)&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>QFileInfo<sp/>fileInfo(file);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3e7dcfb78974b9ef017f1ba7284648c6" kindref="member">setImageScaled</ref>(fileInfo.filePath());</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbIcon-&gt;setPixmap(*_img);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>_extension<sp/>=<sp/><sp/><ref refid="dd/df6/classUtils_1_1String_1a6e5477352fbd3a4a0caed50bb14c0062" kindref="member">Utils::String::getExtensionFile</ref>(fileInfo.fileName());</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a5bde0525741081465b73c31b53c0cddf" kindref="member">BrowseImageWidget::browseImagePath</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QFileInfo<sp/>fileInfo(ui-&gt;widget-&gt;getField());</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1a3e7dcfb78974b9ef017f1ba7284648c6" kindref="member">setImageScaled</ref>(fileInfo.filePath());</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbIcon-&gt;setPixmap(*_img);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>_extension<sp/>=<sp/><sp/><ref refid="dd/df6/classUtils_1_1String_1a6e5477352fbd3a4a0caed50bb14c0062" kindref="member">Utils::String::getExtensionFile</ref>(fileInfo.fileName());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">QString<sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1ab126e24395c6a273fd73ded05aa204a5" kindref="member">BrowseImageWidget::getExtension</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="47"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_extension;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">QString<sp/><ref refid="d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget_1ab126e24395c6a273fd73ded05aa204a5" kindref="member">BrowseImageWidget::getExtension</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="51"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_extension;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/browseimagewidget.cpp"/>
   </compounddef>
