@@ -8,5 +8,5 @@ var classGui_1_1Widgets_1_1ProjectsWidget =
     [ "newProject", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#acd6cd65ef7bf569ce4e44436d2f8b4f4", null ],
     [ "removeProject", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#ac713b0c5c9afba988923fe3e29b405dc", null ],
     [ "removeSelectedProject", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a02d9111ae56ff401bc512fa218161d94", null ],
-    [ "updateBtn", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a3051880516e89826876afdf01fa6637a", null ]
+    [ "updateBtn", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a14ad312da4bc60148d97ef16c8a4fb8a", null ]
 ];
