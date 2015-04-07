@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" bodystart="82" bodyend="-1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="72" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -100,10 +100,10 @@
         </inbodydescription>
         <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="46" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.cpp" bodystart="27" bodyend="29"/>
       </memberdef>
-      <memberdef kind="slot" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="slot" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Gui::Widgets::ProjectsWidget::updateBtn</definition>
-        <argsstring>(bool b, bool remove=true, bool isLocked=false)</argsstring>
+        <argsstring>(bool b, bool remove=true)</argsstring>
         <name>updateBtn</name>
         <param>
           <type>bool</type>
@@ -114,13 +114,8 @@
           <declname>remove</declname>
           <defval>true</defval>
         </param>
-        <param>
-          <type>bool</type>
-          <declname>isLocked</declname>
-          <defval>false</defval>
-        </param>
         <briefdescription>
-<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" kindref="member">ProjectsWidget::updateBtn</ref> Update the toolbar in tblProjects. </para>        </briefdescription>
+<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" kindref="member">ProjectsWidget::updateBtn</ref> Update the toolbar in tblProjects. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -133,20 +128,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.cpp" bodystart="31" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="slot" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a6ff25680f7694f3acad04323aa4a71be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Widgets::ProjectsWidget::lockSelectedProject</definition>
-        <argsstring>()</argsstring>
-        <name>lockSelectedProject</name>
-        <briefdescription>
-<para>lockSelectedProject Event which sends a signal to lock the selected project. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="57" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.cpp" bodystart="37" bodyend="40"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="52" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.cpp" bodystart="31" bodyend="34"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -161,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="63" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -169,12 +151,12 @@
         <argsstring>()</argsstring>
         <name>editProject</name>
         <briefdescription>
-<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" kindref="member">ProjectsWidget::editProject</ref> Edit the current Project selected. </para>        </briefdescription>
+<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" kindref="member">ProjectsWidget::editProject</ref> Edit the current Customer selected. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="68" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="64" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182,25 +164,12 @@
         <argsstring>()</argsstring>
         <name>removeProject</name>
         <briefdescription>
-<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kindref="member">ProjectsWidget::removeProject</ref> Remove the current Project selected. </para>        </briefdescription>
+<para><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kindref="member">ProjectsWidget::removeProject</ref> Remove the current Customer selected. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="73" column="1"/>
-      </memberdef>
-      <memberdef kind="signal" id="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a070bc1f0c832b9e8a785b20636fd22f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Gui::Widgets::ProjectsWidget::lockProject</definition>
-        <argsstring>()</argsstring>
-        <name>lockProject</name>
-        <briefdescription>
-<para>lockProject Lock the current project. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="78" column="1"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="69" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -230,19 +199,17 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" bodystart="18" bodyend="83"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" line="19" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h" bodystart="18" bodyend="73"/>
     <listofallmembers>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a25a20fde082c2698d7067d10e5795c0f" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>addProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>editProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a33284320194d2c20ac6a47ebaaa57ad4" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>editSelectedProject</name></member>
-      <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a070bc1f0c832b9e8a785b20636fd22f8" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>lockProject</name></member>
-      <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a6ff25680f7694f3acad04323aa4a71be" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>lockSelectedProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1acd6cd65ef7bf569ce4e44436d2f8b4f4" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>newProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a400712a956057c7233c396bffeb7a086" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>ProjectsWidget</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>removeProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a02d9111ae56ff401bc512fa218161d94" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>removeSelectedProject</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a87ec0bd8b97b2332a849c449598ec514" prot="private" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>ui</name></member>
-      <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>updateBtn</name></member>
+      <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>updateBtn</name></member>
       <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a4f39938230640fc01cab8900672c2737" prot="public" virt="non-virtual"><scope>Gui::Widgets::ProjectsWidget</scope><name>~ProjectsWidget</name></member>
     </listofallmembers>
   </compounddef>

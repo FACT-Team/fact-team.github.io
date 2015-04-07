@@ -26,7 +26,6 @@ var classGui_1_1MainWindow =
     [ "getCurrentProjectName", "d5/d2f/classGui_1_1MainWindow.html#af83b009038b41bc676d15cb9bcfd5a39", null ],
     [ "getCurrentQuoteId", "d5/d2f/classGui_1_1MainWindow.html#aaf5e1b2cb797894207f4c5e86d2d4dcf", null ],
     [ "globalStatistics", "d5/d2f/classGui_1_1MainWindow.html#a41e44415a270150b6630efcb87768d7f", null ],
-    [ "lockProject", "d5/d2f/classGui_1_1MainWindow.html#a96335036187601e48bb46945d57fc2a5", null ],
     [ "openPdf", "d5/d2f/classGui_1_1MainWindow.html#a6fc6c0f088d3996ad941705a13d7aaae", null ],
     [ "removeCustomer", "d5/d2f/classGui_1_1MainWindow.html#ab86dd052f06fb56dbd77e3ae4c228796", null ],
     [ "removeDoc", "d5/d2f/classGui_1_1MainWindow.html#af86458ad953cb70fb7a88245a6047550", null ],
