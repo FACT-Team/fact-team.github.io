@@ -14,6 +14,5 @@ var dir_381b413982d478049d22ff06f0a5ecf9 =
     [ "popup.h", "db/d70/popup_8h_source.html", null ],
     [ "projectswidget.h", "da/d5e/projectswidget_8h_source.html", null ],
     [ "ratewidget.h", "d1/dfa/ratewidget_8h_source.html", null ],
-    [ "searchwidget.h", "d7/d15/searchwidget_8h_source.html", null ],
-    [ "userdailyhourswidget.h", "da/dd0/userdailyhourswidget_8h_source.html", null ]
+    [ "searchwidget.h", "d7/d15/searchwidget_8h_source.html", null ]
 ];

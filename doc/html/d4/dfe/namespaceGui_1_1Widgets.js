@@ -47,6 +47,5 @@ var namespaceGui_1_1Widgets =
     [ "Popup", "d4/d2f/classGui_1_1Widgets_1_1Popup.html", "d4/d2f/classGui_1_1Widgets_1_1Popup" ],
     [ "ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget" ],
     [ "RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", "d0/de2/classGui_1_1Widgets_1_1RateWidget" ],
-    [ "searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", "d7/d75/classGui_1_1Widgets_1_1searchWidget" ],
-    [ "UserDailyHoursWidget", "d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget.html", "d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget" ]
+    [ "searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", "d7/d75/classGui_1_1Widgets_1_1searchWidget" ]
 ];

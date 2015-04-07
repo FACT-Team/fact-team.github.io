@@ -1,13 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a14ad312da4bc60148d97ef16c8a4fb8a":[4,0,3,3,11,8],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a25a20fde082c2698d7067d10e5795c0f":[4,0,3,3,11,2],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a33284320194d2c20ac6a47ebaaa57ad4":[4,0,3,3,11,4],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a400712a956057c7233c396bffeb7a086":[4,0,3,3,11,0],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a4f39938230640fc01cab8900672c2737":[4,0,3,3,11,1],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a8a49da147544ffd78131af2b9289c9d0":[4,0,3,3,11,3],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#ac713b0c5c9afba988923fe3e29b405dc":[4,0,3,3,11,6],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#acd6cd65ef7bf569ce4e44436d2f8b4f4":[4,0,3,3,11,5],
 "dc/d8d/project_8h_source.html":[5,0,0,0,0,0,0,5,7],
 "dc/d99/classModels_1_1Calculable.html":[4,0,4,1],
 "dc/d99/classModels_1_1Calculable.html#a4f9d590b39bd1f0d9e026ac86f1fada1":[4,0,4,1,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX3 =
 "df/d68/classModels_1_1User.html#ae51aa34e41159fe7e4541a8cfddc50a3":[4,0,4,12,20],
 "df/d68/classModels_1_1User.html#ae61c862ac430d25b538601f343f7bf98":[4,0,4,12,22],
 "df/d68/classModels_1_1User.html#ae62b6cc7c6c5f5ab80b9f066b67afc95":[4,0,4,12,21],
-"df/d68/classModels_1_1User.html#ae751ee06859dffce0cad08005c42c933":[4,0,4,12,17]
+"df/d68/classModels_1_1User.html#ae751ee06859dffce0cad08005c42c933":[4,0,4,12,17],
+"df/d68/classModels_1_1User.html#ae8a894050c3e9266518707f6e5cd1c2f":[4,0,4,12,8],
+"df/d76/browseimagewidget_8h_source.html":[5,0,0,0,0,0,0,3,4,4],
+"df/d78/imodel_8h_source.html":[5,0,0,0,0,0,0,5,5],
+"df/d7a/chosepathwidget_8h_source.html":[5,0,0,0,0,0,0,3,4,2,2],
+"df/d88/comboboxdelegate_8h_source.html":[5,0,0,0,0,0,0,3,4,1,0],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html":[4,0,3,3,1,3],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#a2dfb77334f4a12a031bed33ac5df9f5c":[4,0,3,3,1,3,0],
+"df/d9e/classGui_1_1Widgets_1_1Delegates_1_1TextareaDelegate.html#a5db7a3dfd9c60ae3b6dda3e94f1ea16d":[4,0,3,3,1,3,2]
 };
