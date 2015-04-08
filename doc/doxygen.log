@@ -30,7 +30,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/filechosewidget.h:11: warning: Compound FileChoseWidget is not documented.
 /home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.h:11: warning: Compound ContributoryListTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/database/ratedatabase.h:12: warning: Compound Databases::RateDatabase is not documented.
-/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.h:12: warning: Compound ProjectModelTest is not documented.
+/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.h:10: warning: Compound ProjectModelTest is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:174: warning: explicit link request to 'section' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/README.md:11: warning: explicit link request to 'include' could not be resolved
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/tests/test_mustache.cpp:257: warning: Member CounterContext(const QVariantHash &map) (function) of class CounterContext is not documented.
@@ -72,8 +72,6 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:56: warning: The following parameters of Databases::Database::executeFile(QString pName) are not documented:
   parameter 'pName'
 /home/travis/build/FACT-Team/FactDev/src/database/database.h:133: warning: Member _isMysql (variable) of class Databases::Database is not documented.
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:85: warning: The following parameters of Databases::ProjectDatabase::getProjectsOfCustomer(QSharedPointer< Models::Customer > c, const bool projectLocked=true) are not documented:
-  parameter 'projectLocked'
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
   parameter 'pId'
@@ -97,11 +95,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'parent'
 /home/travis/build/FACT-Team/FactDev/src/gui/dialogs/userdatadialog.h:50: warning: Member browseWorkspacePath() (function) of class Gui::Dialogs::UserDataDialog is not documented.
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/customerdatawidget.h:19: warning: Found unknown command `\Oxynos'
-/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true, bool isLocked=false)
-/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true, bool isLocked=false) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true)
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true) are not documented:
   parameter 'b'
   parameter 'remove'
-  parameter 'isLocked'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h:70: warning: argument 'dailyRate' of command @param is not found in the argument list of Gui::Widgets::RateWidget::setDailyRate()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h:76: warning: argument 'hourlyRate' of command @param is not found in the argument list of Gui::Widgets::RateWidget::setHourlyRate()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/checkfields/checkcity.h:15: warning: The following parameters of Gui::Widgets::CheckFields::CheckCity::CheckCity(QWidget *w=0, QPushButton *btn=0) are not documented:
@@ -172,14 +169,14 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
   parameter 'id'
 /home/travis/build/FACT-Team/FactDev/src/models/billing.h:119: warning: argument 'p' of command @param is not found in the argument list of Models::Billing::addContributory(Contributory &c)
 /home/travis/build/FACT-Team/FactDev/src/models/customer.h:30: warning: argument 'id' of command @param is not found in the argument list of Models::Customer::commit()
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:179: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:179: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:171: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:171: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:156: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:156: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:162: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:162: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:147: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:147: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
   parameter 'p'
 /home/travis/build/FACT-Team/FactDev/src/models/search.h:107: warning: argument 'getSearchInCompanies' of command @param is not found in the argument list of Models::Search::setSearchInCompanies(bool searchInCompanies)
 /home/travis/build/FACT-Team/FactDev/src/models/search.h:107: warning: The following parameters of Models::Search::setSearchInCompanies(bool searchInCompanies) are not documented:
@@ -190,6 +187,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/models/unit.h:48: warning: argument 'c' of command @param is not found in the argument list of Models::Unit::operator==(const Unit &u)
 /home/travis/build/FACT-Team/FactDev/src/models/unit.h:48: warning: The following parameters of Models::Unit::operator==(const Unit &u) are not documented:
   parameter 'u'
+/home/travis/build/FACT-Team/FactDev/src/models/user.h:169: warning: Member setNbHoursPerDay(double value) (function) of class Models::User is not documented.
+/home/travis/build/FACT-Team/FactDev/src/models/user.h:176: warning: Member setNbDaysPerMonth(double getNbDaysPerMonth) (function) of class Models::User is not documented.
+/home/travis/build/FACT-Team/FactDev/src/models/user.h:178: warning: Member getNbDaysPerWeek() const  (function) of class Models::User is not documented.
+/home/travis/build/FACT-Team/FactDev/src/models/user.h:179: warning: Member setNbDaysPerWeek(double value) (function) of class Models::User is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:111: warning: Member QtVariantContext(const QVariant &root, PartialResolver *resolver=0) (function) of class Mustache::QtVariantContext is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:142: warning: Member PartialMap(const QHash< QString, QString > &partials) (function) of class Mustache::PartialMap is not documented.
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:158: warning: Member PartialFileLoader(const QString &basePath) (function) of class Mustache::PartialFileLoader is not documented.
@@ -293,30 +294,28 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:108: warning: argument 'bool' of command @param is not found in the argument list of Gui::MainWindow::addDoc(bool isBilling)
 /home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:108: warning: The following parameters of Gui::MainWindow::addDoc(bool isBilling) are not documented:
   parameter 'isBilling'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:259: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTable(const QPoint point)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:259: warning: The following parameters of Gui::MainWindow::openContextualMenuTable(const QPoint point) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:255: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTable(const QPoint point)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:255: warning: The following parameters of Gui::MainWindow::openContextualMenuTable(const QPoint point) are not documented:
   parameter 'point'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:265: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTree(const QPoint point)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:265: warning: The following parameters of Gui::MainWindow::openContextualMenuTree(const QPoint point) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:261: warning: argument 'QPoint' of command @param is not found in the argument list of Gui::MainWindow::openContextualMenuTree(const QPoint point)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:261: warning: The following parameters of Gui::MainWindow::openContextualMenuTree(const QPoint point) are not documented:
   parameter 'point'
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:341: warning: argument 'filter' of command @param is not found in the argument list of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1)
-/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:341: warning: The following parameters of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:337: warning: argument 'filter' of command @param is not found in the argument list of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1)
+/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h:337: warning: The following parameters of Gui::MainWindow::updateTableProjects(const int pId=0, const int row=-1) are not documented:
   parameter 'pId'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/src/mustache.h:150: warning: Unsupported xml/html tag <name> found
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:162: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:162: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:147: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator==(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:147: warning: The following parameters of Models::Project::operator==(const Project &p) are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:171: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:171: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:156: warning: argument 'b' of command @param is not found in the argument list of Models::Project::operator<(const Project &p) const
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:156: warning: The following parameters of Models::Project::operator<(const Project &p) const are not documented:
   parameter 'p'
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:179: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
-/home/travis/build/FACT-Team/FactDev/src/models/project.h:179: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: argument 'c' of command @param is not found in the argument list of Models::Project::operator!=(const Project &p)
+/home/travis/build/FACT-Team/FactDev/src/models/project.h:164: warning: The following parameters of Models::Project::operator!=(const Project &p) are not documented:
   parameter 'p'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h:38: warning: argument 'parent' of command @param is not found in the argument list of Gui::Widgets::Delegates::ProjectComboDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/projectcombodelegate.h:38: warning: The following parameters of Gui::Widgets::Delegates::ProjectComboDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const are not documented:
   parameter 'painter'
-/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:85: warning: The following parameters of Databases::ProjectDatabase::getProjectsOfCustomer(QSharedPointer< Models::Customer > c, const bool projectLocked=true) are not documented:
-  parameter 'projectLocked'
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: argument 'filter' of command @param is not found in the argument list of Databases::ProjectDatabase::getProjectsTable(const int pId)
 /home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h:100: warning: The following parameters of Databases::ProjectDatabase::getProjectsTable(const int pId) are not documented:
   parameter 'pId'
@@ -324,11 +323,10 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:74: warning: argument 'Project' of command @param is not found in the argument list of Gui::Widgets::WdgModels::ProjectsTableModel::append(const Project &project)
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/widgetsmodels/projectstablemodel.h:74: warning: The following parameters of Gui::Widgets::WdgModels::ProjectsTableModel::append(const Project &project) are not documented:
   parameter 'project'
-/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true, bool isLocked=false)
-/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true, bool isLocked=false) are not documented:
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: argument 'boolean' of command @param is not found in the argument list of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true)
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h:49: warning: The following parameters of Gui::Widgets::ProjectsWidget::updateBtn(bool b, bool remove=true) are not documented:
   parameter 'b'
   parameter 'remove'
-  parameter 'isLocked'
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h:70: warning: argument 'dailyRate' of command @param is not found in the argument list of Gui::Widgets::RateWidget::setDailyRate()
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/ratewidget.h:76: warning: argument 'hourlyRate' of command @param is not found in the argument list of Gui::Widgets::RateWidget::setHourlyRate()
 /home/travis/build/FACT-Team/FactDev/src/models/search.h:107: warning: argument 'getSearchInCompanies' of command @param is not found in the argument list of Models::Search::setSearchInCompanies(bool searchInCompanies)
@@ -354,4 +352,7 @@ Otherwise you run the risk that the wrong font is being used for dot generated g
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h:39: warning: argument 'parent' of command @param is not found in the argument list of Gui::Widgets::Delegates::UnitComboDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
 /home/travis/build/FACT-Team/FactDev/src/gui/widgets/delegates/unitcombodelegate.h:39: warning: The following parameters of Gui::Widgets::Delegates::UnitComboDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const are not documented:
   parameter 'painter'
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/userdailyhourswidget.h:64: warning: argument 'valueWork' of command @param is not found in the argument list of Gui::Widgets::UserDailyHoursWidget::updateWorkQuantity(const double value)
+/home/travis/build/FACT-Team/FactDev/src/gui/widgets/userdailyhourswidget.h:64: warning: The following parameters of Gui::Widgets::UserDailyHoursWidget::updateWorkQuantity(const double value) are not documented:
+  parameter 'value'
 /home/travis/build/FACT-Team/FactDev/src/libs/qt-mustache/README.md:11: warning: explicit link request to 'include' could not be resolved

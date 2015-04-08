@@ -771,7 +771,6 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa4cfc2b980835fe1ccd5b869a237c05f" kind="slot"><name>computeTurnover</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a41e44415a270150b6630efcb87768d7f" kind="slot"><name>globalStatistics</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a078b2546e65d2b91d3b2b546db619adb" kind="slot"><name>customerStatistics</name></member>
-    <member refid="d5/d2f/classGui_1_1MainWindow_1a96335036187601e48bb46945d57fc2a5" kind="slot"><name>lockProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8f4801de450f56afd74b87faf16da04e" kind="slot"><name>openContextualMenuTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6989ef14c237faef779b9f29b9f98e3e" kind="slot"><name>openContextualMenuTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a3e7084a936f63a4dece48c3e26313bff" kind="slot"><name>changeTree</name></member>
@@ -909,9 +908,6 @@
     <member refid="dd/d3f/classModels_1_1Project_1aa293709eeb68e4271cac8d4cce418ffa" kind="function"><name>hydrat</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ab55c71c009ae796e7dbe03017fed67ee" kind="function"><name>remove</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a7db5156657a7dbadd024aead14a40182" kind="function"><name>getDataMap</name></member>
-    <member refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kind="function"><name>lock</name></member>
-    <member refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kind="function"><name>isLocked</name></member>
-    <member refid="dd/d3f/classModels_1_1Project_1ad7aa6de9c19efe1743cb483e35e5a55c" kind="function"><name>unlock</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a11d3b85bdc38daba928bfbfd962a0e32" kind="function"><name>getName</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kind="function"><name>setName</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a065b9cd68962c78302a84c686e10ae13" kind="function"><name>getDescription</name></member>
@@ -969,7 +965,7 @@
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1abdd5fcb1913c2d2f375a658f6656c522" kind="function"><name>removeProject</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa486ad21f156a8ba7d08baef29e0aaea" kind="function"><name>getNbProjects</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" kind="function"><name>getNbProjects</name></member>
-    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa5a7ac1b9849d6cd3f78f82b5c68d0e9" kind="function"><name>getProjectsOfCustomer</name></member>
+    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" kind="function"><name>getProjectsOfCustomer</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" kind="function"><name>getProjects</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" kind="function"><name>getProjectsTable</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ab644aeb47d9666e8191cc9bc6ab93417" kind="function"><name>updateProject</name></member>
@@ -1005,10 +1001,6 @@
     <member refid="dd/d54/classProjectModelTest_1aa4eea915bedc7d0752cbbfa0a90541ab" kind="slot"><name>remove</name></member>
     <member refid="dd/d54/classProjectModelTest_1ac6a7bd7bad5b416fe29ed332852cb633" kind="slot"><name>getProjectsTable</name></member>
     <member refid="dd/d54/classProjectModelTest_1a7766c91ecd29bf7c72251f9f5c0516d1" kind="slot"><name>turnoverComputeTest</name></member>
-    <member refid="dd/d54/classProjectModelTest_1a70f06a4a2f98430872fcb1dabcf7a3d8" kind="slot"><name>lock</name></member>
-    <member refid="dd/d54/classProjectModelTest_1aeb679702fe8c39b5c0cc8869e267220f" kind="slot"><name>isLocked</name></member>
-    <member refid="dd/d54/classProjectModelTest_1acffb06fbcdaf9b2b017a678113dc0acf" kind="slot"><name>unlock</name></member>
-    <member refid="dd/d54/classProjectModelTest_1ad5730f7c35e3fca0186f215caf5600e0" kind="slot"><name>commitLock</name></member>
   </compound>
   <compound refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kind="class"><name>Gui::Widgets::WdgModels::ProjectsTableModel</name>
     <member refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel_1a647f9ed1e3be2458321b6e1e08623a60" kind="variable"><name>_projects</name></member>
@@ -1032,12 +1024,10 @@
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1acd6cd65ef7bf569ce4e44436d2f8b4f4" kind="slot"><name>newProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a33284320194d2c20ac6a47ebaaa57ad4" kind="slot"><name>editSelectedProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a02d9111ae56ff401bc512fa218161d94" kind="slot"><name>removeSelectedProject</name></member>
-    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" kind="slot"><name>updateBtn</name></member>
-    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a6ff25680f7694f3acad04323aa4a71be" kind="slot"><name>lockSelectedProject</name></member>
+    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" kind="slot"><name>updateBtn</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a25a20fde082c2698d7067d10e5795c0f" kind="signal"><name>addProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" kind="signal"><name>editProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kind="signal"><name>removeProject</name></member>
-    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a070bc1f0c832b9e8a785b20636fd22f8" kind="signal"><name>lockProject</name></member>
   </compound>
   <compound refid="d5/d8b/classMustache_1_1QtVariantContext" kind="class"><name>Mustache::QtVariantContext</name>
     <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a3b258bcbe77d882a01c53abd1a9425d0" kind="typedef"><name>fn_t</name></member>
@@ -1261,12 +1251,12 @@
     <member refid="d5/dc2/structMustache_1_1Tag_1a2ce4c079ced32e8e4cadeca893a886a2" kind="variable"><name>escapeMode</name></member>
     <member refid="d5/dc2/structMustache_1_1Tag_1a43da02fd4fa24f3e8bf497fcc7a428ba" kind="function"><name>Tag</name></member>
   </compound>
+  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
+    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
+  </compound>
   <compound refid="d7/d26/classtestadder" kind="class"><name>testadder</name>
     <member refid="d7/d26/classtestadder_1a6c03fa78ee26c134f465ede23a82ee10" kind="function"><name>testadder</name></member>
     <member refid="d7/d26/classtestadder_1aa221c2d193ae74f3e15062d61dc2b782" kind="function"><name>~testadder</name></member>
-  </compound>
-  <compound refid="d0/d9b/classTestAdder" kind="class"><name>TestAdder</name>
-    <member refid="d0/d9b/classTestAdder_1a64f9008ae27868e36acdd5c94eebae3b" kind="function"><name>TestAdder</name></member>
   </compound>
   <compound refid="de/d63/classTestMustache" kind="class"><name>TestMustache</name>
     <member refid="de/d63/classTestMustache_1a7d76f43b7da47c82c0ba6d6044bccf4a" kind="slot"><name>testContextLookup</name></member>
@@ -1335,6 +1325,9 @@
     <member refid="df/d68/classModels_1_1User_1a47952911ed24738caa351b71ab278ade" kind="variable"><name>_workspaceName</name></member>
     <member refid="df/d68/classModels_1_1User_1ade60fdf921120c32b29e737012d9ef77" kind="variable"><name>_workspacePath</name></member>
     <member refid="df/d68/classModels_1_1User_1a695bb15c2080a71ae2c6ac1a0b2e783b" kind="variable"><name>_pdflatexPath</name></member>
+    <member refid="df/d68/classModels_1_1User_1a5e2f76840d69231446b2201f16805221" kind="variable"><name>_nbHoursPerDay</name></member>
+    <member refid="df/d68/classModels_1_1User_1ac085540f3a9cfaafa33c7777a74db555" kind="variable"><name>_nbDaysPerWeek</name></member>
+    <member refid="df/d68/classModels_1_1User_1a62b24230adb3f250995b33e09b43e3e9" kind="variable"><name>_nbDaysPerMonth</name></member>
     <member refid="df/d68/classModels_1_1User_1ab106b51be814f7d3a055874781f1f2ee" kind="function"><name>User</name></member>
     <member refid="df/d68/classModels_1_1User_1a8eb50ce05c34b28cf39ff980066f3113" kind="function"><name>User</name></member>
     <member refid="df/d68/classModels_1_1User_1ada0daaa6886be3716af6e15d28c01915" kind="function"><name>commit</name></member>
@@ -1356,8 +1349,27 @@
     <member refid="df/d68/classModels_1_1User_1aa1cdb1f752173aedd5f0c43edcb0b10b" kind="function"><name>operator!=</name></member>
     <member refid="df/d68/classModels_1_1User_1ae8a894050c3e9266518707f6e5cd1c2f" kind="function"><name>getPdflatexPath</name></member>
     <member refid="df/d68/classModels_1_1User_1ac65a44513c34f7e67888062d8bee3e54" kind="function"><name>setPdflatexPath</name></member>
-    <member refid="df/d68/classModels_1_1User_1acb46d721cae3c0a9059de32da0c33eaa" kind="function"><name>getNbHoursPerDays</name></member>
-    <member refid="df/d68/classModels_1_1User_1a1ec672f16a5dbb248e05f2e957094c4d" kind="function"><name>getNbDaysPerMonths</name></member>
+    <member refid="df/d68/classModels_1_1User_1a5ebdd9899c343c828d03c74045aa6989" kind="function"><name>getNbHoursPerDay</name></member>
+    <member refid="df/d68/classModels_1_1User_1a1fcef9f88da89f808a5a2225ca11c809" kind="function"><name>setNbHoursPerDay</name></member>
+    <member refid="df/d68/classModels_1_1User_1a264cf13078c59b3f676e038db2dffc2e" kind="function"><name>getNbDaysPerMonth</name></member>
+    <member refid="df/d68/classModels_1_1User_1ac68ad7cdc7da220cbb03d99dffd6d774" kind="function"><name>setNbDaysPerMonth</name></member>
+    <member refid="df/d68/classModels_1_1User_1a5e3d5058a495cf15d2741b788bc971c1" kind="function"><name>getNbDaysPerWeek</name></member>
+    <member refid="df/d68/classModels_1_1User_1a463e429e22f908f304d66fc22e48fc8e" kind="function"><name>setNbDaysPerWeek</name></member>
+  </compound>
+  <compound refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget" kind="class"><name>Gui::Widgets::UserDailyHoursWidget</name>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1aefc509621607671236b72817d18e2a2a" kind="variable"><name>ui</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1ae4882daf226d61389699211cd34efa3d" kind="variable"><name>_idQuantity</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a2136b775c1473bb48a7b9410314e1ec1" kind="variable"><name>DAILY_HOURS</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a341c8f0c69227c1fb9c9594261c5d199" kind="variable"><name>WEEKLY_DAYS</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a851b016fdf520dfee3dfb7a4b7b7ee1f" kind="variable"><name>MONTHLY_DAYS</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a63bfdbcafddbfccafcac0bf13d60b000" kind="function"><name>UserDailyHoursWidget</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a6dbeaf813c499e53e9a31977febf585e" kind="function"><name>~UserDailyHoursWidget</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a14ff53fb5878842117015890e61ac44d" kind="function"><name>setupUI</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a53e8b7eb038153361efd44c4061c7616" kind="slot"><name>dailyHoursValueHasChanged</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a1419c5a32c0b786215b3b2b6b348be05" kind="slot"><name>weeklyDaysValueHasChanged</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a6c9cc50280109e153f3de4ef76738c85" kind="slot"><name>monthlyDaysValueHasChanged</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1a37ac0b183d203516f3a7f4cb68d06f75" kind="function"><name>updateWorkQuantity</name></member>
+    <member refid="d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget_1adac9ea5166e64d08e2380f5b7b199bfa" kind="function"><name>computeQuantityWork</name></member>
   </compound>
   <compound refid="d0/d33/classDatabases_1_1UserDatabase" kind="class"><name>Databases::UserDatabase</name>
     <member refid="d0/d33/classDatabases_1_1UserDatabase_1a9ad55fbf8df887332232e0e6adf0cfc7" kind="variable"><name>_instance</name></member>
@@ -1396,6 +1408,7 @@
     <member refid="de/d37/classUserModelTest_1ad0869610fca9936d02e98d2c9617c4cd" kind="slot"><name>commitUpdate</name></member>
     <member refid="de/d37/classUserModelTest_1a73aa5e94adb1f17266e50b73c8f0d9aa" kind="slot"><name>hydrat</name></member>
     <member refid="de/d37/classUserModelTest_1a82c4e0439a877d42fa9c9824dec2f2ec" kind="slot"><name>commitRemove</name></member>
+    <member refid="de/d37/classUserModelTest_1a0ac00688fc64decb90f955975690a9bc" kind="slot"><name>workLoadTest</name></member>
   </compound>
   <compound refid="da/dff/classGui_1_1Utils_1_1WindowSettings" kind="class"><name>Gui::Utils::WindowSettings</name>
     <member refid="da/dff/classGui_1_1Utils_1_1WindowSettings_1a87db449398662e73bd6798efadabeb34" kind="function"><name>setMaximumSize</name></member>
@@ -1683,6 +1696,10 @@
   <compound refid="dc/d30/searchwidget_8cpp" kind="file"><name>searchwidget.cpp</name>
   </compound>
   <compound refid="d7/d15/searchwidget_8h" kind="file"><name>searchwidget.h</name>
+  </compound>
+  <compound refid="d7/dfa/userdailyhourswidget_8cpp" kind="file"><name>userdailyhourswidget.cpp</name>
+  </compound>
+  <compound refid="da/dd0/userdailyhourswidget_8h" kind="file"><name>userdailyhourswidget.h</name>
   </compound>
   <compound refid="dd/de6/billingstablemodel_8cpp" kind="file"><name>billingstablemodel.cpp</name>
   </compound>

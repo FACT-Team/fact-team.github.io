@@ -144,7 +144,8 @@ var hierarchy =
       ] ],
       [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
-      [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
+      [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ],
+      [ "Gui::Widgets::UserDailyHoursWidget", "d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget.html", null ]
     ] ],
     [ "Models::Rate", "d9/dc5/classModels_1_1Rate.html", null ],
     [ "Mustache::Renderer", "dc/d58/classMustache_1_1Renderer.html", null ],
@@ -152,8 +153,8 @@ var hierarchy =
     [ "Models::Statistics", "db/d92/classModels_1_1Statistics.html", null ],
     [ "Utils::String", "dd/df6/classUtils_1_1String.html", null ],
     [ "Mustache::Tag", "d5/dc2/structMustache_1_1Tag.html", null ],
-    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestAdder< T >", "d0/d9b/classTestAdder.html", null ],
+    [ "testadder", "d7/d26/classtestadder.html", null ],
     [ "TestRunner", "db/d70/classTestRunner.html", null ],
     [ "Generator::TexGenerator", "d4/d12/classGenerator_1_1TexGenerator.html", null ],
     [ "Models::Unit", "dc/d11/classModels_1_1Unit.html", null ],
