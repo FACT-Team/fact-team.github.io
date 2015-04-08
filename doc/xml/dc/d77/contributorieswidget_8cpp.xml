@@ -579,95 +579,98 @@
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>view-&gt;setColumnWidth(3,<sp/>70);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>view-&gt;verticalHeader()-&gt;setDefaultSectionSize(60);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(view-&gt;itemDelegateForColumn(2),</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(view-&gt;itemDelegateForColumn(3),</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SIGNAL(closeEditor(QWidget*)),</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SLOT(<ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">updatePrice</ref>()));</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(view-&gt;itemDelegateForColumn(1),</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(view-&gt;itemDelegateForColumn(2),</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SIGNAL(closeEditor(QWidget*)),</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SLOT(<ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">updatePrice</ref>()));</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;insertWidget(ui-&gt;stack-&gt;count(),<sp/>view);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
-<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad907c5827c4e1ee3b82adbe6f2f77309" kindref="member">ContributoriesWidget::removeProject</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelsContributoriesToRemoved</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>_modelsContributories[ui-&gt;tblProjects-&gt;currentIndex().row()];</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelsContributories.removeAt(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ae142b64f61cf2337cf3fcb3d6ce291ec" kindref="member">remove</ref>(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;removeWidget(ui-&gt;stack-&gt;currentWidget());</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;setCurrentIndex(0);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
-<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(view-&gt;itemDelegateForColumn(1),</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SIGNAL(closeEditor(QWidget*)),</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SLOT(<ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">updatePrice</ref>()));</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;insertWidget(ui-&gt;stack-&gt;count(),<sp/>view);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad907c5827c4e1ee3b82adbe6f2f77309" kindref="member">ContributoriesWidget::removeProject</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelsContributoriesToRemoved</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>_modelsContributories[ui-&gt;tblProjects-&gt;currentIndex().row()];</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelsContributories.removeAt(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ae142b64f61cf2337cf3fcb3d6ce291ec" kindref="member">remove</ref>(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;removeWidget(ui-&gt;stack-&gt;currentWidget());</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;setCurrentIndex(0);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5a4be90c82f8b6d0b0e3b7a658a488ee" kindref="member">ContributoriesWidget::changeProject</ref>()</highlight></codeline>
-<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;setCurrentIndex(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
-<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1acb1cc99ae6f72205394d7b52f0a5f20d" kindref="member">ContributoriesWidget::editing</ref>()</highlight></codeline>
-<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>((Delegates::ProjectComboDelegate*)</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;itemDelegateForColumn(0))-&gt;removeInCombo(</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>());</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
-<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">ContributoriesWidget::updateUi</ref>()</highlight></codeline>
-<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnAddProject-&gt;setEnabled(</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>().count()</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<sp/>((Delegates::ProjectComboDelegate*)</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;itemDelegateForColumn(0))-&gt;getProjects().count()</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a2c7223dafc05fff7c0194820fd1e8ef8" kindref="member">allProjectsChosen</ref>());</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveProject-&gt;setEnabled(</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;currentIndex().row()<sp/>!=<sp/>-1);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5a4be90c82f8b6d0b0e3b7a658a488ee" kindref="member">ContributoriesWidget::changeProject</ref>()</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;stack-&gt;setCurrentIndex(ui-&gt;tblProjects-&gt;currentIndex().row());</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1acb1cc99ae6f72205394d7b52f0a5f20d" kindref="member">ContributoriesWidget::editing</ref>()</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>((Delegates::ProjectComboDelegate*)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;itemDelegateForColumn(0))-&gt;removeInCombo(</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">updateUi</ref>();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a5231cbde89d73ccdbb734e6aee0cb3ff" kindref="member">ContributoriesWidget::updateUi</ref>()</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnAddProject-&gt;setEnabled(</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>().count()</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<sp/>((Delegates::ProjectComboDelegate*)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;itemDelegateForColumn(0))-&gt;getProjects().count()</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1a2c7223dafc05fff7c0194820fd1e8ef8" kindref="member">allProjectsChosen</ref>());</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>().count()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnAddPrestation-&gt;show();</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRmovePrestation-&gt;show();</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbContributoriesProject-&gt;show();</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnAddPrestation-&gt;hide();</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRmovePrestation-&gt;hide();</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbContributoriesProject-&gt;hide();</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">updatePrice</ref>();</highlight></codeline>
-<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">ContributoriesWidget::updatePrice</ref>()</highlight></codeline>
-<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_modelsContributories.count()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WdgModels::ContributoriesTableModel*<sp/>currentContributory<sp/>=</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelsContributories[ui-&gt;stack-&gt;currentIndex()];</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPair&lt;Models::Project*,<sp/>Models::Rate&gt;<sp/>currentProject<sp/>=</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" kindref="member">getProject</ref>(ui-&gt;stack-&gt;currentIndex());</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbSubSum-&gt;setValue(currentContributory-&gt;getSumQuantity()</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>currentProject.second.getDailyRate());</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnRemoveProject-&gt;setEnabled(</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;tblProjects-&gt;currentIndex().row()<sp/>!=<sp/>-1);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1ab32f6d5b6e708b08cce0a83411f1eedc" kindref="member">getSelectedProjects</ref>().count()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnAddPrestation-&gt;show();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRmovePrestation-&gt;show();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbContributoriesProject-&gt;show();</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnAddPrestation-&gt;hide();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnRmovePrestation-&gt;hide();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbContributoriesProject-&gt;hide();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">updatePrice</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1ad6c925eaf605e1b0382b0ec00eac5abf" kindref="member">ContributoriesWidget::updatePrice</ref>()</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_modelsContributories.count()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WdgModels::ContributoriesTableModel*<sp/>currentContributory<sp/>=</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelsContributories[ui-&gt;stack-&gt;currentIndex()];</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPair&lt;Models::Project*,<sp/>Models::Rate&gt;<sp/>currentProject<sp/>=</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" kindref="member">getProject</ref>(ui-&gt;stack-&gt;currentIndex());</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(WdgModels::ContributoriesTableModel*<sp/>contributory</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>_modelsContributories)</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>+=<sp/>contributory-&gt;getSumQuantity()</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" kindref="member">getProject</ref>(i++).second.getDailyRate();</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbAllSums-&gt;setValue(value);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" kindref="member">ContributoriesWidget::count</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_modelsContributories.count()<sp/>&gt;<sp/>0</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1aa1ddb75bda44bc04c723c1198c76f191" kindref="member">getProjects</ref>().count()<sp/>&gt;<sp/>0;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbSubSum-&gt;setValue(currentContributory-&gt;getSumQuantity()</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>currentProject.second.getDailyRate());</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(WdgModels::ContributoriesTableModel*<sp/>contributory</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>_modelsContributories)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>+=<sp/>contributory-&gt;getSumQuantity()</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1af44a062f618d9c8b095bdb5170c1403b" kindref="member">getProject</ref>(i++).second.getDailyRate();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbAllSums-&gt;setValue(value);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget_1a7c9f1bfcac92d4813f1d43b46319042b" kindref="member">ContributoriesWidget::count</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_modelsContributories.count()<sp/>&gt;<sp/>0</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>_modelProjects-&gt;<ref refid="d9/d71/classGui_1_1Widgets_1_1WdgModels_1_1ProjectContributoriesTableModel_1aa1ddb75bda44bc04c723c1198c76f191" kindref="member">getProjects</ref>().count()<sp/>&gt;<sp/>0;</highlight></codeline>
 <codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/contributorieswidget.cpp"/>
   </compounddef>
