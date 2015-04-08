@@ -939,12 +939,20 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kindref="member">removeProject</ref>();</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" kindref="member">ProjectsWidget::updateBtn</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" kindref="member">ProjectsWidget::updateBtn</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isLocked)<sp/>{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnDeleteProject-&gt;setEnabled(b<sp/>&amp;&amp;<sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnEditProject-&gt;setEnabled(b);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnLockProject-&gt;setEnabled(!isLocked);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a6ff25680f7694f3acad04323aa4a71be" kindref="member">ProjectsWidget::lockSelectedProject</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a070bc1f0c832b9e8a785b20636fd22f8" kindref="member">lockProject</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.cpp"/>
   </compounddef>

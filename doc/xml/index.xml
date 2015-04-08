@@ -771,6 +771,7 @@
     <member refid="d5/d2f/classGui_1_1MainWindow_1aa4cfc2b980835fe1ccd5b869a237c05f" kind="slot"><name>computeTurnover</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a41e44415a270150b6630efcb87768d7f" kind="slot"><name>globalStatistics</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a078b2546e65d2b91d3b2b546db619adb" kind="slot"><name>customerStatistics</name></member>
+    <member refid="d5/d2f/classGui_1_1MainWindow_1a96335036187601e48bb46945d57fc2a5" kind="slot"><name>lockProject</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a8f4801de450f56afd74b87faf16da04e" kind="slot"><name>openContextualMenuTable</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a6989ef14c237faef779b9f29b9f98e3e" kind="slot"><name>openContextualMenuTree</name></member>
     <member refid="d5/d2f/classGui_1_1MainWindow_1a3e7084a936f63a4dece48c3e26313bff" kind="slot"><name>changeTree</name></member>
@@ -908,6 +909,9 @@
     <member refid="dd/d3f/classModels_1_1Project_1aa293709eeb68e4271cac8d4cce418ffa" kind="function"><name>hydrat</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ab55c71c009ae796e7dbe03017fed67ee" kind="function"><name>remove</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a7db5156657a7dbadd024aead14a40182" kind="function"><name>getDataMap</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kind="function"><name>lock</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kind="function"><name>isLocked</name></member>
+    <member refid="dd/d3f/classModels_1_1Project_1ad7aa6de9c19efe1743cb483e35e5a55c" kind="function"><name>unlock</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a11d3b85bdc38daba928bfbfd962a0e32" kind="function"><name>getName</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kind="function"><name>setName</name></member>
     <member refid="dd/d3f/classModels_1_1Project_1a065b9cd68962c78302a84c686e10ae13" kind="function"><name>getDescription</name></member>
@@ -965,7 +969,7 @@
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1abdd5fcb1913c2d2f375a658f6656c522" kind="function"><name>removeProject</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa486ad21f156a8ba7d08baef29e0aaea" kind="function"><name>getNbProjects</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" kind="function"><name>getNbProjects</name></member>
-    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" kind="function"><name>getProjectsOfCustomer</name></member>
+    <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa5a7ac1b9849d6cd3f78f82b5c68d0e9" kind="function"><name>getProjectsOfCustomer</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" kind="function"><name>getProjects</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" kind="function"><name>getProjectsTable</name></member>
     <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ab644aeb47d9666e8191cc9bc6ab93417" kind="function"><name>updateProject</name></member>
@@ -1001,6 +1005,10 @@
     <member refid="dd/d54/classProjectModelTest_1aa4eea915bedc7d0752cbbfa0a90541ab" kind="slot"><name>remove</name></member>
     <member refid="dd/d54/classProjectModelTest_1ac6a7bd7bad5b416fe29ed332852cb633" kind="slot"><name>getProjectsTable</name></member>
     <member refid="dd/d54/classProjectModelTest_1a7766c91ecd29bf7c72251f9f5c0516d1" kind="slot"><name>turnoverComputeTest</name></member>
+    <member refid="dd/d54/classProjectModelTest_1a70f06a4a2f98430872fcb1dabcf7a3d8" kind="slot"><name>lock</name></member>
+    <member refid="dd/d54/classProjectModelTest_1aeb679702fe8c39b5c0cc8869e267220f" kind="slot"><name>isLocked</name></member>
+    <member refid="dd/d54/classProjectModelTest_1acffb06fbcdaf9b2b017a678113dc0acf" kind="slot"><name>unlock</name></member>
+    <member refid="dd/d54/classProjectModelTest_1ad5730f7c35e3fca0186f215caf5600e0" kind="slot"><name>commitLock</name></member>
   </compound>
   <compound refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kind="class"><name>Gui::Widgets::WdgModels::ProjectsTableModel</name>
     <member refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel_1a647f9ed1e3be2458321b6e1e08623a60" kind="variable"><name>_projects</name></member>
@@ -1024,10 +1032,12 @@
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1acd6cd65ef7bf569ce4e44436d2f8b4f4" kind="slot"><name>newProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a33284320194d2c20ac6a47ebaaa57ad4" kind="slot"><name>editSelectedProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a02d9111ae56ff401bc512fa218161d94" kind="slot"><name>removeSelectedProject</name></member>
-    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a14ad312da4bc60148d97ef16c8a4fb8a" kind="slot"><name>updateBtn</name></member>
+    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a9b3a11a610d4877b330c2d3732668db4" kind="slot"><name>updateBtn</name></member>
+    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a6ff25680f7694f3acad04323aa4a71be" kind="slot"><name>lockSelectedProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a25a20fde082c2698d7067d10e5795c0f" kind="signal"><name>addProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a8a49da147544ffd78131af2b9289c9d0" kind="signal"><name>editProject</name></member>
     <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1ac713b0c5c9afba988923fe3e29b405dc" kind="signal"><name>removeProject</name></member>
+    <member refid="dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget_1a070bc1f0c832b9e8a785b20636fd22f8" kind="signal"><name>lockProject</name></member>
   </compound>
   <compound refid="d5/d8b/classMustache_1_1QtVariantContext" kind="class"><name>Mustache::QtVariantContext</name>
     <member refid="d5/d8b/classMustache_1_1QtVariantContext_1a3b258bcbe77d882a01c53abd1a9425d0" kind="typedef"><name>fn_t</name></member>

@@ -106,7 +106,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="113" bodyend="140"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="55" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="113" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a0816c768932243906e37045d4640cc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="142" bodyend="167"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="61" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="143" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1abdd5fcb1913c2d2f375a658f6656c522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -148,7 +148,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="169" bodyend="186"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="67" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="172" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1aa486ad21f156a8ba7d08baef29e0aaea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -162,7 +162,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="74" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="188" bodyend="203"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="74" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="191" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a62db108febd50cdc2dc2b686cf954da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -188,16 +188,21 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="205" bodyend="222"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="82" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="208" bodyend="225"/>
       </memberdef>
-      <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1aa5a7ac1b9849d6cd3f78f82b5c68d0e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QMap&lt; int, <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
         <definition>QMap&lt; int, Models::Project &gt; Databases::ProjectDatabase::getProjectsOfCustomer</definition>
-        <argsstring>(QSharedPointer&lt; Models::Customer &gt; c)</argsstring>
+        <argsstring>(QSharedPointer&lt; Models::Customer &gt; c, const bool projectLocked=true)</argsstring>
         <name>getProjectsOfCustomer</name>
         <param>
           <type>QSharedPointer&lt; <ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Models::Customer</ref> &gt;</type>
           <declname>c</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>projectLocked</declname>
+          <defval>true</defval>
         </param>
         <briefdescription>
 <para>getProjectsOfCustomer Return all projects of a customer </para>        </briefdescription>
@@ -214,7 +219,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="89" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="224" bodyend="248"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="89" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="227" bodyend="255"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Models::Project</ref> &gt;</type>
@@ -240,7 +245,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="97" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="250" bodyend="280"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="97" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="257" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref> *</type>
@@ -267,7 +272,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="282" bodyend="310"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.h" line="104" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/database/projectdatabase.cpp" bodystart="289" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="d7/d39/classDatabases_1_1ProjectDatabase_1ab644aeb47d9666e8191cc9bc6ab93417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QSharedPointer&lt; <ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref> &gt;</type>
@@ -406,7 +411,7 @@
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProject</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a165ec8686b565792e01fb79c550e6d4d" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProject</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75963715e3cae349fe3aa555f7226c56" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProjects</name></member>
-      <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1acf044f95bd4df4e04bff9ef52d326704" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProjectsOfCustomer</name></member>
+      <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1aa5a7ac1b9849d6cd3f78f82b5c68d0e9" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProjectsOfCustomer</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>getProjectsTable</name></member>
       <member refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" prot="public" virt="non-virtual"><scope>Databases::ProjectDatabase</scope><name>instance</name></member>
       <member refid="dd/db0/classDatabases_1_1Database_1a3cf57f0af08ad3f4d588d59eafcadb56" prot="public" virt="non-virtual" ambiguityscope="Databases::Database::"><scope>Databases::ProjectDatabase</scope><name>instance</name></member>
