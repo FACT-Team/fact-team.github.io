@@ -113,9 +113,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a62db108febd50cdc2dc2b686cf954da6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html#a62db108febd50cdc2dc2b686cf954da6">getNbProjects</a> (const int customerId)</td></tr>
 <tr class="memdesc:a62db108febd50cdc2dc2b686cf954da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of projects.  <a href="#a62db108febd50cdc2dc2b686cf954da6">More...</a><br/></td></tr>
 <tr class="separator:a62db108febd50cdc2dc2b686cf954da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf044f95bd4df4e04bff9ef52d326704"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html#acf044f95bd4df4e04bff9ef52d326704">getProjectsOfCustomer</a> (QSharedPointer&lt; <a class="el" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a> &gt; c)</td></tr>
-<tr class="memdesc:acf044f95bd4df4e04bff9ef52d326704"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProjectsOfCustomer Return all projects of a customer  <a href="#acf044f95bd4df4e04bff9ef52d326704">More...</a><br/></td></tr>
-<tr class="separator:acf044f95bd4df4e04bff9ef52d326704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a7ac1b9849d6cd3f78f82b5c68d0e9"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html#aa5a7ac1b9849d6cd3f78f82b5c68d0e9">getProjectsOfCustomer</a> (QSharedPointer&lt; <a class="el" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a> &gt; c, const bool projectLocked=true)</td></tr>
+<tr class="memdesc:aa5a7ac1b9849d6cd3f78f82b5c68d0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProjectsOfCustomer Return all projects of a customer  <a href="#aa5a7ac1b9849d6cd3f78f82b5c68d0e9">More...</a><br/></td></tr>
+<tr class="separator:aa5a7ac1b9849d6cd3f78f82b5c68d0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75963715e3cae349fe3aa555f7226c56"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html#a75963715e3cae349fe3aa555f7226c56">getProjects</a> (const int customerId)</td></tr>
 <tr class="memdesc:a75963715e3cae349fe3aa555f7226c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">getProjects Return all projects of a customer  <a href="#a75963715e3cae349fe3aa555f7226c56">More...</a><br/></td></tr>
 <tr class="separator:a75963715e3cae349fe3aa555f7226c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -414,7 +414,7 @@ Project </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="acf044f95bd4df4e04bff9ef52d326704"></a>
+<a class="anchor" id="aa5a7ac1b9849d6cd3f78f82b5c68d0e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -422,8 +422,18 @@ Project </dd></dl>
           <td class="memname">QMap&lt; int, <a class="el" href="../../dd/d3f/classModels_1_1Project.html">Models::Project</a> &gt; Databases::ProjectDatabase::getProjectsOfCustomer </td>
           <td>(</td>
           <td class="paramtype">QSharedPointer&lt; <a class="el" href="../../db/dd7/classModels_1_1Customer.html">Models::Customer</a> &gt;&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>projectLocked</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -561,7 +571,7 @@ Project </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d31/namespaceDatabases.html">Databases</a></li><li class="navelem"><a class="el" href="../../d7/d39/classDatabases_1_1ProjectDatabase.html">ProjectDatabase</a></li>
-    <li class="footer">Generated on Wed Apr 8 2015 07:37:12 for FactDev by
+    <li class="footer">Generated on Wed Apr 8 2015 07:48:51 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
