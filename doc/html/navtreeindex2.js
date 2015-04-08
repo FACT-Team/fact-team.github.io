@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a8d77bcf326543f841d1c05fe9819183f":[4,0,3,3,13,0],
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a93c6519cc7e0d8f440451d14fb85bd31":[4,0,3,3,13,2],
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a96ba18927785257377dcd3701d41e8d1":[4,0,3,3,13,7],
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a9b6248c515bac4b6f58237c2f73d804b":[4,0,3,3,13,8],
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#aa79135dfe1626fd224fda37ea693b38e":[4,0,3,3,13,1],
+"d7/d75/classGui_1_1Widgets_1_1searchWidget.html#adf91225827fde587bea0d0fc803b0034":[4,0,3,3,13,6],
 "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#ae9e5a460a5320c8bfad4d6878009ccbc":[4,0,3,3,13,3],
 "d7/d7f/log_8h_source.html":[5,0,0,0,0,0,0,6,4],
 "d7/d84/pointerstest_8h_source.html":[5,0,0,0,0,0,1,4,2],
@@ -176,8 +182,8 @@ var NAVTREEINDEX2 =
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,2],
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,3],
 "db/da6/classCounterContext.html#ac4ad706a0ad4e81fed489f97c5049e03":[4,0,12,8],
-"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,6],
 "db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,7],
+"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,6],
 "db/db3/classUtils_1_1Log.html":[4,0,6,4],
 "db/db3/classUtils_1_1Log.html#a0191645e4f86af331290c7062c79d7b7":[4,0,6,4,0],
 "db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc":[4,0,6,4,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a7ac53a3ff1222c15e264cff34b830582":[4,0,3,3,3,0,0],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a9fd40a3339be5a1efbe621f6a1bb89aa":[4,0,3,3,3,0,7],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#ab130d7853a7db8df5d57efc9a2854a4d":[4,0,3,3,3,0,6],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#accfaef7c494d5c7f8be6b3248160d4b7":[4,0,3,3,3,0,4],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#aeda0c27a114bab611363cb46c5119b10":[4,0,3,3,3,0,10],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#af441051dcb0c702ca9d390405bd8bbc9":[4,0,3,3,3,0,8],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#afa74f8b3ef36409cdcadd1cdfd14a9a0":[4,0,3,3,3,0,1],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#aff58949de7e18482ad09bf2635e1997c":[4,0,3,3,3,0,2],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html":[4,0,3,3,11],
-"dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html#a02d9111ae56ff401bc512fa218161d94":[4,0,3,3,11,7]
+"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#accfaef7c494d5c7f8be6b3248160d4b7":[4,0,3,3,3,0,4]
 };

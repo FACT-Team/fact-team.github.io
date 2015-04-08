@@ -8,6 +8,8 @@ var classModels_1_1User =
     [ "getNbDaysPerMonth", "df/d68/classModels_1_1User.html#a264cf13078c59b3f676e038db2dffc2e", null ],
     [ "getNbDaysPerWeek", "df/d68/classModels_1_1User.html#a5e3d5058a495cf15d2741b788bc971c1", null ],
     [ "getNbHoursPerDay", "df/d68/classModels_1_1User.html#a5ebdd9899c343c828d03c74045aa6989", null ],
+    [ "getNbHoursPerMonth", "df/d68/classModels_1_1User.html#acc716536a65768c721242cfa18f207af", null ],
+    [ "getNbHoursPerWeek", "df/d68/classModels_1_1User.html#a9224cf423418449ecfa85c762cc1ee5a", null ],
     [ "getNoSiret", "df/d68/classModels_1_1User.html#a617ee9ede3791842fbf8593f08660d37", null ],
     [ "getPdflatexPath", "df/d68/classModels_1_1User.html#ae8a894050c3e9266518707f6e5cd1c2f", null ],
     [ "getTitle", "df/d68/classModels_1_1User.html#a56a37a1b1125c28e8e72c9a3551b7da5", null ],
