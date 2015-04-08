@@ -1,11 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"df/d68/classModels_1_1User.html#a617ee9ede3791842fbf8593f08660d37":[4,0,4,12,10],
-"df/d68/classModels_1_1User.html#a8eb50ce05c34b28cf39ff980066f3113":[4,0,4,12,1],
-"df/d68/classModels_1_1User.html#a9224cf423418449ecfa85c762cc1ee5a":[4,0,4,12,9],
-"df/d68/classModels_1_1User.html#aa1cdb1f752173aedd5f0c43edcb0b10b":[4,0,4,12,16],
-"df/d68/classModels_1_1User.html#aa9421bda240316f9eebd0145f6dc3eda":[4,0,4,12,14],
-"df/d68/classModels_1_1User.html#ab106b51be814f7d3a055874781f1f2ee":[4,0,4,12,0],
 "df/d68/classModels_1_1User.html#ab46c7e1841dca66bc01cd95328b97877":[4,0,4,12,15],
 "df/d68/classModels_1_1User.html#abbc8a3a40b527497872240bf39f21314":[4,0,4,12,3],
 "df/d68/classModels_1_1User.html#ac65a44513c34f7e67888062d8bee3e54":[4,0,4,12,24],
@@ -102,8 +96,8 @@ var NAVTREEINDEX4 =
 "functions_enum.html":[4,2,4],
 "functions_eval.html":[4,2,5],
 "functions_f.html":[4,2,0,6],
-"functions_func.html":[4,2,1,0],
 "functions_func.html":[4,2,1],
+"functions_func.html":[4,2,1,0],
 "functions_func_b.html":[4,2,1,1],
 "functions_func_c.html":[4,2,1,2],
 "functions_func_d.html":[4,2,1,3],

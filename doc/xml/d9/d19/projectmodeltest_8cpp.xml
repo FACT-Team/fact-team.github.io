@@ -6,7 +6,7 @@
     <includes refid="d9/dfd/projectdatabase_8h" local="yes">database/projectdatabase.h</includes>
     <includes refid="dc/d1a/projectstablemodel_8h" local="yes">gui/widgets/widgetsmodels/projectstablemodel.h</includes>
     <incdepgraph>
-      <node id="6590">
+      <node id="6589">
         <label>list</label>
       </node>
       <node id="6594">
@@ -37,7 +37,7 @@
         </childnode>
         <childnode refid="6613" relation="include">
         </childnode>
-        <childnode refid="6585" relation="include">
+        <childnode refid="6590" relation="include">
         </childnode>
         <childnode refid="6614" relation="include">
         </childnode>
@@ -95,7 +95,7 @@
       <node id="6607">
         <label>QStandardItemModel</label>
       </node>
-      <node id="6588">
+      <node id="6587">
         <label>QSharedPointer</label>
       </node>
       <node id="6616">
@@ -184,7 +184,7 @@
         </childnode>
         <childnode refid="6593" relation="include">
         </childnode>
-        <childnode refid="6588" relation="include">
+        <childnode refid="6587" relation="include">
         </childnode>
         <childnode refid="6594" relation="include">
         </childnode>
@@ -194,7 +194,7 @@
       <node id="6618">
         <label>QDebug</label>
       </node>
-      <node id="6587">
+      <node id="6586">
         <label>QTest</label>
       </node>
       <node id="6595">
@@ -215,7 +215,7 @@
       <node id="6605">
         <label>QtSql/QSqlError</label>
       </node>
-      <node id="6585">
+      <node id="6590">
         <label>iostream</label>
       </node>
       <node id="6598">
@@ -224,9 +224,11 @@
       <node id="6617">
         <label>QTextStream</label>
       </node>
-      <node id="6586">
+      <node id="6585">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="6586" relation="include">
+        </childnode>
         <childnode refid="6587" relation="include">
         </childnode>
         <childnode refid="6588" relation="include">
@@ -234,8 +236,6 @@
         <childnode refid="6589" relation="include">
         </childnode>
         <childnode refid="6590" relation="include">
-        </childnode>
-        <childnode refid="6585" relation="include">
         </childnode>
       </node>
       <node id="6596">
@@ -250,7 +250,7 @@
         <childnode refid="6599" relation="include">
         </childnode>
       </node>
-      <node id="6589">
+      <node id="6588">
         <label>algorithm</label>
       </node>
       <node id="6624">
@@ -272,8 +272,6 @@
         <label>projectmodeltest.h</label>
         <link refid="d1/d63/projectmodeltest_8h_source"/>
         <childnode refid="6585" relation="include">
-        </childnode>
-        <childnode refid="6586" relation="include">
         </childnode>
         <childnode refid="6591" relation="include">
         </childnode>
@@ -307,182 +305,133 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariantHash<sp/>q<sp/>=<sp/>p3.getDataMap();</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>p3<sp/>&lt;<sp/>p2;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::lock()<sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kindref="member">lock</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(p1.<ref refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kindref="member">getEndDate</ref>()<sp/>==<sp/>QDate::currentDate());</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::commitLock()<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::equals1()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p2.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(0);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kindref="member">lock</ref>();</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p2<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" kindref="member">getProject</ref>(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>());</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p2-&gt;<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ad7aa6de9c19efe1743cb483e35e5a55c" kindref="member">unlock</ref>();</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>());</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(!p2-&gt;<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kindref="member">lock</ref>();</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>());</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p2-&gt;<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*e<sp/>)<sp/>{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::unlock()<sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kindref="member">lock</ref>();</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ad7aa6de9c19efe1743cb483e35e5a55c" kindref="member">unlock</ref>();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(p1.<ref refid="dd/d3f/classModels_1_1Project_1aaf6792d15dcd65c3708e4a01b80e3108" kindref="member">getEndDate</ref>().isNull());</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(!p1.<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::isLocked()<sp/>{</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a6236dccb2ed5a21b353c3379aa8298fd" kindref="member">lock</ref>();</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(p1.<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ad7aa6de9c19efe1743cb483e35e5a55c" kindref="member">unlock</ref>();</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(!p1.<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a89e9603b862d0a282e4eb03e122e8c05" kindref="member">setEndDate</ref>(QDate(2010,<sp/>1,<sp/>1));</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(p1.<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a89e9603b862d0a282e4eb03e122e8c05" kindref="member">setEndDate</ref>(QDate(2050,<sp/>1,<sp/>1));</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(!p1.<ref refid="dd/d3f/classModels_1_1Project_1a5ea39222d1c37ae38ea088921785ecba" kindref="member">isLocked</ref>());</highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::equals1()</highlight></codeline>
-<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p2.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p1<sp/>==<sp/>p2);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::equals2()</highlight></codeline>
-<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;Not<sp/>the<sp/>same<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(!(p<sp/>==<sp/>p2));</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::notEquals()</highlight></codeline>
-<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;Not<sp/>the<sp/>same<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p<sp/>!=<sp/>p2);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::commitInsert()</highlight></codeline>
-<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(0);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p2<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" kindref="member">getProject</ref>(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>());</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(*p2<sp/>==<sp/>p1);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::commitUpdate()</highlight></codeline>
-<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a270a365c4a9345029447c7a958444dac" kindref="member">addProject</ref>(p1);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;NEW<sp/>NAME&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p2<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" kindref="member">getProject</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p2<sp/>!=<sp/>0);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(*p2<sp/>==<sp/>p1);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::hydrat()</highlight></codeline>
-<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p2<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(1);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;vehicula&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p1<sp/>==<sp/>p2);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::remove()</highlight></codeline>
-<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;getProject(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())<sp/>==<sp/>NULL);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::getProjectsTable(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref>*<sp/>w<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" kindref="member">getProjectsTable</ref>(1);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p<sp/>:<sp/>w-&gt;<ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel_1ada0246acfaee46e62f31070ffdcd4bd9" kindref="member">getProjects</ref>())<sp/>{</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(p.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())<sp/>{</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>47:</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>48:</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY2(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>QString(</highlight><highlight class="stringliteral">&quot;Oups:<sp/>&quot;</highlight><highlight class="normal">+QString::number(p.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())).toStdString().c_str());</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::turnoverComputeTest()<sp/>{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p1(28);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p2(42);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p3(23);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p1.<ref refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kindref="member">getCost</ref>(),<sp/>2),<sp/>84.);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p2.<ref refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kindref="member">getCost</ref>(),<sp/>2),<sp/>109.10);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p3.getCost(),<sp/>2),<sp/>521.64);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p1<sp/>==<sp/>p2);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::equals2()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;Not<sp/>the<sp/>same<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(!(p<sp/>==<sp/>p2));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::notEquals()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;Not<sp/>the<sp/>same<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a9d305edf054735b911e144516d3eccba" kindref="member">setCustomer</ref>(QSharedPointer&lt;Customer&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/dd7/classModels_1_1Customer" kindref="compound">Customer</ref>(14)));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p<sp/>!=<sp/>p2);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::commitInsert()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(0);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p2<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" kindref="member">getProject</ref>(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>());</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(*p2<sp/>==<sp/>p1);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::commitUpdate()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a270a365c4a9345029447c7a958444dac" kindref="member">addProject</ref>(p1);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;NEW<sp/>NAME&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1ac99cb8ca4004755b1445fb5f66973341" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p2<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a1bf482f645ba7bea80ed6c52bc013a4d" kindref="member">getProject</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p2<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(*p2<sp/>==<sp/>p1);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::hydrat()</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p2<sp/>=<sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(1);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1ac5ffa6ff6d31647fd880881257f47889" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;vehicula&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a2cccaca77bff95f13b3320f3f03dc9e7" kindref="member">setDescription</ref>(</highlight><highlight class="stringliteral">&quot;a,<sp/>facilisis<sp/>non,<sp/>bibendum<sp/>sed,<sp/>est.<sp/>Nunc<sp/>laoreet<sp/>lectus<sp/>quis<sp/>massa.<sp/>Mauris<sp/>vestibulum,<sp/>neque<sp/>sed<sp/>dictum<sp/>eleifend,<sp/>nunc<sp/>risus<sp/>varius<sp/>orci,<sp/>in<sp/>consequat<sp/>enim<sp/>diam&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1a9bc03d9632334a550bd25f6286d2c7a2" kindref="member">setDailyRate</ref>(13);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(p1<sp/>==<sp/>p2);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::remove()</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="d0/d9c/classModels_1_1IModel_1abfbfbc6c7de50ad4536027a964b2521c" kindref="member">setToRemoved</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p1.<ref refid="dd/d3f/classModels_1_1Project_1afc167f2b5bf9c354826117c5057628ae" kindref="member">commit</ref>();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;getProject(p1.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())<sp/>==<sp/>NULL);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::getProjectsTable(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" kindref="compound">WdgModels::ProjectsTableModel</ref>*<sp/>w<sp/>=<sp/><ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1a75cf81b8d073addcf43a313483dafe65" kindref="member">Databases::ProjectDatabase::instance</ref>()-&gt;<ref refid="d7/d39/classDatabases_1_1ProjectDatabase_1ac00628f2d8911298dcb0292f6c4cff66" kindref="member">getProjectsTable</ref>(1);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p<sp/>:<sp/>w-&gt;<ref refid="d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel_1ada0246acfaee46e62f31070ffdcd4bd9" kindref="member">getProjects</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(p.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>47:</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>48:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY2(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>QString(</highlight><highlight class="stringliteral">&quot;Oups:<sp/>&quot;</highlight><highlight class="normal">+QString::number(p.<ref refid="d0/d9c/classModels_1_1IModel_1a63087bb34da8c38a11109cd775122d31" kindref="member">getId</ref>())).toStdString().c_str());</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="d4/de4/classExceptions_1_1DbException" kindref="compound">DbException</ref>*<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(e-&gt;what());</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProjectModelTest::turnoverComputeTest()<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p1(28);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p2(42);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref><sp/>p3(23);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p1.<ref refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kindref="member">getCost</ref>(),<sp/>2),<sp/>84.);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p2.<ref refid="dd/d3f/classModels_1_1Project_1a6ad25c30f89821cd988a7ae92d84b41b" kindref="member">getCost</ref>(),<sp/>2),<sp/>109.10);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(p3.getCost(),<sp/>2),<sp/>521.64);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/models/projectmodeltest.cpp"/>
   </compounddef>
