@@ -132,6 +132,7 @@ var hierarchy =
       [ "UserModelTest", "de/d37/classUserModelTest.html", null ]
     ] ],
     [ "QWidget", null, [
+      [ "CoffeeEasterEggWidget", "d8/d3f/classCoffeeEasterEggWidget.html", null ],
       [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", null ],
       [ "Gui::Widgets::BrowseImageWidget", "d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget.html", null ],
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],

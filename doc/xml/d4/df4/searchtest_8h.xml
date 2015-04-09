@@ -7,49 +7,131 @@
     <includes refid="da/d77/customerstablemodel_8h" local="yes">gui/widgets/widgetsmodels/customerstablemodel.h</includes>
     <includedby refid="db/d1e/searchtest_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.cpp</includedby>
     <incdepgraph>
-      <node id="6809">
+      <node id="6817">
         <label>list</label>
       </node>
-      <node id="6820">
+      <node id="6828">
         <label>models/imodel.h</label>
         <link refid="df/d78/imodel_8h_source"/>
+        <childnode refid="6829" relation="include">
+        </childnode>
+      </node>
+      <node id="6819">
+        <label>models/search.h</label>
+        <link refid="d9/d85/search_8h_source"/>
+        <childnode refid="6820" relation="include">
+        </childnode>
+      </node>
+      <node id="6822">
+        <label>QObject</label>
+      </node>
+      <node id="6812">
+        <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</label>
+        <link refid="searchtest.h"/>
+        <childnode refid="6813" relation="include">
+        </childnode>
+        <childnode refid="6819" relation="include">
+        </childnode>
         <childnode refid="6821" relation="include">
         </childnode>
       </node>
-      <node id="6811">
-        <label>models/search.h</label>
-        <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="6812" relation="include">
-        </childnode>
-      </node>
-      <node id="6814">
-        <label>QObject</label>
-      </node>
-      <node id="6804">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/models/searchtest.h</label>
-        <link refid="searchtest.h"/>
-        <childnode refid="6805" relation="include">
-        </childnode>
-        <childnode refid="6811" relation="include">
-        </childnode>
-        <childnode refid="6813" relation="include">
-        </childnode>
-      </node>
-      <node id="6828">
+      <node id="6836">
         <label>parameters.h</label>
         <link refid="d6/d3b/parameters_8h_source"/>
-        <childnode refid="6812" relation="include">
+        <childnode refid="6820" relation="include">
         </childnode>
       </node>
-      <node id="6807">
+      <node id="6815">
         <label>QSharedPointer</label>
       </node>
-      <node id="6822">
+      <node id="6830">
         <label>utils/log.h</label>
         <link refid="d7/d7f/log_8h_source"/>
+        <childnode refid="6831" relation="include">
+        </childnode>
+        <childnode refid="6832" relation="include">
+        </childnode>
+        <childnode refid="6833" relation="include">
+        </childnode>
+        <childnode refid="6834" relation="include">
+        </childnode>
+        <childnode refid="6835" relation="include">
+        </childnode>
+        <childnode refid="6820" relation="include">
+        </childnode>
+        <childnode refid="6836" relation="include">
+        </childnode>
+      </node>
+      <node id="6825">
+        <label>QStandardItem</label>
+      </node>
+      <node id="6827">
+        <label>models/people.h</label>
+        <link refid="d2/d90/people_8h_source"/>
+        <childnode refid="6820" relation="include">
+        </childnode>
+        <childnode refid="6826" relation="include">
+        </childnode>
+        <childnode refid="6828" relation="include">
+        </childnode>
+      </node>
+      <node id="6835">
+        <label>QDebug</label>
+      </node>
+      <node id="6821">
+        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
+        <link refid="da/d77/customerstablemodel_8h_source"/>
+        <childnode refid="6822" relation="include">
+        </childnode>
         <childnode refid="6823" relation="include">
         </childnode>
         <childnode refid="6824" relation="include">
+        </childnode>
+        <childnode refid="6830" relation="include">
+        </childnode>
+      </node>
+      <node id="6814">
+        <label>QTest</label>
+      </node>
+      <node id="6829">
+        <label>QVariantHash</label>
+      </node>
+      <node id="6832">
+        <label>QDate</label>
+      </node>
+      <node id="6820">
+        <label>QString</label>
+      </node>
+      <node id="6831">
+        <label>QFile</label>
+      </node>
+      <node id="6818">
+        <label>iostream</label>
+      </node>
+      <node id="6826">
+        <label>QPixmap</label>
+      </node>
+      <node id="6834">
+        <label>QTextStream</label>
+      </node>
+      <node id="6813">
+        <label>QTestRunner/testrunner.h</label>
+        <link refid="dd/da8/testrunner_8h_source"/>
+        <childnode refid="6814" relation="include">
+        </childnode>
+        <childnode refid="6815" relation="include">
+        </childnode>
+        <childnode refid="6816" relation="include">
+        </childnode>
+        <childnode refid="6817" relation="include">
+        </childnode>
+        <childnode refid="6818" relation="include">
+        </childnode>
+      </node>
+      <node id="6824">
+        <label>models/customer.h</label>
+        <link refid="d3/d35/customer_8h_source"/>
+        <childnode refid="6820" relation="include">
         </childnode>
         <childnode refid="6825" relation="include">
         </childnode>
@@ -57,96 +139,14 @@
         </childnode>
         <childnode refid="6827" relation="include">
         </childnode>
-        <childnode refid="6812" relation="include">
-        </childnode>
-        <childnode refid="6828" relation="include">
-        </childnode>
-      </node>
-      <node id="6817">
-        <label>QStandardItem</label>
-      </node>
-      <node id="6819">
-        <label>models/people.h</label>
-        <link refid="d2/d90/people_8h_source"/>
-        <childnode refid="6812" relation="include">
-        </childnode>
-        <childnode refid="6818" relation="include">
-        </childnode>
-        <childnode refid="6820" relation="include">
-        </childnode>
-      </node>
-      <node id="6827">
-        <label>QDebug</label>
-      </node>
-      <node id="6813">
-        <label>gui/widgets/widgetsmodels/customerstablemodel.h</label>
-        <link refid="da/d77/customerstablemodel_8h_source"/>
-        <childnode refid="6814" relation="include">
-        </childnode>
-        <childnode refid="6815" relation="include">
-        </childnode>
-        <childnode refid="6816" relation="include">
-        </childnode>
-        <childnode refid="6822" relation="include">
-        </childnode>
-      </node>
-      <node id="6806">
-        <label>QTest</label>
-      </node>
-      <node id="6821">
-        <label>QVariantHash</label>
-      </node>
-      <node id="6824">
-        <label>QDate</label>
-      </node>
-      <node id="6812">
-        <label>QString</label>
-      </node>
-      <node id="6823">
-        <label>QFile</label>
-      </node>
-      <node id="6810">
-        <label>iostream</label>
-      </node>
-      <node id="6818">
-        <label>QPixmap</label>
-      </node>
-      <node id="6826">
-        <label>QTextStream</label>
-      </node>
-      <node id="6805">
-        <label>QTestRunner/testrunner.h</label>
-        <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="6806" relation="include">
-        </childnode>
-        <childnode refid="6807" relation="include">
-        </childnode>
-        <childnode refid="6808" relation="include">
-        </childnode>
-        <childnode refid="6809" relation="include">
-        </childnode>
-        <childnode refid="6810" relation="include">
-        </childnode>
       </node>
       <node id="6816">
-        <label>models/customer.h</label>
-        <link refid="d3/d35/customer_8h_source"/>
-        <childnode refid="6812" relation="include">
-        </childnode>
-        <childnode refid="6817" relation="include">
-        </childnode>
-        <childnode refid="6818" relation="include">
-        </childnode>
-        <childnode refid="6819" relation="include">
-        </childnode>
-      </node>
-      <node id="6808">
         <label>algorithm</label>
       </node>
-      <node id="6815">
+      <node id="6823">
         <label>QAbstractTableModel</label>
       </node>
-      <node id="6825">
+      <node id="6833">
         <label>QCoreApplication</label>
       </node>
     </incdepgraph>
