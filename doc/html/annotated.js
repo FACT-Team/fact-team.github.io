@@ -31,7 +31,6 @@ var annotated =
     ] ],
     [ "BillingDatabaseTest", "d1/db1/classBillingDatabaseTest.html", "d1/db1/classBillingDatabaseTest" ],
     [ "BillingModelTest", "dc/d0c/classBillingModelTest.html", "dc/d0c/classBillingModelTest" ],
-    [ "CoffeeEasterEggWidget", "d8/d3f/classCoffeeEasterEggWidget.html", "d8/d3f/classCoffeeEasterEggWidget" ],
     [ "ContributoriesDatabaseTest", "d8/df7/classContributoriesDatabaseTest.html", "d8/df7/classContributoriesDatabaseTest" ],
     [ "ContributoryListTest", "d4/de2/classContributoryListTest.html", "d4/de2/classContributoryListTest" ],
     [ "ContributoryModelTest", "d5/d97/classContributoryModelTest.html", "d5/d97/classContributoryModelTest" ],

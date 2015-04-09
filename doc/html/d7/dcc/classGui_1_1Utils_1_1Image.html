@@ -93,6 +93,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a891cce6ddd74add919c2c68c90e46960"><td class="memItemLeft" align="right" valign="top">static QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html#a891cce6ddd74add919c2c68c90e46960">bytesToPixmap</a> (const QByteArray bytes)</td></tr>
 <tr class="memdesc:a891cce6ddd74add919c2c68c90e46960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Image::BytesToPixmap Return QPixmap from an array of bytes.  <a href="#a891cce6ddd74add919c2c68c90e46960">More...</a><br/></td></tr>
 <tr class="separator:a891cce6ddd74add919c2c68c90e46960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56386fd3c3098a8c83c2fa45aab1e33"><td class="memItemLeft" align="right" valign="top">static QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html#ab56386fd3c3098a8c83c2fa45aab1e33">getImage</a> (QString path, int width=256, int height=256)</td></tr>
+<tr class="memdesc:ab56386fd3c3098a8c83c2fa45aab1e33"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html#ab56386fd3c3098a8c83c2fa45aab1e33" title="Image::getImage Return a scaled image from the icon specified by it path. The image returned has a re...">Image::getImage</a> Return a scaled image from the icon specified by it <em>path</em>. The image returned has a resolution of <em>width</em>*<em>height</em> (default 256*256)  <a href="#ab56386fd3c3098a8c83c2fa45aab1e33">More...</a><br/></td></tr>
+<tr class="separator:ab56386fd3c3098a8c83c2fa45aab1e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html" title="The Image class Contains generic methods on image formats. ">Image</a> class Contains generic methods on image formats. </p>
@@ -128,6 +131,57 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>QPixmap from bytes </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab56386fd3c3098a8c83c2fa45aab1e33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap Gui::Utils::Image::getImage </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em> = <code>256</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em> = <code>256</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html#ab56386fd3c3098a8c83c2fa45aab1e33" title="Image::getImage Return a scaled image from the icon specified by it path. The image returned has a re...">Image::getImage</a> Return a scaled image from the icon specified by it <em>path</em>. The image returned has a resolution of <em>width</em>*<em>height</em> (default 256*256) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Icon path </td></tr>
+    <tr><td class="paramname">width</td><td>Icon width </td></tr>
+    <tr><td class="paramname">height</td><td>Icon height </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Scaled image </dd></dl>
 
 </div>
 </div>
@@ -262,7 +316,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dad/namespaceGui.html">Gui</a></li><li class="navelem"><b>Utils</b></li><li class="navelem"><a class="el" href="../../d7/dcc/classGui_1_1Utils_1_1Image.html">Image</a></li>
-    <li class="footer">Generated on Thu Apr 9 2015 19:52:29 for FactDev by
+    <li class="footer">Generated on Thu Apr 9 2015 21:17:35 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -39,6 +39,7 @@ var namespaceGui_1_1Widgets =
       [ "ProjectsTableModel", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel.html", "d3/d40/classGui_1_1Widgets_1_1WdgModels_1_1ProjectsTableModel" ]
     ] ],
     [ "BrowseImageWidget", "d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget.html", "d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget" ],
+    [ "CoffeeEasterEggWidget", "dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html", "dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" ],
     [ "ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget" ],
     [ "ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget" ],
     [ "CustomerContextualMenu", "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu.html", "d8/ded/classGui_1_1Widgets_1_1CustomerContextualMenu" ],
