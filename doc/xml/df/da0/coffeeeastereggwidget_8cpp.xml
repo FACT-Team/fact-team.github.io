@@ -5,8 +5,11 @@
     <includes refid="d1/dc7/coffeeeastereggwidget_8h" local="yes">coffeeeastereggwidget.h</includes>
     <includes local="yes">ui_coffeeeastereggwidget.h</includes>
     <incdepgraph>
-      <node id="2453">
+      <node id="2454">
         <label>QBuffer</label>
+      </node>
+      <node id="2451">
+        <label>QDebug</label>
       </node>
       <node id="2450">
         <label>QTimer</label>
@@ -14,7 +17,7 @@
       <node id="2449">
         <label>QWidget</label>
       </node>
-      <node id="2454">
+      <node id="2455">
         <label>ui_coffeeeastereggwidget.h</label>
       </node>
       <node id="2447">
@@ -22,18 +25,18 @@
         <link refid="coffeeeastereggwidget.cpp"/>
         <childnode refid="2448" relation="include">
         </childnode>
-        <childnode refid="2454" relation="include">
-        </childnode>
-      </node>
-      <node id="2451">
-        <label>gui/utils/image.h</label>
-        <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="2452" relation="include">
-        </childnode>
-        <childnode refid="2453" relation="include">
+        <childnode refid="2455" relation="include">
         </childnode>
       </node>
       <node id="2452">
+        <label>gui/utils/image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="2453" relation="include">
+        </childnode>
+        <childnode refid="2454" relation="include">
+        </childnode>
+      </node>
+      <node id="2453">
         <label>QPixmap</label>
       </node>
       <node id="2448">
@@ -44,6 +47,8 @@
         <childnode refid="2450" relation="include">
         </childnode>
         <childnode refid="2451" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -85,105 +90,116 @@
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab078e63e3a8b1b2c363869f66e5a6633" kindref="member">CoffeeEasterEggWidget::makeCoffeeInProgress</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>*timer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTimer(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(timer,<sp/>SIGNAL(timeout()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(nextState()));</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>timer-&gt;start(1000);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>_timer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTimer(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(_timer,<sp/>SIGNAL(timeout()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(nextState()));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>_timer-&gt;start(1000);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;makeCoffeeInProgress&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a17acbe1eeebcd0155cd9fdabf6f8001a" kindref="member">CoffeeEasterEggWidget::makeCoffeeFirstStep</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level1.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Chauffage<sp/>de<sp/>l&apos;eau...&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a9fd4dcc4291612f880c7d36a1cbd3c53" kindref="member">CoffeeEasterEggWidget::makeCoffeeSecondStep</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>2;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level2.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;En<sp/>train<sp/>de<sp/>moudre<sp/>le<sp/>café...&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab468afccbc650083b3f30382bc5f8645" kindref="member">CoffeeEasterEggWidget::makeCoffeeThirdStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a17acbe1eeebcd0155cd9fdabf6f8001a" kindref="member">CoffeeEasterEggWidget::makeCoffeeFirstStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level1.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Chauffage<sp/>de<sp/>l&apos;eau...&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a9fd4dcc4291612f880c7d36a1cbd3c53" kindref="member">CoffeeEasterEggWidget::makeCoffeeSecondStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level2.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;En<sp/>train<sp/>de<sp/>moudre<sp/>le<sp/>café...&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>3;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level3.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Préparation<sp/>du<sp/>café&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a57504081f4694b34c1e5f5f76fe7a6ae" kindref="member">CoffeeEasterEggWidget::makeCoffeeFourthStep</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>4;</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level4.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Préparation<sp/>du<sp/>café...&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a85b1ce67ec9c50cf90dfff64a4a2f5d8" kindref="member">CoffeeEasterEggWidget::makeCoffeeReadyStep</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>5;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isDrinked())<sp/>{</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_ready.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Café<sp/>prêt<sp/>:)&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_drinked++;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ad1442572de3c59eefec9928a4322130e" kindref="member">CoffeeEasterEggWidget::isDrinked</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_drinked<sp/>==<sp/>3;</highlight></codeline>
-<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1accaae451a705877710d40fd19723df80" kindref="member">CoffeeEasterEggWidget::nextState</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(_state)<sp/>{</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeFirstStep();</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeSecondStep();</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeThirdStep();</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeFourthStep();</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeReadyStep();</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab468afccbc650083b3f30382bc5f8645" kindref="member">CoffeeEasterEggWidget::makeCoffeeThirdStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level3.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Préparation<sp/>du<sp/>café&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a57504081f4694b34c1e5f5f76fe7a6ae" kindref="member">CoffeeEasterEggWidget::makeCoffeeFourthStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_level4.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Préparation<sp/>du<sp/>café...&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a85b1ce67ec9c50cf90dfff64a4a2f5d8" kindref="member">CoffeeEasterEggWidget::makeCoffeeReadyStep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>_state<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isDrinked())<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbCoffee-&gt;setPixmap(</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Gui::Utils::Image::getImage</ref>(</highlight><highlight class="stringliteral">&quot;:/icons/img/coffee_ready.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;lbScreenControl-&gt;setText(</highlight><highlight class="stringliteral">&quot;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p<sp/>align=&quot;</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Café<sp/>prêt<sp/>:)&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setText(</highlight><highlight class="stringliteral">&quot;Faire<sp/>le<sp/>café<sp/>!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;btnCoffeeMaker-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_drinked++;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_timer-&gt;stop();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>_timer;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ad1442572de3c59eefec9928a4322130e" kindref="member">CoffeeEasterEggWidget::isDrinked</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_drinked<sp/>==<sp/>3;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1accaae451a705877710d40fd19723df80" kindref="member">CoffeeEasterEggWidget::nextState</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;nextState<sp/>--&gt;&quot;</highlight><highlight class="normal"><sp/>+<sp/>_state;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(_state)<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeFirstStep();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeSecondStep();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeThirdStep();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeFourthStep();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCoffeeReadyStep();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setupUI();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/coffeeeastereggwidget.cpp"/>
   </compounddef>

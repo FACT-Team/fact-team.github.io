@@ -221,8 +221,9 @@ var NAVTREEINDEX3 =
 "de/d63/classTestMustache.html":[4,0,28],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html":[4,0,3,1,0],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html#a5c03d289e8dc3352e232e4d3bc290080":[4,0,3,1,0,1],
-"de/db4/classGui_1_1Docks_1_1SearchDock.html#a7360b52fd0bc03e089049b574e509c02":[4,0,3,1,0,2],
-"de/db4/classGui_1_1Docks_1_1SearchDock.html#a9b33dea8adfe26b4d7a5dadffbbb07a7":[4,0,3,1,0,3],
+"de/db4/classGui_1_1Docks_1_1SearchDock.html#a7360b52fd0bc03e089049b574e509c02":[4,0,3,1,0,3],
+"de/db4/classGui_1_1Docks_1_1SearchDock.html#a9b33dea8adfe26b4d7a5dadffbbb07a7":[4,0,3,1,0,4],
+"de/db4/classGui_1_1Docks_1_1SearchDock.html#ab75a9b1e81c3cdff742df235d0dfbfa7":[4,0,3,1,0,2],
 "de/db4/classGui_1_1Docks_1_1SearchDock.html#adf73556520bdbc579bd7d8da31ee2042":[4,0,3,1,0,0],
 "de/dbc/addquotedialog_8h_source.html":[5,0,0,0,0,0,0,3,0,1],
 "de/dc9/checkqlineedit_8h_source.html":[5,0,0,0,0,0,0,3,4,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#a27abf247ec158aafb2c13779f6630449":[4,0,3,3,0,10,1],
 "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#a2987b2e62bc39f5c9a56dfce31f429fe":[4,0,3,3,0,10,2],
 "df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#a31765b09c8742c26ed6b5f38be7b414b":[4,0,3,3,0,10,0],
-"df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#af57970124c6e10b516794f90f2b9f0be":[4,0,3,3,0,10,3],
-"df/d31/namespaceDatabases.html":[3,0,0]
+"df/d31/classGui_1_1Widgets_1_1CheckFields_1_1CheckPostalCode.html#af57970124c6e10b516794f90f2b9f0be":[4,0,3,3,0,10,3]
 };
