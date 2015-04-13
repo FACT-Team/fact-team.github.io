@@ -521,37 +521,30 @@
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">getSumQuantity</ref>(p2),<sp/>3),<sp/>3.786);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(<ref refid="dd/d31/classUtils_1_1Double_1ac831836c71b67410255fad77dcee4164" kindref="member">Utils::Double::round</ref>(contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1af9b3b1b703cebeef552d058999ffcc4c" kindref="member">getSumQuantity</ref>(p3),<sp/>2),<sp/>10.00);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1a5d34942a45954d98e53112e2523bee9b" kindref="member">setInsert</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1a286c41aee939305541eeadfa64ee17a7" kindref="member">isInsert</ref>());</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1ad93d74f1b3e0a4ad83bad859812b3547" kindref="member">setIdBilling</ref>(42);</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(42,<sp/>contributories.<ref refid="d7/d6a/classModels_1_1ContributoriesList_1a3fbbce49ffcdbfa0693f4d21dd0d8c14" kindref="member">getIdBilling</ref>());</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryListTest::testMonthQuantity()</highlight></codeline>
-<codeline lineno="173"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(4);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c;</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(40);</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(<ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(p);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>==<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
-<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryListTest::testDifferentUnit()</highlight></codeline>
-<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(4);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(40);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(<ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(p);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>!=<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(HOUR));</highlight></codeline>
-<codeline lineno="192"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryListTest::testMonthQuantity()</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(4);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(40);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(<ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(p);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>==<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryListTest::testDifferentUnit()</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(4);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(40);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(<ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(p);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>!=<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(HOUR));</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.cpp"/>
   </compounddef>
