@@ -68,42 +68,52 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Widgets<sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" kindref="compound">CoffeeEasterEggWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab95b38ef0c96088bf8b0d0352d8073fb" kindref="member">CoffeeEasterEggWidget</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" kindref="compound">CoffeeEasterEggWidget</ref>();</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ae79445a901344a963fc98172fbb3bbd1" kindref="member">setupUI</ref>();</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a17acbe1eeebcd0155cd9fdabf6f8001a" kindref="member">makeCoffeeFirstStep</ref>();</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a9fd4dcc4291612f880c7d36a1cbd3c53" kindref="member">makeCoffeeSecondStep</ref>();</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab468afccbc650083b3f30382bc5f8645" kindref="member">makeCoffeeThirdStep</ref>();</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a57504081f4694b34c1e5f5f76fe7a6ae" kindref="member">makeCoffeeFourthStep</ref>();</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a85b1ce67ec9c50cf90dfff64a4a2f5d8" kindref="member">makeCoffeeReadyStep</ref>();</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ad1442572de3c59eefec9928a4322130e" kindref="member">isDrinked</ref>();</highlight></codeline>
+<codeline lineno="19" refid="d4/dfe/namespaceGui_1_1Widgets_1ac8013eee4a45ee420c7b4f73b2ee95a8" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d4/dfe/namespaceGui_1_1Widgets_1ac8013eee4a45ee420c7b4f73b2ee95a8" kindref="member">CoffeeState</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>INIT,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>FIRST_STEP,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>SECOND_STEP,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>THIRD_STEP,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>FOURTH_STEP,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>READY</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" kindref="compound">CoffeeEasterEggWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab95b38ef0c96088bf8b0d0352d8073fb" kindref="member">CoffeeEasterEggWidget</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget" kindref="compound">CoffeeEasterEggWidget</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ae79445a901344a963fc98172fbb3bbd1" kindref="member">setupUI</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a17acbe1eeebcd0155cd9fdabf6f8001a" kindref="member">makeCoffeeFirstStep</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a9fd4dcc4291612f880c7d36a1cbd3c53" kindref="member">makeCoffeeSecondStep</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab468afccbc650083b3f30382bc5f8645" kindref="member">makeCoffeeThirdStep</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a57504081f4694b34c1e5f5f76fe7a6ae" kindref="member">makeCoffeeFourthStep</ref>();</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab078e63e3a8b1b2c363869f66e5a6633" kindref="member">makeCoffeeInProgress</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1a85b1ce67ec9c50cf90dfff64a4a2f5d8" kindref="member">makeCoffeeReadyStep</ref>();</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1accaae451a705877710d40fd19723df80" kindref="member">nextState</ref>();</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::CoffeeEasterEggWidget<sp/>*ui;<sp/><sp/></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>*_timer;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_state;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_drinked;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COFFEEEASTEREGGWIDGET_H</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ad1442572de3c59eefec9928a4322130e" kindref="member">isDrinked</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1ab078e63e3a8b1b2c363869f66e5a6633" kindref="member">makeCoffeeInProgress</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget_1accaae451a705877710d40fd19723df80" kindref="member">nextState</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::CoffeeEasterEggWidget<sp/>*ui;<sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>*_timer;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dfe/namespaceGui_1_1Widgets_1ac8013eee4a45ee420c7b4f73b2ee95a8" kindref="member">CoffeeState</ref><sp/>_state;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_drinked;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COFFEEEASTEREGGWIDGET_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/widgets/coffeeeastereggwidget.h"/>
   </compounddef>
