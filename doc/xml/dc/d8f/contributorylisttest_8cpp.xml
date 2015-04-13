@@ -551,7 +551,17 @@
 <codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>!=<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(HOUR));</highlight></codeline>
 <codeline lineno="192"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ContributoryListTest::testInsert()</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>*<sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/classModels_1_1Project" kindref="compound">Project</ref>(4);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dd1/classModels_1_1Contributory" kindref="compound">Contributory</ref><sp/>c;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1afe02bdd167c6aed02c81a6e684293e99" kindref="member">setQuantity</ref>(40);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a257273fe7acbd73c885d1c0fdddbb95e" kindref="member">setUnit</ref>(<ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(MONTH));</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1a4478894daf317068856b707491d03555" kindref="member">setProject</ref>(p);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>QCOMPARE(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>c.<ref refid="d5/dd1/classModels_1_1Contributory_1aa89a7587555a6ec768638e0c21d17450" kindref="member">getUnit</ref>()<sp/>!=<sp/><ref refid="dc/d11/classModels_1_1Unit" kindref="compound">Unit</ref>(HOUR));</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/models/contributorylisttest.cpp"/>
   </compounddef>
