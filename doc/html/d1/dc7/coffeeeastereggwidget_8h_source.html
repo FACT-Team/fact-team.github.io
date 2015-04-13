@@ -96,39 +96,38 @@ $(document).ready(function(){initNavTree('d1/dc7/coffeeeastereggwidget_8h_source
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab95b38ef0c96088bf8b0d0352d8073fb">CoffeeEasterEggWidget</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    ~<a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html">CoffeeEasterEggWidget</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ae79445a901344a963fc98172fbb3bbd1">setupUI</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a17acbe1eeebcd0155cd9fdabf6f8001a">makeCoffeeFirstStep</a>();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a9fd4dcc4291612f880c7d36a1cbd3c53">makeCoffeeSecondStep</a>();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab468afccbc650083b3f30382bc5f8645">makeCoffeeThirdStep</a>();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a57504081f4694b34c1e5f5f76fe7a6ae">makeCoffeeFourthStep</a>();</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a85b1ce67ec9c50cf90dfff64a4a2f5d8">makeCoffeeReadyStep</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ad1442572de3c59eefec9928a4322130e">isDrinked</a>();</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab078e63e3a8b1b2c363869f66e5a6633">makeCoffeeInProgress</a>();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#accaae451a705877710d40fd19723df80">nextState</a>();</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    Ui::CoffeeEasterEggWidget *ui;  </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    QTimer *_timer;                 </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/dfe/namespaceGui_1_1Widgets.html#ac8013eee4a45ee420c7b4f73b2ee95a8">CoffeeState</a> _state;             </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> _drinked;                   </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab95b38ef0c96088bf8b0d0352d8073fb">CoffeeEasterEggWidget</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    ~<a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html">CoffeeEasterEggWidget</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ae79445a901344a963fc98172fbb3bbd1">setupUI</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a17acbe1eeebcd0155cd9fdabf6f8001a">makeCoffeeFirstStep</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a9fd4dcc4291612f880c7d36a1cbd3c53">makeCoffeeSecondStep</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab468afccbc650083b3f30382bc5f8645">makeCoffeeThirdStep</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a57504081f4694b34c1e5f5f76fe7a6ae">makeCoffeeFourthStep</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a85b1ce67ec9c50cf90dfff64a4a2f5d8">makeCoffeeReadyStep</a>();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ad1442572de3c59eefec9928a4322130e">isDrinked</a>();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#ab078e63e3a8b1b2c363869f66e5a6633">makeCoffeeInProgress</a>();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#accaae451a705877710d40fd19723df80">nextState</a>();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    Ui::CoffeeEasterEggWidget *ui;  </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    QTimer *_timer;                 </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/dfe/namespaceGui_1_1Widgets.html#ac8013eee4a45ee420c7b4f73b2ee95a8">CoffeeState</a> _state;             </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> _drinked;                   </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#endif // COFFEEEASTEREGGWIDGET_H</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#endif // COFFEEEASTEREGGWIDGET_H</span></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1CoffeeEasterEggWidget_html_a9fd4dcc4291612f880c7d36a1cbd3c53"><div class="ttname"><a href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html#a9fd4dcc4291612f880c7d36a1cbd3c53">Gui::Widgets::CoffeeEasterEggWidget::makeCoffeeSecondStep</a></div><div class="ttdeci">void makeCoffeeSecondStep()</div><div class="ttdoc">CoffeeEasterEggWidget::makeCoffeeSecondStep Second step to make coffee. </div><div class="ttdef"><b>Definition:</b> coffeeeastereggwidget.cpp:50</div></div>
 <div class="ttc" id="classGui_1_1Widgets_1_1CoffeeEasterEggWidget_html"><div class="ttname"><a href="../../dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html">Gui::Widgets::CoffeeEasterEggWidget</a></div><div class="ttdoc">The CoffeeEasterEggWidget class Easter egg class because we need coffee. </div><div class="ttdef"><b>Definition:</b> coffeeeastereggwidget.h:33</div></div>
 <div class="ttc" id="namespaceGui_1_1Widgets_html_ac8013eee4a45ee420c7b4f73b2ee95a8"><div class="ttname"><a href="../../d4/dfe/namespaceGui_1_1Widgets.html#ac8013eee4a45ee420c7b4f73b2ee95a8">Gui::Widgets::CoffeeState</a></div><div class="ttdeci">CoffeeState</div><div class="ttdoc">The CoffeeState enum. </div><div class="ttdef"><b>Definition:</b> coffeeeastereggwidget.h:19</div></div>
@@ -147,7 +146,7 @@ $(document).ready(function(){initNavTree('d1/dc7/coffeeeastereggwidget_8h_source
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_06296ad887369d0fe6ed319688dcbec9.html">travis</a></li><li class="navelem"><a class="el" href="../../dir_9da5c968de586c136c62b60970cbb10e.html">build</a></li><li class="navelem"><a class="el" href="../../dir_980fe81c3e6521024333b1db5aa179f3.html">FACT-Team</a></li><li class="navelem"><a class="el" href="../../dir_53fe455de580cb7e3a7b88d6ee07129b.html">FactDev</a></li><li class="navelem"><a class="el" href="../../dir_3df89c12cabbd458a6e664b4b188b77a.html">src</a></li><li class="navelem"><a class="el" href="../../dir_b290be4b5d02b7b48e72ffae6f8b88d6.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_381b413982d478049d22ff06f0a5ecf9.html">widgets</a></li><li class="navelem"><b>coffeeeastereggwidget.h</b></li>
-    <li class="footer">Generated on Mon Apr 13 2015 10:03:37 for FactDev by
+    <li class="footer">Generated on Mon Apr 13 2015 12:41:32 for FactDev by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
