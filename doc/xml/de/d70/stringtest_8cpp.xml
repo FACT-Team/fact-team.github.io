@@ -4,51 +4,49 @@
     <compoundname>stringtest.cpp</compoundname>
     <includes refid="db/d1a/stringtest_8h" local="yes">stringtest.h</includes>
     <incdepgraph>
-      <node id="7534">
+      <node id="7535">
         <label>list</label>
       </node>
-      <node id="7529">
+      <node id="7530">
         <label>QObject</label>
       </node>
-      <node id="7532">
+      <node id="7533">
         <label>QSharedPointer</label>
       </node>
-      <node id="7536">
+      <node id="7537">
         <label>utils/string.h</label>
         <link refid="da/d66/string_8h_source"/>
+        <childnode refid="7538" relation="include">
+        </childnode>
+      </node>
+      <node id="7529">
+        <label>stringtest.h</label>
+        <link refid="db/d1a/stringtest_8h_source"/>
+        <childnode refid="7530" relation="include">
+        </childnode>
+        <childnode refid="7531" relation="include">
+        </childnode>
         <childnode refid="7537" relation="include">
         </childnode>
       </node>
+      <node id="7532">
+        <label>QTest</label>
+      </node>
+      <node id="7538">
+        <label>QString</label>
+      </node>
+      <node id="7536">
+        <label>iostream</label>
+      </node>
       <node id="7528">
-        <label>stringtest.h</label>
-        <link refid="db/d1a/stringtest_8h_source"/>
+        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</label>
+        <link refid="stringtest.cpp"/>
         <childnode refid="7529" relation="include">
-        </childnode>
-        <childnode refid="7530" relation="include">
-        </childnode>
-        <childnode refid="7536" relation="include">
         </childnode>
       </node>
       <node id="7531">
-        <label>QTest</label>
-      </node>
-      <node id="7537">
-        <label>QString</label>
-      </node>
-      <node id="7535">
-        <label>iostream</label>
-      </node>
-      <node id="7527">
-        <label>/home/travis/build/FACT-Team/FactDev/tests/utils/stringtest.cpp</label>
-        <link refid="stringtest.cpp"/>
-        <childnode refid="7528" relation="include">
-        </childnode>
-      </node>
-      <node id="7530">
         <label>QTestRunner/testrunner.h</label>
         <link refid="dd/da8/testrunner_8h_source"/>
-        <childnode refid="7531" relation="include">
-        </childnode>
         <childnode refid="7532" relation="include">
         </childnode>
         <childnode refid="7533" relation="include">
@@ -57,8 +55,10 @@
         </childnode>
         <childnode refid="7535" relation="include">
         </childnode>
+        <childnode refid="7536" relation="include">
+        </childnode>
       </node>
-      <node id="7533">
+      <node id="7534">
         <label>algorithm</label>
       </node>
     </incdepgraph>
