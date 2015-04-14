@@ -5,40 +5,40 @@
     <includes refid="d0/d78/chosefilewidget_8h" local="yes">chosefilewidget.h</includes>
     <includes local="yes">ui_chosepathwidget.h</includes>
     <incdepgraph>
-      <node id="3006">
+      <node id="3007">
         <label>ui_chosepathwidget.h</label>
       </node>
-      <node id="3001">
+      <node id="3002">
         <label>chosefilewidget.h</label>
         <link refid="d0/d78/chosefilewidget_8h_source"/>
-        <childnode refid="3002" relation="include">
-        </childnode>
         <childnode refid="3003" relation="include">
         </childnode>
+        <childnode refid="3004" relation="include">
+        </childnode>
       </node>
-      <node id="3000">
+      <node id="3001">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/path/chosefilewidget.cpp</label>
         <link refid="chosefilewidget.cpp"/>
-        <childnode refid="3001" relation="include">
+        <childnode refid="3002" relation="include">
+        </childnode>
+        <childnode refid="3007" relation="include">
+        </childnode>
+      </node>
+      <node id="3003">
+        <label>QFileDialog</label>
+      </node>
+      <node id="3005">
+        <label>QWidget</label>
+      </node>
+      <node id="3004">
+        <label>chosepathwidget.h</label>
+        <link refid="df/d7a/chosepathwidget_8h_source"/>
+        <childnode refid="3005" relation="include">
         </childnode>
         <childnode refid="3006" relation="include">
         </childnode>
       </node>
-      <node id="3002">
-        <label>QFileDialog</label>
-      </node>
-      <node id="3004">
-        <label>QWidget</label>
-      </node>
-      <node id="3003">
-        <label>chosepathwidget.h</label>
-        <link refid="df/d7a/chosepathwidget_8h_source"/>
-        <childnode refid="3004" relation="include">
-        </childnode>
-        <childnode refid="3005" relation="include">
-        </childnode>
-      </node>
-      <node id="3005">
+      <node id="3006">
         <label>QDir</label>
       </node>
     </incdepgraph>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"d5/d2f/classGui_1_1MainWindow.html#a5dfb182cf52eb48f71e70cd193ef7a8b":[4,0,3,4,19],
+"d5/d2f/classGui_1_1MainWindow.html#a5ea8e526d288b96595618942d44154d3":[4,0,3,4,0],
+"d5/d2f/classGui_1_1MainWindow.html#a6487a725a2b58b89062944778ac59eca":[4,0,3,4,16],
 "d5/d2f/classGui_1_1MainWindow.html#a6df8072789ea8ec81ca2dd8fa78a4b01":[4,0,3,4,5],
 "d5/d2f/classGui_1_1MainWindow.html#a6fc6c0f088d3996ad941705a13d7aaae":[4,0,3,4,29],
 "d5/d2f/classGui_1_1MainWindow.html#a7c85d2a0d68c046fa678bdc12feef96d":[4,0,3,4,33],
@@ -223,10 +226,10 @@ var NAVTREEINDEX1 =
 "d7/d39/classDatabases_1_1ProjectDatabase.html#abdd5fcb1913c2d2f375a658f6656c522":[4,0,0,5,11],
 "d7/d39/classDatabases_1_1ProjectDatabase.html#ac00628f2d8911298dcb0292f6c4cff66":[4,0,0,5,9],
 "d7/d39/classDatabases_1_1ProjectDatabase.html#ac2532676aabcc8f304b2a3ddf4892205":[4,0,0,5,1],
-"d7/d49/itemtypetest_8h_source.html":[5,0,0,0,0,0,1,4,3],
+"d7/d49/itemtypetest_8h_source.html":[5,0,0,0,0,0,1,4,4],
 "d7/d4e/customermodeltest_8h_source.html":[5,0,0,0,0,0,1,1,3],
-"d7/d51/classsearchTest.html":[4,0,25],
-"d7/d51/classsearchTest.html#a21b6ae1d7256867c133e98b9140662b4":[4,0,25,0],
+"d7/d51/classsearchTest.html":[4,0,26],
+"d7/d51/classsearchTest.html#a21b6ae1d7256867c133e98b9140662b4":[4,0,26,0],
 "d7/d52/checkuntilfield_8h_source.html":[5,0,0,0,0,0,0,3,4,0,13],
 "d7/d64/contributoriesdatabasetest_8h_source.html":[5,0,0,0,0,0,1,0,1],
 "d7/d6a/classModels_1_1ContributoriesList.html":[4,0,4,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "d7/d6a/classModels_1_1ContributoriesList.html#a760097b1c0d7822cfd3d4796d553fae9":[4,0,4,2,7],
 "d7/d6a/classModels_1_1ContributoriesList.html#a7b3cbc06dace77fcc1d00fd8f25fa87a":[4,0,4,2,16],
 "d7/d6a/classModels_1_1ContributoriesList.html#ab1e56df0cb050f6775468a3fdf722299":[4,0,4,2,1],
-"d7/d6a/classModels_1_1ContributoriesList.html#ad341e0527f4c9057281400f6cf54e54f":[4,0,4,2,4],
-"d7/d6a/classModels_1_1ContributoriesList.html#ad5ffb2920d2c818f1283a3f26b14a058":[4,0,4,2,12],
-"d7/d6a/classModels_1_1ContributoriesList.html#ad93d74f1b3e0a4ad83bad859812b3547":[4,0,4,2,19],
-"d7/d6a/classModels_1_1ContributoriesList.html#af063322348b0f02d0c7159bd7413a836":[4,0,4,2,8]
+"d7/d6a/classModels_1_1ContributoriesList.html#ad341e0527f4c9057281400f6cf54e54f":[4,0,4,2,4]
 };
