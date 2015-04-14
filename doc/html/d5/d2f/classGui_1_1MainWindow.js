@@ -28,6 +28,7 @@ var classGui_1_1MainWindow =
     [ "globalStatistics", "d5/d2f/classGui_1_1MainWindow.html#a41e44415a270150b6630efcb87768d7f", null ],
     [ "isEasterEgg", "d5/d2f/classGui_1_1MainWindow.html#a2cacb5b7aa0109215473a6e59d28151c", null ],
     [ "lockProject", "d5/d2f/classGui_1_1MainWindow.html#a96335036187601e48bb46945d57fc2a5", null ],
+    [ "mergeDocks", "d5/d2f/classGui_1_1MainWindow.html#adc45883c353219dcfbb15a3bc356909a", null ],
     [ "openPdf", "d5/d2f/classGui_1_1MainWindow.html#a6fc6c0f088d3996ad941705a13d7aaae", null ],
     [ "removeCustomer", "d5/d2f/classGui_1_1MainWindow.html#ab86dd052f06fb56dbd77e3ae4c228796", null ],
     [ "removeDoc", "d5/d2f/classGui_1_1MainWindow.html#af86458ad953cb70fb7a88245a6047550", null ],

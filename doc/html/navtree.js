@@ -34,9 +34,9 @@ var NAVTREEINDEX =
 [
 ".html",
 "d5/d2f/classGui_1_1MainWindow.html#a6df8072789ea8ec81ca2dd8fa78a4b01",
-"d7/d75/classGui_1_1Widgets_1_1searchWidget.html",
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a5df8b1b23dbd38d2244cabf91e481fd5",
-"df/d18/classDirectoriesTests.html"
+"d7/d6a/classModels_1_1ContributoriesList.html#af9b3b1b703cebeef552d058999ffcc4c",
+"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a361398f7c11d07a2303c4c5236b3c944",
+"de/dfa/calculable_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

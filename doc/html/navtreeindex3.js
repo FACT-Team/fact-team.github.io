@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a361398f7c11d07a2303c4c5236b3c944":[4,0,3,3,3,0,3],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a5df8b1b23dbd38d2244cabf91e481fd5":[4,0,3,3,3,0,11],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a7ac53a3ff1222c15e264cff34b830582":[4,0,3,3,3,0,0],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a9fd40a3339be5a1efbe621f6a1bb89aa":[4,0,3,3,3,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ad582a62ec4204c2ef5081c5431824491":[4,0,3,0,5,10],
 "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#ae3e9ade2f5949d5fb57e06c54106609f":[4,0,3,0,5,8],
 "de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#aedfea7b7d80e1877e50647fae5bdc052":[4,0,3,0,5,13],
-"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#afd791a73e2d897147b31c829131942af":[4,0,3,0,5,11],
-"de/dfa/calculable_8h_source.html":[5,0,0,0,0,0,0,5,1]
+"de/de1/classGui_1_1Dialogs_1_1StartedWindowsDialog.html#afd791a73e2d897147b31c829131942af":[4,0,3,0,5,11]
 };

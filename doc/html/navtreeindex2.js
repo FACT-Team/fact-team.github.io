@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d7/d6a/classModels_1_1ContributoriesList.html#af9b3b1b703cebeef552d058999ffcc4c":[4,0,4,2,15],
 "d7/d75/classGui_1_1Widgets_1_1searchWidget.html":[4,0,3,3,14],
 "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a20de80dbfa207b4ecc8b12433fcebb4b":[4,0,3,3,14,4],
 "d7/d75/classGui_1_1Widgets_1_1searchWidget.html#a3cb27e088874c5b8c548d0346a5d85f2":[4,0,3,3,14,5],
@@ -182,13 +183,13 @@ var NAVTREEINDEX2 =
 "db/da6/classCounterContext.html":[4,0,12],
 "db/da6/classCounterContext.html#a01764884d5bdbe014b8e569c10c82e99":[4,0,12,4],
 "db/da6/classCounterContext.html#a01764884d5bdbe014b8e569c10c82e99":[4,0,12,5],
-"db/da6/classCounterContext.html#a05c70666c806b2cd888c24f5edae8d87":[4,0,12,1],
 "db/da6/classCounterContext.html#a05c70666c806b2cd888c24f5edae8d87":[4,0,12,0],
-"db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,3],
+"db/da6/classCounterContext.html#a05c70666c806b2cd888c24f5edae8d87":[4,0,12,1],
 "db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,2],
+"db/da6/classCounterContext.html#a2b2c8d5bbd329e20ce6e16be72676291":[4,0,12,3],
 "db/da6/classCounterContext.html#ac4ad706a0ad4e81fed489f97c5049e03":[4,0,12,8],
-"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,7],
 "db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,6],
+"db/da6/classCounterContext.html#adb984d696efcc32abaaf0aaeade4f8b8":[4,0,12,7],
 "db/db3/classUtils_1_1Log.html":[4,0,6,4],
 "db/db3/classUtils_1_1Log.html#a0191645e4f86af331290c7062c79d7b7":[4,0,6,4,0],
 "db/db3/classUtils_1_1Log.html#a1ecba3328cadecbbd7d65ae2852171fc":[4,0,6,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "dc/d58/classMustache_1_1Renderer.html#ab82d90fe802606145d1f7ed9f2a9cf81":[4,0,5,6,4],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html":[4,0,3,3,3,0],
 "dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a0946d335077398f9c35f554340139ba6":[4,0,3,3,3,0,9],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a2b83574c5ed7a98f1b311e14e4112d13":[4,0,3,3,3,0,5],
-"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a361398f7c11d07a2303c4c5236b3c944":[4,0,3,3,3,0,3]
+"dc/d82/classGui_1_1Widgets_1_1WdgModels_1_1BillingsTableModel.html#a2b83574c5ed7a98f1b311e14e4112d13":[4,0,3,3,3,0,5]
 };
