@@ -246,7 +246,7 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>folder<sp/>=<sp/>user.getWorkspaceName();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>directory.setPath(path);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>path<sp/>=<sp/><ref refid="d8/d40/classUtils_1_1Directories_1aee35810bcf4ef02b37408f23f2dcdb49" kindref="member">Utils::Directories::makeDirectory</ref>(directory,<sp/>path,<sp/>folder);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="stringliteral">&quot;/home/florent/Documents/FactDev&quot;</highlight><highlight class="normal"><sp/>==<sp/>path);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QVERIFY(QDir(QDir::homePath()+</highlight><highlight class="stringliteral">&quot;/Documents/FactDev&quot;</highlight><highlight class="normal">).absolutePath()<sp/>==<sp/>QDir(path).absolutePath());</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DirectoriesTests::invalidDirectoriesTest()<sp/>{</highlight></codeline>
@@ -270,14 +270,9 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFAIL(</highlight><highlight class="stringliteral">&quot;Exception<sp/>not<sp/>thrown&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(<ref refid="d9/d57/classExceptions_1_1FileException" kindref="compound">Exceptions::FileException</ref>*)<sp/>{</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception&amp;<sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVERIFY(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/tests/utils/directoriestests.cpp"/>
   </compounddef>
