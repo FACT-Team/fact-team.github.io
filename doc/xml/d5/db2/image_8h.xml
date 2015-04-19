@@ -7,75 +7,68 @@
     <includedby refid="d1/d70/customerdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</includedby>
     <includedby refid="d2/dbc/userdatabase_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</includedby>
     <includedby refid="db/d11/image_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp</includedby>
-    <includedby refid="d1/dc7/coffeeeastereggwidget_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/widgets/coffeeeastereggwidget.h</includedby>
     <incdepgraph>
-      <node id="2122">
+      <node id="2066">
         <label>QBuffer</label>
       </node>
-      <node id="2120">
+      <node id="2064">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h</label>
         <link refid="image.h"/>
-        <childnode refid="2121" relation="include">
+        <childnode refid="2065" relation="include">
         </childnode>
-        <childnode refid="2122" relation="include">
+        <childnode refid="2066" relation="include">
         </childnode>
       </node>
-      <node id="2121">
+      <node id="2065">
         <label>QPixmap</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2126">
+      <node id="2070">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
         <link refid="d9/d53/mainwindow_8h_source"/>
-        <childnode refid="2125" relation="include">
+        <childnode refid="2069" relation="include">
         </childnode>
       </node>
-      <node id="2125">
+      <node id="2069">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
         <link refid="d8/d0b/addprojectdialog_8h_source"/>
-        <childnode refid="2126" relation="include">
+        <childnode refid="2070" relation="include">
         </childnode>
-        <childnode refid="2127" relation="include">
+        <childnode refid="2071" relation="include">
         </childnode>
       </node>
-      <node id="2124">
+      <node id="2068">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/customerdatabase.h</label>
         <link refid="d1/d70/customerdatabase_8h_source"/>
-        <childnode refid="2125" relation="include">
+        <childnode refid="2069" relation="include">
         </childnode>
-        <childnode refid="2128" relation="include">
+        <childnode refid="2072" relation="include">
         </childnode>
-        <childnode refid="2129" relation="include">
+        <childnode refid="2073" relation="include">
         </childnode>
       </node>
-      <node id="2128">
+      <node id="2072">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/comboboxmodelwidget.h</label>
         <link refid="d6/d5b/comboboxmodelwidget_8h_source"/>
       </node>
-      <node id="2123">
+      <node id="2067">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h</label>
         <link refid="image.h"/>
-        <childnode refid="2124" relation="include">
+        <childnode refid="2068" relation="include">
         </childnode>
-        <childnode refid="2130" relation="include">
-        </childnode>
-        <childnode refid="2131" relation="include">
+        <childnode refid="2074" relation="include">
         </childnode>
       </node>
-      <node id="2129">
+      <node id="2073">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/searchwidget.h</label>
         <link refid="d7/d15/searchwidget_8h_source"/>
       </node>
-      <node id="2127">
+      <node id="2071">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
         <link refid="da/d5e/projectswidget_8h_source"/>
       </node>
-      <node id="2131">
-        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/coffeeeastereggwidget.h</label>
-        <link refid="d1/dc7/coffeeeastereggwidget_8h_source"/>
-      </node>
-      <node id="2130">
+      <node id="2074">
         <label>/home/travis/build/FACT-Team/FactDev/src/database/userdatabase.h</label>
         <link refid="d2/dbc/userdatabase_8h_source"/>
       </node>
@@ -107,14 +100,11 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QImage<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1abd2651b6ee762ee438231288887235df" kindref="member">pixmapToImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPixmap<sp/>pix);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QPixmap<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1a891cce6ddd74add919c2c68c90e46960" kindref="member">bytesToPixmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QByteArray<sp/>bytes);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QPixmap<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">getImage</ref>(QString<sp/>path,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>256,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>256);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>IMAGE_H</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>IMAGE_H</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h"/>
   </compounddef>

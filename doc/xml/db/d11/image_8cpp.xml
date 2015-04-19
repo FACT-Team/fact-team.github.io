@@ -4,24 +4,24 @@
     <compoundname>image.cpp</compoundname>
     <includes refid="d5/db2/image_8h" local="yes">image.h</includes>
     <incdepgraph>
-      <node id="2115">
+      <node id="2059">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp</label>
         <link refid="image.cpp"/>
-        <childnode refid="2116" relation="include">
+        <childnode refid="2060" relation="include">
         </childnode>
       </node>
-      <node id="2118">
+      <node id="2062">
         <label>QBuffer</label>
       </node>
-      <node id="2116">
+      <node id="2060">
         <label>image.h</label>
         <link refid="d5/db2/image_8h_source"/>
-        <childnode refid="2117" relation="include">
+        <childnode refid="2061" relation="include">
         </childnode>
-        <childnode refid="2118" relation="include">
+        <childnode refid="2062" relation="include">
         </childnode>
       </node>
-      <node id="2117">
+      <node id="2061">
         <label>QPixmap</label>
       </node>
     </incdepgraph>
@@ -52,27 +52,19 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QPixmap::fromImage(QImage::fromData(bytes));</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">QPixmap<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Image::getImage</ref>(QString<sp/>path,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>img(path);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>img.scaled(width,height,Qt::KeepAspectRatio);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>img;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">QByteArray<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1aad7d91d84d4d6f51080eee06419aee80" kindref="member">Image::imageToBytes</ref>(QImage<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>ext)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>bytesArray;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>extArray<sp/>=<sp/>ext.toLocal8Bit();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QBuffer<sp/>buffer(&amp;bytesArray);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer.open(QIODevice::WriteOnly);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>image.save(&amp;buffer,<sp/>extArray.data());</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">QByteArray<sp/><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1aad7d91d84d4d6f51080eee06419aee80" kindref="member">Image::imageToBytes</ref>(QImage<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>ext)<sp/>{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>bytesArray;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/>extArray<sp/>=<sp/>ext.toLocal8Bit();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QBuffer<sp/>buffer(&amp;bytesArray);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer.open(QIODevice::WriteOnly);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>image.save(&amp;buffer,<sp/>extArray.data());</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bytesArray;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bytesArray;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp"/>
   </compounddef>

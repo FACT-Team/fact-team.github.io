@@ -117,10 +117,7 @@ var hierarchy =
       [ "ContributoryModelTest", "d5/d97/classContributoryModelTest.html", null ],
       [ "CustomerDatabaseTest", "d2/d63/classCustomerDatabaseTest.html", null ],
       [ "CustomerModelTest", "d5/dcd/classCustomerModelTest.html", null ],
-      [ "DirectoriesTest", "d4/d7d/classDirectoriesTest.html", null ],
-      [ "DirectoriesTests", "df/d18/classDirectoriesTests.html", null ],
       [ "Generation", "d4/df7/classGeneration.html", null ],
-      [ "HierarchicalSystemTest", "dd/d86/classHierarchicalSystemTest.html", null ],
       [ "ItemTypeTest", "d3/de2/classItemTypeTest.html", null ],
       [ "PointersTest", "d8/d62/classPointersTest.html", null ],
       [ "ProjectDatabaseTest", "df/d3e/classProjectDatabaseTest.html", null ],
@@ -137,7 +134,6 @@ var hierarchy =
     [ "QWidget", null, [
       [ "FileChoseWidget", "d4/d92/classFileChoseWidget.html", null ],
       [ "Gui::Widgets::BrowseImageWidget", "d1/d4f/classGui_1_1Widgets_1_1BrowseImageWidget.html", null ],
-      [ "Gui::Widgets::CoffeeEasterEggWidget", "dc/ddf/classGui_1_1Widgets_1_1CoffeeEasterEggWidget.html", null ],
       [ "Gui::Widgets::ComboBoxModelWidget", "d2/de0/classGui_1_1Widgets_1_1ComboBoxModelWidget.html", null ],
       [ "Gui::Widgets::ContributoriesWidget", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html", null ],
       [ "Gui::Widgets::CustomerDataWidget", "df/deb/classGui_1_1Widgets_1_1CustomerDataWidget.html", null ],
@@ -148,8 +144,7 @@ var hierarchy =
       ] ],
       [ "Gui::Widgets::ProjectsWidget", "dc/d8c/classGui_1_1Widgets_1_1ProjectsWidget.html", null ],
       [ "Gui::Widgets::RateWidget", "d0/de2/classGui_1_1Widgets_1_1RateWidget.html", null ],
-      [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ],
-      [ "Gui::Widgets::UserDailyHoursWidget", "d1/d94/classGui_1_1Widgets_1_1UserDailyHoursWidget.html", null ]
+      [ "Gui::Widgets::searchWidget", "d7/d75/classGui_1_1Widgets_1_1searchWidget.html", null ]
     ] ],
     [ "Models::Rate", "d9/dc5/classModels_1_1Rate.html", null ],
     [ "Mustache::Renderer", "dc/d58/classMustache_1_1Renderer.html", null ],
