@@ -14,8 +14,6 @@ var classModels_1_1Project =
     [ "getEndDate", "dd/d3f/classModels_1_1Project.html#aaf6792d15dcd65c3708e4a01b80e3108", null ],
     [ "getName", "dd/d3f/classModels_1_1Project.html#a11d3b85bdc38daba928bfbfd962a0e32", null ],
     [ "hydrat", "dd/d3f/classModels_1_1Project.html#aa293709eeb68e4271cac8d4cce418ffa", null ],
-    [ "isLocked", "dd/d3f/classModels_1_1Project.html#a5ea39222d1c37ae38ea088921785ecba", null ],
-    [ "lock", "dd/d3f/classModels_1_1Project.html#a6236dccb2ed5a21b353c3379aa8298fd", null ],
     [ "operator!=", "dd/d3f/classModels_1_1Project.html#adf5947680a4eca62cd1cbda58a2a62f0", null ],
     [ "operator<", "dd/d3f/classModels_1_1Project.html#a8e7cc264d433c708323faccae7bdd082", null ],
     [ "operator==", "dd/d3f/classModels_1_1Project.html#a2f322e63f6b42273c24093b9df46c2d6", null ],
@@ -25,6 +23,5 @@ var classModels_1_1Project =
     [ "setDailyRate", "dd/d3f/classModels_1_1Project.html#a9bc03d9632334a550bd25f6286d2c7a2", null ],
     [ "setDescription", "dd/d3f/classModels_1_1Project.html#a2cccaca77bff95f13b3320f3f03dc9e7", null ],
     [ "setEndDate", "dd/d3f/classModels_1_1Project.html#a89e9603b862d0a282e4eb03e122e8c05", null ],
-    [ "setName", "dd/d3f/classModels_1_1Project.html#ac5ffa6ff6d31647fd880881257f47889", null ],
-    [ "unlock", "dd/d3f/classModels_1_1Project.html#ad7aa6de9c19efe1743cb483e35e5a55c", null ]
+    [ "setName", "dd/d3f/classModels_1_1Project.html#ac5ffa6ff6d31647fd880881257f47889", null ]
 ];
