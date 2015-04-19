@@ -12,6 +12,8 @@ var classGui_1_1Widgets_1_1ContributoriesWidget =
     [ "getContributories", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a72c0f4a49aaafdf045154bafb1e76049", null ],
     [ "remove", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a35895ad0b9c497263f633680288b414e", null ],
     [ "removeProject", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#ad907c5827c4e1ee3b82adbe6f2f77309", null ],
+    [ "responsiveContributoriesTable", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a7302971f64977ee3ade54611570add8d", null ],
+    [ "responsiveProjectsTable", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a734aa654bd463683e900486a6ab27ea1", null ],
     [ "updatePrice", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#ad6c925eaf605e1b0382b0ec00eac5abf", null ],
     [ "updateUi", "dc/da3/classGui_1_1Widgets_1_1ContributoriesWidget.html#a5231cbde89d73ccdbb734e6aee0cb3ff", null ]
 ];

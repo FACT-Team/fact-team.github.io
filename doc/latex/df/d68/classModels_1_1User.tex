@@ -64,10 +64,22 @@ Q\-String \hyperlink{classModels_1_1User_ae8a894050c3e9266518707f6e5cd1c2f}{get\
 \begin{DoxyCompactList}\small\item\em get\-Pdflatex\-Path The path of pdflatex \end{DoxyCompactList}\item 
 void \hyperlink{classModels_1_1User_ac65a44513c34f7e67888062d8bee3e54}{set\-Pdflatex\-Path} (const Q\-String \&\hyperlink{classModels_1_1User_ae8a894050c3e9266518707f6e5cd1c2f}{get\-Pdflatex\-Path})
 \begin{DoxyCompactList}\small\item\em set\-Pdflatex\-Path Change the pdflatex command path. \end{DoxyCompactList}\item 
-int \hyperlink{classModels_1_1User_acb46d721cae3c0a9059de32da0c33eaa}{get\-Nb\-Hours\-Per\-Days} ()
+double \hyperlink{classModels_1_1User_a5ebdd9899c343c828d03c74045aa6989}{get\-Nb\-Hours\-Per\-Day} () const 
 \begin{DoxyCompactList}\small\item\em nb\-Hours\-Per\-Days The number of hours per days who the user work. \end{DoxyCompactList}\item 
-int \hyperlink{classModels_1_1User_a1ec672f16a5dbb248e05f2e957094c4d}{get\-Nb\-Days\-Per\-Months} ()
-\begin{DoxyCompactList}\small\item\em get\-Nb\-Days\-Per\-Months The number of days per months who the user work. \end{DoxyCompactList}\end{DoxyCompactItemize}
+void \hyperlink{classModels_1_1User_a1fcef9f88da89f808a5a2225ca11c809}{set\-Nb\-Hours\-Per\-Day} (double value)
+\begin{DoxyCompactList}\small\item\em set\-Nb\-Hours\-Per\-Day Change the number of hours per day \end{DoxyCompactList}\item 
+double \hyperlink{classModels_1_1User_a264cf13078c59b3f676e038db2dffc2e}{get\-Nb\-Days\-Per\-Month} () const 
+\begin{DoxyCompactList}\small\item\em get\-Nb\-Days\-Per\-Months The number of days per months who the user work. \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1User_ac68ad7cdc7da220cbb03d99dffd6d774}{set\-Nb\-Days\-Per\-Month} (double \hyperlink{classModels_1_1User_a264cf13078c59b3f676e038db2dffc2e}{get\-Nb\-Days\-Per\-Month})
+\begin{DoxyCompactList}\small\item\em set\-Nb\-Days\-Per\-Month Change the number of days per month \end{DoxyCompactList}\item 
+double \hyperlink{classModels_1_1User_a5e3d5058a495cf15d2741b788bc971c1}{get\-Nb\-Days\-Per\-Week} () const 
+\begin{DoxyCompactList}\small\item\em get\-Nb\-Days\-Per\-Week The number of days per week \end{DoxyCompactList}\item 
+void \hyperlink{classModels_1_1User_a463e429e22f908f304d66fc22e48fc8e}{set\-Nb\-Days\-Per\-Week} (double value)
+\begin{DoxyCompactList}\small\item\em set\-Nb\-Days\-Per\-Week Change the number of days per week \end{DoxyCompactList}\item 
+double \hyperlink{classModels_1_1User_a9224cf423418449ecfa85c762cc1ee5a}{get\-Nb\-Hours\-Per\-Week} () const 
+\begin{DoxyCompactList}\small\item\em get\-Nb\-Hours\-Per\-Week The number of hours per weeks. \end{DoxyCompactList}\item 
+double \hyperlink{classModels_1_1User_acc716536a65768c721242cfa18f207af}{get\-Nb\-Hours\-Per\-Month} () const 
+\begin{DoxyCompactList}\small\item\em get\-Nb\-Hours\-Per\-Month The number of hours per months. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -131,13 +143,13 @@ Implements \hyperlink{classModels_1_1IModel_a9851b0f296aac58353edff22af11cf3c}{M
 \begin{DoxyReturn}{Returns}
 compagny image 
 \end{DoxyReturn}
-\hypertarget{classModels_1_1User_a1ec672f16a5dbb248e05f2e957094c4d}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Days\-Per\-Months@{get\-Nb\-Days\-Per\-Months}}
-\index{get\-Nb\-Days\-Per\-Months@{get\-Nb\-Days\-Per\-Months}!Models::User@{Models\-::\-User}}
-\subsubsection[{get\-Nb\-Days\-Per\-Months}]{\setlength{\rightskip}{0pt plus 5cm}int Models\-::\-User\-::get\-Nb\-Days\-Per\-Months (
+\hypertarget{classModels_1_1User_a264cf13078c59b3f676e038db2dffc2e}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Days\-Per\-Month@{get\-Nb\-Days\-Per\-Month}}
+\index{get\-Nb\-Days\-Per\-Month@{get\-Nb\-Days\-Per\-Month}!Models::User@{Models\-::\-User}}
+\subsubsection[{get\-Nb\-Days\-Per\-Month}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-User\-::get\-Nb\-Days\-Per\-Month (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{classModels_1_1User_a1ec672f16a5dbb248e05f2e957094c4d}
+) const}}\label{classModels_1_1User_a264cf13078c59b3f676e038db2dffc2e}
 
 
 get\-Nb\-Days\-Per\-Months The number of days per months who the user work. 
@@ -145,19 +157,61 @@ get\-Nb\-Days\-Per\-Months The number of days per months who the user work.
 \begin{DoxyReturn}{Returns}
 The number of days per months 
 \end{DoxyReturn}
-\hypertarget{classModels_1_1User_acb46d721cae3c0a9059de32da0c33eaa}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Hours\-Per\-Days@{get\-Nb\-Hours\-Per\-Days}}
-\index{get\-Nb\-Hours\-Per\-Days@{get\-Nb\-Hours\-Per\-Days}!Models::User@{Models\-::\-User}}
-\subsubsection[{get\-Nb\-Hours\-Per\-Days}]{\setlength{\rightskip}{0pt plus 5cm}int Models\-::\-User\-::get\-Nb\-Hours\-Per\-Days (
+\hypertarget{classModels_1_1User_a5e3d5058a495cf15d2741b788bc971c1}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Days\-Per\-Week@{get\-Nb\-Days\-Per\-Week}}
+\index{get\-Nb\-Days\-Per\-Week@{get\-Nb\-Days\-Per\-Week}!Models::User@{Models\-::\-User}}
+\subsubsection[{get\-Nb\-Days\-Per\-Week}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-User\-::get\-Nb\-Days\-Per\-Week (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{classModels_1_1User_acb46d721cae3c0a9059de32da0c33eaa}
+) const}}\label{classModels_1_1User_a5e3d5058a495cf15d2741b788bc971c1}
+
+
+get\-Nb\-Days\-Per\-Week The number of days per week 
+
+\begin{DoxyReturn}{Returns}
+The new value 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1User_a5ebdd9899c343c828d03c74045aa6989}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Hours\-Per\-Day@{get\-Nb\-Hours\-Per\-Day}}
+\index{get\-Nb\-Hours\-Per\-Day@{get\-Nb\-Hours\-Per\-Day}!Models::User@{Models\-::\-User}}
+\subsubsection[{get\-Nb\-Hours\-Per\-Day}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-User\-::get\-Nb\-Hours\-Per\-Day (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1User_a5ebdd9899c343c828d03c74045aa6989}
 
 
 nb\-Hours\-Per\-Days The number of hours per days who the user work. 
 
 \begin{DoxyReturn}{Returns}
 The number of hours per days 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1User_acc716536a65768c721242cfa18f207af}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Hours\-Per\-Month@{get\-Nb\-Hours\-Per\-Month}}
+\index{get\-Nb\-Hours\-Per\-Month@{get\-Nb\-Hours\-Per\-Month}!Models::User@{Models\-::\-User}}
+\subsubsection[{get\-Nb\-Hours\-Per\-Month}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-User\-::get\-Nb\-Hours\-Per\-Month (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1User_acc716536a65768c721242cfa18f207af}
+
+
+get\-Nb\-Hours\-Per\-Month The number of hours per months. 
+
+\begin{DoxyReturn}{Returns}
+The number of hours. 
+\end{DoxyReturn}
+\hypertarget{classModels_1_1User_a9224cf423418449ecfa85c762cc1ee5a}{\index{Models\-::\-User@{Models\-::\-User}!get\-Nb\-Hours\-Per\-Week@{get\-Nb\-Hours\-Per\-Week}}
+\index{get\-Nb\-Hours\-Per\-Week@{get\-Nb\-Hours\-Per\-Week}!Models::User@{Models\-::\-User}}
+\subsubsection[{get\-Nb\-Hours\-Per\-Week}]{\setlength{\rightskip}{0pt plus 5cm}double Models\-::\-User\-::get\-Nb\-Hours\-Per\-Week (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classModels_1_1User_a9224cf423418449ecfa85c762cc1ee5a}
+
+
+get\-Nb\-Hours\-Per\-Week The number of hours per weeks. 
+
+\begin{DoxyReturn}{Returns}
+The number of hours 
 \end{DoxyReturn}
 \hypertarget{classModels_1_1User_a617ee9ede3791842fbf8593f08660d37}{\index{Models\-::\-User@{Models\-::\-User}!get\-No\-Siret@{get\-No\-Siret}}
 \index{get\-No\-Siret@{get\-No\-Siret}!Models::User@{Models\-::\-User}}
@@ -307,6 +361,54 @@ boolean
 
 Reimplemented from \hyperlink{classModels_1_1People_a020ff3cb4cd47b7a34359fb681afe530}{Models\-::\-People}.
 
+\hypertarget{classModels_1_1User_ac68ad7cdc7da220cbb03d99dffd6d774}{\index{Models\-::\-User@{Models\-::\-User}!set\-Nb\-Days\-Per\-Month@{set\-Nb\-Days\-Per\-Month}}
+\index{set\-Nb\-Days\-Per\-Month@{set\-Nb\-Days\-Per\-Month}!Models::User@{Models\-::\-User}}
+\subsubsection[{set\-Nb\-Days\-Per\-Month}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-User\-::set\-Nb\-Days\-Per\-Month (
+\begin{DoxyParamCaption}
+\item[{double}]{get\-Nb\-Days\-Per\-Month}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1User_ac68ad7cdc7da220cbb03d99dffd6d774}
+
+
+set\-Nb\-Days\-Per\-Month Change the number of days per month 
+
+
+\begin{DoxyParams}{Parameters}
+{\em get\-Nb\-Days\-Per\-Month} & The new value \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1User_a463e429e22f908f304d66fc22e48fc8e}{\index{Models\-::\-User@{Models\-::\-User}!set\-Nb\-Days\-Per\-Week@{set\-Nb\-Days\-Per\-Week}}
+\index{set\-Nb\-Days\-Per\-Week@{set\-Nb\-Days\-Per\-Week}!Models::User@{Models\-::\-User}}
+\subsubsection[{set\-Nb\-Days\-Per\-Week}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-User\-::set\-Nb\-Days\-Per\-Week (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1User_a463e429e22f908f304d66fc22e48fc8e}
+
+
+set\-Nb\-Days\-Per\-Week Change the number of days per week 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The new value \\
+\hline
+\end{DoxyParams}
+\hypertarget{classModels_1_1User_a1fcef9f88da89f808a5a2225ca11c809}{\index{Models\-::\-User@{Models\-::\-User}!set\-Nb\-Hours\-Per\-Day@{set\-Nb\-Hours\-Per\-Day}}
+\index{set\-Nb\-Hours\-Per\-Day@{set\-Nb\-Hours\-Per\-Day}!Models::User@{Models\-::\-User}}
+\subsubsection[{set\-Nb\-Hours\-Per\-Day}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-User\-::set\-Nb\-Hours\-Per\-Day (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{classModels_1_1User_a1fcef9f88da89f808a5a2225ca11c809}
+
+
+set\-Nb\-Hours\-Per\-Day Change the number of hours per day 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The new value \\
+\hline
+\end{DoxyParams}
 \hypertarget{classModels_1_1User_ae751ee06859dffce0cad08005c42c933}{\index{Models\-::\-User@{Models\-::\-User}!set\-No\-Siret@{set\-No\-Siret}}
 \index{set\-No\-Siret@{set\-No\-Siret}!Models::User@{Models\-::\-User}}
 \subsubsection[{set\-No\-Siret}]{\setlength{\rightskip}{0pt plus 5cm}void Models\-::\-User\-::set\-No\-Siret (

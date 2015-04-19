@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp" bodystart="21" bodyend="30"/>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="23" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp" bodystart="29" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="d7/dcc/classGui_1_1Utils_1_1Image_1a6bf05a411daec780f12a690d0ce7a046" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QByteArray</type>
@@ -132,6 +132,56 @@
         </inbodydescription>
         <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="46" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp" bodystart="16" bodyend="19"/>
       </memberdef>
+      <memberdef kind="function" id="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap</type>
+        <definition>QPixmap Gui::Utils::Image::getImage</definition>
+        <argsstring>(QString path, int width=256, int height=256)</argsstring>
+        <name>getImage</name>
+        <param>
+          <type>QString</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>256</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>256</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" kindref="member">Image::getImage</ref> Return a scaled image from the icon specified by it <emphasis>path</emphasis>. The image returned has a resolution of <emphasis>width</emphasis>*<emphasis>height</emphasis> (default 256*256) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Icon path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Icon width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Icon height </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Scaled image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="57" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.cpp" bodystart="21" bodyend="27"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
 <para>The <ref refid="d7/dcc/classGui_1_1Utils_1_1Image" kindref="compound">Image</ref> class Contains generic methods on image formats. </para>    </briefdescription>
@@ -139,14 +189,15 @@
 <para><simplesect kind="author"><para></para></simplesect>
 </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="388">
+      <node id="404">
         <label>Gui::Utils::Image</label>
         <link refid="d7/dcc/classGui_1_1Utils_1_1Image"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" bodystart="14" bodyend="47"/>
+    <location file="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" line="15" column="1" bodyfile="/home/travis/build/FACT-Team/FactDev/src/gui/utils/image.h" bodystart="14" bodyend="59"/>
     <listofallmembers>
       <member refid="d7/dcc/classGui_1_1Utils_1_1Image_1a891cce6ddd74add919c2c68c90e46960" prot="public" virt="non-virtual"><scope>Gui::Utils::Image</scope><name>bytesToPixmap</name></member>
+      <member refid="d7/dcc/classGui_1_1Utils_1_1Image_1ab56386fd3c3098a8c83c2fa45aab1e33" prot="public" virt="non-virtual"><scope>Gui::Utils::Image</scope><name>getImage</name></member>
       <member refid="d7/dcc/classGui_1_1Utils_1_1Image_1aad7d91d84d4d6f51080eee06419aee80" prot="public" virt="non-virtual"><scope>Gui::Utils::Image</scope><name>imageToBytes</name></member>
       <member refid="d7/dcc/classGui_1_1Utils_1_1Image_1a6bf05a411daec780f12a690d0ce7a046" prot="public" virt="non-virtual"><scope>Gui::Utils::Image</scope><name>pixmapToBytes</name></member>
       <member refid="d7/dcc/classGui_1_1Utils_1_1Image_1abd2651b6ee762ee438231288887235df" prot="public" virt="non-virtual"><scope>Gui::Utils::Image</scope><name>pixmapToImage</name></member>
