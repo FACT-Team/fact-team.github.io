@@ -5,35 +5,35 @@
     <includes refid="d2/dd7/searchdock_8h" local="yes">searchdock.h</includes>
     <includes local="yes">ui_searchdock.h</includes>
     <incdepgraph>
-      <node id="1826">
+      <node id="1880">
         <label>models/search.h</label>
         <link refid="d9/d85/search_8h_source"/>
-        <childnode refid="1827" relation="include">
+        <childnode refid="1881" relation="include">
         </childnode>
       </node>
-      <node id="1824">
+      <node id="1878">
         <label>searchdock.h</label>
         <link refid="d2/dd7/searchdock_8h_source"/>
-        <childnode refid="1825" relation="include">
+        <childnode refid="1879" relation="include">
         </childnode>
-        <childnode refid="1826" relation="include">
+        <childnode refid="1880" relation="include">
         </childnode>
       </node>
-      <node id="1825">
+      <node id="1879">
         <label>QDockWidget</label>
       </node>
-      <node id="1823">
+      <node id="1877">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp</label>
         <link refid="searchdock.cpp"/>
-        <childnode refid="1824" relation="include">
+        <childnode refid="1878" relation="include">
         </childnode>
-        <childnode refid="1828" relation="include">
+        <childnode refid="1882" relation="include">
         </childnode>
       </node>
-      <node id="1827">
+      <node id="1881">
         <label>QString</label>
       </node>
-      <node id="1828">
+      <node id="1882">
         <label>ui_searchdock.h</label>
       </node>
     </incdepgraph>
@@ -49,51 +49,57 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Gui<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Docks<sp/>{</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kindref="member">SearchDock::SearchDock</ref>(QWidget*<sp/>parent,<sp/>Qt::WindowFlags<sp/>flags)<sp/>:<sp/>QDockWidget(parent,<sp/>flags),<sp/>ui(new<sp/>Ui::SearchDock)</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">SearchDock::~SearchDock()</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SearchDock::search(QString<sp/>text)</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search" kindref="compound">Models::Search</ref><sp/>s;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>styleSearchBackground<sp/>=</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background:<sp/>url(:/icons/searchMini);&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background-position:<sp/>right;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background-repeat:<sp/>no-repeat;<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border-radius:<sp/>0px;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;height:<sp/>25px;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border:<sp/>1px<sp/>solid<sp/>#bbb;&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>styleSearchNoBackground<sp/>=</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border-radius:<sp/>0px;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;height:<sp/>25px;&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border:<sp/>1px<sp/>solid<sp/>#bbb;&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ui-&gt;leSearch-&gt;text()<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;leSearch-&gt;setStyleSheet(styleSearchNoBackground);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;leSearch-&gt;setStyleSheet(styleSearchBackground);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">setGroupFilter</ref>(ui-&gt;gpbxSearchFilter-&gt;isChecked());</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">setSearchInCompanies</ref>(ui-&gt;chkSearchCompany-&gt;isChecked());</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">setSearchInReferentLastname</ref>(ui-&gt;chkReferentName-&gt;isChecked());</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">setSearchInProjects</ref>(ui-&gt;chkProjectName-&gt;isChecked());</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">setSearchInContributories</ref>(ui-&gt;chkContributory-&gt;isChecked());</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">setSearchInBillsQuotes</ref>(ui-&gt;chkBillQuote-&gt;isChecked());</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">setText</ref>(text);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>textChanged(s.<ref refid="d6/d44/classModels_1_1Search_1ab3ec88b48f6b404f8027dcbfce1495c6" kindref="member">getFilter</ref>());</highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="de/db4/classGui_1_1Docks_1_1SearchDock_1adf73556520bdbc579bd7d8da31ee2042" kindref="member">SearchDock::SearchDock</ref>(QWidget*<sp/>parent,<sp/>Qt::WindowFlags<sp/>flags)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QDockWidget(parent,<sp/>flags),<sp/>ui(new<sp/>Ui::SearchDock)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">SearchDock::~SearchDock()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SearchDock::search(QString<sp/>text)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d44/classModels_1_1Search" kindref="compound">Models::Search</ref><sp/>s;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>_text<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>styleSearchBackground<sp/>=</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background:<sp/>url(:/icons/searchMini);&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background-position:<sp/>right;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;background-repeat:<sp/>no-repeat;<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border-radius:<sp/>0px;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;height:<sp/>25px;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border:<sp/>1px<sp/>solid<sp/>#bbb;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>styleSearchNoBackground<sp/>=</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border-radius:<sp/>0px;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;height:<sp/>25px;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;border:<sp/>1px<sp/>solid<sp/>#bbb;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ui-&gt;leSearch-&gt;text()<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;leSearch-&gt;setStyleSheet(styleSearchNoBackground);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;leSearch-&gt;setStyleSheet(styleSearchBackground);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a5feb06679973719e31007e659c08cc06" kindref="member">setGroupFilter</ref>(ui-&gt;gpbxSearchFilter-&gt;isChecked());</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a3a630b2b2a48fb013b4c8cb9756fa813" kindref="member">setSearchInCompanies</ref>(ui-&gt;chkSearchCompany-&gt;isChecked());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a4a897b3e19a0a6ce9e37ae1a73b39240" kindref="member">setSearchInReferentLastname</ref>(ui-&gt;chkReferentName-&gt;isChecked());</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1ab84375da3e302c7a871b4ced1c8d69c3" kindref="member">setSearchInProjects</ref>(ui-&gt;chkProjectName-&gt;isChecked());</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1af6305e66a5ca5ad5ba29b15397821e58" kindref="member">setSearchInContributories</ref>(ui-&gt;chkContributory-&gt;isChecked());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a64f82cec524c9bb737e2758445288b43" kindref="member">setSearchInBillsQuotes</ref>(ui-&gt;chkBillQuote-&gt;isChecked());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>s.<ref refid="d6/d44/classModels_1_1Search_1a1bd00e3da5d5e10b4bec6579fb1c8bfa" kindref="member">setText</ref>(text);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>textChanged(s.<ref refid="d6/d44/classModels_1_1Search_1ab3ec88b48f6b404f8027dcbfce1495c6" kindref="member">getFilter</ref>());</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">QString<sp/>SearchDock::getText()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="50"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_text;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/travis/build/FACT-Team/FactDev/src/gui/docks/searchdock.cpp"/>
   </compounddef>

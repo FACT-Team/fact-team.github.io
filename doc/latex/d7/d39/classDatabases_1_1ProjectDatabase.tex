@@ -34,7 +34,7 @@ int \hyperlink{classDatabases_1_1ProjectDatabase_aa486ad21f156a8ba7d08baef29e0aa
 \begin{DoxyCompactList}\small\item\em \hyperlink{classDatabases_1_1ProjectDatabase}{Project\-Database}\-:get\-Nb\-Projects Return the number of projects existing. \end{DoxyCompactList}\item 
 int \hyperlink{classDatabases_1_1ProjectDatabase_a62db108febd50cdc2dc2b686cf954da6}{get\-Nb\-Projects} (const int customer\-Id)
 \begin{DoxyCompactList}\small\item\em Get the number of projects. \end{DoxyCompactList}\item 
-Q\-Map$<$ int, \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_acf044f95bd4df4e04bff9ef52d326704}{get\-Projects\-Of\-Customer} (Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\-::\-Customer} $>$ c)
+Q\-Map$<$ int, \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_aa5a7ac1b9849d6cd3f78f82b5c68d0e9}{get\-Projects\-Of\-Customer} (Q\-Shared\-Pointer$<$ \hyperlink{classModels_1_1Customer}{Models\-::\-Customer} $>$ c, const bool project\-Locked=true)
 \begin{DoxyCompactList}\small\item\em get\-Projects\-Of\-Customer Return all projects of a customer \end{DoxyCompactList}\item 
 Q\-List$<$ \hyperlink{classModels_1_1Project}{Models\-::\-Project} $>$ \hyperlink{classDatabases_1_1ProjectDatabase_a75963715e3cae349fe3aa555f7226c56}{get\-Projects} (const int customer\-Id)
 \begin{DoxyCompactList}\small\item\em get\-Projects Return all projects of a customer \end{DoxyCompactList}\item 
@@ -205,13 +205,14 @@ get\-Projects Return all projects of a customer
 \begin{DoxyReturn}{Returns}
 List with all projects of customer 
 \end{DoxyReturn}
-\hypertarget{classDatabases_1_1ProjectDatabase_acf044f95bd4df4e04bff9ef52d326704}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Projects\-Of\-Customer@{get\-Projects\-Of\-Customer}}
+\hypertarget{classDatabases_1_1ProjectDatabase_aa5a7ac1b9849d6cd3f78f82b5c68d0e9}{\index{Databases\-::\-Project\-Database@{Databases\-::\-Project\-Database}!get\-Projects\-Of\-Customer@{get\-Projects\-Of\-Customer}}
 \index{get\-Projects\-Of\-Customer@{get\-Projects\-Of\-Customer}!Databases::ProjectDatabase@{Databases\-::\-Project\-Database}}
 \subsubsection[{get\-Projects\-Of\-Customer}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Map$<$ int, {\bf Models\-::\-Project} $>$ Databases\-::\-Project\-Database\-::get\-Projects\-Of\-Customer (
 \begin{DoxyParamCaption}
-\item[{Q\-Shared\-Pointer$<$ {\bf Models\-::\-Customer} $>$}]{c}
+\item[{Q\-Shared\-Pointer$<$ {\bf Models\-::\-Customer} $>$}]{c, }
+\item[{const bool}]{project\-Locked = {\ttfamily true}}
 \end{DoxyParamCaption}
-)}}\label{classDatabases_1_1ProjectDatabase_acf044f95bd4df4e04bff9ef52d326704}
+)}}\label{classDatabases_1_1ProjectDatabase_aa5a7ac1b9849d6cd3f78f82b5c68d0e9}
 
 
 get\-Projects\-Of\-Customer Return all projects of a customer 

@@ -3,20 +3,63 @@
   <compounddef id="d4/d33/windowsettings_8h" kind="file">
     <compoundname>windowsettings.h</compoundname>
     <includes local="no">QDesktopWidget</includes>
+    <includedby refid="d8/d0b/addprojectdialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</includedby>
+    <includedby refid="de/dbc/addquotedialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</includedby>
     <includedby refid="df/d17/dialogaddcustomer_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/dialogaddcustomer.cpp</includedby>
+    <includedby refid="db/de2/startedwindowsdialog_8h" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</includedby>
     <includedby refid="d8/dd9/mainwindow_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.cpp</includedby>
     <includedby refid="d2/d78/windowsettings_8cpp" local="yes">/home/travis/build/FACT-Team/FactDev/src/gui/utils/windowsettings.cpp</includedby>
     <incdepgraph>
-      <node id="2080">
+      <node id="2137">
         <label>QDesktopWidget</label>
       </node>
-      <node id="2079">
+      <node id="2136">
         <label>/home/travis/build/FACT-Team/FactDev/src/gui/utils/windowsettings.h</label>
         <link refid="windowsettings.h"/>
-        <childnode refid="2080" relation="include">
+        <childnode refid="2137" relation="include">
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2140">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/mainwindow/mainwindow.h</label>
+        <link refid="d9/d53/mainwindow_8h_source"/>
+        <childnode refid="2139" relation="include">
+        </childnode>
+      </node>
+      <node id="2143">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/startedwindowsdialog.h</label>
+        <link refid="db/de2/startedwindowsdialog_8h_source"/>
+      </node>
+      <node id="2139">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addprojectdialog.h</label>
+        <link refid="d8/d0b/addprojectdialog_8h_source"/>
+        <childnode refid="2140" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+      </node>
+      <node id="2138">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/utils/windowsettings.h</label>
+        <link refid="windowsettings.h"/>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+      </node>
+      <node id="2142">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/dialogs/addquotedialog.h</label>
+        <link refid="de/dbc/addquotedialog_8h_source"/>
+        <childnode refid="2140" relation="include">
+        </childnode>
+      </node>
+      <node id="2141">
+        <label>/home/travis/build/FACT-Team/FactDev/src/gui/widgets/projectswidget.h</label>
+        <link refid="da/d5e/projectswidget_8h_source"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="da/dff/classGui_1_1Utils_1_1WindowSettings" prot="public">Gui::Utils::WindowSettings</innerclass>
     <innernamespace refid="d9/dad/namespaceGui">Gui</innernamespace>
     <innernamespace refid="d0/d4e/namespaceGui_1_1Utils">Gui::Utils</innernamespace>
