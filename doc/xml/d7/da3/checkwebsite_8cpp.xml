@@ -68,11 +68,11 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d1b/classGui_1_1Widgets_1_1CheckFields_1_1CheckWebsite_1ad2f5e53b88ca8740fd248dcaab0439bd" kindref="member">CheckWebsite::check</ref>(QString<sp/>text)</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>ipAddessRgx(</highlight><highlight class="stringliteral">&quot;http[s]{0,1}://[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Ip<sp/>address</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>ipAddessRgx(</highlight><highlight class="stringliteral">&quot;http://[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Ip<sp/>address</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ipAddessRgx.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ipAddessRgx.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>domainName(</highlight><highlight class="stringliteral">&quot;http[s]{0,1}://\\b[A-Z0-9._%+-]+\\.[A-Z]{2,4}\\b&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>QRegExp<sp/>domainName(</highlight><highlight class="stringliteral">&quot;http://\\b[A-Z0-9._%+-]+\\.[A-Z]{2,4}\\b&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>domainName.setCaseSensitivity(Qt::CaseInsensitive);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>domainName.setPatternSyntax(QRegExp::RegExp);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
